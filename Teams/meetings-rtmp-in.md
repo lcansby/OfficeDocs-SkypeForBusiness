@@ -49,8 +49,9 @@ The incoming RTMP feed must deliver:
 3. Under **Meetings**, select **Meeting Policies**.
 4. Either select an existing policy or create a new one.
 5. Navigate to the **Audio & Video section**.
-6. For **Allowed streaming media input**, select or deselect **RTMP** from the dropdown.
-7. Select Save.
+6. For **Live streaming**, select **On** to turn on or select **Off** to turn off
+7. For **Allow streaming media input**, select **RTMP** from the dropdown.
+8. Select Save.
 
 ## Manage whether organizers can use RTMP-In with PowerShell
 

@@ -144,7 +144,7 @@ The following table describes platform support for Teams Premium personalized me
 | Custom together mode scenes for organizations|✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|
 | Meeting templates |✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|
 | Meeting themes |✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|✔️|[PLACEHOLDER ??]|
-| RTMP-In |x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| RTMP-In |?|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
 
 [PLACEHOLDER NOTE: MISSING RTMP-IN DETAILS ?? ]
 
@@ -228,10 +228,12 @@ The following table describes platform support for Teams Premium webinar feature
 | Custom emails for webinars|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|
 | Enable and manage the waitlist for webinars beyond capacity|✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|
 | Hide attendee names |✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|✔️|
-| Limit registration start and end times |✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
-| Manage what attendees see |✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
-| Manually approve registrants |✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
-| RTMP-In |✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| Limit registration start and end times |✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|
+| Manage what attendees see |✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|✔️|
+| Manually approve registrants |✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|
+| RTMP-In |??|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+
+[PLACEHOLDER NOTE: MISSING RTMP-IN DETAILS ?? ]
 
 ## Advanced Virtual Appointments
 

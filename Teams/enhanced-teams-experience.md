@@ -41,18 +41,6 @@ This article, written for IT Pros and admins who are deploying and configuring T
 >
 > For admins to manage Teams Premium features, their tenant needs at least one user with an active [Teams Premium license](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams).
 
-The following sections in this article describe the Teams Premium enhancements for:
-
-- [Protection and advanced management for meetings](#protection-and-advanced-management-for-meetings)
-- [Personalized meetings](#personalized-meetings)
-- [Premium events](#premium-events)
-- [Virtual Appointments](#advanced-virtual-appointments)
-- [Intelligent meeting features](#intelligent-meeting-features)
-- [Custom 3D Immersive Mesh Experiences](#custom-3d-immersive-mesh-experiences)
-- [Advanced Places Workplace Collaboration](#advanced-places-workplace-collaboration)
-- [Intelligent call recap](#intelligent-call-recap)
-- [Queues app](#queues-app)
-
 For more general information about Teams meetings and premium events, see the following articles:
 
 - [Meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md)
@@ -133,6 +121,18 @@ Teams Premium provides more ways to personalize your Teams meeting experiences w
 | Meeting templates | Yes| - [Overview](custom-meeting-templates-overview.md)<br>- [Create a custom meeting template](create-custom-meeting-template.md)| [Use custom templates](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f) |
 | Meeting themes | Yes| [Themes for Teams meetings](meeting-themes.md) | [Use meeting themes](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
 | RTMP-In | Yes| [Manage RTMP-In for Teams meetings](meetings-rtmp-in.md)|[Use RTMP-In in a Teams meeting](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f) |
+
+### Platform support for personalized meetings
+
+The following table describes platform support for Teams Premium features:
+
+|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|new Teams VDI 1|new Teams VDI 2|Exchange OnPrem|
+| -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
+| Custom meeting backgrounds for organizations|✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|x|x|x|x|x|
+| Custom together mode scenes for organizations|✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| Meeting templates |✖️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| Meeting themes |✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| RTMP-In |✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
 
 ## Premium events
 
@@ -252,12 +252,11 @@ Teams Premium provides custom Mesh experience capabilities for your users, such 
 
 Microsoft Places allows you and your organization to build a smart workplace. With a Teams Premium license, your users can experience upgraded features that support advanced booking and space analytics. As an admin, you have access to advanced management capabilities. Check back soon for details.
 
-To learn more about Places, see [Microsoft Places overview](/microsoft-365/places/places-overview). 
+To learn more about Places, see [Microsoft Places overview](/microsoft-365/places/places-overview).
 
 ## Calls
 
 ### Intelligent call recap
-
 
 **Intelligent call recap** provides AI-powered insights and recaps to Public Switched Telephone Network (PSTN) and 1:1 Teams calls.
 

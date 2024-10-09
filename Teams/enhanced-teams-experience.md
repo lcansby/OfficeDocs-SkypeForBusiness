@@ -51,7 +51,7 @@ For more general information about Teams meetings and premium events, see the fo
 > [!NOTE]
 > We'll continue to update this article. Check back often for links to new content.
 
-## [DELETE: PLATFORM TEMPLATE]
+## [DELETE PLACEHOLDER: PLATFORM TEMPLATE]
 
 Insert sentence describing table. [DATA IS ALSO A PLACEHOLDER]
 
@@ -138,13 +138,15 @@ Teams Premium provides more ways to personalize your Teams meeting experiences w
 
 The following table describes platform support for Teams Premium personalized meeting features:
 
-|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|new Teams VDI 1|new Teams VDI 2|Exchange OnPrem|
+|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|New Teams VDI 1|New Teams VDI 2|Exchange OnPrem|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
 | Custom meeting backgrounds for organizations|✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|✖️|✔️|✔️|
 | Custom together mode scenes for organizations|✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|
-| Meeting templates |✖️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
-| Meeting themes |✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
-| RTMP-In |✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| Meeting templates |✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|
+| Meeting themes |✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|✔️|[PLACEHOLDER ??]|
+| RTMP-In |x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+
+[PLACEHOLDER NOTE: MISSING RTMP-IN DETAILS ?? ]
 
 ## Premium events
 

@@ -51,6 +51,18 @@ For more general information about Teams meetings and premium events, see the fo
 > [!NOTE]
 > We'll continue to update this article. Check back often for links to new content.
 
+## [DELETE: PLATFORM TEMPLATE]
+
+Insert sentence describing table. [DATA IS ALSO A PLACEHOLDER]
+
+|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI 1|VDI 2|Exchange OnPrem|
+| -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
+| Custom meeting backgrounds for organizations|✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| Custom together mode scenes for organizations|✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| Meeting templates |✖️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| Meeting themes |✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| RTMP-In |✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+
 ## Protection and advanced management for meetings
 
 Teams Premium provides more ways to safeguard and monitor users' Teams experiences with the following key features:
@@ -128,8 +140,8 @@ The following table describes platform support for Teams Premium features:
 
 |Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|new Teams VDI 1|new Teams VDI 2|Exchange OnPrem|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
-| Custom meeting backgrounds for organizations|✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|x|x|x|x|x|
-| Custom together mode scenes for organizations|✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| Custom meeting backgrounds for organizations|✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|✖️|✔️|✔️|
+| Custom together mode scenes for organizations|✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|
 | Meeting templates |✖️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
 | Meeting themes |✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
 | RTMP-In |✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|

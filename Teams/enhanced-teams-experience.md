@@ -136,7 +136,7 @@ Teams Premium provides more ways to personalize your Teams meeting experiences w
 
 ### Platform support for personalized meetings
 
-The following table describes platform support for Teams Premium features:
+The following table describes platform support for Teams Premium personalized meeting features:
 
 |Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|new Teams VDI 1|new Teams VDI 2|Exchange OnPrem|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |

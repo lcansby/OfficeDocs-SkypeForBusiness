@@ -53,9 +53,9 @@ For more general information about Teams meetings and premium events, see the fo
 
 ## [DELETE PLACEHOLDER: PLATFORM TEMPLATE]
 
-Insert sentence describing table. [DATA IS ALSO A PLACEHOLDER]
+The following table describes platform support for Teams Premium xyz features:
 
-|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI 1|VDI 2|Exchange OnPrem|
+|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange OnPrem|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
 | Custom meeting backgrounds for organizations|✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
 | Custom together mode scenes for organizations|✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
@@ -138,7 +138,7 @@ Teams Premium provides more ways to personalize your Teams meeting experiences w
 
 The following table describes platform support for Teams Premium personalized meeting features:
 
-|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|New Teams VDI 1|New Teams VDI 2|Exchange OnPrem|
+|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange OnPrem|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
 | Custom meeting backgrounds for organizations|✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|✖️|✔️|✔️|
 | Custom together mode scenes for organizations|✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|
@@ -180,6 +180,22 @@ Teams Premium provides more ways to elevate Teams town halls in your org with th
 | Town hall attendee reactions | No, contact support for assistance. | No admin control|[Schedule a town hall in Microsoft Teams](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c#bkmk_townhall_reactions) |
 | Town hall insights | No, contact support for assistance. | No admin control|[Town hall insights in Microsoft Teams](https://support.microsoft.com/office/town-hall-insights-in-microsoft-teams-def99575-61bf-4ea2-ad0e-c6e75dce7741) |
 
+#### Platform support for Premium town halls
+
+The following table describes platform support for Teams Premium town hall features:
+
+|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange OnPrem|
+| -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
+| Custom emails for town halls|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|
+| Live translated captions|✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|✔️|✔️|✖️|
+| Microsoft eCDN, analytics, and provider management|✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|✖️|✔️|✖️<sup>1</sup>|✔️|
+| Town hall attendee reactions|✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|✔️|✖️|✖️<sup>1</sup>|✔️|
+| Town hall insights |??|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+
+<sup>1</sup> - Your users should join town halls through new Teams on the web.
+
+[PLACEHOLDER NOTE: MISSING TOWN HALL INSIGHTS DETAILS ?? ]
+
 ### Webinars
 
 Teams Premium provides more ways to elevate Teams webinars in your org with the following key features:
@@ -202,6 +218,20 @@ Teams Premium provides more ways to elevate Teams webinars in your org with the 
 | Manage what attendees see | No, contact support for assistance.| No admin control | [Manage what attendees see in Teams meetings](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
 | Manually approve registrants |No, contact support for assistance.| No admin control |[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1) |
 | RTMP-In | Yes| [Manage RTMP-In for Teams meetings](meetings-rtmp-in.md)|[Use RTMP-In in a Teams meeting](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f) |
+
+#### Platform support for Premium webinars
+
+The following table describes platform support for Teams Premium webinar features:
+
+|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange OnPrem|
+| -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
+| Custom emails for webinars|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|
+| Enable and manage the waitlist for webinars beyond capacity|✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|
+| Hide attendee names |✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|✔️|
+| Limit registration start and end times |✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| Manage what attendees see |✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| Manually approve registrants |✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| RTMP-In |✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
 
 ## Advanced Virtual Appointments
 

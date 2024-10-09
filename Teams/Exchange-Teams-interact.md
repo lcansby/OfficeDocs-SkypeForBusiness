@@ -88,6 +88,10 @@ The following table provides a helpful quick reference to feature availability b
  > [!NOTE]
  > Setting Out of Office (OOF) via the Teams client is currently not supported for users whose mailboxes are hosted on-premises; these users should perform this action via the Outlook client.
 
+## Exchange on-premises and Teams Premium
+
+To learn which Teams Premium features work with Exchange on-premises, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md).
+
 ## Requirements to get the most out of Microsoft Teams
 
 Microsoft Teams works with several Microsoft 365 and Office 365 services to provide users with rich experience. To support this experience, you need to enable certain features or services and assign licenses.

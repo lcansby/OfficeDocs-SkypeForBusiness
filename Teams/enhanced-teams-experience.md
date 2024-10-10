@@ -112,6 +112,34 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 | Video quality alerts|Yes, you can add or remove users.| [Alerts for in-progress meeting video quality issues](/MicrosoftTeams/alerts/alerts-in-progress-meeting-video) | No end-user control |
 | Watermarks | Yes | [Require a watermark for meetings](watermark-meeting-content-video.md) | [Watermarks for meetings](https://support.microsoft.com/office/watermark-for-teams-meetings-a9166432-f429-4a19-9a72-c9e8fdf4f589)|
 
+### Platform support for advanced management for meetings
+
+The following table describes platform support for Teams Premium advanced management for meetings features:
+
+|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange OnPrem|
+| -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
+| Advanced collaboration analytics|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|
+| Audio quality alerts|✔️|✔️|✔️|✔️|✔️|✔️|✔️|✖️|✖️|✔️|✖️|✖️|✔️|✔️|✖️|
+| Custom user policy packages |✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|
+| End-to-end encryption (E2EE) |✔️|✔️|✔️|✖️|✔️|✔️|✔️|✖️|✖️|✖️|✔️|✖️|✖️|✔️|✔️|
+| Hide attendee names |✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|✔️|
+| Manage what attendees see |✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|✔️|
+| Prevent copying chat content to clipboard |✔️|✔️|✔️<sup>1</sup>|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|✔️|✔️|✔️|
+| Prevent users from sharing content in external meetings |??|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| Real-time telemetry and retention |✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|
+| Restrict who can record|✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|✔️|✔️|✖️|
+| Screen sharing quality alerts |✔️|✔️|✔️|✔️|✔️|✔️|✔️|✖️|✖️|✔️|✖️|✖️|✔️|✔️|✖️|
+| Sensitivity labels |✔️|✔️|✔️|✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|✖️|
+| Teams Premium feature usage report |✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|
+| Video quality alerts|✔️|✔️|✔️|✔️|✔️|✔️|✔️|✖️|✖️|✔️|✖️|✖️|✔️|✔️|✖️|
+| Watermarks|✔️|✔️|✔️|✔️|✔️|✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✔️|
+
+<sup>1</sup> Prevent copying or forwarding of chat on mobile clients is only supported through sensitivity labels.
+
+[PLACEHOLDER NOTE TO SELF: ADD 'external domain activity report' and 'inactive team and domain delivery']
+
+[PLACEHOLDER: MISSING- Prevent users from sharing content in external meetings]
+
 ## Personalized meetings
 
 Teams Premium provides more ways to personalize your Teams meeting experiences with the following key features:
@@ -190,7 +218,7 @@ The following table describes platform support for Teams Premium town hall featu
 | Live translated captions|✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|✔️|✔️|✖️|
 | Microsoft eCDN, analytics, and provider management|✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|✖️|✔️|✖️<sup>1</sup>|✔️|
 | Town hall attendee reactions|✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|✔️|✖️|✖️<sup>1</sup>|✔️|
-| Town hall insights |??|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| Town hall insights |??|?|?|?|?|?|?|?|?|?|?|?|?|?|?|
 
 <sup>1</sup> - Your users should join town halls through new Teams on the web.
 
@@ -254,6 +282,20 @@ Teams Premium provides advanced Virtual Appointment capabilities, such as:
 | Reporting | No, contact support for assistance.| [Virtual Appointments usage report](/microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)<br>[Advanced Virtual Appointments activity report](/microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |
 | SMS notifications  | Yes| [SMS text notifications](bookings-app-admin.md#sms-text-notifications) |
 
+### Platform support for Premium advanced Virtual Appointments features
+
+The following table describes platform support for Teams Premium Virtual Appointments features:
+
+|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange OnPrem|
+| -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
+| SMS|✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|✖️|
+| SMS reminder in Queue|✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|✖️|
+| Queue view|✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|✖️|
+| Branded meetings|✖️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|✔️|✖️|
+| OnDemand |✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|✖️|
+| Analytics |✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|✖️|
+| Consumption report |✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|
+
 ## Intelligent meeting features
 
 Teams Premium provides the following key AI-powered meetings features:
@@ -270,7 +312,20 @@ Teams Premium provides the following key AI-powered meetings features:
 | Live translated captions | Yes | [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)|[Use live captions in Microsoft Teams meetings](https://support.microsoft.com/office/use-live-captions-in-microsoft-teams-meetings-4be2d304-f675-4b57-8347-cbd000a21260) |
 | Live translated transcription | Yes |  [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md) | [View live transcription in Microsoft Teams meetings](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b)|
 
-<sup>1</sup>If you toggle the **Transcription** and **Recording** settings to **Off** in your **Meeting policies**, intelligent meeting recap isn't available for users with this policy.
+<sup>1</sup> If you toggle the **Transcription** and **Recording** settings to **Off** in your **Meeting policies**, intelligent meeting recap isn't available for users with this policy.
+
+### Platform support for Premium intelligent meeting features
+
+The following table describes platform support for Teams Premium intelligent meeting features:
+
+|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange OnPrem|
+| -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
+| Decorate my background|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|??|
+| Intelligent meeting recap|✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|??|
+| Live translated captions |✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|✔️|✔️|✖️|
+| Live translated transcription |✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✖️|✔️|✔️|??|
+
+[PLACEHOLDER NOTE TO SELF: Missing exchange on prem for meeting recap, decorate my background, and lt transcription]
 
 ## Custom 3D Immersive Mesh Experiences
 
@@ -291,6 +346,18 @@ Teams Premium provides custom Mesh experience capabilities for your users, such 
 | Develop a custom environment | Yes| No admin control. |[Mesh Development Overview](/mesh/develop/development-overview) |
 | Download the Mesh app | Yes| No admin control. |[Getting started with events in Microsoft Mesh](/mesh/user-guide/getting-started) |
 
+### Platform support for Premium Mesh features
+
+The following table describes platform support for Teams Premium Mesh features:
+
+|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange OnPrem|
+| -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
+| ??|??|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| ??|??|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| ?? |??|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+
+[PLACEHOLDER: MISSING INFO FROM MESH]
+
 ## Advanced Places Workplace Collaboration
 
 > [!NOTE]
@@ -299,6 +366,14 @@ Teams Premium provides custom Mesh experience capabilities for your users, such 
 Microsoft Places allows you and your organization to build a smart workplace. With a Teams Premium license, your users can experience upgraded features that support advanced booking and space analytics. As an admin, you have access to advanced management capabilities. Check back soon for details.
 
 To learn more about Places, see [Microsoft Places overview](/microsoft-365/places/places-overview).
+
+### Platform support for Places
+
+The following table describes platform support for Teams Premium Places features:
+
+|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange OnPrem|
+| -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
+| Places|✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|
 
 ## Calls
 
@@ -313,6 +388,8 @@ To learn more about Places, see [Microsoft Places overview](/microsoft-365/place
 | -------------------- | ----------- | ----------- |----------- |
 |Intelligent call recap|No, contact support for assistance.|[Data, privacy, and security for intelligent recap in Teams Premium](/microsoftteams/privacy/intelligent-recap)|No control|
 
+[PLACEHOLDER! QUESTION: IS THIS THE SAME AS MEETING RECAP FOR PLATFORM SUPPORT??]
+
 ### Queues app
 
 Teams Premium and Teams Phone provides access to Queues app, a Teams-native solution that unlocks a set of advanced call functionalities for Teams Phone Call queues and Auto attendants, such as:
@@ -323,13 +400,21 @@ Teams Premium and Teams Phone provides access to Queues app, a Teams-native solu
 
 | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins |Documentation for end users |
 | -------------------- | ----------- | ----------- |----------- |
-|Call queue management|Yes, with [voice application policies](manage-voice-applications-policies.md) for Authorized users|[Manage the Queues app for Microsoft Teams](manage-queues-app.md)|[Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9)|
-|Real-time metrics|Yes, with [voice application policies](manage-voice-applications-policies.md) for Authorized users|[Auto attendant and Call queue real-time reports](aa-cq-real-time-reports.md)|No end user control, can view reports if authorized.|
-|Historical reporting|Yes, with voice application policies for Authorized users|[Auto attendant and Call queue historical reports](aa-cq-cqd-historical-reports.md)|No end user control, can view reports if authorized.|
+|Call queue management|Yes, use [voice application policies](manage-voice-applications-policies.md) for authorized users.|[Manage the Queues app for Microsoft Teams](manage-queues-app.md)|[Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9)|
+|Real-time metrics|Yes, use [voice application policies](manage-voice-applications-policies.md) for authorized users.|[Auto attendant and Call queue real-time reports](aa-cq-real-time-reports.md)|No end user control, can view reports if authorized.|
+|Historical reporting|Yes, use voice application policies for authorized users.|[Auto attendant and Call queue historical reports](aa-cq-cqd-historical-reports.md)|No end user control, can view reports if authorized.|
 
 Queues app is in public preview and is enabled by default for all Teams users in your organization who are assigned both a Teams Premium and Teams Phone license and who and are voice enabled.
 
 For more information about Queues app, see [Manage the Queues app for Microsoft Teams](manage-queues-app.md). For end user documentation, see [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9).
+
+#### Platform support for Queues app
+
+The following table describes platform support for Queues app:
+
+|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange OnPrem|
+| -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
+| Queues app|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|✖️|
 
 ## More resources
 

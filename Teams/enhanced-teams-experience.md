@@ -39,7 +39,7 @@ This article, written for IT Pros and admins who are deploying and configuring T
 > [!IMPORTANT]
 > Now that Teams Premium has reached general availability, some features that were previously accessible with Teams now require a Teams Premium license for access.
 >
-> For admins to manage Teams Premium features, their tenant needs at least one user with an active [Teams Premium license](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams).
+> To manage Teams Premium features, your tenant needs at least one user with an active [Teams Premium license](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams).
 
 For more general information about Teams meetings and premium events, see the following articles:
 
@@ -51,29 +51,19 @@ For more general information about Teams meetings and premium events, see the fo
 > [!NOTE]
 > We'll continue to update this article. Check back often for links to new content.
 
-## [DELETE PLACEHOLDER: PLATFORM TEMPLATE]
-
-The following table describes platform support for Teams Premium xyz features:
-
-|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange OnPrem|
-| -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
-| Custom meeting backgrounds for organizations|✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
-| Custom together mode scenes for organizations|✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
-| Meeting templates |✖️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
-| Meeting themes |✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
-| RTMP-In |✔️|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
-
 ## Protection and advanced management for meetings
 
 Teams Premium provides more ways to safeguard and monitor users' Teams experiences with the following key features:
 
-- **Advanced collaboration analytics** - View external collaboration activity data on your users, teams, federated domains, channels, and guests.
+- **Advanced collaboration analytics** - View your organization's external collaboration habits. These reports include information about your teams, trusted domains, channels, guests, and internal users.
 
 - **Audio quality alerts** - Set up alerts for in-progress meeting audio issues and get notified immediately when your specified users experience issues.
 
 - **Custom user policy packages** - Create policy packages to simplify, streamline, and help provide consistency when managing policies for groups of users across your organization.
 
 - **End-to-end encryption** - Enforced through a sensitivity label, end-to-end encryption provides increased security for meetings that require a higher level of protection.
+
+- **External domain activity report** - Understand how your org communicates with trusted external organizations over chat.
 
 - **Hide attendee names** - Meeting and webinar organizers can hide the names of attendees from other attendees in the stage, roster, and chat.
 
@@ -99,6 +89,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 | Audio quality alerts |Yes, you can add or remove users.| [Alerts for in-progress meeting audio quality issues](/MicrosoftTeams/alerts/alerts-in-progress-meeting-audio) | No end-user control |
 | Custom user policy packages |Yes| [Managing policy packages in Teams](manage-policy-packages.md) | No end-user control |
 | End-to-end encryption (E2EE) | Yes |[Encryption for sensitive meetings](end-to-end-encrypted-meetings.md) | [Use encryption](https://support.microsoft.com/office/use-end-to-end-encryption-for-teams-meetings-a8326d15-d187-49c4-ac99-14c17dbd617c)  |
+| External domain activity report|No, contact support for assistance.| [Microsoft Teams external domain activity report](/microsoftteams/teams-analytics-and-reports/external-domain-activity-report) | No end-user control |
 | Hide attendee names | Yes |[Allow meeting and webinar organizers to hide the names of attendees](hide-attendee-names.md) | [Hide attendee names in Teams meetings and webinars](https://support.microsoft.com/office/hide-attendee-names-in-teams-meetings-and-webinars-00389c74-ee61-48b5-bad8-8295600085ed) |
 | Manage what attendees see | No, contact support for assistance.| No admin control | [Manage what attendees see in Teams meetings](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
 | Prevent copying chat content to clipboard |Yes, use the Teams admin center to add or delete chat content copying restrictions in your meeting templates. Use the Microsoft Purview compliance portal to turn labels with chat content copying restrictions on or off.| [Manage chat for sensitive Teams meetings](manage-chat-sensitive-meetings.md) | No end-user control |
@@ -122,6 +113,7 @@ The following table describes platform support for Teams Premium advanced manage
 | Audio quality alerts|✔️|✔️|✔️|✔️|✔️|✔️|✔️|✖️|✖️|✔️|✖️|✖️|✔️|✔️|✖️|
 | Custom user policy packages |✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|
 | End-to-end encryption (E2EE) |✔️|✔️|✔️|✖️|✔️|✔️|✔️|✖️|✖️|✖️|✔️|✖️|✖️|✔️|✔️|
+| External domain activity report |✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|
 | Hide attendee names |✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|✔️|
 | Manage what attendees see |✔️|✔️|✖️|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|✔️|
 | Prevent copying chat content to clipboard |✔️|✔️|✔️<sup>1</sup>|✔️|✖️|✖️|✖️|✖️|✖️|✖️|✔️|✔️|✔️|✔️|✔️|
@@ -135,8 +127,6 @@ The following table describes platform support for Teams Premium advanced manage
 | Watermarks|✔️|✔️|✔️|✔️|✔️|✔️|✔️|✔️|✔️|✖️|✖️|✖️|✖️|✖️|✔️|
 
 <sup>1</sup> Prevent copying or forwarding of chat on mobile clients is only supported through sensitivity labels.
-
-[PLACEHOLDER NOTE TO SELF: ADD 'external domain activity report' and 'inactive team and domain delivery']
 
 [PLACEHOLDER: MISSING- Prevent users from sharing content in external meetings]
 
@@ -352,9 +342,7 @@ The following table describes platform support for Teams Premium Mesh features:
 
 |Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange OnPrem|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
-| ??|??|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
-| ??|??|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
-| ?? |??|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
+| Mesh|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|✖️|
 
 [PLACEHOLDER: MISSING INFO FROM MESH]
 

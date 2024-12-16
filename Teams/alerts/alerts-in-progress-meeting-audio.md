@@ -53,7 +53,7 @@ To be monitored, meeting attendees must have a Teams Premium or Teams Rooms Pro 
 
 ## Platform support
 
-For a list of platforms available for this feature, see [Microsoft Teams Premium - Overview for admins](../enhanced-teams-experience.md#protection-and-advanced-management-for-meetings).
+To view the list of platforms that support this feature, see [Microsoft Teams Premium - Overview for admins](../enhanced-teams-experience.md#protection-and-advanced-management-for-meetings).
 
 ## Related topics
 

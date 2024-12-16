@@ -51,6 +51,10 @@ To be monitored, meeting attendees must have a Teams Premium or Teams Rooms Pro 
 |**Actions**|Choose if you want to send alerts to a specific channel or to a web hook URL.|
 |**Status**|Choose if the rule is active and alerts should be sent.|
 
+## Platform support
+
+For a list of platforms available for this feature, see [Microsoft Teams Premium - Overview for admins](../enhanced-teams-experience.md#protection-and-advanced-management-for-meetings).
+
 ## Related topics
 
 [Alerts for video quality issues](alerts-in-progress-meeting-video.md)

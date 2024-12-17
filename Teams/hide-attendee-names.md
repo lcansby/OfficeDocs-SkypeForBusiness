@@ -51,6 +51,10 @@ To disable **`-AttendeeIdentityMasking`** so attendee names are always shown in 
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AttendeeIdentityMasking Disabled
 ```
 
+## Platform support
+
+To view the list of platforms that support this feature, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#protection-and-advanced-management-for-meetings).
+
 ## Related articles
 
 - [Update Teams PowerShell module](/MicrosoftTeams/teams-powershell-install#update-teams-powershell-module)

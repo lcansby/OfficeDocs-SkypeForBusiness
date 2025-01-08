@@ -32,7 +32,7 @@ This article provides a sample scenario for setting up Shared Calling by using P
 1. Get the Shared Calling user.
 1. Enable voice for the user.
 1. Get the phone number of the Auto attendant resource account.
-1. Create the emergency call routing policy based on the phone number type of the Auto attendant and assign the policy to the resource account associated with the Auto attendant.
+1. Create the emergency call routing policy based on the phone number type of the Auto attendant and assign the policy to the user so that they can make emergency calls.
 1. Set the static emergency location on the resource account. For the Teams admin center, this step is done when creating the Shared Calling policy.
 1. Define the emergency callback numbers that are the same phone number type as the Auto attendant resource account.
 1. Create the Shared Calling policy with emergency callback numbers.
@@ -99,10 +99,7 @@ From the Teams admin center, you can setup Shared Calling, similar to this scena
 1. To create an emergency call routing policy, go to **Voice** > **Emergency call routing policies** and select **Add**.
     1. Enter a name and description for the emergency call routing policy. For this example, we set the name to "TECRP-DR" and the description as "Emergency call routing policy for Direct Routing."
     1. Toggle **Dynamic emergency calling** to **On**.
-    1. **ADD MORE INFO HERE** Add the emergency numbers by including the Emergency dial string and PSTN usage record. For example, you can set an **Emergency dial string** to 911 and another to 933 with the PSTN usage record of "WW". Select **Save**.
-    - **Direct Routing** -
-    - **Calling Plan** -
-    - **Operator Connect etc....** -
+    1. Select **Add** and add the emergency numbers by including the Emergency dial string. For example, you can set an **Emergency dial string** to 911 and another to 933. Select **Save**. If your organization uses Direct Routing, you must add PSTN usages. If not, then no action is needed. For more information, see [Routing of emergency calls for Shared Calling](shared-calling-setup#routing-of-emergency-calls.md).
 1. To create a Shared Calling policy, go to **Voice** > **Shared calling policies** and select **Add**.
     1. Enter a unique name and description for the policy. For this example, we set the name to "Seattle" and the description as "Shared Calling policy for Seattle."
     1. For **Resource account**, select the resource account that you want to use for your Shared Calling policy.

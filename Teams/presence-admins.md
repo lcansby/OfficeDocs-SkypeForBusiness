@@ -66,12 +66,13 @@ The order of statuses, from most available to least available, is:
 > For users that have their mailbox hosted on-prem, presence delays of one hour (maximum) are expected.
 
 ## Automatic status settings
- 
+
 Normally, a user's status is based on user activity (whether they're **Available** or **Away**); on the state of the Teams app (e.g. whether they're **In a call** or **Presenting**); and on their Outlook calendar (e.g. whether they're **In a meeting**).
- 
+
 A user who isn't logged in to Teams on any device is **Offline**. Otherwise, their presence depends on whether they're logged in on a computer or on a mobile device:
-* On a computer, a user's presence becomes **Away** automatically if they're inactive for a few minutes or if the computer is locked; and it becomes Offline when the computer enters sleep mode.
-* On a mobile device, a user's presence becomes Away whenever the Teams app is in the background, and then becomes **Offline** after 24 hours of inactivity.
+
+- On a computer, a user's presence becomes **Away** automatically if they're inactive for a few minutes or if the computer is locked; and it becomes Offline when the computer enters sleep mode.
+- On a mobile device, a user's presence becomes Away whenever the Teams app is in the background, and then becomes **Offline** after 24 hours of inactivity.
 
 If a user is logged in to Teams on two or more devices (e.g. on both a desktop computer and on a phone), then the device where they were active most recently determines their presence. For example, if a user is logged in on both a computer and a mobile device, and they're currently working on the computer, their presence will come from the computer. When they disconnect on the computer, their presence will then come from the status of the mobile device.
 
@@ -92,11 +93,11 @@ Users can set a duration for the presence that they set manually. If a user does
 - For 7 days if it's any other status
 
 ## Notifications and Do not disturb
- 
+
 Users receive all chat messages regardless of their presence. If a user is offline when someone sends them a message, the chat message appears in Teams the next time they come online. If a user is in a **Do not disturb** state, they still receive chat messages, but banner notifications aren't displayed.
- 
+
 Users receive calls in all presence states except for Do not disturb, in which case incoming calls go to voicemail.
- 
+
 Users can add people to a priority access list by going to **Settings > Privacy** in Teams. If they do, messages from these people will caused banner notifications to be displayed as normal for that user even if the user is in a Do not disturb state, and the user will still receive calls from these people.
 
 ## Admin settings in Teams compared to Skype for Business

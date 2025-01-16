@@ -646,6 +646,8 @@ items:
           href: presence-admins.md
         - name: User work location in Teams
           href: user-work-location-in-teams.md
+        - name: User name pronunciation in Teams
+          href: name-pronunciation.md
         - name: Custom emojis in Teams
           href: teams-custom-emojis.md
         - name: Supervised chat for non-educational tenants

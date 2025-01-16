@@ -29,7 +29,7 @@ Presence is part of a user's profile in Microsoft Teams (and throughout Microsof
 For details about Teams user profiles on different platforms, see also [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
  > [!NOTE]
- > Teams respects your privacy configuration so if you have enabled the [privacy mode](/powershell/module/skype/set-csprivacyconfiguration#-enableprivacymode), your presence isn't visible to people outside the organization.
+ > Teams respects your privacy configuration so if you enabled the [privacy mode](/powershell/module/skype/set-csprivacyconfiguration#-enableprivacymode), your presence isn't visible to people outside the organization.
 
 ## Presence states in Teams
 
@@ -63,18 +63,18 @@ The order of statuses, from most available to least available, is:
 1. Offline
 
 > [!NOTE]
-> For users that have their mailbox hosted on-prem, presence delays of one hour (maximum) are expected.
+> For users that have their mailbox hosted on-premises, presence delays of one hour (maximum) are expected.
 
 ## Automatic status settings
 
-Normally, a user's status is based on user activity (whether they're **Available** or **Away**); on the state of the Teams app (e.g. whether they're **In a call** or **Presenting**); and on their Outlook calendar (e.g. whether they're **In a meeting**).
+Normally, a user's status is based on user activity (whether they're **Available** or **Away**); on the state of the Teams app (for example, whether they're **In a call** or **Presenting**); and on their Outlook calendar (for example, whether they're **In a meeting**).
 
 A user who isn't logged in to Teams on any device is **Offline**. Otherwise, their presence depends on whether they're logged in on a computer or on a mobile device:
 
 - On a computer, a user's presence becomes **Away** automatically if they're inactive for a few minutes or if the computer is locked; and it becomes Offline when the computer enters sleep mode.
 - On a mobile device, a user's presence becomes Away whenever the Teams app is in the background, and then becomes **Offline** after 24 hours of inactivity.
 
-If a user is logged in to Teams on two or more devices (e.g. on both a desktop computer and on a phone), then the device where they were active most recently determines their presence. For example, if a user is logged in on both a computer and a mobile device, and they're currently working on the computer, their presence will come from the computer. When they disconnect on the computer, their presence will then come from the status of the mobile device.
+If a user is logged in to Teams on two or more devices (for example, on both a desktop computer and on a phone), then the device where they were active most recently determines their presence. For example, if a user is logged in on both a computer and a mobile device, and they're currently working on the computer, their presence comes from the computer. When they disconnect on the computer, their presence will then come from the status of the mobile device.
 
 Call queues can use presence to route calls to agents. For more information, see [Create a Call Queue in Microsoft Teams](create-a-phone-system-call-queue.md).
 
@@ -111,7 +111,7 @@ The following admin settings Skype for Business are different in Teams:
 - The *Last seen* or *Away since*  indicator is always enabled for users in Teams if the organization also uses Skype for Business.
 
 > [!NOTE]
-> The ability of a Teams admin to customize these settings is not currently supported.
+> The ability of a Teams admin to customize these settings isn't currently supported.
 
 ## Admin settings in Teams compared to Microsoft Outlook
 

@@ -27,7 +27,9 @@ appliesto:
 
 Name pronunciation is part of a user's profile in Microsoft Teams (and throughout Microsoft 365). Users can help their colleagues learn how to pronounce their name by adding a recording of their name to their Microsoft 365 profile card.
 
-This setting is turned off by default. If you would like to turn on name pronunciation for your users, follow the steps in this article.
+This setting is turned off by default. If you would like to turn on name pronunciation for your users using the Teams admin center, follow the steps in this article.
+
+If you need to manage name pronuncation settings for your users, see [Manage pronunciation settings for an organization](/graph/namepronunciation-configure-namepronunciation-availability).
 
 ## Turn on name pronunciation for your users
 
@@ -52,5 +54,6 @@ A user can choose to opt in or out of name pronunciation. For more detailed inst
 
 ## Related articles
 
+- [Manage pronunciation settings for an organization](/graph/namepronunciation-configure-namepronunciation-availability)
 - [User presence in Teams](presence-admins.md)
 - [Work location states in Teams](user-work-location-in-teams.md)

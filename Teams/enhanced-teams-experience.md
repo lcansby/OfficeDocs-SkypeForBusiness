@@ -114,7 +114,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 The following table describes platform support for Teams Premium advanced management for meetings features:
 
-|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange on-premises|
+|Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
 | Advanced collaboration analytics|No|No|No|No|No|No|No|No|No|No|No|No|No|No|No|
 | Audio quality alerts|Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|Yes|No|No|Yes|Yes|No|
@@ -163,7 +163,7 @@ Teams Premium provides more ways to personalize your Teams meeting experiences w
 
 The following table describes platform support for Teams Premium personalized meeting features:
 
-|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange on-premises|
+|Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
 | Custom meeting backgrounds for organizations|Yes|Yes|Yes|Yes|No|No|No|No|No|No|Yes|No|No|Yes|Yes|
 | Custom together mode scenes for organizations|Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|No|Yes|No|
@@ -209,7 +209,7 @@ Teams Premium provides more ways to elevate Teams town halls in your org with th
 
 The following table describes platform support for Teams Premium town hall features:
 
-|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange on-premises|
+|Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
 | Custom emails for town halls|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|Yes|Yes|
 | Live translated captions|Yes|Yes|Yes|Yes|No|No|No|No|No|No|Yes|No|Yes|Yes|No|
@@ -248,7 +248,7 @@ Teams Premium provides more ways to elevate Teams webinars in your org with the 
 
 The following table describes platform support for Teams Premium webinar features:
 
-|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange on-premises|
+|Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
 | Custom emails for webinars|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|Yes|Yes|
 | Enable and manage the waitlist for webinars beyond capacity|Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|No|Yes|Yes|
@@ -281,7 +281,7 @@ Teams Premium provides advanced Virtual Appointment capabilities, such as:
 
 The following table describes platform support for Teams Premium Virtual Appointments features:
 
-|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange on-premises|
+|Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
 | SMS|Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|Yes|Yes|No|
 | SMS reminder in Queue|Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|Yes|Yes|No|
@@ -332,7 +332,7 @@ Teams Premium provides custom Mesh experience capabilities for your users, such 
 
 The following table describes platform support for Teams Premium Mesh features:
 
-|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange on-premises|
+|Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
 | Mesh|No|No|No|No|No|No|No|No|No|No|No|No|No|No|No|
 
@@ -396,7 +396,7 @@ For more information about Queues app, see [Manage the Queues app for Microsoft 
 
 The following table describes platform support for Queues app:
 
-|Feature|Windows|MAC|Mobile|Web|MTR-Windows|MTR-Android|All in one|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|WebRTC classic optimization|SlimCore-based optimization|Exchange on-premises|
+|Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
 | Queues app|Yes|Yes|No|No|No|No|No|No|No|No|No|No|Yes|Yes|No|
 

@@ -172,7 +172,7 @@ The following table describes platform support for Teams Premium personalized me
 | Custom together mode scenes for organizations|Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|No|Yes|No|
 | Meeting templates |Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|No|Yes|No|
 | Meeting themes |Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|Yes|No|Yes|No|
-| RTMP-In |Yes|Yes|No|Yes|No|No|No|No|No|Yes|No|Yes|No|Yes|Yes|
+| RTMP-In |Yes|Yes|No|Yes|No|No|No|No|N/A|Yes|N/A|Yes|No|Yes|Yes|
 
 ## Premium events
 
@@ -219,8 +219,8 @@ The following table describes platform support for Teams Premium town hall featu
 | Event chat|Yes|Yes|Yes|Yes|No|No|N/A|N/A|No|Yes|N/A|Yes|N/A|No<sup>1</sup>|Yes|
 | Live translated captions|Yes|Yes|Yes|Yes|N/A|N/A|N/A|N/A|N/A|N/A|Yes|N/A|Yes|Yes|N/A|
 | Live translated transcripts|Yes|Yes|Yes|Yes|N/A|N/A|N/A|N/A|N/A|N/A|Yes|N/A|Yes|Yes|N/A|
-| Microsoft eCDN, analytics, and provider management|Yes|Yes|No|Yes|No|No|No|No|No|Yes|No|No|Yes|No<sup>1</sup>|Yes|
-| Town hall attendee reactions|Yes|Yes|Yes|Yes|No|No|N/A|N/A|No|Yes|N/A|Yes|N/A|No<sup>1</sup>|Yes|
+| Microsoft eCDN, analytics, and provider management|Yes|Yes|No|Yes|No|No|No|No|No|Yes|No|No|Yes|Partial<sup>1</sup>|Yes|
+| Town hall attendee reactions|Yes|Yes|Yes|Yes|No|No|N/A|N/A|No|Yes|N/A|Yes|N/A|Partial<sup>1</sup>|Yes|
 | Town hall insights |Yes|Yes|Yes|Yes|No|No|N/A|N/A|No|Yes|No|Yes|N/A|Partial<sup>1</sup>|Yes|
 
 <sup>1</sup> - Your users should join town halls through new Teams on the web.
@@ -260,7 +260,7 @@ The following table describes platform support for Teams Premium webinar feature
 | Limit registration start and end times |Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|No|Yes|Yes|
 | Manage what attendees see |Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|Yes|Yes|Yes|
 | Manually approve registrants |Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|No|Yes|Yes|
-| RTMP-In |Yes|Yes|No|Yes|No|No|No|No|No|Yes|No|Yes|No|Yes|Yes|
+| RTMP-In |Yes|Yes|No|Yes|No|No|No|No|N/A|Yes|N/A|Yes|No|Yes|Yes|
 
 ## Advanced Virtual Appointments
 

@@ -117,20 +117,20 @@ The following table describes platform support for Teams Premium advanced manage
 |Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
 | Advanced collaboration analytics|No|No|No|No|No|No|No|No|No|No|No|No|No|No|No|
-| Audio quality alerts|Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|Yes|No|No|Yes|Yes|No|
-| Custom user policy packages |No|No|No|No|No|No|No|No|No|No|No|No|No|No|No|
+| Audio quality alerts|Yes|Yes|Yes|Yes|Yes|Yes|Yes|N/A|N/A|Yes|N/A|N/A|Yes|Yes|Yes|
+| Custom user policy packages |N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|
 | End-to-end encryption (E2EE) |Yes|Yes|Yes|No|Yes|Yes|Yes|No|No|No|Yes|No|No|Yes|Yes|
-| External domain activity report |No|No|No|No|No|No|No|No|No|No|No|No|No|No|No|
+| External domain activity report |N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|
 | Hide attendee names |Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|Yes|Yes|Yes|
 | Manage what attendees see |Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|Yes|Yes|Yes|
-| Prevent copying chat content to clipboard<sup>1</sup>  |Yes|Yes|Yes<sup>1</sup>|Yes|No|No|No|No|No|No|Yes|Yes|Yes|Yes|Yes|
+| Prevent copying chat content to clipboard<sup>1</sup>  |Yes|Yes|Yes<sup>1</sup>|Yes|N/A|N/A|N/A|No|N/A|N/A|Yes|Yes|Yes|Yes|Yes|
 | Prevent users from sharing content in external meetings |??|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
-| Real-time telemetry and retention |No|No|No|No|No|No|No|No|No|No|No|No|No|No|No|
-| Restrict who can record|Yes|Yes|Yes|Yes|No|No|No|No|No|No|Yes|No|Yes|Yes|No|
+| Real-time telemetry and retention |No|No|No|No|No|No|No|No|No|N/A|No|N/A|No|No|N/A|
+| Restrict who can record|Yes|Yes|Yes|Yes|Yes|Yes|Yes|N/A|N/A|Yes|N/A|N/A|Yes|Yes|Yes|
 | Screen sharing quality alerts |Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|Yes|No|No|Yes|Yes|No|
 | Sensitivity labels |Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|Yes|Yes|No|
 | Teams Premium feature usage report |No|No|No|No|No|No|No|No|No|No|No|No|No|No|No|
-| Video quality alerts|Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|Yes|No|No|Yes|Yes|No|
+| Video quality alerts|Yes|Yes|Yes|Yes|Yes|Yes|Yes|N/A|N/A|Yes|N/A|N/A|Yes|Yes|Yes|
 | Watermarks|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|Yes|
 
 <sup>1</sup> Prevent copying or forwarding of chat on mobile clients is only supported through sensitivity labels.
@@ -189,6 +189,7 @@ Teams Premium provides more ways to elevate Teams town halls in your org with th
 - **Event chat** - Organizers can allow attendees to use chat during town halls.
 - **Increased broadcast and Q&A capacity** - Organizers can broadcast their town halls to 20,000 attendees. All attendees can use Q&A to interact with presenters, organizers, and co-organizers.
 - **Live translated captions**- Organizers can choose up to 10 languages for attendees to use when translating captions during the town hall.
+- **Live translated transcripts** - Your users can understand each other better during a town hall by translating the meeting transcript into the language they're most comfortable with.
 - **Microsoft eCDN** - Optimize network performance for video streaming within an enterprise network. Microsoft eCDN allows millions of enterprise users around the world to communicate face-to-face efficiently and reliably. You can use the Microsoft eCDN or select one of our partner providers for Premium town halls.
 - **Real time monitoring of the attendee experience** - Admins can use the eCDN analytics dashboard to troubleshoot the attendee experience during live town halls.
 - **Town hall attendee reactions** - Organizers can allow attendees to engage and provide feedback during a town hall with live reactions.
@@ -212,7 +213,8 @@ The following table describes platform support for Teams Premium town hall featu
 |Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
 | Custom emails for town halls|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|Yes|Yes|
-| Live translated captions|Yes|Yes|Yes|Yes|No|No|No|No|No|No|Yes|No|Yes|Yes|No|
+| Live translated captions|Yes|Yes|Yes|Yes|N/A|N/A|N/A|N/A|N/A|N/A|Yes|N/A|Yes|Yes|N/A|
+| Live translated transcripts|Yes|Yes|Yes|Yes|N/A|N/A|N/A|N/A|N/A|N/A|Yes|N/A|Yes|Yes|N/A|
 | Microsoft eCDN, analytics, and provider management|Yes|Yes|No|Yes|No|No|No|No|No|Yes|No|No|Yes|No<sup>2</sup>|Yes|
 | Town hall attendee reactions|Yes|Yes|Yes|Yes|No|No|No|No|No|Yes|No|Yes|No|No<sup>1</sup>|Yes|
 | Town hall insights |??|?|?|?|?|?|?|?|?|?|?|?|?|?|?|
@@ -289,7 +291,7 @@ The following table describes platform support for Teams Premium Virtual Appoint
 | Branded meetings|No|Yes|No|Yes|No|No|No|No|No|No|No|Yes|Yes|Yes|No|
 | OnDemand |Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|Yes|Yes|No|
 | Analytics |Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|Yes|Yes|No|
-| Consumption report |No|No|No|No|No|No|No|No|No|No|No|No|No|No|No|
+| Consumption report |N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|
 
 ## Intelligent meeting features
 
@@ -298,16 +300,26 @@ Teams Premium provides the following key AI-powered meetings features:
 - **Decorate my background** - Your users can use AI to decorate their backgrounds.
 - **Intelligent meeting recap** - Give your users a more personalized rundown of their meetings with intelligent meeting recap.
 - **Live translated captions** -  Allow your users to see captions translated into the language they’re most comfortable with.
-- **Live translated transcription** - Your users can understand each other better during a meeting or event by translating the meeting transcript into the language they're most comfortable with.
+- **Live translated transcripts** - Your users can understand each other better during a meeting or event by translating the meeting transcript into the language they're most comfortable with.
 
   | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users |
   | -------------------- | -----------| ----------- | ------------ |
   | Decorate my background | No, contact support for assistance. | No admin control | [Decorate your background](https://adoption.microsoft.com/microsoft-teams-premium/decorate-your-background/)|
   | Intelligent meeting recap| No, contact support for assistance.<sup>1</sup>|[Intelligent recap for Teams calls and meetings](intelligent-recap-calls-meetings.md) | [Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef#bkmk_intelligent_meeting_recap) |
   | Live translated captions | Yes | [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)|[Use live captions in Microsoft Teams meetings](https://support.microsoft.com/office/use-live-captions-in-microsoft-teams-meetings-4be2d304-f675-4b57-8347-cbd000a21260) |
-  | Live translated transcription | Yes |  [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md) | [View live transcription in Microsoft Teams meetings](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b)|
+  | Live translated transcripts | Yes |  [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md) | [View live transcription in Microsoft Teams meetings](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b)|
 
 <sup>1</sup>If you toggle the **Transcription** setting to **Off** in your **Meeting policies**, intelligent meeting recap isn't available for users with this policy.
+
+### Platform support for Intelligent meeting features
+
+The following table describes platform support for Teams Premium Virtual Appointments features:
+
+|Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
+| -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
+| Intelligent meeting recap|Yes|Yes|Yes|Yes|N/A|N/A|N/A|N/A|N/A|N/A|Yes|N/A|Yes|Yes|N/A|
+| Live translated captions|Yes|Yes|Yes|Yes|N/A|N/A|N/A|N/A|N/A|N/A|Yes|N/A|Yes|Yes|N/A|
+| Live translated transcripts|Yes|Yes|Yes|Yes|N/A|N/A|N/A|N/A|N/A|N/A|Yes|N/A|Yes|Yes|N/A|
 
 ## Custom 3D Immersive Mesh Experiences
 

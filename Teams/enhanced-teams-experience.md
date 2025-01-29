@@ -124,7 +124,7 @@ The following table describes platform support for Teams Premium advanced manage
 | End-to-end encryption (E2EE) |Yes|Yes|Yes|No|Yes|Yes|Yes|No|No|No|Yes|No|No|Yes|Yes|
 | External domain activity report |N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|
 | Hide attendee names |Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|Yes|Yes|Yes|
-| Manage what attendees see |Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|Yes|Yes|Yes|
+| Manage what attendees see |Yes|Yes|No|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|Yes|Yes|Yes|
 | Prevent copying chat content to clipboard<sup>1</sup>  |Yes|Yes|Yes<sup>1</sup>|Yes|N/A|N/A|N/A|No|N/A|N/A|Yes|Yes|Yes|Yes|Yes|
 | Prevent users from sharing content in external meetings |??|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
 | Real-time telemetry and retention |No|No|No|No|No|No|No|No|No|N/A|No|N/A|No|No|N/A|
@@ -168,10 +168,10 @@ The following table describes platform support for Teams Premium personalized me
 
 |Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
-| Custom meeting backgrounds for organizations|Yes|Yes|Yes|Yes|No|No|No|No|No|No|Yes|No|No|Yes|Yes|
-| Custom together mode scenes for organizations|Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|No|Yes|No|
-| Meeting templates |Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|No|Yes|No|
-| Meeting themes |Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|Yes|No|Yes|No|
+| Custom meeting backgrounds for organizations|Yes|Yes|Yes|Yes|N/A|N/A|N/A|N/A|N/A|N/A|Yes|N/A|N/A|Yes|Yes|
+| Custom together mode scenes for organizations|Yes|Yes|No|Yes|No|No|No|No|No|N/A|N/A|N/A|N/A|Yes|No|
+| Meeting templates |Yes|Yes|No|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|No|Yes|No|
+| Meeting themes |Yes|Yes|Yes|Yes|No|No|No|No|No|N/A|Yes|Yes|N/A|Yes|Yes|
 | RTMP-In |Yes|Yes|No|Yes|No|No|No|No|N/A|Yes|N/A|Yes|No|Yes|Yes|
 
 ## Premium events
@@ -254,11 +254,11 @@ The following table describes platform support for Teams Premium webinar feature
 
 |Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
-| Custom emails for webinars|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|Yes|Yes|
-| Enable and manage the waitlist for webinars beyond capacity|Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|No|Yes|Yes|
-| Hide attendee names |Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|Yes|Yes|Yes|
-| Limit registration start and end times |Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|No|Yes|Yes|
-| Manage what attendees see |Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|Yes|Yes|Yes|
+| Custom emails and reminders for webinars|Yes|Yes|N/A|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|No|Yes|Yes|
+| Enable and manage the waitlist for webinars beyond capacity|Yes|Yes|N/A|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|No|Yes|Yes|
+| Hide attendee names |Yes|Yes|Yes|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|Yes|Yes|Yes|
+| Limit registration start and end times|Yes|Yes|N/A|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|No|Yes|Yes|
+| Manage what attendees see |Yes|Yes|No|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|Yes|Yes|Yes|
 | Manually approve registrants |Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|No|Yes|Yes|
 | RTMP-In |Yes|Yes|No|Yes|No|No|No|No|N/A|Yes|N/A|Yes|No|Yes|Yes|
 
@@ -287,12 +287,12 @@ The following table describes platform support for Teams Premium Virtual Appoint
 
 |Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
-| SMS|Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|Yes|Yes|No|
-| SMS reminder in Queue|Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|Yes|Yes|No|
-| Queue view|Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|Yes|Yes|No|
-| Branded meetings|No|Yes|No|Yes|No|No|No|No|No|No|No|Yes|Yes|Yes|No|
-| OnDemand |Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|Yes|Yes|No|
-| Analytics |Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|Yes|Yes|No|
+| SMS|Yes|Yes|No|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|Yes|Yes|Partial|
+| SMS reminder in Queue|Yes|Yes|No|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|Yes|Yes|No|
+| Queue view|Yes|Yes|No|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|Yes|Yes|No|
+| Branded meetings|N/A|Yes|N/A|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|Yes|Yes|Yes|No|
+| OnDemand |Yes|Yes|No|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|Yes|Yes|No|
+| Analytics |Yes|Yes|No|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|Yes|Yes|N/A|
 | Consumption report |N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|
 
 ## Intelligent meeting features
@@ -374,6 +374,14 @@ Teams Premium provides the following advanced capabilities in Places:
 | Places finder| Yes| [Enabling Microsoft Places Finder in Outlook](/microsoft-365/places/enabling-places-finder) |[Get started with Microsoft Places](https://support.microsoft.com/office/get-started-with-microsoft-places-49b7ea21-b9e1-4ccd-acd6-c600f3da633c)|
 | Space analytics| Yes, remove users from the Places Advanced and Analytics Users [security groups](/microsoft-365/places/places-analytics). |[Microsoft Places Analytics](/microsoft-365/places/places-analytics) | [Get started with Microsoft Places](https://support.microsoft.com/office/get-started-with-microsoft-places-49b7ea21-b9e1-4ccd-acd6-c600f3da633c)|
 
+### Platform support for Places
+
+The following table describes platform support for Places:
+
+|Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
+| -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
+| Queues app|Yes|Yes|No|No|No|No|No|N/A|No|N/A|N/A|N/A|Yes|Yes|Partial|
+
 ## Calls
 
 ### Intelligent call recap
@@ -413,7 +421,7 @@ The following table describes platform support for Queues app:
 
 |Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
-| Queues app|Yes|Yes|No|No|No|No|No|No|No|No|No|No|Yes|Yes|No|
+| Queues app|Yes|Yes|No|No|No|No|No|N/A|No|N/A|N/A|N/A|Yes|Yes|Partial|
 
 ## More resources
 

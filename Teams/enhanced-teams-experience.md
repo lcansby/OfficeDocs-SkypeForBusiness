@@ -216,10 +216,11 @@ The following table describes platform support for Teams Premium town hall featu
 |Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
 | Custom emails for town halls|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|Yes|Yes|
+| Event chat|Yes|Yes|Yes|Yes|No|No|N/A|N/A|No|Yes|N/A|Yes|N/A|No<sup>1</sup>|Yes|
 | Live translated captions|Yes|Yes|Yes|Yes|N/A|N/A|N/A|N/A|N/A|N/A|Yes|N/A|Yes|Yes|N/A|
 | Live translated transcripts|Yes|Yes|Yes|Yes|N/A|N/A|N/A|N/A|N/A|N/A|Yes|N/A|Yes|Yes|N/A|
 | Microsoft eCDN, analytics, and provider management|Yes|Yes|No|Yes|No|No|No|No|No|Yes|No|No|Yes|No<sup>2</sup>|Yes|
-| Town hall attendee reactions|Yes|Yes|Yes|Yes|No|No|No|No|No|Yes|No|Yes|No|No<sup>1</sup>|Yes|
+| Town hall attendee reactions|Yes|Yes|Yes|Yes|No|No|N/A|N/A|No|Yes|N/A|Yes|N/A|No<sup>1</sup>|Yes|
 | Town hall insights |??|?|?|?|?|?|?|?|?|?|?|?|?|?|?|
 
 <sup>2</sup> - Your users should join town halls through new Teams on the web.

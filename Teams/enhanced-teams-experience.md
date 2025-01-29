@@ -87,6 +87,8 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 - **Watermarking** - Enforced through a sensitivity label, watermarks display the email address of a meeting or webinar participant. Watermarks are useful for protecting confidential information shared in meetings and webinars.
 
+- **Who can record and transcribe**- Organizers can control who can record and transcribe their meetings through their **Meeting options**.
+
   | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users |
   | --------- | -----------| ----------- | ------------ |
   | Advanced collaboration analytics |No, contact support for assistance.| [Advanced Collaboration Analytics for Microsoft Teams](advanced-collaboration-analytics.md) | No end-user control |
@@ -126,12 +128,13 @@ The following table describes platform support for Teams Premium advanced manage
 | Prevent copying chat content to clipboard<sup>1</sup>  |Yes|Yes|Yes<sup>1</sup>|Yes|N/A|N/A|N/A|No|N/A|N/A|Yes|Yes|Yes|Yes|Yes|
 | Prevent users from sharing content in external meetings |??|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
 | Real-time telemetry and retention |No|No|No|No|No|No|No|No|No|N/A|No|N/A|No|No|N/A|
-| Restrict who can record|Yes|Yes|Yes|Yes|Yes|Yes|Yes|N/A|N/A|Yes|N/A|N/A|Yes|Yes|Yes|
-| Screen sharing quality alerts |Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|Yes|No|No|Yes|Yes|No|
+| Restrict who can record|Yes|Yes|Yes|Yes|No|No|No|No|No|N/A|Yes|N/A|Yes|Yes|N/A|
+| Screen sharing quality alerts |Yes|Yes|Yes|Yes|Yes|Yes|Yes|N/A|N/A|Yes|N/A|N/A|Yes|Yes|Yes|
 | Sensitivity labels |Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|Yes|Yes|No|
 | Teams Premium feature usage report |No|No|No|No|No|No|No|No|No|No|No|No|No|No|No|
 | Video quality alerts|Yes|Yes|Yes|Yes|Yes|Yes|Yes|N/A|N/A|Yes|N/A|N/A|Yes|Yes|Yes|
 | Watermarks|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|Yes|
+| Who can record and transcribe|Yes|Yes|Yes|Yes|No|No|No|No|No|N/A|Yes|N/A|Yes|Yes|N/A|
 
 <sup>1</sup> Prevent copying or forwarding of chat on mobile clients is only supported through sensitivity labels.
 

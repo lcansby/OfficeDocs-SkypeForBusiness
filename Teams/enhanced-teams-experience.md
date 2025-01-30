@@ -180,8 +180,8 @@ Teams Premium provides the following key AI-powered meetings features:
 
 - **Decorate my background** - Your users can use AI to decorate their backgrounds.
 - **Intelligent meeting recap** - Give your users a more personalized rundown of their meetings with intelligent meeting recap.
-- **Live translated captions** -  Allow your users to see captions translated into the language they’re most comfortable with.
-- **Live translated transcripts** - Your users can understand each other better during a meeting or event by translating the meeting transcript into the language they're most comfortable with.
+- **Live translated captions** -  For meetings, webinars, and town halls, your users can see captions translated into the language they’re most comfortable with.
+- **Live translated transcripts** - For meetings, webinars, and town halls, your users can understand each other better during a meeting or event by translating the transcript into the language they're most comfortable with.
 
   | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users |
   | -------------------- | -----------| ----------- | ------------ |

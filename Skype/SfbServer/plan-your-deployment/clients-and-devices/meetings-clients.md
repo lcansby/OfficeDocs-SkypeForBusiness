@@ -51,13 +51,14 @@ To use the Skype for Business Web App, a user must have one of the following sup
 
 | Operating system | Edge | 32- and 64-bit Internet Explorer 11 or later | 32- and 64-bit Internet Explorer 10 or later | 32- and 64-bit Internet Explorer 9 or later | 32- and 64-bit Version of Safari 6.2.8 - 11.X | 32- and 64-bit Version of Chrome 18.X or later |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+|Windows 11  <br/> |Yes  <br/> |N/A<br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |Yes &#x2778; <br/> |
 |Windows 10  <br/> |Yes  <br/> |Yes  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |Yes &#x2778; <br/> |
 |Windows 8.1 &#x2776; <br/> |N/A  <br/> |Yes  <br/> |N/A  <br/> |N/A  <br/> |N/A <br/> |Yes &#x2778; <br/> |
 |Windows 8 (Intel based) &#x2776; <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |N/A <br/> |N/A  <br/> |Yes &#x2778; <br/> |
 |Windows 7 with SP1 &#x2777; <br/> |N/A  <br/> |Yes  <br/> |No  <br/> |No  <br/> |N/A <br/>|Yes &#x2778; <br/> |
 |Windows Server 2008 R2 with SP1 &#x2777; <br/> |N/A  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |N/A <br/>|Yes &#x2778; <br/> |
 |macOS 10.8 and later (Intel-based) &#x2777; <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |Yes <br/> |
-   
+
 &#x2776; The Skype for Business Web App browser plug-in requires a specific sharing plugin to use computer-based voice, video, sharing, and viewing of ongoing screen sharing and other features. A meeting attendee is given the option to install the sharing plug-in either when they join the meeting or when they initiate one of these features. On Windows 8, and Windows 8.1, the sharing plug-in can be installed only if you're running Internet Explorer 10 or Internet Explorer 11 for the desktop. These features are not available with non-desktop versions of Internet Explorer 10 and 11. Note that Firefox and Safari version 12.0 and later is no longer supported.
   
 &#x2777; On supported Windows 7, Windows Server 2008 R2, and Macintosh operating systems, all features are available including computer-based voice, video, application viewing, application sharing, desktop viewing, and desktop sharing. To use these features, you must install a plug-in when prompted. Note that Mac OS X version 10.7 is no longer supported.  Also note the web app will not install on OS X 10.15 or later.  We recommend using the latest version of Skype for Business for Mac which supports anonymous join scenarios moving forward.

@@ -36,7 +36,7 @@ The following types of users can be present in a Teams chat or meeting and if yo
 
 * An **anonymous user** is a user who joins a meeting via a link. The user isn't logged in with their Microsoft account or their organization’s account.
 
-* A **native user** is a signed-in Teams user who creates a chat or a meeting. Other users of the same organization are also considered native users. The organization that native users are members of is considered the host organization. All signed-in users from other organizations are considered as external users.
+* A **native user** is a signed-in Teams user who creates a chat or a meeting. Other users of the same organization are also considered native users. The organization to which native users belong is considered the host organization. All signed-in users from other organizations are considered as external users.
 
 For a more detailed comparison between guest and external access users, see [communicate with users from other organizations](communicate-with-users-from-other-organizations.md).
 

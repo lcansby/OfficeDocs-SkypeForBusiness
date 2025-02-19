@@ -62,9 +62,9 @@ Guests can mention the bot and interact with adaptive cards.
 
 #### Personal bots added with policies
 
-* For any app, guests adhere to global and org-wide app policies set for the host organization. If an app is blocked in the host organization, then guests can't use it.
+* For any app, guests adhere to global and org-wide app policies set for the host organization. If an app is blocked in the host organization, guests can't use it.
 * After a bot is added, guests can communicate with it.
-* If you preinstall a bot for your users using app setup policy, then guests don't automatically get such a bot.
+* If you preinstall a bot for your users using app setup policy, guests can't access such a bot.
 * To avoid guests from accessing bots, you can create different app setup policies, assign them to internal users, and add bots with the custom policies.
 
 ## External access users
@@ -81,13 +81,13 @@ External users don't have access to the Teams app store of the host organization
 External users can accomplish the following actions:
 
 * All users in a group chat or meeting chat can tag installed bots and the bot can communicate with all users.
-* Participants can access the **Manage apps** page in their Teams client but not add, update, or remove apps from this page.
-* Participants can open and use an installed tab from the ME flyout in a group chat.
+* Participants can access the **Manage your apps** page in their Teams client but can't add, update, or remove apps from this page.
+* Participants can open and use an installed tab from the message extension flyout in a group chat.
 
 > [!NOTE]
 >
-> * Your users' ability to create and participate in external chats are defined by your [external access policies](communicate-with-users-from-other-organizations.md).
-> * Apps in external chats aren't supported in GCC, GCC(H), and DOD environments.
+> * Your users' ability to create and participate in external chats is defined by your [external access policies](communicate-with-users-from-other-organizations.md).
+> * Apps in external chats aren't supported in Government Community Cloud (GCC), GCC High, and Department of Defense (DoD) environments.
 
 ## Anonymous users
 

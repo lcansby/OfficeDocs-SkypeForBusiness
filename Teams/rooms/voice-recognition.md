@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: parisataheri
-ms.date: 08/15/2024
+ms.date: 02/10/2025
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -15,6 +15,7 @@ ms.collection:
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
+  - magic-ai-copilot
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Learn about how admins can control for voice recognition (voice profile) in Teams meeting rooms.
@@ -57,11 +58,9 @@ To enable speaker recognition for your employees, you can set up a voice profile
 
 - Teams Rooms on Windows
 - Room resource account should have a Teams Room Pro license assigned.
-
 - To ensure best precision for the transcript, we suggest limiting the number of in person attendees to a maximum of 10 people.
 - People to be identified in the room, need to be enrolled with their voice profile and be invited to the scheduled meeting.
 - The limitation for people invited with voice profile is currently 20.
-
 - To support high-quality audio and video during meetings, we recommend that the meeting room has an upload speed of at least 7 Mbps.
 
 #### BYOD Rooms:
@@ -83,6 +82,7 @@ To enable speaker recognition for your employees, you can set up a voice profile
 
 > [!NOTE]
 > We have extended intelligent Speakers to work with all certified microphones. You can try this out for Teams Rooms with version 5.0.111.0 or later.
+
 ## Enable an Intelligent Speaker user recognition
 
 Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](/microsoftteams/rooms/voice-and-face-recognition) and the [PowerShell meeting cmdlets](/microsoftteams/teams-powershell-overview) for information on the meeting settings.

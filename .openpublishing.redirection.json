@@ -5161,11 +5161,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "Teams/devices/xiaomi-push-notifications.md",
-      "redirect_url": "/microsoftteams/devices/device-management",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "Teams/education-insights-manage-access.md",
       "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
       "redirect_document_id": false
@@ -5419,6 +5414,11 @@
 "source_path": "Teams/delete-exchange-online-transcripts.md",
     "redirect_url": "/microsoftteams/tmr-meeting-recording-change",
     "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/rooms/data-and-privacy-info.md",
+    "redirect_url": "/microsoftteams/rooms/rooms-pro-management",
+    "redirect_document_id": false
   },
   {
     "source_path": "Teams/add-funds-and-manage-communications-credits.md",

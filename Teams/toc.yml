@@ -382,6 +382,8 @@ items:
         href: institution-settings.md
     - name: Copilot in Teams
       items:
+        - name: Manage Copilot for multitenant organizations
+          href: copilot-mto.md
         - name: Manage Copilot in Teams meetings and events
           href: copilot-teams-transcription.md
         - name: Teams Rooms and Copilot overview
@@ -650,6 +652,8 @@ items:
           href: presence-admins.md
         - name: User work location in Teams
           href: user-work-location-in-teams.md
+        - name: Viva Engage experiences in Teams
+          href: teams-viva-experiences.md
         - name: Custom emojis in Teams
           href: teams-custom-emojis.md
         - name: Supervised chat for non-educational tenants
@@ -1603,8 +1607,6 @@ items:
                   href: teams-device-health.md
                 - name: Teams device health monitoring
                   href: alerts/device-health-status.md
-                - name: Health and usage reports
-                  href: rooms/health-and-usage-reports.md
             - name: Teams Rooms Pro Management
               items:
                 - name: Getting started
@@ -1633,24 +1635,24 @@ items:
                       href: rooms/multi-tenant-management-partner.md
                     - name: Multi-tenant management for customers
                       href: rooms/multi-tenant-management-customer.md
-                - name: Alerting
+                - name: Monitoring
                   items:
-                     - name: Signal settings
-                       href: rooms/signal-settings.md  
-                     - name: Configure ServiceNow
-                       href: rooms/microsoft-teams-rooms-configure-servicenow.md
-                     - name: Viewing events
-                       href: rooms/view-events.md
-                     - name: Record an issue 
-                       href: rooms/customer-reported-incidents.md
-                - name: Analytics, reports, and insights
+                    - name: Signal settings
+                      href: rooms/signal-settings.md  
+                    - name: Configure ServiceNow
+                      href: rooms/microsoft-teams-rooms-configure-servicenow.md
+                    - name: Viewing events
+                      href: rooms/view-events.md
+                    - name: Record an issue 
+                      href: rooms/customer-reported-incidents.md
+                - name: Analytics and reports
                   items:
                     - name: Monitor and maintain Teams Rooms
                       href: rooms/managed-meeting-rooms-portal.md
                     - name: Audit logs for activities
                       href: rooms/multi-tenant-auditing.md
-                - name: Data and privacy information
-                  href: rooms/data-and-privacy-info.md
+                    - name: Health and usage reports
+                      href: rooms/health-and-usage-reports.md
                 - name: Troubleshooting and known issues
                   href: /microsoftteams/troubleshoot/teams-rooms-and-devices/get-support-teams-rooms-pro-management
     - name: Teams phones
@@ -1704,7 +1706,7 @@ items:
                 - name: Remote sign in and sign out
                   href: phones/remote-sign-in-and-sign-out-phones.md
         - name: Troubleshooting and known issues
-          href: /microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-known-issues-android.md#issues-with-teams-phones
+          href: /microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-known-issues-android#issues-with-teams-phones
           
     - name: Bring your own device (BYOD) spaces
       items:

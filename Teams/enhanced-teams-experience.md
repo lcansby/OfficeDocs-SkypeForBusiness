@@ -225,7 +225,7 @@ Teams Premium provides more ways to elevate Teams town halls in your org with th
 - **Microsoft eCDN** - Optimize network performance for video streaming within an enterprise network. Microsoft eCDN allows millions of enterprise users around the world to communicate face-to-face efficiently and reliably. You can use the Microsoft eCDN or select one of our partner providers for Premium town halls.
 - **Real time monitoring of the attendee experience** - Admins can use the eCDN analytics dashboard to troubleshoot the attendee experience during live town halls.
 - **Town hall attendee reactions** - Organizers can allow attendees to engage and provide feedback during a town hall with live reactions.
-- **Town hall insights** - Town hall organizers can troubleshoot town halls while they're live.
+- **Town hall insights** - Town hall organizers can monitor join and quality of the audio/video experience for their town hall attendees while they're live.
 
   | Feature/Task | Can admins turn this feature on/off? |Documentation for admins| Documentation for your end users |
   | -------------------- |  ----------- | ----------- | ----------- |
@@ -349,8 +349,7 @@ The following table describes platform support for Teams Premium Mesh features:
 
 |Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
-| Immersive experiences|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|No|
-| Mesh|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|No|
+| Mesh|Yes|No|No|No|No|No|No|No|No|No|No|No|No|No|No|
 
 ## Advanced Places workplace collaboration
 

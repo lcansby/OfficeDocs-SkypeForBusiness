@@ -65,7 +65,7 @@ You can use a free PowerShell script to fetch the details of a peripheral and en
 
 ## Step 4 - Enable additional features for users
 
-You have the option to [enable the automatic work location update policy](/powershell/module/teams/new-csteamsworklocationdetectionpolicy) for your organization or for a group of users. Automatic work location updates are designed to enhance the end user experience by making it easier to keep their work location up-to-date and connect with others when they are in the office. With the policy enabled, users have the option to enable automatic work location updates. They can do so in Teams desktop client under **Settings** > **Privacy** > **Sharing your work location**. After users have opted-in, their work location will automatically update to **In the office** when they connect to a bookable desk, provided their work location was previously set to unknown or remote. The detected location lasts until the end of their working hours. If they plug in after work hours, the location will be set until 11:59pm that day. This feature allows for a seamless transition between remote and in-office work, which enhances collaboration and communication within your team and other users. 
+You have the option to [enable the automatic work location update policy](/powershell/module/teams/new-csteamsworklocationdetectionpolicy) for your organization or for a group of users. Automatic work location updates are designed to enhance the end user experience by making it easier to keep their work location up-to-date and connect with others when they are in the office. With the policy enabled, users have the option to enable automatic work location updates. They can do so in Teams desktop client under **Settings** > **Privacy** > **Manage my work location**. After users have opted-in, their work location will automatically update to **In the office** when they connect to a bookable desk, provided their work location was previously set to unknown or remote. If the desk pool is parented to a building, their work location can also change to a specific building when they connect to a bookable desk, provided their work location was previously set to unknown, remote, or In the office. The detected location lasts until the end of their working hours. If they plug in after work hours, the location will be set until 11:59pm that day. This feature allows for a seamless transition between remote and in-office work, which enhances collaboration and communication within your team and other users. 
 
 ## Step 5 - Test the end user experience
 
@@ -93,6 +93,54 @@ Below the top metrics, there's a table that provides a granular breakdown of eac
 |Reservations|The number of reservations across bookable desks in the selected time period.|
 |Unplanned reservations|The percentage of reservations that weren't planned in advance and were autobooked.|
 |Reservation occupancy|The percentage of time users spent plugged into bookable desks during reservations. Lower values indicate more reservations were spent with less time plugged in.|
+
+## Settings
+
+### Turning off automatic discovery and usage data collection in the Teams client 
+
+Bookable desks in Microsoft Teams use peripheral data crowdsourced from the Teams desktop client running on the users' laptops to discover peripherals as well as understand when those desk pools they are associated to are used. No personally identifiable data is collected, but should you feel this data collection is inappropriate for your tenant or a group of users in your tenant, you may use the following PowerShell cmdlets to configure the policy appropriately. Please note that for government clouds, this policy is off by default. 
+
+First, ensure that your Microsoft Teams module is on version 6.5.0 or higher. To confirm the version, please run the following:
+
+
+```powershell
+Import-Module MicrosoftTeams
+Get-Module -Name MicrosoftTeams
+```
+
+If you don't have the Microsoft Teams module installed, please run the following and then re-run the above command to check the version:
+
+
+```powershell
+Install-Module -Name MicrosoftTeams -Force -AllowClobber
+Import-Module MicrosoftTeams
+```
+
+If your version is lower than 6.5.0, please follow [these instructions](/microsoftteams/teams-powershell-install) to update it. 
+
+Use the following commands to create, set, grant, or remove a configuration in the TeamsBYODAndDesks policy: 
+
+
+```powershell
+Import-Module MicrosoftTeams
+Connect-MicrosoftTeams
+Get-CSTeamsBYODAndDesksPolicy
+Set-CSTeamsBYODAndDesksPolicy -Identity Test -DeviceDataCollection Enabled
+Grant-CSTeamsBYODAndDesksPolicy -PolicyName Test -Identity testuser@test.onmicrosoft.com
+Grant-CSTeamsBYODAndDesksPolicy -Group 
+Grant-CSTeamsBYODAndDesksPolicy -Global -PolicyName Test
+Remove-CSTeamsBYODAndDesksPolicy -Identity Test
+```
+
+### Configuring cloud data
+
+**Delete device data**
+
+This setting enables admins to delete all device management data for a specific user. 
+
+**Inventory management permission**
+
+The inventory management permission in Teams Rooms Pro Management portal allows others to view and manage the inventory. You can create roles under **Settings** > **Roles** in Teams Room Pro Management portal and grant permissions to access inventory and associate peripherals to desks. 
 
 ## Frequently asked questions
 

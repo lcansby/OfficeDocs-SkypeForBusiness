@@ -382,6 +382,8 @@ items:
         href: institution-settings.md
     - name: Copilot in Teams
       items:
+        - name: Manage Copilot for multitenant organizations
+          href: copilot-mto.md
         - name: Manage Copilot in Teams meetings and events
           href: copilot-teams-transcription.md
         - name: Teams Rooms and Copilot overview
@@ -461,6 +463,8 @@ items:
       items: 
         - name: Monitor and improve call quality
           href: monitor-call-quality-qos.md
+        - name: Best practice configurations dashboard for meetings
+          href: best-practice-dashboard.md
         - name: Call Quality Dashboard (CQD)
           items: 
             - name: What is CQD?
@@ -1069,6 +1073,8 @@ items:
                   href: aa-cq-cqd-historical-reports.md
                 - name: Real-time reporting
                   href: aa-cq-real-time-reports.md
+                - name: Historical reporting for GCC High and DoD
+                  href: aa-cq-cqd-historical-reports-v164.md
             - name: PowerShell cmdlet reference for Auto attendants and Call queues
               href: call-queue-auto-attendant-cmdlets.md
             - name: Dial and voice reference
@@ -1503,8 +1509,8 @@ items:
               items:
                 - name: Teams Rooms release notes
                   href: rooms/rooms-release-note.md
-                - name: Teams panels release notes
-                  href: https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels
+                - name: Teams panels release notes 
+                  href: devices/devices-release-notes.md?tabs=panels#tabpanel_1_panels
                 - name: Management apps
                   href: devices/certified-device-apps.md
             - name: Troubleshooting and known issues
@@ -1599,8 +1605,6 @@ items:
                   href: teams-device-health.md
                 - name: Teams device health monitoring
                   href: alerts/device-health-status.md
-                - name: Health and usage reports
-                  href: rooms/health-and-usage-reports.md
             - name: Teams Rooms Pro Management
               items:
                 - name: Getting started
@@ -1629,24 +1633,24 @@ items:
                       href: rooms/multi-tenant-management-partner.md
                     - name: Multi-tenant management for customers
                       href: rooms/multi-tenant-management-customer.md
-                - name: Alerting
+                - name: Monitoring
                   items:
-                     - name: Signal settings
-                       href: rooms/signal-settings.md  
-                     - name: Configure ServiceNow
-                       href: rooms/microsoft-teams-rooms-configure-servicenow.md
-                     - name: Viewing events
-                       href: rooms/view-events.md
-                     - name: Record an issue 
-                       href: rooms/customer-reported-incidents.md
-                - name: Analytics, reports, and insights
+                    - name: Signal settings
+                      href: rooms/signal-settings.md  
+                    - name: Configure ServiceNow
+                      href: rooms/microsoft-teams-rooms-configure-servicenow.md
+                    - name: Viewing events
+                      href: rooms/view-events.md
+                    - name: Record an issue 
+                      href: rooms/customer-reported-incidents.md
+                - name: Analytics and reports
                   items:
                     - name: Monitor and maintain Teams Rooms
                       href: rooms/managed-meeting-rooms-portal.md
                     - name: Audit logs for activities
                       href: rooms/multi-tenant-auditing.md
-                - name: Data and privacy information
-                  href: rooms/data-and-privacy-info.md
+                    - name: Health and usage reports
+                      href: rooms/health-and-usage-reports.md
                 - name: Troubleshooting and known issues
                   href: /microsoftteams/troubleshoot/teams-rooms-and-devices/get-support-teams-rooms-pro-management
     - name: Teams phones
@@ -1655,8 +1659,8 @@ items:
           items:
             - name: Overview of Teams phones
               href: phones/phones-for-teams.md
-            - name: What's new in Teams phones
-              href: https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones
+            - name: Teams phones release notes
+              href: devices/devices-release-notes.md?tabs=phones#tabpanel_1_phones
             - name: Features
               items:
                 - name: Set the Teams phone interface
@@ -1700,7 +1704,7 @@ items:
                 - name: Remote sign in and sign out
                   href: phones/remote-sign-in-and-sign-out-phones.md
         - name: Troubleshooting and known issues
-          href: /microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-known-issues-android.md#issues-with-teams-phones
+          href: /microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-known-issues-android#issues-with-teams-phones
           
     - name: Bring your own device (BYOD) spaces
       items:

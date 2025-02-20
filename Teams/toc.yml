@@ -652,6 +652,8 @@ items:
           href: presence-admins.md
         - name: User work location in Teams
           href: user-work-location-in-teams.md
+        - name: Viva Engage experiences in Teams
+          href: teams-viva-experiences.md
         - name: Custom emojis in Teams
           href: teams-custom-emojis.md
         - name: Supervised chat for non-educational tenants
@@ -1270,6 +1272,12 @@ items:
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
         - name: Licensing and phone number management
           href: phone-numbers-licensing-changes.md
+
+    - name: SMS
+      items:
+        - name: Overview
+          href: sms-overview.md
+          
     - name: Dial plans and routing
       items: 
         - name: Overview

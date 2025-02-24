@@ -5,7 +5,7 @@ ms.author: danismith
 manager: jtremper
 ms.reviewer: solomon.alex, grace.culver
 ms.date: 11/27/2024
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
@@ -94,10 +94,11 @@ The following list contains the prerequisites for users to be able to access Fac
 - Be a Microsoft Teams Public preview participant.
   - For information on how to access Teams Public preview features, see [Microsoft Teams Public preview](/microsoftteams/public-preview-doc-updates).
 - [Have Loop experiences in Teams for AI-generated notes in meetings turned on](#3-turn-on-loop-experiences-in-teams-for-ai-generated-notes-in-meetings).
+- Transcription is auto-enabled and must stay on to use AI-generated notes in meetings.
 
 ## Facilitator note storage
 
-AI-generated notes for meetings created by Facilitator are stored as a `.loop` file in a OneDrive folder titled **Meetings** of the user who initiated Facilitator in Teams. This data is treated as meeting transcript data.
+AI-generated notes for meetings created by Facilitator are stored as a `.loop` file in a OneDrive folder titled **Meetings** of the user who initiated Facilitator in Teams. This data is treated as meeting transcript data. To learn more about how this data is handled, see [Summary of governance, lifecycle, and compliance capabilities for Loop experiences](/microsoft-365/loop/loop-compliance-summary).
 
 AI-generated notes for chats created by Facilitator are stored as messaging data in each users' Exchange mailbox. This data is treated like all other Teams chat data.
 

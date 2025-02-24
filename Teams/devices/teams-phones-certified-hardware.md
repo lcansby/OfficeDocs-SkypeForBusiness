@@ -32,20 +32,18 @@ Certification programs are designed to ensure all certified devices run an Andro
 
 Microsoft is committed to certifying devices on latest Android versions available for Teams devices as long as OEM partners and SoC manufacturers are able to meet all certification requirements in effect at the time device enters certification.
 
-Microsoft and its Original Equipment Manufacturers (OEM) partners continually develop products to meet the needs of the market and elevate the Teams devices experience. During the product lifecycle, some products may receive an OS upgrade before their certification expires and will need to be re-certified, while others may not be recertified and will be discontinued by the OEM.
+Microsoft and its Original Equipment Manufacturers (OEM) partners continually develop products to meet the needs of the market and elevate the Teams devices experience. During the product lifecycle, some products may receive an OS upgrade before their certification expires and will need to be re-certified. However, others may not be recertified and will be discontinued by the OEM.
 
-We recognize that device certification expiration can impact your business. Our OEM partners will detail their End-of-Life policies to assist and direct you towards adopting newer technologies. For the most current information on Teams certified devices referenced here, consult our OEM partners' websites.
+We recognize that device certification expiration can impact your business. Our OEM partners detail their End-of-Life policies to assist and direct you towards adopting newer technologies. For the most current information on Teams certified devices referenced here, consult our OEM partners' websites.
 
 Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams devices applications on certified devices for a span of two (2) years after the certification period concludes. While Microsoft makes every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, these changes are communicated through the established customer facing communication channels.
-
-
 
 ## [Certified Teams phones](#tab/certified-phones)
 
 The following devices are certified under the Microsoft Teams phones Android Certification Program.
 
 > [!NOTE]
-> Certification end dates for Android 12 based devices has been extended by one year, from October 4, 2026, to August 15, 2027. The following information reflects current certification end dates.
+> Certification end dates for Android 12 based devices have been extended by one year, from October 4, 2026, to August 15, 2027. The following information reflects current certification end dates.
 
 | Device model | Firmware version | Current certification end date | Android OS version |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
@@ -131,6 +129,8 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 #### <b> Yealink </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications**   | Release date |
 |:----------------|:-------------------|:----------------------------|:----------------------------------------------------------------------------------------------|:--------------------------------------------|
+|MP54/MP56/MP58| `122.15.0.166`| `N/A` | Teams client: `1449/1.0.94.2024101709` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202407050618.product`| February 10, 2025|
+|CP965| `143.15.0.74`| `N/A` | Teams client: `1449/1.0.94.2024101709` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202407050618.product`| February 10, 2025|
 |MP52 E2/MP54 E2/MP56 E2/MP58 E2| `176.15.0.31`| `N/A` | Teams client: `1449/1.0.94.2024101709` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: ` 1.0.0.202407050618.product`| December 20, 2024|
 |MP52 E2/MP54 E2/MP56 E2/MP58 E2| `176.15.0.25`| `N/A` | Teams client: `1449/1.0.94.2024082806` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: ` 1.0.0.202402202353.product`| October 23, 2024|
 |MP54/MP56/MP58| `122.15.0.160`| `122.15.0.142` | Teams client: `1449/1.0.94.2024082806` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| Recalled|

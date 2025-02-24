@@ -29,7 +29,7 @@ Name pronunciation is part of a user's profile in Microsoft Teams (and throughou
 
 This setting is turned off by default. If you would like to turn on name pronunciation for your users using the Teams admin center, follow the steps in this article.
 
-If you need to manage name pronuncation settings for your users, see [Manage pronunciation settings for an organization](/graph/namepronunciation-configure-namepronunciation-availability).
+If you need to manage name pronunciation settings for your users, see [Manage pronunciation settings for an organization](/graph/namepronunciation-configure-namepronunciation-availability).
 
 ## Turn on name pronunciation for your users
 

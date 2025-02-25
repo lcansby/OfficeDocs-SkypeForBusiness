@@ -118,7 +118,7 @@ The following table describes platform support for Teams Premium advanced manage
 
 |Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
-| Advanced collaboration analytics|No|No|No|No|No|No|No|No|No|No|No|No|No|No|No|
+| Advanced collaboration analytics|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|
 | Audio quality alerts|Yes|Yes|Yes|Yes|Yes|Yes|Yes|N/A|N/A|Yes|N/A|N/A|Yes|Yes|Yes|
 | Custom user policy packages |N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|
 | End-to-end encryption (E2EE) |Yes|Yes|Yes|No|Yes|Yes|Yes|No|No|No|Yes|No|No|Yes|Yes|

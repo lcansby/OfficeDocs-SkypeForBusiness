@@ -127,6 +127,25 @@ For information on how your end users can use live translated captions, see [Use
 
 As an admin, you can choose whether organizers in your organization can restrict participants from copying or forwarding meeting chat messages, live captions, transcripts, and AI-generated insights in the meeting recaps. This setting also restricts forwarding and sharing messages to Outlook. By default, this per-organizer setting is set **On**. To learn more, see [Manage chat for sensitive Teams meetings](manage-chat-sensitive-meetings.md).
 
+## Diagnostics
+
+You can run the Teams transcripts diagnostic tool in the Microsoft 365 admin center to verify if a user’s account meets the requirements to transcribe a Teams meeting.
+
+> [!NOTE]
+> Diagnostics in the Microsoft 365 admin center aren't available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany.
+
+To run the diagnostic tool for transcripts, follow these steps:
+
+1. Select the Run Tests button to populate the diagnostic in the Microsoft 365 admin center:
+
+   > [!div class="nextstepaction"]
+   > [Run Tests: Teams Call Forwarding](https://aka.ms/MeetingTranscribeDiag)
+
+2. In the Username or Email field, enter the email address of the affected user.
+3. In the Teams Meeting URL field, enter the meeting URL.
+4. Select **Run Tests**.
+5. After the diagnostic runs, select the provided links to resolve the issues that were found.
+
 ## Related topics
 
 - [Teams meeting recording](meeting-recording.md)

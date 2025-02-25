@@ -5,7 +5,7 @@ ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: henrikalim
 ms.date: 10/29/2024
-ms.topic: article
+ms.topic: release-notes
 audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms

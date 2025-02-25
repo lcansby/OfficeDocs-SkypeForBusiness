@@ -51,7 +51,7 @@ For more general information about Teams meetings and premium events, see the fo
 > [!NOTE]
 > We'll continue to update this article. Check back often for links to new content.
 
-## Protection and advanced management for meetings
+## Protection and advanced management
 
 Teams Premium provides more ways to safeguard and monitor users' Teams experiences with the following key features:
 
@@ -125,7 +125,7 @@ The following table describes platform support for Teams Premium advanced manage
 | External domain activity report |N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|
 | Hide attendee names |Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|Yes|Yes|Yes|
 | Manage what attendees see |Yes|Yes|No|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|Yes|Yes|Yes|
-| Prevent copying chat content to clipboard<sup>1</sup>  |Yes|Yes|Yes<sup>1</sup>|Yes|N/A|N/A|N/A|No|N/A|N/A|Yes|Yes|Yes|Yes|Yes|
+| Organizer can restrict participants from copying or forwarding meeting chat messages, live captions, and transcripts |Yes|Yes|Yes<sup>1</sup>|Yes|N/A|N/A|N/A|No|N/A|N/A|Yes|Yes|Yes|Yes|Yes|
 | Prevent users from sharing content in external meetings |??|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
 | Real-time telemetry and retention |No|No|No|No|No|No|No|No|No|N/A|No|N/A|No|No|N/A|
 | Restrict who can record|Yes|Yes|Yes|Yes|No|No|No|No|No|N/A|Yes|N/A|Yes|Yes|N/A|
@@ -135,8 +135,6 @@ The following table describes platform support for Teams Premium advanced manage
 | Video quality alerts|Yes|Yes|Yes|Yes|Yes|Yes|Yes|N/A|N/A|Yes|N/A|N/A|Yes|Yes|Yes|
 | Watermarks|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|Yes|
 | Who can record and transcribe|Yes|Yes|Yes|Yes|No|No|No|No|No|N/A|Yes|N/A|Yes|Yes|N/A|
-
-<sup>1</sup> Prevent copying or forwarding of chat on mobile clients is only supported through sensitivity labels.
 
 [PLACEHOLDER: MISSING- Prevent users from sharing content in external meetings]
 

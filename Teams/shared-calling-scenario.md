@@ -1,7 +1,7 @@
 ---
 title: "Shared Calling scenario"
 ms.reviewer: roykuntz, jastark
-ms.date: 1/15/2025
+ms.date: 02/28/2025
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
@@ -20,7 +20,7 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: 
   - Phone System
-description: "This article provides a Shared Calling example scenario."
+description: "This article provides an example scenario for configuring Shared Calling."
 ---
 
 # Shared Calling example scenario
@@ -91,7 +91,7 @@ Grant-CsTeamsSharedCallingRoutingPolicy -Identity $user -PolicyName Seattle
 
 ## Shared Calling Teams admin center example
 
-From the Teams admin center, you can setup Shared Calling, similar to this scenario, by following these steps:
+You can setup Shared Calling from the Teams admin center, similar to this scenario, by following these steps:
 
 1. To enable Enterprise Voice for a user, go to **Users** > **Manage users** and select the licensed user you want to enable for Shared Calling. This user must have a Phone System license assigned to them. For this example, we use "user@contoso.com."
 1. Under the **Account** tab > **Assigned phone number**, turn **Enterprise Voice** to **On** and select **Save**.

@@ -231,7 +231,7 @@ The routing of emergency calls is based on how a resource account is configured.
 - If the emergency call routing policy used for the emergency call - either from user or network site assignment - has online PSTN usages configured, the routing of the emergency call will be based on the online PSTN usages.
 
 > [!NOTE]
-> If Shared Calling for Calling Plans or Operator Connect is configured in the same Tenant with Direct Routing, site assigned emergency call routing polices cannot be used.
+> If Shared Calling for Calling Plans or Operator Connect is configured in the same tenant with Direct Routing, site assigned emergency call routing polices cannot be used.
 
 For more information, see [Manage emergency call routing policies](manage-emergency-call-routing-policies.md) and [Set-CsOnlinePstnUsage](/powershell/module/teams/set-csonlinepstnusage).
 

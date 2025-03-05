@@ -62,7 +62,7 @@ When planning to support Teams calling in your enterprise, consider the followin
     - For more details about group call settings that you can manage with policy, see [Meeting policy overview](meeting-policies-overview.md) and [Meeting policies reference](settings-policies-reference.md#meeting-policies).
 
 - Capabilities
-    - To learn about what calling capabilities are included with the base Teams Enterprise license and additional calling capabilities that are unlocked with the Teams Phone license, see [Teams Phone feature overview](ere-s-what-you-get-with-phone-system.md).
+    - To learn about what calling capabilities are included with the base Teams Enterprise license and additional calling capabilities that are unlocked with the Teams Phone license, see [Teams Phone feature overview](here-s-what-you-get-with-phone-system.md).
  
 - PSTN solutions
     - To learn about all the ways you can connect PSTN access to your tenant, see [PSTN connectivity options](pstn-connectivity.md).
@@ -71,7 +71,7 @@ When planning to support Teams calling in your enterprise, consider the followin
     - For network best practices to support the optimal quality of Teams calls, see [Prepare your organization's network for Microsoft Teams](prepare-network.md).
 
 - Reporting
-    - To learn where you can analyze PSTN call usage, see [Microsoft Teams PSTN usage report](pstn-usage-report.md).
+    - To learn where you can analyze PSTN call usage, see [Microsoft Teams PSTN usage report](./teams-analytics-and-reports/pstn-usage-report.md).
     - To learn the various ways you can report on call usage and call performance, see [Set up call analytics for Microsoft Teams](set-up-call-analytics.md), [What is CQD?](cqd-what-is-call-quality-dashboard.md), and [Improve call quality in Microsoft Teams](monitor-call-quality-qos.md)
 
 ## Related topics

@@ -182,7 +182,7 @@ Get your educational institution excited about using Insights.
 Feel free to distribute the following material to your **educators**:
 
 - Check the [Insights support page](https://support.microsoft.com/office/27b56255-90c0-47aa-bac3-1c9f50157181) for more help.
-- Get up and running quickly – [get the Insights one-pager PDF](https://aka.ms/insights/start).
+- Get up and running quickly – [get the Insights one-pager PDF](https://adoption.microsoft.com/files/viva/insights/Microsoft-Viva-Insights-one-pager.pdf)
 - Read the [complete guide PDF](https://aka.ms/insights/guide).
 - Watch [step-by-step tutorials](https://aka.ms/insights/resources) on how to use Insights.
 - Train yourself with the [free Insights course](https://aka.ms/insights/course) at the Microsoft Educator Center

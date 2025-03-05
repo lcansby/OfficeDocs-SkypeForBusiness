@@ -1122,23 +1122,23 @@ items:
           href: what-is-phone-system-in-office-365.md
         - name: Teams Phone features
           href: here-s-what-you-get-with-phone-system.md
+            - name: Call forwarding and delegation settings
+              href: user-call-settings.md
+            - name: Shared line appearance
+              href: shared-line-appearance.md
+            - name: Configure call sharing and group call pickup
+              href: call-sharing-and-group-call-pickup.md          
+            - name: Private line
+              href: private-line.md
         - name: Plan your Teams voice solution
           href: cloud-voice-landing-page.md
         - name: Set up Teams Phone
           href: setting-up-your-phone-system.md
         - name: Dial pad configuration
           href: dial-pad-configuration.md
-        - name: Call forwarding and delegation settings
-          href: user-call-settings.md
-        - name: Shared line appearance
-          href: shared-line-appearance.md
-        - name: Configure call sharing and group call pickup
-          href: call-sharing-and-group-call-pickup.md          
-        - name: Private line
-          href: private-line.md
     - name: Voice policies and settings
       items:
-        - name: Configure calling policies
+        - name: Manage voice policies
           href: teams-calling-policy.md
         - name: Route inbound calls for users
           href: inbound-call-routing.md

@@ -1120,9 +1120,9 @@ items:
       items: 
         - name: What is Teams Phone
           href: what-is-phone-system-in-office-365.md
-        - name: Teams Phone features
+        - name: Teams Phone basics
           items:
-            - name: Teams Phone feature basics
+            - name: Teams Phone feature overview
               href: here-s-what-you-get-with-phone-system.md
             - name: Call forwarding and delegation settings
               href: user-call-settings.md

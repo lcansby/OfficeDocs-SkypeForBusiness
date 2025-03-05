@@ -133,25 +133,25 @@ To turn on Loop experiences in Teams, follow the instructions at [Settings manag
 
 If there are certain Facilitator skills you would like to manage for your users, review the following details.
 
-### Turn off AI Notes in chats
+### Turn off AI-generated notes for chats
 
-AI Notes in chats is turned on by default.
+AI-generated notes for chats is turned on by default.
 
 You can turn off Facilitator's ability to take notes in chats by completing the following steps.
 
 1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/dashboard) with your Teams admin credentials.
 1. In the left-side menu, expand the **Messaging** section and select **Messaging settings**.
 1. On the **Messaging settings** page, find the **Messaging notes** toggle.
-1. Change the toggle to the **Off** position to turn off AI Notes in chats.
+1. Change the toggle to the **Off** position to turn off AI-generated notes for chats.
 1. Select the **Save** button.
 
 You can also use PowerShell to manage the `MessagingNotes` setting with the [`Set-CsTeamsMessagingConfiguration`](/powershell/module/teams/set-csteamsmessagingconfiguration#-messagingnotes) cmdlet. For information about using PowerShell to manage users' Teams experience, see [Assign policies to users and groups](/assign-policies-users-and-groups#use-powershell-method).
 
-### Turn off AI Notes in meetings
+### Turn off AI-generated notes for meetings
 
-*Loop experiences in Teams* control AI Notes in meetings, which is enabled by default.
+*Loop experiences in Teams* control AI-generated notes for meetings, which is enabled by default.
 
-You can manage this control using the `IsCollabMeetingNotesFluidEnabled` setting in PowerShell. This setting applies to your entire tenant and can't be configured at the user level. This means that if you disable this setting, AI Notes in meetings is turned off for all users in your organization.
+You can manage this control using the `IsCollabMeetingNotesFluidEnabled` setting in PowerShell. This setting applies to your entire tenant and can't be configured at the user level. This means that if you disable this setting, AI-generated notes for meetings is turned off for all users in your organization.
 
 For instructions on managing this setting, see [Settings management for Loop functionality in Teams](/microsoft-365/loop/loop-components-configuration#settings-management-for-loop-functionality-in-teams).
 
@@ -179,8 +179,8 @@ Facilitator currently has the following limitations:
 
 ### Facilitator for meetings limitations
 
-- Facilitator's meeting notes aren't automatically collected as cloud attachments in [Microsoft Preview eDiscovery](/purview/ediscovery-cloud-attachments) because it isn't currently supported.
-- Meeting settings like [Prevent copy and paste](manage-chat-sensitive-meetings.md#prevent-copying-or-forwarding-chat-captions-and-transcripts) and [Watermarks](watermark-meeting-content-video.md) aren't applied to Facilitator's responses or notes in meetings.
+- Facilitator's AI-generated notes for meeting aren't automatically collected as cloud attachments in [Microsoft Preview eDiscovery](/purview/ediscovery-cloud-attachments) because it isn't currently supported.
+- Meeting settings like [Prevent copy and paste](manage-chat-sensitive-meetings.md#prevent-copying-or-forwarding-chat-captions-and-transcripts) and [Watermarks](watermark-meeting-content-video.md) aren't applied to Facilitator's responses or AI-generated notes in meetings.
 - Facilitator doesn't inherit the meeting's sensitivity label; however, a sensitivity label can be applied to Facilitator's notes' Loop component in the [Loop app or OneDrive](/purview/sensitivity-labels-loop).
 
 ## Related articles

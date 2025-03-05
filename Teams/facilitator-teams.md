@@ -140,7 +140,10 @@ AI Notes in chats is turned on by default.
 You can turn off Facilitator's ability to take notes in chats by completing the following steps.
 
 1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/dashboard) with your Teams admin credentials.
-1. ???
+1. In the left-side menu, expand the **Messaging** section and select **Messaging settings**.
+1. On the **Messaging settings** page, find the **Messaging notes** toggle.
+1. Change the toggle to the **Off** position to turn off AI Notes in chats.
+1. Select the **Save** button.
 
 You can also use PowerShell to manage the `MessagingNotes` setting with the [`Set-CsTeamsMessagingConfiguration`](/powershell/module/teams/set-csteamsmessagingconfiguration#-messagingnotes) cmdlet. For information about using PowerShell to manage users' Teams experience, see [Assign policies to users and groups](/assign-policies-users-and-groups#use-powershell-method).
 

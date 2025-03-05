@@ -1,6 +1,6 @@
 ---
 title: Set up Facilitator in Microsoft Teams
-author: DaniESmith
+author: DaniEASmith
 ms.author: danismith
 manager: jtremper
 ms.reviewer: solomon.alex, grace.culver
@@ -34,7 +34,7 @@ description: Learn about how Facilitator in Microsoft Teams enables group collab
 > - Question & answer (Q&A) about a chat or meeting chat
 > - Web search
 >
-> AI notes for chat and Live Notes for meetings are now generally available.
+> AI-generated notes for chats and meetings is now generally available.
 >
 > Features in preview might not be complete and could undergo changes before becoming available in the public release. They're provided for evaluation and exploration purposes only.
 >
@@ -77,7 +77,7 @@ For more information about security and privacy in Microsoft 365 Copilot, see th
 
 ## Facilitator licensing and permission requirements
 
-The following list contains the prerequisites for users to be able to use Facilitator features in Teams chats and meetings. Users must meet all of the following requirements:
+The following list contains the prerequisites for users to be able to use Facilitator. Users must meet all of the following requirements:
 
 - Have an eligible *Microsoft 365* base license.
   - For the list of eligible base licenses, see [Understand licensing requirements for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-licensing).

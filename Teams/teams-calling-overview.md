@@ -54,19 +54,26 @@ When licensed with **Teams Phone** and provisioned with a Public Switched Teleph
 
 ## Conceptual governance
 
-Microsoft Teams group calling is differentiated from Microsoft Teams meetings, in that meetings are originated as ad-hoc or scheduled ***events***, whereas group calls are originated as ***calls***.
-
 Microsoft Teams communication workloads can be categorized into three areas:
 
- - Teams meetings
- - Teams group calls
- - Teams calls
+- Teams meetings
+- Teams calls
+- Teams Phone calls
 
-The following visual represents these categories and the respective policies that govern their capabilities.
+Microsoft Teams calls and Phone calls are differentiated from Microsoft Teams meetings, in that native Teams calls and Teams Phone calls are originated as ***calls***, whereas TEams meetings are originated as ad-hoc or scheduled ***events***.
+
+The following visual represents these categories.
 
 :::image type="content" source="media/teams-voice-calling-policy-scope-small.png" alt-text="Screenshot that shows overview of the SMS enablement process for Teams Calling Plan numbers." lightbox="media/teams-voice-calling-policy-scope-small.png":::
 
-The scope of this calling overview includes Teams calls and group calls. For scope related to Teams meetings, see [Overview of meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md).
+One key concept to takeaway from this diagram is the understanding that while a Teams 1:1 call is managed by a calling policy, a Teams group call is managed by a meeting policy.
+
+For example, a Teams user may start a 1:1 call and then add another party to the call, making it a group call. When they add another party to a 1:1 call, Teams moves the call governance from the user's calling policy to the user's meeting policy.
+
+> [!NOTE]
+> If a user's calling policy setting is configured one way and their meeting policy is configured differently, they will have (and may report) different client experiences depending on whether they are in a call or a meeting. Microsoft recommends aligning a user's calling policy settings to match their meeting policy settings.
+
+The scope of this calling overview includes **Teams calls** and **Teams Phone calls**. For scope related to Teams meetings, see [Overview of meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md).
 
 ## Considerations
 

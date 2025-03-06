@@ -50,9 +50,9 @@ When licensed with **Teams Phone** and provisioned with a Public Switched Teleph
 - A PSTN solution defines how you choose to integrate a PSTN operator with your tenant for PSTN access and phone numbers. Microsoft Teams supports PSTN access with Microsoft Calling Plans and a variety of partner methods that give customers the flexibility to architect the best PSTN solution for their business.
 
 > [!NOTE]
-> A PSTN solution is separate from a Teams Phone license. The Teams Phone license entitles a Teams user to enhanced calling capabilities within the tenant, while a PSTN solution provides a customer's tenant with phone numbers and PSTN access to domestic, international, and emergency calling.
+> A PSTN solution is separate from a Teams Phone license. A PSTN solution provides a customer's tenant with phone numbers and PSTN access to domestic, international, and emergency calling. The Teams Phone license entitles a Teams user to enhanced calling capabilities within the tenant and access to the PSTN solution.
 
-### Calling governance
+### Calling policies
 
 Microsoft Teams communication workloads can be categorized into three areas:
 
@@ -60,20 +60,20 @@ Microsoft Teams communication workloads can be categorized into three areas:
 - Teams calls
 - Teams Phone calls
 
-Microsoft Teams calls and Phone calls are differentiated from Microsoft Teams meetings, in that native Teams calls and Teams Phone calls are originated as ***calls***, whereas Teams meetings are originated as ad-hoc or scheduled ***events***.
+The scope of this calling overview includes **Teams calls** and **Teams Phone calls**. For scope related to Teams meetings, see [Overview of meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md).
+
+Microsoft Teams calls and Phone calls are different from Microsoft Teams meetings. Native Teams calls and Teams Phone calls are originated as ***calls***, whereas Teams meetings are originated as ad-hoc or scheduled ***events***.
 
 The following visual represents these categories.
 
 :::image type="content" source="media/teams-voice-calling-policy-scope-small.png" alt-text="Screenshot that shows overview of the SMS enablement process for Teams Calling Plan numbers." lightbox="media/teams-voice-calling-policy-scope-small.png":::
 
-One key takeaway from this diagram is understanding that a Teams *1:1 call* is managed by a calling policy and a Teams *group call* is managed by a meeting policy.
+The key takeaway from this diagram is understanding that a Teams *1:1 call* is managed by a calling policy and a Teams *group call* is managed by a meeting policy.
 
 In the case where a Teams user starts a 1:1 call and then adds another party to the call, Teams moves the call from a peer-to-peer connection to a Teams conference connection anchored in the Teams meeting service, and governance moves from the user's calling policy to the user's meeting policy.
 
 > [!NOTE]
 > If a user's calling policy setting is configured one way and their meeting policy is configured differently, they will have (and may report) different client experiences depending on whether they are in a call or a meeting. Microsoft recommends aligning a user's calling policy settings to match their meeting policy settings.
-
-The scope of this calling overview includes **Teams calls** and **Teams Phone calls**. For scope related to Teams meetings, see [Overview of meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md).
 
 ### Considerations
 
@@ -107,6 +107,13 @@ When planning to support Teams calling in your enterprise, consider the followin
 
 - To learn where you can analyze PSTN call usage, see [Microsoft Teams PSTN usage report](./teams-analytics-and-reports/pstn-usage-report.md).
 - To learn the various ways you can report on call usage and call performance, see [Improve call quality in Microsoft Teams](monitor-call-quality-qos.md)
+
+#### Advanced calling features
+
+- [Plan for auto attendants and call queues](plan-auto-attendant-call-queue.md)
+- [SMS overview](sms-overview.md)
+- [Emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Teams Premium and Copilot](intelligent-recap-calls-meetings.md)
 
 ## Related topics
 

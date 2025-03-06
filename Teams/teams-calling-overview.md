@@ -49,33 +49,10 @@ When licensed with **Teams Phone** and provisioned with a Public Switched Teleph
 
 - A Teams Phone license unlocks additional calling features within the platform. To learn about what calling capabilities are included with the base Teams Enterprise license and what additional calling capabilities are unlocked with the Teams Phone license, see [Teams Phone feature overview](here-s-what-you-get-with-phone-system.md).
 
-- A PSTN solution defines how you choose to integrate a PSTN operator with your tenant for PSTN access and phone numbers. Microsoft Teams supports PSTN access with Microsoft Calling Plans and a variety of partner methods that give customers the flexibility to architect the best PSTN solution for their business.
+- A PSTN solution defines how you choose to integrate a PSTN operator with your tenant for PSTN access and phone numbers. Microsoft Teams supports PSTN access with Microsoft Calling Plans and a variety of partner methods that give you the flexibility to architect the best PSTN solution for your business.
 
 > [!NOTE]
 > A PSTN solution is separate from a Teams Phone license. A PSTN solution provides a customer's tenant with phone numbers and PSTN access to domestic, international, and emergency calling. The Teams Phone license entitles a Teams user to enhanced calling capabilities within the tenant and access to the PSTN solution.
-
-### Calling policies
-
-Microsoft Teams communication workloads can be categorized into three areas:
-
-- Teams meetings
-- Teams calls
-- Teams Phone calls
-
-The scope of this calling overview includes **Teams calls** and **Teams Phone calls**. For scope related to Teams meetings, see [Overview of meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md).
-
-Microsoft Teams calls and Phone calls are different from Microsoft Teams meetings. Native Teams calls and Teams Phone calls are originated as ***calls***, whereas Teams meetings are originated as ad-hoc or scheduled ***events***.
-
-The following visual represents these categories.
-
-:::image type="content" source="media/teams-voice-calling-policy-scope-small.png" alt-text="Screenshot that shows overview of the SMS enablement process for Teams Calling Plan numbers." lightbox="media/teams-voice-calling-policy-scope-small.png":::
-
-The key takeaway from this diagram is understanding that a Teams *1:1 call* is managed by a calling policy and a Teams *group call* is managed by a meeting policy.
-
-In the case where a Teams user starts a 1:1 call and then adds another party to the call, Teams moves the call from a peer-to-peer connection to a Teams conference connection, anchored in the Teams meeting service, and governance moves from the user's calling policy to the user's meeting policy.
-
-> [!NOTE]
-> If a user's calling policy settings are configured one way and their meeting policy settings are configured another way, the user will have (and may report) different client experiences depending on whether they are in a 1:1 call or a group call. Microsoft recommends aligning the settings for a user's calling policy with the settings of the user's meeting policy.
 
 ### Considerations
 
@@ -84,7 +61,7 @@ When planning to support Teams calling in your enterprise, consider the followin
 #### Administration
 
 - For permissions that allow you to administer policy in your tenant (with Teams Admin Center and with PowerShell), see [Teams administrator roles](using-admin-roles.md).
-- 
+
 #### Licensing
 
 - All users licensed for Teams are supported to make calls to other Teams users.

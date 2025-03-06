@@ -136,8 +136,6 @@ The following table describes platform support for Teams Premium advanced manage
 | Watermarks|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|Yes|
 | Who can record and transcribe|Yes|Yes|Yes|Yes|No|No|No|No|No|N/A|Yes|N/A|Yes|Yes|N/A|
 
-[PLACEHOLDER: MISSING- Prevent users from sharing content in external meetings]
-
 ## Personalized meetings
 
 Teams Premium provides more ways to personalize your Teams meeting experiences with the following key features. For an overview on personalized meetings, see [Custom meetings overview](custom-meetings-overview.md):

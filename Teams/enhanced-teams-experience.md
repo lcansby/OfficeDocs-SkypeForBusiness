@@ -238,6 +238,9 @@ Teams Premium provides more ways to elevate Teams town halls in your org with th
 
 The following table describes platform support for Teams Premium town hall features:
 
+> [!NOTE]
+> The view-only experience doesn't apply to town halls.
+
 |Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
 | Custom emails for town halls|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|Yes|Yes|
@@ -276,6 +279,9 @@ Teams Premium provides more ways to elevate Teams webinars in your org with the 
 #### Platform support for Premium webinars
 
 The following table describes platform support for Teams Premium webinar features:
+
+> [!NOTE]
+> The view-only experience doesn't apply to webinars.
 
 |Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|TFL-TFW InterOp|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
 | -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |

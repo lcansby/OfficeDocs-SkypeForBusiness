@@ -189,7 +189,7 @@ Currently, document skills includes summarization and question and answer (Q&A).
 - When a user turns on AI-generated notes during a meeting, they are prompted to select the language participants are speaking during the meeting. The language selected must match the spoken language during the meeting, or notes aren't generated.
 - Currently, AI-generated notes for meetings only supports meetings where a single language is spoken. If multiple languages are spoken during the meeting, notes are only taken for the portions of the meeting that are spoken in the selected meeting language.
 - Meeting settings like [Prevent copy and paste](manage-chat-sensitive-meetings.md#prevent-copying-or-forwarding-chat-captions-and-transcripts) and [Watermarks](watermark-meeting-content-video.md) aren't applied to Facilitator's responses or AI-generated notes in meetings.
-- Facilitator doesn't inherit the meeting's sensitivity label. Because to this, we recommend not using Facilitator during meetings where sensitive information is being discussed. For more information about meeting sensitivity labels, see [Configure Teams meetings with protection for sensitive data](configure-meetings-sensitive-protection.md).
+- Facilitator doesn't inherit the meeting's sensitivity label. Because of this, we recommend not using Facilitator during meetings where sensitive information is being discussed. For more information about meeting sensitivity labels, see [Configure Teams meetings with protection for sensitive data](configure-meetings-sensitive-protection.md).
 
 ## Related articles
 

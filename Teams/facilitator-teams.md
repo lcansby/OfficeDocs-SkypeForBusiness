@@ -157,13 +157,11 @@ For instructions on managing this setting, see [Settings management for Loop fun
 
 ### Block web search for Facilitator
 
-If you don't want Facilitator to access information from the web, complete the following steps.
+For users to ask Facilitator questions grounded in web search information, ensure **Allow the use of additional optional connected experiences in Office** and **Allow web search in Copilot** settings are enabled.
 
-1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) using your admin credentials.
-1. On the left-side menu, select **Show all** and expand the **Settings** section.
-1. Select **Search & intelligence**.
-1. On the **Search & intelligence** page, select the **Configurations** tab.
-1. Find the **???** setting.
+The **Allow the use of additional optional connected experiences in Office** setting enables Microsoft services to connect with one another, including connecting to Bing. This setting is controlled by the [Cloud Policy service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy). For more information about how to manage the optional connected experiences setting, see [Configure the policy setting by using Cloud Policy](/microsoft-365-apps/privacy/office-web-privacy-controls#configure-the-policy-setting-by-using-cloud-policy).
+
+The **Allow web search in Copilot** setting controls users' access to web search information in their Copilot experiences. For more information, see [Controls available to manage web search](/copilot/microsoft-365/manage-public-web-access#controls-available-to-manage-web-search).
 
 ## Facilitator limitations
 
@@ -174,14 +172,23 @@ Facilitator currently has the following limitations:
   - Unlicensed users can't see Facilitator's notes in chats, but they can see Facilitator's notes in meetings.
 - If a licensed user doesn't have the full chat history, they can't @mention Facilitator.
 - Currently, Facilitator isn't supported in [external chats and meetings](trusted-organizations-external-meetings-chat.md).
-- Document summarization and Q&A only support Word, PowerPoint, and PDF files.
 - Retention labels aren't supported for cloud attachments in AI-generated notes.
+
+### Document skills limitations
+
+Currently, document skills includes summarization and question and answer (Q&A).
+
+- Document skills only support Word, PowerPoint, and PDF files.
+- Document skills are only triggered if everyone in the chat has permission to the document.
+- Document skills are limited to chats with 30 people or less. If there are more than 30 people in the chat, document skills aren't available.
 
 ### Facilitator for meetings limitations
 
 - Facilitator's AI-generated notes for meeting aren't automatically collected as cloud attachments in [Microsoft Preview eDiscovery](/purview/ediscovery-cloud-attachments) because it isn't currently supported.
+- When a user turns on AI-generated notes during a meeting, they are prompted to select the language participants are speaking during the meeting. The language selected must match the spoken language during the meeting, or notes aren't generated.
+- Currently, AI-generated notes for meetings only supports meetings where a single language is spoken. If multiple languages are spoken during the meeting, notes are only taken for the portions of the meeting that are spoken in the selected meeting language.
 - Meeting settings like [Prevent copy and paste](manage-chat-sensitive-meetings.md#prevent-copying-or-forwarding-chat-captions-and-transcripts) and [Watermarks](watermark-meeting-content-video.md) aren't applied to Facilitator's responses or AI-generated notes in meetings.
-- Facilitator doesn't inherit the meeting's sensitivity label; however, a sensitivity label can be applied to Facilitator's notes' Loop component in the [Loop app or OneDrive](/purview/sensitivity-labels-loop).
+- Facilitator doesn't inherit the meeting's sensitivity label. Because to this, we recommend not using Facilitator during meetings where sensitive information is being discussed. For more information about meeting sensitivity labels, see [Configure Teams meetings with protection for sensitive data](configure-meetings-sensitive-protection.md).
 
 ## Related articles
 

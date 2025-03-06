@@ -75,7 +75,7 @@ The key takeaway from this diagram is understanding that a Teams *1:1 call* is m
 In the case where a Teams user starts a 1:1 call and then adds another party to the call, Teams moves the call from a peer-to-peer connection to a Teams conference connection, anchored in the Teams meeting service, and governance moves from the user's calling policy to the user's meeting policy.
 
 > [!NOTE]
-> If a user's calling policy setting is configured one way and their meeting policy is configured differently, they will have (and may report) different client experiences depending on whether they are in a call or a meeting. Microsoft recommends aligning a user's calling policy settings to match their meeting policy settings.
+> If a user's calling policy settings are configured one way and their meeting policy settings are configured another way, the user will have (and may report) different client experiences depending on whether they are in a 1:1 call or a group call. Microsoft recommends aligning the settings for a user's calling policy with the settings of the user's meeting policy.
 
 ### Considerations
 

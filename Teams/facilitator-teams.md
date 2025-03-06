@@ -173,6 +173,7 @@ Facilitator currently has the following limitations:
 - If a licensed user doesn't have the full chat history, they can't @mention Facilitator.
 - Currently, Facilitator isn't supported in [external chats and meetings](trusted-organizations-external-meetings-chat.md).
 - Retention labels aren't supported for cloud attachments in AI-generated notes.
+- Facilitator only supports the languages listed at [Supported languages for Microsoft Copilot](https://support.microsoft.com/office/supported-languages-for-microsoft-copilot-94518d61-644b-4118-9492-617eea4801d8).
 
 ### Document skills limitations
 

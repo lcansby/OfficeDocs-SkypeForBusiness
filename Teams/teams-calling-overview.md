@@ -32,7 +32,27 @@ This article is for IT administrators and IT professionals who are researching t
 
 Microsoft Teams includes support for 1:1 *and* group calling from one Teams client to any other internal or external Teams client(s).
 
+## Basic calling
+
+Microsoft Teams native calling features are enabled by default. Calling can be disabled and enabled per calling policy with the [Make private calls setting](settings-policies-reference.md).
+If the **Make private calls setting** is disabled in the calling policy, users with that policy will not see the **Calls** app in their Teams client, will not be able to escalate Chat conversations to audio calls, and will not be able to receive incoming calls.
+
+With **Make private calls setting** enabled, users will have native calling capabilities to call from the **Calls** app and escalate Chat conversations to audio calls.
+
+The Calls app in Teams allows users to originate calls to other Teams users, view call history, and access voicemail. It also provides access to their forwarding and audio settings.
+
+## Teams Phone calling
+
 When licensed with **Teams Phone** and provisioned with a Public Switched Telephone Network (PSTN) solution, Microsoft Teams also includes support for 1:1 and group calling from a Teams client to any PSTN telephone number.
+
+- A Teams Phone license unlocks additional calling features within the platform. To learn about what calling capabilities are included with the base Teams Enterprise license and what additional calling capabilities are unlocked with the Teams Phone license, see [Teams Phone feature overview](here-s-what-you-get-with-phone-system.md).
+
+- A PSTN solution defines how you choose to integrate a PSTN operator with your tenant for PSTN access and phone numbers. Microsoft Teams supports PSTN access with Microsoft Calling Plans and a variety of partner methods that give customers the flexibility to architect the best PSTN solution for their business.
+
+> [!NOTE]
+> A PSTN solution is separate from a Teams Phone license. The Teams Phone license entitles a Teams user to enhanced calling capabilities within the tenant, while a PSTN solution provides a customer's tenant with phone numbers and PSTN access to domestic, international, and emergency calling.
+
+## Conceptual governance
 
 Microsoft Teams group calling is differentiated from Microsoft Teams meetings, in that meetings are originated as ad-hoc or scheduled ***events***, whereas group calls are originated as ***calls***.
 
@@ -48,6 +68,8 @@ The following visual represents these categories and the respective policies tha
 
 The scope of this calling overview includes Teams calls and group calls. For scope related to Teams meetings, see [Overview of meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md).
 
+## Considerations
+
 When planning to support Teams calling in your enterprise, consider the following topics:
 
 - Licensing
@@ -60,9 +82,6 @@ When planning to support Teams calling in your enterprise, consider the followin
     - To learn about general Teams policy administration concepts, see [Manage Teams with policies](manage-teams-with-policies.md).
     - For more details about 1:1 calling settings that you can manage with policy, see [Manage voice policies](teams-calling-policy.md).
     - For more details about group call settings that you can manage with policy, see [Meeting policy overview](meeting-policies-overview.md) and [Meeting policies reference](settings-policies-reference.md#meeting-policies).
-
-- Capabilities
-    - To learn about what calling capabilities are included with the base Teams Enterprise license and additional calling capabilities that are unlocked with the Teams Phone license, see [Teams Phone feature overview](here-s-what-you-get-with-phone-system.md).
  
 - PSTN solutions
     - To learn about all the ways you can connect PSTN access to your tenant, see [PSTN connectivity options](pstn-connectivity.md).

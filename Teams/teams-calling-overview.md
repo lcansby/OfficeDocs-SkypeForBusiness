@@ -8,6 +8,7 @@ manager: pamgreen
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-calling
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -62,6 +63,9 @@ When planning to support Teams calling in your enterprise, consider the followin
 
 - For permissions that allow you to administer policy in your tenant (with Teams Admin Center and with PowerShell), see [Teams administrator roles](using-admin-roles.md).
 
+> [!div class="nextstepaction"]
+> [Teams administrator roles](using-admin-roles.md)
+
 #### Licensing
 
 - All users licensed for Teams are supported to make calls to other Teams users.
@@ -73,18 +77,27 @@ When planning to support Teams calling in your enterprise, consider the followin
 - To learn about general Teams policy administration concepts, see [Manage Teams with policies](manage-teams-with-policies.md).
 - For more details about ***1:1 calling*** settings that you can manage with policy, see [Manage voice policies](teams-calling-policy.md).
 - For more details about ***group calling*** settings that you can manage with policy, see [Meeting policy overview](meeting-policies-overview.md) and [Meeting policies reference](settings-policies-reference.md#meeting-policies).
- 
+
 #### PSTN solutions
 
-- To learn about all the ways you can connect PSTN access to your tenant, see [PSTN connectivity options](pstn-connectivity.md).
+To learn about all the ways you can connect PSTN access to your tenant, see [PSTN connectivity options](pstn-connectivity.md).
+
+> [!div class="nextstepaction"]
+> [PSTN connectivity options](pstn-connectivity.md)
 
 #### Phone numbers
 
-- To learn about acquiring and managing phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md)
+To learn about acquiring and managing phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md).
+
+> [!div class="nextstepaction"]
+> [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md)
 
 #### Network preparation
 
-- For network best practices to support the optimal quality of Teams calls, see [Prepare your organization's network for Microsoft Teams](prepare-network.md).
+For network best practices to support the optimal quality of Teams calls, see [Prepare your organization's network for Microsoft Teams](prepare-network.md).
+
+> [!div class="nextstepaction"]
+> [Prepare your organization's network for Microsoft Teams](prepare-network.md)
 
 #### Reporting
 

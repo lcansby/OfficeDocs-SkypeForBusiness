@@ -32,29 +32,6 @@ In Microsoft Teams, calling policies control which calling and call forwarding f
 
 You can use the global (Org-wide default) policy that's created automatically or create and assign custom policies.
 
-## Calling policy relation with meeting policy
-
-Microsoft Teams communication workloads can be categorized into three areas:
-
-- Teams meetings
-- Teams calls
-- Teams Phone calls
-
-The scope of this calling overview includes **Teams calls** and **Teams Phone calls**. For scope related to Teams meetings, see [Overview of meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md).
-
-Microsoft Teams calls and Phone calls are different from Microsoft Teams meetings. Native Teams calls and Teams Phone calls are originated as ***calls***, whereas Teams meetings are originated as ad-hoc or scheduled ***events***.
-
-The following visual represents these categories.
-
-:::image type="content" source="media/teams-voice-calling-policy-scope-small.png" alt-text="Screenshot that shows overview of the SMS enablement process for Teams Calling Plan numbers." lightbox="media/teams-voice-calling-policy-scope-small.png":::
-
-The key takeaway from this diagram is understanding that a Teams *1:1 call* is managed by a calling policy and a Teams *group call* is managed by a meeting policy.
-
-In the case where a Teams user starts a 1:1 call and then adds another party to the call, Teams moves the call from a peer-to-peer connection to a Teams conference connection, anchored in the Teams meeting service, and governance moves from the user's calling policy to the user's meeting policy.
-
-> [!NOTE]
-> If a user's calling policy settings are configured one way and their meeting policy settings are configured another way, the user will have (and may report) different client experiences depending on whether they are in a 1:1 call or a group call. Microsoft recommends aligning the settings for a user's calling policy with the settings of the user's meeting policy.
-
 ## Create a custom calling policy
 
 Follow these steps to create a custom calling policy.

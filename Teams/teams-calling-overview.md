@@ -68,15 +68,15 @@ The following license combinations grant end users with the minimal Teams Phone 
 
 The legacy and new *Microsoft 365 E5* and the *Microsoft Teams Phone Standard* licenses both include Teams Phone for accounts assigned to end users.
 
-For more information about licenses to use with Teams Phone, see [Teams add-on license options](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+For more information about licenses to use with Teams Phone, see [Teams add-on license options](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 #### Licensing Teams Phone for resource accounts
 
-In scenarios where you want to provision Teams devices for PSTN calling, for example, from common area phones, shared devices, or an account that isn't assigned to an end user, you must assign the following specialized licenses:
+In scenarios where you want to provision Teams devices for PSTN calling, for example, from common area phones, shared devices, or an account that isn't assigned to an end user, you must assign one of the following specialized licenses:
 
-- **Microsoft Teams Shared Devices** - applied to resource accounts that support common area telephones
-- **Microsoft Teams Room Pro** - applied to resource accounts that support audio and video hardware for collaboration spaces
-- **Microsoft Teams Phone Resource Account** - applied to resource accounts that support voice applications like Teams auto attendants and call queues.
+- [Microsoft Teams Shared Devices](./phones/phones-for-teams.md) - applied to resource accounts that support common area telephones
+- [Microsoft Teams Room Pro](./rooms/rooms-licensing.md) - applied to resource accounts that support audio and video hardware for collaboration spaces
+- [Microsoft Teams Phone Resource Account](manage-resource-accounts.md#obtain-microsoft-teams-phone-resource-account-licenses) - applied to resource accounts that support voice applications like Teams auto attendants and call queues.
 
 Resource accounts that use these licenses don't require licensing for *Microsoft Teams Enterprise*.
 
@@ -87,19 +87,19 @@ A PSTN solution defines how you choose to integrate a PSTN operator with your te
 > [!NOTE]
 > A PSTN solution is separate from a Teams Phone license. A PSTN solution provides a customer's tenant with phone numbers and PSTN access to domestic, international, and emergency calling. The Teams Phone license entitles a Teams user to enhanced calling capabilities within the tenant and access to the PSTN solution.
 
-To connect Teams Phone to the PSTN, you can choose from the following options:
+To connect Teams Phone to the PSTN, you can choose from one or any combination of the following options:
 
-- [**Calling Plan**](calling-plans-for-office-365.md) - An all-in-the-cloud solution with Microsoft as your PSTN carrier.
-- [**Operator Connect**](operator-connect-plan.md) - With Operator Connect, if your existing carrier participates in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs).
-- [**Teams Phone Mobile**](operator-connect-mobile-plan.md) - With Microsoft Teams Phone Mobile, a user’s SIM-enabled phone number is also their Teams phone number. If your existing carrier participates in the Microsoft Teams Phone Mobile program, they can manage the service for bringing PSTN calling to Teams.
-- [**Direct Routing**](direct-routing-plan.md) - Enables you to use your own PSTN carrier by connecting your Session Border Controller(s) (SBCs) to Teams Phone.
+- [**Calling Plan**](calling-plans-for-office-365.md) - An all-in-the-cloud solution with Microsoft as your PSTN operator.
+- [**Operator Connect**](operator-connect-plan.md) - With Operator Connect, PSTN operators who participate in Microsoft's Operator Connect program provide your tenant's PSTN access, phone numbers, and usage plans.
+- [**Teams Phone Mobile**](operator-connect-mobile-plan.md) - With Microsoft Teams Phone Mobile, a user’s SIM-enabled phone number is also their Teams phone number.
+- [**Direct Routing**](direct-routing-plan.md) - Enables you to use your own PSTN operator through a Session Border Controller intergration to your tenant, known as Direct Routing.
 
-To learn about all the ways you can connect PSTN access to your tenant, see [PSTN connectivity options](pstn-connectivity.md).
+To learn about all the ways you can connect your tenant with the PSTN, see [PSTN connectivity options](pstn-connectivity.md).
 
 > [!div class="nextstepaction"]
 > [PSTN connectivity options](pstn-connectivity.md)
 
-### Considerations
+## Additional Considerations for managing Teams Phone
 
 When planning to support Teams calling in your enterprise, also consider the following topics:
 

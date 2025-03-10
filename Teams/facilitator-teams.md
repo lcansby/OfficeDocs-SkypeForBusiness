@@ -72,10 +72,8 @@ In preview: Facilitator in chats and meetings supports sensitivity labels and en
 
 Facilitator AI-generated notes are supported by [auditing events](/purview/audit-log-activities#microsoft-teams-activities) that surface in [Data Security Posture Management for AI](/purview/ai-microsoft-purview#data-security-posture-management-for-ai-provides-insights-policies-and-controls-for-ai-apps) and can be used by [eDiscovery with a KQL query](/purview/edisc-keyword-query-language).
 
-To [automatically retain or delete](/purview/retention) Facilitator data, use the following retention locations:
-- Facilitator in chats and meetings: **Microsoft Copilot experiences** for retention policies
-- Facilitator AI-generated notes in chates: **Teams chats** or **Teams chat and Copilot interactions** for retention policies
-- Facilitor AI-generated notes in meetings: **OneDrive accounts** for retention policies or retention labels
+To [automatically retain or delete](/purview/retention) Facilitator in chats and meetings, and for AI-generated notes in chat, use a Microsoft Purview Data Lifecycle Management retention policy with the **Teams chat** location. Because Facilitator data in meetings is [stored in OneDrive](#facilitator-data-storage), these notes can be automatically retained or deleted with a retention policy or retention labels with the **OneDrive accounts** location.
+
 
 Other Microsoft Purview solutions either aren't applicable for Facilitator or aren't yet supported.
 
@@ -199,7 +197,7 @@ Currently, document skills includes summarization and question and answer (Q&A).
 - When a user turns on AI-generated notes during a meeting, they are prompted to select the language participants are speaking during the meeting. The language selected must match the spoken language during the meeting, or notes aren't generated.
 - Currently, AI-generated notes for meetings only supports meetings where a single language is spoken. If multiple languages are spoken during the meeting, notes are only taken for the portions of the meeting that are spoken in the selected meeting language.
 - Meeting settings like [Prevent copy and paste](manage-chat-sensitive-meetings.md#prevent-copying-or-forwarding-chat-captions-and-transcripts) and [Watermarks](watermark-meeting-content-video.md) aren't applied to Facilitator's responses or AI-generated notes in meetings.
-- Facilitator doesn't inherit the meeting's sensitivity label. Because of this, we recommend not using Facilitator during meetings where sensitive information is being discussed. For more information about meeting sensitivity labels, see [Configure Teams meetings with protection for sensitive data](configure-meetings-sensitive-protection.md).
+- Facilitator AI-generated notes don't inherit the meeting's sensitivity label. Because of this limitation, consider not using Facilitator during meetings where sensitive information is being discussed. For more information about meeting sensitivity labels, see [Configure Teams meetings with protection for sensitive data](configure-meetings-sensitive-protection.md).
 
 ## Related articles
 

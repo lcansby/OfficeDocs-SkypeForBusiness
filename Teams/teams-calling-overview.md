@@ -33,7 +33,7 @@ This article is for IT administrators and IT professionals who are researching t
 
 ### Native Teams calling
 
-Microsoft Teams includes support for 1:1 *and* group calling from one Teams client to any other internal or external Teams client(s).
+Microsoft Teams is a Microsoft 365 application that is granted with a *Microsoft Teams Enterprise* license. Microsoft Teams includes support for 1:1 *and* group calling from one Teams client to any other internal or external Teams client(s).
 
 The Calls app in Teams allows users to originate calls to other Teams users, view call history, and access voicemail. It also provides an alternative way to access their forwarding and audio settings.
 
@@ -46,14 +46,29 @@ Microsoft Teams native calling features are enabled by default.
 
 ### Teams Phone calling
 
-When licensed with **Teams Phone** and provisioned with a Public Switched Telephone Network (PSTN) solution, Microsoft Teams also includes support for 1:1 and group calling from a Teams client to any PSTN telephone number.
+When a *Microsoft Teams Enterprise* license is combined with a **Teams Phone** license and provisioned with a Public Switched Telephone Network (PSTN) solution, Microsoft Teams also includes support for 1:1 and group calling from a Teams client to any PSTN telephone number.
 
-- A Teams Phone license unlocks additional calling features within the platform. To learn about what calling capabilities are included with the base Teams Enterprise license and what additional calling capabilities are unlocked with the Teams Phone license, see [Teams Phone feature overview](here-s-what-you-get-with-phone-system.md).
+**Teams Phone** entitlement is accomplished with any of the following license combinations that grants a user with both **Microsoft Teams** and **Microsoft 365 Phone System**:
+
+- A legacy ***Microsoft 365 E5*** license
+- A new ***Microsoft 365 E5*** license combined with a ***Microsoft Teams Enterprise*** license
+- A ***Microsoft Teams Enterprise*** license combined with ***Microsoft Teams Phone Standard*** license
+
+- A ***Microsoft 365 Phone System*** solution unlocks additional call control features for a ***Microsoft Teams*** user. To learn about what calling capabilities are included with the base Teams Enterprise license and what additional calling capabilities are unlocked with the Teams Phone license, see [Teams Phone feature overview](here-s-what-you-get-with-phone-system.md).
 
 - A PSTN solution defines how you choose to integrate a PSTN operator with your tenant for PSTN access and phone numbers. Microsoft Teams supports PSTN access with Microsoft Calling Plans and a variety of partner methods that give you the flexibility to architect the best PSTN solution for your business.
 
 > [!NOTE]
 > A PSTN solution is separate from a Teams Phone license. A PSTN solution provides a customer's tenant with phone numbers and PSTN access to domestic, international, and emergency calling. The Teams Phone license entitles a Teams user to enhanced calling capabilities within the tenant and access to the PSTN solution.
+
+In scenarios where you are provisioning Teams devices for the purpose of PSTN calling from common area phones or shared devices, the following specialized licenses are used:
+
+- **Microsoft Teams Shared Devices**
+  - applied to resource accounts that support common area telephones
+- **Microsoft Teams Room Pro**
+  - applied to resource accounts that support collaboration room audio/video kits
+- **Microsoft Teams Phone Resource Account**
+  - applied to resource accounts that support voice applications like auto attendants and call queues
 
 ### Considerations
 

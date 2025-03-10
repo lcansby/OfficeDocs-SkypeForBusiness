@@ -97,6 +97,11 @@ To learn about all the ways you can connect PSTN access to your tenant, see [PST
 
 When planning to support Teams calling in your enterprise, consider the following topics:
 
+#### Identity management
+
+The way telephone numbers get assigned to people and to shared devices is by assigning the number to a user account. A user account must exist and be licensed before a phone number can be assigned. To learn more about identity management and licensing in M365, see [Assign Microsoft 365 licenses to user accounts](/microsoft-365/enterprise/assign-licenses-to-user-accounts).
+To support the users signing into Teams so they can use Teams Phone, see [Set up Teams in your org](deploy-enterprise-setup.md) and [Sign in to Microsoft Teams](sign-in-teams.md).
+
 #### Administration
 
 - For permissions that allow you to administer policy in your tenant (with Teams Admin Center and with PowerShell), see [Teams administrator roles](using-admin-roles.md).
@@ -105,6 +110,8 @@ When planning to support Teams calling in your enterprise, consider the followin
 > [Teams administrator roles](using-admin-roles.md)
 
 #### Policy
+
+Microsoft Teams Phone supports a wide array of features that are controlled by policy. For example, Teams Administrators can reduce PSTN costs by creating a Shared Calling policy. Traditional phone system features, like caller ID, call hold, call park, call recording, and more, are all administered through policy.
 
 - To learn about general Teams policy administration concepts, see [Manage Teams with policies](manage-teams-with-policies.md).
 - For more details about ***1:1 calling*** settings that you can manage with policy, see [Manage voice policies](teams-calling-policy.md).

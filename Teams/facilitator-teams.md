@@ -63,9 +63,19 @@ Users are shown a notice when their prompts are private or shared with others.
 
 Facilitator, Copilot, and Microsoft 365 are built on Microsoft's comprehensive approach to security, compliance, and privacy.
 
-When you use Microsoft Purview for your security and compliance management, Facilitator is supported by new [auditing events](/purview/audit-log-activities#microsoft-teams-activities) that surface in [Data Security Posture Management for AI](/purview/ai-microsoft-purview#data-security-posture-management-for-ai-provides-insights-policies-and-controls-for-ai-apps) and can be used by [eDiscovery with a KQL query](/purview/edisc-keyword-query-language).
+When you use Microsoft Purview for your security and compliance management, Facilitator is supported in the following ways:
 
-To [automatically retain or delete](/purview/retention) Facilitator data in chat, use a Microsoft Purview Data Lifecycle Management retention policy with the **Teams chat** location. Because Facilitator data in meetings is [stored in OneDrive](#facilitator-data-storage), these notes can be automatically retained or deleted  with a retention policy or retention labels with the **OneDrive accounts** location.
+In preview: Facilitator in chats and meetings supports sensitivity labels and encrypted files in the same way as Microsoft Copilot chat supports your sensitive data. For example, Facilitator can't access labeled and encrypted files if the person requesting the information from Facilitator doesn't have the EXTRACT usage right, and referenced files display their sensitivity label. For more information, see [Microsoft Purview strengthens information protection for Copilot](/purview/ai-microsoft-purview.md#microsoft-purview-strengthens-information-protection-for-copilot) and [Information protection considerations for Copilot](/purview/ai-microsoft-purview-considerations#information-protection-considerations-for-copilot).
+
+> [!IMPORTANT]
+> Although Facilitator honors any access control settings and the EXTRACT usage right for the user asking for information, Facilitator might return information that other participants don't have permissions to access. This is different from Copilot, where the responses returned are private to the person asking Copilot for information.    
+
+Facilitator AI-generated notes are supported by [auditing events](/purview/audit-log-activities#microsoft-teams-activities) that surface in [Data Security Posture Management for AI](/purview/ai-microsoft-purview#data-security-posture-management-for-ai-provides-insights-policies-and-controls-for-ai-apps) and can be used by [eDiscovery with a KQL query](/purview/edisc-keyword-query-language).
+
+To [automatically retain or delete](/purview/retention) Facilitator data, use the following retention locations:
+- Facilitator in chats and meetings: **Microsoft Copilot experiences** for retention policies
+- Facilitator AI-generated notes in chates: **Teams chats** or **Teams chat and Copilot interactions** for retention policies
+- Facilitor AI-generated notes in meetings: **OneDrive accounts** for retention policies or retention labels
 
 Other Microsoft Purview solutions either aren't applicable for Facilitator or aren't yet supported.
 

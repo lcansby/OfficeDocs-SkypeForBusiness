@@ -1595,6 +1595,8 @@ items:
                       href: app-support-on-Teams-panels.md
                     - name: Check-in and auto release
                       href: devices/check-in-and-auto-release.md
+                    - name: Occupancy states
+                      href: devices/teams-panels-occupancy.md
                     - name: Reserve rooms with a QR code
                       href: devices/reserving-rooms-with-a-qr-code.md
                     - name: Custom backgrounds on Teams panels

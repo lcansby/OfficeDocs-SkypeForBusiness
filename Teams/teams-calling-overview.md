@@ -48,6 +48,49 @@ Microsoft Teams native calling is turned on via policy, by default.
 > If the **Make private calls setting** is turned off in the calling policy, users with that policy can't see the **Calls** app in their Teams client, can't escalate Chat conversations to audio calls, and can't receive incoming calls.
 > With **Make private calls setting** turned on, users can call from the **Calls** app and escalate Chat conversations to audio calls.
 
+## Additional Considerations for managing Teams calling
+
+When planning to support Teams calling in your enterprise, also consider the following topics:
+
+#### Administration
+
+For permissions that allow you to administer policy in your tenant (with Teams Admin Center and with PowerShell), see [Teams administrator roles](using-admin-roles.md).
+
+> [!div class="nextstepaction"]
+> [Teams administrator roles](using-admin-roles.md)
+
+#### Policy
+
+Microsoft Teams Phone supports a wide array of features that are controlled by policy. For example, Teams Administrators can reduce PSTN costs by creating a Shared Calling policy. Traditional phone system features, like caller ID, call hold, call park, call recording, and more, are all administered through policy.
+
+For more information about ***1:1 calling*** settings that you can manage with policy, see [Manage voice policies](teams-calling-policy.md).
+
+For more information about ***group calling*** settings that you can manage with policy, see [Meeting policy overview](meeting-policies-overview.md) and [Meeting policies reference](settings-policies-reference.md#meeting-policies).
+
+To learn about general Teams policy administration concepts, see [Manage Teams with policies](manage-teams-with-policies.md).
+
+> [!div class="nextstepaction"]
+> [Manage Teams with policies](manage-teams-with-policies.md)
+
+### Network preparation
+
+For network best practices to support the optimal quality of Teams calls, see [Prepare your organization's network for Microsoft Teams](prepare-network.md).
+
+> [!div class="nextstepaction"]
+> [Prepare your organization's network for Microsoft Teams](prepare-network.md)
+
+### Reporting
+
+- To learn where you can analyze PSTN call usage, see [Microsoft Teams PSTN usage report](./teams-analytics-and-reports/pstn-usage-report.md).
+- To learn about the various tools you can use to report on call usage and call performance, such as Call Quality Dashboard (CQD), Call analytics, Real-time analytics, and Quality of Service (QoS), see [Improve call quality in Microsoft Teams](monitor-call-quality-qos.md).
+
+## Teams Phone and calling with external numbers
+
+#### Identity management
+
+The way telephone numbers get assigned to people and to shared devices is by assigning the number to a user account. A user account must exist and be licensed before a phone number can be assigned. To learn more about identity management and licensing in M365, see [Assign Microsoft 365 licenses to user accounts](/microsoft-365/enterprise/assign-licenses-to-user-accounts).
+To support the users signing into Teams so they can use Teams Phone, see [Set up Teams in your org](deploy-enterprise-setup.md) and [Sign in to Microsoft Teams](sign-in-teams.md).
+
 ## Teams Phone calling
 
 When you grant the **Teams Phone** capability to an account *and* equip your tenant with a Public Switched Telephone Network (PSTN) solution, then Microsoft Teams includes support for 1:1 calling and group calling from a Teams client to any PSTN telephone number.
@@ -99,53 +142,12 @@ To learn about all the ways you can connect your tenant with the PSTN, see [PSTN
 > [!div class="nextstepaction"]
 > [PSTN connectivity options](pstn-connectivity.md)
 
-## Additional Considerations for managing Teams Phone
-
-When planning to support Teams calling in your enterprise, also consider the following topics:
-
-#### Identity management
-
-The way telephone numbers get assigned to people and to shared devices is by assigning the number to a user account. A user account must exist and be licensed before a phone number can be assigned. To learn more about identity management and licensing in M365, see [Assign Microsoft 365 licenses to user accounts](/microsoft-365/enterprise/assign-licenses-to-user-accounts).
-To support the users signing into Teams so they can use Teams Phone, see [Set up Teams in your org](deploy-enterprise-setup.md) and [Sign in to Microsoft Teams](sign-in-teams.md).
-
-#### Administration
-
-For permissions that allow you to administer policy in your tenant (with Teams Admin Center and with PowerShell), see [Teams administrator roles](using-admin-roles.md).
-
-> [!div class="nextstepaction"]
-> [Teams administrator roles](using-admin-roles.md)
-
-#### Policy
-
-Microsoft Teams Phone supports a wide array of features that are controlled by policy. For example, Teams Administrators can reduce PSTN costs by creating a Shared Calling policy. Traditional phone system features, like caller ID, call hold, call park, call recording, and more, are all administered through policy.
-
-For more information about ***1:1 calling*** settings that you can manage with policy, see [Manage voice policies](teams-calling-policy.md).
-
-For more information about ***group calling*** settings that you can manage with policy, see [Meeting policy overview](meeting-policies-overview.md) and [Meeting policies reference](settings-policies-reference.md#meeting-policies).
-
-To learn about general Teams policy administration concepts, see [Manage Teams with policies](manage-teams-with-policies.md).
-
-> [!div class="nextstepaction"]
-> [Manage Teams with policies](manage-teams-with-policies.md)
-
 ### Phone numbers
 
 During and after establishing a PSTN solution, you might need to acquire, port, and manage phone numbers. To learn more about phone number administration, see [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md).
 
 > [!div class="nextstepaction"]
 > [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md)
-
-### Network preparation
-
-For network best practices to support the optimal quality of Teams calls, see [Prepare your organization's network for Microsoft Teams](prepare-network.md).
-
-> [!div class="nextstepaction"]
-> [Prepare your organization's network for Microsoft Teams](prepare-network.md)
-
-### Reporting
-
-- To learn where you can analyze PSTN call usage, see [Microsoft Teams PSTN usage report](./teams-analytics-and-reports/pstn-usage-report.md).
-- To learn about the various tools you can use to report on call usage and call performance, such as Call Quality Dashboard (CQD), Call analytics, Real-time analytics, and Quality of Service (QoS), see [Improve call quality in Microsoft Teams](monitor-call-quality-qos.md).
 
 ### Advanced calling features
 

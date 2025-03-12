@@ -1134,8 +1134,6 @@ items:
               href: call-sharing-and-group-call-pickup.md          
             - name: Private line
               href: private-line.md
-        - name: Plan your Teams voice solution
-          href: cloud-voice-landing-page.md
         - name: Set up Teams Phone
           href: setting-up-your-phone-system.md
         - name: Dial pad configuration

@@ -42,7 +42,7 @@ To make and receive external calls, Teams Phone provides add-on options for conn
 - For Teams Phone licensing, see [Teams Phone licensing](teams-phone-licensing.md).
 - For PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [Connect to the PSTN](#pstn-options).
 
-To see more about Teams calling in general, see [Teams calling overview](teams-calling-overview.md).
+To see more about Teams calling in general, see [Teams calling overview](cloud-voice-landing-page.md).
 
 ## Teams Phone features
 

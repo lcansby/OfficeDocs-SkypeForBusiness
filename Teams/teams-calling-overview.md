@@ -86,10 +86,10 @@ For network best practices to support the optimal quality of Teams calls, see [P
 
 #### Reporting call activity
 
-Native Teams *call history* for end-users, like other end-user activity, isn't reported for privacy reasons. However, you can report on the volume of *call activity* in the [Teams user activity report](microsoft-teams-user-activity-preview.md).
+Native Teams *call history* for end-users, like other end-user activity, isn't reported for privacy reasons. However, you can report on the volume of *call activity* in the [Teamss analytics and reporting](./teams-analytics-and-reports/teams-reporting-reference.md).
 
 > [!div class="nextstepaction"]
-> [Teams user activity report](microsoft-teams-user-activity-preview.md)
+> [Teamss analytics and reporting](./teams-analytics-and-reports/teams-reporting-reference.md)
 
 #### Reporting call performance
 

@@ -86,17 +86,17 @@ For network best practices to support the optimal quality of Teams calls, see [P
 
 #### Reporting call activity
 
-Native Teams *call history* for end-users, like other end-user activity, isn't reported for privacy reasons. However, you can report on the volume of *call activity* in the [Teamss analytics and reporting](./teams-analytics-and-reports/teams-reporting-reference.md).
+Native Teams *call history* for end-users, like other end-user activity, isn't reported for privacy reasons. However, you can report on the volume of *call activity* in the [Teams usage reporting](./teams-analytics-and-reports/teams-reporting-reference.md).
 
 > [!div class="nextstepaction"]
-> [Teamss analytics and reporting](./teams-analytics-and-reports/teams-reporting-reference.md)
+> [Teams usage reporting](./teams-analytics-and-reports/teams-reporting-reference.md)
 
 #### Reporting call performance
 
-To report on *call performance*, Microsoft includes a set of tools to assess anything from a single call in progress, to performance trends across your organization. For more information on monitoring performance, see [Improve call quality in Microsoft Teams](monitor-call-quality-qos.md).
+Microsoft Teams includes a set of tools that can be used to analyze call quality in real-time for single calls in progress or analyze performance trends of all calls across your organization. For more information on monitoring performance, see [Monitor call quality](monitor-call-quality-qos.md#monitor-and-troubleshoot-call-quality).
 
 > [!div class="nextstepaction"]
-> [Improve call quality in Microsoft Teams](monitor-call-quality-qos.md)
+> [Monitor call quality](monitor-call-quality-qos.md#monitor-and-troubleshoot-call-quality)
 
 ## Teams Phone and enterprise telecommunications
 

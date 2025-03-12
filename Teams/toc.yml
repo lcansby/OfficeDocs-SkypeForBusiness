@@ -1120,6 +1120,8 @@ items:
       items: 
         - name: What is Teams Phone
           href: what-is-phone-system-in-office-365.md
+        - name: Teams Phone licensing
+          href: teams-phone-licensing.md  
         - name: Teams Phone basics
           items:
             - name: Teams Phone feature overview

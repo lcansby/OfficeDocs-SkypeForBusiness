@@ -35,11 +35,15 @@ This article is for IT administrators and IT professionals who are researching t
 
 The Microsoft Teams application is a Microsoft 365 product that is for users who have either a legacy *Microsoft 365 E5* license or a new, stand-alone, *Microsoft Teams Enterprise* license. Microsoft Teams includes support for native 1:1 calling *and* group calling from one Teams client to any other internal or external Teams clients.
 
+Calls between users in your organization are handled natively within Teams, and never go to the Public Switched Telephone Network (PSTN)--thereby removing long-distance costs on internal calls.
+
 All users licensed for Teams are supported to make calls to other Teams users.
 
-- To support users making calls to Teams users who are *external* to your organization, follow the guidance found in [Collaborate with people outside your organization](communicate-with-users-from-other-organizations.md).
+- To support users making Teams calls with users who are *external* to your organization, follow the guidance found in [Collaborate with people outside your organization](communicate-with-users-from-other-organizations.md).
 
 The Calls app in Teams allows users to originate calls to other Teams users, view call history, and access voicemail. It also provides an alternative way to access their forwarding and audio settings.
+
+**Voicemail** - Cloud Voicemail is automatically set up and provisioned for all Teams users. See [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
 Microsoft Teams native calling is turned on via policy, by default.
 

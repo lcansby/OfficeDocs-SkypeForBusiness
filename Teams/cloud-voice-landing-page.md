@@ -1,5 +1,5 @@
 ---
-title: "Teams calling overview"
+title: "Teams calling and cloud voice overview"
 ms.reviewer: roykuntz
 ms.date: 03/04/2025
 author: sfrancis206
@@ -24,7 +24,7 @@ f1.keywords:
 ms.custom: 
   - Phone System
   - intro-overview
-description: "Learn about calling with Microsoft Teams in Microsoft 365."
+description: "Learn about Teams calling with Microsoft cloud voice services in Microsoft 365."
 ---
 
 # Teams calling overview

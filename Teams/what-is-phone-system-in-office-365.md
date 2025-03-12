@@ -40,7 +40,7 @@ Calls between Teams users in your organization are handled natively within Teams
 To make and receive external calls, Teams Phone provides add-on options for connecting to the PSTN. The add-on options include Teams Phone licensing for the appropriate voice application, and at least one telecommunications operator solution that allows you to acquire phone numbers for your tenant and to access the PSTN.
 
 - For Teams Phone licensing, see [Teams Phone licensing](teams-phone-licensing.md).
-- For PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [Connect to the PSTN](#connect-to-the-public-switched-telephone-network-pstn).
+- For PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [Connect to the PSTN](#pstn-options).
 
 To see more about Teams calling in general, see [Teams calling overview](teams-calling-overview.md).
 

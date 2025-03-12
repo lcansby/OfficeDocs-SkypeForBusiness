@@ -33,7 +33,7 @@ This article is for IT administrators and IT professionals who are researching t
 
 ## Native Teams calling
 
-The Microsoft Teams application is a Microsoft 365 product that is enabled for users with either a legacy *Microsoft 365 E5* license or with a new, stand-alone, *Microsoft Teams Enterprise* license. Microsoft Teams includes support for native 1:1 calling *and* group calling from one Teams client to any other internal or external Teams client(s).
+The Microsoft Teams application is a Microsoft 365 product that is for users who have either a legacy *Microsoft 365 E5* license or a new, stand-alone, *Microsoft Teams Enterprise* license. Microsoft Teams includes support for native 1:1 calling *and* group calling from one Teams client to any other internal or external Teams clients.
 
 All users licensed for Teams are supported to make calls to other Teams users.
 
@@ -54,12 +54,12 @@ When planning to support Teams calling in your enterprise, consider the followin
 
 #### Administration
 
-Delivery of the Teams calling workload is accomplished through Microsoft's M365 cloud service, and administrators manage the delivery of Teams workloads and features through remote management of that cloud service.
+Delivery of the Teams calling workload is accomplished through the Microsoft 365 cloud service, and administrators manage the delivery of Teams workloads and features through remote management of that cloud service.
 
-To administer Microsoft Teams, a specialized role is assigned to the user account that you will use to access your tenant.
+To administer Microsoft Teams, a specialized role is assigned to the account that accesses your tenant.
 You can use two common methods to administer the Teams service; the Teams admin center (TAC) and PowerShell.
 
-The url for Teams admin cetner is [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com).
+The url for Teams admin center is [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com).
 
 For permissions that allow you to administer your tenant (with Teams Admin Center and with PowerShell), see [Teams administrator roles](using-admin-roles.md).
 
@@ -68,7 +68,7 @@ For permissions that allow you to administer your tenant (with Teams Admin Cente
 
 #### Policies
 
-Microsoft Teams Phone supports a wide array of features that are controlled by policy. For example, traditional calling features, like call hold music, call park, call recording, and more, are all administered through policy.
+Microsoft Teams Phone supports a wide array of features, controlled by policy. For example, traditional calling features, like call hold music, call park, call recording, and more, are all administered through policy.
 
 For more information about settings that you can manage with policy, see [Manage voice policies](teams-calling-policy.md).
 
@@ -86,21 +86,21 @@ For network best practices to support the optimal quality of Teams calls, see [P
 
 #### Reporting call activity
 
-Native Teams call detail records for end-users, like other end-user activity, is not reported for privacy reasons. However, you can report on the volume of 1:1 calls in the [Teams user activity report](microsoft-teams-user-activity-preview.md).
+Native Teams *call history* for end-users, like other end-user activity, isn't reported for privacy reasons. However, you can report on the volume of *call activity* in the [Teams user activity report](microsoft-teams-user-activity-preview.md).
 
 > [!div class="nextstepaction"]
 > [Teams user activity report](microsoft-teams-user-activity-preview.md)
 
 #### Reporting call performance
 
-For reporting on call performance, Microsoft includes a set of tools to assess anything from a single call in progress, to performance trends across your organization. For more details on monitoring performance, see [Improve call quality in Microsoft Teams](monitor-call-quality-qos.md).
+To report on *call performance*, Microsoft includes a set of tools to assess anything from a single call in progress, to performance trends across your organization. For more information on monitoring performance, see [Improve call quality in Microsoft Teams](monitor-call-quality-qos.md).
 
 > [!div class="nextstepaction"]
 > [Improve call quality in Microsoft Teams](monitor-call-quality-qos.md)
 
 ## Teams Phone and enterprise telecommunications
 
-While Teams can provide a rich set of native calling capabilities, Teams can also be leveraged to provide your organization's telecommunications requirements.
+While Teams can provide a rich set of native calling capabilities, Teams can also be connected with the Public Switched Telephone Network (PSTN) and can provide your organization's telecommunications requirements.
 To learn more about using Teams as a telephone system, see [What is Teams Phone](what-is-phone-system-in-office-365.md).
 
 > [!div class="nextstepaction"]

@@ -44,7 +44,7 @@ Microsoft Teams Enterprise includes native calling features, and Teams Phone unl
 
 To review licensing scenarios, see [Teams Phone licensing](teams-phone-licensing.md)
 
-For features where Teams Phone license is required, a connection with the Public Swithced Telephone Network (PSTN) and phone number is also required.
+For features where a Teams Phone license is required, a connection with the Public Swithced Telephone Network (PSTN) and phone number is also required.
 
 > [!NOTE]
 > A PSTN solution is separate from a Teams Phone license. A PSTN solution provides a customer's tenant with phone numbers and PSTN access to domestic, international, and emergency calling. The Teams Phone license entitles a Teams user to enhanced calling capabilities within the tenant and access to the PSTN solution.
@@ -53,7 +53,7 @@ For features where Teams Phone license is required, a connection with the Public
 
 Microsoft Teams Enterprise provides the following calling features:
   
-|Teams calling feature  |Description |Teams native calling</br>with Microsoft Teams Enterprise license|with Teams Phone |
+|Teams calling feature  |Description |Teams native calling</br>with Microsoft Teams Enterprise license|with Teams Phone license and a PSTN solution|
 |:-----|:-----|:-----|:-----|
 |[Auto attendants](what-are-phone-system-auto-attendants.md)  |Lets you create a menu system that enables external and internal callers to locate and place or transfer calls to company users or departments in your organization.  <br/> Note that users *do not* need to be voice enabled to receive calls from the auto attendant dial by name, dial by number directory search. Users *do* need to be voice enabled to receive calls from the auto attendant menu options. |![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)</br>See [Teams Phone Resource Account licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)|
 |[Call queues](create-a-phone-system-call-queue.md) <br> |Lets you configure how call queues are managed for your organization: for example, set up greetings and music on hold, search for the next available call agent to handle the call, and so on.  <br/> Note that users *do* need to be voice enabled to receive calls from a call queue.|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)</br>See [Teams Phone Resource Account licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)|

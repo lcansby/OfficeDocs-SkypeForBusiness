@@ -36,18 +36,18 @@ Clients are available for PC, Mac, and mobile, which provides features on device
 > [!NOTE]
 > For details about Teams phone systems on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-### Licenses and voice enablement 
+## Licensing
 
-To use Teams Phone features, your users must have a Teams Phone Standard or E5 license. For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+The features listed below indicate whether or not a license for Teams Phone is required.
 
-In addition to licensing, the users must be "voice enabled."
+Microsoft Teams Enterprise includes native calling features, and Teams Phone unlocks even more features.
 
-To voice enable your users, you can use the Teams admin center or PowerShell.
+To review licensing scenarios, see [Teams Phone licensing](teams-phone-licensing.md)
 
-- In the Teams admin center, go to a **Users** > **Manage users** and select the user you want to edit. Under the **Account** tab > **Assigned phone number**, turn **Enterprise Voice** to **On** and select **Save**.
-- For PowerShell, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet and set the `-EnterpriseVoiceEnabled` parameter to `$true`.
+For features where Teams Phone license is required, a connection with the Public Swithced Telephone Network (PSTN) and phone number is also required.
 
-A few features, such as Auto attendant, don't require a user to be voice enabled. Exceptions are called out in the table below.
+> [!NOTE]
+> A PSTN solution is separate from a Teams Phone license. A PSTN solution provides a customer's tenant with phone numbers and PSTN access to domestic, international, and emergency calling. The Teams Phone license entitles a Teams user to enhanced calling capabilities within the tenant and access to the PSTN solution.
   
 ## Teams calling features
 

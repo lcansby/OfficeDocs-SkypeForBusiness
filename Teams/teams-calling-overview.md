@@ -48,35 +48,34 @@ Microsoft Teams native calling is turned on via policy, by default.
 > If the **Make private calls setting** is turned off in the calling policy, users with that policy can't see the **Calls** app in their Teams client, can't escalate Chat conversations to audio calls, and can't receive incoming calls.
 > With **Make private calls setting** turned on, users can call from the **Calls** app and escalate Chat conversations to audio calls.
 
-## Additional Considerations for managing Teams calling
+### Administering Teams calling
 
-When planning to support Teams calling in your enterprise, also consider the following topics:
+When planning to support Teams calling in your enterprise, consider the following topics:
 
 #### Administration
 
-For permissions that allow you to administer policy in your tenant (with Teams Admin Center and with PowerShell), see [Teams administrator roles](using-admin-roles.md).
+Delivery of the Teams calling workload is accomplished through Microsoft's M365 cloud service, and administrators manage the delivery of Teams workloads and features through remote management of that cloud service.
+
+To administer Microsoft Teams, a specialized role is assigned to the user account that you will use to access your tenant.
+You can use two common methods to administer the Teams service; the Teams admin center (TAC) and PowerShell.
+
+The url for Teams admin cetner is [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com).
+
+For permissions that allow you to administer your tenant (with Teams Admin Center and with PowerShell), see [Teams administrator roles](using-admin-roles.md).
 
 > [!div class="nextstepaction"]
 > [Teams administrator roles](using-admin-roles.md)
 
-#### Policy
+#### Policies
 
-Microsoft Teams Phone supports a wide array of features that are controlled by policy. For example, Teams Administrators can reduce PSTN costs by creating a Shared Calling policy. Traditional phone system features, like caller ID, call hold, call park, call recording, and more, are all administered through policy.
+Microsoft Teams Phone supports a wide array of features that are controlled by policy. For example, traditional calling features, like call hold music, call park, call recording, and more, are all administered through policy.
 
-For more information about ***1:1 calling*** settings that you can manage with policy, see [Manage voice policies](teams-calling-policy.md).
-
-For more information about ***group calling*** settings that you can manage with policy, see [Meeting policy overview](meeting-policies-overview.md) and [Meeting policies reference](settings-policies-reference.md#meeting-policies).
-
-To learn about general Teams policy administration concepts, see [Manage Teams with policies](manage-teams-with-policies.md).
+For more information about settings that you can manage with policy, see [Manage voice policies](teams-calling-policy.md).
 
 > [!div class="nextstepaction"]
-> [Manage Teams with policies](manage-teams-with-policies.md)
+> [Manage voice policies](teams-calling-policy.md)
 
-#### Recording calls
-
-Microsoft supports compliance recording and convenience recording in Microsoft Teams calling.
-
-For more information about call recording, see [Introduction to Teams recording](teams-recording-policy.md).
+To learn about general Teams policy administration concepts, see [Manage Teams with policies](manage-teams-with-policies.md)
 
 #### Network preparation
 
@@ -85,15 +84,27 @@ For network best practices to support the optimal quality of Teams calls, see [P
 > [!div class="nextstepaction"]
 > [Prepare your organization's network for Microsoft Teams](prepare-network.md)
 
-#### Reporting
+#### Reporting call activity
 
-- To learn where you can analyze PSTN call usage, see [Microsoft Teams PSTN usage report](./teams-analytics-and-reports/pstn-usage-report.md).
-- To learn about the various tools you can use to report on call usage and call performance, such as Call Quality Dashboard (CQD), Call analytics, Real-time analytics, and Quality of Service (QoS), see [Improve call quality in Microsoft Teams](monitor-call-quality-qos.md).
+Native Teams call detail records for end-users, like other end-user activity, is not reported for privacy reasons. However, you can report on the volume of 1:1 calls in the [Teams user activity report](microsoft-teams-user-activity-preview.md).
+
+> [!div class="nextstepaction"]
+> [Teams user activity report](microsoft-teams-user-activity-preview.md)
+
+#### Reporting call performance
+
+For reporting on call performance, Microsoft includes a set of tools to assess anything from a single call in progress, to performance trends across your organization. For more details on monitoring performance, see [Improve call quality in Microsoft Teams](monitor-call-quality-qos.md).
+
+> [!div class="nextstepaction"]
+> [Improve call quality in Microsoft Teams](monitor-call-quality-qos.md)
 
 ## Teams Phone and enterprise telecommunications
 
-Teams can also be leveraged to provide your organization's telecommunications requirements.
-To learn more about using Teams as a telephone system, see [What is Teams Phone](what-is-phone-system-in-office-365.md.md).
+While Teams can provide a rich set of native calling capabilities, Teams can also be leveraged to provide your organization's telecommunications requirements.
+To learn more about using Teams as a telephone system, see [What is Teams Phone](what-is-phone-system-in-office-365.md).
+
+> [!div class="nextstepaction"]
+> [What is Teams Phone](what-is-phone-system-in-office-365.md)
 
 ## Related articles
 

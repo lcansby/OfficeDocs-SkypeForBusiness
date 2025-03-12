@@ -101,6 +101,10 @@ During and after establishing a PSTN solution, you might need to acquire, port, 
 > [!div class="nextstepaction"]
 > [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md)
 
+### Reporting
+
+- To learn where you can analyze PSTN call usage, see [Microsoft Teams PSTN usage report](./teams-analytics-and-reports/pstn-usage-report.md).
+ 
 ### Advanced calling features
 
 For information on advanced calling features, see the following articles:

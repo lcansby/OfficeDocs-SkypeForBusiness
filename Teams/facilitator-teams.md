@@ -61,11 +61,9 @@ Users are shown a notice when their prompts are private or shared with others.
 
 ## Security, Compliance, and Privacy
 
-Facilitator, Copilot, and Microsoft 365 are built on Microsoft's comprehensive approach to security, compliance, and privacy.
+Facilitator, Copilot, and Microsoft 365 are built on Microsoft's comprehensive approach to security, compliance, and privacy. When you use Microsoft Purview for your security and compliance management, Facilitator is supported in the following ways:
 
-When you use Microsoft Purview for your security and compliance management, Facilitator is supported in the following ways:
-
-In preview: Facilitator in chats and meetings supports sensitivity labels and encrypted files in the same way as Microsoft Copilot chat supports your sensitive data. For example, Facilitator can't access labeled and encrypted files if the person requesting the information from Facilitator and all the participants don't have the EXTRACT usage right, and any referenced items display their sensitivity label. For more information, see [Microsoft Purview strengthens information protection for Copilot](/purview/ai-microsoft-purview#microsoft-purview-strengthens-information-protection-for-copilot) and [Information protection considerations for Copilot](/purview/ai-microsoft-purview-considerations#information-protection-considerations-for-copilot).
+In preview, Facilitator in chats and meetings supports sensitivity labels and encrypted files in the same way as Microsoft Copilot chat supports your sensitive data. For example, Facilitator can't access labeled and encrypted files if the person requesting the information from Facilitator and all the participants don't have the EXTRACT usage right, and any referenced items display their sensitivity label. For more information, see [Microsoft Purview strengthens information protection for Copilot](/purview/ai-microsoft-purview#microsoft-purview-strengthens-information-protection-for-copilot) and [Information protection considerations for Copilot](/purview/ai-microsoft-purview-considerations#information-protection-considerations-for-copilot).
 
 Additionally, just like [Copilot protection with sensitivity label inheritance](/purview/ai-microsoft-purview#copilot-protection-with-sensitivity-label-inheritance), AI-generated notes inherit the [highest priority sensitivity label](/purview/sensitivity-labels#label-priority-order-matters) from the chat or meeting, 
 

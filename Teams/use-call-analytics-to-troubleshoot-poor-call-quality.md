@@ -5,7 +5,7 @@ ms.author: mabond
 manager: pamgreen
 ms.reviewer: jamp, mamcgrath
 ms.date: 09/05/2024
-ms.topic: article
+ms.topic: troubleshooting-general
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -58,7 +58,7 @@ To get additional information about a given session, including detailed media an
 
 This video shows the steps to view a user's meetings and call information.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1c7Fp?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=c87e4932-d6ff-4d98-9e71-1ef16bdab7e0]
 
 ## What does each Teams Support role do?
 

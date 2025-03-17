@@ -5,7 +5,7 @@ ms.author: heidip
 manager: jtremper
 ms.reviewer: sekrantz, aaglick
 ms.date: 06/20/2019
-ms.topic: article
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
@@ -148,7 +148,7 @@ You can assign a policy package to an individual user, a group, or a batch of us
 
 This video is about managing policy packages.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fxbO?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=56f2fb23-b0d2-4d85-ad84-ad2fa569fdc0]
 
 ## Related topics
 

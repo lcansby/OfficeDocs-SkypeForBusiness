@@ -2,11 +2,11 @@
 title: "Configure a Session Border Controller for multiple tenants"
 ms.reviewer: filippse
 ms.date: 06/17/2024
-ms.author: crowe
-author: CarolynRowe
+ms.author: scottfrancis
+author: sfrancis206
 manager: pamgreen
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.localizationpriority: medium
 search.appverid: MET150

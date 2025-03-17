@@ -1,11 +1,11 @@
 ---
 title: Migrate from Slack to Microsoft Teams
-author: DaniEASmith
-ms.author: danismith
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 ms.reviewer: brandber
 ms.date: 10/14/2019
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.service: msteams
 ms.custom:
   - chat-teams-channels-revamp

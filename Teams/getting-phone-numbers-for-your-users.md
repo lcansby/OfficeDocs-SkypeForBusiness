@@ -5,7 +5,7 @@ ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: mikedav, roykuntz, jastark
 ms.date: 08/29/2023
-ms.topic: article
+ms.topic: how-to
 ms.assetid: aa2ec464-3481-4bbb-8c14-e13e18093df5
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -100,7 +100,7 @@ After you get your phone numbers, you'll need to assign a number to each of your
 
 This video shows the steps to assign a phone number to a user.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1ccJJ?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=5c650234-8c9a-4126-8177-697fc5074eb7]
 
 ## Related articles
 

@@ -4,8 +4,8 @@ ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: sohailta
-ms.date: 2/26/2024
-ms.topic: article
+ms.date: 1/17/2025
+ms.topic: best-practice
 audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms

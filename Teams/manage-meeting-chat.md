@@ -40,17 +40,20 @@ As an admin you can control:
 
 The **Meeting chat** setting controls whether participants in your users' meetings can and read and send chat messages. This setting doesn't apply to channel meetings and is a per-user and per-organizer policy.
 
-In addition to this **Meeting chat** policy, your users have their own **Meeting chat** control in their meeting options. If the admin policy isn't set to **Off**, organizers can manage chat availability in their meetings and webinars. They can choose to set chat to **On**, **Off**, or **In meeting only**. For more information on your users' **Meeting chat** controls, see [Chat in a Teams meeting](https://support.microsoft.com/office/64e2cb91-8a11-4781-94ea-fbb23f2b922f).
+In addition to this **Meeting chat** policy, your users have their own **Meeting chat** control in their meeting options. When you don't set the admin policy to **Off**, organizers can manage chat availability in their meetings and webinars. They can choose to set chat to **On**, **Off**, or **In meeting only**. For more information on your users' **Meeting chat** controls, see [Chat in a Teams meeting](https://support.microsoft.com/office/64e2cb91-8a11-4781-94ea-fbb23f2b922f).
+
+> [!NOTE]
+> The admin policy doesn't control what organizers see in their **Meeting options**. For example, when you set the **Meeting chat** policy to **In-meeting only for everyone**, the organizer still sees the option to set it to **On**. However, the admin policy enforces that chat will only be available during the meeting. Your policy determines the chat experience during meetings and events, regardless of what's shown and selected in **Meeting options**.
 
 The following table describes the behavior for your **Meeting chat** policy settings:
 
 |Teams admin center value  |PowerShell value|Behavior |
 |---------|---------|---------|
-|**On for everyone**  | Enabled|All participants can read and send chat messages; the organizer's **Allow meeting chat** settings control the chat experience. Organizers can also manage chat availability in their meetings and webinars.|
-|**On for everyone but anonymous users**  | EnabledExceptAnonymous|All participants can read and send chat messages, except for anonymous participants. The organizer's **Allow meeting chat** settings control the chat experience for everyone, except for anonymous participants, who can't read or send any messages. Organizers can also manage chat availability in their meetings and webinars.|
-|**Off**  | Disabled| Meeting chat is turned off for all participants; organizers can't use their **Allow meeting chat** to turn on chat in their meetings. Organizers can't manage chat availability in their meetings and webinars.|
-|**In-meeting only for everyone**  | x| Chat is available only during the meeting. Participants and organizers can't send messages before the meeting starts or after it ends. The organizer can't override this setting.|
-|**In-meeting only for everyone but anonymous users**  | x| Chat is available only during the meeting for all participants, except anonymous users, who don't have any access to the chat. Participants and organizers can't send messages before the meeting starts or after it ends. The organizer can't override this setting.|
+|**On for everyone**  | Enabled| All participants can read and send chat messages, but the organizer's **Allow meeting chat settings** determine the chat experience. Organizers can also control when chat is available during their meetings and webinars.|
+|**On for everyone but anonymous users**  | EnabledExceptAnonymous|All participants, except anonymous ones, can read and send chat messages. The organizer's **Allow meeting chat** settings control the chat experience for everyone. Anonymous participants, however, can't read or send any messages. Organizers can also manage when chat is available during their meetings and webinars.|
+|**Off**  | Disabled| Meeting chat is turned off for all participants; organizers can't use their **Allow meeting chat** to turn on chat in their meetings. Organizers can't override this setting.|
+|**In-meeting only for everyone**  | EnabledInMeetingOnlyForAll| Chat is available only during the meeting. Participants and organizers can't send messages before the meeting starts or after it ends. Organizers can't override this setting.|
+|**In-meeting only for everyone but anonymous users**  | EnabledInMeetingOnlyForAllExceptAnonymous| Chat is available only during the meeting for all participants, except anonymous users, who don't have any access to the chat. Participants and organizers can't send messages before the meeting starts or after it ends. Organizers can't override this setting.|
 
 ### Manage meeting chat for your organization's Teams meetings using the Teams admin center
 
@@ -72,10 +75,22 @@ To allow meeting chat to be on for everyone but anonymous users with this assign
 Set-CsTeamsMeetingPolicy -Identity <policy name> -MeetingChatEnabledType EnabledExceptAnonymous
 ```
 
-To turn off meeting chat for everyone with this assigned policy, run the following script:
+To turn off meeting chat for users with this assigned policy, run the following script:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -MeetingChatEnabledType Disabled
+```
+
+To make chat available only during meetings organized by users with this policy, run the following script:
+
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -MeetingChatEnabledType EnabledInMeetingOnlyForAll
+```
+
+To make chat available only during meetings organized by users with this policy and prevent anonymous users from seeing or writing in chat, run the following script:
+
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -MeetingChatEnabledType EnabledInMeetingOnlyForAllExceptAnonymous
 ```
 
 To learn more about chat for your end users, see [Chat in a Teams meeting](https://support.microsoft.com/office/64e2cb91-8a11-4781-94ea-fbb23f2b922f).
@@ -107,13 +122,13 @@ If you'd like to choose whether users in your organization can use chat in Teams
 
 The **`-AllowExternalNonTrustedMeetingChat`** parameter in the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet controls the availability of meeting chat for your users when they attend external meetings. 
 
-To disable chat in Teams meetings hosted by other organizations for users with the assigned policy, run the following script:
+To turn off chat in Teams meetings hosted by other organizations for users with the assigned policy, run the following script:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowExternalNonTrustedMeetingChat $False
 ```
 
-To enable chat in Teams meetings hosted by other organizations for users with the assigned policy, run the following script:
+To allow chat in Teams meetings hosted by other organizations for users with the assigned policy, run the following script:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowExternalNonTrustedMeetingChat $True 

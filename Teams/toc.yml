@@ -1125,23 +1125,21 @@ items:
         - name: What is Teams Phone
           href: what-is-phone-system-in-office-365.md
         - name: Teams Phone licensing
-          href: teams-phone-licensing.md  
-        - name: Teams Phone basics
+          href: teams-phone-licensing.md
+        - name: Teams Phone feature overview
+          href: here-s-what-you-get-with-phone-system.md
+        - name: Set up Teams Phone
+          href: setting-up-your-phone-system.md
+        - name: Dial pad configuration
+          href: dial-pad-configuration.md  
+        - name: Teams Phone basic features
           items:
-            - name: Teams Phone feature overview
-              href: here-s-what-you-get-with-phone-system.md
-            - name: Call forwarding and delegation settings
+            - name: Call forwarding, delegation, and shared line
               href: user-call-settings.md
-            - name: Shared line appearance
-              href: shared-line-appearance.md
             - name: Configure call sharing and group call pickup
               href: call-sharing-and-group-call-pickup.md          
             - name: Private line
               href: private-line.md
-        - name: Set up Teams Phone
-          href: setting-up-your-phone-system.md
-        - name: Dial pad configuration
-          href: dial-pad-configuration.md
     - name: Voice policies and settings
       items:
         - name: Manage voice policies

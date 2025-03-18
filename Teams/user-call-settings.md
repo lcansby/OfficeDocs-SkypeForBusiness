@@ -232,7 +232,7 @@ If a user or tenant admin doesn't modify their call answering rules, unanswered 
 
 ## Related articles
 
-- [Configure Teams calling policy](teams-calling-policy)
+- [Configure Teams calling policy](teams-calling-policy.md)
 - [New-CsTeamsCallingPolicy](/powershell/module/teams/new-csteamscallingpolicy)
 - [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy)
 - [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)

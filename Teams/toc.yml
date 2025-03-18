@@ -1132,18 +1132,16 @@ items:
           href: setting-up-your-phone-system.md
         - name: Dial pad configuration
           href: dial-pad-configuration.md  
-        - name: Teams Phone basic features
-          items:
-            - name: Call forwarding, delegation, and shared line
-              href: user-call-settings.md
-            - name: Configure call sharing and group call pickup
-              href: call-sharing-and-group-call-pickup.md          
-            - name: Private line
-              href: private-line.md
     - name: Voice policies and settings
       items:
         - name: Manage voice policies
           href: teams-calling-policy.md
+        - name: Call forwarding, delegation, and shared line
+          href: user-call-settings.md
+        - name: Group call pickup
+          href: call-sharing-and-group-call-pickup.md          
+        - name: Private line
+          href: private-line.md
         - name: Route inbound calls for users
           href: inbound-call-routing.md
         - name: Block inbound calls for tenant

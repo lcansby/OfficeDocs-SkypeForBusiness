@@ -31,10 +31,10 @@ description: "In this article, you'll learn about Microsoft Teams Phone System t
 
 This article is for administrators and IT professionals who are evaluating Microsoft Teams Phone--Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud.
 
-Calls between Teams users in your organization are handled natively within Teams, and never go to the Public Switched Telephone Network (PSTN)--thereby removing long-distance costs on internal calls.
+By default, calls between Teams users in your organization are handled natively within Teams, and never go to the Public Switched Telephone Network (PSTN)--thereby removing long-distance costs on internal calls.
 To see more about Teams calling in general, see [Teams calling overview](cloud-voice-landing-page.md).
 
-To enhance user calling experiences by allowing them to make and receive domestic and international telephone calls, **Teams Phone** provides add-on options to Teams for connecting users with the PSTN. 
+To enhance user calling experiences with the ability to make and receive domestic and international *telephone* calls, **Teams Phone** provides add-on options to Teams for connecting users with the PSTN.
 
 The add-on options comprising of **Teams Phone** include the following:
 
@@ -55,6 +55,8 @@ Teams Phone works with all Teams clients and with certified, third-party devices
 Teams also provides administrators with a comprehensive set of voice policy settings that can control the features at a global, group, and user level.
 
 Administering **Teams Phone** builds on *the same model for administration* as outlined for **native Teams calling** in [Calling in Teams overview](cloud-voice-landing-page.md), and includes administration of extra calling features that are available to users licensed for Teams Phone.
+
+Teams Phone also provides additional enterprise phone system features for your organization, like auto attendants and call queues.
 
 To learn more about what is included with Teams Phone, see [Teams Phone features](here-s-what-you-get-with-phone-system.md).
 

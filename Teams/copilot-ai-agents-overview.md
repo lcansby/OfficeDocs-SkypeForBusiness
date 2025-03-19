@@ -26,7 +26,9 @@ description: Discover which AI features are available in Microsoft Teams for you
 
 Microsoft has introduced an ever-growing catalogue of AI tools and features for Microsoft Teams, starting with features like voice isolation and suggested replies. Today, this catalogue includes a powerful, personal AI assistant called Copilot in Teams and task-tailored agents like Facilitator.
 
-This article is for IT admins and discusses the AI tools and features available in Teams along with links to their related documentation. In this article, learn about:
+This article is for IT admins and discusses the AI tools and features available in Teams along with links to their related documentation.
+
+In this article, learn about:
 
 - [Standard AI features in Microsoft Teams](#standard-ai-features-in-microsoft-teams)
 - [Microsoft 365 Copilot features in Teams](#microsoft-365-copilot-features-in-teams)

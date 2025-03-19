@@ -60,7 +60,7 @@ To learn more about what is included with Teams Phone, see [Teams Phone features
 
 ## Need help with your Teams Phone deployment?
 
-Are you new to setting up phone systems or just need some extra help? We understand that many small and medium businesses may need additional assistance to understand and take advantage of all the Teams Phone capabilities. We offer a complementary consultation program. Contact us at contactTeamsPhoneSMB@microsoft.com for more information.
+Are you new to setting up phone systems or just need some extra help? We understand that many small and medium businesses may need additional assistance to understand and take advantage of all the Teams Phone capabilities. We offer a complementary consultation program. Contact us at <TeamsPhoneSMB@microsoft.com> for more information.
 
 ## Related topics
 

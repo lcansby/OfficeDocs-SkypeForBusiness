@@ -50,6 +50,8 @@ The add-on options comprising of **Teams Phone** include the following:
 
 Teams Phone allows you to replace your existing PBX system with a set of features delivered from the same platform that provides your enterprise productivity tools.
 
+If you have another phone system or a contact center in your organization, Teams Phone supports co-existence integrations.
+
 Teams Phone works with all Teams clients and with certified, third-party devices, and includes a rich set of features, empowering end users to manage their own phone call workflows.
 
 Teams also provides administrators with a comprehensive set of voice policy settings that can control the features at a global, group, and user level.

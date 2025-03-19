@@ -81,9 +81,30 @@ Microsoft Teams Enterprise provides the following calling features:
 |[Common area phones](set-up-common-area-phones.md)  | A common area phone is typically placed in an area like a lobby or conference room making it available to multiple people. Common area phones are set up as devices rather than users, and can automatically sign into a network. |![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |[Media bypass support](direct-routing-plan-media-bypass.md) (for Teams Direct Routing only)  | For better performance, media is kept between the Session Border Controller (SBC) and the client instead of sending it through  Teams Phone.  |![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |[Unassigned number routing](routing-calls-to-unassigned-numbers.md) | Allows routing of unassigned numbers to users, auto attendants, call queues or a custom announcement.  |![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|[Emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) | Provides location support for first responders when emergency calls are made from Teams |![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+
+## Additional Teams Phone functionality
+
+When adding Teams Phone options to a tenant, administrators also inherit additional supported capabilities to manage. The following subjects are covered in depth in other articles:
+
+[Manage telephone numbers for your organization](manage-phone-numbers-landing-page.md).
+
+- Considerations for number types, number acquisition, and number management.
+
+Optional features are available to enhance your organization's Teams Phone experience, including the following:
+
+[SMS in Teams overview](sms-overview.md)
+
+- Microsoft Calling Plans in the United States (including Puerto Rico) and Canada support SMS for the user's Teams Phone number.
+
+[Teams Premium and Copilot](intelligent-recap-calls-meetings.md)
+
+- Add Teams Premium and Microsoft 365 Copilot to Teams Phone to give end users enhanced capabilities:
+  - Additional AI capabilities
+  - Greater administrative insights to reporting, with alerting
+  - Enhanced supervisory capabilities and insights into Call Queues with the Microsoft [Queues app](manage-queues-app.md).
 
 ## Availability in GCC High and DoD clouds
-<a name="bkmk_setup"> </a>
 
 The following capabilities aren't yet available in GCC High and DoD Clouds.
 

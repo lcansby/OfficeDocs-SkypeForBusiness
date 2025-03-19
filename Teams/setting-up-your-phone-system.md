@@ -30,7 +30,7 @@ description: Learn how to set up Microsoft Teams Phone for your organization in 
 
 # Set up Teams Phone in your organization
 
-This article provides a roadmap to content for setting up Microsoft Teams Phone--Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud. This article is for administrators and IT professionals.
+This article provides a roadmap to content for setting up Microsoft Teams Phone--Microsoft's technology for enabling external calling and phone system capabilities in the Microsoft 365 cloud. This article is for administrators and IT professionals.
 
 If you're still planning your voice solution, start by reading [Plan your voice solution](cloud-voice-landing-page.md), which helps you decide which Microsoft voice solution is right for your organization.
 

@@ -1126,10 +1126,10 @@ items:
       items: 
         - name: What is Teams Phone
           href: what-is-phone-system-in-office-365.md
-        - name: Teams Phone licensing
-          href: teams-phone-licensing.md
         - name: Teams Phone feature overview
           href: here-s-what-you-get-with-phone-system.md
+        - name: Teams Phone licensing
+          href: teams-phone-licensing.md
         - name: Set up Teams Phone
           href: setting-up-your-phone-system.md
         - name: Dial pad configuration

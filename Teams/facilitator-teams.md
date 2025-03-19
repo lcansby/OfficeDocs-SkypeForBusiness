@@ -33,6 +33,7 @@ description: Learn about how Facilitator in Microsoft Teams enables group collab
 > - Document question and answer (Q&A)
 > - Question & answer (Q&A) about a chat or meeting chat
 > - Web search
+> - Moderator
 >
 > AI-generated notes for chats and meetings is now generally available.
 >

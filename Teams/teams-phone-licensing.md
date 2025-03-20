@@ -48,6 +48,8 @@ For example, if you need to setup an existing user to have Teams Phone, your fir
 
 Alternatively, you can assign the user account with a ***Microsoft 365 E5 (no Teams)*** license, which includes--and equips the user account with an abiltiy to use--the **Microsoft 365 Phone System** application. In this case where an M365 E5 license is used, it is not necessary to also assign the stand-alone ***Microsoft Teams Phone Standard*** license.
 
+To learn more about administering M365 licenses, see [Assign or unasssign licenses for users](/microsoft-365/admin/manage/assign-licenses-to-users).
+
 ### Licensing Teams Phone for end users
 
 All users who require their own telephone number to make and receive telephone calls need to be granted the **Microsoft Teams** and **Microsoft 365 Phone System** applications.

@@ -39,7 +39,7 @@ In this article, learn about:
 
 ## Standard AI features in Microsoft Teams
 
-> *Required licenses:*
+*Required licenses:*
 > [!div class="checklist"]
 > - *Microsoft Business (Basic, Standard, and Premium) or Microsoft 365 (E3/E5/F1/F3/A3/A5/G3/G5)*
 > - *Teams Enterprise or Teams Enterprise (EEA)*
@@ -64,10 +64,10 @@ Microsoft Teams includes some AI features that don’t require any extra license
 ## Microsoft 365 Copilot features in Teams
 
 *Required licenses:*
-
-*Microsoft Business (Basic, Standard, and Premium) or Microsoft 365 (E3/E5/F1/F3/A3/A5/G3/G5)*
-*Teams Enterprise or Teams Enterprise (EEA)*
-*Microsoft 365 Copilot*
+> [!div class="checklist"]
+> - *Microsoft Business (Basic, Standard, and Premium) or Microsoft 365 (E3/E5/F1/F3/A3/A5/G3/G5)*
+> - *Teams Enterprise or Teams Enterprise (EEA)*
+> - *Microsoft 365 Copilot*
 
 The Microsoft 365 Copilot license is the foundation for many AI tool sets in Teams, like Copilot in Teams and Facilitator. If you want your users to access a robust set of AI features, purchase and assign Microsoft 365 Copilot licenses to them.  
 
@@ -120,10 +120,10 @@ Using AI, Microsoft 365 agents are designed to help your users with unique work 
 ## AI features included with Teams Premium
 
 *Required licenses:*
-
-*Microsoft Business (Basic, Standard, and Premium) or Microsoft 365 (E3/E5/F1/F3/A3/A5/G3/G5)*
-*Teams Enterprise or Teams Enterprise (EEA)*
-*Teams Premium*
+> [!div class="checklist"]
+> - *Microsoft Business (Basic, Standard, and Premium) or Microsoft 365 (E3/E5/F1/F3/A3/A5/G3/G5)*
+> - *Teams Enterprise or Teams Enterprise (EEA)*
+> - *Teams Premium*
 
 Some AI features in Teams can be acquired through the [Teams Premium add-on license](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams). Teams Premium enhances users’ Teams experience through intelligent, customizable, and secured collaboration scenarios.
 

@@ -69,7 +69,7 @@ Are you new to setting up phone systems or just need some extra help?
 You have several avenues to get help with your Teams Phone deployment.
 
 - If you're a customer that is categorized as SMB (Small to Medium Business), we offer a complementary consultation program.
-  - To learn more, contact our Teams Phone SMB support team at <TeamsPhoneSMB@microsoft.com>.
+  - To learn more, contact our Teams Phone SMB support team at <ContactTeamsPhoneSMB@microsoft.com>.
   - SMB is considered fewer than 300 users with business SKU licenses, or a customer with fewer than 500 users with E3, E1, and Phone System licenses.
 
 - If you're a customer with a larger user base, we offer Microsoft Cloud-Solution-Architect-led workshops for Teams Phone planning, piloting, enabling at scale, optimizing, and more, through Unified Support plans.

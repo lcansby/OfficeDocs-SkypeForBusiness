@@ -44,9 +44,9 @@ To support the users signing into Teams so they can use Teams Phone, see [Set up
 
 Granting an application to a user or resource account is accomplished by assigning *a license* that includes the necessary application.
 
-For example, if you need to setup an existing user to have Teams Phone, your first step is to assign their user account with a ***Microsoft Teams Phone Standard*** license, and this equips the user account with an abiltiy to use the **Microsoft 365 Phone System** application.
+For example, if you need to setup an existing user to have Teams Phone, your first step is to assign their user account with a ***Microsoft Teams Phone Standard*** license, granting the user account with an abiltiy to use the **Microsoft 365 Phone System** application.
 
-Alternatively, you can assign the user account with a ***Microsoft 365 E5 (no Teams)*** license, which includes--and equips the user account with an abiltiy to use--the **Microsoft 365 Phone System** application. In this case where an M365 E5 license is used, it is not necessary to also assign the stand-alone ***Microsoft Teams Phone Standard*** license.
+Alternatively, you can assign the user account with a ***Microsoft 365 E5 (no Teams)*** license, which includes--and equips the user account with an abiltiy to use--the **Microsoft 365 Phone System** application. In the case where an M365 E5 license is used, it is not necessary to also assign the stand-alone ***Microsoft Teams Phone Standard*** license.
 
 To learn more about administering M365 licenses, see [Assign or unasssign licenses for users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -60,17 +60,19 @@ The following license combinations grant end users with the minimal Teams Phone 
 - A ***Microsoft Teams Enterprise*** license combined with ***Microsoft Teams Phone Standard*** license
 - A legacy ***Microsoft 365 E5*** license (includes ***Microsoft Teams Enterprise***)
 
-- The ***Microsoft 365 Phone System*** application unlocks additional call control features for a ***Microsoft Teams*** user. To learn about what calling capabilities are included with the base Teams Enterprise license and what additional calling capabilities are unlocked with the Teams Phone license, see [Teams Phone feature overview](here-s-what-you-get-with-phone-system.md).
+- The ***Microsoft 365 Phone System*** application unlocks more calling features for a ***Microsoft Teams*** user. To learn about calling capabilities included with the base Teams Enterprise license and calling capabilities included with a Teams Phone license, see [Teams Phone feature overview](here-s-what-you-get-with-phone-system.md).
 
-> [!NOTE]
-> In addition to licensing, the user must be "voice enabled." You can use the Teams admin center or PowerShell.</br>
->
-> - In the Teams admin center, go to a **Users** > **Manage users** and select the user you want to edit. Under the **Account** tab > **Assigned phone number**, turn **Enterprise Voice** to **On** and select **Save**.
-> - For PowerShell, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet and set the `-EnterpriseVoiceEnabled` parameter to `$true`.
+### Licensing Teams Phone for Shared Calling
 
-#### Licensing Teams Phone for resource accounts
+Microsoft Teams can support multiple users sharing a single phone number. In this scenario, a resource account is provisioned with Teams Phone, and then you grant a policy to users that allows them to access the phone number of the resource account to make outbound calls.
 
-In scenarios where you want to provision Teams devices for PSTN calling, for example, common area phones, shared devices, or an account that isn't assigned to an end user, you must assign one of the following specialized licenses:
+End users only require a **Microsoft Teams** license. This is a cost-effective way to give users a way to make outbound calls, without allocating a Teams Phone license and a phone number to every user.
+
+To learn more about Shared Calling, see [Plan for Shared Calling](shared-calling-plan.md).
+
+### Licensing Teams Phone for resource accounts
+
+In scenarios where you have common area phones, shared devices, or applications where the identity account isn't aassigned to an end users, you can use one of the following specialized licenses:
 
 - [Microsoft Teams Shared Devices](./phones/phones-for-teams.md) - applied to resource accounts that support common area telephones
 - [Microsoft Teams Room Pro](./rooms/rooms-licensing.md) - applied to resource accounts that support audio and video hardware for collaboration spaces
@@ -82,7 +84,9 @@ For more information about licenses to use with Teams Phone, see [Teams add-on l
 
 ## Licensing Teams Phone and adding PSTN
 
-When you grant the necessary license to an account *and* equip your tenant with a Public Switched Telephone Network (PSTN) solution, then Microsoft Teams provides support for 1:1 calling and group calling from a Teams client--to any PSTN telephone number.
+Assigning necessary licenses to an account is one pre-requisite to setting up Teams Phone. Another key pre-requisite is integrating your tenant with a Public Switched Telephone Network (PSTN) solution.
+
+With a PSTN access to your tenant and licensed users, Microsoft Teams Phone provides support for 1:1 calling and group calling between a Teams client--and any PSTN telephone number.
 
 > [!NOTE]
 > A PSTN solution is separate from a Teams Phone license. A **PSTN solution** provides a customer's tenant with phone numbers and PSTN access to domestic, international, and emergency calling. The Teams Phone **license** entitles a Teams user to *enhanced calling capabilities* within the tenant and *access* to the PSTN solution.

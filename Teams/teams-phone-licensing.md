@@ -36,7 +36,9 @@ To learn more about Teams Phone, see [What is Teams Phone](what-is-phone-system-
 
 The way telephone numbers get assigned to users and to shared devices is by assigning the number to the respective user's or device's user account.
 
-A user account must exist and be licensed before a phone number can be assigned. To learn more about identity management and licensing in M365, see [Assign Microsoft 365 licenses to user accounts](/microsoft-365/enterprise/assign-licenses-to-user-accounts).
+A user account must exist and be licensed before a phone number can be assigned. 
+To learn more about creating accounts in M365, see [Add users](/microsoft-365/admin/add-users/add-users.)
+To learn more about assigning licenses in M365, see [Assign Microsoft 365 licenses to user accounts](/microsoft-365/enterprise/assign-licenses-to-user-accounts).
 
 To support the users signing into Teams so they can use Teams Phone, see [Set up Teams in your org](deploy-enterprise-setup.md) and [Sign in to Microsoft Teams](sign-in-teams.md).
 
@@ -54,9 +56,9 @@ To learn more about administering M365 licenses, see [Assign or unassign license
 
 All users who require their own telephone number to make and receive telephone calls need to be granted the **Microsoft Teams** and **Microsoft 365 Phone System** applications.
 
-The following license combinations grant end users with the minimal Teams Phone licensing requirements.
+The following license combinations grant end users with the Teams Phone licensing requirements.
 
-- A ***Microsoft Teams Enterprise*** license combined with a ***Microsoft 365 E5*** license
+- A ***Microsoft Teams Enterprise*** license combined with a ***Microsoft 365 E5 (no Teams)*** license
 - A ***Microsoft Teams Enterprise*** license combined with ***Microsoft Teams Phone Standard*** license
 - A legacy ***Microsoft 365 E5*** license (includes ***Microsoft Teams Enterprise***)
 
@@ -91,11 +93,15 @@ With a PSTN access to your tenant and licensed users, Microsoft Teams Phone prov
 > [!NOTE]
 > A PSTN solution is separate from a Teams Phone license. A **PSTN solution** provides a customer's tenant with phone numbers and PSTN access to domestic, international, and emergency calling. The Teams Phone **license** entitles a Teams user to *enhanced calling capabilities* within the tenant and *access* to the PSTN solution.
 
-One of the PSTN solutions is provided by Microsoft. If you elect to use Microsoft to integrate your tenant with the PSTN, the user requires a Microsoft Calling Plan license.
+If you elect to use Microsoft to provide your PSTN, in addition to the Teams Phone licensing, the user also requires a Microsoft Calling Plan license.
 
-If you elect to use other Operators to integrate your tenant with the PSTN, then Microsoft will not require additional licensing, but the PSTN costs will be incurred from the Operator.
+If you elect to use an operator other than Microsoft to integrate your tenant with the PSTN, then Microsoft will not require additional licensing, because the PSTN costs will be incurred from your preferred operator.
+
+The **Teams Phone with Calling Plan** license bundle is Microsoft’s all-in-the-cloud solution. This option provides Private Branch Exchange (PBX) capabilities and external calls to the Public Switched Telephone Network (PSTN) with Microsoft as your carrier. If the Teams Phone with Calling Plan bundle is available in your location, you should consider this option. But if your PSTN calling requirements are more complex, Microsoft offers several PSTN connectivity options for making external calls.
 
 For more information on PSTN Connectivity, see [PSTN connectivity options](pstn-connectivity.md).
+
+For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 For next steps, see [Set up Teams Phone](setting-up-your-phone-system.md).
 

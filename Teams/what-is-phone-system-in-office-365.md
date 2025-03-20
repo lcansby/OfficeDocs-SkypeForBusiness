@@ -50,7 +50,7 @@ The add-on options comprising of **Teams Phone** include the following:
 
 Teams Phone allows you to replace your existing PBX system with a set of features delivered from the same platform that provides your enterprise productivity tools.
 
-If you have another phone system or a contact center in your organization, Teams Phone supports coexistence integrations.
+If you have another phone system or a contact center in your organization, Teams Phone supports coexistent integrations.
 
 Teams Phone works with all Teams clients and with certified, third-party devices, and includes a rich set of features, empowering end users to manage their own phone call workflows.
 
@@ -71,7 +71,7 @@ Are you new to setting up phone systems or just need some extra help? There are 
   - SMB is considered fewer than 300 users with business SKU licenses, or a customer with fewer than 500 users with E3, E1, and Phone System licenses.
 
 - If you're a customer with a larger user base, we offer Microsoft Cloud-Solution-Architect-led workshops for Teams Phone planning, piloting, enabling at scale, optimizing, and more, through Unified Support plans.
-  - To learn more, see [Unified Enterprise Plan Details](microsoft-unified/plan-details), and contact your account team.
+  - To learn more, see [Unified Enterprise Plan Details](https://www.microsoft.com/microsoft-unified/plan-details), and contact your account team.
 
 - If you're a customer of any size, you can contact a Microsoft Teams Phone partner to help with your Teams Phone planning, enablement, optimizing, management, devices, solutions, services, and more.
   - If you don't have a Teams Phone partner, see [Find a Microsoft partner](https://partner.microsoft.com/partnership/find-a-partner), and filter for your location.

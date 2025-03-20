@@ -73,15 +73,22 @@ End users only require a **Microsoft Teams** license. Shared Calling is a cost-e
 
 To learn more about Shared Calling, see [Plan for Shared Calling](shared-calling-plan.md).
 
-### Licensing Teams Phone for resource accounts
+### Licensing Teams Phone for shared devices
 
-In scenarios where you have common area phones, shared devices, or voice applications, you can use one of the following specialized licenses:
+In scenarios where you have communication devices that are shared by many users, you can use one of the following specialized licenses:
 
 - [Microsoft Teams Shared Devices](./phones/phones-for-teams.md) - applied to resource accounts that support common area telephones
 - [Microsoft Teams Room Pro](./rooms/rooms-licensing.md) - applied to resource accounts that support audio and video hardware for shared collaboration spaces
+
+### Licensing Teams Phone for voice applications
+
+In scenarios where you are provisioning voice applications, you can use the following specialized license:
+
 - [Microsoft Teams Phone Resource Account](manage-resource-accounts.md#obtain-microsoft-teams-phone-resource-account-licenses) - applied to resource accounts that support voice applications like Teams auto attendants and call queues.
 
-Resource accounts that use these licenses don't require licensing for the ***Microsoft Teams Enterprise*** application because they're only using the Teams calling workload.
+### Considerations
+
+Resource accounts for shared devices and voice applications don't require licensing for the ***Microsoft Teams Enterprise*** application because they're only using the Teams calling workload.
 
 For more information about licenses to use with Teams Phone, see [Teams add-on license options](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 

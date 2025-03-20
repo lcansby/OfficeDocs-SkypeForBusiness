@@ -64,16 +64,18 @@ To learn more about what is included with Teams Phone, see [Teams Phone features
 
 ## Need help with your Teams Phone deployment?
 
-Are you new to setting up phone systems or just need some extra help? There are several avenues to get help with your Teams Phone deployment.
+Are you new to setting up phone systems or just need some extra help?
+
+You have several avenues to get help with your Teams Phone deployment.
 
 - If you're a customer that is categorized as SMB (Small to Medium Business), we offer a complementary consultation program.
   - To learn more, contact our Teams Phone SMB support team at <TeamsPhoneSMB@microsoft.com>.
   - SMB is considered fewer than 300 users with business SKU licenses, or a customer with fewer than 500 users with E3, E1, and Phone System licenses.
 
 - If you're a customer with a larger user base, we offer Microsoft Cloud-Solution-Architect-led workshops for Teams Phone planning, piloting, enabling at scale, optimizing, and more, through Unified Support plans.
-  - To learn more, see [Unified Enterprise Plan Details](https://www.microsoft.com/microsoft-unified/plan-details), and contact your account team.
+  - To learn more, see [Unified Enterprise Plan Details](https://www.microsoft.com/microsoft-unified/plan-details), and contact your Microsoft account team.
 
-- If you're a customer of any size, you can contact a Microsoft Teams Phone partner to help with your Teams Phone planning, enablement, optimizing, management, devices, solutions, services, and more.
+- Regardless of size, you can always use a Microsoft Teams Phone partner to help with your Teams Phone planning, enablement, optimizing, management, devices, solutions, services, and more.
   - If you don't have a Teams Phone partner, see [Find a Microsoft partner](https://partner.microsoft.com/partnership/find-a-partner), and filter for your location.
 
 ## Related topics

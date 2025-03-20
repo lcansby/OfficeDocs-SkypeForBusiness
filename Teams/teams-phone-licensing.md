@@ -55,15 +55,26 @@ To learn more about administering M365 licenses, see [Assign or unassign license
 
 ### Licensing Teams Phone for end users
 
-All users who require their own telephone number to make and receive telephone calls need to be granted the **Microsoft Teams** and **Microsoft 365 Phone System** applications.
+At a minimum, all users who require their own telephone number to make and receive telephone calls must be assigned with licenses that granted the **Microsoft Teams** and **Microsoft 365 Phone System** applications.
 
-The following license combinations grant end users with the Teams Phone licensing requirements.
+The ***Microsoft 365 Phone System*** application unlocks more calling features for a ***Microsoft Teams*** user. To learn about calling capabilities included with the base Teams Enterprise license and calling capabilities included with a Teams Phone license, see [Teams Phone feature overview](here-s-what-you-get-with-phone-system.md).
+
+Presuming your end users need licensing that grants them **Microsoft Teams** and **Microsoft 365 Phone System**, there are various potential license assignment combinations available to meet the requirement.
+
+Assigning the following license combinations are examples of granting end users the ability to use Teams Phone.
 
 - A ***Microsoft Teams Enterprise*** license combined with a ***Microsoft 365 E5 (no Teams)*** license
 - A ***Microsoft Teams Enterprise*** license combined with ***Microsoft Teams Phone Standard*** license
 - A legacy ***Microsoft 365 E5*** license (includes ***Microsoft Teams Enterprise***)
+- A ***Office 365 F3*** license combined with a ***Microsoft Teams Phone Standard for Frontline Workers*** license
 
-- The ***Microsoft 365 Phone System*** application unlocks more calling features for a ***Microsoft Teams*** user. To learn about calling capabilities included with the base Teams Enterprise license and calling capabilities included with a Teams Phone license, see [Teams Phone feature overview](here-s-what-you-get-with-phone-system.md).
+Note that there are three variations on the **Microsoft Teams Phone Standard** license, each requiring the purchase of a Prerequisite License as listed in the following table:
+
+|**License** |**Prerequisite License(s)** |
+|:-----|:-----|
+|Microsoft Teams Phone Standard |Microsoft 365 Business Basic/Business Standard/Business Premium/F1/F3/E3/A3; Microsoft Teams EEA; Microsoft Teams Enterprise; Microsoft Teams Essentials (AAD Identity); Office 365 F3/E1/E3/A1/A3 |
+|Microsoft Teams Phone Standard for Frontline Workers	|Microsoft 365 F1/F3; Office 365 F3 |
+|Microsoft Teams Phone with Calling Plan |Microsoft 365 Business Basic/Business Standard/Business Premium/F1/F3/E3/A3; Microsoft Teams EEA; Microsoft Teams Enterprise; Microsoft Teams Essentials (AAD Identity); Office 365 F3/E1/E3/A1/A3 |
 
 ### Licensing Teams Phone for Shared Calling
 

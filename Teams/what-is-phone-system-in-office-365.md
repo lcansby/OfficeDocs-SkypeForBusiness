@@ -24,21 +24,21 @@ ms.custom:
   - Phone System
   - seo-marvel-apr2020
   - intro-overview
-description: "In this article, you'll learn about Microsoft Teams Phone System technology in Microsoft 365."
+description: "Learn about Microsoft Teams Phone System in Microsoft 365."
 ---
 
 # What is Teams Phone
 
 This article is for administrators and IT professionals who are evaluating Microsoft Teams Phone--Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud.
 
-By default, calls between Teams users in your organization are handled natively within Teams, and never go to the Public Switched Telephone Network (PSTN)--thereby removing long-distance costs on internal calls.
+By default, calls between Teams users in your organization are handled natively within Teams, and never go to the Public Switched Telephone Network (PSTN), removing operator toll costs for calls that stay internal to your organization.
 To see more about Teams calling in general, see [Teams calling overview](cloud-voice-landing-page.md).
 
 To enhance user calling experiences with the ability to make and receive domestic and international *telephone* calls, **Teams Phone** provides add-on options to Teams for connecting users with the PSTN.
 
 The add-on options comprising of **Teams Phone** include the following:
 
-- Licensing for the appropriate Teams Phone application
+- User or resource account licensing for the appropriate Teams Phone application
   - For licensing options, see [Teams Phone licensing](teams-phone-licensing.md).
 
 - At least one PSTN operator solution that allows you to access the PSTN and acquire phone numbers for your tenant.
@@ -50,7 +50,7 @@ The add-on options comprising of **Teams Phone** include the following:
 
 Teams Phone allows you to replace your existing PBX system with a set of features delivered from the same platform that provides your enterprise productivity tools.
 
-If you have another phone system or a contact center in your organization, Teams Phone supports co-existence integrations.
+If you have another phone system or a contact center in your organization, Teams Phone supports coexistence integrations.
 
 Teams Phone works with all Teams clients and with certified, third-party devices, and includes a rich set of features, empowering end users to manage their own phone call workflows.
 
@@ -58,7 +58,7 @@ Teams also provides administrators with a comprehensive set of voice policy sett
 
 Administering **Teams Phone** builds on *the same model for administration* as outlined for **native Teams calling** in [Calling in Teams overview](cloud-voice-landing-page.md), and includes administration of extra calling features that are available to users licensed for Teams Phone.
 
-Teams Phone also provides additional enterprise phone system features for your organization, like auto attendants and call queues.
+Teams Phone also includes extra enterprise phone system features for your organization, like auto attendants and call queues.
 
 To learn more about what is included with Teams Phone, see [Teams Phone features](here-s-what-you-get-with-phone-system.md).
 
@@ -66,14 +66,15 @@ To learn more about what is included with Teams Phone, see [Teams Phone features
 
 Are you new to setting up phone systems or just need some extra help? There are several avenues to get help with your Teams Phone deployment.
 
-- If you are a customer with 300 or less user seats with business SKU licenses or a customer with less than 500 seats of E3, E1 and Phone System licenses, we offer a complementary consultation program. 
+- If you're a customer that is categorized as SMB (Small to Medium Business), we offer a complementary consultation program.
   - To learn more, contact our Teams Phone SMB support team at <TeamsPhoneSMB@microsoft.com>.
+  - SMB is considered fewer than 300 users with business SKU licenses, or a customer with fewer than 500 users with E3, E1, and Phone System licenses.
 
-- If you are a customer with a larger user base, we offer Microsoft Cloud-Solution-Architect-led workshops for Teams Phone planning, piloting, enabling at scale, optimizing, and more, through Unified Support plans.
+- If you're a customer with a larger user base, we offer Microsoft Cloud-Solution-Architect-led workshops for Teams Phone planning, piloting, enabling at scale, optimizing, and more, through Unified Support plans.
   - To learn more, see [Unified Enterprise Plan Details](microsoft-unified/plan-details), and contact your account team.
 
-- At all times, you can contact a Microsoft Teams Phone partner to help with your Teams Phone planning, enablement, optimizing, management, devices, solutions, services, and more.
-  - If you don't have a Teams Phone partner, see [Find a Microsoft parnter](https://partner.microsoft.com/partnership/find-a-partner), and filter for your location.
+- If you're a customer of any size, you can contact a Microsoft Teams Phone partner to help with your Teams Phone planning, enablement, optimizing, management, devices, solutions, services, and more.
+  - If you don't have a Teams Phone partner, see [Find a Microsoft partner](https://partner.microsoft.com/partnership/find-a-partner), and filter for your location.
 
 ## Related topics
 

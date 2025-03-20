@@ -39,10 +39,10 @@ In this article, learn about:
 
 ## Standard AI features in Microsoft Teams
 
-*Required licenses:*
-
-![Image of a checkmark for yes](/office/media/icons/success-teams.png) *Microsoft Business (Basic, Standard, and Premium) or Microsoft 365 (E3/E5/F1/F3/A3/A5/G3/G5)*<br>
-![Image of a checkmark for yes](/office/media/icons/success-teams.png) *Teams Enterprise or Teams Enterprise (EEA)*
+> *Required licenses:*
+> [!div class="checklist"]
+> - *Microsoft Business (Basic, Standard, and Premium) or Microsoft 365 (E3/E5/F1/F3/A3/A5/G3/G5)*
+> - *Teams Enterprise or Teams Enterprise (EEA)*
 
 Microsoft Teams includes some AI features that don’t require any extra licenses, just a Microsoft 365 subscription and a Teams license. These features enhance your users’ Teams experience in their workflow, chats, and meetings, including:
 

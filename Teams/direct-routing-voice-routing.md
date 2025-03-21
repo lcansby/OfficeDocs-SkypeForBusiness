@@ -1,7 +1,7 @@
 ---
 title: "Configure call routing for Direct Routing"
-ms.reviewer: 
-ms.date: 11/17/2023
+ms.reviewer: filippse
+ms.date: 3/21/2025
 ms.author: scottfrancis
 author: sfrancis206
 manager: pamgreen

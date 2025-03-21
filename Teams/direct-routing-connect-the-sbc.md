@@ -1,7 +1,7 @@
 ---
 title: "Connect your Session Border Controller (SBC) to Direct Routing"
-ms.reviewer: 
-ms.date: 10/03/2023
+ms.reviewer: filippse
+ms.date: 3/21/2025
 ms.author: scottfrancis
 author: sfrancis206
 manager: pamgreen

@@ -78,16 +78,18 @@ Note that there are three variations on the **Microsoft Teams Phone Standard** l
 
 ### Licensing Teams Phone for shared devices
 
-In scenarios where you have communication devices that are shared by many users, you can use one of the following specialized licenses:
+In scenarios requiring that phone calls can be made to or from communication devices that are shared by many users, you can use one of the following specialized licenses:
 
-- [***Microsoft Teams Shared Devices*** license](./phones/phones-for-teams.md) - applied to resource accounts that support common area telephones
-- [***Microsoft Teams Room Pro*** license](./rooms/rooms-licensing.md) - applied to resource accounts that support audio and video hardware for shared collaboration spaces
+- [***Microsoft Teams Shared Devices*** license](./phones/phones-for-teams.md) - *applied to resource accounts that support common area telephones*
+- [***Microsoft Teams Room Pro*** license](./rooms/rooms-licensing.md) - *applied to resource accounts that support audio and video hardware for shared collaboration spaces*
+
+The **Microsoft 365 Phone System** application is included in each of these licesnes.
 
 ### Licensing Teams Phone for voice applications
 
 In scenarios where you are provisioning voice applications, you can use the following specialized license:
 
-- [***Microsoft Teams Phone Resource Account*** license](manage-resource-accounts.md#obtain-microsoft-teams-phone-resource-account-licenses) - applied to resource accounts that support voice applications like Teams auto attendants and call queues.
+- [***Microsoft Teams Phone Resource Account*** license](manage-resource-accounts.md#obtain-microsoft-teams-phone-resource-account-licenses) - *applied to resource accounts that support voice applications, like Teams auto attendants and call queues.*
 
 ## Licensing Teams Phone and adding PSTN
 
@@ -116,13 +118,11 @@ To learn more about Shared Calling, see [Plan for Shared Calling](shared-calling
 
 ### Considerations
 
-Resource accounts for shared devices and voice applications don't require licensing for the ***Microsoft Teams Enterprise*** application because they're only using the Teams calling workload.
+[Licensing Teams Phone for shared devices](#licensing-teams-phone-for-shared-devices) and [Licensing Teams Phone for voice applications](#licensing-teams-phone-for-voice-applications) doesn't also require licensing for the ***Microsoft Teams Enterprise*** application because they're only using the Teams calling workload.
 
-For more information about licenses to use with Teams Phone, see [Teams add-on license options](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+For more information about licenses to use with Teams, see [Teams add-on license options](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 For more information on PSTN Connectivity, see [PSTN connectivity options](pstn-connectivity.md).
-
-For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 For next steps, see [Set up Teams Phone](setting-up-your-phone-system.md).
 

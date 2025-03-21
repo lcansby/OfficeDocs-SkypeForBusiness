@@ -43,23 +43,23 @@ To learn more about assigning licenses in M365, see [Assign Microsoft 365 licens
 
 To learn more about deploying Teams as your productivity platform, see [Set up Teams in your org](deploy-enterprise-setup.md) and [Sign in to Microsoft Teams](sign-in-teams.md).
 
-### Understanding M365 licensing for M365 Phone System
+### Understanding M365 licensing and applications
 
-Granting an application to a user or resource account is accomplished by assigning *a license* that includes the necessary application.
+Granting a user or resource account with permissions to use an M365 application is accomplished by assigning *a M365 license* to their account.
 
-For example, if you need to set up an existing user to have Teams Phone, your first step is to assign their user account with a ***Microsoft Teams Phone Standard*** license, granting the user account with an ability to use the **Microsoft 365 Phone System** application.
+For example, if you need to set up an existing Teams user with permissions to use Teams as their phone system, your first step is to assign their user account with a ***Microsoft Teams Phone Standard*** license, granting the user account with permission to use the **Microsoft 365 Phone System** application.
 
 Alternatively, you can assign the user account with a ***Microsoft 365 E5 (no Teams)*** license, which includes--and equips the user account with an ability to use--the **Microsoft 365 Phone System** application. In the case where an M365 E5 license is used, it isn't necessary to also assign the stand-alone ***Microsoft Teams Phone Standard*** license.
 
 To learn more about administering M365 licenses, see [Assign or unassign licenses for users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-### Licensing Teams Phone for end users
-
-At a minimum, all users who require their own telephone number to make and receive telephone calls must be assigned with licenses that granted the **Microsoft Teams** and **Microsoft 365 Phone System** applications.
-
 The **Microsoft 365 Phone System** application unlocks more calling features for a **Microsoft Teams** user. To compare native calling capabilities included with Teams Enterprise to PSTN calling capabilities included with Teams Phone, see [Teams Phone feature overview](here-s-what-you-get-with-phone-system.md).
 
-Presuming your end users need licensing that grants them **Microsoft Teams** and **Microsoft 365 Phone System**, there are various potential license assignment combinations available to meet the requirement.
+### Licensing Teams Phone for end users
+
+All users who require their own telephone number to make and receive telephone calls must be assigned with licenses that include the **Microsoft Teams** and **Microsoft 365 Phone System** applications.
+
+There are various potential license assignment combinations available to meet the requirement.
 
 Assigning the following license combinations are examples of granting end users the ability to use Teams Phone.
 

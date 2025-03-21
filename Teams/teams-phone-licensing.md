@@ -49,7 +49,7 @@ Granting a user or resource account with permissions to use an M365 application 
 
 For example, if you need to set up an existing Teams user with permissions to use Teams as their phone system, your first step is to assign their user account with a ***Microsoft Teams Phone Standard*** license, granting the user account with permission to use the **Microsoft 365 Phone System** application.
 
-Alternatively, you can assign the user account with a ***Microsoft 365 E5 (no Teams)*** license, which includes--and equips the user account with an ability to use--the **Microsoft 365 Phone System** application. In the case where an M365 E5 license is used, it isn't necessary to also assign the stand-alone ***Microsoft Teams Phone Standard*** license.
+Alternatively, you can assign the user account with a ***Microsoft 365 E5 (no Teams)*** license, which *includes*--among other applications--the **Microsoft 365 Phone System** application. In the case where an M365 E5 license is used, it isn't necessary to also assign the stand-alone ***Microsoft Teams Phone Standard*** license.
 
 To learn more about administering M365 licenses, see [Assign or unassign licenses for users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -59,14 +59,14 @@ The **Microsoft 365 Phone System** application unlocks more calling features for
 
 All users who require their own telephone number to make and receive telephone calls must be assigned with licenses that include the **Microsoft Teams** and **Microsoft 365 Phone System** applications.
 
-There are various potential license assignment combinations available to meet the requirement.
+There are several license assignment combinations available to meet the requirement.
 
-Assigning the following license combinations are examples of granting end users the ability to use Teams Phone.
+Assigning the following license combinations are just a few examples that grant end users the ability to use Teams Phone.
 
 - A ***Microsoft Teams Enterprise*** license combined with a ***Microsoft 365 E5 (no Teams)*** license - *Microsoft 365 E5 (no Teams) includes the **Microsoft 365 Phone System** application*
 - A ***Microsoft Teams Enterprise*** license combined with ***Microsoft Teams Phone Standard*** license
-- A legacy ***Microsoft 365 E5*** license - *includes **Microsoft Teams** and **Microsoft 365 Phone System** applications.*
-- A ***Office 365 F3*** license combined with a ***Microsoft Teams Phone Standard for Frontline Workers*** license.
+- A legacy ***Microsoft 365 E5*** license - *includes **Microsoft Teams** and **Microsoft 365 Phone System** applications*
+- A ***Office 365 F3*** license combined with a ***Microsoft Teams Phone Standard for Frontline Workers*** license
 
 There are three variations on the **Microsoft Teams Phone Standard** license, each requiring the purchase of a Prerequisite License as listed in the following table:
 

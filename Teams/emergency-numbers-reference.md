@@ -1,6 +1,6 @@
 ---
 ms.date: 05/01/2024
-title: Emergency numbers country reference
+title: Emergency numbers country and region reference
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
@@ -20,11 +20,11 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords: 
   - NOCSH
-description: Reference article listing emergency numbers for countries.
+description: Reference article listing emergency numbers for countries/regions.
 ms.custom: seo-marvel-mar2020
 ---
 
-# Emergency numbers for countries
+# Emergency numbers for countries and regions
 
 The following table lists country, ISO country code, and the associated emergency numbers for that country.
 
@@ -78,7 +78,7 @@ The following table lists country, ISO country code, and the associated emergenc
 | Congo | CG | 112 |
 | Cook Islands | CK | 999<br>     996<br>     22664<br>     22499 |
 |Costa Rica|CR|911<br>112<br>1117<br>1118|
-|Ivory Coast (Côte d'Ivoire)|CI|100<br>110<br>111<br>170<br>180<br>185<br>145|
+|Côte d'Ivoire|CI|100<br>110<br>111<br>170<br>180<br>185<br>145|
 |Croatia|HR|192<br>193<br>194<br>195<br>1987<br>116000<br>116006<br>116111<br>112|
 |Cyprus|CY|112<br>199|
 |Czech Republic|CZ|112<br>150<br>155<br>156<br>158|
@@ -116,7 +116,7 @@ The following table lists country, ISO country code, and the associated emergenc
 | Haiti | HT | 114<br>     116<br>     122 |
 | Heard Island &<br>     McDonald Islands | HM | Not   applicable (uninhabited) |
 | Honduras | HN | 911<br>     198<br>     100 |
-|Hong Kong|HK|999|
+|Hong Kong SAR|HK|999|
 |Hungary|HU|104<br>105<br>107<br>112|
 |Indonesia|ID|112<br>110<br>119<br>113|
 | Iceland | IS | 112 |

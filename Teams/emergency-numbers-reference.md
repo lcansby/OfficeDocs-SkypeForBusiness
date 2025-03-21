@@ -62,10 +62,10 @@ The following table lists country, ISO country code, and the associated emergenc
 |Burkina Faso |BF |15<br>16<br>17<br>18<br>112<br>199<br>1010<br>1111<br>1130 |
 |Burundi |BI |113<br>413 | 
 |Brazil|BR|128<br>180<br>185<br>190<br>191<br>192<br>193<br>194<br>197<br>198|
+|Cabo Verde |CV |112 |
 |Cambodia|KH|117<br>118<br>119<br>666|
 |Cameroon|CM|117<br>118<br>119|
 |Canada|CA|911<br>911 DialMask=1911<br>911 DialMask=9911<br>933|
-|Cape Verde |CV |112 |
 |Cayman Islands |KY |911 |
 |Central African Republic |CF |114<br>117<br>118 |
 |Chad |TD |114<br>115 |

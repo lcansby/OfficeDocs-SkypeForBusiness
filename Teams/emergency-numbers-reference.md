@@ -216,7 +216,7 @@ The following table lists country, ISO country code, and the associated emergenc
 | Togo | TG | 117<br>     118<br>     9200 |
 |Trinidad & Tobago |TT |911<br>811<br>990<br>999 |
 | Tunisia | TN | 190<br>     193<br>     194<br>     197<br>     198 |
-|Turkey|TR|112<br>132<br>156<br>158<br>177|
+|Türkiye|TR|112<br>132<br>156<br>158<br>177|
 | Turkmenistan | TM | 001<br>     002<br>     003<br>     004<br>     009 |
 |Turks & Caicos Islands |TC |911 |
 |Uganda|UG|999<br>112|

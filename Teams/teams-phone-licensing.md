@@ -37,7 +37,7 @@ To learn more about Teams Phone, see [What is Teams Phone](what-is-phone-system-
 The way telephone numbers get assigned to users and to shared devices is by assigning the number to the respective user's or device's user account.
 
 A user account must exist and be licensed before a phone number can be assigned.
-To learn more about creating accounts in M365, see [Add users](/microsoft-365/admin/add-users/add-users.).
+To learn more about creating accounts in M365, see [Add users](/microsoft-365/admin/add-users/add-users).
 
 To learn more about assigning licenses in M365, see [Assign Microsoft 365 licenses to user accounts](/microsoft-365/enterprise/assign-licenses-to-user-accounts).
 

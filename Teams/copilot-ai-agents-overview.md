@@ -44,7 +44,7 @@ In this article, learn about:
 > - *Microsoft Business (Basic, Standard, and Premium) or Microsoft 365 (E3/E5/F1/F3/A3/A5/G3/G5)*
 > - *Teams Enterprise or Teams Enterprise (EEA)*
 
-Microsoft Teams includes some AI features that don’t require any extra licenses, just a Microsoft 365 subscription and a Teams license. These features enhance your users’ Teams experience in their workflow, chats, and meetings, including:
+Microsoft Teams includes some AI features that don’t require any extra licenses, just a Microsoft 365 subscription and a Teams license. These features enhance your users’     Teams experience in their workflow, chats, and meetings, including:
 
 - **Microsoft Copilot Chat app**: The Copilot Chat app in Teams allows users to ask Copilot open-ended questions, request help creating new content, and use [Copilot Pages](https://support.microsoft.com/topic/introducing-microsoft-365-copilot-pages-6674bd51-9ff5-42c4-9256-44d9428a726f). Without a Microsoft 365 Copilot license, Copilot’s responses are only grounded in public web data.
 

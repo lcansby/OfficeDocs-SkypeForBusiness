@@ -52,7 +52,7 @@ Granting a user or resource account with permissions to use *an M365* ***applica
 
 For example, if you need to set up an existing Teams user with permissions to use Teams as their phone system, your first step is to assign their user account with a license that grants them permission to use the **Microsoft 365 Phone System** application.
 
-There are several ways to license a user account so that it can use the **Microsoft 365 Phone System** application. For more information, see [Licensing Teams Phone for end users](#licensing-teams-phone-for-end-users).
+There are several ways to license a user account so that it can use the **Microsoft 365 Phone System** application. For more information, see [Licensing Teams Phone for end users](#licensing-teams-phone---for-end-users).
 
 To learn more about assigning licenses in M365, see the following resources.
 
@@ -125,7 +125,7 @@ The ***Teams Phone with Calling Plan*** license bundle is Microsoft’s all-in-t
 
 Microsoft Teams can support multiple users sharing a single phone number. In this scenario, a resource account is provisioned with Teams Phone and a telephone number, and then you grant a policy to users that allows them to access the phone number of the resource account to make outbound calls.
 
-With Shared Calling, end users don't need a dedicated phone number or a calling plan. They only require licensing described in [Licensing Teams Phone for end users](#licensing-teams-phone-for-end-users). 
+With Shared Calling, end users don't need a dedicated phone number or a calling plan. They only require licensing described in [Licensing Teams Phone for end users](#licensing-teams-phone---for-end-users). 
 
 Shared Calling is a cost-effective way to give users a way to make outbound calls, without allocating a calling plan and a phone number to every user.
 
@@ -133,7 +133,7 @@ To learn more about Shared Calling, see [Plan for Shared Calling](shared-calling
 
 ### Considerations
 
-[Licensing Teams Phone for shared devices](#licensing-teams-phone-for-shared-devices) and [Licensing Teams Phone for voice applications](#licensing-teams-phone-for-voice-applications) doesn't also require licensing for the ***Microsoft Teams Enterprise*** application because they're only using the Teams calling workload.
+[Licensing Teams Phone for shared devices](#licensing-teams-phone---for-shared-devices) and [Licensing Teams Phone for voice applications](#licensing-teams-phone-for---voice-applications) doesn't also require licensing for the **Microsoft Teams Enterprise** application because they're only using the Teams calling workload.
 
 ***Microsoft Teams Shared Device*** licenses are supported only for telephone devices.
 

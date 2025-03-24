@@ -30,9 +30,19 @@ description: Learn how to set up Microsoft Teams Phone for your organization in 
 
 # Set up Teams Phone in your organization
 
-This article provides a roadmap to content for setting up Microsoft Teams Phone--Microsoft's technology for enabling external calling and phone system capabilities in the Microsoft 365 cloud. This article is for administrators and IT professionals.
+This article provides a high-level roadmap to content for setting up Microsoft Teams Phone--Microsoft's technology for enabling external calling and phone system capabilities in the Microsoft 365 cloud.
 
-If you're just starting your voice solution, be sure to reference [Calling in Teams Overview](cloud-voice-landing-page.md), [Teams Phone licensing](teams-phone-licensing.md), and [PSTN connectivity overview](pstn-connectivity.md).
+Teams Phone deployments will vary in scope for each organization. The steps outlined in this article are general guidelines and can be modified for your deployment.
+
+## Prerequisites
+
+The following guidance assumes you're adding Teams Phone to an existing Teams deployment. If need to deploy Teams as part of your Teams Phone deployment, then start by [Setting up Teams in your org](deploy-enterprise-setup.md).
+
+Before starting with your Teams Phone deployment, ensure you have a fundamental understanding of the knowledge provided in the following articles.
+
+- [Calling in Teams Overview](cloud-voice-landing-page.md)
+- [Teams Phone features](here-s-what-you-get-with-phone-system.md)
+- [Teams Phone licensing](teams-phone-licensing.md)
 
 ## Provisioning steps - example
 

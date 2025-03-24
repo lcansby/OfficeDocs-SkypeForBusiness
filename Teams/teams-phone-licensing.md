@@ -30,39 +30,39 @@ description: "Applying Teams Phone licensing."
 
 This article is for IT administrators and IT professionals who are managing Teams Phone workloads for an organization and want to understand the scenarios of assigning licenses to user and resource accounts.
 
-To learn more about Teams Phone, see [What is Teams Phone](what-is-phone-system-in-office-365.md).
+To learn more about Teams Phone, see [What is Teams Phone](what-is-phone-system-in-office-365.md) and [Teams Phone feature overview](here-s-what-you-get-with-phone-system.md).
 
 ### Understanding identity management for Teams Phone
 
 The way telephone numbers get assigned in Teams is by assigning a number to a respective user account.
 
-In Teams, user administration is inherited from M365, where user accounts are created, licensed, and managed.
+In Teams, user accounts are inherited from M365, where user accounts are created, licensed, and managed. User accounts can also be managed in Azure Active Directory.
 
 To learn more about creating accounts in M365, see [Add users](/microsoft-365/admin/add-users/add-users).
 
-To learn more about assigning licenses in M365, see [Assign Microsoft 365 licenses to user accounts](/microsoft-365/enterprise/assign-licenses-to-user-accounts).
+In M365, user accounts are also created for Teams resources that are used for voice applications and for devices that are shared by more than one user.
 
-In M365, user accounts are also created for Teams resources that are used for voice application and for devices that are shared by more than one user. When working with voice applications and shared devices, the user account is informally known as a resource account. The underlying Azure Object ID structure is the same, but there are specialized licenses for voice applications and shared devices, so these accounts are called resource accounts to differentiate the purpose from a user account that is associated with an end-user.
+When working with voice applications and shared devices, the user account is informally known as a resource account. The underlying Azure Object ID structure is the same, but there are specialized licenses for voice applications and shared devices, so these accounts are called resource accounts to differentiate them from a user account that is associated with an end-user.
 
 A user account (for a end-user or a resource) must exist and be licensed before a phone number can be assigned.
-
-To learn more about deploying Teams as your productivity platform, see [Set up Teams in your org](deploy-enterprise-setup.md) and [Sign in to Microsoft Teams](sign-in-teams.md).
 
 ### Understanding M365 licensing and applications
 
 Granting a user or resource account with permissions to use *an M365* ***application*** is accomplished by assigning *an M365* ***license*** to their account.
 
-For example, if you need to set up an existing Teams user with permissions to use Teams as their phone system, your first step is to assign their user account with a ***Microsoft Teams Phone Standard*** license, granting the user account with permission to use the **Microsoft 365 Phone System** application.
+For example, if you need to set up an existing Teams user with permissions to use Teams as their phone system, your first step is to assign their user account with a license that grants them permission to use the **Microsoft 365 Phone System** application.
 
-Alternatively, you can assign the user account with a ***Microsoft 365 E5 (no Teams)*** license, which *includes*--among other applications--the **Microsoft 365 Phone System** application. In the case where an M365 E5 license is used, it isn't necessary to also assign the stand-alone ***Microsoft Teams Phone Standard*** license.
+There are several ways to license a user account so that it can use the **Microsoft 365 Phone System** application. For more information, see [Licensing Teams Phone for end users](#licensing-teams-phone-for-end-users).
 
-To learn more about administering M365 licenses, see [Assign or unassign licenses for users](/microsoft-365/admin/manage/assign-licenses-to-users).
+To learn more about assigning licenses in M365, see the following resources.
 
-The **Microsoft 365 Phone System** application unlocks more calling features for a **Microsoft Teams** user. To compare native calling capabilities included with Teams Enterprise to PSTN calling capabilities included with Teams Phone, see [Teams Phone feature overview](here-s-what-you-get-with-phone-system.md).
+- [Assign Microsoft 365 licenses to user accounts](/microsoft-365/enterprise/assign-licenses-to-user-accounts)
+- [Assign or unassign licenses for users](/microsoft-365/admin/manage/assign-licenses-to-users)
+- [Manage Teams licenses](user-access.md)
 
-### Licensing Teams Phone for end users
+### Licensing Teams Phone - for end users
 
-All users who require their own telephone number to make and receive telephone calls must be assigned with licenses that include the **Microsoft Teams** and **Microsoft 365 Phone System** applications.
+All users who require their own telephone number to make and receive telephone calls must be assigned with licensing that include the **Microsoft Teams** and **Microsoft 365 Phone System** applications.
 
 There are several license assignment combinations available to meet the requirement.
 
@@ -73,7 +73,9 @@ Assigning the following license combinations are just a few examples that grant 
 - A legacy ***Microsoft 365 E5*** license - *includes **Microsoft Teams** and **Microsoft 365 Phone System** applications*
 - A ***Office 365 F3*** license combined with a ***Microsoft Teams Phone Standard for Frontline Workers*** license
 
-There are three variations on the **Microsoft Teams Phone Standard** license, each requiring the purchase of a Prerequisite License as listed in the following table:
+In the case where an M365 E5 license is used, it isn't necessary to also assign the stand-alone ***Microsoft Teams Phone Standard*** license.
+
+There are three variations on the ***Microsoft Teams Phone Standard*** license, each requiring the purchase of a Prerequisite License as listed in the following table:
 
 |**License** |**Prerequisite License(s)** |
 |:-----|:-----|
@@ -81,7 +83,7 @@ There are three variations on the **Microsoft Teams Phone Standard** license, ea
 |Microsoft Teams Phone Standard for Frontline Workers	|Microsoft 365 F1/F3; Office 365 F3 |
 |Microsoft Teams Phone with Calling Plan |Microsoft 365 Business Basic/Business Standard/Business Premium/F1/F3/E3/A3; Microsoft Teams EEA; Microsoft Teams Enterprise; Microsoft Teams Essentials (AAD Identity); Office 365 F3/E1/E3/A1/A3 |
 
-### Licensing Teams Phone for shared devices
+### Licensing Teams Phone - for shared devices
 
 In scenarios requiring that phone calls can be made to or from communication devices shared by many users, you can use one of the following specialized licenses:
 
@@ -90,13 +92,17 @@ In scenarios requiring that phone calls can be made to or from communication dev
 
 The **Microsoft 365 Phone System** application is included in each of these specialized licenses.
 
-### Licensing Teams Phone for voice applications
+For a deeper dive, see [Microsoft Teams Shared Devices licensing](./teams-add-on-licensing/teams-shared-device-license.md).
 
-In scenarios where you're provisioning voice applications, you can use the following specialized license:
+### Licensing Teams Phone - for voice applications
 
-- [***Microsoft Teams Phone Resource Account*** license](manage-resource-accounts.md#obtain-microsoft-teams-phone-resource-account-licenses) - *applied to resource accounts that support voice applications, like Teams auto attendants and call queues.*
+In scenarios where you're provisioning voice applications, use the following specialized license:
 
-## Licensing Teams Phone and adding PSTN
+[Microsoft Teams Phone Resource Account license](./teams-add-on-licensing/virtual-user.md)
+
+To learn more about obtaining this license and applying to resource accounts that support voice applications, see [Obtain Microsoft Teams Phone Resource Account license](manage-resource-accounts.md#obtain-microsoft-teams-phone-resource-account-licenses).
+
+## Licensing Teams Phone - adding PSTN
 
 Assigning necessary licenses to an account is one prerequisite to setting up Teams Phone. Another key prerequisite is integrating your tenant with a Public Switched Telephone Network (PSTN) solution.
 

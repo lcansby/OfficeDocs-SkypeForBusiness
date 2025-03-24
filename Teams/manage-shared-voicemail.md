@@ -30,12 +30,13 @@ description: "Learn how to configure and manage Shared Voicemail for Auto Attend
 
 This article describes how to configure and manage Shared Voicemail for Auto Attendants and Call Queues. **Shared Voicemail** is a specialized type of voicemail that allows multiple users to access a single voicemail inbox. Shared Voicemail is delivered to a group, enabling any member of that group to access the message, whereas personal voicemail is sent to a single user, allowing only that individual to access the message automatically.
 
-Shared Voicemail integrates with Microsoft 365 Groups and can be accessed in Outlook or through the Calls section in a Microsoft Teams channel associated with a group. Although Shared Voicemail can also connect to a distribution list or a mail-enabled security group, we recommend using a Microsoft 365 Group. For a comparison of the available options, refer to the following table:
+Shared Voicemail integrates with Microsoft 365 Groups and can be accessed in Outlook or through the Calls section in a Microsoft Teams channel associated with a group. Shared Voicemail can also connect to a distribution list or a mail-enabled security group. For a comparison of the available options, refer to the following table:
 
 |Shared Voicemail|Microsoft 365 Groups|Distribution groups|Mail-enabled security groups|
 |:----|:----|:----|:----|
 |**Visible in Outlook/Exchange**|Yes|Yes|Yes|
 |**Visible in Teams**|Yes<sup>1</sup>|No|No|
+|**Automations with Outlook Rules can be applied**|No|Yes|Yes|
 
 <sup>1</sup> Only if Microsoft 365 group is connected to a Call Queue via a Microsoft 365 group associated channel.
   
@@ -47,7 +48,9 @@ For information about personal voicemail, see [Set up Cloud Voicemail](set-up-ph
 
 ## Prerequisites
 
-To manage Shared Voicemail, you must configure either a Microsoft 365 group, a distribution list, or a mail-enabled security group. We recommend using a Microsoft 365 group. This article focuses on this option.
+To manage Shared Voicemail, you must configure one of the following: a Microsoft 365 group, a distribution list, or a mail-enabled security group. Both private and public groups are supported; however, if you choose a public group, every member of your organization can get access the group and its associated data, including voicemails.
+
+Although creating a new distribution list or mail-enabled security group is a straightforward process, configuring a Microsoft 365 group can involve additional nuances. Therefore, this section will focus on Microsoft 365 group configuration.
 
 If your organization plans to view and manage Shared Voicemails in Microsoft Teams chats or other applications, make sure the Microsoft 365 group you're using has Teams support. Shared Voicemails that are stored in Teams-supported groups are accessible via Microsoft Teams.
 
@@ -72,11 +75,11 @@ For more information about Microsoft 365 groups, see [Overview of Microsoft 365 
 
 ## Configure Shared Voicemail
 
-As an administrator, you can configure Shared Voicemail for both Auto Attendants and Call Queues. As mentioned in the [Prerequisites](#prerequisites), we recommend using Microsoft 365 groups for these setups to ensure seamless integration with Shared Voicemail.
+As an administrator, you can configure Shared Voicemail for both Auto Attendants and Call Queues. 
 
-Only members of the designated Microsoft 365 group can access its associated Shared Voicemail. Each Shared Voicemail is linked to a single Microsoft 365 group.
+Only members of the designated Microsoft 365 group, distribution list or mail-enabled security group can access its associated Shared Voicemail. Each Shared Voicemail is linked to a single group.
 
-To prevent the oversharing of information, each specific Call Queue or Auto Attendant should have its own Microsoft 365 group for Shared Voicemail. If you configure call redirection so that multiple Call Queues with different agents share a common Shared Voicemail group, every user in that group has permission to manage voicemails. This configuration can inadvertently lead to oversharing sensitive information. For this reason, we recommend creating a separate Shared Voicemail group for each individual Call Queue or Auto Attendant.
+To prevent the oversharing of information, each specific Call Queue or Auto Attendant should have its own group for Shared Voicemail. If you configure call redirection so that multiple Call Queues with different agents share a common Shared Voicemail group, every user in that group has permission to manage voicemails. This configuration can inadvertently lead to oversharing sensitive information. For this reason, we recommend creating a separate Shared Voicemail group for each individual Call Queue or Auto Attendant.
 
 For more information, see [Manage your call queue and auto attendant settings in Microsoft Teams](https://support.microsoft.com/office/52c741c6-8577-4faf-aa5a-c7853e0ab8f8).
 
@@ -108,9 +111,9 @@ Shared Voicemails are accessible in both Microsoft Outlook and Microsoft Teams, 
 
 ### Microsoft Outlook
 
-In Outlook, Shared Voicemails are stored either in the **Microsoft 365 group's folder** or in the **Inbox**, depending on the group type. For a Microsoft 365 group, users can find Shared Voicemails in the group's associated folder. For a distribution list or mail-enabled security group, a copy of each Shared Voicemail is delivered to every user's **Inbox**. Personal voicemails are typically found in user's **Inbox** or, in older versions of Outlook, under the **Voice mail** Search Folder.
+In Outlook, Shared Voicemails are stored either in the **Microsoft 365 group's folder** or in the **Inbox**, depending on the group type. For a Microsoft 365 group, users can find Shared Voicemails in the group's folder. For a distribution list or mail-enabled security group, a copy of each Shared Voicemail is delivered to every user's **Inbox**. Personal voicemails are typically found in user's **Inbox** or, in older versions of Outlook, under the **Voice mail** Search Folder.
 
-Voicemails in Outlook are essentially regular emails that contain specific voicemail data - an audio file attachment with the recorded message and message transcription. All voicemails are categorized with the type *Voicemail*, which enables you to apply Outlook rules specifically to this message type. For example, you can create a rule to move all emails with the *Voicemail* type to a separate folder. The standard functionalities available for regular emails&mdash;such as deleting, marking as read or unread, applying message protection settings, categorizing, and flagging&mdash;are also available for voicemails.
+Voicemails in Outlook are essentially regular emails that contain specific voicemail data - an audio file attachment with the recorded message and message transcription. All voicemails are categorized with the type *Voicemail*, which enables you to apply Outlook rules specifically to this message type. For example, you can create a rule to move all emails with the *Voicemail* type to a separate folder. The standard functionalities available for regular emails&mdash;such as deleting, marking as read or unread, applying message protection settings, categorizing, and flagging&mdash;are also available for voicemails. Important to note that Rules cannot be applied for M365 Group folders.
 
 For a more accurate automatic summary of voicemails using **Outlook Copilot**, consider organizing all voicemails in a separate folder so that you can prompt Copilot to summarize only new messages in that specific folder.
 

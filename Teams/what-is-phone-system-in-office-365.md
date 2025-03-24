@@ -50,6 +50,8 @@ The add-on options comprising of **Teams Phone** include the following:
 
 Teams Phone allows you to replace your existing PBX system with a set of features delivered from the same platform that provides your enterprise productivity tools.
 
+Teams Phone can be used in all desktop and mobile Teams clients. Teams Phone can also be used on certified, third-party hardware devices. To learn more about desk phones, see [Phones for Microsoft Teams](./phones/phones-for-teams.md).
+
 If you have another phone system or a contact center in your organization, Teams Phone supports coexistent integrations.
 
 Teams Phone works with all Teams clients and with certified, third-party devices, and includes a rich set of features, empowering end users to manage their own phone call workflows.

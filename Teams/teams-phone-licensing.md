@@ -108,7 +108,7 @@ To learn more about obtaining this license and applying to resource accounts tha
 
 Assigning necessary licenses to an account is one prerequisite to setting up Teams Phone. Another key prerequisite is integrating your tenant with a Public Switched Telephone Network (PSTN) solution.
 
-With a PSTN access to your tenant and licensed users, Microsoft Teams Phone provides support for 1:1 calling and group calling between a Teams client--and any PSTN telephone number.
+With PSTN access to your tenant and licensed users, Microsoft Teams Phone provides support for 1:1 calling and group calling between a Teams client--and any PSTN telephone number.
 
 > [!NOTE]
 > A PSTN solution is separate from a Teams Phone license. A **PSTN solution** provides a customer's tenant with phone numbers and PSTN access to domestic, international, and emergency calling. The ***Teams Phone licensing*** entitles a Teams user to use **Microsoft 365 Phone System** application and its enhanced calling capabilities, and *access* to the PSTN solution.

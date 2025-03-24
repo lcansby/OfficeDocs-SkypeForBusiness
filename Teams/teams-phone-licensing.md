@@ -34,18 +34,23 @@ To learn more about Teams Phone, see [What is Teams Phone](what-is-phone-system-
 
 ### Understanding identity management for Teams Phone
 
-The way telephone numbers get assigned to users and to shared devices is by assigning the number to the respective user's or device's user account.
+The way telephone numbers get assigned in Teams is by assigning a number to a respective user account.
 
-A user account must exist and be licensed before a phone number can be assigned.
+In Teams, user administration is inherited from M365, where user accounts are created, licensed, and managed.
+
 To learn more about creating accounts in M365, see [Add users](/microsoft-365/admin/add-users/add-users).
 
 To learn more about assigning licenses in M365, see [Assign Microsoft 365 licenses to user accounts](/microsoft-365/enterprise/assign-licenses-to-user-accounts).
+
+In M365, user accounts are also created for Teams resources that are used for voice application and for devices that are shared by more than one user. When working with voice applications and shared devices, the user account is informally known as a resource account. The underlying Azure Object ID structure is the same, but there are specialized licenses for voice applications and shared devices, so these accounts are called resource accounts to differentiate the purpose from a user account that is associated with an end-user.
+
+A user account (for a end-user or a resource) must exist and be licensed before a phone number can be assigned.
 
 To learn more about deploying Teams as your productivity platform, see [Set up Teams in your org](deploy-enterprise-setup.md) and [Sign in to Microsoft Teams](sign-in-teams.md).
 
 ### Understanding M365 licensing and applications
 
-Granting a user or resource account with permissions to use an M365 application is accomplished by assigning *a M365 license* to their account.
+Granting a user or resource account with permissions to use *an M365* ***application*** is accomplished by assigning *an M365* ***license*** to their account.
 
 For example, if you need to set up an existing Teams user with permissions to use Teams as their phone system, your first step is to assign their user account with a ***Microsoft Teams Phone Standard*** license, granting the user account with permission to use the **Microsoft 365 Phone System** application.
 

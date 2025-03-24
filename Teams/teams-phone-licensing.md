@@ -133,7 +133,7 @@ To learn more about Shared Calling, see [Plan for Shared Calling](shared-calling
 
 ### Considerations
 
-[Licensing Teams Phone for shared devices](#licensing-teams-phone---for-shared-devices) and [Licensing Teams Phone for voice applications](#licensing-teams-phone-for---voice-applications) doesn't also require licensing for the **Microsoft Teams Enterprise** application because they're only using the Teams calling workload.
+[Licensing Teams Phone for shared devices](#licensing-teams-phone---for-shared-devices) and [Licensing Teams Phone for voice applications](#licensing-teams-phone---for-voice-applications) doesn't also require licensing for the **Microsoft Teams Enterprise** application because they're only using the Teams calling workload.
 
 ***Microsoft Teams Shared Device*** licenses are supported only for telephone devices.
 

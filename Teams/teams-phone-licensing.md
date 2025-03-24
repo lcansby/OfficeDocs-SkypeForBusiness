@@ -62,15 +62,15 @@ To learn more about assigning licenses in M365, see the following resources.
 
 ### Licensing Teams Phone - for end users
 
-All users who require their own telephone number to make and receive telephone calls must be assigned with licensing that include the **Microsoft Teams** and **Microsoft 365 Phone System** applications.
+All users who require their own telephone number to make and receive telephone calls must be assigned with licensing that includes the **Microsoft Teams** and **Microsoft 365 Phone System** applications.
 
 There are several license assignment combinations available to meet the requirement.
 
 Assigning the following license combinations are just a few examples that grant end users the ability to use Teams Phone.
 
-- A ***Microsoft Teams Enterprise*** license combined with a ***Microsoft 365 E5 (no Teams)*** license - *Microsoft 365 E5 (no Teams) includes the **Microsoft 365 Phone System** application*
+- A ***Microsoft Teams Enterprise*** license combined with a ***Microsoft 365 E5 (no Teams)*** license - *Microsoft 365 E5 (no Teams)* includes the **Microsoft 365 Phone System** application
 - A ***Microsoft Teams Enterprise*** license combined with ***Microsoft Teams Phone Standard*** license
-- A legacy ***Microsoft 365 E5*** license - *includes **Microsoft Teams** and **Microsoft 365 Phone System** applications*
+- A legacy ***Microsoft 365 E5*** license - includes **Microsoft Teams** and **Microsoft 365 Phone System** applications
 - A ***Office 365 F3*** license combined with a ***Microsoft Teams Phone Standard for Frontline Workers*** license
 
 In the case where an M365 E5 license is used, it isn't necessary to also assign the stand-alone ***Microsoft Teams Phone Standard*** license.
@@ -82,6 +82,8 @@ There are three variations on the ***Microsoft Teams Phone Standard*** license, 
 |Microsoft Teams Phone Standard |Microsoft 365 Business Basic/Business Standard/Business Premium/F1/F3/E3/A3; Microsoft Teams EEA; Microsoft Teams Enterprise; Microsoft Teams Essentials (AAD Identity); Office 365 F3/E1/E3/A1/A3 |
 |Microsoft Teams Phone Standard for Frontline Workers	|Microsoft 365 F1/F3; Office 365 F3 |
 |Microsoft Teams Phone with Calling Plan |Microsoft 365 Business Basic/Business Standard/Business Premium/F1/F3/E3/A3; Microsoft Teams EEA; Microsoft Teams Enterprise; Microsoft Teams Essentials (AAD Identity); Office 365 F3/E1/E3/A1/A3 |
+
+To learn more about licensing for Teams Phone, see [Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ### Licensing Teams Phone - for shared devices
 
@@ -102,7 +104,7 @@ In scenarios where you're provisioning voice applications, use the following spe
 
 To learn more about obtaining this license and applying to resource accounts that support voice applications, see [Obtain Microsoft Teams Phone Resource Account license](manage-resource-accounts.md#obtain-microsoft-teams-phone-resource-account-licenses).
 
-## Licensing Teams Phone - adding PSTN
+### Licensing Teams Phone - adding PSTN
 
 Assigning necessary licenses to an account is one prerequisite to setting up Teams Phone. Another key prerequisite is integrating your tenant with a Public Switched Telephone Network (PSTN) solution.
 
@@ -121,11 +123,11 @@ To learn more, see [PSTN connectivity options](pstn-connectivity.md).
 
 The ***Teams Phone with Calling Plan*** license bundle is Microsoft’s all-in-the-cloud solution. This option provides Private Branch Exchange (PBX) capabilities and external calls to the Public Switched Telephone Network (PSTN) with Microsoft as your carrier. If the Teams Phone with Calling Plan bundle is available in your location and you don't already have a ***Microsoft 365 E5*** or ***Office 365 E5*** license that includes the **Microsoft 365 Phone System** application, you should consider this option. But if your PSTN calling requirements are more complex, Microsoft offers several PSTN connectivity options for making external calls.
 
-### Licensing Teams Phone for Shared Calling
+### Licensing Teams Phone - for Shared Calling
 
 Microsoft Teams can support multiple users sharing a single phone number. In this scenario, a resource account is provisioned with Teams Phone and a telephone number, and then you grant a policy to users that allows them to access the phone number of the resource account to make outbound calls.
 
-With Shared Calling, end users don't need a dedicated phone number or a calling plan. They only require licensing described in [Licensing Teams Phone for end users](#licensing-teams-phone---for-end-users). 
+With Shared Calling, end users don't need a dedicated phone number or a calling plan. They only require licensing described in [Licensing Teams Phone for end users](#licensing-teams-phone---for-end-users).
 
 Shared Calling is a cost-effective way to give users a way to make outbound calls, without allocating a calling plan and a phone number to every user.
 

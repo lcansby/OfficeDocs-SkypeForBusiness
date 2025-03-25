@@ -42,7 +42,7 @@ To learn more about creating accounts in M365, see [Add users](/microsoft-365/ad
 
 In M365, user accounts are also created for Teams resources that are used for voice applications and for devices that are shared by more than one user.
 
-When working with voice applications and shared devices, the user account is informally known as a resource account. The underlying Azure Object ID structure is the same, but there are specialized licenses for voice applications and shared devices, so these accounts are called resource accounts to differentiate them from a user account that is associated with an end-user.
+When working with voice applications and shared devices, the user account is informally known as a resource account. The underlying Azure Object ID structure is the same, but there are specialized licenses for voice applications and shared devices, so these accounts are called resource accounts to differentiate them from accounts that are associated with end-users.
 
 A user account (for a end-user or a resource) must exist and be licensed before a phone number can be assigned.
 
@@ -117,15 +117,15 @@ If you elect to use Microsoft to provide your PSTN access and phone numbers, in 
 
 If you elect to use a PSTN operator other than Microsoft, then Microsoft doesn't require other licensing because the PSTN costs are incurred from your preferred operator.
 
-There is no cost to integrate third-party PSTN operators with your Teams tenant. 
+There is no extra Microsoft licensing cost to integrate third-party PSTN operators with your Teams tenant.
 
 To learn more, see [PSTN connectivity options](pstn-connectivity.md).
 
-The ***Teams Phone with Calling Plan*** license bundle is Microsoft’s all-in-the-cloud solution. This option provides Private Branch Exchange (PBX) capabilities and external calls to the Public Switched Telephone Network (PSTN) with Microsoft as your carrier. If the Teams Phone with Calling Plan bundle is available in your location and you don't already have a ***Microsoft 365 E5*** or ***Office 365 E5*** license that includes the **Microsoft 365 Phone System** application, you should consider this option. But if your PSTN calling requirements are more complex, Microsoft offers several PSTN connectivity options for making external calls.
+The ***Teams Phone with Calling Plan*** license bundle is Microsoft’s all-in-the-cloud solution. This option provides Private Branch Exchange (PBX) capabilities and external calls to the Public Switched Telephone Network (PSTN) with Microsoft as your carrier. If the Teams Phone with Calling Plan bundle is available in your location and you don't already have a ***Microsoft 365 E5*** or ***Office 365 E5*** license that includes the **Microsoft 365 Phone System** application, you should consider this option. But if your PSTN calling requirements are more complex, Microsoft supports several third-party PSTN connectivity options for making external calls.
 
 ### Licensing Teams Phone - for Shared Calling
 
-Microsoft Teams can support multiple users sharing a single phone number. In this scenario, a resource account is provisioned with Teams Phone and a telephone number, and then you grant a policy to users that allows them to access the phone number of the resource account to make outbound calls.
+Microsoft Teams can support multiple users sharing a single phone number. In this scenario, a resource account is provisioned with Teams Phone and a telephone number, and then you grant a policy to users that allows them to access the phone number of the licensed resource account to make outbound calls.
 
 With Shared Calling, end users don't need a dedicated phone number or a calling plan. They only require licensing described in [Licensing Teams Phone for end users](#licensing-teams-phone---for-end-users).
 
@@ -135,7 +135,7 @@ To learn more about Shared Calling, see [Plan for Shared Calling](shared-calling
 
 ### Considerations
 
-[Licensing Teams Phone for shared devices](#licensing-teams-phone---for-shared-devices) and [Licensing Teams Phone for voice applications](#licensing-teams-phone---for-voice-applications) doesn't also require licensing for the **Microsoft Teams Enterprise** application because they're only using the Teams calling workload.
+Licensing for the **Microsoft Teams Enterprise** application isn't required when [Licensing Teams Phone for shared devices](#licensing-teams-phone---for-shared-devices) and [Licensing Teams Phone for voice applications](#licensing-teams-phone---for-voice-applications).
 
 ***Microsoft Teams Shared Device*** licenses are supported only for telephone devices.
 

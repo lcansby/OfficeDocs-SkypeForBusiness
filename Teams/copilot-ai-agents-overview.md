@@ -50,16 +50,16 @@ Microsoft Teams includes some AI features that don’t require any extra license
 
 - **Suggested replies**: Teams can suggest replies to users based on the previous conversation in group chats.
 
-- **Video optimization**: Teams can optimize users’ video feeds through AI-assisted adjustments, like auto-brightness, facial recognition, and AI-generated backgrounds.
+- **Video optimization**: Teams can optimize users’ video feeds through AI-assisted adjustments, like auto-brightness and facial recognition.
 
 - **Voice isolation for calls and meetings**: Teams can use AI to separate a user's voice from other sounds and voices in Teams calls and meetings, displaying the user’s name when they speak and identifying them as the speaker in a transcript. Voice isolation is also used to reduce background noise.
 
 | Feature | Admin articles | End-user articles |
 | ------- | -------------- | ----------------- |
-| Microsoft Copilot Chat app | ... | ... |
-| Suggested replies | ... | ... |
-| Video optimization | ... | ... |
-| Voice isolation for calls and meetings | ... | ... |
+| Microsoft Copilot Chat app | [Overview of Microsoft 365 Copilot Chat](/copilot/overview) | [Microsoft Copilot Chat](https://support.microsoft.com/copilot-microsoft365-chat) |
+| Suggested replies | None | [Use suggested replies to respond to messages](https://support.microsoft.com/office/use-suggested-replies-to-respond-to-messages-without-typing-in-microsoft-teams-010c54e1-a613-4771-94ed-76d7fb77cba5) |
+| Facial recognition | [Create Recognition profiles for Microsoft IntelliFrame](./rooms/voice-recognition) | [Create Recognition profiles for Microsoft IntelliFrame](https://support.microsoft.com/office/create-recognition-profiles-for-microsoft-intelliframe-f0084478-52a7-4c52-bcdc-9063ed0e0bc0) |
+| Voice isolation for calls and meetings | [Manage voice isolation for your users' Microsoft Teams calls and meetings](https://learn.microsoft.com/microsoftteams/voice-isolation) | [Voice isolation in Microsoft Teams calls and meetings](https://support.microsoft.com/office/voice-isolation-in-microsoft-teams-calls-and-meetings-a9756ea9-4cec-44c4-aefb-6f5d17c89427) <br> [Reduce background noise in Microsoft Teams meetings](https://support.microsoft.com/office/reduce-background-noise-in-microsoft-teams-meetings-1a9c6819-137d-4b3b-a1c8-4ab20b234c0d)|
 
 ## Microsoft 365 Copilot features in Teams
 
@@ -68,6 +68,9 @@ Microsoft Teams includes some AI features that don’t require any extra license
 > - *Microsoft Business (Basic, Standard, and Premium) or Microsoft 365 (E3/E5/F1/F3/A3/A5/G3/G5)*
 > - *Teams Enterprise or Teams Enterprise (EEA)*
 > - *Microsoft 365 Copilot*
+
+> [!IMPORTANT]
+> All prompts, files, and responses using Microsoft 365 Copilot, including the Microsoft Copilot Chat app and the Microsoft 365 Copilot app, never leave your organization’s Microsoft 365 service boundary. This includes prompts and responses that access public web data. Your data is always secured and private within your service boundary.
 
 The Microsoft 365 Copilot license is the foundation for many AI tool sets in Teams, like Copilot in Teams and Facilitator. If you want your users to access a robust set of AI features, purchase and assign Microsoft 365 Copilot licenses to them.  
 
@@ -98,11 +101,11 @@ Microsoft 365 Copilot in Teams is your users’ personal Copilot, helping them i
 
 | Feature | Admin articles | End-user articles |
 | ------- | -------------- | ----------------- |
-| Copilot in Teams chats and channels | ... | ... |
-| Copilot in Teams meetings and events | ... | ... |
-| Copilot in Teams Phone | ... | ... |
-| Copilot in Teams Rooms | ... | ... |
-| Copilot in Teams for multitenant organizations | ... | ... |
+| Copilot in Teams chats and channels | None | [Use Copilot in Microsoft Teams chat and channels](https://support.microsoft.com/office/use-copilot-in-microsoft-teams-chat-and-channels-cccccca2-9dc8-49a9-ab76-b1a8ee21486c) |
+| Copilot in Teams meetings and events | [Manage Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md) | [Use Copilot in Microsoft Teams meetings](https://support.microsoft.com/office/use-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1) |
+| Copilot in Teams Phone | None | [Get started with Copilot in Microsoft Teams Phone](https://support.microsoft.com/office/get-started-with-copilot-in-microsoft-teams-phone-97c55ffb-1499-4b0a-8caa-980ebb4b697b) |
+| Copilot in Teams Rooms | [Teams Rooms and Copilot overview](./rooms/copilot-admin-mtr) | None |
+| Copilot in Teams for multitenant organizations | [Manage Copilot access for B2B members within multitenant organizations (MTO) in Teams](copilot-mto.md) | None |
 
 ### Microsoft 365 agents in Teams
 
@@ -114,8 +117,8 @@ Using AI, Microsoft 365 agents are designed to help your users with unique work 
 
 | Feature | Admin articles | End-user articles |
 | ------- | -------------- | ----------------- |
-| Facilitator | ... | ... |
-| Facilitator for Teams Rooms | ... | ... |
+| Facilitator | [Set up Facilitator in Microsoft Teams](facilitator-teams.md) | [Keep track of chats with AI notes in Microsoft Teams](https://support.microsoft.com/office/keep-track-of-chats-with-ai-notes-in-microsoft-teams-0b7efbd0-fd3e-48e7-9a4b-4ea22cdc12c0) <br> [Automate notetaking in Microsoft Teams meetings](https://support.microsoft.com/office/automate-notetaking-in-microsoft-teams-meetings-37657f91-39b5-40eb-9421-45141e3ce9f6)|
+| Facilitator for Teams Rooms | [Facilitator in Microsoft Teams Rooms](./rooms/facilitator-teams-rooms) | None |
 
 ## AI features included with Teams Premium
 
@@ -129,9 +132,7 @@ Some AI features in Teams can be acquired through the [Teams Premium add-on lice
 
 - **Decorate my background**: Your users can use AI to decorate their backgrounds.
 
-- **Intelligent call recap**: Provide your users with AI-powered insights and recaps of Public Switched Telephone Network (PSTN) and 1:1 Teams calls.
-
-- **Intelligent meeting recap**: Give your users a more personalized rundown of their meetings with intelligent meeting recap.
+- **Intelligent call and meeting recap**: Provide your users with AI-powered insights and recaps of Public Switched Telephone Network (PSTN), 1:1 Teams calls, and meetings.
 
 - **Live translated captions**: Allow your users to see captions translated into the language they’re most comfortable with.
 
@@ -139,11 +140,10 @@ Some AI features in Teams can be acquired through the [Teams Premium add-on lice
 
 | Feature | Admin articles | End-user articles |
 | ------- | -------------- | ----------------- |
-| Decorate my background | ... | ... |
-| Intelligent call recap | ... | ... |
-| Intelligent meeting recap | ... | ... |
-| Live translated captions | ... | ... |
-| Live translated transcription | ... | ... |
+| Decorate my background | None | [Change your background in Microsoft Teams meetings](https://support.microsoft.com/office/change-your-background-in-microsoft-teams-meetings-f77a2381-443a-499d-825e-509a140f4780) |
+| Intelligent call and meeting recap | [Intelligent recap for Teams calls and meetings](intelligent-recap-calls-meetings.md) | [Recap in Microsoft Teams](https://support.microsoft.com/office/recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef#bkmk_intelligent_meeting_recap) |
+| Live translated captions | [Manage transcription and captions for Teams meetings](meeting-transcription-captions.md) | [Use live captions in Microsoft Teams meetings](https://support.microsoft.com/office/use-live-captions-in-microsoft-teams-meetings-4be2d304-f675-4b57-8347-cbd000a21260) |
+| Live translated transcription | [Manage transcription and captions for Teams meetings](meeting-transcription-captions.md) | [View live transcription in Microsoft Teams meetings](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b) |
 
 ## Related articles
 

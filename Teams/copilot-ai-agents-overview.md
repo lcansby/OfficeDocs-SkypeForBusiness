@@ -59,7 +59,7 @@ Microsoft Teams includes some AI features that don’t require any extra license
 | Microsoft Copilot Chat app | [Overview of Microsoft 365 Copilot Chat](/copilot/overview) | [Microsoft Copilot Chat](https://support.microsoft.com/copilot-microsoft365-chat) |
 | Suggested replies | None | [Use suggested replies to respond to messages](https://support.microsoft.com/office/use-suggested-replies-to-respond-to-messages-without-typing-in-microsoft-teams-010c54e1-a613-4771-94ed-76d7fb77cba5) |
 | Facial recognition | [Create Recognition profiles for Microsoft IntelliFrame](./rooms/voice-recognition) | [Create Recognition profiles for Microsoft IntelliFrame](https://support.microsoft.com/office/create-recognition-profiles-for-microsoft-intelliframe-f0084478-52a7-4c52-bcdc-9063ed0e0bc0) |
-| Voice isolation for calls and meetings | [Manage voice isolation for your users' Microsoft Teams calls and meetings](https://learn.microsoft.com/microsoftteams/voice-isolation) | [Voice isolation in Microsoft Teams calls and meetings](https://support.microsoft.com/office/voice-isolation-in-microsoft-teams-calls-and-meetings-a9756ea9-4cec-44c4-aefb-6f5d17c89427) <br> [Reduce background noise in Microsoft Teams meetings](https://support.microsoft.com/office/reduce-background-noise-in-microsoft-teams-meetings-1a9c6819-137d-4b3b-a1c8-4ab20b234c0d)|
+| Voice isolation for calls and meetings | [Manage voice isolation for your users' Microsoft Teams calls and meetings](https://learn.microsoft.com/microsoftteams/voice-isolation) | [Voice isolation in Microsoft Teams calls and meetings](https://support.microsoft.com/office/voice-isolation-in-microsoft-teams-calls-and-meetings-a9756ea9-4cec-44c4-aefb-6f5d17c89427) <br> <br> [Reduce background noise in Microsoft Teams meetings](https://support.microsoft.com/office/reduce-background-noise-in-microsoft-teams-meetings-1a9c6819-137d-4b3b-a1c8-4ab20b234c0d)|
 
 ## Microsoft 365 Copilot features in Teams
 
@@ -77,7 +77,7 @@ The Microsoft 365 Copilot license is the foundation for many AI tool sets in Tea
 Review the following resources for more information about Microsoft 365 Copilot:
 
 - [What is Microsoft 365 Copilot?](/copilot/microsoft-365/microsoft-365-copilot-overview)
-- [Decide which Copilot is right for you](/copilot/microsoft-365/which-copilot-for-your-organization)
+- [Which Copilot is right for me or my organization?](/copilot/microsoft-365/which-copilot-for-your-organization)
 - [Set up Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-setup)
 - [Copilot Prompt Gallery](https://copilot.cloud.microsoft/prompts?)
 
@@ -117,7 +117,7 @@ Using AI, Microsoft 365 agents are designed to help your users with unique work 
 
 | Feature | Admin articles | End-user articles |
 | ------- | -------------- | ----------------- |
-| Facilitator | [Set up Facilitator in Microsoft Teams](facilitator-teams.md) | [Keep track of chats with AI notes in Microsoft Teams](https://support.microsoft.com/office/keep-track-of-chats-with-ai-notes-in-microsoft-teams-0b7efbd0-fd3e-48e7-9a4b-4ea22cdc12c0) <br> [Automate notetaking in Microsoft Teams meetings](https://support.microsoft.com/office/automate-notetaking-in-microsoft-teams-meetings-37657f91-39b5-40eb-9421-45141e3ce9f6)|
+| Facilitator | [Set up Facilitator in Microsoft Teams](facilitator-teams.md) | [Keep track of chats with AI notes in Microsoft Teams](https://support.microsoft.com/office/keep-track-of-chats-with-ai-notes-in-microsoft-teams-0b7efbd0-fd3e-48e7-9a4b-4ea22cdc12c0) <br> <br> [Automate notetaking in Microsoft Teams meetings](https://support.microsoft.com/office/automate-notetaking-in-microsoft-teams-meetings-37657f91-39b5-40eb-9421-45141e3ce9f6)|
 | Facilitator for Teams Rooms | [Facilitator in Microsoft Teams Rooms](./rooms/facilitator-teams-rooms) | None |
 
 ## AI features included with Teams Premium

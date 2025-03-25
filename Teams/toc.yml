@@ -1236,6 +1236,8 @@ items:
       items:
         - name: Intelligent recap for Teams calls and meetings
           href: intelligent-recap-calls-meetings.md
+        - name: Teams Premium licensing
+          href: teams-add-on-licensing/licensing-enhance-teams.md
     - name: PSTN connectivity options
       items:
         - name: Overview

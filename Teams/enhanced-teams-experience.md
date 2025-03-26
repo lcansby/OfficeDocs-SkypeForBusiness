@@ -121,7 +121,7 @@ The following table describes platform support for Teams Premium advanced manage
 | Advanced collaboration analytics|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|
 | Audio quality alerts|Yes|Yes|Yes|Yes|Yes|Yes|Yes|N/A|N/A|Yes|N/A|N/A|Yes|Yes|Yes|
 | Custom user policy packages |N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|
-| End-to-end encryption (E2EE) |Yes|Yes|Yes|No|Yes|Yes|Yes|No|No|No|Yes|No|No|Yes|Yes|
+| End-to-end encryption (E2EE) |Yes|Yes|Yes|No (users can't join)|Yes|Yes|Yes|No (users can't join)|No (users can't join)|No (users can't join)|Yes|No|No|Yes|Yes|
 | External domain activity report |N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|
 | Hide attendee names |Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|Yes|Yes|Yes|
 | Manage what attendees see |Yes|Yes|No|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|Yes|Yes|Yes|

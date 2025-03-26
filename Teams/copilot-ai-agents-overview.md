@@ -24,7 +24,7 @@ description: Discover which AI features are available in Microsoft Teams for you
 
 # Overview of AI in Microsoft Teams for IT admins
 
-Microsoft has introduced an ever-growing catalogue of AI tools and features for Microsoft Teams, starting with features like voice isolation and suggested replies. Today, this catalogue includes a powerful, personal AI assistant called Copilot in Teams and task-tailored agents like Facilitator.
+Microsoft has introduced an ever-growing catalog of AI tools and features for Microsoft Teams, starting with features like voice isolation and suggested replies. Today, this catalog includes a powerful, personal AI assistant called Copilot in Teams and task-tailored agents like Facilitator.
 
 This article is for IT admins and discusses the AI tools and features available in Teams along with links to their related documentation.
 
@@ -48,7 +48,7 @@ Microsoft Teams includes some AI features that don’t require any extra license
 
 - **Microsoft Copilot Chat app**: The Copilot Chat app in Teams allows users to ask Copilot open-ended questions, request help creating new content, and use [Copilot Pages](https://support.microsoft.com/topic/introducing-microsoft-365-copilot-pages-6674bd51-9ff5-42c4-9256-44d9428a726f). Without a Microsoft 365 Copilot license, Copilot’s responses are only grounded in public web data.
 
-- **Suggested replies**: Teams can suggest replies to users based on the previous conversation in group chats.
+- **Suggested replies**: Teams can suggest replies to users based on the previous conversation in 1:1 and group chats.
 
 - **Video optimization**: Teams can optimize users’ video feeds through AI-assisted adjustments, like auto-brightness and facial recognition.
 
@@ -95,7 +95,7 @@ Microsoft 365 Copilot in Teams is your users’ personal Copilot, helping them i
 
 - **Copilot in Teams Phone**: Copilot in Teams Phone empowers your users to have more productive calls or catch up on ones they missed.
 
-- **Copilot in Teams Rooms**: Copilot enhances Teams Rooms experiences with features like Intelligent Speaker and voice isolation.
+- **Copilot in Teams Rooms**: Copilot enhances Teams Rooms experiences with features like responding to open-ended questions, recapping what was discussed in the room, and providing meeting insights.
 
 - **Copilot in Teams for multitenant organizations** - B2B members who are licensed with Microsoft 365 Copilot can access Copilot in Teams across their multitenant organization.
 
@@ -111,7 +111,7 @@ Microsoft 365 Copilot in Teams is your users’ personal Copilot, helping them i
 
 Using AI, Microsoft 365 agents are designed to help your users with unique work tasks, grounded in scoped knowledge, like extending a project plan or capturing unanswered questions during a meeting. With a Microsoft 365 Copilot license, users can access the following agents in Teams:
 
-- **Facilitator**: Facilitator is a Teams collaboration agent in group chats and meetings, where all users can interact with Facilitator like it’s another member.
+- **Facilitator**: Facilitator is a Teams collaboration agent in group chats and meetings where all users can interact with Facilitator like it’s another member.
 
 - **Facilitator for Teams Rooms**: Facilitator can also aid collaboration during in-person, unscheduled meetings via Teams Rooms.
 

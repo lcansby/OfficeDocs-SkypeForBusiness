@@ -66,14 +66,28 @@ To administer Microsoft Teams, a specialized role is assigned to the account tha
 
 Administration of Teams Phone can be accomplished two ways:
 
-- Teams admin center
-  - The url for Teams admin center is [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com).
-- [PowerShell](teams-powershell-overview.md)
+- **Teams admin center**
+  - For Commercial and Government Community Cloud (GCC) tenants
+    - The url for Teams admin center is [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com)
+  - For Government Community Cloud High (GCCH) tenants
+    - The url for Teams admin center is [https://admin.gov.teams.microsoft.us](https://admin.gov.teams.microsoft.us/)
+  - To learn more about Teams admin center, see [Manage teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md).
+
+- **PowerShell**
+  - To learn more about connecting to Teams and administration with PowerShell, see [Teams PowerShell overview](teams-powershell-overview.md).
 
 Administration of Teams requires a privileged role assigned to the account used to perform administration. For permissions that allow you to administer your tenant (with Teams Admin Center and with PowerShell), and to learn more about Microsoft's RBAC (Role Based Access Control) for Teams, see [Use Microsoft Teams administrator roles to manage Teams](using-admin-roles.md).
 
+To view training resources for Teams admins, see [Getting started with admin training for Microsoft Teams](itadmin-readiness.md).
+
+> [!div class="nextstepaction"]
+> [Teams admin center overview](manage-teams-in-modern-portal.md)
+
 > [!div class="nextstepaction"]
 > [Teams administrator roles](using-admin-roles.md)
+
+> [!div class="nextstepaction"]
+> [Teams admin training](itadmin-readiness.md)
 
 #### Policies
 

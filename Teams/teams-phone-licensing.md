@@ -51,19 +51,19 @@ One of the most important, uniquely-indentifiable records used in Microsoft Team
 
 User accounts are the sets of data that define your end-users in Microsoft cloud services.
 
-In Microsoft Teams, user accounts are inherited from Microsoft 365, where user accounts are created, licensed, and managed. Accounts that are created in Microsoft 365 are also syncronized with Microsoft Entra ID for identity and access maangement governance.
+In Microsoft Teams, user accounts are inherited from and synchronized with Microsoft 365, where user accounts are created, licensed, and managed. Accounts that are created in Microsoft 365 are also syncronized with Microsoft Entra ID for identity and access maangement.
 
 To learn more about creating accounts in Microsoft 365, see [Add users](/microsoft-365/admin/add-users/add-users).
 
 To learn more about identities in Microsoft Entra ID, see [What is Microsoft Entra ID?](/entra/fundamentals/whatis).
 
-Administering user accounts requires the Microsoft 365 *User admin* role. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
+Administering, or creating and editing user accounts and assigning licenses requires the Microsoft 365 *User admin* role. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
-Delivering Teams capabilities to your end-users involves assigning licenses in Microsoft 365 admin center (MAC) and assigning policies and telephone numbers in the Teams admin center (TAC)--to the respective Microsoft 365 user accounts.
+It is important to understand Microsoft 365 identity management and user account coexistence in all of the Microsoft cloud services, because delivering Teams capabilities to your end-users involves creating users and assigning licenses in Microsoft 365 admin center (MAC), while assigning Teams Phone policies and telephone numbers in the Teams admin center (TAC).
 
 #### Resource accounts
 
-In Teams, specialized accounts are designed for voice applications, like Auto Attendants and Call Queues. 
+In Teams, specialized accounts are designed for voice applications, like Auto Attendants and Call Queues.
 
 These specialized accounts have a limited set of specific parameters compared to normal user accounts, and are called '*Resource accounts*'.
 

@@ -55,7 +55,7 @@ For more general information about Teams meetings and premium events, see the fo
 
 Teams Premium provides more ways to safeguard and monitor users' Teams experiences with the following key features:
 
-- **Advanced collaboration analytics** - View your organization's external collaboration habits. These reports include information about your teams, trusted domains, channels, guests, and internal users.
+- **Advanced collaboration analytics** - View your organization's external collaboration habits. These reports include information about your teams, trusted domains, channels, guests, and internal users. You can also find information on inactive teams and inactive external domains.
 
 - **Audio quality alerts** - Set up alerts for in-progress meeting audio issues and get notified immediately when your specified users experience issues.
 
@@ -126,7 +126,7 @@ The following table describes platform support for Teams Premium advanced manage
 | Hide attendee names |Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|Yes|Yes|Yes|
 | Manage what attendees see |Yes|Yes|No|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|Yes|Yes|Yes|
 | Organizer can restrict participants from copying or forwarding meeting chat messages, live captions, and transcripts |Yes|Yes|Yes<sup>1</sup>|Yes|N/A|N/A|N/A|No|N/A|N/A|Yes|Yes|Yes|Yes|Yes|
-| Real-time telemetry and retention |No|No|No|No|No|No|No|No|No|N/A|No|N/A|No|No|N/A|
+| Real-time telemetry and retention |N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|
 | Restrict who can record|Yes|Yes|Yes|Yes|No|No|No|No|No|N/A|Yes|N/A|Yes|Yes|N/A|
 | Screen sharing quality alerts |Yes|Yes|Yes|Yes|Yes|Yes|Yes|N/A|N/A|Yes|N/A|N/A|Yes|Yes|Yes|
 | Sensitivity labels |Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|Yes|Yes|No|

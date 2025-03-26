@@ -45,25 +45,33 @@ The article sections include the following:
 
 ### Understanding identity management for Teams Phone
 
-The way telephone numbers get assigned in Teams is by assigning a number to a respective user account.
-
-A user account (for a end-user or a resource) must exist and be licensed before a phone number can be assigned.
+One of the most important, uniquely-indentifiable records used in Microsoft Teams administration is the user account.
 
 #### User accounts
 
-User accounts are the sets of data that define an end-user in Microsoft cloud services. In Microsoft Teams, user accounts are inherited from Microsoft 365, where user accounts are created, licensed, and managed. Accounts that are created in Microsoft 365 are also syncronized Microsoft Entra ID for identity and access maangement.
+User accounts are the sets of data that define your end-users in Microsoft cloud services.
+
+In Microsoft Teams, user accounts are inherited from Microsoft 365, where user accounts are created, licensed, and managed. Accounts that are created in Microsoft 365 are also syncronized with Microsoft Entra ID for identity and access maangement governance.
 
 To learn more about creating accounts in Microsoft 365, see [Add users](/microsoft-365/admin/add-users/add-users).
 
 To learn more about identities in Microsoft Entra ID, see [What is Microsoft Entra ID?](/entra/fundamentals/whatis).
 
+Administering user accounts requires the Microsoft 365 *User admin* role. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
+
+Delivering Teams capabilities to your end-users involves assigning licenses in Microsoft 365 admin center (MAC) and assigning policies and telephone numbers in the Teams admin center (TAC)--to the respective Microsoft 365 user accounts.
+
 #### Resource accounts
 
-In Microsoft 365, user accounts are also created for Teams resources that are used for voice applications and for devices that are shared by more than one user.
+In Teams, specialized accounts are designed for voice applications, like Auto Attendants and Call Queues. 
 
-When working with voice applications and shared devices, the account created is informally known as a resource account. The underlying account structure is the same, but there are specialized licenses for accounts associated with voice applications and shared devices, so these accounts are called *resource accounts* to differentiate them from accounts that are associated with end-users.
+These specialized accounts have a limited set of specific parameters compared to normal user accounts, and are called '*Resource accounts*'.
+
+Teams resource accounts support Teams voice applications, only, and are disabled for end-users--they can't be used to login to Microsoft 365 applications.
 
 ### Understanding Microsoft 365 licensing and applications
+
+The first step in delivering Teams capabilities to your organization is to assign appropriate licensing to the intended Microsoft 365 user and resource accounts.
 
 Granting a user or resource account with permissions to use *a Microsoft 365* ***application*** is accomplished by assigning *a Microsoft 365* ***license*** to their account.
 
@@ -106,20 +114,20 @@ To learn more about licensing for Teams Phone, see [Microsoft Teams add-on licen
 
 In scenarios requiring that phone calls can be made to or from communication devices shared by many users, you can use one of the following specialized licenses:
 
-- [***Microsoft Teams Shared Device*** license](./phones/phones-for-teams.md) - *applied to resource accounts that support common area telephones*
-- [***Microsoft Teams Room Pro*** license](./rooms/rooms-licensing.md) - *applied to resource accounts that support audio and video hardware for shared collaboration spaces*
+- [***Microsoft Teams Shared Device*** license](./phones/phones-for-teams.md) - *applied to users accounts that are created to support common area telephones*
+- [***Microsoft Teams Room Pro*** license](./rooms/rooms-licensing.md) - *applied to user accounts that are created to support Microsoft Teams Rooms and audio/video hardware for shared collaboration spaces*
 
-The **Microsoft 365 Phone System** application is included in each of these specialized licenses.
+The **Microsoft 365 Phone System** application is included in each of these specialized, shared device licenses.
 
 For a deeper dive, see [Microsoft Teams Shared Devices licensing](./teams-add-on-licensing/teams-shared-device-license.md).
 
 ### Licensing Teams Phone - for voice applications
 
-In scenarios where you're provisioning voice applications, use the following specialized license:
+In scenarios where you're provisioning voice applications, like Auto Attendants and Call Queues, use the following specialized license:
 
 [Microsoft Teams Phone Resource Account license](./teams-add-on-licensing/virtual-user.md)
 
-To learn more about obtaining this license and applying to resource accounts that support voice applications, see [Obtain Microsoft Teams Phone Resource Account license](manage-resource-accounts.md#obtain-microsoft-teams-phone-resource-account-licenses).
+To learn more about obtaining this license, creating a resource account, and more, see [Obtain Microsoft Teams Phone Resource Account license](manage-resource-accounts.md#obtain-microsoft-teams-phone-resource-account-licenses).
 
 ### Licensing Teams Phone - adding PSTN
 

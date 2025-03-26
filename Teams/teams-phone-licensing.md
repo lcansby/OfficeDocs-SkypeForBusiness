@@ -51,7 +51,7 @@ One of the most important, uniquely-indentifiable records used in Microsoft Team
 
 User accounts are the sets of data that define your end-users in Microsoft cloud services.
 
-In Microsoft Teams, user accounts are inherited from and synchronized with Microsoft 365, where user accounts are created, licensed, and managed. Accounts that are created in Microsoft 365 are also syncronized with Microsoft Entra ID for identity and access maangement.
+In Microsoft Teams, user accounts are inherited from and synchronized with Microsoft 365, where user accounts are created, licensed, and managed. Accounts that are created in Microsoft 365 are also syncronized with Microsoft Entra ID for identity and access management.
 
 To learn more about creating accounts in Microsoft 365, see [Add users](/microsoft-365/admin/add-users/add-users).
 

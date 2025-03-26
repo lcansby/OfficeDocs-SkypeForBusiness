@@ -126,7 +126,6 @@ The following table describes platform support for Teams Premium advanced manage
 | Hide attendee names |Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|Yes|Yes|Yes|
 | Manage what attendees see |Yes|Yes|No|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|Yes|Yes|Yes|
 | Organizer can restrict participants from copying or forwarding meeting chat messages, live captions, and transcripts |Yes|Yes|Yes<sup>1</sup>|Yes|N/A|N/A|N/A|No|N/A|N/A|Yes|Yes|Yes|Yes|Yes|
-| Prevent users from sharing content in external meetings |??|x|x|x|x|x|x|x|x|x|x|x|x|x|x|
 | Real-time telemetry and retention |No|No|No|No|No|No|No|No|No|N/A|No|N/A|No|No|N/A|
 | Restrict who can record|Yes|Yes|Yes|Yes|No|No|No|No|No|N/A|Yes|N/A|Yes|Yes|N/A|
 | Screen sharing quality alerts |Yes|Yes|Yes|Yes|Yes|Yes|Yes|N/A|N/A|Yes|N/A|N/A|Yes|Yes|Yes|

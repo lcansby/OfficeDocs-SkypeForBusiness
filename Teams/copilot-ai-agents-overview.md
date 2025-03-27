@@ -54,12 +54,15 @@ Microsoft Teams includes some AI features that don’t require any extra license
 
 - **Voice isolation for calls and meetings**: Teams can use AI to separate a user's voice from other sounds and voices in Teams calls and meetings, displaying the user’s name when they speak and identifying them as the speaker in a transcript. Voice isolation is also used to reduce background noise.
 
+- **Intelligent media quality classifiers in Call Quality Dashboard (CQD)**: Teams can monitor call quality using Machine Learning (ML) algorithms with intelligent media quality classifiers in CQD, which provide advanced analysis into causality, media degradation, and root cause to address and prevent call quality issues.
+
 | Feature | Admin articles | End-user articles |
 | ------- | -------------- | ----------------- |
 | Microsoft Copilot Chat app | [Overview of Microsoft 365 Copilot Chat](/copilot/overview) | [Microsoft Copilot Chat](https://support.microsoft.com/copilot-microsoft365-chat) |
 | Suggested replies | None | [Use suggested replies to respond to messages](https://support.microsoft.com/office/use-suggested-replies-to-respond-to-messages-without-typing-in-microsoft-teams-010c54e1-a613-4771-94ed-76d7fb77cba5) |
 | Facial recognition | [Create Recognition profiles for Microsoft IntelliFrame](rooms/voice-recognition.md) | [Create Recognition profiles for Microsoft IntelliFrame](https://support.microsoft.com/office/create-recognition-profiles-for-microsoft-intelliframe-f0084478-52a7-4c52-bcdc-9063ed0e0bc0) |
 | Voice isolation for calls and meetings | [Manage voice isolation for your users' Microsoft Teams calls and meetings](voice-isolation.md) | [Voice isolation in Microsoft Teams calls and meetings](https://support.microsoft.com/office/voice-isolation-in-microsoft-teams-calls-and-meetings-a9756ea9-4cec-44c4-aefb-6f5d17c89427) <br> <br> [Reduce background noise in Microsoft Teams meetings](https://support.microsoft.com/office/reduce-background-noise-in-microsoft-teams-meetings-1a9c6819-137d-4b3b-a1c8-4ab20b234c0d)|
+| Intelligent media quality classifiers in CQD | [Intelligent media quality classifiers in Call Quality Dashboard (CQD)](cqd-intelligent-media-quality-classifiers.md) | None |
 
 ## Microsoft 365 Copilot features in Teams
 

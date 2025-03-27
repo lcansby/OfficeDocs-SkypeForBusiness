@@ -74,6 +74,8 @@ Microsoft Teams includes some AI features that don’t require any extra license
 
 > [!IMPORTANT]
 > All prompts, files, and responses using Microsoft 365 Copilot, including the Microsoft Copilot Chat app and the Microsoft 365 Copilot app, never leave your organization’s Microsoft 365 service boundary. This includes prompts and responses that access public web data. Your data is always secured and private within your service boundary.
+>
+> Microsoft 365 Copilot and Microsoft 365 Copilot Chat are ISO/IEC 42001:2023 certified to further ensure to you that we develop, deploy, and use AI systems responsibly. For more information, see [Microsoft 365 Copilot Achieves ISO/IEC 42001:2023 Certification](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/microsoft-365-copilot-achieves-isoiec-420012023-certification/4397144).
 
 The Microsoft 365 Copilot license is the foundation for many AI tool sets in Teams, like Copilot in Teams and Facilitator. If you want your users to access a robust set of AI features, purchase and assign Microsoft 365 Copilot licenses to them.  
 

@@ -132,7 +132,7 @@ Some AI features in Teams can be acquired through the [Teams Premium add-on lice
 
 - **Decorate my background**: Your users can use AI to decorate their backgrounds.
 
-- **Intelligent call and meeting recap**: Provide your users with AI-powered insights and recaps of Public Switched Telephone Network (PSTN), 1:1 Teams calls, and meetings.
+- **Intelligent call and meeting recap**: Provide your users with AI-powered insights and recaps of Public Switched Telephone Network (PSTN) calls (if they're [connected to the PSTN](pstn-connectivity.md)), 1:1 Teams calls, and meetings.
 
 - **Live translated captions**: Allow your users to see captions translated into the language they’re most comfortable with.
 

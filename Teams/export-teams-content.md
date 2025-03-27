@@ -60,6 +60,10 @@ Here are some examples on how you can use these export APIs:
 - **Edited History:** If [your tenant is setup with Teams Retention Policy](/purview/create-retention-policies?tabs=teams-retention), Export API supports capturing messages' edited history for [individual & group chat](/graph/api/chat-getallretainedmessages), and [posts, comments in Public & Shared channels](/graph/api/channel-getallretainedmessages).
 
     To learn more about Teams Retention policy, see the [Manage retention policies for Microsoft Teams](/microsoftteams/retention-policies) for further details.
+  
+- Meeting Transcripts: Get all transcripts from scheduled online meeting instances for which the specified user is the organizer. This API currently only supports private scheduled meetings.
+
+- Meeting Recordings: Get all recordings from scheduled online meeting instances for which the specified user is the organizer. This API currently only supports private scheduled meetings.
 
 ## How to access Teams Export APIs
 
@@ -180,7 +184,7 @@ No model declaration enables access to APIs with limited usage per each requesti
                 "conversation": null,
                 "user": {
 
-                    "id": \[{"@odata.type": "microsoft.graph.user"}\],
+                    "id": [{"@odata.type": "microsoft.graph.user"}],
                     "displayName": "User Name",
 
                     "userIdentityType": "aadUser"                }
@@ -188,10 +192,10 @@ No model declaration enables access to APIs with limited usage per each requesti
     "body": {"@odata.type": "microsoft.graph.itemBody"},
     "summary": "string",
 
-    "chatId": \[{"@odata.type": "microsoft.graph.chat"}\]
+    "chatId": [{"@odata.type": "microsoft.graph.chat"}]
 
-    "attachments": \[{"@odata.type": "microsoft.graph.chatMessageAttachment"}\],
-    "mentions": \[{"@odata.type": "microsoft.graph.chatMessageMention"}\],
+    "attachments": [{"@odata.type": "microsoft.graph.chatMessageAttachment"}],
+    "mentions": [{"@odata.type": "microsoft.graph.chatMessageMention"}],
     "importance": "string",
     "locale": "string",
     }
@@ -345,7 +349,7 @@ Export API hosted on the Teams Graph Service gets all user messages from the Sub
 
 Export API has filter parameters that help optimize the messages returned for a chat thread. The [API GET](https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages) supports new filter parameters that allow a way to extract messages based on the sent user, bot, application and system event messages. The filter parameter supports messages sent by the following:
 
- - users (multiple user Ids supported in the same request).
+- users (multiple user Ids supported in the same request).
 
  - applications (bots, connectors, and so on).
 
@@ -387,7 +391,7 @@ $filter=from/application/applicationIdentityType eq '<appType>' or from/user/id 
 (<any of the previous filters>) and (lastModifiedDateTime+gt+<date>+and+lastModifiedDateTime+lt+<date>)  
 ```
 
- - The query returns messages sent by the specified user if `from/user/id eq ‘{oid}’` is present.
+- The query returns messages sent by the specified user if `from/user/id eq ‘{oid}’` is present.
    
  - The query returns messages sent by the federated users that are part of the user chats, if `from/user/userIdentityType eq ‘federatedUser’` is present.
 
@@ -439,5 +443,5 @@ The new Copilot Activity Export API allows you to export Copilot interactions da
 
 Application permissions are used by apps that run without a signed-in user present; application permissions can only be approved by an administrator. The following permissions are needed:
   
-  - *AiEnterpriseInteraction.Read.All*: enables access to all copilot interactions across Microsoft 365 apps and Microsoft 365 Chat
+- *AiEnterpriseInteraction.Read.All*: enables access to all copilot interactions across Microsoft 365 apps and Microsoft 365 Chat
   - A **Microsoft 365 Copilot license** is required for accessing the new Copilot Activity Export API.

@@ -3,7 +3,7 @@ title: Migration guide Android AOSP management for Microsoft Teams Android devic
 author: mstonysmith
 ms.author: tonysmit
 ms.reviewer: tjaved
-ms.date: 3/37/2025
+ms.date: 3/27/2025
 manager: pamgreen
 audience: Admin
 ms.topic: upgrade-and-migration-article

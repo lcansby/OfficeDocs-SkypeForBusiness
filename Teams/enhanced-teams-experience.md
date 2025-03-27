@@ -87,7 +87,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 - **Watermarking** - Enforced through a sensitivity label, watermarks display the email address of a meeting or webinar participant. Watermarks are useful for protecting confidential information shared in meetings and webinars.
 
-- **Who can record and transcribe** - Organizers can control who can record and transcribe their meetings through their meeting options. You can also use a sensitivity label to manage this feature.
+- **Who can record and transcribe** - Organizers can control who can record and transcribe their meetings through their meeting options. You can must use a sensitivity label or meeting template to manage this feature.
 
   | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users |
   | --------- | -----------| ----------- | ------------ |
@@ -127,7 +127,6 @@ The following table describes platform support for Teams Premium advanced manage
 | Manage what attendees see |Yes|Yes|No|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|Yes|Yes|Yes|
 | Organizer can restrict participants from copying or forwarding meeting chat messages, live captions, and transcripts |Yes|Yes|Yes<sup>1</sup>|Yes|N/A|N/A|N/A|No|N/A|N/A|Yes|Yes|Yes|Yes|Yes|
 | Real-time telemetry and retention |N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|
-| Restrict who can record|Yes|Yes|Yes|Yes|No|No|No|No|No|N/A|Yes|N/A|Yes|Yes|N/A|
 | Screen sharing quality alerts |Yes|Yes|Yes|Yes|Yes|Yes|Yes|N/A|N/A|Yes|N/A|N/A|Yes|Yes|Yes|
 | Sensitivity labels |Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|Yes|Yes|No|
 | Teams Premium feature usage report |No|No|No|No|No|No|No|No|No|No|No|No|No|No|No|
@@ -180,7 +179,7 @@ Teams Premium provides the following key AI-powered meetings features:
 
   | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users |
   | -------------------- | -----------| ----------- | ------------ |
-  | Decorate my background | No, contact support for assistance. | No admin control | [Decorate your background](https://adoption.microsoft.com/microsoft-teams-premium/decorate-your-background/)|
+  | Decorate my background | No, contact support for assistance. | No admin control | [Decorate your background](https://support.microsoft.com/office/change-your-background-in-microsoft-teams-meetings-f77a2381-443a-499d-825e-509a140f4780)|
   | Intelligent meeting recap| No, contact support for assistance.<sup>1</sup>|[Intelligent recap for Teams calls and meetings](intelligent-recap-calls-meetings.md) | [Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef#bkmk_intelligent_meeting_recap) |
   | Live translated captions | Yes | [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)|[Use live captions in Microsoft Teams meetings](https://support.microsoft.com/office/use-live-captions-in-microsoft-teams-meetings-4be2d304-f675-4b57-8347-cbd000a21260) |
   | Live translated transcripts | Yes |  [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md) | [View live transcription in Microsoft Teams meetings](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b)|

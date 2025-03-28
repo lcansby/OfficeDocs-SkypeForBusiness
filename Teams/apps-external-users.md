@@ -11,7 +11,7 @@ ms.subservice: teams-apps
 search.appverid: MET150
 description: Learn how apps in Microsoft Teams work for guests, external access users, and anonymous users.
 ms.localizationpriority: high
-ms.date: 02/20/2025
+ms.date: 04/01/2025
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -63,7 +63,9 @@ Guests can mention the bot and interact with adaptive cards.
 #### Personal bots added with policies
 
 * For any app, guests adhere to global and org-wide app policies set for the host organization. If an app is blocked in the host organization, guests can't use it.
+* Any bot included in the global default app setup policy is also added for guests.
 * After a bot is added, guests can communicate with it.
+* You can't remove a guest from the global default app setup policy.
 * If you preinstall a bot for your users using app setup policy, guests can't access such a bot.
 * To avoid guests from accessing bots, you can create different app setup policies, assign them to internal users, and add bots with the custom policies.
 
@@ -73,6 +75,8 @@ External users don't have access to the Teams app store of the host organization
 
 ### Add, update, and delete apps for external access users
 
+* People from other organizations adhere to the hosting organization's global (org-wide default) policy
+* Users in the hosting organization can add apps in meeting chats with people from other organizations. People from other organizations can't add apps in meeting chats but can interact with bots, tabs and message extensions once added to the chat.
 * A meeting host can install, remove, or update apps for use by all members of a meeting, including external users.
 * Apps in one-on-one chat with external users aren't supported.
 

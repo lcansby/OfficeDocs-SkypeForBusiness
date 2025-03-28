@@ -84,15 +84,15 @@ To set up a line key for speed dial, follow these steps:
 
 1. **To assign a contact for speed dial**: Select on Assign line key and search for an existing contact including with an external phone number or add a new one.  
 
-![Screenshot of the home screen.](media/line-keys-updates-1.png)
+![Screenshot of the home screen.](media/line-key-updates-1.png)
 
 1. When you first start to assign line keys, you see:
 
-![Screenshot of assinging a line key.](media/line-keys-updates-2.png)
+![Screenshot of assinging a line key.](media/line-key-updates-2.png)
 
 1. Press and hold on a line key to assign a contact or phone number:
 
-![Screenshot of pressing an holding for quick actions.](media/line-keys-updates-3.png)
+![Screenshot of pressing an holding for quick actions.](media/line-key-updates-3.png)
 
 1. **To modify or manage an assigned line key:** Long press an existing line key to see a detailed menu with the following options:
 
@@ -102,7 +102,7 @@ To set up a line key for speed dial, follow these steps:
 
 1. **To place a call****:** Press or select on the key to place a call to the user or number assigned to that line key.
 
-![Screenshot of settings and options.](teams/phones/media/line-key-updates-4.png)
+![Screenshot of settings and options.](media/line-key-updates-4.png)
 
 1. To pin line key app to your home screen, navigate to settings to view Home screen options and choose Line keys.
 

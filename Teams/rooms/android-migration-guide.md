@@ -58,7 +58,7 @@ In order for Teams Android Devices to enroll in AOSP Device Management successfu
 5. Use the following settings for the profile configuration:
 
    - **Name** Give the profile a name like 'AOSP – Teams Devices'.
-   - **Description** Put in a description so others in the organization know what this enrollment profile is used for. Use something like 'This AOSP Management enrollment profile is to allow Teams Android Devices to enroll in Intune'.
+   - **Description** Put in a description so others in the organization know what this enrollment profile is used for.
    - **Token expiration date** This defaults to 65 years into the future and is best left at 65 years to avoid expiration which would block new enrollments.
    - **Wi-Fi** Select **Not configured**.
    - **For Microsoft Teams devices** Select **Enabled**.

@@ -24,9 +24,9 @@ description: Learn how to set up and manage line or speed dial keys on Microsoft
 
 # Line or speed dial keys on Microsoft Teams certified phones
 
-This article provides you with guidance on setting up and managing line keys (or speed dial keys) on Microsoft Teams certified phones. This feature allows your users to use a phone line key to set up speed dial for their contacts and phone numbers for quick access using buttons on touch and non-touch devices. A phone line key is one of the keys used to designate individual lines on a phone. Depending on the model and manufacturer, phones typically have between 2 and 12 phone line keys. 
+This article provides you with guidance on setting up and managing line keys (or speed dial keys) on Microsoft Teams certified phones. This feature allows your users to use a phone line key to set up speed dial for their contacts and phone numbers for quick access using buttons on touch and nontouch devices. A phone line key is one of the keys used to designate individual lines on a phone. Depending on the model and manufacturer, phones typically have between 2 and 12 phone line keys. 
 
-## Steps to use line keys to set up speed dial for non-touch devices 
+## Steps to use line keys to set up speed dial for nontouch devices 
 
 To set up a line key for speed dial, follow these steps:
 
@@ -76,7 +76,7 @@ To set up a line key for speed dial, follow these steps:
       
 1. **To place a call:** Press or select on the key to place a call to the user or number assigned to that line key.
 
-1. To hide unassigned line keys navigate to settings to view Calling settings. Enable toggle on Hide unassigned line key. Go back to home screen, unassigned line keys will now be hidden.  
+1. To hide unassigned line keys, navigate to settings to view Calling settings. Enable toggle on Hide unassigned line key. Go back to home screen, unassigned line keys will now be hidden.  
 
 ## Steps to use line keys to set up speed dial for touch devices
 
@@ -106,7 +106,7 @@ To set up a line key for speed dial, follow these steps:
 
 1. To pin line key app to your home screen, navigate to settings to view Home screen options and choose Line keys.
 
-1. To hide unassigned line keys navigate to settings to view Calling settings. Enable toggle on Hide unassigned line key. Go back to line key app, unassigned line keys will now be hidden.  
+1. To hide unassigned line keys, navigate to settings to view Calling settings. Enable toggle on Hide unassigned line key. Go back to line key app, unassigned line keys will now be hidden.  
 
 ## Frequently Asked Question
 
@@ -120,7 +120,7 @@ To set up a line key for speed dial, follow these steps:
 
 **Question:**  Does this change the existing functionality of sidecars?  
 
-**Answer:**  No, the current functionality of the pinning of speed dial, shared lines and group contacts does not change. However, in future updates, we will also support ability to configure them as line keys on the sidecar.
+**Answer:**  No, the current functionality of the pinning of speed dial, shared lines, and group contacts doesn't change. However, in future updates, we'll also support ability to configure them as line keys on the sidecar.
 
 ### Related articles
 

@@ -30,6 +30,9 @@ This article covers:
 - Things to consider before deploying migration firmware
 - Deploying the new AOSP Device Management firmware
 
+> [!NOTE]
+> These steps are specific to Teams Android devices. If you have non-Teams devices, refer to the Intune guidance for setting up profiles: [Set up Android (AOSP) device management in Intune for corporate-owned user-associated devices - Microsoft Intune | Microsoft Learn](/mem/intune/enrollment/android-aosp-corporate-owned-user-associated-enroll)
+
 ### Prerequisites
 
 To migrate from Android Device Administrator to Android AOSP Device Management, you need:
@@ -45,9 +48,6 @@ To migrate from Android Device Administrator to Android AOSP Device Management, 
 ## Step 1 - Set up a new AOSP device management enrollment profile
 
 In order for Teams Android Devices to enroll in AOSP Device Management successfully, an enrollment profile must be created.
-
-> [!NOTE]
-> These steps are specific to Teams Android devices. If you have non-Teams devices, refer to the Intune guidance for setting up profiles: [Set up Android (AOSP) device management in Intune for corporate-owned user-associated devices - Microsoft Intune | Microsoft Learn](/mem/intune/enrollment/android-aosp-corporate-owned-user-associated-enroll)
 
 ### Setup AOSP management enrollment profiles
 
@@ -73,23 +73,20 @@ In order for Teams Android Devices to enroll in AOSP Device Management successfu
 
 The enrollment profile has been created and is now ready to enroll devices.
 
-## Step 2 - Set up AOSP Device Management Compliance Policies (if ncessary)
+## Step 2 - Set up AOSP Device Management Compliance Policies (if necessary)
 
-If your organization uses [Conditional Access](/intune/intune-service/protect/conditional-access) with Intune Compliance as a requirement for successful sign in, you need to create a new AOSP DM Compliance Policy and assign it to all devices in your tenant to ensure devices are marked compliance post migration. If you don't create a compliance policy while requiring compliance as an authentication factor, the device will sign out after migration.
-
-> [!NOTE]
-> These steps are specific to Teams Android devices. For non-Teams devices, refer to the Intune guidance for setting up profiles:  [Android (AOSP) compliance settings in Microsoft Intune | Microsoft Learn](/mem/intune/protect/compliance-policy-create-android-aosp)
+If your organization uses [Conditional Access](/intune/intune-service/protect/conditional-access) with Intune Compliance as a requirement for successful sign in, you need to create a compliance policy and assign it to all devices in your tenant to ensure devices are marked compliance post migration. If you don't create a compliance policy while requiring compliance as an authentication factor, the device will sign out after migration.
 
 ### Applicable Intune Compliance Factors
 
-Only some AOSP Device Management compliance factors are applicable to Teams Android Devices enrolled with AOSP Device Management:
+Only some AOSP Device Management compliance factors are applicable to Teams Android Devices:
 
 - **Device Health** Rooted devices (Block).
 - **Device Properties** Minimum OS version.
 - **Device Properties** Maximum OS version.
 - **System Security** Require encryption of data storage on device.
 
-### Creating a AOSP Management Compliance Policy
+### Creating a AOSP Device Management Compliance Policy
 
 1. Sign in to the Intune Management Console with an account with Intune administrator permissions: [https://intune.microsoft.com/](https://intune.microsoft.com/).
 2. Select **Devices** > **Compliance**, then **Create policy**.
@@ -109,8 +106,8 @@ Only some AOSP Device Management compliance factors are applicable to Teams Andr
 - There's no end user noticeable change on the devices after this migration is completed.
 - Firmware capable of completing this migration is being released slowly over several months, review to our Tech Community article for firmware availability and more information about why this migration is occurring: [Moving Teams Android Devices to AOSP Device Management](https://techcommunity.microsoft.com/blog/microsoftteamssupport/moving-teams-android-devices-to-aosp-device-management/4140893)
 - This migration is intended to be completed without any user intervention. However, if your organization conditional access policies require user-interactive multi-factor authentication, after the migration, your device will be signed out and the user needs to sign in their device.
-- If any of your Teams devices are signed in using an account configured as a Device Enrollment Manager (DEM) account, you must remove those accounts as DEM accounts before completing this migration: [Device Enrollment Manager](/mem/intune-service/enrollment/device-enrollment-manager-enroll#android-open-source-project-aosp).
-- Device Code Flow (DCF) (also known as microsoft.com/devicelogin) no longer supports user-interactive MFA. If user-interactive MFA is enforced by conditional access policies, users will need to log in on their device directly not via the web.
+- If any of your Teams devices are signed in using an account configured as a Device Enrollment Manager (DEM) account, you must remove the account as a DEM account before completing this migration: [Device Enrollment Manager](/mem/intune-service/enrollment/device-enrollment-manager-enroll#android-open-source-project-aosp).
+- Device Code Flow (DCF) (also known as microsoft.com/devicelogin) no longer supports user-interactive MFA. If user-interactive MFA is enforced by conditional access policies, users will need to log in on their device directly not via the web to ensure the MFA prompt appears.
 
 ## Step 4 - Complete the migration by deploying AOSP Device Management capable device firmware
 

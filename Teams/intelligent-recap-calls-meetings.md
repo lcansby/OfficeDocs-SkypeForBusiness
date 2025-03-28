@@ -3,8 +3,8 @@ title: Intelligent recap for Teams calls and meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.reviewer: weizxue, nijait, benjamin.olson
-ms.date: 3/17/2025
+ms.reviewer: weizxue, nijait, benjamin.olson, harinlee
+ms.date: 3/27/2025
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams

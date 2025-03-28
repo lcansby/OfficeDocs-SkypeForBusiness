@@ -123,6 +123,10 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | Poly GC8 Console with Lenovo Thinksmart Core | Core i5 | 8 GB | 128 GB |
 | Poly GC8 Console with Dell Optiplex 7080 | Core i5 | 8 GB | 128 GB |
 | [Poly GC8 Console with HP 800 G9 Compute -MTR-W](https://www.poly.com/us/en/solutions/platform/microsoft/video/teams-rooms-windows) | Core i7 | 16 GB | 256 GB |
+| [Shure IntelliMix Room Kit 30](https://www.shure.com/products/bundles/intellimix-room-kits?variant=IMXRK30-V) | Core i5 | 16 GB | 256 GB |
+| [Shure IntelliMix Room Kit 50](https://www.shure.com/products/bundles/intellimix-room-kits?variant=IMXRK50-V) | Core i5 | 16 GB | 256 GB |
+| [Shure IntelliMix Room Kit 70](https://www.shure.com/products/bundles/intellimix-room-kits?variant=IMXRK70-V) | Core i5 | 16 GB | 256 GB |
+| [Shure IntelliMix Room Kit 80](https://www.shure.com/products/bundles/intellimix-room-kits?variant=IMXRK80-V) | Core i5 | 16 GB | 256 GB |
 | [ViewSonic TeamJoin TRS10](https://www.viewsonic.com/global/products/commercial-display/TRS10) bundle (Compute: [MPC310-W31-TU](https://www.viewsonic.com/global/products/commercial-display/MPC310-W31-TU) + Console: [MRC1010-TN](https://www.viewsonic.com/global/products/commercial-display/MRC1010-TN)) | Core i3 | 8 GB | 128 GB |
 | [Yealink Core2 Kit](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc640) | Core i5 | 8 GB | 128 GB |
 | Yealink MeetingBoard for MTR-Windows | Core i5 | 8 GB | 128 GB |

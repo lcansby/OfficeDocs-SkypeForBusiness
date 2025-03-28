@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lsomi
-ms.date: 03/05/2024
+ms.date: 03/28/2025
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150

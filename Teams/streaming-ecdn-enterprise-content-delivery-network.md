@@ -42,7 +42,7 @@ Here's the eCDN setup for town halls and view-only meetings:
 
 - If an organizer has a Teams Premium license, Microsoft eCDN is the default for view-only meetings and town halls.
 - If the organizer doesn't have a Teams Premium license, your chosen eCDN provider is the default for view-only meetings and town halls.
-- If the organizer doesn’t have a Teams Premium license and you haven’t set up eCDN in the Teams admin center, town halls and view-only meetings don’t have eCDN.
+- If the organizer doesn’t have a Teams Premium license and you haven’t set up eCDN in the Teams admin center, town halls and view-only meetings don’t have an eCDN.
 
 Without Microsoft eCDN, town hall organizers with a Premium license might not be able to access some future features that require this eCDN solution.
 

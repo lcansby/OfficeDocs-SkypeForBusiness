@@ -89,7 +89,7 @@ We recommend using images with the dimensions of 1,440 x 810 pixels. The custom 
 
 ## Create or manage meeting themes in the Teams admin center
 
-All Teams Premium licensed users are automatically assigned the global default policy. Any custom customization policies you create override the global default.  You can upload a maximum of five themes to each policy. Adding multiple themes to each policy gives your organizers more options, allowing them to select the right branding for different meetings.
+All Teams Premium licensed users are automatically assigned the global default policy. Any custom customization policies you create override the global default. You can upload a maximum of five themes to each policy. Adding multiple themes to each policy gives your organizers more options, allowing them to select the right branding for different meetings.
 
 To create or manage meeting themes, follow these steps:
 

@@ -92,7 +92,9 @@ Set-CsTeamsMeetingPolicy -Identity PolicyName -roomAttributeUserOverride Attribu
 ```
 
 > [!NOTE]
-> If your voice profile isn't available under the *Recognition* tab in Settings and you aren't being attributed in transcriptions, re-enroll your Voice Profile.
+> - If your voice profile isn't available under the *Recognition* tab in Settings and you aren't being attributed in transcriptions, re-enroll your Voice Profile
+> 
+> - Speaker attribution using the meeting invite list begins when someone other than a Microsoft Teams Room (MTR) device joins the meeting.
 
 The following are the required policies to set an Intelligent Speaker and user recognition.
 

@@ -80,33 +80,33 @@ To set up a line key for speed dial, follow these steps:
 
 ## Steps to use line keys to set up speed dial for touch devices
 
-1. Update the Teams phone to **1449/1.0.94.2025084203** or later. After updating the phone, you notice a new home screen experience on your device with a dedicated app for line keys on your home screen. 
+Update the Teams phone to **1449/1.0.94.2025084203** or later. After updating the phone, you notice a new home screen experience on your device with a dedicated app for line keys on your home screen.
 
-1. **To assign a contact for speed dial**: Select on Assign line key and search for an existing contact including with an external phone number or add a new one.  
+**To assign a contact for speed dial** From the Home Screen, select on **Assign line key** and search for an existing contact with an external phone number or add a new one.
 
 ![Screenshot of the home screen.](media/line-key-updates-1.png)
 
-1. When you first start to assign line keys, you see:
+When you first start to assign line keys, you see:
 
 ![Screenshot of assinging a line key.](media/line-key-updates-2.png)
 
-1. Press and hold on a line key to assign a contact or phone number:
+Press and hold on a line key to assign a contact or phone number.
 
 ![Screenshot of pressing an holding for quick actions.](media/line-key-updates-3.png)
 
-1. **To modify or manage an assigned line key:** Long press an existing line key to see a detailed menu with the following options:
+**To modify or manage an assigned line key** Long press an existing line key to see a detailed menu:
 
-   1. Reassign line key: - Use this setting to remove an assigned line key.
-   1. Unassign line key: -  Use this setting to modify the contact assigned to this line key.
-   1. Manage line key: - Use this setting to access more management options.
+- **Reassign line key** - Use this setting to remove an assigned line key.
+- **Unassign line key** -  Use this setting to modify the contact assigned to this line key.
+- **Manage line key** - Use this setting to access more management options.
 
-1. **To place a call****:** Press or select on the key to place a call to the user or number assigned to that line key.
+**To place a call** Press or select on the key to place a call to the user or number assigned to that line key.
 
 ![Screenshot of settings and options.](media/line-key-updates-4.png)
 
-1. To pin line key app to your home screen, navigate to settings to view Home screen options and choose Line keys.
+**To pin line key app to your home screen** Navigate to settings to view Home screen options and choose Line keys.
 
-1. To hide unassigned line keys, navigate to settings to view Calling settings. Enable toggle on Hide unassigned line key. Go back to line key app, unassigned line keys will now be hidden.  
+**To hide unassigned line keys** Navigate to settings to view **Calling settings**. Turn on **Hide unassigned line key**. Go back to line key app, unassigned line keys will now be hidden.  
 
 ## Frequently Asked Question
 

@@ -61,9 +61,9 @@ Here are some examples on how you can use these export APIs:
 
     To learn more about Teams Retention policy, see the [Manage retention policies for Microsoft Teams](/microsoftteams/retention-policies) for further details.
   
-- Meeting Transcripts: Get all transcripts from scheduled online meeting instances for which the specified user is the organizer. This API currently only supports private scheduled meetings.
+- **Meeting Transcripts:** Get all transcripts from scheduled online meeting instances for which the specified user is the organizer. This API currently only supports private scheduled meetings.
 
-- Meeting Recordings: Get all recordings from scheduled online meeting instances for which the specified user is the organizer. This API currently only supports private scheduled meetings.
+- **Meeting Recordings:** Get all recordings from scheduled online meeting instances for which the specified user is the organizer. This API currently only supports private scheduled meetings.
 
 ## How to access Teams Export APIs
 
@@ -444,4 +444,4 @@ The new Copilot Activity Export API allows you to export Copilot interactions da
 Application permissions are used by apps that run without a signed-in user present; application permissions can only be approved by an administrator. The following permissions are needed:
   
 - *AiEnterpriseInteraction.Read.All*: enables access to all copilot interactions across Microsoft 365 apps and Microsoft 365 Chat
-  - A **Microsoft 365 Copilot license** is required for accessing the new Copilot Activity Export API.
+- A **Microsoft 365 Copilot license** is required for accessing the new Copilot Activity Export API.

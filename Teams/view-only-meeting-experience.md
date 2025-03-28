@@ -75,12 +75,12 @@ When presenter and attendee roles are set up, the main meeting reserves space fo
 
 Limitations for meeting presenters and organizers include:
 
-- They have no information about the view-only attendees. We don't support E-discovery for view-only attendees.
-- Users in the main meeting can't see the view-only attendees.
+- Users in the main meeting can't see the view-only attendees in the People panel. 
 - They can't remove a view-only attendee from the meeting.
+- We don't support E-discovery for view-only attendees.
 
 > [!NOTE]
-> Attendee count only reflects the attendees in the main meeting and not the view-only attendees. Presenters can't get an exact count of attendees in the view-only experience.
+> Attendee count will reflect the attendees in the main meeting and the view-only attendees. Organizers can review the view-only attendees who joined using the attendance report after the meeting is over. 
 
 ## Experience for view-only attendees
 

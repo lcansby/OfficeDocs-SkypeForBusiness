@@ -40,7 +40,7 @@ To migrate from Android Device Administrator to Android AOSP Device Management, 
 - Intune admin permissions in your Microsoft 365 environment.
 
 > [!IMPORTANT]
-> Organizations using Teams Rooms Basic licenses or that disable the Intune license on accounts don't enroll their devices in Intune. In that case the devices don't enroll in Intune, so there's no need to set up an enrollment profile. Just upgrade devices to the AOSP Management capable firmware at release to stay current on firmware. 
+> Organizations using Teams Rooms Basic licenses or that disable the Intune license on accounts don't enroll their devices in Intune. In that case, there's no need to set up an enrollment profile. Just upgrade devices to the AOSP Management capable firmware at release to stay current on firmware. 
 
 ## Step 1 - Set up a new AOSP device management enrollment profile
 
@@ -140,6 +140,6 @@ Once the device updates, it should automatically sign back in to Teams and funct
 6. Look for a recent Software update action and confirm the status is **Successful**.
 7. When it's successful, select the **Health** tab.
 
-A 'Microsoft Intune App' and 'Authenticator App' should be listed under software type and tagged as **Up to date** this message confirms that the device is now running an AOSP Device Management capable firmware.
+A 'Microsoft Intune App' and 'Authenticator App' should be listed under software type which confirms that the device is now running an AOSP Device Management capable firmware.
 
    ![Screenshot of AOSP upgrade complete.](media/android-migration-guide/aosp-upgrade-complete.png)

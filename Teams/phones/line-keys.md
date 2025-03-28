@@ -102,7 +102,7 @@ To set up a line key for speed dial, follow these steps:
 
 1. **To place a call****:** Press or select on the key to place a call to the user or number assigned to that line key.
 
-![Screenshot of settings and options.](media/line-key-updates-4.png)
+![Screenshot of settings and options.](teams/phones/media/line-key-updates-4.png)
 
 1. To pin line key app to your home screen, navigate to settings to view Home screen options and choose Line keys.
 

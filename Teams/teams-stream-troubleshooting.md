@@ -154,5 +154,5 @@ Select **Stop event** before disconnecting your encoder. If you already disconne
 
 ## Related topics
 
-- [What are Microsoft Teams live events](/teams-live-events/what-are-teams-live-events)
-- [Plan for live events in Microsoft Teams](/teams-live-events/plan-for-teams-live-events)
+- [What are Microsoft Teams live events](/microsoftteams/teams-live-events/what-are-teams-live-events)
+- [Plan for live events in Microsoft Teams](/microsoftteams/teams-live-events/plan-for-teams-live-events)

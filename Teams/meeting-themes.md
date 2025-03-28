@@ -3,7 +3,7 @@ title: Create and manage meeting themes for Teams meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.date: 3/18/2025
+ms.date: 3/28/2025
 ms.reviewer: margidesai
 ms.topic: how-to
 ms.tgt.pltfrm: cloud

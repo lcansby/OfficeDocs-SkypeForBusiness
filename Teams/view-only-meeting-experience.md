@@ -80,7 +80,7 @@ Limitations for meeting presenters and organizers include:
 - We don't support E-discovery for view-only attendees.
 
 > [!NOTE]
-> Attendee count will reflect the attendees in the main meeting and the view-only attendees. Organizers can review the view-only attendees who joined using the attendance report after the meeting is over. 
+> Attendee count reflects the attendees in the main meeting and the view-only attendees. Organizers can review the view-only attendees who joined using the attendance report after the meeting is over. 
 
 ## Experience for view-only attendees
 

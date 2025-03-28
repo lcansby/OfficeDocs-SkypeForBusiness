@@ -123,7 +123,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Compliance recording](teams-recording-policy.md)|Can implement an admin policy for automatic recording.|No control|
 |[Content sharing](meeting-who-present-request-control.md)|Can control sharing mode and who can request control and can set a default for who can present.|Can control who can present.|
 |[Convenience recording](meeting-recording.md)|Can allow or prevent recording and set recording expiration time.|If the admin allows recording, organizers can manage who can record (Teams Premium) and automatic recording.|
-|[Custom backgrounds (Teams Premium)](custom-meeting-backgrounds.md)|Can upload images for your users to display in the background of their video feed during meetings.|Can use backgrounds you uploaded.|
+|[Custom backgrounds (Teams Premium)](custom-meeting-backgrounds.md)|Can upload images for your users to display in the background of their video feed during meetings.|Can use the backgrounds you upload.|
 |[Decorate my background (Teams Premium)](https://support.microsoft.com/office/change-your-background-in-microsoft-teams-meetings-f77a2381-443a-499d-825e-509a140f4780)|No control|Teams Premium licensed organizers, co-organizers, presenters, and participants can use AI to decorate their backgrounds.|
 |[Download transcripts](https://support.microsoft.com/office/manage-webinar-recordings-in-microsoft-teams-8cf1ba61-c9d8-4628-8b5d-0dcdb8503144)|No control.|Can download transcripts from their webinars.|
 |[Email communications (Teams Premium)](manage-email-communications.md)|Can control if event organizers and co-organizers can edit email templates for their webinars.|Can edit email templates  before they're sent out.|

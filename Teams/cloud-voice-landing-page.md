@@ -29,13 +29,15 @@ description: "Learn about Teams calling with Microsoft cloud voice services in M
 
 # Teams calling overview
 
-This article is for IT administrators and IT professionals who are researching the calling workloads in Microsoft Teams.
+This article is for IT administrators and IT professionals who are researching and planning the calling workloads in Microsoft Teams.
 
 ## Native Teams calling
 
-The Microsoft Teams application is a Microsoft 365 product that is for users who have either a legacy *Microsoft 365 E5* license or a new, stand-alone, *Microsoft Teams Enterprise* license. Microsoft Teams includes support for native 1:1 calling *and* group calling from one Teams client to any other internal or external Teams clients.
+The Microsoft Teams application is a Microsoft 365 product that is for users who have either a legacy *Microsoft 365 E5* license or a new, stand-alone, *Microsoft Teams Enterprise* license.
 
-Calls between users in your organization are handled natively within Teams, and never go to the Public Switched Telephone Network (PSTN)--thereby removing long-distance costs on internal calls.
+Microsoft Teams includes support for native 1:1 calling *and* group calling from one Teams client to any other internal or external Teams clients.
+
+With the Microsoft Teams application, calls between users in your organization are handled natively within Teams. Calls are processed by Microsoft 365 Teams cloud services and don't use the Public Switched Telephone Network (PSTN)--thereby removing PSTN toll costs for native Teams calls.
 
 All users licensed for Teams are supported to make calls to other Teams users.
 

@@ -105,7 +105,7 @@ There are three variations on the ***Microsoft Teams Phone Standard*** license, 
 |**License** |**Prerequisite License(s)** |
 |:-----|:-----|
 |Microsoft Teams Phone Standard |Microsoft 365 Business Basic/Business Standard/Business Premium/F1/F3/E3/A3; Microsoft Teams EEA; Microsoft Teams Enterprise; Microsoft Teams Essentials (AAD Identity); Office 365 F3/E1/E3/A1/A3 |
-|Microsoft Teams Phone Standard for Frontline Workers	|Microsoft 365 F1/F3; Office 365 F3 |
+|Microsoft Teams Phone Standard for Frontline Workers |Microsoft 365 F1/F3; Office 365 F3 |
 |Microsoft Teams Phone with Calling Plan |Microsoft 365 Business Basic/Business Standard/Business Premium/F1/F3/E3/A3; Microsoft Teams EEA; Microsoft Teams Enterprise; Microsoft Teams Essentials (AAD Identity); Office 365 F3/E1/E3/A1/A3 |
 
 To learn more about licensing for Teams Phone, see [Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).

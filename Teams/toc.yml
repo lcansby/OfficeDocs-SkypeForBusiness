@@ -380,6 +380,8 @@ items:
           href: copilot-teams-transcription.md
         - name: Teams Rooms and Copilot overview
           href: rooms/copilot-admin-mtr.md
+        - name: Manage Interpreter agent for your organization 
+          href: interpreter-agent-teams.md
     - name: Agents for Teams
       items:
         - name: Set up Facilitator for AI notes

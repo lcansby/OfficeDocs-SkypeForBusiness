@@ -106,7 +106,7 @@ Intelligent meeting recap can translate the meeting's recap into each participan
 
 Intelligent recap is supported on the following types of meetings and calls:
 
-- Meetings: Meetings scheduled in the Teams client, meetings scheduled in Outlook, meet now
+- Meetings: Meetings scheduled in the Teams client, meetings scheduled in Outlook, meet now, webinars, town halls
 - Calls: PSTN, 1:1, group peer-to-peer
 
 ## Supported platforms

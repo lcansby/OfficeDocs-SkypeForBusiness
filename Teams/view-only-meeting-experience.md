@@ -8,6 +8,7 @@ manager: pamgreen
 ms.topic: article
 audience: admin
 ms.service: msteams
+ms.subservice: meetings
 search.appverid: MET150
 description: Learn about the Teams view-only meeting experience for admins, presenters, and attendees.
 ms.localizationpriority: medium

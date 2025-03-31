@@ -6,6 +6,7 @@ manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.subservice: meetings
 ms.reviewer: mfoland
 ms.date: 10/31/2024
 ms.localizationpriority: medium

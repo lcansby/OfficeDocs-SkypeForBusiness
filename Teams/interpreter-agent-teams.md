@@ -125,6 +125,34 @@ To set the org-wide default value for the **Your voice representation** setting 
 Set-CsTeamsMeetingPolicy -Identity <policy name> -VoiceSimulationInInterpreter Disabled
 ```
 
+## Supported platforms and scenarios
+
+### Platforms
+
+Interpreter agent is supported on the following platforms:
+
+- Teams desktop (Windows and Mac)
+- Teams mobile (iOS and Android)
+- Teams web (Chrome, Edge, and Firefox)
+
+Interpreter agent is available during scheduled meetings, channel meetings and VDI. However, Interpreter agent isn't supported for unscheduled 1:1 calls (VoIP or PSTN), meetings scheduled using Microsoft Teams Rooms or personal devices, town halls, and Microsoft Teams Free.
+
+### Scenarios
+
+Interpreter agent works in both remote and hybrid meetings where participants join online in a meeting room.
+
+Supported:
+
+- Fully remote meetings with multilingual participants.
+- Hybrid scenarios where both in-person and remote users share a single laptop.
+- Physical group settings using a shared laptop for interpretation.
+
+Not supported:
+
+- Unscheduled 1:1 calls (VoIP or PSTN).
+- Meetings using Microsoft Teams Rooms with personal laptops in a room.
+- Physical setups where multiple devices are used for interpretation.
+
 ## Related articles
 
 - [Manage Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md)

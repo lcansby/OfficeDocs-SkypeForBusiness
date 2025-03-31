@@ -234,7 +234,7 @@ To add a mobile system OS scanner:
 
 App also includes multiple bug fixes and improvements. Bug fixes impacting user experience are:
 
-- With this release, you will be able to resume held calls using a single entry .
+- With this release, you will be able to resume held calls using a single entry.
 - Joining a meeting via dial-info on calendar is now fixed.
 - Deleted groups from People app will now sync across clients.
 - For non-touch phone devices, the Resume button will now be one of the four keys below the display. It can be triggered using the corresponding hard key on the device.

@@ -1,5 +1,5 @@
 ---
-title: Intelligent recap for Teams calls and meetings
+title: Intelligent recap for Teams calls, meetings, and events
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen

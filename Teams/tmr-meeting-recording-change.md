@@ -8,6 +8,7 @@ manager: pamgreen
 ms.topic: article
 audience: admin
 ms.service: msteams
+ms.subservice: meetings
 search.appverid: MET150
 description: Learn about how meeting recordings are stored in OneDrive and SharePoint, and permissions.
 ms.localizationpriority: medium

@@ -8,6 +8,7 @@ ms.reviewer: margidesai
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: meetings
 audience: Admin
 ms.collection: 
   - M365-collaboration

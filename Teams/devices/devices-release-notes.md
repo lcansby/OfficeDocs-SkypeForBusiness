@@ -211,7 +211,10 @@ To add a mobile system OS scanner:
 
 ## March 28, 2025
 
-**Applies to:** *Teams app version: 1449/1.0.94.2025084203 (Poly, Audiocodes)* 
+**Applies to:** *Teams app version: 1449/1.0.94.2025084203 (Poly, Audiocodes)*
+
+> [!IMPORTANT]
+> Starting in June 2025, Teams applications that are older than five (5) months will no longer work be able to connect to the service. Please refer to the Message Center Post, MC969451 for more det
 
 > [!NOTE]
 > This update introduces a new versioning format, moving away from using dates. Going forward, this format will be used **1449/1.0.94.*year of release.internal codes***

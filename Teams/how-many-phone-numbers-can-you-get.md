@@ -3,8 +3,8 @@ title: "How many telephone numbers can you get?"
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.reviewer: davlick, roykuntz, jastark
-ms.date: 03/13/2024
+ms.reviewer: julienp
+ms.date: 03/31/2025
 ms.topic: article
 ms.assetid: 61dfb27c-5bfa-4481-a930-9c026e73ff3a
 ms.tgt.pltfrm: cloud

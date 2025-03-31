@@ -36,15 +36,16 @@ The caller ID behavior for both inbound and outbound calls depends on multiple f
 
 ## Inbound caller ID behavior
 
-In the operation of processing an inbound PSTN call, Teams looks up the number of the inbound caller's calling Line ID in the mobile and business numbers for contacts configured in your organization.
+In the operation of processing an inbound PSTN call, Teams looks up the number of the inbound caller's calling Line ID in the contacts configured in your organization.
 
 Teams references your organization's Outlook and Entra ID contacts and your end-user's People contacts.
 
+- Only "mobile phone" and "Work (Business) phone" contact fields will be searched
 - Teams will only lookup and match with contact numbers that are in E.164 standard format</br>(they must start with a "+")
 
 If there is a match, Teams substitutes the PSTN call's info and displays the matched contact's name as the caller ID. If there is no match, then the caller ID diplays what is provided by the PSTN call.
 
-The hierarchy for which source provides the presented caller ID to an end user is as follows:
+The hierarchy for which source provides the presented caller ID to an end user is as follows, in order:
 
 - The called Teams user's People contacts
 - Contacts in Outlook and Entra ID
@@ -52,7 +53,7 @@ The hierarchy for which source provides the presented caller ID to an end user i
 - The inbound PSTN call's calling line ID
 
 > [!NOTE]
-> Given that two Teams users can customize a name in their People contacts differently for the same person, it is possible that the caller ID to the first Teams user would appear different than caller ID to the second Teams user from the same caller.
+> Given that two Teams users can each customize the names in their People contacts differently for the same people, it is possible that a caller ID to the first Teams user could appear different than the caller ID to the second Teams user from the same caller.
 
 ### Spam calls
 

@@ -1,8 +1,8 @@
 ---
 title: Customize and display your privacy statement in the meeting join experience
-author: lana-chin
-ms.author: v-chinlana
-manager: jtremper
+author: wlibebe
+ms.author: wlibebe
+manager: pamgreen
 ms.topic: how-to
 ms.service: msteams
 ms.subservice: meetings

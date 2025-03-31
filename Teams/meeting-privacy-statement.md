@@ -5,6 +5,7 @@ ms.author: v-chinlana
 manager: jtremper
 ms.topic: how-to
 ms.service: msteams
+ms.subservice: meetings
 ms.reviewer: revathim
 ms.date: 07/22/2024
 search.appverid: MET150

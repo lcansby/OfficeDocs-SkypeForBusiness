@@ -1406,10 +1406,10 @@ items:
           href: sms-microsoft-teams-policy.md
     - name: Dial plans and routing
       items: 
-        - name: Overview
+        - name: Plan dial plans
           href: dial-plans-routing-overview.md
-        - name: What are dial plans?
-          href: what-are-dial-plans.md
+        - name: Normalization rules
+          href: phone-normalization-rules.md
         - name: Create and manage dial plans
           href: create-and-manage-dial-plans.md
         - name: Route calls to unassigned numbers

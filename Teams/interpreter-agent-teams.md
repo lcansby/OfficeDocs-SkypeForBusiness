@@ -109,9 +109,9 @@ The org- wide **`-VoiceSimulationInInterpreter`** parameter controls your users'
 
 Here's the user experience for Interpreter agent depending on the value you choose:
 
-- **Enabled**: Sets the default value for **Your voice representation** to **Simulate my voice**. When users turn on Interpreter agent, it automatically simulates their voices when translating to others in meetings. Participants also have the option to select an automated voice.
+- **Enabled**: Sets the default value for **Your voice representation** to **Simulate my voice**. When users turn on Interpreter agent, it automatically simulates their voices when translating to others in meetings. Users also have the option to select an automated voice.
 
-- **Disabled**: Sets the default value for **Your voice representation** to **Automated voice**. When users turn on Interpreter agent, they choose one of the automated voices that is translated to others. Participants can also choose to allow Interpreter to simulate their voice. **This is the default value.**
+- **Disabled**: Sets the default value for **Your voice representation** to **Automated voice**. When users turn on Interpreter agent, they choose one of the automated voices that is translated to others. Users can also choose to allow Interpreter to simulate their voice. **This is the default value.**
 
 To set the org-wide default value for the **Your voice representation** setting to **Simulate my voice**, use the following script:  
 

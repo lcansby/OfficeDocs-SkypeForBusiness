@@ -39,7 +39,7 @@ Understand the concepts in this article are a prerequisite for [creating Teams d
 
 Routing telephone calls in Teams Phone is accomplished by matching dialed number strings to resource objects assigned with the dialed number string.
 
-Teams inbound phone calls are routed to users through a process called **Reverse Number Lookup (RNL)**. Reverse number lookup uses strict number string matching to find a user or resource account that matches the dialed number of an incoming PSTN call.
+Teams inbound phone calls are routed to users through a process called **Reverse Number Lookup (RNL)**. Reverse number lookup uses strict number string matching to find a user or resource account that has an assigned number,. matching the dialed number of an incoming PSTN call.
 
 Inbound calls to users are supported when all Teams user and resource accounts have unique number and extension values.
 

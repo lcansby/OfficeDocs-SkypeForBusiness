@@ -40,10 +40,10 @@ In the operation of processing an inbound PSTN call, Teams looks up the number o
 
 Teams references your organization's Outlook and Entra ID contacts and your end-user's People contacts.
 
-- Only "mobile phone" and "Work (Business) phone" contact fields will be searched
+- Only "*Mobile phone*" and "*Work (Business) phone*" contact fields will be searched
 - Teams will only lookup and match with contact numbers that are in E.164 standard format</br>(they must start with a "+")
 
-If there is a match, Teams substitutes the PSTN call's info and displays the matched contact's name as the caller ID. If there is no match, then the caller ID diplays what is provided by the PSTN call.
+If there *is* a match between the calling line ID and a contact, Teams substitutes the PSTN caller ID info with the matched contact's name. If there isn't a match, then the caller ID diplays what's provided by the PSTN call.
 
 The hierarchy for which source provides the presented caller ID to an end user is as follows, in order:
 

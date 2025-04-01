@@ -1590,7 +1590,7 @@ items:
                     - name: IntelliFrame
                       items:
                       - name: Multi-Stream IntelliFrame
-                        href: devices/smartvision-admin.md
+                        href: devices/multistream-intelliframe.md
                       - name: Cloud IntelliFrame
                         href: devices/cloud-intelliframe.md
             - name: Teams panels

@@ -32,7 +32,7 @@ Caller ID consists of two user-facing pieces of information:
 - **Calling line ID (CLID)** - The phone number of the calling party, relayed to the Public Switched Telephone Network (PSTN) and offered to the called party.
 - **Calling party name (CNAM)** - The name of the calling party, relayed to the PSTN, and offered to the called party.
 
-The caller ID behavior for both inbound and outbound calls depends on multiple factors, including the end-user's Teams caller ID policy and calling policy, your organization's contact hygiene, and PSTN operators.
+The caller ID behavior for both inbound and outbound calls depends on the account's assigned Teams caller ID policy and calling policy, your organization's contact hygiene, and PSTN operators.
 
 ## Inbound caller ID behavior
 
@@ -40,8 +40,8 @@ In the operation of processing an inbound PSTN call, Teams looks up the number o
 
 Teams references your organization's Outlook and Entra ID contacts and your end-user's People contacts.
 
-- Only "*Mobile phone*" and "*Work (Business) phone*" contact fields will be searched
-- Teams will only lookup and match with contact numbers that are in E.164 standard format</br>(they must start with a "+")
+- Only "*Mobile phone*" and "*Work (Business) phone*" contact fields are searched
+- Teams looks up and matches with contact numbers that are in E.164 standard format</br>(they must start with a "+")
 
 If there *is* a match between the calling line ID and a contact, Teams substitutes the PSTN caller ID info with the matched contact's name. If there isn't a match, then the caller ID diplays what's provided by the PSTN call.
 
@@ -53,17 +53,17 @@ The hierarchy for which source provides the presented caller ID to an end user i
 - The inbound PSTN call's calling line ID
 
 > [!NOTE]
-> Given that two Teams users can each customize the names in their People contacts differently for the same people, it is possible that a caller ID to the first Teams user could appear different than the caller ID to the second Teams user from the same caller.
+> Given that two Teams users can each customize the names in their People contacts differently for the same people, it's possible that a caller ID to the first Teams user could appear different than the caller ID to the second Teams user from the same caller.
 
 ### Spam calls
 
 PSTN service providers do their best to block instances of robocalls, phone scams, and unwanted calls (collectively known as spam calls).
 
-Not all spam calls are blocked by the service providers; some maanage to get through.
+Service providers aren't always successful in blocking all spam calls; some spam calls manage to get through.
 
-In the event that Teams detects a call is possibly spam, it will send the caller ID as "*Spam likely*".
+If Teams detects a call is possibly spam, it sends the caller ID as "*Spam likely*".
 
-This is a setting that can be turned off in the user's calling policy. For more information, see [Configure spam filtering for calls in Microsoft Teams](configure-call-spam-filtering.md).
+Changing the caller ID of a call to "*Spam likely*" is a setting that can be turned off in the user's calling policy. For more information, see [Configure spam filtering for calls in Microsoft Teams](configure-call-spam-filtering.md).
 
 ### Block inbound PSTN caller ID
 
@@ -81,7 +81,7 @@ To block inbound PSTN calls at a tenant level, see [Block inbound calls](block-i
 
 To block inbound PSTN calls for an end-user, see [Manage your call settings in Microsoft Teams](https://support.microsoft.com/office/manage-your-call-settings-in-microsoft-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 
-- Teams will only check numbers for blocking (at tenant and user level) that are in E.164 standard format</br>(they must start with a "+")
+- Teams only checks for blocking numbers (at the tenant and user level) that are in E.164 standard format</br>(they must start with a "+")
 
 ## Outbound caller ID behavior
 
@@ -95,7 +95,7 @@ The user's outbound *caller ID policy* can be configured to send one of the foll
 
 - Anonymous, which removes the presentation of the user’s calling line ID and calling party name.
 
-- A substitute phone number, which can be one of the following:
+- A substitute phone number, which can be one of the following numbers:
 
   - An Operator Connect or Direct Routing number that is assigned to a resource account used by a Teams Auto attendant or Call queue.
 
@@ -126,14 +126,14 @@ For more information, see [Configure caller ID policies](#configure-caller-id-po
 
 If you're replacing the caller ID with either the user's number or a resource account's number, then configuring a calling party name is supported.
 
-Using an company's name for the calling party name is common. For example, when a Teams Phone user makes a call, you can change their outbound caller ID to display your organization's main phone number and company name instead of the user's phone number.
+Using a company's name for the calling party name is common. For example, when a Teams Phone user makes a call, you can change their outbound caller ID to display your organization's main phone number and company name instead of the user's phone number.
 
   - The calling party name can have a maximum of 200 characters, but downstream systems might support fewer characters.
   
   - The calling party name is sent on outbound Teams calls where the caller ID is configured with the user's phone number or resource account's phone number, and when the caller is a Teams user.
 
 > [!NOTE]
-> While Microsoft supports calling party name display for outbound calls, there is still a *dependency on PSTN operators to deliver the CNAM information to the called party*. For more information, see [More about Calling Line ID and Calling Party Name](more-about-calling-line-ID-and-calling-party-name.md).
+> While Microsoft supports calling party name display for outbound calls, there's still a *dependency on PSTN operators to deliver the CNAM information to the called party*. For more information, see [More about Calling Line ID and Calling Party Name](more-about-calling-line-ID-and-calling-party-name.md).
 
 ### End user control that overrides the caller ID policy
 
@@ -156,7 +156,7 @@ Settings for both inbound *and* outbound caller ID are configurable in the Teams
 |Block incoming caller ID|Off|This setting blocks a user from receiving caller ID on any incoming PSTN calls.|
 |Override the caller ID policy|Off|This setting allows users to override the settings in the policy that decide whether or not they display their number to the callee. By turning on this setting, users can choose whether to display their caller ID.</br></br>Your end users can set their caller ID to Anonymous by going to **Settings** > **Calls**, and then under **Caller ID**, select **Hide my phone number and profile information for all calls**. It takes a few minutes for this setting change to reflect on new calls.|
 |Calling Party Name|(empty)|This setting sends a CNAM on outbound PSTN calls.|
-|Replace the caller ID with|User's number|By default, the policy sends the user's telephone number for their caller ID.</br>This setting supports replacing a user's caller ID with another phone number.</br>**Anonymous** - This setting blocks the outgoing calling line ID and calling party name from being sent with a user's outgoing PSTN call and displays the caller id as coming from *Anonymous*.</br>**Resource Account** - This setting lets you choose a resource account's assigned number to use as the caller ID. You can set the calling ID number to any Calling Plan, Operator Connect, or Direct Routing phone number assigned to a resource account used by an Auto attendant or a Call queue.|
+|Replace the caller ID with|User's number|By default, the policy sends the user's telephone number for their caller ID.</br>This setting supports replacing a user's caller ID with another phone number. </br>**Anonymous** - This setting blocks the outgoing calling line ID and calling party name from being sent with a user's outgoing PSTN call and displays the caller id as coming from *Anonymous*.</br>**Resource Account** - This setting lets you choose a resource account's assigned number to use as the caller ID. You can set the calling ID number to any Calling Plan, Operator Connect, or Direct Routing phone number assigned to a resource account used by an Auto attendant or a Call queue.|
 
 With all caller ID settings turned off, the Teams user's phone number is visible when that user makes a call to the PSTN. Likewise, when a PSTN caller makes a call to a Teams user, the PSTN caller's phone number is visible.
 
@@ -188,7 +188,7 @@ For more information on each policy, see [configure caller ID policies](#configu
 
       - **Resource account:** Set a resource account associated with an Auto Attendant or Call Queue.
 
-        If you choose **Resource account**, you're prompted to specify a resource account for the next field, called **Replace the caller ID with this resource account**. Only resource accounts with an assigned phone number will be displayed. If you just assigned a phone number to the resource account, it might take a few minutes before the resource account is available for selection.
+        If you choose **Resource account**, you're prompted to specify a resource account for the next field, called **Replace the caller ID with this resource account**. Only resource accounts with an assigned phone number are displayed. If you just assigned a phone number to the resource account, it might take a few minutes before the resource account is available for selection.
 
 7. Select **Save**.
 

@@ -150,6 +150,11 @@ See [Create and manage dial plans](create-and-manage-dial-plans.md) to create yo
 
 If you want internal users who call a phone number that is assigned to a resource account, to bypass the Reverse Number Lookup logic and route the call externally through the PSTN instead of routing to the resource account, you can enable the **skip RNL** option for the phone number assignment using the **Set-CsPhoneNumberAssignment** PowerShell cmdlet with `-ReverseNumberLookup`. For more information, see [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) and [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment).
 
+Dial plans applied to Teams users for outbound translations behave different than dial plans applied to a service, for example, a trunk to or from a Session Border Controller.
+
+- The Teams client will normalize numbers that start with "+" and calls placed from call history.
+- The Teams service will not normalize numbers that start with "+".
+
 If you deploy Calling Plan, Operator Connect, or Teams Phone Mobile for your PSTN connectivity, your PSTN service provider manages most call routing. If you deploy Direct Routing for your PSTN connectivity, more steps are required to configure call routing.
 
 - For Direct Routing, you must configure call routing by specifying the voice routes and assigning voice routing policies to users. You can configure dial plans for number translation at the trunk level to ensure interoperability with Session Border Controllers (SBCs). For more information, see [Configure voice routing for Direct Routing](direct-routing-voice-routing.md), [Manage voice routing policies](manage-voice-routing-policies.md), and [Translate phone numbers](direct-routing-translate-numbers.md).

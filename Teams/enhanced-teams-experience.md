@@ -294,8 +294,8 @@ Teams Premium and Teams Phone provide access to Queues app, a Teams-native solut
   | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins |Documentation for end users |
   | -------------------- | ----------- | ----------- |----------- |
   |Call queue management|Yes, with [voice application policies](manage-voice-applications-policies.md) for Authorized users|[Manage the Queues app for Microsoft Teams](manage-queues-app.md)|[Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9)|
-  |Real-time metrics|Yes, with [voice application policies](manage-voice-applications-policies.md) for Authorized users|[Auto attendant and Call queue real-time reports](aa-cq-real-time-reports.md)|No end user control can view reports if authorized.|
-  |Historical reporting|Yes, with voice application policies for Authorized users|[Auto attendant and Call queue historical reports](aa-cq-cqd-historical-reports.md)|No end user control can view reports if authorized.|
+  |Real-time metrics|Yes, with [voice application policies](manage-voice-applications-policies.md) for Authorized users|[Auto attendant and Call queue real-time reports](aa-cq-real-time-reports.md)|No, end users can view reports if authorized.|
+  |Historical reporting|Yes, with voice application policies for Authorized users|[Auto attendant and Call queue historical reports](aa-cq-cqd-historical-reports.md)|No, end users can view reports if authorized.|
 
 Queues app is now generally available and is enabled by default for all Teams users in your organization who are assigned both a Teams Premium and Teams Phone license and who and are voice enabled.
 

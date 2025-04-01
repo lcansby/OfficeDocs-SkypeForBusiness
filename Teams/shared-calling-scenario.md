@@ -1,13 +1,14 @@
 ---
 title: "Shared Calling scenario"
 ms.reviewer: roykuntz, jastark
-ms.date: 02/28/2025
+ms.date: 04/01/2025
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-calling
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -91,7 +92,7 @@ Grant-CsTeamsSharedCallingRoutingPolicy -Identity $user -PolicyName Seattle
 
 ## Shared Calling Teams admin center example
 
-You can setup Shared Calling from the Teams admin center, similar to this scenario, by following these steps:
+You can set up Shared Calling from the Teams admin center, similar to this scenario, by following these steps:
 
 1. To enable Enterprise Voice for a user, go to **Users** > **Manage users** and select the licensed user you want to enable for Shared Calling. This user must have a Phone System license assigned to them. For this example, we use "user@contoso.com."
 1. Under the **Account** tab > **Assigned phone number**, turn **Enterprise Voice** to **On** and select **Save**.
@@ -99,7 +100,7 @@ You can setup Shared Calling from the Teams admin center, similar to this scenar
 1. To create an emergency call routing policy, go to **Voice** > **Emergency call routing policies** and select **Add**.
     1. Enter a name and description for the emergency call routing policy. For this example, we set the name to "TECRP-DR" and the description as "Emergency call routing policy for Direct Routing."
     1. Toggle **Dynamic emergency calling** to **On**.
-    1. Select **Add** and add the emergency numbers by including the Emergency dial string. For example, you can set an **Emergency dial string** to 911 and another to 933. Select **Save**. If your organization uses Direct Routing, you must add PSTN usages. If not, then no action is needed. For more information, see [Routing of emergency calls for Shared Calling](shared-calling-setup.md#routing-of-emergency-calls).
+    1. Select **Add** and add the emergency numbers by including the Emergency dial string. For example, you can set an **Emergency dial string** to 911 and another to 933. Select **Save**. If your organization uses Direct Routing, you must add Public Switched Telephone Network (PSTN) usages. If not, then no action is needed. For more information, see [Routing of emergency calls for Shared Calling](shared-calling-setup.md#routing-of-emergency-calls).
 1. To create a Shared Calling policy, go to **Voice** > **Shared calling policies** and select **Add**.
     1. Enter a unique name and description for the policy. For this example, we set the name to "Seattle" and the description as "Shared Calling policy for Seattle."
     1. For **Resource account**, select the resource account that you want to use for your Shared Calling policy.

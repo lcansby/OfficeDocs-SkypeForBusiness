@@ -27,7 +27,7 @@ ms.custom:
 description: "Learn normalization rules for Microsoft Teams user dial plans and trunk dial plans. "
 ---
 
-## Normalization rules
+# Normalization rules
 
 Normalization rules are the translation properties of a Teams dial plan and define how phone numbers expressed in various formats are to be translated. The same number string may be interpreted and translated differently, depending on the locale from which it is dialed. Normalization rules may be necessary if users need to be able to dial abbreviated internal or external numbers.
 

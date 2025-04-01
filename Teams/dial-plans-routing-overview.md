@@ -25,9 +25,17 @@ f1.keywords:
 description: "Learn about Microsoft Teams dial plans and how they help route phone calls."
 ---
 
-# Routing phone calls to users in Microsoft Teams
+# Planning Teams dial plans for Teams Phone
 
 **APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing
+
+This article is for IT Admins and IT Pros who are researching and planning to use Teams dial plans for routing Teams Phone calls.
+
+An overview of inbound and outbound call routing is provided for context in relation to how Teams translates numbers that are received so that they can be processed for routing to a person or to a PSTN resource.
+
+Understand the concepts in this article are a prerequisite for [creating Teams dial plans](create-and-manage-dial-plans.md) and [normalization rules](phone-normalization-rules.md).
+
+## Routing phone calls to users in Microsoft Teams
 
 Routing telephone calls in Teams Phone is accomplished by matching dialed number strings to resource objects assigned with the dialed number string.
 
@@ -49,7 +57,7 @@ If the user is assigned a phone number with an extension, +14255551212;ext=12345
 
 If the dialed number is not matched, either because the number isn't assigned to an account or the number dialed doesn't exactly match any number string assigned to an account, the call fails to route or is routed according to [unassigned number routing](routing-calls-to-unassigned-numbers.md), if configured.
 
-## Routing phone calls for Teams users
+## Routing dialed phone calls for Teams users
 
 Outbound telephone calls from Teams users are routed based on a series of assigned configuration items, including their assigned dial plan and their voice routing policy.
 
@@ -57,7 +65,7 @@ With Microsoft Calling Plans, Operator Connect, and Teams Phone Mobile, dial pla
 
 When using extension dialing or Direct Routing, Microsoft Teams provides admins with the ability to configure a set of rules that help the dialed digits resolve to a destination that Teams can find and route to. The feature that Teams uses to accomplish this is dial plans.
 
-# What are dial plans?
+## What are dial plans?
 
 A dial plan is a named set of digit-manipulation rules that translate a set of provided numbers into another format (or another set of numbers) that Teams uses to route the calls.
 

@@ -36,7 +36,7 @@ After you plan the dial plans for your organization and figured out all the norm
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Dial plans**.
 1. Select **Add**, and then enter a name and description for the dial plan.
-1. Under **Normalization rules**, configure and associate one or more [normalization rules](what-are-dial-plans.md#normalization-rules) for the dial plan. Each dial plan must have at least one normalization rule associated with it. To do this, do one or more of the following:
+1. Under **Normalization rules**, configure and associate one or more [normalization rules](phone-normalization-rules.md) for the dial plan. Each dial plan must have at least one normalization rule associated with it. To do this, do one or more of the following:
     - To create a new normalization rule and associate it with the dial plan, select **Add**, and then define the rule.
     - To edit a normalization rule that's already associated with the dial plan, select the rule by clicking to the left of the rule name, and then select **Edit**. Make the changes you want, and then select **Save**.
     - To remove a normalization rule from the dial plan, select the rule by clicking to the left of the rule name, and then select **Delete**.
@@ -219,7 +219,7 @@ Run these to add the existing on-premises dial plan named OPDP1 as a tenant dial
 
 ## Related articles
 
-- [What are dial plans?](what-are-dial-plans.md)
+- [Plan dial plans](dial-plans-routing-overview.md)
 - [Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
 - [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)

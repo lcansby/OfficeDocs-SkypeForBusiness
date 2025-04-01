@@ -1590,7 +1590,7 @@ items:
                     - name: IntelliFrame
                       items:
                       - name: Multi-Stream IntelliFrame
-                        href: devices/smartvision-admin.md
+                        href: devices/multistream-intelliframe.md
                       - name: Cloud IntelliFrame
                         href: devices/cloud-intelliframe.md
             - name: Teams panels
@@ -1782,6 +1782,8 @@ items:
                       href: rooms/pro-portal-settings.md
                     - name: Signal settings
                       href: rooms/signal-settings.md  
+                    - name: Signals availability
+                      href: rooms/signals.md
                     - name: Configure ServiceNow
                       href: rooms/microsoft-teams-rooms-configure-servicenow.md
                     - name: Viewing events

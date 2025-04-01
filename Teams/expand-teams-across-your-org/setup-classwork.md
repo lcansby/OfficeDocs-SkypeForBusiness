@@ -5,6 +5,7 @@ ms.author: heidip
 manager: jtremper
 ms.topic: install-set-up-deploy
 ms.service: msteams
+ms.subservice: teams-education
 audience: admin
 ms.collection: 
   - M365-collaboration

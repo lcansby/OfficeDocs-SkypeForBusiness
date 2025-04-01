@@ -67,6 +67,8 @@ When you are deploying extension dialing or Direct Routing, Microsoft Teams prov
 
 ## What are dial plans?
 
+Dial plans are number translator policies that help you get phone calls to their intended destinations, regardless of how they were dialed.
+
 A dial plan is a named set of digit-manipulation rules that translate a set of provided numbers into another format (or another set of numbers) that Teams uses to route the calls.
 
 The translation rules are optionally applied to phone numbers that:

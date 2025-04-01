@@ -29,7 +29,7 @@ description: "Learn about Microsoft Teams dial plans and how they help route pho
 
 **APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing
 
-Routing telephone calls in Teams Phone is accomplished by matching dialed number strings to resource objects that own the dialed number string.
+Routing telephone calls in Teams Phone is accomplished by matching dialed number strings to resource objects assigned with the dialed number string.
 
 Teams inbound phone calls are routed to users through a process called **Reverse Number Lookup (RNL)**. Reverse number lookup uses strict number string matching to find a user or resource account that matches the dialed number of an incoming PSTN call.
 
@@ -49,23 +49,24 @@ If the user is assigned a phone number with an extension, +14255551212;ext=12345
 
 If the dialed number is not matched, either because the number isn't assigned to an account or the number dialed doesn't exactly match any number string assigned to an account, the call fails to route or is routed according to [unassigned number routing](routing-calls-to-unassigned-numbers.md), if configured.
 
-## Routing phone calls for users
+## Routing phone calls for Teams users
 
-Outbound telephone calls from Teams users are routed based on their assigned on a series of configuration items, including their assigned dial plan and their voice routing policy.
+Outbound telephone calls from Teams users are routed based on a series of assigned configuration items, including their assigned dial plan and their voice routing policy.
 
-With Microsoft Calling Plans, Operator Connect, and Teams Phone Mobile, dial plans and voice routing policies are 
+With Microsoft Calling Plans, Operator Connect, and Teams Phone Mobile, dial plans and voice routing policies are preconfigured and administration for dial plans and voice routing policies isn't generally necessary for most users when users are instructed to place calls by dialing as they normally would for any call in their country or region.
 
+When using extension dialing or Direct Routing, Microsoft Teams provides admins with the ability to configure a set of rules that help the dialed digits resolve to a destination that Teams can find and route to. The feature that Teams uses to accomplish this are dial plans.
 
 # What are dial plans?
 
-A dial plan is a named set of digit manipulation rules that translate phone numbers.
+A dial plan is a named set of digit manipulation rules that translate a set of provided numbers to another set of numbers that Teams can use to route a call.
 
 The translation rules are optionally applied to phone numbers that:
 
 - An individual user dials
 - Are sent across PSTN connections ('trunks') between your tenant and PSTN routing integrations.
 
-Teams dial plans change numbers in various formats into an alternate format (typically E.164) for purposes of call authorization and voice routing.
+Teams dial plans change numbers from various input formats into alternate formats (typically E.164) for purposes of call authorization and voice routing.
 
 A dial plan consists of one or more rules that normalize how phone numbers expressed in various formats are translated to an alternate format. The rules within a dial plan are known as **normalization rules**.
 

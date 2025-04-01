@@ -3,11 +3,12 @@ title: Create and manage meeting themes for Teams meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.date: 3/18/2025
+ms.date: 3/28/2025
 ms.reviewer: margidesai
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: meetings
 audience: Admin
 ms.collection: 
   - M365-collaboration
@@ -89,7 +90,7 @@ We recommend using images with the dimensions of 1,440 x 810 pixels. The custom 
 
 ## Create or manage meeting themes in the Teams admin center
 
-All Teams Premium licensed users are automatically assigned the global default policy. Any custom customization policies you create override the global default.
+All Teams Premium licensed users are automatically assigned the global default policy. Any custom customization policies you create override the global default. You can upload a maximum of five themes to each policy. Adding multiple themes to each policy gives your organizers more options, allowing them to select the right branding for different meetings.
 
 To create or manage meeting themes, follow these steps:
 
@@ -107,34 +108,12 @@ To create or manage meeting themes, follow these steps:
 8. Select the **Preview** button to see how your theme looks on desktop.
 9. Select **Apply**.
 10. In the **Custom meeting visuals** table, on your theme's row, toggle the **Currently Active** setting to **Yes**.
-11. Select **Save**.
-12. Assign the customization policy to specific users or groups.
+11. Repeat steps 6-10 to add up to five more themes to the policy.
+12. Select **Save**.
+13. Assign the customization policy to specific users or groups.
 
 > [!NOTE]
 > Although you can access custom meeting visuals from the meeting policies page, we recommend accessing it through customization policies to avoid navigating through global organizational default policies.
-
-## Add multiple meeting themes to a policy (Public Preview)
-
-Adding multiple themes to each policy gives your organizers more options, allowing them to select the appropriate branding for different meetings. You can upload a maximum of 5 themes to each policy.
-
-To add multiple meeting themes to a policy, follow these steps:
-
-1. Open the Teams admin center.
-2. Expand **Meetings** from the navigation pane.
-3. Under **Meetings**, select **Customization policies**
-4. Select an existing policy.
-5. Within your chosen policy, navigate to the **Customize meeting visuals** section.
-6. Select the **Add new meeting theme theme** button to create extra themes. You should give each theme a descriptive name.
-7. In the **Meeting themes** pane, upload your images and create your custom color. You can also select logos and images you previously uploaded.
-
-      - **Logo**: Select the **Upload logo** buttons to upload a light and dark version of your logo. These square logos appear on key surfaces during your meeting, including the lobby screen.
-      - **Images**: Select the **Upload image** buttons to upload a light and dark version of your custom image. Your organization's images are shown on the meetings screen and provide a colorful backdrop.
-      - **Color**: Enter the hex code value of your organization's color, which displays on key surfaces of the meeting experience. To meet accessibility standards, the final color might differ from the color you enter.
-8. Select the **Preview** button to see how your theme looks on desktop.
-9. Select **Apply**.
-10. In the **Custom meeting visuals** table, on your theme's row, toggle the **Currently Active** setting to **Yes**.
-11. Repeat steps 6-10 to add more themes to the policy.
-12. Select **Save**.
 
 ## Allow organizers to turn off meeting themes for a meeting
 

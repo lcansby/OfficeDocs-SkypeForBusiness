@@ -104,6 +104,12 @@ The user's outbound *caller ID policy* can be configured to send one of the foll
 > [!IMPORTANT]
 > Emergency calls always send the ***user's*** **Calling line ID** to a public-safety answering point (PSAP). For more information on emergency calls, see [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
+Outbound caller ID when calling on behalf of another account will send the caller ID settings configured for that account. Examples of calling on behalf of another account include the following.
+
+- Calling on behalf of a delegator
+- Calling on behalf of a Call Queue
+- Shared calling
+
 You can't assign the following types of phone numbers for the outbound caller ID:
 
 - Any Calling Plan or Operator Connect phone numbers in your inventory where the usage type is classified as **User**.

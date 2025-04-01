@@ -29,16 +29,18 @@ description: "Learn normalization rules for Microsoft Teams user dial plans and 
 
 # Normalization rules
 
-Normalization rules are the translation properties of a Teams dial plan and define how phone numbers expressed in various formats are to be translated. The same number string may be interpreted and translated differently, depending on the locale from which it is dialed. Normalization rules may be necessary if users need to be able to dial abbreviated internal or external numbers.
+Normalization rules are the translation properties of a Teams dial plan and define how phone numbers expressed in various formats are to be translated. The same number string may be interpreted and translated differently, depending on the locale from which it's dialed. Normalization rules may be necessary if users need to be able to dial abbreviated internal or external numbers.
 
-One or more normalization rules must be assigned to the dial plan. Normalization rules are matched from top to bottom, so the order in which they appear in a tenant dial plan is important. For example, if a tenant dial plan has 10 normalization rules, the dialed number matching logic will be tried starting with the first normalization rule, if there isn't a match then the second, and so forth. If a match is made, that rule is used and there is no effort to match any other rules that are defined. 
+One or more normalization rules must be assigned to the dial plan. Normalization rules are matched from top to bottom, so the order in which they appear in a tenant dial plan is important. For example, if a tenant dial plan has 10 normalization rules, the dialed number matching logic is tried starting with the first normalization rule. If there isn't a match with the first rule, then a match will be attempted with the second rule, and so forth. If a match is made, that rule is used and there's no effort to match any other rules that are defined.
 
 > [!NOTE]
 > Microsoft now enforces the rule that there can be no more than 50 normalization rules in a given dial plan.
 
 ### Determining the required normalization rules
 
-Because any tenant dial plan is effectively merged with a given user's service country/region dial plan, it is likely that the service country/region dial plan's normalization rules need to be evaluated in order to determine which tenant dial plan normalization rules are needed. The **Get-CsEffectiveTenantDialPlan** cmdlet can be used for this purpose. The cmdlet takes the user's identity as the input parameter and will return all normalization rules that are applicable to the user.
+Because a tenant dial plan is merged with a given user's service country/region dial plan, it's likely that the service country/region dial plan's normalization rules need to be evaluated. The evaluation determines which tenant dial plan normalization rules are needed.
+
+The **Get-CsEffectiveTenantDialPlan** cmdlet can be used for this purpose. The cmdlet takes the user's identity as the input parameter and returns all normalization rules that are applicable to the user.
 
 ### Creating normalization rules
 
@@ -53,12 +55,12 @@ See [Create and manage dial plans](create-and-manage-dial-plans.md) to create an
 > [!NOTE]
 > Normalization rules with the first token as optional are currently not supported on 3pip devices (for example, Polycom VVX 601 model). If you want to apply normalization rules with optionality on 3pip devices, you should create two normalization rules instead of one. For example, the rule ^0?(999)$ should be replaced by the following two rules: (999)$ (Translation:$1) and ^0(999)$ (Translation:$1).
 >
-> Please validate all regular expressions used in dial plan normalization rules as invalid expressions may result in client or service issues. 
+> Validate all regular expressions used in dial plan normalization rules as invalid expressions may result in client or service issues. 
 
 
 ### Sample normalization rules
 
-The following table shows sample normalization rules that are written as .NET Framework regular expressions. The samples are examples only and are not meant to be a prescriptive reference for creating your own normalization rules.
+The following table shows sample normalization rules that are written as .NET Framework regular expressions. The samples are examples only and aren't meant to be a prescriptive reference for creating your own normalization rules.
 
 <a name="regularexpression"> </a>
 **Normalization rules using .NET Framework regular expressions**

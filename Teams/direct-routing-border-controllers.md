@@ -92,12 +92,12 @@ We're not accepting new nominations for certification until further notice.
 |[Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|Avaya Session Border Controller for Enterprise (ASBCE)|&#10004;|&#10004;|Release 8.1.1 or higher (8.1.2 or higher for Media Bypass)|&#10004;|&#10004;|
 |[Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|Nokia Session Border Controller|&#10004;|&#10004;|24.7|&#10004;||
 |[Italtel](https://www.italtel.com/italtels-sbc-obtains-microsoft-teams-direct-routing-certification/)|NetMatch-S CI|&#10004;|&#10004;|Supported 5.8 (Recommended the latest version)|&#10004;|&#10004;|
-|[Ericsson](https://www.ericsson.com/en/portfolio/cloud-software-and-services/cloud-communication/enterprise-communication/business-communication-applications-and-enablers/sip-trunking)|vSBC 2.16|&#10004;|||||
+|[Ericsson](https://www.ericsson.com/portfolio/cloud-software-and-services/cloud-core/communication-services-udm-and-exposure/communication-services--udm/cloud-ims/enterprise-communication/sip-trunking)|vSBC 2.16|&#10004;|||||
 |[Cataleya](https://cataleya.com/cataleya-launches-orchid-cloud-revolutionary-cloud-based-wholesale-voice-business-platform/)|Orchid Link|&#10004;||3.1|||
 |[ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|Teams SBC|&#10004;|&#10004;|1.6|||
 |[Mitel](https://unify.com/en/solutions/voice-platforms/session-border-controller)|Unify OpenScape Session Border Controller|&#10004;|&#10004;|V10R2.2.0 or higher|||
 |[Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|vmVSXi|&#10004;|&#10004;|10.5.1.354-vm-S-x64|&#10004;||
-|[Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|Dialogic BorderNet SBC|&#10004;|&#10004;|3.9.x|||
+|[Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/dialogic-session-border-controller/)|Dialogic BorderNet SBC|&#10004;|&#10004;|3.9.x|||
 |[Patton Electronics Co.](https://www.patton.com/microsoft/)|Patton SmartNode eSBC|&#10004;||3.19.x|||
 |[M5 Technologies (previously known as Media5 Corporation)](https://www.m5t.com/pages/sentinel-400-sbc-_-2023_0-2023-06-16)|Mediatrix Sentinel Series|&#10004;||DGW 48.0.2340 (Recommended DGW 48.1.2503)|||
 |[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller (ONeSBC)|&#10004;|&#10004;|Supported 6.9.x (Recommended 6.10.x)|||
@@ -159,7 +159,7 @@ The following table describes which SBC vendors support [Local Media Optimizatio
 ||AP 4900|9.x|
 |[Avaya](https://documentation.avaya.com/en-US/bundle/WorkingWithAvayaSBCEandMicrosoftTeams_r81x/page/About_Avaya_SBCE_and_MS_Teams.html)|Avaya Session Border Controller for Enterprise (ASBCE)|10.1.2 or higher|
 |[Italtel](https://www.italtel.com/italtels-sbc-obtains-microsoft-teams-direct-routing-certification/)|NetMatch-S CI|5.7 or higher SW version|
-|[Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|Enghouse BorderNet|3.9.2-XY or higher SW version|
+|[Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/)|Enghouse BorderNet|3.9.2-XY or higher SW version|
 
 ## Direct Routing and analog devices interoperability
 

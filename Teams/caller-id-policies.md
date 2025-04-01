@@ -59,7 +59,7 @@ The hierarchy for which source provides the presented caller ID to an end user i
 
 PSTN service providers do their best to block instances of robocalls, phone scams, and unwanted calls (collectively known as spam calls).
 
-Not all spam calls are blocked by the service providers; some maange to get through.
+Not all spam calls are blocked by the service providers; some maanage to get through.
 
 In the event that Teams detects a call is possibly spam, it will send the caller ID as "*Spam likely*".
 
@@ -80,6 +80,8 @@ For more information, see [configure caller ID policies](#configure-caller-id-po
 To block inbound PSTN calls at a tenant level, see [Block inbound calls](block-inbound-calls.md).
 
 To block inbound PSTN calls for an end-user, see [Manage your call settings in Microsoft Teams](https://support.microsoft.com/office/manage-your-call-settings-in-microsoft-teams-456cb611-3477-496f-b31a-6ab752a7595f).
+
+- Teams will only check numbers for blocking (at tenant and user level) that are in E.164 standard format</br>(they must start with a "+")
 
 ## Outbound caller ID behavior
 

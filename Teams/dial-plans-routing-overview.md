@@ -53,13 +53,13 @@ If the dialed number is not matched, either because the number isn't assigned to
 
 Outbound telephone calls from Teams users are routed based on a series of assigned configuration items, including their assigned dial plan and their voice routing policy.
 
-With Microsoft Calling Plans, Operator Connect, and Teams Phone Mobile, dial plans and voice routing policies are preconfigured and administration for dial plans and voice routing policies isn't generally necessary for most users when users are instructed to place calls by dialing as they normally would for any call in their country or region.
+With Microsoft Calling Plans, Operator Connect, and Teams Phone Mobile, dial plans and voice routing policies are preconfigured and administration for dial plans and voice routing policies isn't generally necessary, if the users are instructed to place calls by dialing as they normally would for any call in their country or region.
 
-When using extension dialing or Direct Routing, Microsoft Teams provides admins with the ability to configure a set of rules that help the dialed digits resolve to a destination that Teams can find and route to. The feature that Teams uses to accomplish this are dial plans.
+When using extension dialing or Direct Routing, Microsoft Teams provides admins with the ability to configure a set of rules that help the dialed digits resolve to a destination that Teams can find and route to. The feature that Teams uses to accomplish this is dial plans.
 
 # What are dial plans?
 
-A dial plan is a named set of digit manipulation rules that translate a set of provided numbers to another set of numbers that Teams can use to route a call.
+A dial plan is a named set of digit-manipulation rules that translate a set of provided numbers into another format (or another set of numbers) that Teams uses to route the calls.
 
 The translation rules are optionally applied to phone numbers that:
 
@@ -68,13 +68,11 @@ The translation rules are optionally applied to phone numbers that:
 
 Teams dial plans change numbers from various input formats into alternate formats (typically E.164) for purposes of call authorization and voice routing.
 
-A dial plan consists of one or more rules that normalize how phone numbers expressed in various formats are translated to an alternate format. The rules within a dial plan are known as **normalization rules**.
+A dial plan consists of one or more rules that normalize how phone numbers expressed in various formats are translated to an alternate format. The rules within a dial plan are known as [**normalization rules**](phone-normalization-rules.md).
 
-A string of dialed digits in one dial plan can be translated differently than how they are translated in another dial plan, so depending on which dial plan is assigned to a given user or trunk, a dialed number may be translated and routed differently.
+A normalization rule in one dial plan can be translated differently than how it's translated in another dial plan, so depending on which dial plan is assigned to a given user or trunk, a dialed number may be translated and routed differently.
 
 There can be a maximum of 1,000 tenant dial plans.
-
-See [Create and manage dial plans](create-and-manage-dial-plans.md) to create and manage tenant dial plans.
 
 ## Dial plan scopes
 
@@ -99,8 +97,6 @@ The following are the possible effective dial plans:
  **Tenant Global - Service Country** -- If a tenant user dial plan is defined but not assigned to a user, the provisioned user will receive an effective dial plan consisting of a merged tenant dial plan and the service country/region dial plan associated with their usage location.
 
  **Tenant User - Service Country** -- If a tenant user dial plan is defined and assigned to a user, the provisioned user will receive an effective dial plan consisting of the merged tenant user dial plan and the service country/region dial plan associated with their usage location.
-
-See [Create and manage dial plans](create-and-manage-dial-plans.md) to create your tenant dial plans.
 
 > [!NOTE]
 > In the scenario where no dial plan normalization rules apply to a dialed number, the dialed string is still normalized to prepend "+CC" where CC is the country/region code of the dialing user's usage location. This applies to Calling Plans, Direct Routing and PSTN Conference dial-out scenarios. Additionally, if a tenant dial plan normalization rule results in a number that does not start with "+", the calling service will attempt to normalize the number received from the Teams client based on the tenant dial plan, and if not matched, on the region dial plan. To avoid double normalization, it's recommended that Direct Routing customers normalize numbers to include a + and then remove the + using Trunk Translation rules. 

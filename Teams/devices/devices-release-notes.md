@@ -33,6 +33,12 @@ To view feature updates for Microsoft Teams Rooms, go to:
 
 ## [Teams panels](#tab/panels)
 
+## April 2025
+
+**Applies to:** *Teams app version: 1449/1.0.97.2025031901*
+
+- AOSP resiliency fixes. 
+
 ## March 2025
 
 **Applies to:** *Teams app version: 1449/1.0.97.2025021101*
@@ -231,7 +237,7 @@ To add a mobile system OS scanner:
 - You can now pin apps of your choice to your home screen using settings named “Home screen”.  This is only available for touch phones.
 
    ![Screenshot of adding line keys.](media/phones-release-notes-2.png)
-
+  
 App also includes multiple bug fixes and improvements. Bug fixes impacting user experience are:
 
 - With this release, you will be able to resume held calls using a single entry.

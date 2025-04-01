@@ -17,9 +17,6 @@ appliesto: Microsoft Teams
 
 # User location consent experience in Microsoft Teams
 
-> [!NOTE]
-> The information in this article is for a preview program that's not available to everyone. The information in this article is subject to change.
-
 Microsoft is updating its policies regarding the sharing of user location data to enhance privacy, improve data security, and ensure compliance with evolving regulatory standards.
 
 To enhance transparency and user control, Teams is introducing a new location consent experience. This location consent experience gives users the choice of when and how Teams can use their location data (specifically [SSID & BSSID](/windows/win32/nativewifi/wi-fi-access-location-changes)).

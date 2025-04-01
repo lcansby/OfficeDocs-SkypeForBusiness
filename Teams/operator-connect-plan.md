@@ -3,7 +3,7 @@ title: Plan for Operator Connect
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.date: 03/25/2024
+ms.date: 04/01/2025
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -12,7 +12,7 @@ ms.collection:
   - m365initiative-voice
   - highpri
   - Tier1
-ms.reviewer: scottfrancis
+ms.reviewer: hranapour
 search.appverid: MET150
 f1.keywords:
 - NOCSH

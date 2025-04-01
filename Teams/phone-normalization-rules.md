@@ -31,7 +31,7 @@ description: "Learn normalization rules for Microsoft Teams user dial plans and 
 
 Normalization rules are the translation properties of a Teams dial plan and define how phone numbers expressed in various formats are to be translated. The same number string may be interpreted and translated differently, depending on the locale from which it's dialed. Normalization rules may be necessary if users need to be able to dial abbreviated internal or external numbers.
 
-One or more normalization rules must be assigned to the dial plan. Normalization rules are matched from top to bottom, so the order in which they appear in a tenant dial plan is important. For example, if a tenant dial plan has 10 normalization rules, the dialed number matching logic is tried starting with the first normalization rule. If there isn't a match with the first rule, then a match will be attempted with the second rule, and so forth. If a match is made, that rule is used and there's no effort to match any other rules that are defined.
+One or more normalization rules must be assigned to the dial plan. Normalization rules are matched from top to bottom, so the order in which they appear in a tenant dial plan is important. For example, if a tenant dial plan has 10 normalization rules, the dialed number matching logic is tried starting with the first normalization rule. If there isn't a match with the first rule, then a match is attempted with the second rule, and so forth. If a match is made, that rule is used and there's no effort to match any other rules that are defined.
 
 > [!NOTE]
 > Microsoft now enforces the rule that there can be no more than 50 normalization rules in a given dial plan.
@@ -76,7 +76,7 @@ The following table shows sample normalization rules that are written as .NET Fr
 |PrefixAdded  <br/> |Adds a country prefix in front of a 9 digit number with restrictions on the first and third digits.  <br/> |^([2-9]\\d\\d[2-9]\\d{6})$  <br/> |1$1  <br/> |4255554567 is translated to 14255554567  <br/> |
 |NoTranslation  <br/> |Match 5 digits but no translation.  <br/> |^(\\d{5})$  <br/> |$1  <br/> |34567 is translated to 34567  <br/> |
 
- **Redmond dial plan based on normalization rules shown above.**
+ **Redmond dial plan based on normalization rules shown in previous table.**
  
  The following table illustrates a sample dial plan for Redmond, Washington, United States, based on the normalization rules shown in the previous table.
 
@@ -88,7 +88,7 @@ The following table shows sample normalization rules that are written as .NET Fr
 | RedmondOperator <br/> |
 
 > [!NOTE]
-> The normalization rules names shown in the preceding table don't include spaces, but this is a matter of choice. The first name in the table, for example, could have been written "5 digit extension" or "5-digit Extension" and still be valid.
+> The normalization rules names shown in the preceding table don't include spaces, but using spaces is a matter of choice. The first name in the table, for example, could be written "5 digit extension" or "5-digit Extension" and still be valid.
 
 ## Related topics
 

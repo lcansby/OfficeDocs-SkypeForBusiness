@@ -72,7 +72,7 @@ You can also use PowerShell to manage voicemail settings as follows:
 
 ## Voicemail settings
 
-- **Voicemail  ** - This setting controls whether Cloud Voicemail is enabled for the user. If the setting is false, Cloud Voicemail service isn't available for the user, and a voicemail isn't recorded for the user.
+- **Voicemail** - This setting controls whether Cloud Voicemail is enabled for the user. If the setting is false, Cloud Voicemail service isn't available for the user, and a voicemail isn't recorded for the user.
 - **Prompt language** - This setting specifies the language used for the prompts in the Cloud Voicemail. For more information, see [Change the default language for greetings and emails](change-the-default-language-for-greetings-and-emails.md).
 - **Call answering mode** - This setting specifies the call answering rule. The rule can be:
   - *Caller can leave a voicemail* - The relevant greeting (normal or out-of-office) is played and the caller can leave a voicemail.

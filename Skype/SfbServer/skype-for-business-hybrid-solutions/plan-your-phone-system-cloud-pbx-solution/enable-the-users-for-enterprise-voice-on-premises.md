@@ -1,8 +1,8 @@
 ---
 title: "Enable the users for Enterprise Voice on premises"
 ms.reviewer: 
-ms.author: crowe
-author: CarolynRowe
+ms.author: MicrosoftHeidi
+author: heidip
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro

@@ -74,6 +74,9 @@ To manage meeting transcription using PowerShell, use the **`-AllowTranscription
 
 ### Webinars
 
+> [!NOTE]
+> This feature is currently in Public preview.
+
 You must use PowerShell to manage who can transcribe webinars. This policy controls whether users can start transcripts when attending webinars and whether webinars they organize can be transcribed. The default value for the **`-TranscriptionForWebinar`** parameter is *true*.
 
 Use the following script to allow users with this policy to transcribe webinars. When these users organize webinars, they can be transcribed:
@@ -89,6 +92,9 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -TranscriptionForWebinar $false
 ```
 
 ### Town halls
+
+> [!NOTE]
+> This feature is currently in Public preview.
 
 You must use PowerShell to manage who can transcribe town halls. This policy controls whether users can start transcripts when attending town halls and whether town halls they organize can be transcribed. The default value for the **`-TranscriptionForTownhall`** parameter is *true*.
 

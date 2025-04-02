@@ -38,7 +38,7 @@ Teams Rooms Pro Management has its own role-based access control, which helps yo
 
 See [Role Base access control in Teams Rooms Pro management portal](/microsoftteams/rooms/rooms-pro-rbac).
 
-- **Requires tenant level opt-in to enable the feature** By default, remote access isn't enabled for your tenant. It must be turned on using assign role-based permissions. You need put in the email address that provides an acknowledgement you're explicitly enabling this feature. Providing this acknowledgement creates an audit log record so someone can be held accountable. The Microsoft Teams Rooms Pro Management Remote access feature follows [Microsoft privacy](https://privacy.microsoft.com/) policies.
+- **Requires tenant level opt-in to enable the feature** By default, remote access isn't enabled for your tenant. It must be turned on using assign role-based permissions. You need put in the email address that provides an acknowledgment you're explicitly enabling this feature. Providing this acknowledgment creates an audit log record so someone can be held accountable. The Microsoft Teams Rooms Pro Management Remote access feature follows [Microsoft privacy](https://privacy.microsoft.com/) policies.
 
 > [!Note]
 > Before you enable and set up remote access, consider your privacy and compliance requirements.

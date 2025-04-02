@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: jtremper
 ms.reviewer: sophiapeng
-ms.date: 03/19/2025
+ms.date: 04/02/2025
 ms.topic: overview
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -58,7 +58,7 @@ Microsoft Teams includes some AI features that don’t require any extra license
 
 | Feature | Admin articles | End-user articles |
 | ------- | -------------- | ----------------- |
-| Microsoft Copilot Chat app | [Overview of Microsoft 365 Copilot Chat](/copilot/overview) | [Microsoft Copilot Chat](https://support.microsoft.com/copilot-microsoft365-chat) |
+| Microsoft Copilot Chat app | [Overview of Microsoft Copilot Chat](/copilot/overview) | [Microsoft Copilot Chat](https://support.microsoft.com/copilot-microsoft365-chat) |
 | Suggested replies | None | [Use suggested replies to respond to messages](https://support.microsoft.com/office/use-suggested-replies-to-respond-to-messages-without-typing-in-microsoft-teams-010c54e1-a613-4771-94ed-76d7fb77cba5) |
 | Facial recognition | [Create Recognition profiles for Microsoft IntelliFrame](rooms/voice-recognition.md) | [Create Recognition profiles for Microsoft IntelliFrame](https://support.microsoft.com/office/create-recognition-profiles-for-microsoft-intelliframe-f0084478-52a7-4c52-bcdc-9063ed0e0bc0) |
 | Voice isolation for calls and meetings | [Manage voice isolation for your users' Microsoft Teams calls and meetings](voice-isolation.md) | [Voice isolation in Microsoft Teams calls and meetings](https://support.microsoft.com/office/voice-isolation-in-microsoft-teams-calls-and-meetings-a9756ea9-4cec-44c4-aefb-6f5d17c89427) <br> <br> [Reduce background noise in Microsoft Teams meetings](https://support.microsoft.com/office/reduce-background-noise-in-microsoft-teams-meetings-1a9c6819-137d-4b3b-a1c8-4ab20b234c0d)|
@@ -73,7 +73,7 @@ Microsoft Teams includes some AI features that don’t require any extra license
 > - *Microsoft 365 Copilot*
 
 > [!IMPORTANT]
-> All prompts, files, and responses using Microsoft 365 Copilot, including the Microsoft Copilot Chat app and the Microsoft 365 Copilot app, never leave your organization’s Microsoft 365 service boundary. This includes prompts and responses that access public web data. Your data is always secured and private within your service boundary.
+> All prompts, files, and responses using Microsoft Copilot, including the Microsoft Copilot Chat app and the Microsoft 365 Copilot app, never leave your organization’s Microsoft 365 service boundary. This includes prompts and responses that access public web data. Your data is always secured and private within your service boundary.
 >
 > Microsoft 365 Copilot and Microsoft 365 Copilot Chat are ISO/IEC 42001:2023 certified to further ensure to you that we develop, deploy, and use AI systems responsibly. For more information, see [Microsoft 365 Copilot Achieves ISO/IEC 42001:2023 Certification](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/microsoft-365-copilot-achieves-isoiec-420012023-certification/4397144).
 

@@ -43,7 +43,7 @@ Teams references your organization's Outlook and Entra ID contacts and your end-
 - Only "*Mobile phone*" and "*Work (Business) phone*" contact fields are searched
 - Teams looks up and matches with contact numbers that are in E.164 standard format</br>(they must start with a "+")
 
-If there *is* a match between the calling line ID and a contact, Teams substitutes the PSTN caller ID info with the matched contact's name. If there isn't a match, then the caller ID diplays what's provided by the PSTN call.
+If there *is* a match between the calling line ID and a contact, Teams substitutes the PSTN caller ID info with the matched contact's name. If there isn't a match, then the caller ID displays what's provided by the PSTN call.
 
 The hierarchy for which source provides the presented caller ID to an end user is as follows, in order:
 

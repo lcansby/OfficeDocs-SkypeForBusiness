@@ -99,7 +99,7 @@ Teams supports the following languages for voicemail greetings and messages. The
 
 [Set up Cloud Voicemail](set-up-phone-system-voicemail.md)
 
-[Manage Cloud Voicemail policies for your users](manage-cloud-voicemail-policies.md)
+[Manage Cloud Voicemail policies for your users](manage-voicemail-policies.md)
 
 [Manage Cloud Voicemail settings for users](manage-voicemail-settings.md)
 

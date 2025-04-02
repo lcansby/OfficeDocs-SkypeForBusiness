@@ -84,6 +84,8 @@ Here's how it works:
 3. **Privacy-first design**- The system samples brief segments of the speaker’s voice to simulate their tone, style, and voice characteristics in real-time, without storing biometric data. It preserves the speaker's natural tone, pitch, and style, without exaggerating emotions.
 4. **Voice simulation**- AI generates a simulated voice in the selected language for seamless end-to-end translation.
 
+:::image type="content" source="media/interpreter-agent-diagram-small.png" alt-text="Architecture diagram of language media processing to ACS speech ." lightbox="media/interpreter-agent-diagram-expand.png":::
+
 ## Manage Interpreter agent using PowerShell
 
 You must use PowerShell to manage Interpreter agent for your entire organization.

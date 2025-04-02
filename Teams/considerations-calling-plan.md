@@ -76,7 +76,7 @@ EDB - Emergency DataBase<br>
 LAC - Location Area Code<br>
 PSAP - Public Safety Answering Point<br>
 
-| Country  | How emergency calling works | 
+| Country/Region  | How emergency calling works | 
 | -------------------- | ----------- | 
 | Australia | Emergency addresses are configured and routed by the carrier partner.  | 
 | Austria | All outbound calls to Emergency Services are routed to the correct PSAP based on the LAC/first digits of the caller’s number. In Austria, there is no national EDB. The PSAPs will contact the operator in case they are not able to get the address from the caller.| 

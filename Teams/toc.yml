@@ -384,6 +384,8 @@ items:
       items:
         - name: Set up Facilitator for AI notes
           href: facilitator-teams.md
+        - name: Facilitator in Teams Rooms
+          href: rooms/facilitator-teams-rooms.md
 
 - name: Teams Premium
   items:
@@ -948,6 +950,8 @@ items:
               href: teams-encoder-setup.md
         - name: Recording & transcription
           items:
+            - name: Overview- Recording and transcription for Teams meetings, events, and calls
+              href: recording-transcription-overview.md
             - name: Manage Teams recording policies for meetings and events
               href: meeting-recording.md
             - name: Configure transcription and captions for Teams meetings
@@ -1573,6 +1577,8 @@ items:
                       href: rooms/multicamera-view.md
                     - name: Coordinated meetings                    
                       href: rooms/coordinated-meetings.md
+                    - name: Faciliator in Teams Rooms
+                      href: rooms/facilitator-teams-rooms.md                      
                     - name: Whiteboard in Teams Rooms
                       href: rooms/whiteboard-rooms.md
                     - name: Intelligent speaker
@@ -1584,7 +1590,7 @@ items:
                     - name: IntelliFrame
                       items:
                       - name: Multi-Stream IntelliFrame
-                        href: devices/smartvision-admin.md
+                        href: devices/multistream-intelliframe.md
                       - name: Cloud IntelliFrame
                         href: devices/cloud-intelliframe.md
             - name: Teams panels
@@ -1774,6 +1780,8 @@ items:
                       href: rooms/pro-portal-settings.md
                     - name: Signal settings
                       href: rooms/signal-settings.md  
+                    - name: Signals availability
+                      href: rooms/signals.md
                     - name: Configure ServiceNow
                       href: rooms/microsoft-teams-rooms-configure-servicenow.md
                     - name: Viewing events

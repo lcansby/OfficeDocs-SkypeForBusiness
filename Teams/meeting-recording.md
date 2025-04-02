@@ -79,6 +79,9 @@ To manage meeting recording using PowerShell, use the **`-AllowCloudRecording`**
 
 ### Webinars
 
+> [!NOTE]
+> This feature is currently in Public preview.
+
 You must use PowerShell to manage who can control webinars. This policy controls whether users can start recordings when attending webinars and whether webinars they organize can be recorded. The default value for the **`-RecordingForWebinar`** parameter is *EnabledOrganizerOverride*.
 
 Use the following script to allow users with this policy to record webinars. When these users organize webinars, the **Record and transcribe automatically** option **On** by default, but organizers can turn it off:
@@ -100,6 +103,9 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -RecordingForWebinar Disabled
 ```
 
 ### Town halls
+
+> [!NOTE]
+> This feature is currently in Public preview.
 
 You must use PowerShell to manage who can control town halls. This policy controls whether users can start recordings when attending town halls and whether town halls they organize can be recorded. The default value for the **`-RecordingForTownhall`** parameter is *UserOverride*.
 

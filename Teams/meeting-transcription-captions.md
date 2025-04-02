@@ -45,7 +45,7 @@ For details on how your organizers can create human-generated captions, see [Use
 
 ## Live transcription
 
-Transcription is both a per-organizer and per-user policy setting. For meetings and events to include transcripts, the organizer must have this setting turned on. The user who starts the recording or transcript must also have this setting turned on.
+Transcription is both a per-organizer and per-user policy setting. For meetings, webinars, and town halls to include transcripts, the organizer must have this setting turned on. The user who starts the recording or transcript must also have this setting turned on.
 
 When live transcription is turned on, users have a real-time written copy of the meeting's conversation. After the meeting, users can find the searchable transcription stored with the meeting recording. If transcription was turned on for the recording, Stream plays the video with the transcript next to the recording, and shows who is speaking and when as the video plays.
 
@@ -56,9 +56,11 @@ The transcription link remains for the lifetime of the file in most cases, but c
 > [!NOTE]
 > Transcription for recorded meetings is currently only supported for English (US), English (Canada), English (India), English (UK), English (Australia), English (New Zealand), Arabic (United Arab Emirates), Arabic (Saudi Arabia), Chinese (Simplified, China), Chinese (Traditional, Hong Kong SAR), Chinese (Traditional, Taiwan), Czech (Czechia), Danish (Denmark), Dutch (Belgium), Dutch (Netherlands), French (Canada), French (France), Finnish (Finland), German (Germany), German (Switzerland), Greek (Greece), Hebrew (Israel), Hindi (India), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea), Norwegian (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Slovak (Slovakia), Spanish (Mexico), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye), Ukrainian (Ukraine), Vietnamese (Vietnam), Welsh(United Kingdom).
 
-### Use the Teams admin center to manage transcription
+### Meetings
 
-To allow or prevent meeting transcription, follow these steps:
+You can use the Teams admin center or PowerShell to manage transcription for meetings.
+
+To allow or prevent meeting transcription using the Teams admin center, follow these steps:
 
 1. In the Microsoft Teams admin center, expand **Meetings** > **Meeting policies**.
 1. Select the policy that you want to edit or create a new one. To apply changes to all users in your organization who don't have an existing policy assignment, use the **Global policy**. To exclude certain users from the global policy, create and assign a custom meeting policy.
@@ -69,6 +71,38 @@ To allow or prevent meeting transcription, follow these steps:
     - **To groups**: Select **Group policy assignment** > select **Add** > enter the group's name and enter the policy's name > select **Apply**.
 
 To manage meeting transcription using PowerShell, use the **`-AllowTranscription`** parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy). For details, see the [PowerShell section](#powershell) in this article.
+
+### Webinars
+
+You must use PowerShell to manage who can transcribe webinars. This policy controls whether users can start transcripts when attending webinars and whether webinars they organize can be transcribed. The default value for the **`-TranscriptionForWebinar`** parameter is *true*.
+
+Use the following script to allow users with this policy to transcribe webinars. When these users organize webinars, they can be transcribed:
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -TranscriptionForWebinar $true
+```
+
+Use the following script to prevent users with this policy from transcribing webinars. When these users organize webinars, they can't be transcribed:
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -TranscriptionForWebinar $false
+```
+
+### Town halls
+
+You must use PowerShell to manage who can transcribe town halls. This policy controls whether users can start transcripts when attending town halls and whether town halls they organize can be transcribed. The default value for the **`-TranscriptionForTownhall`** parameter is *true*.
+
+Use the following script to allow users with this policy to transcribe town halls. When these users organize town halls, they can be transcribed. The **Record and transcribe automatically** option is **On** by default, but organizers can turn it off:
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -TranscriptionForTownhall $true
+```
+
+Use the following script to prevent users with this policy from transcribing town halls. When these users organize town halls, they can't be transcribed:
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -TranscriptionForTownhall $false
+```
 
 ## Live translated transcription (Teams Premium)
 
@@ -105,7 +139,7 @@ To manage live captions using PowerShell, use the **`-LiveCaptionsEnabledType`**
 
 ## Live translated captions (Teams Premium)
 
-Live translated captions allow your users to see captions translated into the language they’re most comfortable with. By default, live captions are displayed in the language spoken during a meeting or event. For town halls, organizers can pre-select up to 6 languages for attendees to use during the event. With a Teams Premium license, this limit increases to 10 languages. The meeting or event organizer must have a Teams Premium license for attendees to use live translated captions.
+Live translated captions allow your users to see captions translated into the language they’re most comfortable with. By default, live captions are displayed in the language spoken during a meeting or event. For town halls, organizers can preselect up to 6 languages for attendees to use during the event. With a Teams Premium license, this limit increases to 10 languages. The meeting or event organizer must have a Teams Premium license for attendees to use live translated captions.
 
 To turn on live translated captions, you must set **Live captions** to **Not enabled, but users can enable** in the corresponding meeting policy in the Teams admin center. To turn off live translated captions, set **Live captions** to **Off**.
 
@@ -194,7 +228,7 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -LiveCaptionsEnabledType Disabl
 
 - [Overview- Recording and transcription for Teams meetings, events, and calls](recording-transcription-overview.md)
 - [Block the download of Teams meeting recording and transcript files from SharePoint or OneDrive](block-download-meeting-recording.md)
-- [Teams meeting recording and transcript storage and permissions in OneDrive for Business and SharePoint](tmr-meeting-recording-change.md)
+- [Teams meeting recording and transcript storage and permissions in OneDrive and SharePoint](tmr-meeting-recording-change.md)
 - [Manage Teams recording policies for meetings and events](meeting-recording.md)
 - [Accessibility guide for Microsoft Teams Admins](accessibility-guide-admin.md)
 - [Teams policies reference - Meetings](settings-policies-reference.md#meetings)

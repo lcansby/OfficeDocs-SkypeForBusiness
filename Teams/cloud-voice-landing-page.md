@@ -1,7 +1,7 @@
 ---
 title: "Teams calling and cloud voice overview"
 ms.reviewer: roykuntz
-ms.date: 03/04/2025
+ms.date: 04/02/2025
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
@@ -85,8 +85,7 @@ Administration of Teams features requires a privileged role assigned to the acco
 
 #### Policies
 
-Microsoft Teams Phone supports a wide array of features, controlled by policy. For example, traditional calling features, like call hold music, call park, call recording, and more, are all administered through policy.
-Policies can be applied at a global, group, and user level.
+Microsoft Teams Phone supports a wide array of features, controlled by policy. For example, traditional calling features, like call hold music, call park, call recording, and more, are all administered through policy. Policies can be applied at a global, group, and user level.
 
 To learn about general Teams policy administration concepts, see the following article.
 
@@ -129,6 +128,7 @@ A wide range of resources are available for Teams administrators to learn more a
 ## Teams Phone and enterprise telecommunications
 
 In addition to a rich set of native calling capabilities, Teams can also serve as your organization's telecommunications platform, allowing end users to make and receive domestic and international telephone calls.
+
 To learn more about using Teams as a phone system, see the following article.
 
 > [!div class="nextstepaction"]

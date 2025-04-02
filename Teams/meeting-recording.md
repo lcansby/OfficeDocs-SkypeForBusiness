@@ -59,9 +59,11 @@ For an overview of recording and transcription policies available for Teams meet
 
 External participants can't record meetings except when it's a [Teams third party compliance recording](teams-recording-policy.md). If an external Teams user that's enabled for compliance recording joins a meeting or call hosted by your organization, the other organization records that meeting or call for compliance purposes, regardless of the **Meeting recording** setting in your organization. Organizers, co-organizers, and presenters in that meeting are notified and can remove the external participant from the meeting if they don't want the other org to capture recordings.
 
-## Allow or prevent users from recording meetings
+## Allow or prevent users from recording
 
-You can use the Microsoft Teams admin center or PowerShell to control whether users' meetings can be recorded. Both the meeting organizer and the recording initiator need to have recording permissions to record the meeting. Meeting organizers with a Teams Premium license can use their meeting options to control who can record and transcribe.
+You can use the Microsoft Teams admin center or PowerShell to control whether your users can record meetings, webinars, and town hall. Both the meeting organizer and the recording initiator need to have recording permissions to record the meeting. Organizers with a Teams Premium license can use their meeting options to control who can record and transcribe.
+
+### Meetings
 
 To allow or prevent meeting recordings, follow these steps:
 
@@ -75,11 +77,57 @@ To allow or prevent meeting recordings, follow these steps:
 
 To manage meeting recording using PowerShell, use the **`-AllowCloudRecording`** parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy). For details, see the [PowerShell section](#manage-recording) in this article.
 
+### Webinars
+
+You must use PowerShell to manage who can control webinars. This policy controls whether users can start recordings when attending webinars and whether webinars they organize can be recorded. The default value for the **`-RecordingForWebinar`** parameter is *EnabledOrganizerOverride*.
+
+Use the following script to allow users with this policy to record webinars. When these users organize webinars, the **Record and transcribe automatically** option **On** by default, but organizers can turn it off:
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -RecordingForWebinar EnabledOrganizerOverride 
+```
+
+Use the following script to allow users with this policy to record webinars. When these users organize webinars, the **Record and transcribe automatically** option is always **On**, and organizers can't turn it off:
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -RecordingForWebinar Enabled
+```
+
+Use the following script to prevent users with this policy from recording webinars. When these users organize webinars, recording is disabled:
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -RecordingForWebinar Disabled 
+```
+
+### Town halls
+
+You must use PowerShell to manage who can control town halls. This policy controls whether users can start recordings when attending town halls and whether town halls they organize can be recorded. The default value for the **`-RecordingForTownhall`** parameter is *UserOverride*.
+
+Use the following script to allow users with this policy to record town halls. When these users organize town halls, the **Record and transcribe automatically** option **On** by default, but organizers can turn it off:
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -RecordingForTownhall UserOverride 
+```
+
+Use the following script to allow users with this policy to record town halls. When these users organize town halls, the **Record and transcribe automatically** option is always **On**, and organizers can't turn it off:
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -RecordingForTownhall AlwaysEnable
+```
+
+Use the following script to prevent users with this policy from recording town halls. When these users organize town halls, recording is disabled:
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -RecordingForTownhall AlwaysDisable 
+```
+
 ## Auto recording
 
 You can control whether organizers have access to the **Record and transcribe automatically** setting for meetings. You can only apply this policy setting to users and groups.
 
-When you turn on the auto recording policy for an organizer, the **Record and transcribe automatically** setting in their **Meeting options** for meetings is **Off** by default. Organizers must manually turn on this setting for each meeting they want recorded and transcribed. For webinars and town halls, the setting is **On** by default. If you turn off auto recording, organizers don't see the setting and can’t set meetings to record automatically.
+When you turn on the auto recording policy for an organizer, the **Record and transcribe automatically** setting in their **Meeting options** for meetings is **Off** by default. Organizers must manually turn on this setting for each meeting they want recorded and transcribed. For webinars and town halls, the setting is **On** by default. For webinars and town halls, the **`-RecordingForTownhall`** and **`-RecordingForTownhall`** parameters affect whether organizers can change the **Record and transcribe automatically** default. To learn more, see the previous [Allow or prevent users from recording](#allow-or-prevent-users-from-recording) section in this article.
+
+If you turn off auto recording, organizers don't see the setting and can’t set meetings to record automatically.
 
 > [!NOTE]
 > This setting doesn't apply to transcripts.

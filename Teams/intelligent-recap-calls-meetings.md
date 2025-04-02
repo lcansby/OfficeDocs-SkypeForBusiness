@@ -8,6 +8,7 @@ ms.date: 3/31/2025
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams

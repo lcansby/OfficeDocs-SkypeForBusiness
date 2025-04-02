@@ -71,7 +71,7 @@ Here's how it works:
 3. Text-to-speech (TTS)- Produces translated speech in the chosen language. TTS can simulate the speaker’s voice or use a predefined voice based on user preference and the admin policy.
 4. A bot transmits meeting audio for cloud-based processing and returns translations instantly.
 
-### How the Interpreter agent uses your users' voices
+### How Interpreter agent uses your users' voices
 
 When a user turns on voice simulation in the Interpreter agent, other participants hear translated speech in the speaker’s own voice.
 

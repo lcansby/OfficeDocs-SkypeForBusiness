@@ -145,6 +145,7 @@ The following sections describe Teams Premium feature enhancements for town hall
 
 Teams Premium provides more ways to elevate Teams town halls in your org with the following key features:
 
+- **50,000 attendees** - Organizers can host town halls with up to 50,000 attendees. To create town halls with more than 20,000 attendees, organizers must work with the Microsoft 365 Live Event Assistance Program (LEAP). To learn more, see [Plan for town halls](plan-town-halls.md).
 - **Chat for town hall attendees** - Organizers can allow attendees to use chat during town halls.
 - **Custom emails for town halls** - Organizers and co-organizers can customize the town hall email templates sent to attendees.
 - **Increased broadcast and Q&A capacity** - Organizers can broadcast their town halls to 20,000 attendees. All attendees can use Q&A to interact with presenters, organizers, and co-organizers.
@@ -293,8 +294,8 @@ Teams Premium and Teams Phone provide access to Queues app, a Teams-native solut
   | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins |Documentation for end users |
   | -------------------- | ----------- | ----------- |----------- |
   |Call queue management|Yes, with [voice application policies](manage-voice-applications-policies.md) for Authorized users|[Manage the Queues app for Microsoft Teams](manage-queues-app.md)|[Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9)|
-  |Real-time metrics|Yes, with [voice application policies](manage-voice-applications-policies.md) for Authorized users|[Auto attendant and Call queue real-time reports](aa-cq-real-time-reports.md)|No end user control can view reports if authorized.|
-  |Historical reporting|Yes, with voice application policies for Authorized users|[Auto attendant and Call queue historical reports](aa-cq-cqd-historical-reports.md)|No end user control can view reports if authorized.|
+  |Real-time metrics|Yes, with [voice application policies](manage-voice-applications-policies.md) for Authorized users|[Auto attendant and Call queue real-time reports](aa-cq-real-time-reports.md)|No, end users can view reports if authorized.|
+  |Historical reporting|Yes, with voice application policies for Authorized users|[Auto attendant and Call queue historical reports](aa-cq-cqd-historical-reports.md)|No, end users can view reports if authorized.|
 
 Queues app is now generally available and is enabled by default for all Teams users in your organization who are assigned both a Teams Premium and Teams Phone license and who and are voice enabled.
 

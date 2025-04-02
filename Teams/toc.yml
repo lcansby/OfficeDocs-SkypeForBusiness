@@ -360,6 +360,8 @@ items:
 
 - name: AI, Copilot, and agents in Teams
   items:
+    - name: Overview of AI in Teams
+      href: copilot-ai-agents-overview.md
     - name: AI features in Teams
       items:
       - name: Intelligent recap for Teams calls and meetings

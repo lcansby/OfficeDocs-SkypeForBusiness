@@ -217,10 +217,10 @@ To add a mobile system OS scanner:
 
 ## March 28, 2025
 
-**Applies to:** *Teams app version: 1449/1.0.94.2025084203 (Poly, Audiocodes)*
+**Applies to:** *Teams app version: 1449/1.0.94.2025084203 (Poly, Yealink and Audiocodes)*
 
 > [!IMPORTANT]
-> Starting in June 2025, Teams applications that are older than five (5) months will no longer work be able to connect to the service. Please refer to the Message Center Post, MC969451 for more det
+> Starting in June 2025, Teams applications that are older than five (5) months will no longer work be able to connect to the service. Please refer to the Message Center Post, MC969451 for more details.
 
 > [!NOTE]
 > This update introduces a new versioning format, moving away from using dates. Going forward, this format will be used **1449/1.0.94.*year of release.internal codes***
@@ -236,9 +236,9 @@ To add a mobile system OS scanner:
 
 - You can now pin apps of your choice to your home screen using settings named “Home screen”.  This is only available for touch phones.
 
-   ![Screenshot of adding line keys.](media/phones-release-notes-2.png)
-  
 App also includes multiple bug fixes and improvements. Bug fixes impacting user experience are:
+
+- AOSP migration and back-end calendar fixes.
 
 - With this release, you will be able to resume held calls using a single entry.
 - Joining a meeting via dial-info on calendar is now fixed.

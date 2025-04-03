@@ -218,7 +218,7 @@ Nest Auto attendants or call queues with, or without, resource accounts, are ful
 
 ### Queues app
 
-Please see Use the Queues app for Microsoft Teams.
+Please see [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/use-the-queues-app-for-microsoft-teams-370ad83e-c2c1-4a9f-8a59-16c98be102e9).
 
 ## Click-to-call restrictions
 

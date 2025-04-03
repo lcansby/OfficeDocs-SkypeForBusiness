@@ -201,7 +201,7 @@ However, there might be times when you require nesting with resource accounts. F
 
 #### Teams Admin Center
 
-Teams Admin Center Usage reports don't support reporting on auto attendants or call queues that are nested without resource accounts. Pleaes nest with resource acccounts if reporting in the Teams Admin Center is required.
+Teams Admin Center Usage reports don't support reporting on Auto attendants or Call queues that are nested without resource accounts. Please nest with resource acccounts if reporting in the Teams Admin Center is required.
 
 #### Auto attendant and Call queue historical reports
 

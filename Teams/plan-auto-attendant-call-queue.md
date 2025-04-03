@@ -81,7 +81,7 @@ Call queues don't provide separate call routing for off hours and holidays. Even
 
 To configure Auto attendants and Call queues, you need the following resources:
 
-- A [Resource Account](manage-resource-accounts.md) for each Auto attendant or Call queue that directly answers calls. Nested auto attendants or call queues that receive calls from an auto attendant or call queue that has already answered the call don't require a resource account.
+- A [Resource Account](manage-resource-accounts.md) for each Auto attendant or Call queue that directly answers calls. Nested auto attendants or call queues that receive calls from an auto attendant or call queue that answered the call do not require a resource account.
 - A free [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md) for each resource account.
 - External phone calls:
   - At least one [Microsoft service number](getting-service-phone-numbers.md), [Operator Connect number](operator-connect-plan.md), [Direct Routing number](direct-routing-plan.md), or a hybrid number for each resource account that you want to be directly dialable from external phone numbers.
@@ -202,7 +202,7 @@ However, there might be times when you require nesting with resource accounts. F
 
 #### Teams Admin Center
 
-Teams Admin Center Usage reports don't support reporting on Auto attendants or Call queues that are nested without resource accounts. Please nest with resource acccounts if reporting in the Teams Admin Center is required.
+Teams Admin Center Usage reports don't support reporting on Auto attendants or Call queues that are nested without resource accounts. Nest with resource acccounts if reporting in the Teams Admin Center is required.
 
 #### Auto attendant and Call queue historical reports
 
@@ -219,7 +219,7 @@ Nest Auto attendants or call queues with, or without, resource accounts, are ful
 
 ### Queues app
 
-Please see [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/use-the-queues-app-for-microsoft-teams-370ad83e-c2c1-4a9f-8a59-16c98be102e9).
+See [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/use-the-queues-app-for-microsoft-teams-370ad83e-c2c1-4a9f-8a59-16c98be102e9).
 
 ## Click-to-call restrictions
 

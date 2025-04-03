@@ -467,11 +467,17 @@ SlimCore-based optimization supports Human Interface Devices (HID) for [Teams ce
 
 > [!NOTE]
 > With some peripherals, two Unified Communications apps running side by side can cause HID collisions where active calls get disconnected.
+>
 > See the Known Issues section.
-> As a workaround, HID can be disabled via registry key, where the key can be created either on the VM or the endpoint (VM-side keys take precedence).
+>
+> As a workaround, HID can be disabled via registry key on Teams 25060.205.3499.6849 or higher, where the key can be created on the endpoint.
+>
 > HKEY_CURRENT_USER\Software\Microsoft\Teams\HID
+>
 > Name: DisableHidManagerV1 
+>
 > Type: DWORD
+>
 > Value: 1 (when set to 1, it will disable HID) (If set to 0 or the key is not present, HID is enabled)
 
 ### Monitoring API
@@ -484,19 +490,19 @@ Typical use cases for the monitoring API are:
 - Developers creating a Third party apps that report the current state of the VDI optimization connection, consuming the contents of the JSON file to retrieve all available connection, optimization, and device information of the current Teams session.
 
 Json File Structure:
-•	Timestamp - vdiConnectedState.timestamp indicates the timestamp of the session connection
-•	VDI Optimization - vdiConnectedState.vdiMode indicates the optimization version (remains static for the duration of the VDI session)  
-•	Connected State - connectedStack (remote = optimized, local = not optimized) (remains static for the duration of the VDI session)
-•	SlimCore Version on the endpoint - remoteSlimcoreVersion
-•	VdiBridge Versionon the VM - bridgeVersion
-•	MS Teams Plugin Version on the endpoint - pluginVersion
-•	Teams Version - vdiVersionInfo.teamsVersion
-•	Client Platform - vdiVersionInfo.clientPlatform
-•	VDI Client (CWA or Windows App) version - vdiVersionInfo.rdClientVersion	
-•	VM OS Version - vdiVersionInfo.vmVersion
-•	Available Peripheral Devices - devices.speakers.available, devices.cameras.available, devices.microphones.available (real time update to the json file)
-•	Selected Peripheral Devices - devices.speakers.selected, devices.cameras.selected, devices.microphone.selected (real time update to the json file)
-•	Secondary Ringer - devices.secondaryRinger (real time update to the json file)
+-	Timestamp - vdiConnectedState.timestamp indicates the timestamp of the session connection
+-	VDI Optimization - vdiConnectedState.vdiMode indicates the optimization version (remains static for the duration of the VDI session)  
+-	Connected State - connectedStack (remote = optimized, local = not optimized) (remains static for the duration of the VDI session)
+-	SlimCore Version on the endpoint - remoteSlimcoreVersion
+-	VdiBridge Versionon the VM - bridgeVersion
+-	MS Teams Plugin Version on the endpoint - pluginVersion
+-	Teams Version - vdiVersionInfo.teamsVersion
+-	Client Platform - vdiVersionInfo.clientPlatform
+-	VDI Client (CWA or Windows App) version - vdiVersionInfo.rdClientVersion	
+-	VM OS Version - vdiVersionInfo.vmVersion
+-	Available Peripheral Devices - devices.speakers.available, devices.cameras.available, devices.microphones.available (real time update to the json file)
+-	Selected Peripheral Devices - devices.speakers.selected, devices.cameras.selected, devices.microphone.selected (real time update to the json file)
+-	Secondary Ringer - devices.secondaryRinger (real time update to the json file)
 
 > [!NOTE]
 > When in WebRTC optimization, only the vdiConnectedState is populated, indicating which optimization the session is currently in. There's no vdiVersionInfo and device information stored in the JSON file for the session. When no optimization is available, there aren't updates made to the JSON file.

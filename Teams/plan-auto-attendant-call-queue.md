@@ -196,8 +196,29 @@ However, there might be times when you require nesting with resource accounts. F
 
 > [!IMPORTANT]
 > Nesting Auto attendants and Call queues without a resource account isn't currently supported for [Authorized users](aa-cq-authorized-users-plan.md) in Queues App. If you nest an Auto attendant or Call queue without a resource account, authorized users can't edit the auto attendant or call queue.
->
-> Teams Admin Center Usage reports currently don't report on auto attendants or call queues that are nested without resource accounts.
+
+### Reporting and Nested Auto attendants and Call queues
+
+#### Teams Admin Center
+
+Teams Admin Center Usage reports don't support reporting on auto attendants or call queues that are nested without resource accounts. Pleaes nest with resource acccounts if reporting in the Teams Admin Center is required.
+
+#### Auto attendant and Call queue historical reports
+
+[Auto attendant and Call queue historical reports](./aa-cq-cqd-historical-reports.md) 
+
+##### Authorized Users
+
+Nest Auto attendants or call queues with, or without, resource accounts, are fully supported as authorized users see the report by Auto attendant or Call Queue name.
+
+##### Administrators
+
+1. Only the calls and caller actions in the first Auto attendant that answers the call are reported on. Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant), regardless of chaining method, aren't reported on.
+1. Only the calls and caller actions in the first Call queue that answers the call are reported on. Calls and caller actions in chained Call queues (when one Call queue transfers to another Call queue), regardless of chaining method, aren't reported on.
+
+### Queues app
+
+Please see Use the Queues app for Microsoft Teams.
 
 ## Click-to-call restrictions
 

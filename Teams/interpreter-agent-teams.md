@@ -33,17 +33,17 @@ description: Learn how to manage Interpreter agent in Microsoft Teams to provide
 >
 > Features in preview might not be complete and could undergo changes before becoming available in the public release. They're provided for evaluation and exploration purposes only.
 
-The Interpreter agent acts as a translator in Microsoft Teams meetings, allowing participants with a Microsoft 365 Copilot license to listen to the meeting in their chosen language. It listens to the spoken language in the meeting and translates it into another language in real-time. This feature allows participants who speak different languages to understand each other and collaborate effectively. To represent their voices, participants can choose to have Interpreter simulate their own voice when translating to others or select one of the following preset automated voices:  Voice 1 (female), Voice 2 (male), Voice 3 (neutral).
+Interpreter agent acts as a translator in Microsoft Teams meetings, allowing participants with a Microsoft 365 Copilot license to either listen to the meeting in their chosen language. It listens to the spoken language in the meeting and translates it into another language in real-time. This feature allows participants who speak different languages to understand each other and collaborate effectively. To represent their voices, participants can choose to have Interpreter simulate their own voice when translating to others or select one of the following preset automated voices:  Voice 1 (female), Voice 2 (male), Voice 3 (neutral).
 
-As an admin, you can control whether your organization can use Interpreter agent and select the default setting for voice representation.
+As an admin, you can control whether your organization can use Interpreter and select the default setting for voice representation.
 
 ## Supported languages
 
-The Interpreter agent supports the following languages for speaking and listening: Chinese (Mandarin), English, French, German, Italian, Japanese, Korean, Portuguese (Brazil), Spanish.
+Interpreter supports the following languages for speaking and listening: Chinese (Mandarin), English, French, German, Italian, Japanese, Korean, Portuguese (Brazil), Spanish.
 
 ## Prerequisites and licensing for Public preview
 
-The following list contains the prerequisites for users to access Interpreter agent in Teams meetings. Users must meet all the following requirements:
+The following list contains the prerequisites for users to access Interpreter in Teams meetings. Users must meet all the following requirements:
 
 > [!NOTE]
 > We'll update the licensing requirements for General availability. Check back soon for updates.
@@ -59,12 +59,11 @@ The following list contains the prerequisites for users to access Interpreter ag
   
 ## Data, security, and privacy
 
-When your users allow Interpreter agent to simulate their voice, their voice sample isn’t stored.
+When your users allow Interpreter to simulate their voice, their voice sample isn’t stored.
 
-### How Interpreter agent works
+### How Interpreter works
 
-The Interpreter agent in Teams performs real-time speech-to-speech (STS) translation using Azure Cognitive Services. Interpreter agent autodetects spoken languages in a meeting, supports multi-speaker, mixed-language conversations, and currently supports nine different languages, with more to come.
-
+Interpreter performs real-time speech-to-speech (STS) translation using Azure Cognitive Services, supporting multi-speaker, mixed-language conversations in Teams meetings.
 Here's how it works:
 
 1. Speech Recognition (ST)- Converts spoken language into English text.
@@ -72,36 +71,36 @@ Here's how it works:
 3. Text-to-speech (TTS)- Produces translated speech in the chosen language. TTS can simulate the speaker’s voice or use a predefined voice based on user preference and the admin policy.
 4. A bot transmits meeting audio for cloud-based processing and returns translations instantly.
 
-### How Interpreter agent uses your users' voices
+### How Interpreter uses your users' voices
 
-When a user turns on voice simulation in the Interpreter agent, other participants hear the translated speech in the speaker’s own voice.
+When a user turns on voice simulation in the Interpreter, other participants hear the translated speech in the speaker’s own voice.
 
 Here's how it works:
 
-1. **Admin policy**- To set the default value for the **Your voice representation** setting to **Simulate my voice** for all users in your organization, you use the **`-VoiceSimulationInInterpreter`** parameter.
+1. **Admin policy**- To set the default value for **Your voice representation** to **Simulate my voice** for all users in your organization, you use the **`-VoiceSimulationInInterpreter`** parameter.
 2. **User Interpreter settings**- Users can choose whether to use voice simulation during meetings.
 3. **Privacy-first design**- The system samples brief segments of the speaker’s voice to simulate their tone, style, and voice characteristics in real-time, without storing biometric data. It preserves the speaker's natural tone, pitch, and style, without exaggerating emotions.
 4. **Voice simulation**- AI generates a simulated voice in the selected language for seamless end-to-end translation.
 
 :::image type="content" source="media/interpreter-agent-diagram-small.png" alt-text="Architecture diagram of language media processing to ACS speech." lightbox="media/interpreter-agent-diagram-expand.png":::
 
-## Manage Interpreter agent using PowerShell
+## Manage Interpreter using PowerShell
 
-You must use PowerShell to manage Interpreter agent for your entire organization.
+You must use PowerShell to manage Interpreter for your entire organization.
 
-To manage Interpreter agent for your entire organization, you can use the **`-AIInterpreter`** and **`-VoiceSimulationInInterpreter`** parameters in the PowerShell [CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet.
+To manage Interpreter for your entire organization, you can use the **`-AIInterpreter`** and **`-VoiceSimulationInInterpreter`** parameters in the PowerShell [CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet.
 
-### Turn Interpreter agent on or off
+### Turn Interpreter on or off
 
-The org-wide **`-AIInterpreter`** parameter controls whether your users with a Copilot license can use Interpreter agent during meetings in your organization. **This parameter is enabled by default.**
+The org-wide **`-AIInterpreter`** parameter controls whether your users with a Microsoft 365 Copilot license can use Interpreter during meetings in your organization. **This parameter is enabled by default.**
 
-To turn off Interpreter agent for your entire organization, use the following script:
+To turn off Interpreter for your entire organization, use the following script:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AIInterpreter Disabled
 ```
 
-To turn on Interpreter agent for your entire organization, use the following script:
+To turn on Interpreter for your entire organization, use the following script:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AIInterpreter Enabled
@@ -109,13 +108,13 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -AIInterpreter Enabled
 
 ### Set the default value for voice representation
 
-The org-wide **`-VoiceSimulationInInterpreter`** parameter controls your users' default value for **Your voice representation** in **Interpreter settings**. **By default, this parameter is set to disabled.**
+The org-wide **`-VoiceSimulationInInterpreter`** parameter controls your users' default value for **Your voice representation** in **Interpreter settings**. **Your voice representation setting** controls how a user's voice is represented to other participants. By default, this parameter is set to disabled.**
 
-Here's the user experience for Interpreter agent depending on the value you choose:
+Here's the user experience for Interpreter depending on the value you choose:
 
-- **Enabled**: Sets the default value for **Your voice representation** to **Simulate my voice**. When users turn on Interpreter agent, it automatically simulates their voices when translating to others in meetings. Users can also select an automated voice.
+- **Enabled**: Sets the default value for **Your voice representation** to **Simulate my voice**. When users turn on Interpreter, it automatically simulates their voices when translating to others in meetings. Users can also select an automated voice.
 
-- **Disabled**: Sets the default value for **Your voice representation** to **Automated voice**. When users turn on Interpreter agent, they choose one of the automated voices that is translated to others. Users can also choose to allow Interpreter to simulate their voice. **This is the default value.**
+- **Disabled**: Sets the default value for **Your voice representation** to **Automated voice**. When users turn on Interpreter, they select one of the automated voices for translation. Users can also choose to allow Interpreter to simulate their voice. **This is the default value.**
 
 To set the org-wide default value for the **Your voice representation** setting to **Simulate my voice**, use the following script:  
 
@@ -133,17 +132,17 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -VoiceSimulationInInterpreter D
 
 ### Platforms
 
-Interpreter agent is supported on the following platforms:
+Interpreter is supported on the following platforms:
 
 - Teams desktop (Windows and Mac)
 - Teams mobile (iOS and Android)
 - Teams web (Chrome, Microsoft Edge, and Firefox)
 
-Interpreter agent is available during scheduled meetings, channel meetings, and Virtual Desktop Infrastructure (VDI). However, Interpreter agent isn't supported for unscheduled 1:1 calls (VoIP or Public Switched Telephone Network (PSTN)), meetings scheduled using Microsoft Teams Rooms or personal devices, town halls, webinars, and Microsoft Teams free.
+Interpreter is available during scheduled meetings, channel meetings, and Virtual Desktop Infrastructure (VDI). However, Interpreter agent isn't supported for unscheduled 1:1 calls (VoIP or Public Switched Telephone Network (PSTN)), meetings scheduled using Microsoft Teams Rooms or personal devices, town halls, webinars, and Microsoft Teams free.
 
 ### Scenarios
 
-Interpreter agent works in both remote and hybrid meetings where participants join online in a meeting room.
+Interpreter works in both remote and hybrid meetings where participants join online in a meeting room.
 
 Supported:
 

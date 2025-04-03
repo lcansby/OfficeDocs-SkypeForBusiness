@@ -463,7 +463,7 @@ Users who have [Screen Capture Protection](/azure/virtual-desktop/screen-capture
 ### Peripherals in VDI
 
 When Teams is optimized with SlimCore, Camera(s), microphone(s), and speaker(s) connected to your physical device are mapped on your virtual desktop. Teams will enumerate all the detected devices, prioritizing Default Communication Devices (as seen in the mmsys.cpl panel when run on the user's device).
-SlimCore-based optimization supports Human Interface Devices (HID) for [Teams certified headsets](aka.ms/teamsdevices), allowing users to mute/umute and increase/decrease volume themselves directly from their headset. A Microsoft Teams button on a certified Teams device isn't currently supported.
+SlimCore-based optimization supports Human Interface Devices (HID) for [Teams certified headsets](https://aka.ms/teamsdevices), allowing users to mute/umute and increase/decrease volume themselves directly from their headset. A Microsoft Teams button on a certified Teams device isn't currently supported.
 
 > [!NOTE]
 > With some peripherals, two Unified Communications apps running side by side can cause HID collisions where active calls get disconnected.
@@ -476,7 +476,7 @@ SlimCore-based optimization supports Human Interface Devices (HID) for [Teams ce
 
 ### Monitoring API
 
-Administrators can create custom scripts to [query](https://learn.microsoft.com/en-us/windows/win32/fileio/obtaining-directory-change-notifications) vdi_connection_info.json - this file in the virtual machine contains information about the current and last session, for example optimization status, peripherals and software versions of the different components.
+Administrators can create custom scripts to [query](/windows/win32/fileio/obtaining-directory-change-notifications) vdi_connection_info.json - this file in the virtual machine contains information about the current and last session, for example optimization status, peripherals and software versions of the different components.
 Location (in the VDA / RD Host): C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\tfw
 
 Typical use cases for the monitoring API are:

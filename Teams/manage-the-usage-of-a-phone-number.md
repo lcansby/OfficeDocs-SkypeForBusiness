@@ -27,7 +27,7 @@ description: "Learn how to change the usage of a phone number to be used as eith
 
 # Manage the usage of a phone number
 
-You might want to change the usage of a phone number after it was acquired or ported into your organization. You can change the usage of user and service numbers by using the Teams admin center.
+You might want to change the usage of a phone number after it was acquired or ported into . You can change the usage of your organization phone numbers by using the Teams admin center.
 
 There are three types of usages:
 
@@ -35,7 +35,7 @@ There are three types of usages:
 - Service number assigned to an Auto attendant or Call queue.
 - Service number assigned to an Audio conferencing bridge.
 
-For more information about types of phone numbers, see [Manage phone numbers for your oranization](manage-phone-numbers-landing-page.md).
+For more information about types of phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md).
 
 Before changing the usage of a number:
 

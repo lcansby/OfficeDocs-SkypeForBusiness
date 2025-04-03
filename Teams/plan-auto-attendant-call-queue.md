@@ -205,7 +205,7 @@ Teams Admin Center Usage reports don't support reporting on Auto attendants or C
 
 #### Auto attendant and Call queue historical reports
 
-[Auto attendant and Call queue historical reports](./aa-cq-cqd-historical-reports.md) 
+- [Auto attendant and Call queue historical reports](./aa-cq-cqd-historical-reports.md) 
 
 ##### Authorized Users
 

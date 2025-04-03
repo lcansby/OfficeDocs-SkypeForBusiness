@@ -101,7 +101,12 @@ To manage policies that allow external attendees to attend meetings in your orga
 
 ### Intelligent recap for multilingual meetings
 
-Intelligent meeting recap can translate the meeting's recap into each participant's language. Once the meeting ends, the recap appears in the language chosen for transcription. Participants can then translate the recap into one of the supported languages: English, Spanish, Japanese, French, German, Portuguese, Italian, Mandarin (Simplified Chinese), and Korean.
+> [!NOTE]
+> This feature is currently in Public preview.
+
+Intelligent meeting recap translates the meeting's recap into each participant's language. Once the meeting ends, the recap appears in the language each participant selected for live translated transcription. Intelligent meeting recap currently supports the following languages: English, Spanish, Japanese, French, German, Portuguese, Italian, Mandarin (Simplified Chinese), and Korean.
+
+To learn more about about live translated transcription, see [View live transcription in Microsoft Teams meetings](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b#bkmk_livetranslated).
 
 ## Supported meetings and call types
 

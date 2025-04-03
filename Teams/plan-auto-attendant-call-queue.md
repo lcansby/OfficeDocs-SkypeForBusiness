@@ -210,7 +210,7 @@ Teams Admin Center Usage reports don't support reporting on Auto attendants or C
 
 ##### Authorized Users
 
-Nest Auto attendants or call queues with, or without, resource accounts, are fully supported as authorized users see the report by Auto attendant or Call Queue name.
+Nested Auto attendants or call queues, with or without resource accounts, are fully supported, as authorized users see the report by Auto attendant or Call Queue name.
 
 ##### Administrators
 

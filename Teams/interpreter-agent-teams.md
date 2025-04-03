@@ -88,11 +88,11 @@ Here's how it works:
 
 You must use PowerShell to manage Interpreter agent for your entire organization.
 
-To manage Interpreter agent for your entire organization, you can use the -**`-AIInterpreter`** and -**`-VoiceSimulationInInterpreter`** parameters in PowerShell. To use **`-VoiceSimulationInInterpreter`**, you must first set **`-AIInterpreter`** to **Enabled**.
+To manage Interpreter agent for your entire organization, you can use the **`-AIInterpreter`** and -**`-VoiceSimulationInInterpreter`** parameters in PowerShell.
 
 ### Turn Interpreter agent on or off
 
-The org- wide **`-AIInterpreter`** parameter controls whether your users with a Copilot license can use Interpreter agent during meetings in your organization. **This parameter is enabled by default.**
+The org-wide **`-AIInterpreter`** parameter controls whether your users with a Copilot license can use Interpreter agent during meetings in your organization. **This parameter is enabled by default.**
 
 To turn off Interpreter agent for your entire organization, use the following script:
 
@@ -108,7 +108,7 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -AIInterpreter Enabled
 
 ### Set the default value for voice representation
 
-The org- wide **`-VoiceSimulationInInterpreter`** parameter controls your users' default value for **Your voice representation** in **Interpreter settings**. **By default, this parameter is set to disabled.**
+The org-wide **`-VoiceSimulationInInterpreter`** parameter controls your users' default value for **Your voice representation** in **Interpreter settings**. **By default, this parameter is set to disabled.**
 
 Here's the user experience for Interpreter agent depending on the value you choose:
 

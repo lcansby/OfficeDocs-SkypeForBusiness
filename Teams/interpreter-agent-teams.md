@@ -108,7 +108,7 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -AIInterpreter Enabled
 
 ### Set the default value for voice representation
 
-The org-wide **`-VoiceSimulationInInterpreter`** parameter controls your users' default value for **Your voice representation** in **Interpreter settings**. **Your voice representation setting** controls how a user's voice is represented to other participants. By default, this parameter is set to disabled.**
+The org-wide **`-VoiceSimulationInInterpreter`** parameter controls your users' default value for **Your voice representation** in **Interpreter settings**. The **Your voice representation** setting controls how a user's voice is represented to other participants. By default, this parameter is set to disabled.**
 
 Here's the user experience for Interpreter depending on the value you choose:
 

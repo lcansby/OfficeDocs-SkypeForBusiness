@@ -55,7 +55,7 @@ The following list contains the prerequisites for users to access Interpreter ag
 - A *Microsoft 365 Copilot* license.
   - For information on how to acquire *Microsoft 365 Copilot* licenses, see [Where can I get Microsoft Copilot?](https://support.microsoft.com/topic/where-can-i-get-microsoft-copilot-40a622db-6d25-4266-b008-4bbcb55cf52f)
 - Be a Microsoft Teams Public preview participant.
-  - For information on how to access Teams Public preview features, see Microsoft Teams Public preview.
+  - For information on how to access Teams Public preview features, see [Microsoft Teams Public preview](/microsoftteams/public-preview-doc-updates).
   
 ## Data, security, and privacy
 
@@ -63,7 +63,7 @@ When your users allow Interpreter agent to simulate their voice, their voice sam
 
 ### How Interpreter agent works
 
-The Interpreter gent in Teams performs real-time speech-to-speech (STS) translation using Azure Cognitive Services. Interpreter agent autodetects spoken languages in a meeting, supports multi-speaker, mixed-language conversations, and currently supports nine different languages, with more to come.
+The Interpreter agent in Teams performs real-time speech-to-speech (STS) translation using Azure Cognitive Services. Interpreter agent autodetects spoken languages in a meeting, supports multi-speaker, mixed-language conversations, and currently supports nine different languages, with more to come.
 
 Here's how it works:
 
@@ -89,7 +89,7 @@ Here's how it works:
 
 You must use PowerShell to manage Interpreter agent for your entire organization.
 
-To manage Interpreter agent for your entire organization, you can use the **`-AIInterpreter`** and **`-VoiceSimulationInInterpreter`** parameters in PowerShell.
+To manage Interpreter agent for your entire organization, you can use the **`-AIInterpreter`** and **`-VoiceSimulationInInterpreter`** parameters in the PowerShell [CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet.
 
 ### Turn Interpreter agent on or off
 

@@ -186,7 +186,7 @@ Teams Premium provides the following key AI-powered meetings features:
 
 <sup>1</sup>If you toggle the **Transcription** setting to **Off** in your **Meeting policies**, intelligent meeting recap isn't available for users with this policy.
 
-### Platform support for Intelligent meeting features
+### Platform support for Intelligent meetings
 
 The following table describes platform support for Intelligent meeting features:
 

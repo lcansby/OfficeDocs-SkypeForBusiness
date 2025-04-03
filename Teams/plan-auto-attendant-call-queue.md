@@ -209,16 +209,21 @@ Only the calls and caller actions in the first Auto attendant that answers the c
 
 #### Auto attendant and Call queue historical reports
 
-- [Auto attendant and Call queue historical reports](./aa-cq-cqd-historical-reports.md) 
+- [Auto attendant and Call queue historical reports](./aa-cq-cqd-historical-reports.md)
 
 ##### Authorized Users
 
-Nested Auto attendants or call queues, with or without resource accounts, are fully supported, as authorized users see the report by Auto attendant or Call Queue name.
+1. Only the calls and caller actions in the first Auto attendant that answers the call are reported on. Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant), regardless of chaining method, aren't reported on.
+1. Only the calls and caller actions in the first Call queue that answers the call are reported on. Calls and caller actions in chained Call queues (when one Call queue transfers to another Call queue), regardless of chaining method, aren't reported on.
+
+Authorized users see the report by Auto attendant or Call Queue name.
 
 ##### Administrators
 
 1. Only the calls and caller actions in the first Auto attendant that answers the call are reported on. Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant), regardless of chaining method, aren't reported on.
 1. Only the calls and caller actions in the first Call queue that answers the call are reported on. Calls and caller actions in chained Call queues (when one Call queue transfers to another Call queue), regardless of chaining method, aren't reported on.
+
+Administrators see the report by resource account.
 
 ### Queues app
 

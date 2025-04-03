@@ -77,7 +77,7 @@ When a user turns on voice simulation in the Interpreter agent, other participan
 
 Here's how it works:
 
-1. **Admin policy**- You use the **`-VoiceSimulationInInterpreter`** parameter to set the default value for the **Your voice representation** setting to **Simulate my voice** for all users in your organization.
+1. **Admin policy**- To set the default value for the **Your voice representation** setting to **Simulate my voice** for all users in your organization, you use the **`-VoiceSimulationInInterpreter`** parameter.
 2. **User Interpreter settings**- Users can choose whether to use voice simulation during meetings.
 3. **Privacy-first design**- The system samples brief segments of the speaker’s voice to simulate their tone, style, and voice characteristics in real-time, without storing biometric data. It preserves the speaker's natural tone, pitch, and style, without exaggerating emotions.
 4. **Voice simulation**- AI generates a simulated voice in the selected language for seamless end-to-end translation.

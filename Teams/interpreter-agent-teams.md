@@ -88,7 +88,7 @@ Here's how it works:
 
 You must use PowerShell to manage Interpreter agent for your entire organization.
 
-To manage Interpreter agent for your entire organization, you can use the **`-AIInterpreter`** and -**`-VoiceSimulationInInterpreter`** parameters in PowerShell.
+To manage Interpreter agent for your entire organization, you can use the **`-AIInterpreter`** and **`-VoiceSimulationInInterpreter`** parameters in PowerShell.
 
 ### Turn Interpreter agent on or off
 

@@ -412,7 +412,7 @@ Customers with Thin Clients that have [Unified Write Filters](/windows/configura
 
 - AVD RemoteApps and Citrix Published Apps aren't supported at this time.
 - Screen Capture Protection (SCP) causes the presenter's screen to show as a black screen with only the mouse cursor on top it (as seen by the receiving side).
-- Calls drop on Teams running on the local machine that has an HID peripheral connected if a user launches a virtual desktop from that same local machine and logs into Teams.
+- Calls drop on Teams running on the local machine that has an HID peripheral connected if a user launches a virtual desktop from that same local machine and logs into Teams. Same can happen if the user had an active virtual desktop and launches a second one that has Teams installed (or other Unified Communications apps that use optimization).
 - Camera self preview isn't supported at this time (either under Settings/Devices, or while on a call when selecting the down arrow on the camera icon).
 - In the Control Panel/Apps/Installed apps of the endpoint, users will see multiple "Microsoft Teams VDI" entries (one for every Slimcore package installed).
 - When doing full monitor screen sharing, the call monitor window is visible for the other participants (without any video content inside).
@@ -459,6 +459,49 @@ Users who have App Protection enabled can still share their screen and apps whil
 #### AVD Screen Capture Protection and Microsoft Teams compatibility
 
 Users who have [Screen Capture Protection](/azure/virtual-desktop/screen-capture-protection?tabs=intune) (SCP) enabled can't share their screens or apps. Other people on the call can only see a black screen. If you want to allow users to share their screen even with SCP enabled, you need to disable SlimCore optimization in the Teams Admin Center policy (so the user is optimized with WebRTC), and set the SCP policy to **Block screen capture on client**.
+
+### Peripherals in VDI
+
+When Teams is optimized with SlimCore, Camera(s), microphone(s), and speaker(s) connected to your physical device are mapped on your virtual desktop. Teams will enumerate all the detected devices, prioritizing Default Communication Devices (as seen in the mmsys.cpl panel when run on the user's device).
+SlimCore-based optimization supports Human Interface Devices (HID) for [Teams certified headsets](aka.ms/teamsdevices), allowing users to mute/umute and increase/decrease volume themselves directly from their Headset. Microsoft Teams button on a certified Teams device is not currently supported.
+
+> [!NOTE]
+> With some peripherals, two Unified Communications apps running side by side can cause HID collisions where active calls get disconnected.
+See the Known Issues section.
+As a workaround, HID can be disabled via registry key, where the key can be created either on the VM or the endpoint (VM-side keys take precedence).
+HKEY_CURRENT_USER\Software\Microsoft\Teams\HID
+Name: DisableHidManagerV1 
+Type: DWORD
+Value: 1 (when set to 1, it will disable HID) (If set to 0 or the key is not present, HID is enabled)
+
+### Monitoring API
+
+Administrators can create custom scripts to [query](https://learn.microsoft.com/en-us/windows/win32/fileio/obtaining-directory-change-notifications) vdi_connection_info.json – this file in the virtual machine contains information about the current and last session, e.g. optimization status, peripherals and software versions of the different components.
+Location (in the VDA / RD Host) C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\tfw
+
+Typical use cases for the monitoring API are:
+- Administrators deploy an automation script in VDA/RD Host to detect whether the client endpoint operating system has changed since the last connection, consuming the contents of the JSON file to compare the last two sessions' values, and issue their own alerts/pop-up messages.
+- Developers creating a Third party apps that report the current state of the VDI optimization connection, consuming the contents of the JSON file to retrieve all available connection, optimization, and device information of the current Teams session. 
+
+Json File Structure:
+•	Timestamp – vdiConnectedState.timestamp will indicate the timestamp of the session connection
+•	VDI Optimization – vdiConnectedState.vdiMode will indicate optimization version (will remain static for the duration of the VDI session)  
+•	Connected State - connectedStack (remote = optimized, local = not optimized) (will remain static for the duration of the VDI session)
+•	SlimCore Version on the endpoint - remoteSlimcoreVersion
+•	VdiBridge Versionon the VM - bridgeVersion
+•	MS Teams Plugin Version on the endpoint - pluginVersion
+•	Teams Version – vdiVersionInfo.teamsVersion
+•	Client Platform – vdiVersionInfo.clientPlatform
+•	VDI Client (CWA or Windows App) version - vdiVersionInfo.rdClientVersion	
+•	VM OS Version – vdiVersionInfo.vmVersion
+•	Available Peripheral Devices – devices.speakers.available, devices.cameras.available, devices.microphones.available (real time update to the json file)
+•	Selected Peripheral Devices – devices.speakers.selected, devices.cameras.selected, devices.microphone.selected (real time update to the json file)
+•	Secondary Ringer – devices.secondaryRinger (real time update to the json file)
+
+> [!NOTE]
+> When in WebRTC optimization, only the vdiConnectedState will be populated, indicating which optimization the session is currently in. There will be no vdiVersionInfo and device information stored in the JSON file for the session. When no optimization is available, there will be no updates made to the JSON file.
+
+
 
 ### Call Quality Dashboard in VDI
 

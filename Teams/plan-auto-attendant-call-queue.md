@@ -81,7 +81,7 @@ Call queues don't provide separate call routing for off hours and holidays. Even
 
 To configure Auto attendants and Call queues, you need the following resources:
 
-- A [Resource Account](manage-resource-accounts.md) for each Auto attendant or Call queue that directly answers calls. Nested auto attendants or call queues that receive calls from an auto attendant or call queue that answered the call do not require a resource account.
+- A [Resource Account](manage-resource-accounts.md) for each Auto attendant or Call queue that directly answers calls. Nested auto attendants or call queues that receive calls from an auto attendant or call queue that answered the call don't require a resource account.
 - A free [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md) for each resource account.
 - External phone calls:
   - At least one [Microsoft service number](getting-service-phone-numbers.md), [Operator Connect number](operator-connect-plan.md), [Direct Routing number](direct-routing-plan.md), or a hybrid number for each resource account that you want to be directly dialable from external phone numbers.

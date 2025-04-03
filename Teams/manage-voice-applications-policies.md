@@ -47,7 +47,7 @@ To manage voice applications policies with PowerShell, use the following PowerSh
   - Delete an existing Teams voice applications policy.
 
 > [!IMPORTANT]
-> The global, org-wide default policy disables all configuration change capabilities for all users. This policy should not be changed.
+> The global, org-wide default policy disables all configuration change capabilities for all users. This policy shouldn't be changed.
 >
 > You must create and assign custom policies to allow authorized users to make configuration changes to auto attendants and call queues.
 >
@@ -63,7 +63,7 @@ Create custom policies that reflect the configuration changes you want to allow 
 1. From here, choose the settings you want  to allow your authorized users to configure.
 
     > [!NOTE]
-    > Choose the policy name and description carefully as these can't be changed later.
+    > Choose the policy name and description carefully as they can't be changed later.
 
 1. Select **Save**.
 
@@ -110,8 +110,8 @@ Voice applications policies control the configuration changes and actions an aut
 
 Notes
 
-1. The authorized user requires a Teams Premium license to access this functionality.
-1. In order to change the holiday schedule, the authorized user must be authorized for all auto attendants that reference the holiday.
+1. Authorized users require a Teams Premium license to access this functionality.
+1. To change the holiday schedule, the authorized user must be authorized for all auto attendants that reference the holiday.
 1. This option isn't currently available for authorized users.
    
 ### Auto attendant - Reporting
@@ -132,7 +132,7 @@ Reporting values:
 
 Notes
 
-1. The authorized user requires a Teams Premium license and Queues app to access this functionality.
+1. Authorized users require a Teams Premium license and Queues app to access this functionality.
 
 ### Call queues - Features
 
@@ -155,7 +155,7 @@ Notes
 
 Notes
 
-1. The authorized user requires a Teams Premium license to access this functionality.
+1. Authorized users require a Teams Premium license to access this functionality.
 1. If the Call queue uses a distribution list, security group, Microsoft 365 group, or a Microsoft Teams channel, the owner of these can add or remove agents without a Teams Premium license or Queues app.
 1. This option isn't currently available for authorized users.
 
@@ -172,13 +172,13 @@ Agent monitor mode values:
 - Off (default) - The authorized user is not able to monitor an agent.
 - Monitor - The authorized user is able to monitor (listen only) an agent and listen to their call queue calls
 - Whisper - The authorized user is able to monitor and whisper to an agent on a call queue call. Only the agent hears what the authorized user says.
-- Barge - The authorized user is able to monitor, whisper and barge into an agent's call queue call
-- Takeover - The authorized user is able to montior, whisper, barge into and take over an agent's call queue call
+- Barge - The authorized user is able to monitor, whisper, and barge into an agent's call queue call
+- Takeover - The authorized user is able to monitor, whisper, barge into, and take over an agent's call queue call
 
 Agent monitor notification mode values:
 
-- Off (default) - The agent is not notified that they are being monitored
-- Agent - The agent is notified they are being monitored
+- Off (default) - The agent isn't notified that they're being monitored
+- Agent - The agent is notified they're being monitored
 
 Notes
 

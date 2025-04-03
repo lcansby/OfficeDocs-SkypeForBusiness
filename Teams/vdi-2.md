@@ -198,13 +198,13 @@ Microsoft Teams displays information about the optimization status, helping the 
 
 In cases where Microsoft Teams is not optimized, the user sees a warning icon.
 
-![Screenshot of the Teams app showing it is not optimized.](media/Status_Indicator_Not_Optimized_2.png)
+![Screenshot of the Teams app showing it's not optimized.](media/Status_Indicator_Not_Optimized_2.png)
 
 Users can attempt a repair by selecting the three dots and choosing **Optimize virtual desktop and restart**.
 
 This triggers a Teams restart, which can solve some known issues. If the user is still unoptimized, an error code displays for quick diagnosis by IT Admins based on the [connection error table](#connection-error).
 
-Users are presented with a [link](https://go.microsoft.com/fwlink/?linkid=2295247) to receive more information about the error, and if it is actionable, they can try a self-remediation.
+Users are presented with a [link](https://go.microsoft.com/fwlink/?linkid=2295247) to receive more information about the error, and if it's actionable, they can try a self-remediation.
 
 ## Session roaming and reconnections
 

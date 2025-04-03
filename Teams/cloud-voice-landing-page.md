@@ -37,19 +37,17 @@ The Microsoft Teams application is a Microsoft 365 product that is for users who
 
 Microsoft Teams includes support for native 1:1 calling *and* group calling from one Teams client to any other internal or external Teams clients.
 
-With the Microsoft Teams application, calls between users in your organization are handled natively within Teams. Calls are processed by Microsoft 365 Teams cloud services and don't use the Public Switched Telephone Network (PSTN)--thereby removing PSTN toll costs for native Teams calls.
+With the Microsoft Teams application, calls between users in your organization are handled natively within Teams. Calls are processed by Microsoft 365 Teams cloud services and don't use the Public Switched Telephone Network (PSTN)&mdash;thereby removing PSTN toll costs for native Teams calls.
 
-All users licensed for Teams are supported to make calls to other Teams users.
-
-- To support users making Teams calls with users who are *external* to your organization, follow the guidance found in [Collaborate with people outside your organization](communicate-with-users-from-other-organizations.md).
+All users licensed for Teams can make calls to other Teams users. To support users making Teams calls with users who are *external* to your organization, see [Collaborate with people outside your organization](communicate-with-users-from-other-organizations.md).
 
 The Calls app in Teams allows users to originate calls to other Teams users, view call history, and access voicemail. It also provides an alternative way to access their forwarding and audio settings.
 
-**Voicemail** - Cloud Voicemail is automatically set up and provisioned for all Teams users. See [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
+**Voicemail** - Cloud Voicemail is automatically set up and provisioned for all Teams users. For more information, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
-With Teams, users in your organization can use a wide range of features to call each other. They can click a name in their address book, and place Teams calls to that person. They make and receive calls using their mobile devices, a headset with a laptop or PC, or one of many certified, third-party IP phones that work with Teams.
+With Teams, users in your organization can use a wide range of features to call each other. They can select a name in their address book and place Teams calls to that person. They make and receive calls using their mobile devices, a headset with a laptop or PC, or one of many certified, third-party IP phones that work with Teams.
 
-Microsoft Teams native calling is turned on for all users, via policy, by default.
+By default, Microsoft Teams native calling is turned on for all users, via policy, by default.
 
 > [!NOTE]
 > Calling is controlled at the tenant level, per calling policy with the setting [Make private calls](settings-policies-reference.md).
@@ -64,21 +62,21 @@ When planning to support Teams calling in your enterprise, consider the followin
 
 Delivery of the Teams calling workload is accomplished through the Microsoft 365 cloud service, and administrators manage the delivery of Teams workloads and features through remote management of that cloud service.
 
-Administration of Teams Phone can be accomplished two ways:
+You can administer Teams Phone using two methods:
 
 - **PowerShell**
-  - To learn more about connecting to Teams and administration with PowerShell, see [Teams PowerShell overview](teams-powershell-overview.md).
+  - To learn more about connecting to Teams and administering with Teams PowerShell, see [Teams PowerShell overview](teams-powershell-overview.md).
 
 - **Teams admin center**
-  - For Commercial and Government Community Cloud (GCC) tenants, the url to access Teams admin center is [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com)
-  - For Government Community Cloud High (GCCH) tenants the url to access Teams admin center is [https://admin.gov.teams.microsoft.us](https://admin.gov.teams.microsoft.us/)
+  - For Commercial and Government Community Cloud (GCC) tenants, access Teams admin center via [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com)
+  - For Government Community Cloud High (GCCH) tenants, access Teams admin center via [https://admin.gov.teams.microsoft.us](https://admin.gov.teams.microsoft.us/)
   
 To learn more about Teams admin center, see the following article.
 
 > [!div class="nextstepaction"]
 > [Teams admin center overview](manage-teams-in-modern-portal.md)
 
-Administration of Teams features requires a privileged role assigned to the account that is used to access your Teams tenant. For permissions that allow you to administer your tenant (with Teams Admin Center and with PowerShell), and to learn more about Microsoft's RBAC (Role Based Access Control) for Teams, see the following article.
+To administer Teams features, you must use a privileged role assigned to the account that's used to access your Teams tenant. To learn more about permissions that allow you to administer your tenant (with Teams admin center and with PowerShell) and about Microsoft's RBAC (Role Based Access Control) for Teams, see the following article.
 
 > [!div class="nextstepaction"]
 > [Teams administrator roles](using-admin-roles.md)

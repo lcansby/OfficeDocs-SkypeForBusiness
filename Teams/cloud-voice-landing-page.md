@@ -47,12 +47,13 @@ The Calls app in Teams allows users to originate calls to other Teams users, vie
 
 With Teams, users in your organization can use a wide range of features to call each other. They can select a name in their address book and place Teams calls to that person. They make and receive calls using their mobile devices, a headset with a laptop or PC, or one of many certified, third-party IP phones that work with Teams.
 
-By default, Microsoft Teams native calling is turned on for all users, via policy, by default.
+By default, Microsoft Teams native calling is turned on via policy for all users.
 
 > [!NOTE]
 > Calling is controlled at the tenant level, per calling policy with the setting [Make private calls](settings-policies-reference.md).
 > If the **Make private calls setting** is turned off in the calling policy, users with that policy can't see the **Calls** app in their Teams client, can't escalate Chat conversations to audio calls, and can't receive incoming calls.
-> With **Make private calls setting** turned on, users can call from the **Calls** app and escalate Chat conversations to audio calls.
+>
+> With **Make private calls setting** turned on, users can call from the **Calls** app and can escalate Chat conversations to audio calls.
 
 ### Administering Teams calling
 
@@ -83,7 +84,7 @@ To administer Teams features, you must use a privileged role assigned to the acc
 
 #### Policies
 
-Microsoft Teams Phone supports a wide array of features, controlled by policy. For example, traditional calling features, like call hold music, call park, call recording, and more, are all administered through policy. Policies can be applied at a global, group, and user level.
+Microsoft Teams Phone supports a wide array of features that you control by policy. For example, traditional calling features, like call hold music, call park, call recording, and more, are all administered through policy. Policies can be applied at a global, group, and user level.
 
 To learn about general Teams policy administration concepts, see the following article.
 
@@ -104,14 +105,16 @@ For network best practices to support the optimal quality of Teams calls, see th
 
 #### Reporting call activity
 
-Native Teams *call history* for end-users, like other end-user activity, isn't itemized in usage reports for privacy reasons. However, with Microsoft Purview, Teams call metadata can be logged in eDiscovery investigations. To learn more about content reported in compliance investigations, see [Conduct an eDiscovery investigation of content in Microsoft Teams](/microsoft-365/compliance/ediscovery-teams-investigation). For more generic insights, you can report on the overall volume of *call activity* in the following article.
+Native Teams *call history* for end-users, like other end-user activity, isn't itemized in usage reports for privacy reasons. However, with Microsoft Purview, Teams call metadata can be logged in eDiscovery investigations. To learn more about content reported in compliance investigations, see [Conduct an eDiscovery investigation of content in Microsoft Teams](/microsoft-365/compliance/ediscovery-teams-investigation).
+
+For more generic insights, you can report on the overall volume of *call activity* in the following article.
 
 > [!div class="nextstepaction"]
 > [Teams usage reporting](./teams-analytics-and-reports/teams-reporting-reference.md)
 
 #### Reporting call performance
 
-Microsoft Teams includes a set of tools that can be used to analyze call quality in real-time for single calls in progress or analyze performance trends of all calls across your organization. For more information on monitoring performance, see the following article.
+Microsoft Teams includes a set of tools that can be used to analyze call quality in real-time for single calls in progress or analyze performance trends of all calls across your organization. For more information on these tools to monitor call performance and quality, see the following article.
 
 > [!div class="nextstepaction"]
 > [Monitor call quality](monitor-call-quality-qos.md#monitor-and-troubleshoot-call-quality)
@@ -125,7 +128,7 @@ A wide range of resources are available for Teams administrators to learn more a
 
 ## Teams Phone and enterprise telecommunications
 
-In addition to a rich set of native calling capabilities, Teams can also serve as your organization's telecommunications platform, allowing end users to make and receive domestic and international telephone calls.
+In addition to a rich set of native calling capabilities, Teams can also serve as your organization's telecommunications platform, allowing your end users to make and receive domestic and international telephone calls.
 
 To learn more about using Teams as a phone system, see the following article.
 

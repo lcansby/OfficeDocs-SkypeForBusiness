@@ -105,12 +105,9 @@ Intelligent recap is supported on the following types of meetings and calls:
 - Meetings: Meetings scheduled in the Teams client, meetings scheduled in Outlook, meet now
 - Calls: PSTN, 1:1, group peer-to-peer
 
-## Supported platforms
+## Platform support
 
-Intelligent recap is supported on the following platforms:
-
-- Desktop
-- Mobile
+To view the list of platforms that support this feature, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#platform-support-for-intelligent-meetings).
 
 ## Data and privacy
 

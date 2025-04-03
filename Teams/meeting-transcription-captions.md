@@ -5,6 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
+ms.subservice: meetings
 audience: admin
 ms.collection: 
   - M365-collaboration

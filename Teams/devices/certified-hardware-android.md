@@ -115,8 +115,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Yealink MeetingBoard 65" | `155.15.0.6` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Yealink CTP25 touch console | `311.320.0.2` | August 15, 2027 | Compatible with Yealink MeetingBar A40 | 13 |
 | Yealink MeetingBoard 65"/86" with MB-Camera-6X | `155.15.0.37 ` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10|
-| Yealink MeetingBoard 75 Pro | `300.320.0.7 ` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13|
-| Yealink MeetingBoard 75 Pro V2 | `331.320.0.27` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13|
+| Yealink MeetingBoard 75 Pro | `331.320.0.27` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13|
 
 ## [Firmware](#tab/firmware)
 
@@ -475,11 +474,21 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Poly Studio X30 | `4.4.2-434042` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| March 27, 2025|
+| Poly Studio X50 | `4.4.2-434042` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| March 27, 2025|
+| Poly Studio X70 | `4.4.2-434042` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| March 27, 2025|
+| Poly Studio X32 | `4.4.2-434042` |`N/A` |`1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| March 27, 2025|
+| Poly Studio X52 | `4.4.2-434042` |`N/A` |`1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| March 27, 2025|
+| Poly Studio X72 | `4.4.2-434042` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| March 27, 2025|
+| Poly Studio G7500 | `4.4.2-434042` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| March 27, 2025|
+| Poly Studio G62 | `4.4.2-434042` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| March 27, 2025|
+| Poly TC8 | `6.4.2-7000764` | N/A | `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| March 27, 2025|
+| Poly TC10 | `6.4.2-7000764` | N/A | `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| March 27, 2025|
 | Poly Studio X30 | `4.4.1-426075` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| February 3, 2025|
 | Poly Studio X50 | `4.4.1-426075` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| February 3, 2025|
 | Poly Studio X52 | `4.4.1-426075` |`N/A` |`1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| February 3, 2025|
 | Poly Studio X70 | `4.4.1-426075` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| February 3, 2025|
-| Poly Studio X72 | `4.4.1-426075` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| November 11, 2024|
+| Poly Studio X72 | `4.4.1-426075` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| February 3, 2025|
 | Poly Studio G7500 | `4.4.1-426075` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| February 3, 2025|
 | Poly Studio G62 | `4.4.1-426075` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| February 3, 2025|
 | Poly TC8 | `6.4.1-7000634` | N/A | `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| February 3, 2025|

@@ -5,6 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.topic: how-to
 ms.service: msteams
+ms.subservice: meetings
 ms.reviewer: maahma
 ms.date: 1/9/2025
 audience: admin
@@ -49,9 +50,13 @@ Think of regular Teams meeting security like a long corridor that intersects oth
 
 - Together mode, companion mode, large gallery
 
-All of these services require some level of data processing, which is all done in accordance with the Microsoft Privacy statement. With end-to-end encryption, you won't be able to use any of those meeting features.  If for example you were going to have an in-person meeting to discuss a major change in the company org chart, you might take extra security measures you don't usually take like pulling the blinds and covering the whiteboards and you might not let a caterer or janitor into that room because the damage from a leak could be catastrophic. Your normal in-person meeting experience might be secure enough due to other security measures like badges and cameras and security guards at the building entrance, but if you would consider hiring a security guard to sit at the meeting room entrance and restrict what goes in or out of the room, that kind of meeting online might be a candidate for end-to-end encryption. 
+All of these services require some level of data processing, which is all done in accordance with the Microsoft Privacy statement. With end-to-end encryption, you won't be able to use any of those meeting features.  If for example you were going to have an in-person meeting to discuss a major change in the company org chart, you might take extra security measures you don't usually take like pulling the blinds and covering the whiteboards and you might not let a caterer or janitor into that room because the damage from a leak could be catastrophic. Your normal in-person meeting experience might be secure enough due to other security measures like badges and cameras and security guards at the building entrance, but if you would consider hiring a security guard to sit at the meeting room entrance and restrict what goes in or out of the room, that kind of meeting online might be a candidate for end-to-end encryption.
 
-End-to-end encrypted meetings can be made between two parties when: the parties are using the latest version of the Teams desktop client for Windows or Mac or they are on a mobile device with the latest update for iOS and Android.
+End-to-end encrypted meetings can be made when participants use the latest versions of the following platforms and clients:
+
+- Teams desktop client for Windows or Mac
+- iOS and Android mobile devices
+- Microsoft Teams Rooms for Windows or Android
 
 Web, Virtual Desktop (VDI), and Cloud Video Interoperability (CVI) devices aren't currently supported. Participants trying to join an end-to-end encrypted meeting from one of these platforms are blocked.
 

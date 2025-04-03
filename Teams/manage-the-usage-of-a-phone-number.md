@@ -27,7 +27,7 @@ description: "Learn how to change the usage of a phone number to be used as eith
 
 # Manage the usage of a phone number
 
-You might want to change the usage of a phone number to set up a different service on it. 
+You might want to change the usage of a phone number to set up a different a different service on it. 
 
 There are three types of number usages:
 

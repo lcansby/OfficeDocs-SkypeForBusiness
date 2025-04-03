@@ -29,11 +29,13 @@ description: "Learn how to change the usage of a phone number to be used as eith
 
 You might want to change the usage of a phone number to set up a different service on it. 
 
-There are three types of usages:
+There are three types of number usages:
 
-- User number assigned directly to a user or a person.
-- Service number assigned to an Auto attendant or Call queue.
-- Service number assigned to an Audio conferencing bridge.
+- **User** for phone numbers assigned directly to a user or a person.
+
+- **Voice app** for phone numbers assigned to an Auto attendant or Call queue.
+
+- **Conference** for phone numbers assigned to an Audio conferencing bridge.
 
 For more information about types of phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md).
 

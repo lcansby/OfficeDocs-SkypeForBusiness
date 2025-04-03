@@ -95,13 +95,13 @@ To manage Interpreter agent for your entire organization, you can use the **`-AI
 
 The org-wide **`-AIInterpreter`** parameter controls whether your users with a Copilot license can use Interpreter agent during meetings in your organization. **This parameter is enabled by default.**
 
-To turn Interpreter agent off for your entire organization, use the following script:
+To turn off Interpreter agent for your entire organization, use the following script:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AIInterpreter Disabled
 ```
 
-To turn Interpreter agent on for your entire organization, use the following script:
+To turn on Interpreter agent for your entire organization, use the following script:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AIInterpreter Enabled
@@ -113,7 +113,7 @@ The org-wide **`-VoiceSimulationInInterpreter`** parameter controls your users' 
 
 Here's the user experience for Interpreter agent depending on the value you choose:
 
-- **Enabled**: Sets the default value for **Your voice representation** to **Simulate my voice**. When users turn on Interpreter agent, it automatically simulates their voices when translating to others in meetings. Users also have the option to select an automated voice.
+- **Enabled**: Sets the default value for **Your voice representation** to **Simulate my voice**. When users turn on Interpreter agent, it automatically simulates their voices when translating to others in meetings. Users can also select an automated voice.
 
 - **Disabled**: Sets the default value for **Your voice representation** to **Automated voice**. When users turn on Interpreter agent, they choose one of the automated voices that is translated to others. Users can also choose to allow Interpreter to simulate their voice. **This is the default value.**
 

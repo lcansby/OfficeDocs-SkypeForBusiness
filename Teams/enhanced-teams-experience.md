@@ -65,7 +65,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 - **End-to-end encryption** - Enforced through a sensitivity label, end-to-end encryption provides increased security for meetings that require a higher level of protection.
 
-- **External domain activity report** - Understand how your org communicates with trusted external organizations over chat.
+- **External domain activity report** - Understand how your organization communicates with trusted external organizations over chat.
 
 - **Hide attendee names** - Meeting and webinar organizers can hide the names of attendees from other attendees in the stage, roster, and chat.
 
@@ -209,7 +209,7 @@ The following sections describe Teams Premium feature enhancements for town hall
 
 ### Town halls
 
-Teams Premium provides more ways to elevate Teams town halls in your org with the following key features:
+Teams Premium provides more ways to elevate Teams town halls in your organization with the following key features:
 
 - **50,000 attendees** - Organizers can host town halls with up to 50,000 attendees. To create town halls with more than 20,000 attendees, organizers must work with the Microsoft 365 Live Event Assistance Program (LEAP). To learn more, see [Plan for town halls](plan-town-halls.md).
 - **Chat for town hall attendees** - Organizers can allow attendees to use chat during town halls.
@@ -253,7 +253,7 @@ The following table describes platform support for Teams Premium town hall featu
 
 ### Webinars
 
-Teams Premium provides more ways to elevate Teams webinars in your org with the following key features:
+Teams Premium provides more ways to elevate Teams webinars in your organization with the following key features:
 
 - **Custom emails for webinars** - Organizers and co-organizers can customize the webinar email templates sent to attendees.
 - **Custom webinar reminder email send times** - Webinar reminder emails are automatically sent to registrants an hour before the event starts. With Teams Premium, organizers can edit the send time to notify attendees sooner.

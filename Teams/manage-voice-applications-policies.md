@@ -164,13 +164,25 @@ Notes
 |Teams voice applications policy setting|Description                                                      |PowerShell parameter     |Teams Premium required<sup>1</sup>|
 |--------------------------------|------------------------------------------------------------------------|--------------------------------------|---------------------|
 |Opt agent in/out of queue       |This setting allows authorized users to change an agent's opt-in status.|AllowCallQueueAgentOptChange          |Yes                  | 
-|Agent monitor mode              |This setting isn't currently available for authorized users.           |CallQueueAgentMonitorMode             |Yes<sup>2</sup>      |
-|Agent monitor notification mode |This setting isn't currently available for authorized users.           |CallQueueAgentMonitorNotificationMode |Yes<sup>2</sup>      |
+|Agent monitor mode              |This setting allows authorized users to monitor an agent's call queue calls.           |CallQueueAgentMonitorMode                    |Yes      |
+|Agent monitor notification mode |This setting controls if agents are notified that they are being monitored        |CallQueueAgentMonitorNotificationMode        |Yes      |
+
+Agent monitor mode values:
+
+- Off (default) - The authorized user is not able to monitor an agent.
+- Monitor - The authorized user is able to monitor (listen only) an agent and listen to their call queue calls
+- Whisper - The authorized user is able to monitor and whisper to an agent on a call queue call. Only the agent hears what the authorized user says.
+- Barge - The authorized user is able to monitor, whisper and barge into an agent's call queue call
+- Takeover - The authorized user is able to montior, whisper, barge into and take over an agent's call queue call
+
+Agent monitor notification mode values:
+
+- Off (default) - The agent is not notified that they are being monitored
+- Agent - The agent is notified they are being monitored
 
 Notes
 
 1. The authorized user requires a Teams Premium license and Queues app to access this functionality.
-1. This option isn't currently available for authorized users.
    
 ### Call queues - Reporting
 

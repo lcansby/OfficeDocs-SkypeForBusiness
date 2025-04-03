@@ -4,10 +4,11 @@ author: wlibebe
 ms.author: wlibebe
 manager: pamgreen
 ms.reviewer: harinlee
-ms.date: 3/31/2025
+ms.date: 4/3/2025
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: meetings
 audience: Admin
 ms.collection: 
   - m365initiative-meetings
@@ -94,13 +95,13 @@ To manage Interpreter agent for your entire organization, you can use the **`-AI
 
 The org-wide **`-AIInterpreter`** parameter controls whether your users with a Copilot license can use Interpreter agent during meetings in your organization. **This parameter is enabled by default.**
 
-To turn off Interpreter agent for your entire organization, use the following script:
+To turn Interpreter agent off for your entire organization, use the following script:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AIInterpreter Disabled
 ```
 
-To turn on Interpreter agent for your entire organization, use the following script:
+To turn Interpreter agent on for your entire organization, use the following script:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AIInterpreter Enabled
@@ -138,7 +139,7 @@ Interpreter agent is supported on the following platforms:
 - Teams mobile (iOS and Android)
 - Teams web (Chrome, Microsoft Edge, and Firefox)
 
-Interpreter agent is available during scheduled meetings, channel meetings, and Virtual Desktop Infrastructure (VDI). However, Interpreter agent isn't supported for unscheduled 1:1 calls (VoIP or Public Switched Telephone Network (PSTN)), meetings scheduled using Microsoft Teams Rooms or personal devices, town halls, and Microsoft Teams Free.
+Interpreter agent is available during scheduled meetings, channel meetings, and Virtual Desktop Infrastructure (VDI). However, Interpreter agent isn't supported for unscheduled 1:1 calls (VoIP or Public Switched Telephone Network (PSTN)), meetings scheduled using Microsoft Teams Rooms or personal devices, town halls, webinars, and Microsoft Teams free.
 
 ### Scenarios
 

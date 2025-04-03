@@ -3,8 +3,9 @@ title: Manage meeting policies for audio and video
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
+ms.subservice: meetings
 ms.reviewer: casjacks
 ms.date: 10/31/2024
 audience: admin

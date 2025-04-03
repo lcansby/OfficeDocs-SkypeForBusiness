@@ -360,6 +360,8 @@ items:
 
 - name: AI, Copilot, and agents in Teams
   items:
+    - name: Overview of AI in Teams
+      href: copilot-ai-agents-overview.md
     - name: AI features in Teams
       items:
       - name: Intelligent recap for Teams calls and meetings
@@ -1592,7 +1594,7 @@ items:
                     - name: IntelliFrame
                       items:
                       - name: Multi-Stream IntelliFrame
-                        href: devices/smartvision-admin.md
+                        href: devices/multistream-intelliframe.md
                       - name: Cloud IntelliFrame
                         href: devices/cloud-intelliframe.md
             - name: Teams panels

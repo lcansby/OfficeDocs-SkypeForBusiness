@@ -111,7 +111,7 @@ The following registry keys could block new media engine MSIX package installati
 > Managed endpoints/thin clients where BlockNonAdminUserInstall is enabled can still allow SlimCore packages to install by applying KB505294 (Windows 11 23H2 and 22H2) and KB505293 (Windows 11 24H2), or any subsequent KB. This introduces a new Group Policy called "Allowed package family names for non-admin user install" in the Local Group Policy Editor. Administrators can then Allow list SlimCore packages by allowing a complete package familyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.43_8wekyb3d8bbwe) or use Regex (for example, Microsoft.Teams.SlimCoreVdi.*_8wekyb3d8bbwe)
 
 > [!IMPORTANT]
-> If AllowAllTrustedApps is disabled, the new media engine (MSIX) installation fails. This issue has been fixed in the Windows October cumulative update KB5031455:
+> If AllowAllTrustedApps is disabled, the new media engine (MSIX) installation fails. This issue is fixed in the Windows October cumulative update KB5031455:
 >
 > - [Windows 10: October 26, 2023—KB5031445 (OS Build 19045.3636)](https://support.microsoft.com/topic/october-26-2023-kb5031445-os-build-19045-3636-preview-03f350cb-57f9-45e6-bfd7-438895d3c7fa)
 > - [Windows 11: October 26, 2023—KB5031455 (OS Build 22621.2506)](https://support.microsoft.com/topic/october-26-2023-kb5031455-os-build-22621-2506-preview-6513c5ec-c5a2-4aaf-97f5-44c13d29e0d4)
@@ -422,7 +422,7 @@ Customers with Thin Clients that have [Unified Write Filters](/windows/configura
        - If someone turns their camera **on** only, there's no issue because the video element is created, not destroyed.
        - If the presenter maximizes the call monitor (which destroys the self preview of what the presenter is sharing).
   - Stopping and resharing the window should resolve the issue.
-  - This issue has been resolved in new Teams 24335.206.X.X or higher versions.
+  - This issue is resolved in new Teams 24335.206.X.X or higher versions.
 - If you're on a video call and you open the Start menu on the virtual machine, a blank screen shows in the Teams meeting window instead of the video feed.
 - In CQD, VdiMode (x2xx) represents both VDI SlimCore Optimized and Unoptimized Fallback, which may misattribute poor call quality.
   

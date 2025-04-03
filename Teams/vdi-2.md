@@ -291,7 +291,7 @@ Implement QoS settings for endpoints and network devices and determine how you w
   - defining DSCP markings
 
 > [!IMPORTANT]
-> We recommend implementing these QoS policies using the endpoint source ports and a source and destination IP address of "any". This catches both incoming and outgoing media traffic on the internal network.
+> We recommend implementing these QoS policies using the endpoint source ports and a source and destination IP address of "any". These policies catch both incoming and outgoing media traffic on the internal network.
 
 ### Technologies that aren't recommended with Microsoft Teams in VDI
 

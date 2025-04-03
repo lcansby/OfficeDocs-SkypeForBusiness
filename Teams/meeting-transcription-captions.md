@@ -75,9 +75,9 @@ By default, transcripts are shown in the language spoken that's during a meeting
 
 To turn on **Live translated transcription**, **Transcription** must be set to '**On**' in the corresponding meeting policy in the Teams admin center. To turn off **Live translated transcription**, set **Transcription** to **Off**.
 
-## Platform support
+## Platform support for live translated transcription
 
-To view the list of platforms that support this live translated transcription, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#platform-support-for-personalized-meetings).
+To view the list of platforms that support live translated transcription, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#platform-support-for-intelligent-meetings).
 
 ## Live captions
 
@@ -112,9 +112,9 @@ Live translated captions allow your users to see captions translated into the la
 
 To turn on live translated captions, you must set **Live captions** to **Not enabled, but users can enable** in the corresponding meeting policy in the Teams admin center. To turn off live translated captions, set **Live captions** to **Off**.
 
-### Platform support
+### Platform support for live translated captions
 
-To view the list of platforms that support live translated  captions, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#platform-support-for-personalized-meetings).
+To view the list of platforms that support live translated captions, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#platform-support-for-intelligent-meetings).
 
 ## Manage whether organizers can prevent participants from copying or forwarding meeting chat messages, live captions, and transcripts
 

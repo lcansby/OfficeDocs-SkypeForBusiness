@@ -46,7 +46,7 @@ The Interpreter agent supports the following languages for speaking and listenin
 The following list contains the prerequisites for users to access Interpreter agent in Teams meetings. Users must meet all the following requirements:
 
 > [!NOTE]
-> We'll update the licensing details for General availability. Check back soon for updates.
+> We'll update the licensing requirements for General availability. Check back soon for updates.
 
 - An eligible *Microsoft 365* base license.
   - For the list of eligible base licenses, see [Understand licensing requirements for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-licensing).

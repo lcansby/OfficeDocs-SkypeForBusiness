@@ -218,9 +218,9 @@ Teams Premium provides more ways to elevate Teams town halls in your organizatio
 - **Live translated captions**- Organizers can choose up to 10 languages for attendees to use when translating captions during the town hall.
 - **Live translated transcripts** - Your users can understand each other better during a town hall by translating the meeting transcript into the language they're most comfortable with.
 - **Microsoft eCDN** - Optimize network performance for video streaming within an enterprise network. Microsoft eCDN allows millions of enterprise users around the world to communicate face-to-face efficiently and reliably. You can use the Microsoft eCDN or select one of our partner providers for Premium town halls.
-- **Real time monitoring of the attendee experience** - Admins can use the eCDN analytics dashboard to troubleshoot the attendee experience during live town halls.
+- **Real time monitoring of the attendee experience** - You can use the eCDN analytics dashboard to troubleshoot the attendee experience during live town halls.
 - **Town hall attendee reactions** - Organizers can allow attendees to engage and provide feedback during a town hall with live reactions.
-- **Town hall insights** - Town hall organizers can monitor join and quality of the audio/video experience for their town hall attendees while they're live.
+- **Town hall insights** - Organizers can monitor join and quality of the audio/video experience for their town hall attendees while they're live.
 
   | Feature/Task | Can admins turn this feature on/off? |Documentation for admins| Documentation for your end users |
   | -------------------- |  ----------- | ----------- | ----------- |
@@ -236,20 +236,17 @@ Teams Premium provides more ways to elevate Teams town halls in your organizatio
 
 The following table describes platform support for Teams Premium town hall features:
 
-> [!NOTE]
-> The view-only experience doesn't apply to town halls.
+|Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|External communication with unmanaged Teams users|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
+| -------------------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
+| Custom emails for town halls|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|Yes|Yes|
+| Event chat|Yes|Yes|Yes|Yes|No|No|N/A|N/A|No|N/A|Yes|N/A|No<sup>1</sup>|Yes|
+| Live translated captions|Yes|Yes|Yes|Yes|N/A|N/A|N/A|N/A|N/A|Yes|N/A|Yes|Yes|N/A|
+| Live translated transcripts|Yes|Yes|Yes|Yes|N/A|N/A|N/A|N/A|N/A|Yes|N/A|Yes|Yes|N/A|
+| Microsoft eCDN, analytics, and provider management|Yes|Yes|No|Yes|No|No|No|No|No|No|No|Yes|Partial<sup>1</sup>|Yes|
+| Town hall attendee reactions|Yes|Yes|Yes|Yes|No|No|N/A|N/A|No|N/A|Yes|N/A|Partial<sup>1</sup>|Yes|
+| Town hall insights |Yes|Yes|Yes|Yes|No|No|N/A|N/A|No|No|Yes|N/A|Partial<sup>1</sup>|Yes|
 
-|Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|External communication with unmanaged Teams users|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
-| -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
-| Custom emails for town halls|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|Yes|Yes|
-| Event chat|Yes|Yes|Yes|Yes|No|No|N/A|N/A|No|Yes|N/A|Yes|N/A|No<sup>1</sup>|Yes|
-| Live translated captions|Yes|Yes|Yes|Yes|N/A|N/A|N/A|N/A|N/A|N/A|Yes|N/A|Yes|Yes|N/A|
-| Live translated transcripts|Yes|Yes|Yes|Yes|N/A|N/A|N/A|N/A|N/A|N/A|Yes|N/A|Yes|Yes|N/A|
-| Microsoft eCDN, analytics, and provider management|Yes|Yes|No|Yes|No|No|No|No|No|Yes|No|No|Yes|Partial<sup>1</sup>|Yes|
-| Town hall attendee reactions|Yes|Yes|Yes|Yes|No|No|N/A|N/A|No|Yes|N/A|Yes|N/A|Partial<sup>1</sup>|Yes|
-| Town hall insights |Yes|Yes|Yes|Yes|No|No|N/A|N/A|No|Yes|No|Yes|N/A|Partial<sup>1</sup>|Yes|
-
-<sup>1</sup> - Your users should join town halls through new Teams on the web.
+<sup>1</sup> - Your users should join via web.
 
 ### Webinars
 
@@ -278,18 +275,15 @@ Teams Premium provides more ways to elevate Teams webinars in your organization 
 
 The following table describes platform support for Teams Premium webinar features:
 
-> [!NOTE]
-> The view-only experience doesn't apply to webinars.
-
-|Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|View-only mode|External communication with unmanaged Teams users|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
-| -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
-| Custom emails and reminders for webinars|Yes|Yes|N/A|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|No|Yes|Yes|
-| Enable and manage the waitlist for webinars beyond capacity|Yes|Yes|N/A|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|No|Yes|Yes|
-| Hide attendee names |Yes|Yes|Yes|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|Yes|Yes|Yes|
-| Limit registration start and end times|Yes|Yes|N/A|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|No|Yes|Yes|
-| Manage what attendees see |Yes|Yes|No|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|N/A|Yes|Yes|Yes|
-| Manually approve registrants |Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|No|Yes|Yes|
-| RTMP-In |Yes|Yes|No|Yes|No|No|No|No|N/A|Yes|N/A|Yes|No|Yes|Yes|
+|Feature|Windows|MAC|Mobile|Web|Microsoft Teams Rooms- Windows|Microsoft Teams Rooms- Android|Touch boards for Teams Rooms|Direct guest join|CVI|External communication with unmanaged Teams users|Anonymous users support|VDI WebRTC classic optimization|VDI SlimCore-based optimization|Exchange on-premises|
+| -------------------- | ----------- | ----------- | ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------ |
+| Custom emails and reminders for webinars|Yes|Yes|N/A|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|No|Yes|Yes|
+| Enable and manage the waitlist for webinars beyond capacity|Yes|Yes|N/A|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|No|Yes|Yes|
+| Hide attendee names |Yes|Yes|Yes|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|Yes|Yes|Yes|
+| Limit registration start and end times|Yes|Yes|N/A|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|No|Yes|Yes|
+| Manage what attendees see |Yes|Yes|No|Yes|N/A|N/A|N/A|N/A|N/A|N/A|N/A|Yes|Yes|Yes|
+| Manually approve registrants |Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|Yes|Yes|
+| RTMP-In |Yes|Yes|No|Yes|No|No|No|No|N/A|N/A|Yes|No|Yes|Yes|
 
 ## Advanced Virtual Appointments
 

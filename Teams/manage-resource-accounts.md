@@ -113,7 +113,7 @@ For more information on this option, see [Limit who users can see when searching
 
 #### Compliance - Auditing
 
-1. Sign into the [Microsoft Purview compliance portal](https://compliance.microsoft.com/).
+1. Sign into the [Microsoft Purview portal](https://purview.microsoft.com/).
 2. In the left navigation pane, select **Audit**.
 3. If auditing is turned off, the following banner is displayed:
 
@@ -157,7 +157,7 @@ For more information on segmenting users, see [Identify segments](/microsoft-365
 
 #### Compliance - Information Barriers
 
-1. Sign into the [Microsoft Purview compliance portal](https://compliance.microsoft.com/).
+1. Sign into the [Microsoft Purview portal](https://purview.microsoft.com/).
 2. In the left navigation pane, select **Information barriers** > **Segments**.
 3. Select **New segment**.
 4. Enter a name for the segment, and select **Next**. For example, `Uncallable Resource Accounts`.

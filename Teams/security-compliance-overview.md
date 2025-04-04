@@ -101,7 +101,7 @@ We've provided information on these areas in this document, and you can use [Mic
 
 ### Auditing
 
-Microsoft Purview Audit (Standard), Audit (Premium), and audit log search plug right into Microsoft Purview, and gives you the ability to set alerts and report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Microsoft Purview compliance portal, and filter and export this data for further analysis. To learn more about searching for Microsoft Teams events in  Microsoft Purview, see [Search the audit log for events in Microsoft Teams](/purview/audit-teams-audit-log-events).
+Microsoft Purview Audit (Standard), Audit (Premium), and audit log search plug right into Microsoft Purview, and gives you the ability to set alerts and report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Microsoft Purview portal, and filter and export this data for further analysis. To learn more about searching for Microsoft Teams events in  Microsoft Purview, see [Search the audit log for events in Microsoft Teams](/purview/audit-teams-audit-log-events).
 
 ### Communication compliance
 

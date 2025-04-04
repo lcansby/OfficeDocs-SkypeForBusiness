@@ -49,8 +49,10 @@ To access the best practice configuration dashboard, follow these steps:
    To view a detailed dashboard with recommendation, select a best practice from a row in this table. A list of IP addresses is shown by city, displaying the extent to which each location follows best practices. You can use the name of the city, country/region, or the IP address to search and filter for locations. You can also export the dashboard's table in a CSV file that you can share.
 
 ## Interpret the dashboards
-
 The following sections provide details on the information in each best practice configuration's dashboard.
+
+> [!NOTE]
+> Top-level groupings such as countries, cities, and public IP addresses are utilized to identify systemic issues that broadly impact your tenant. This approach allows efficient detection and helps address widespread problems affecting multiple users within a specific region or network segment. By focusing on these broader categories, you can quickly identify patterns and trends that may indicate underlying issues, rather than attempting to pinpoint every individual user affected.
 
 ### Update outdated Teams clients
 

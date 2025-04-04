@@ -4,7 +4,7 @@ author: wlibebe
 ms.author: wlibebe
 manager: pamgreen
 ms.reviewer: harinlee
-ms.date: 4/3/2025
+ms.date: 4/4/2025
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -33,9 +33,11 @@ description: Learn how to manage Interpreter agent in Microsoft Teams to provide
 >
 > Features in preview might not be complete and could undergo changes before becoming available in the public release. They're provided for evaluation and exploration purposes only.
 
-Interpreter agent acts as a translator in Microsoft Teams meetings, allowing participants with a Microsoft 365 Copilot license to either listen to the meeting in their chosen language. It listens to the spoken language in the meeting and translates it into another language in real-time. This feature allows participants who speak different languages to understand each other and collaborate effectively. To represent their voices, participants can choose to have Interpreter simulate their own voice when translating to others or select one of the following preset automated voices:  Voice 1 (female), Voice 2 (male), Voice 3 (neutral).
+Interpreter agent acts as a translator in Microsoft Teams meetings, allowing participants with a Microsoft 365 Copilot license to listen to the meeting in their chosen language. Interpreter listens to the spoken language in the meeting and translates it into another language in real-time, allowing participants who speak different languages to understand each other and collaborate effectively. To represent their voices, participants can choose to have Interpreter simulate their own voice when translating to others or select one of the following preset automated voices:  Voice 1 (female), Voice 2 (male), Voice 3 (neutral).
 
 As an admin, you can control whether your organization can use Interpreter and select the default setting for voice representation.
+
+To learn more about the Interpreter experience in meetings, see [Interpreter in Microsoft Teams meetings](https://support.microsoft.com/office/interpreter-in-microsoft-teams-meetings-c7efe2bb-535d-42ab-a5c4-d2d91619b46d).
 
 ## Supported languages
 
@@ -108,7 +110,7 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -AIInterpreter Enabled
 
 ### Set the default value for voice representation
 
-The org-wide **`-VoiceSimulationInInterpreter`** parameter controls your users' default value for **Your voice representation** in **Interpreter settings**. The **Your voice representation** setting controls how a user's voice is represented to other participants. By default, this parameter is set to disabled.**
+The org-wide **`-VoiceSimulationInInterpreter`** parameter controls your users' default value for **Your voice representation** in **Interpreter settings**. The **Your voice representation** setting controls how a user's voice is represented to other participants. **By default, this parameter is set to disabled.**
 
 Here's the user experience for Interpreter depending on the value you choose:
 
@@ -128,33 +130,28 @@ To set the org-wide default value for the **Your voice representation** setting 
 Set-CsTeamsMeetingPolicy -Identity <policy name> -VoiceSimulationInInterpreter Disabled
 ```
 
-## Supported platforms and scenarios
+## Supported platforms and clients
 
-### Platforms
+### Supported
 
-Interpreter is supported on the following platforms:
+Interpreter is supported on the following platforms and clients:
 
 - Teams desktop (Windows and Mac)
 - Teams mobile (iOS and Android)
 - Teams web (Chrome, Microsoft Edge, and Firefox)
+- Scheduled meetings
+- Channel meetings
+- Virtual Desktop Infrastructure (VDI)
 
-Interpreter is available during scheduled meetings, channel meetings, and Virtual Desktop Infrastructure (VDI). However, Interpreter agent isn't supported for unscheduled 1:1 calls (VoIP or Public Switched Telephone Network (PSTN)), meetings scheduled using Microsoft Teams Rooms or personal devices, town halls, webinars, and Microsoft Teams free.
+### Not supported
 
-### Scenarios
+Interpreter isn't supported on the following platforms and clients:
 
-Interpreter works in both remote and hybrid meetings where participants join online in a meeting room.
-
-Supported:
-
-- Fully remote meetings with multilingual participants.
-- Hybrid scenarios where both in-person and remote users share a single laptop.
-- Physical group settings using a shared laptop for interpretation.
-
-Not supported:
-
-- Unscheduled 1:1 calls (VoIP or PSTN).
-- Meetings using Microsoft Teams Rooms with personal laptops in a room.
-- Physical setups where multiple devices are used for interpretation.
+- Unscheduled 1:1 calls (VoIP or Public Switched Telephone Network (PSTN))
+- Meetings scheduled using Microsoft Teams Rooms or personal devices
+- Town halls
+- Webinars
+- Microsoft Teams free
 
 ## Related articles
 

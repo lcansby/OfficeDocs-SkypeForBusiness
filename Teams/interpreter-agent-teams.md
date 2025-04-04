@@ -4,7 +4,7 @@ author: wlibebe
 ms.author: wlibebe
 manager: pamgreen
 ms.reviewer: harinlee
-ms.date: 4/3/2025
+ms.date: 4/4/2025
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -108,7 +108,7 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -AIInterpreter Enabled
 
 ### Set the default value for voice representation
 
-The org-wide **`-VoiceSimulationInInterpreter`** parameter controls your users' default value for **Your voice representation** in **Interpreter settings**. The **Your voice representation** setting controls how a user's voice is represented to other participants. By default, this parameter is set to disabled.**
+The org-wide **`-VoiceSimulationInInterpreter`** parameter controls your users' default value for **Your voice representation** in **Interpreter settings**. The **Your voice representation** setting controls how a user's voice is represented to other participants. **By default, this parameter is set to disabled.**
 
 Here's the user experience for Interpreter depending on the value you choose:
 
@@ -128,33 +128,28 @@ To set the org-wide default value for the **Your voice representation** setting 
 Set-CsTeamsMeetingPolicy -Identity <policy name> -VoiceSimulationInInterpreter Disabled
 ```
 
-## Supported platforms and scenarios
+## Supported platforms and clients
 
-### Platforms
+### Supported
 
-Interpreter is supported on the following platforms:
+Interpreter is supported on the following platforms and clients:
 
 - Teams desktop (Windows and Mac)
 - Teams mobile (iOS and Android)
 - Teams web (Chrome, Microsoft Edge, and Firefox)
+- Scheduled meetings
+- Channel meetings
+- Virtual Desktop Infrastructure (VDI)
 
-Interpreter is available during scheduled meetings, channel meetings, and Virtual Desktop Infrastructure (VDI). However, Interpreter agent isn't supported for unscheduled 1:1 calls (VoIP or Public Switched Telephone Network (PSTN)), meetings scheduled using Microsoft Teams Rooms or personal devices, town halls, webinars, and Microsoft Teams free.
+### Not supported
 
-### Scenarios
+Interpreter isn't supported on the following platforms and clients:
 
-Interpreter works in both remote and hybrid meetings where participants join online in a meeting room.
-
-Supported:
-
-- Fully remote meetings with multilingual participants.
-- Hybrid scenarios where both in-person and remote users share a single laptop.
-- Physical group settings using a shared laptop for interpretation.
-
-Not supported:
-
-- Unscheduled 1:1 calls (VoIP or PSTN).
-- Meetings using Microsoft Teams Rooms with personal laptops in a room.
-- Physical setups where multiple devices are used for interpretation.
+- Unscheduled 1:1 calls (VoIP or Public Switched Telephone Network (PSTN))
+- Meetings scheduled using Microsoft Teams Rooms or personal devices
+- Town halls
+- Webinars
+- Microsoft Teams free
 
 ## Related articles
 

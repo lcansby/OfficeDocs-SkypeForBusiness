@@ -108,10 +108,10 @@ The following registry keys could block new media engine MSIX package installati
 - AllowDevelopmentWithoutDevLicense
 
 > [!IMPORTANT]
-> Managed endpoints/thin clients where BlockNonAdminUserInstall is enabled can still allow SlimCore packages to install by applying KB505294 (Windows 11 23H2 and 22H2) and KB505293 (Windows 11 24H2), or any subsequent KB. This introduces a new Group Policy called "Allowed package family names for non-admin user install" in the Local Group Policy Editor. Administrators can then Allow list SlimCore packages by allowing a complete package familyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.43) or use Regex (for example, Microsoft.Teams.SlimCoreVdi.*)
+> Managed endpoints/thin clients where BlockNonAdminUserInstall is enabled can still allow SlimCore packages to install by applying KB505294 (Windows 11 23H2 and 22H2) and KB505293 (Windows 11 24H2), or any subsequent KB. This introduces a new Group Policy called "Allowed package family names for non-admin user install" in the Local Group Policy Editor. Administrators can then Allow list SlimCore packages by allowing a complete package familyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.43_8wekyb3d8bbwe) or use Regex (for example, Microsoft.Teams.SlimCoreVdi.*_8wekyb3d8bbwe)
 
 > [!IMPORTANT]
-> If AllowAllTrustedApps is disabled, the new media engine (MSIX) installation fails. This issue has been fixed in the Windows October cumulative update KB5031455:
+> If AllowAllTrustedApps is disabled, the new media engine (MSIX) installation fails. This issue is fixed in the Windows October cumulative update KB5031455:
 >
 > - [Windows 10: October 26, 2023—KB5031445 (OS Build 19045.3636)](https://support.microsoft.com/topic/october-26-2023-kb5031445-os-build-19045-3636-preview-03f350cb-57f9-45e6-bfd7-438895d3c7fa)
 > - [Windows 11: October 26, 2023—KB5031455 (OS Build 22621.2506)](https://support.microsoft.com/topic/october-26-2023-kb5031455-os-build-22621-2506-preview-6513c5ec-c5a2-4aaf-97f5-44c13d29e0d4)
@@ -198,13 +198,13 @@ Microsoft Teams displays information about the optimization status, helping the 
 
 In cases where Microsoft Teams is not optimized, the user sees a warning icon.
 
-![Screenshot of the Teams app showing it is not optimized.](media/Status_Indicator_Not_Optimized_2.png)
+![Screenshot of the Teams app showing it's not optimized.](media/Status_Indicator_Not_Optimized_2.png)
 
 Users can attempt a repair by selecting the three dots and choosing **Optimize virtual desktop and restart**.
 
 This triggers a Teams restart, which can solve some known issues. If the user is still unoptimized, an error code displays for quick diagnosis by IT Admins based on the [connection error table](#connection-error).
 
-Users are presented with a [link](https://go.microsoft.com/fwlink/?linkid=2295247) to receive more information about the error, and if it is actionable, they can try a self-remediation.
+Users are presented with a [link](https://go.microsoft.com/fwlink/?linkid=2295247) to receive more information about the error, and if it's actionable, they can try a self-remediation.
 
 ## Session roaming and reconnections
 
@@ -291,7 +291,7 @@ Implement QoS settings for endpoints and network devices and determine how you w
   - defining DSCP markings
 
 > [!IMPORTANT]
-> We recommend implementing these QoS policies using the endpoint source ports and a source and destination IP address of "any". This catches both incoming and outgoing media traffic on the internal network.
+> We recommend implementing these QoS policies using the endpoint source ports and a source and destination IP address of "any". These policies catch both incoming and outgoing media traffic on the internal network.
 
 ### Technologies that aren't recommended with Microsoft Teams in VDI
 
@@ -422,7 +422,7 @@ Customers with Thin Clients that have [Unified Write Filters](/windows/configura
        - If someone turns their camera **on** only, there's no issue because the video element is created, not destroyed.
        - If the presenter maximizes the call monitor (which destroys the self preview of what the presenter is sharing).
   - Stopping and resharing the window should resolve the issue.
-  - This issue has been resolved in new Teams 24335.206.X.X or higher versions.
+  - This issue is resolved in new Teams 24335.206.X.X or higher versions.
 - If you're on a video call and you open the Start menu on the virtual machine, a blank screen shows in the Teams meeting window instead of the video feed.
 - In CQD, VdiMode (x2xx) represents both VDI SlimCore Optimized and Unoptimized Fallback, which may misattribute poor call quality.
   
@@ -467,11 +467,17 @@ SlimCore-based optimization supports Human Interface Devices (HID) for [Teams ce
 
 > [!NOTE]
 > With some peripherals, two Unified Communications apps running side by side can cause HID collisions where active calls get disconnected.
+>
 > See the Known Issues section.
-> As a workaround, HID can be disabled via registry key, where the key can be created either on the VM or the endpoint (VM-side keys take precedence).
+>
+> As a workaround, HID can be disabled via registry key on Teams 25060.205.3499.6849 or higher, where the key can be created on the endpoint.
+>
 > HKEY_CURRENT_USER\Software\Microsoft\Teams\HID
+>
 > Name: DisableHidManagerV1 
+>
 > Type: DWORD
+>
 > Value: 1 (when set to 1, it will disable HID) (If set to 0 or the key is not present, HID is enabled)
 
 ### Monitoring API
@@ -484,19 +490,19 @@ Typical use cases for the monitoring API are:
 - Developers creating a Third party apps that report the current state of the VDI optimization connection, consuming the contents of the JSON file to retrieve all available connection, optimization, and device information of the current Teams session.
 
 Json File Structure:
-•	Timestamp - vdiConnectedState.timestamp indicates the timestamp of the session connection
-•	VDI Optimization - vdiConnectedState.vdiMode indicates the optimization version (remains static for the duration of the VDI session)  
-•	Connected State - connectedStack (remote = optimized, local = not optimized) (remains static for the duration of the VDI session)
-•	SlimCore Version on the endpoint - remoteSlimcoreVersion
-•	VdiBridge Versionon the VM - bridgeVersion
-•	MS Teams Plugin Version on the endpoint - pluginVersion
-•	Teams Version - vdiVersionInfo.teamsVersion
-•	Client Platform - vdiVersionInfo.clientPlatform
-•	VDI Client (CWA or Windows App) version - vdiVersionInfo.rdClientVersion	
-•	VM OS Version - vdiVersionInfo.vmVersion
-•	Available Peripheral Devices - devices.speakers.available, devices.cameras.available, devices.microphones.available (real time update to the json file)
-•	Selected Peripheral Devices - devices.speakers.selected, devices.cameras.selected, devices.microphone.selected (real time update to the json file)
-•	Secondary Ringer - devices.secondaryRinger (real time update to the json file)
+-	Timestamp - vdiConnectedState.timestamp indicates the timestamp of the session connection
+-	VDI Optimization - vdiConnectedState.vdiMode indicates the optimization version (remains static for the duration of the VDI session)  
+-	Connected State - connectedStack (remote = optimized, local = not optimized) (remains static for the duration of the VDI session)
+-	SlimCore Version on the endpoint - remoteSlimcoreVersion
+-	VdiBridge Versionon the VM - bridgeVersion
+-	MS Teams Plugin Version on the endpoint - pluginVersion
+-	Teams Version - vdiVersionInfo.teamsVersion
+-	Client Platform - vdiVersionInfo.clientPlatform
+-	VDI Client (CWA or Windows App) version - vdiVersionInfo.rdClientVersion	
+-	VM OS Version - vdiVersionInfo.vmVersion
+-	Available Peripheral Devices - devices.speakers.available, devices.cameras.available, devices.microphones.available (real time update to the json file)
+-	Selected Peripheral Devices - devices.speakers.selected, devices.cameras.selected, devices.microphone.selected (real time update to the json file)
+-	Secondary Ringer - devices.secondaryRinger (real time update to the json file)
 
 > [!NOTE]
 > When in WebRTC optimization, only the vdiConnectedState is populated, indicating which optimization the session is currently in. There's no vdiVersionInfo and device information stored in the JSON file for the session. When no optimization is available, there aren't updates made to the JSON file.

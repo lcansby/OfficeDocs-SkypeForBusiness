@@ -3,13 +3,14 @@ title: "Manage the usage of a phone number"
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.reviewer: garciadaniel
-ms.date: 01/29/2024
+ms.reviewer: julienp
+ms.date: 04/04/2025
 ms.topic: how-to
 ms.assetid: 
 ms.tgt.pltfrm: cloud
 audience: admin
 ms.service: msteams
+ms.subservice: teams-calling
 search.appverid: 
 ms.collection: 
 - M365-voice
@@ -27,9 +28,11 @@ description: "Learn how to change the usage of a phone number to be used as eith
 
 # Manage the usage of a phone number
 
-You might want to change the usage of a phone number to set up a different a different service on it. 
+ Microsoft Teams supports using telephone numbers for different purposes. A telephone number's purpose in Teams can be to support a single end user or shared device, or to support services that support your organization.
 
-There are three types of number usages:
+ The purpose of the telephone number is indicated as it's *usage*.
+
+There are three types of number usages in Teams:
 
 - **User** for phone numbers assigned directly to a user or a person.
 
@@ -39,9 +42,11 @@ There are three types of number usages:
 
 For more information about types of phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md).
 
+You might want to change the usage of a phone number, in the event that you want to assign it to a different purpose.
+
 Before changing the usage of a number:
 
-- Be sure you have the right licenses for the target type of number usage. For more information, see [How many numbers can you get](how-many-phone-numbers-can-you-get.md). 
+- Be sure you have the right licenses for the target type of number usage.
 
 - Be aware that you can only assign toll-free numbers to voice apps (Auto attendants and Call queues) and Audio conferencing bridges.
 

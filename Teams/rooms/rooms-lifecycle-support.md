@@ -77,6 +77,9 @@ Please utilize the Teams Rooms Pro Management Room Inventory export or the Windo
 
 Most Teams Rooms devices running Windows 10 were automatically upgraded to Windows 11. However, certified Teams Rooms devices such as Lenovo Hub 500 (i5-7500T), HP Slice G2 (i5-7500T), Yealink NUC – NUC7i5DNKE (i5-7300U), Surface Pro 5 (i5-7300U), and Crestron Skull Canyon (i7-6770HQ) can't be upgraded to Windows 11 and will need to be replaced. This is not an exhaustive list. Please contact your device manufacturer for the specific models that are impacted.
 
+> [!IMPORTANT]
+> Teams Rooms on Windows will not support devices placed on ESU: MTR-W is ending support for Windows 10 on the normal Windows 10 end-of-service date, October 14, 2025.
+
 Find additional details on the Teams Rooms app OS support. Also, see [Microsoft product lifecycle notices for Windows 10 Enterprise](/lifecycle/products/windows-10-enterprise-and-education) and [Windows10 IoT Enterprise](/lifecycle/products/windows-10-iot-enterprise).
 
 ## Microsoft Teams App End of Availability on Surface Hub v1 and 2S Running Windows 10 Team Edition 

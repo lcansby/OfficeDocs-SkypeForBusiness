@@ -75,7 +75,7 @@ Microsoft Teams relies heavily on Exchange Online and SharePoint for core produc
 - Meetings
 - Calendars
 - Interop chats
-- File sharing.
+- File sharing
 
 Conditional Access policies for these cloud apps apply to Microsoft Teams when a user directly signs in to Microsoft Teams on any client.
 

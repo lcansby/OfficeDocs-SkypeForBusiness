@@ -3,7 +3,7 @@ title: Overview of security and compliance
 author: MSFTTracyP
 ms.author: tracyp
 manager: laurawi
-ms.date: 02/11/2025
+ms.date: 04/04/2025
 ms.topic: concept-article
 ms.service: msteams
 ms.reviewer:
@@ -31,7 +31,7 @@ appliesto:
 
 Microsoft Teams is built on the Microsoft 365 and Office 365 hyper-scale, enterprise-grade cloud, delivering the advanced security and compliance capabilities our customers expect. For more information on planning for security in Microsoft 365 or Office 365, [Defender for Office 365 overview](/defender-office-365/mdo-about) is a good place to start. For more information on planning for compliance in Microsoft 365 or Office 365, you can start with [Plan for security & compliance](/purview/purview-compliance).
 
-This article prodies further information about Teams-specific security and compliance. Don't miss these Microsoft Mechanics videos about security and compliance:
+This article contains Teams-specific security and compliance information. Don't miss these Microsoft Mechanics videos about security and compliance:
 
 - [Microsoft Teams Essentials for IT: Security and Compliance](https://youtu.be/91lHNKVVvQ4) (12:42 min)
 - [Microsoft Teams Controls for Security and Compliance](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)
@@ -58,19 +58,7 @@ Because Teams works in partnership with SharePoint, OneNote, Exchange, and more,
 
 ### Microsoft Defender for Office 365
 
-Defender for Office 365 is available for Microsoft Teams applications that integrate with Teams for content management. Defender for Office 365 allows you to determine if content in these applications is malicious in nature, and block this content from user access.
-
-The settings you configure determine how the affected content is managed after detection. We strongly recommend you consider all applications when it comes to configuring Defender for Office 365. For more information about Safe Links, see [Safe Links in Microsoft Defender for Office 365](/defender-office-365/safe-links-about).
-
-### Safe Links in Microsoft Teams
-
-Safe Links in Defender for Office 365 is available in Microsoft Teams. For more information, see [Safe Links settings for Microsoft Teams](/defender-office-365/safe-links-about). Safe links are available in both [Defender for Office 365 Plan 1 and Plan 2](/defender-office-365/mdo-about#defender-for-office-365-plan-1-vs-plan-2-cheat-sheet).
-
-### Safe Attachments
-
-Safe Attachments detects malicious attachments in email messages, and in files used in SharePoint, OneDrive, and Microsoft Teams. Security Administrators [turn on the feature](/defender-office-365/safe-attachments-for-spo-odfb-teams-configure) and [create policies](/defender-office-365/safe-attachments-policies-configure) for handling these suspected malicious attachments.
-
-Safe Attachments for SharePoint, OneDrive, and Microsoft Teams is available in [Microsoft Defender for Office 365 Plan 1 and Plan 2](/defender-office-365/mdo-about#defender-for-office-365-plan-1-vs-plan-2-cheat-sheet). For more information, see [Safe Attachments in Microsoft Defender for Office 365](/defender-office-365/safe-attachments-about).
+Defender for Office 365 Plan 2 has extended protection features for Microsoft Teams. For more information, see [Microsoft Defender for Office 365 Plan 2 support for Microsoft Teams](/defender-office-365/mdo-support-teams-about).
 
 ### Secure Score
 

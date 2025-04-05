@@ -56,7 +56,7 @@ Because Teams works in partnership with SharePoint, OneNote, Exchange, and more,
 
 ### Microsoft Defender for Office 365
 
-Defender for Office 365 Plan 2 has extended protection features for Microsoft Teams. For more information, see [Microsoft Defender for Office 365 Plan 2 support for Microsoft Teams](/defender-office-365/mdo-support-teams-about).
+Defender for Office 365 has extended protection features for Microsoft Teams. For more information, see [Microsoft Defender for Office 365 support for Microsoft Teams](/defender-office-365/mdo-support-teams-about).
 
 ### Secure Score
 

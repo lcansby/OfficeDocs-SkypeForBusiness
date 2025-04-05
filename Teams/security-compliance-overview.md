@@ -29,9 +29,7 @@ appliesto:
 
 # Security and compliance in Microsoft Teams
 
-Microsoft Teams is built on the Microsoft 365 and Office 365 hyper-scale, enterprise-grade cloud, delivering the advanced security and compliance capabilities our customers expect. For more information on planning for security in Microsoft 365 or Office 365, [Defender for Office 365 overview](/defender-office-365/mdo-about) is a good place to start. For more information on planning for compliance in Microsoft 365 or Office 365, you can start with [Plan for security & compliance](/purview/purview-compliance).
-
-This article contains Teams-specific security and compliance information. Don't miss these Microsoft Mechanics videos about security and compliance:
+Microsoft Teams is built on the Microsoft 365 and Office 365 hyper-scale, enterprise-grade cloud, delivering the advanced security and compliance capabilities our customers expect. This article contains Teams-specific security and compliance information. Don't miss these Microsoft Mechanics videos about security and compliance:
 
 - [Microsoft Teams Essentials for IT: Security and Compliance](https://youtu.be/91lHNKVVvQ4) (12:42 min)
 - [Microsoft Teams Controls for Security and Compliance](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)

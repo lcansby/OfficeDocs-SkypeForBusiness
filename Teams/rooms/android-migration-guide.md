@@ -109,7 +109,7 @@ If your organization uses [Conditional Access](/intune/intune-service/protect/co
 As supporting firmware is released, IT admins can install the firmware on their devices via Teams admin center. This firmware update completes the migration.
 
 > [!IMPORTANT]
-> Devices must be running the latest non-AOSP DM firmware before AOSP DM capable firmware will show in Teams admin center as an update. If a AOSP DM capable firmware has been released but you see a different firmware update available in Teams admin center, you must complete that firmware update(s) before the AOSP DM firmware update will be available to install.
+> Devices must be running the latest non-AOSP DM firmware before AOSP DM capable firmware shows in the Teams admin center as an update. If a AOSP DM capable firmware has been released but you see a different firmware update available in the Teams admin center, you must complete that firmware update(s) before the AOSP DM firmware update are available to install.
 
 ### How to update a device
 

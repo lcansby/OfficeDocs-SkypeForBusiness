@@ -33,9 +33,11 @@ description: Learn how to manage Interpreter agent in Microsoft Teams to provide
 >
 > Features in preview might not be complete and could undergo changes before becoming available in the public release. They're provided for evaluation and exploration purposes only.
 
-Interpreter agent acts as a translator in Microsoft Teams meetings, allowing participants with a Microsoft 365 Copilot license to either listen to the meeting in their chosen language. It listens to the spoken language in the meeting and translates it into another language in real-time. This feature allows participants who speak different languages to understand each other and collaborate effectively. To represent their voices, participants can choose to have Interpreter simulate their own voice when translating to others or select one of the following preset automated voices:  Voice 1 (female), Voice 2 (male), Voice 3 (neutral).
+Interpreter agent acts as a translator in Microsoft Teams meetings, allowing participants with a Microsoft 365 Copilot license to listen to the meeting in their chosen language. Interpreter listens to the spoken language in the meeting and translates it into another language in real-time, allowing participants who speak different languages to understand each other and collaborate effectively. To represent their voices, participants can choose to have Interpreter simulate their own voice when translating to others or select one of the following preset automated voices:  Voice 1 (female), Voice 2 (male), Voice 3 (neutral).
 
 As an admin, you can control whether your organization can use Interpreter and select the default setting for voice representation.
+
+To learn more about the Interpreter experience in meetings, see [Interpreter in Microsoft Teams meetings](https://support.microsoft.com/office/interpreter-in-microsoft-teams-meetings-c7efe2bb-535d-42ab-a5c4-d2d91619b46d).
 
 ## Supported languages
 

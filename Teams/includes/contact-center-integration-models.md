@@ -24,7 +24,7 @@ The Unify program extends Teams Phone system capabilities into CCaaS with the fo
 - OpenAI
 - Other Microsoft tools
 
-:::image type="content" source="media/teams-contact-center-unify-program.png" alt-text="Diagram of the Teams Contact Center Unify Program architecture.":::
+:::image type="content" source="../media/teams-contact-center-unify-program.png" alt-text="Diagram of the Teams Contact Center Unify Program architecture.":::
 
 Further information can be found 
 

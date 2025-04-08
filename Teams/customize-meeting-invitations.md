@@ -5,9 +5,10 @@ author: wlibebe
 manager: pamgreen
 ms.reviewer: 
 ms.date: 10/14/2024
-ms.topic: article
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams

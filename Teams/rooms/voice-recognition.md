@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: parisataheri
-ms.date: 02/10/2025
+ms.date: 03/27/2025
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -92,16 +92,18 @@ Set-CsTeamsMeetingPolicy -Identity PolicyName -roomAttributeUserOverride Attribu
 ```
 
 > [!NOTE]
-> If your voice profile isn't available under the *Recognition* tab in Settings and you aren't being attributed in transcriptions, re-enroll your Voice Profile.
+> - If your voice profile isn't available under the *Recognition* tab in Settings and you aren't being attributed in transcriptions, re-enroll your Voice Profile.
+> 
+> - Speaker attribution using the meeting invite list begins when someone other than a Microsoft Teams Room (MTR) device joins the meeting.
 
 The following are the required policies to set an Intelligent Speaker and user recognition.
 
 |Policy|Description|Values and Behavior|
 |-|-|-|
-|roomAttributeUserOverride|Control the voice-based user identification in meeting rooms. This setting is required for Rooms accounts.| **Off**<br><ul><li>The Room device won't send audio stream-saving bandwidth from the room. <li>Meeting room users won't be attributed or distinguished, and their voice signatures won't be retrieved or used at all.<li>Meeting room users are unknown.</li></ul> <br>**Attribute**<br><ul><li>Rooms users will be attributed based on their enrollment status.<li>Users who are enrolled are shown with their name in the transcription.  <li>Users who aren't enrolled show as Speaker.</ul><br>**Distinguish**<br> <ul><li>Rooms users will be distinguished and separated as speaker 1, speaker 2, ....speaker in the transcription.</li><li>Irrespective of enrollment status of the user, their name won't show in the transcription.</li></ul>|
+|roomAttributeUserOverride|Control the voice-based user identification in meeting rooms. This setting is required for Rooms accounts, and BYOD user accounts.| **Off**<br><ul><li>The Room device won't send audio stream-saving bandwidth from the room. <li>Meeting room users won't be attributed or distinguished, and their voice signatures won't be retrieved or used at all.<li>Meeting room users are unknown.</li></ul> <br>**Attribute**<br><ul><li>Rooms users will be attributed based on their enrollment status.<li>Users who are enrolled are shown with their name in the transcription.  <li>Users who aren't enrolled show as Speaker.</ul><br>**Distinguish**<br> <ul><li>Rooms users will be distinguished and separated as speaker 1, speaker 2, ....speaker in the transcription.</li><li>Irrespective of enrollment status of the user, their name won't show in the transcription.</li></ul>|
 |AllowTranscription|Required for BYOD user and Teams Room accounts.|**True** and **False**|
 
-In the Teams admin center, set the **Transcription** policy. Settings are **Off** by default.
+In the Teams admin center, set the **Transcription** policy. 
 
 > [!NOTE]
 > After a policy is assigned, it can take up to 48 hours to take effect. To get the policy to take effect sooner, accounts must be signed out and signed back in.
@@ -110,7 +112,7 @@ In the Teams admin center, set the **Transcription** policy. Settings are **Off*
 
 Once an end-user enrolls, their voice can be recognized during meetings and identified in the transcription when the meeting is set to one of the following languages:  
   
-English (US), English (Canada), English (India), English (UK), English (Australia), English (New Zealand), Arabic (Arab Emirates), Arabic (Saudi Arabia), Chinese (Simplified China), Chinese (Traditional, Hong Kong SAR), Chinese (Traditional, Taiwan), Czech (Czechia), Danish (Denmark), Dutch (Belgium), Dutch (Netherlands), French (Canada), French (France), Finnish (Finland), German (Germany), Greek (Greece), Hebrew (Israel), Hindi (India), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea), Norwegian (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Slovak (Slovakia), Spanish (Mexico), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Turkey), Ukrainian (Ukraine), Vietnamese (Vietnam), Welsh (United Kingdom)
+English (US), English (Canada), English (India), English (UK), English (Australia), English (New Zealand), Arabic (Arab Emirates), Arabic (Saudi Arabia), Chinese (Simplified China), Chinese (Traditional, Hong Kong SAR), Chinese (Traditional, Taiwan), Czech (Czechia), Danish (Denmark), Dutch (Belgium), Dutch (Netherlands), French (Canada), French (France), Finnish (Finland), German (Germany), Greek (Greece), Hebrew (Israel), Hindi (India), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea), Norwegian (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Slovak (Slovakia), Spanish (Mexico), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye), Ukrainian (Ukraine), Vietnamese (Vietnam), Welsh (United Kingdom)
 
 ## Frequently asked questions (FAQ)
 

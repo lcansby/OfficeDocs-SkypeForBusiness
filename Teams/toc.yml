@@ -371,7 +371,7 @@ items:
       - name: Manage voice isolation for calls and meetings
         href: voice-isolation.md
       - name: Data, privacy, and security for intelligent recap
-        href: /privacy/intelligent-recap.md
+        href: privacy/intelligent-recap.md
       - name: Set up AI recommendations for educators
         href: institution-settings.md
     - name: Copilot in Teams
@@ -382,14 +382,14 @@ items:
           href: copilot-teams-transcription.md
         - name: Teams Rooms and Copilot overview
           href: rooms/copilot-admin-mtr.md
-        - name: Manage Interpreter agent for your organization 
-          href: interpreter-agent-teams.md
     - name: Agents for Teams
       items:
         - name: Set up Facilitator for AI notes
           href: facilitator-teams.md
         - name: Facilitator in Teams Rooms
           href: rooms/facilitator-teams-rooms.md
+        - name: Manage Interpreter agent for your organization 
+          href: interpreter-agent-teams.md
 
 - name: Teams Premium
   items:

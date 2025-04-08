@@ -4,8 +4,9 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
+ms.subservice: meetings
 ms.reviewer: maahma
 ms.date: 5/22/2024
 ms.localizationpriority: medium
@@ -86,6 +87,10 @@ This feature doesn’t support the following meeting types and platforms:
 - MTR [Windows, Surface Hub, Android], CVI, VDI 1.0
 - Classic Teams
 - TFL and TFW meeting federation
+
+## Platform support
+
+To view the list of platforms that support this feature, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#platform-support-for-advanced-management-for-meetings).
 
 This policy doesn't prevent your users from sharing content in external meetings anonymously when they aren't signed into Teams.
 

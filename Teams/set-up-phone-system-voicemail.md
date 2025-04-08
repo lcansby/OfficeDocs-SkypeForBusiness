@@ -5,7 +5,7 @@ ms.author: mabond
 manager: pamgreen
 ms.reviewer: vijurtse
 ms.date: 12/13/2024
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.assetid: 9c590873-b014-4df3-9e27-1bb97322a79d
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -35,6 +35,8 @@ Cloud Voicemail is sent if a user misses a call on Teams or Skype for Business a
 
 Cloud Voicemail doesn't support third-party email systems. For Exchange Online licensing requirements, see [Exchange Online service description](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#features-available-to-all-plans). For more information about administrator roles, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles).
 
+For information configuring Shared Voicemail for Auto Attendants and Call Queues, see [Manage Shared Voicemail](manage-shared-voicemail.md).
+
 ## Cloud Voicemail provisioning
 
 For Teams users, Cloud Voicemail is automatically set up and provisioned. *A Microsoft Teams Phone license isn't required for Cloud Voicemail.*
@@ -56,6 +58,11 @@ The recording and transcription of Cloud Voicemail starts in Microsoft 365 at th
 For example, if a call comes in to an unavailable Direct Routing user through a Session Border Controller (SBC) in Europe, the voicemail recording and transcription are done in Europe. The message is then delivered to the user's Exchange mailbox. For another example, assume a Teams user in North America calls an unavailable Teams user in Europe. In this case, the call starts in North America, the processing occurs in North America, and then the voicemail is delivered to the user's Exchange mailbox in Europe.
 
 The delivery of a voicemail to an Exchange mailbox is done using Simple Mail Transport Protocol (SMTP) like any other e-mail.
+
+> [!IMPORTANT]
+> E-mail is sent from: `noreply@skype.voicemail.microsoft.com`
+> 
+> Don't set up rules that block this address, otherwise users won't receive voicemails.
 
 ## Manage Cloud Voicemail for users
 
@@ -180,3 +187,5 @@ To help your users learn about how to use and manage Cloud Voicemail features, y
 [Change the default language for voicemail](change-the-default-language-for-greetings-and-emails.md)
 
 [Languages for voicemail greetings and messages](languages-for-voicemail-greetings-and-messages.md)
+
+[Manage Shared Voicemail](manage-shared-voicemail.md) 

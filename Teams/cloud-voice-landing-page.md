@@ -63,7 +63,8 @@ When planning to support Teams calling in your enterprise, consider the followin
 Delivery of the Teams calling workload is accomplished through the Microsoft 365 cloud service, and administrators manage the delivery of Teams workloads and features through remote management of that cloud service.
 
 #### Access
-You can administer Teams Phone using two methods:
+
+You can access your tenant and administer Teams Phone using two methods:
 
 - **Teams admin center**
   - For Commercial and Government Community Cloud (GCC) tenants, access Teams admin center via [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com)

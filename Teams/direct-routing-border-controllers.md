@@ -116,6 +116,7 @@ We're not accepting new nominations for certification until further notice.
 ||GX-3100|&#10004;|&#10004;|Supported 7.20A.250 (Recommended 7.40A.500)|&#10004;|&#10004;|
 |[Telnyx LLC](https://telnyx.com/resources/direct-routing-overview)|Telnyx MS Teams SBC|&#10004;|&#10004;|v2024.0315.18.37.f2c7869|&#10004;||
 |[Vodia Networks Inc.](https://web.vodia.com/microsoft-teams)|Vodia PBX|&#10004;||v69.4|||
+|[Brekeke Software, Inc.](https://docs.brekeke.com/pbx/integration-with-microsoft-teams)|Brekeke PBX|&#10004;||3.17.1.5 or higher||
 
 \* **911 service providers**
 

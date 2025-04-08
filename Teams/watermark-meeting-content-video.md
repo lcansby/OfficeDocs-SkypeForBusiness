@@ -3,10 +3,11 @@ title: Require a watermark for sensitive Teams meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
+ms.subservice: meetings
 ms.reviewer: maahma
-ms.date: 1/16/2024
+ms.date: 1/16/2025
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -96,6 +97,10 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowWatermarkForCameraVideo $True
 
 Set-CsTeamsMeetingPolicy -Identity Global -AllowWatermarkForScreenSharing $True 
 ```
+
+## Platform support
+
+To view the list of platforms that support this feature, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#platform-support-for-advanced-management-for-meetings).
 
 ## Related topics
 

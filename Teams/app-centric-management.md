@@ -3,7 +3,7 @@ title: App centric management to manage user access to Teams apps
 author: surbhigupta12
 ms.author: surbhigupta
 manager: prkosh
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 11/14/2024
+ms.date: 02/10/2025
 ms.reviewer: mhayrapetyan
 description: Manage access to Teams apps using app centric management.
 f1.keywords:
@@ -27,11 +27,11 @@ ms.custom: seo-marvel-apr2020
 # Use app centric management to manage access to apps
 
 > [!IMPORTANT]
-> All organizations don't have app centric management feature available. If you were not using custom permission policies and you weren't an enterprise customer, we automatically migrated your organization to use this feature. You see the following message on the permission policy page:
+> All organizations don't have the app centric management feature available. If you're migrated to app centric management, you can see the following message on the permission policy page:
 >
-> :::image type="content" source="media/acm-policy-page.png" alt-text="Screenshot showing the permissions policy change for organization that are using app centric management.":::
+> :::image type="content" source="media/acm-policy-page.png" alt-text="Screenshot showing the permissions policy change for organizations that are using app centric management.":::
 >
-> If you're using custom permission policies or you're an enterprise customer, then you must manually migrate to the app centric management feature. For timelines, see [Message Center post MC688930](https://admin.microsoft.com/Adminportal/Home#/MessageCenter/:/messages/MC688930) or [Microsoft 365 roadmap item 151829](https://www.microsoft.com/en-US/microsoft-365/roadmap?filters=&searchterms=151829).
+> For timelines, see [Message Center post MC688930](https://admin.microsoft.com/Adminportal/Home#/MessageCenter/:/messages/MC688930) or [Microsoft 365 roadmap item 151829](https://www.microsoft.com/en-US/microsoft-365/roadmap?filters=&searchterms=151829).
 >
 > If you see policies on the [permission policies page](https://admin.teams.microsoft.com/policies/app-permission), continue to [use app permission policies](teams-app-permission-policies.md) or migrate to this feature on your own.
 
@@ -115,21 +115,35 @@ After migration, your blocked apps continue to remain unavailable to users. The 
 
 ## Add or modify app availability for users
 
-To let users add and use an app or a copilot agent, you must assign users or groups to an app. To make any apps or copilot agents available in your organization, ensure that the settings to allow these are the same in Teams admin center and in [Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps) in the Integrated Apps page. It takes up to 24 hours for the changes to take effect. In rare cases, it may take up to 6 days for the availability changes to reflect in the client.
+To allow users to add and use an app or a Copilot agent, you must assign users or groups to an app. To make any app or Copilot agent available in your organization, ensure the following:
 
-1. In Teams admin center, go to the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, search for the required app, and select the app name to open its app details page. You can't assign apps in bulk.
+* If your organization isn't migrated to unified app management, allow apps and Copilot agents in Teams admin center and under the **Integrated apps** page in [Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
+* If your organization is migrated to unified app management, allow apps and Copilot agents in Teams admin center or under the **Integrated apps** page in [Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
 
-1. Select the **Assignments** tab.
+For more information, see [manage apps that work across Teams, Outlook, and Microsoft 365 App](manage-apps-across-m365.md).
 
-1. Select **Assign** or **Assign app**.
+> [!NOTE]
+> It takes up to 24 hours for the availability changes to take effect. In rare cases, it may take up to six days for the changes to reflect in the client.
 
-1. Select the required option from **Manage who can install this app** menu. When assigning users or groups, search for the user or the group from the **Search for users or groups** menu. Select **Apply**.
+To make any app or Copilot agent available to your organization in Teams admin center, follow these steps:
 
-    :::image type="content" source="media/acm-add-modify-access.png" alt-text="Screenshot showing how to define the app availability from the app details page." lightbox="media/acm-add-modify-access.png":::
+1. Go to the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page.
+
+1. Search for the required app and select the app name to open its app details page.
+
+1. Select the **Users and groups** tab.
+
+1. Under **Select to manage who this app is installed for or available to in your organization**, select **Availability**.
+
+1. Select **Edit availability**.
+
+1. Select the required option from **Available to** menu. When assigning users or groups, search for the user or the group from the **Search for users or groups** menu. Select **Apply**.
+
+    :::image type="content" source="media/acm-add-modify-access.png" alt-text="Screenshot shows how to define the app availability from the app details page." lightbox="media/acm-add-modify-access.png":::
 
 1. To remove one or more users or groups from an app, select the rows and select **Remove**.
 
-    :::image type="content" source="media/acm-remove-access.png" alt-text="Screenshot showing how to remove the existing availability of an app from the app details page." lightbox="media/acm-remove-access-large.png":::
+    :::image type="content" source="media/acm-remove-access.png" alt-text="Screenshot shows how to remove the existing availability of an app from the app details page." lightbox="media/acm-remove-access.png":::
 
 ## Default settings for app availability
 
@@ -178,6 +192,7 @@ When your tenant's admin center receives this feature, the following updates are
 |  Global permission policy for Microsoft apps was `Block all` or Global permission policy for Microsoft apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for Microsoft apps is set to off |
 |  Third party app setting in the Org-wide app settings was set to on; New third party app setting in the org-wide app setting was set to on; Global permission policy for third party apps was `Allow all`; or Global permission policy for third party apps was `Block an app(s), allow all others`  |  `Allow users install available apps by default` for third party apps is set to on |
 |  third party app setting in the Org-wide app settings was set to off; New third party app setting in the org-wide app setting was set to off; Global permission policy for third party apps was `Block all`; or Global permission policy for third party apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for third party apps is set to off |
+| Third party app setting in the Org-wide app settings was set to on; New third party app setting in the org-wide app setting was set to off; Global permission policy for third party apps was `Block all`; or Global permission policy for third party apps was `Allow app(s), Block all others` | `Allow users install available apps by default for third party apps` is set to off |
 |  Global permission policy for Custom apps was `Allow all` or Global permission policy for Custom apps was `Block an app(s), allow all others` | `Allow users install available apps by default` for custom apps is set to on |
 |  Global permission policy for custom apps was `Block all` or Global permission policy for custom apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for custom apps is set to off |
 

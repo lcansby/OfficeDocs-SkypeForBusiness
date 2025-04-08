@@ -3,8 +3,9 @@ title: Manage who can start instant meetings and schedule meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
+ms.subservice: meetings
 ms.reviewer: bryannyce
 ms.date: 4/30/2024
 audience: admin

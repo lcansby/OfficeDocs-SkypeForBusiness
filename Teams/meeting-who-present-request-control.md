@@ -3,8 +3,9 @@ title: Manage who can present and request control in Teams meetings and webinars
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
+ms.subservice: meetings
 ms.reviewer: nakulm, bryannyce
 ms.date: 04/29/2024
 audience: admin

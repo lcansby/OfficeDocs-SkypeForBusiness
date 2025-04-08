@@ -4,8 +4,8 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: eviegrimshaw
-ms.date: 01/23/2025
-ms.topic: article
+ms.date: 03/12/2025
+ms.topic: release-notes
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
@@ -33,7 +33,19 @@ To view feature updates for Microsoft Teams Rooms, go to:
 
 ## [Teams panels](#tab/panels)
 
-### January 2025
+## April 2025
+
+**Applies to:** *Teams app version: 1449/1.0.97.2025031901*
+
+- AOSP resiliency fixes. 
+
+## March 2025
+
+**Applies to:** *Teams app version: 1449/1.0.97.2025021101*
+
+- Fixes for check-in and auto-release.
+
+## January 2025
 
 **Applies to:** *Teams app version: 1449/1.0.97.2024122401*
 
@@ -152,8 +164,8 @@ To add a mobile system OS scanner:
 
 **Applies to:** *Teams app version - 1449/1.0.97.2022747803*
 
-- After an admin pairs a panel to a supported occupancy sensor through Device settings, you can see whether a room is occupied and auto check in when check in is enabled by your admin. If the room is available and someone's in the room, a message is displayed that the room is occupied. If the room is reserved but no one is in the room, you see a message that the room is unoccupied.
-- Yealink's Room Sensor and Crestron CEN-ODT-C-POE are supported. For more information, check check with your OEM.
+- After an admin pairs a panel to a supported occupancy sensor through Device settings, you can see whether a room is occupied and auto check-in when check-in is enabled by your admin. If the room is available and someone's in the room, a message is displayed that the room is occupied. If the room is reserved but no one is in the room, you see a message that the room is unoccupied.
+- Yealink's Room Sensor and Crestron CEN-ODT-C-POE are supported. For more information, check with your OEM.
 - Support for Teams Shared Device License.
 - Improvements and bug fixes.
 
@@ -203,9 +215,66 @@ To add a mobile system OS scanner:
 
 ## [Teams phones](#tab/phones)
 
-### January 8, 2024
+## March 28, 2025
+
+**Applies to:** *Teams app version: 1449/1.0.94.2025084203 (Poly, Yealink and Audiocodes)*
+
+> [!IMPORTANT]
+> Starting in June 2025, Teams applications that are older than five (5) months will no longer work be able to connect to the service. Please refer to the Message Center Post, MC969451 for more details.
+
+> [!NOTE]
+> This update introduces a new versioning format, moving away from using dates. Going forward, this format will be used **1449/1.0.94.*year of release.internal codes***
+
+- Line keys are now available on touch phone devices. They will appear as an app on the home screen alongside other apps such as Calls, People, Calendar, and more. Users can assign speed dials by long pressing. For assigned contacts, users can manage and remove assignments by long pressing as well. Once assigned, outgoing calls can be placed to speed dials by pressing the line key. Additionally, the line key app can now be pinned, making it the default view on the home screen.
+
+> [!NOTE]
+> This experience isn't applicable to sidecars and ONLY includes experience on the Teams app running on touch phone devices.
+
+   ![Screenshot home screen.](media/phones-release-notes-1.png)
+
+- Shared line history is now available on phone devices. With shared line history, a delegate can now view call history of the entire shared line in the “Shared line appearance” app. A delegator/boss can view call history of the entire shared line on the Calls app.  
+
+- You can now pin apps of your choice to your home screen using settings named “Home screen”.  This is only available for touch phones.
+
+App also includes multiple bug fixes and improvements. Bug fixes impacting user experience are:
+
+- AOSP migration and back-end calendar fixes.
+
+- With this release, you will be able to resume held calls using a single entry.
+- Joining a meeting via dial-info on calendar is now fixed.
+- Deleted groups from People app will now sync across clients.
+- For non-touch phone devices, the Resume button will now be one of the four keys below the display. It can be triggered using the corresponding hard key on the device.
+- Issue on walkie talkie app and Teams channel is fixed.
+- Fixed auto-dial issue on emergency calls for non-touch devices.
+- Fixed issue on blind transfer for non-touch devices.
+- For Advanced calling experience on common area phones, issue on “Default to home screen” setting is fixed.
+
+## February 25, 2025
+
+**Applies to:** *Teams app version: 1449/1.0.94.2025021303 (Poly, Yealink, AudioCodes)*
+
+
+
+- Back-end telemetry fixes and improvements  
+- App is available for government clouds (GCCH and DoD). 
+
+## February 11, 2025
+
+**Applies to:** *Teams app version: 1449/1.0.94.2025020301 (Poly, Yealink, AudioCodes)*
+
+> [!IMPORTANT]
+> Starting June 2025, Teams applications older than 5 months will no longer work. Please refer to the Message Center Post, MC969451 for more details.
+
+Bug fixes including improvements in font rendering on side cars among others   
+
+Contacts on Teams app and sidecar will now be sorted alphabetically
+
+### January 8, 2025
 
 **Applies to:** *Teams app version: 1449/1.0.94.2024122303 (Poly, Yealink, AudioCodes)*
+
+> [!IMPORTANT]
+> Starting June 2025, Teams applications older than 5 months will no longer work. Please refer to the Message Center Post, MC969451 for more details.
 
 ##### Queues app
 
@@ -214,7 +283,7 @@ We're excited to announce the Queues app for desk phones, a Teams solution that 
 > [!NOTE]
 > - The Queues app is enabled by default for all Teams users in your organization who are assigned both a Teams Premium and Teams Phone license and who are voice enabled. To learn more about managing the Queues app, see [Manage Queues app for Microsoft Teams](../manage-queues-app.md).
 
-##### Circular delegation
+##### Collaborative call delegation
 
 Circular delegation now allows users to share lines with each other as a group on Teams Phone devices. This feature is useful for scenarios where multiple users need to manage shared lines. In a typical circular delegation setup, User A delegates to User B, and User B delegates to User A, allowing them all to share the line with each other. This setup can be configured using cmdlets because the Teams client and Teams Admin Center don't currently support this feature.
 
@@ -225,6 +294,8 @@ The multiple-banners feature improves the user experience by managing notificati
 ### December 18, 2024
 
 **Applies to:** *Teams app version: 1449/1.0.94.2024121004 (Poly, Yealink, AudioCodes)*
+
+- This app is also available for government clouds (GCCH and DoD).
 
 - Bug fixes related to transfer flow, among other issues.
 
@@ -340,7 +411,7 @@ This update also includes these features, which were already available for certi
 - **Updates on user experiences** We changed the default home-screen experience for the meeting sign-in mode. It's now like the personal sign-in mode experience. Additionally, updates to remove the dial pad on the Calls app for touch phones with physical buttons.
 - **Explicit Consent for Recording**  Users see a notification on Teams Phone devices when a participant starts recording or transcription, asking for participant consent. This feature is turned off by default but can be enabled by admins. Admins can turn on this policy for users in your tenant by clicking on the highlighted switch on "Require participant agreement for recording, transcription, and Copilot."
 
-  :::image type="content" source="media/new-in-microsoft-teams-devices/recording-and-transcription.png" alt-text="Screenshot showing the option to require paerticipant agreement for recording transcription." lightbox="media/new-in-microsoft-teams-devices/recording-and-transcription.png":::
+  :::image type="content" source="media/new-in-microsoft-teams-devices/recording-and-transcription.png" alt-text="Screenshot showing the option to require participant agreement for recording transcription." lightbox="media/new-in-microsoft-teams-devices/recording-and-transcription.png":::
 
 - **Private Line**  The Private Line feature allows bosses to have a second private phone number on their Teams device, ensuring privacy for important calls. These calls are distinct in the call history. To learn more, see Configure private lines in Microsoft Teams.
 - **Lightweight People App**  The updated People app provides a faster and simplified experience for managing contacts, allowing users to switch between different contact lists and to create contact groups.
@@ -386,7 +457,7 @@ This update also includes these features, which were already available for certi
 - You can turn on the Advanced Calling and Auto Restart settings.
 - You can add contacts and contact groups.
 - Admin's can turn on call forwarding on home screens via **Teams Admin Center** > **Configuration** > **Display call forwarding on home screen**, allowing Teams Phone device users to setup call forwarding directly from their home screens.
-- Admin's can turn off call-quality surveys on Teams Phone devices from **Teams Admin Center** > **Configuration**, and by turning off **Call quality survey**.
+- Admin's can turn off call-quality serveys on Teams Phone devices from **Teams Admin Center** > **Configuration**, and by turning off **Call quality survey**.
 
   :::image type="content" source="media/new-in-microsoft-teams-devices/turn-off-call-serveys.png" alt-text="Screenshot showing the option to turn off call quality serveys on Teams Phone devices." lightbox="media/new-in-microsoft-teams-devices/turn-off-call-serveys.png":::
 
@@ -472,7 +543,7 @@ This update also includes these features, which were already available for certi
 - The date and time format specified under **Device Settings** is the same on the home screen.
 - When the **Explicit Recording Consent** policy is enabled, audio conference phones support auto consent.
 - The PSTN calling issue on the new shared line appearance experience is fixed.
-- When there are less than four apps on a given account, they appear on the home screen instead of being hidden under the **More** menu.
+- When there are fewer than four apps on a given account, they appear on the home screen instead of being hidden under the **More** menu.
 
 ### November 28, 2023
 
@@ -532,7 +603,7 @@ Today, on Teams Phone devices, delegators can share their phone line with their 
 - Date and time are now displayed on the title bar across apps.
 - Support added for reverse number lookup of PSTN numbers on call-queue calls.
 - The issue of autodialing on partially entered number is fixed.
-- Option to sign-out on common area phones. The advanced calling experience requires an admin PIN.
+- Option to sign out on common area phones. The advanced calling experience requires an admin PIN.
 - Lightweight meeting reduces the time it takes users to get connected to a meeting by selecting **Join**.
 
 ### July 12, 2023
@@ -589,7 +660,7 @@ Record one-on-one PSTN calls
 
 - Dial tone and mute LED sync issue is fixed on audio-conferencing phones.
 - Calling resiliency is improved.
-- Intermittent issue around greying out of call controls is fixed.
+- Intermittent issue around graying out of call controls is fixed.
 - Intermittent issue around not being able to end calls is fixed.
 
 ### January 25, 2023
@@ -712,7 +783,7 @@ Record one-on-one PSTN calls
 - Change your background during a video call or meeting from a set of pictures available in phones with video capability.
 - Contacts whose numbers are saved in Outlook are available in the People section of Teams Phones with read-only access. You need to manually dial the number.
 - Enforcement of authentication policies and tenant-based policies set by your admin. Login is blocked if the device doesn't meet the necessary policy requirements.
-- During a call, select the active-call icon to show more ptions. Additionally, when a contact has multiple numbers saved, you can choose the number you want to dial from the dropdown list.
+- During a call, select the active-call icon to show more options. Additionally, when a contact has multiple numbers saved, you can choose the number you want to dial from the dropdown list.
 - To facilitate quick responses for autoattendant scenarios, dial pad is available for early media scenarios.
 - Extending the live captions feature to calls, Teams detects what's said in a call and presents real-time captions in one-on-one calls.
 - Ongoing enhancements to improve user experience when using a delegate on touch screens.

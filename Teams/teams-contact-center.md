@@ -1,13 +1,14 @@
 ---
 title: Teams Contact Center
-author: serdarsoysal
-ms.author: serdars
-manager: serdars
+author: sfrancis206
+ms.author: scottfrancis
+manager: pamgreen
 ms.topic: integration
 ms.service: msteams
+ms.subservice: teams-calling
 audience: admin
-ms.reviewer: anblak
-ms.date: 05/14/2020
+ms.reviewer: jessiewa
+ms.date: 04/08/2025
 ms.localizationpriority: medium
 f1.keywords: 
   - NOCSH
@@ -22,18 +23,21 @@ ms.collection:
 
 # Contact center integrations for Microsoft Teams
 
-This article provides an overview of how contact center solutions can be integrated with Microsoft Teams and the solution providers participating in the Microsoft Teams Connected contact center certification program.
+This article provides an overview of how contact center solutions can be integrated with Microsoft Teams and the solution providers participating in the Microsoft Teams contact center certification program.
 
 ## What is contact center integration for Microsoft Teams?
 
 Microsoft Teams supports customer interaction work streams by acting as the hub for internal and external customer connection across its modes of communication including chat, video meetings, and calling. For some organizations, Microsoft Teams’ [cloud voice capabilities](./cloud-voice-landing-page.md), including [auto attendant](./what-are-phone-system-auto-attendants.md) and [call queues](./create-a-phone-system-call-queue.md), meet their needs.
 
-For organizations that want solutions with business tools and workflows to drive the customer journey, contact center integration for Microsoft Teams allows Contact Center as a Service (CCaaS) solution providers to integrate their solutions into Teams.
+For organizations that want solutions with business tools and workflows to drive the customer journey, integrating a contact center with Teams Phone is supported.
 
+Contact Center as a Service (CCaaS) solution providers support integrations through a variet of certified programs.
 
-## Connected contact center for Microsoft Teams certification program
+[!INCLUDE [contact-center-integration-models](./includes/contact-center-integration-models.md)]
 
-The Connected contact center for Microsoft Teams certification program verifies that each participating provider’s solution provides the quality, compatibility, and reliability they expect from Microsoft solutions.
+## Contact center for Microsoft Teams certification program
+
+The contact center for Microsoft Teams certification program verifies that each participating provider’s solution provides the quality, compatibility, and reliability they expect from Microsoft solutions.
 
 If you're an organization looking for an integrated contact center solution, see [Certified Microsoft Teams solutions for contact centers](https://cloudpartners.transform.microsoft.com/contact-center-solutions) for a list of certified solution providers, and see [Connected Contact Center solutions](#connected-contact-center-solutions) for a list of providers in the process of certification.
 
@@ -43,12 +47,9 @@ If you need to provide additional context and details, send a mail to [Teamscate
 
 ### [Calling Platform Intake](https://aka.ms/CallingPlatformIntake)
 
-[!INCLUDE [contact-center-integration-models](./includes/contact-center-integration-models.md)]
-
-
 ## Connected contact center solutions
 
-The following providers offer contact center solutions that are integrated into Teams using one of the Connect, Extend, or Power integration models.
+The following providers offer contact center solutions that are integrated into Teams using one of the Power, Connect, or Extend programs.
 
 ### Certified solutions
 

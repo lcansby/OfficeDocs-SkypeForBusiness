@@ -12,7 +12,6 @@ As a contact center solution provider, there are three programs to choose from t
 
 ### [**The Unify Program**](#tab/unify)
 
-, intelligent solutions for collaborative customer and agent connection. The goal of the Unify program is to provide a one-app, one-screen contact center experience.
 The Unify program enables solution providers to develop native Azure Communication Service-based CCaaS applications using Teams calling infrastructure.
 
 This approach creates intelligent CCaaS solutions that enhance interactions between customers and contact center agents.

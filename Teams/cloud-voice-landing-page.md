@@ -54,55 +54,64 @@ For more insight on Teams calling features, see [What is Teams Phone](what-is-ph
 > [!NOTE]
 > All users licensed for Teams can make calls to other Teams users. To support users making Teams calls with other Teams users who are *external* to your organization, see [Collaborate with people outside your organization](communicate-with-users-from-other-organizations.md).
 
-### Administering Teams calling
+## Administering Teams calling
 
-When planning to support Teams calling in your enterprise, consider the following topics:
+When planning to support Teams calling in your enterprise, consider the following topics to help you with your administrative duties:
 
-#### Administration
+### Administration methods
 
 Delivery of the Teams calling workload is accomplished through the Microsoft 365 cloud service, and administrators manage the delivery of Teams workloads and features through remote management of that cloud service.
 
+#### Access
 You can administer Teams Phone using two methods:
-
-- **PowerShell**
-  - To learn more about connecting to Teams and administering with Teams PowerShell, see [Teams PowerShell overview](teams-powershell-overview.md).
 
 - **Teams admin center**
   - For Commercial and Government Community Cloud (GCC) tenants, access Teams admin center via [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com)
   - For Government Community Cloud High (GCCH) tenants, access Teams admin center via [https://admin.gov.teams.microsoft.us](https://admin.gov.teams.microsoft.us/)
   
-To learn more about Teams admin center, see the following article.
+- **PowerShell**
+  - To learn more about connecting to Teams and administering with Teams PowerShell, see [Teams PowerShell overview](teams-powershell-overview.md).
+
+#### Teams admin center overview
+
+To learn more about general guidance for administering the Teams admin center, see the following article.
 
 > [!div class="nextstepaction"]
 > [Teams admin center overview](manage-teams-in-modern-portal.md)
+
+#### Access permissions
 
 To administer Teams features, you must use a privileged role assigned to the account that's used to access your Teams tenant. To learn more about permissions that allow you to administer your tenant (with Teams admin center and with PowerShell) and about Microsoft's RBAC (Role Based Access Control) for Teams, see the following article.
 
 > [!div class="nextstepaction"]
 > [Teams administrator roles](using-admin-roles.md)
 
-#### Policies
+### Policies
 
 Microsoft Teams Phone supports a wide array of features that you control by policy. For example, traditional calling features, like call hold music, call park, call recording, and more, are all administered through policy. Policies can be applied at a global, group, and user level.
+
+#### Teams policy management
 
 To learn about general Teams policy administration concepts, see the following article.
 
 > [!div class="nextstepaction"]
 > [Manage Teams with policies](manage-teams-with-policies.md)
 
+#### Voice specific policies
+
 For more information about voice settings that you can manage with Teams policy, see the following article.
 
 > [!div class="nextstepaction"]
 > [Manage voice policies](teams-calling-policy.md)
 
-#### Network preparation
+### Network
 
-For network best practices to support the optimal quality of Teams calls, see the following article.
+For network best practices and to ensure it supports the optimal quality of Teams calls, see the following article.
 
 > [!div class="nextstepaction"]
 > [Prepare your organization's network for Microsoft Teams](prepare-network.md)
 
-#### Reporting call activity
+### Reporting users' call activity
 
 Native Teams *call history* for end-users, like other end-user activity, isn't itemized in usage reports for privacy reasons. However, with Microsoft Purview, Teams call metadata can be logged in eDiscovery investigations. To learn more about content reported in compliance investigations, see [Conduct an eDiscovery investigation of content in Microsoft Teams](/microsoft-365/compliance/ediscovery-teams-investigation).
 
@@ -111,14 +120,14 @@ For more generic insights, you can report on the overall volume of *call activit
 > [!div class="nextstepaction"]
 > [Teams usage reporting](./teams-analytics-and-reports/teams-reporting-reference.md)
 
-#### Reporting call performance
+### Reporting call quality performance
 
 Microsoft Teams includes a set of tools that can be used to analyze call quality in real-time for single calls in progress or analyze performance trends of all calls across your organization. For more information on these tools to monitor call performance and quality, see the following article.
 
 > [!div class="nextstepaction"]
 > [Monitor call quality](monitor-call-quality-qos.md#monitor-and-troubleshoot-call-quality)
 
-#### Teams admin training
+### Teams admin training
 
 A wide range of resources are available for Teams administrators to learn more about Teams foundational and advanced topics. To view training resources for Teams admins, see the following article.
 

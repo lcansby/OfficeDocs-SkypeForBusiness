@@ -27,11 +27,11 @@ This article provides an overview of how contact center solutions can be integra
 
 ## What is contact center integration for Microsoft Teams?
 
-Microsoft Teams supports customer interaction work streams by acting as the hub for internal and external customer connection across its modes of communication including chat, video meetings, and calling. For some organizations, Microsoft Teams’ [cloud voice capabilities](./cloud-voice-landing-page.md), including [auto attendant](./what-are-phone-system-auto-attendants.md) and [call queues](./create-a-phone-system-call-queue.md), meet their needs.
+Microsoft Teams supports customer interaction work streams by acting as the hub for customer connections across its modes of communication including chat, video meetings, and calling. For some organizations, Microsoft Teams’ [cloud calling capabilities](./cloud-voice-landing-page.md), including [auto attendant](./what-are-phone-system-auto-attendants.md) and [call queues](./create-a-phone-system-call-queue.md), meet their needs.
 
 For organizations that want solutions with business tools and workflows to drive the customer journey, integrating a contact center with Teams Phone is supported.
 
-Contact Center as a Service (CCaaS) solution providers support integrations through a variet of certified programs.
+Contact Center as a Service (CCaaS) solution providers support integrations through a variety of certified programs.
 
 [!INCLUDE [contact-center-integration-models](./includes/contact-center-integration-models.md)]
 
@@ -39,13 +39,17 @@ Contact Center as a Service (CCaaS) solution providers support integrations thro
 
 The contact center for Microsoft Teams certification program verifies that each participating provider’s solution provides the quality, compatibility, and reliability they expect from Microsoft solutions.
 
-If you're an organization looking for an integrated contact center solution, see [Certified Microsoft Teams solutions for contact centers](https://cloudpartners.transform.microsoft.com/contact-center-solutions) for a list of certified solution providers, and see [Connected Contact Center solutions](#connected-contact-center-solutions) for a list of providers in the process of certification.
+If you're an organization looking for a certified contact center solution to use with Teams, see [Certified Microsoft Teams solutions for contact centers](https://cloudpartners.transform.microsoft.com/contact-center-solutions).
+
+For a list of providers in the process of certifidcation, see [Connected Contact Center solutions](#connected-contact-center-solutions).
 
 ## Next steps
 
-If you need to provide additional context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com). If you're a vendor seeking to join the certification program, fill out the calling platform intake as the next step.
+If you're a vendor seeking to join the certification program, fill out the calling platform intake as the next step.
 
 ### [Calling Platform Intake](https://aka.ms/CallingPlatformIntake)
+
+If you need to provide other context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
 
 ## Connected contact center solutions
 
@@ -102,8 +106,8 @@ The following providers offer contact center solutions that are integrated into 
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
 | `Zoom` | https://www.zoom.com/en/products/contact-center/               |
 
-This list will be updated as more solution providers join and meet the certification criteria.
+This list is updated as more solution providers meet the certification criteria.
 
 ## Support boundaries
 
-Microsoft supports Contact Center solutions only from the certified partners. If there are issues, you must contact your Contact Center partner first. If needed, the Contact Center partner will bring the issue to Microsoft through internal channels. Microsoft may reject support cases where a non-certified Contact Center solution is used, or if investigation shows the issue is one that the partner can address.
+Microsoft supports Contact Center solutions only from the certified partners. If there are issues, you must contact your Contact Center partner first. If needed, the Contact Center partner brings the issue to Microsoft through internal channels. Microsoft may reject support cases where a noncertified Contact Center solution is used, or if investigation shows the issue is one that the partner can address.

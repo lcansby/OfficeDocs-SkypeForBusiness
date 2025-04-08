@@ -282,7 +282,7 @@ This option assumes that the SIP proxy acts as a Transferor and sends a Refer me
 - The call is transferred to an external PSTN participant. 
 - The call is transferred from one Teams user to another Teams user in the same tenant via the SBC. 
 
-When call transferred from a Teams user to another Teams user or PSTN number via SBC, the SBC is expected on receiving the Refer, issue a new invite (start a new dialog) for Transfer Target (which is a Teams User or PSTN number) towards the SIP Proxy, using the information, received in the Refer message.
+When the call transferred from a Teams user to another Teams user or a PSTN number via SBC, upon receiving the Refer, the SBC is expected to issue a new Invite (start a new dialog) for the Transfer Target (which is a Teams User or PSTN number) towards the SIP Proxy, using the information received in the Refer message.
 
 To populate the To/Transferor fields for the transaction of the request internally, the SIP proxy needs to convey this information  inside the REFER-TO/REFERRED-BY headers. 
 

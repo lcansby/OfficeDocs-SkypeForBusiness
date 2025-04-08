@@ -332,3 +332,6 @@ If you have a 3PIP or SIP device, you must have the following:
 > Tango Extend does not support remote sign-in from TAC.
 > If users have both Tango Extend eSIM and Teams mobile client on their phones, then inbound calls prioritize the Teams mobile client.
 > Tango Extend does not support call transfer when presented by the mobile dialer menu option.
+>
+> > [!NOTE]
+> Fax communication via SIP Gateway is not supported. Connecting FAX machine via ATA to SIP Gateway for FAX communication is not supported.

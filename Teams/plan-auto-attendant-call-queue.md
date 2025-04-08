@@ -5,7 +5,7 @@ ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
 ms.date: 1/29/2025
-ms.topic: article
+ms.topic: concept-article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -197,6 +197,7 @@ However, there might be times when you require nesting with resource accounts. F
 > [!IMPORTANT]
 > Nesting Auto attendants and Call queues without a resource account isn't currently supported for [Authorized users](aa-cq-authorized-users-plan.md) in Queues App. If you nest an Auto attendant or Call queue without a resource account, authorized users can't edit the auto attendant or call queue.
 >
+> Teams Admin Center Usage reports currently don't report on auto attendants or call queues that are nested without resource accounts.
 
 ## Click-to-call restrictions
 

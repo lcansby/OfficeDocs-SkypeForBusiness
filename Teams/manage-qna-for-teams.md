@@ -5,8 +5,9 @@ ms.author: wlibebe
 ms.reviewer: sameer.sitaram
 ms.date: 4/18/2024
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
+ms.subservice: meetings
 search.appverid: MET150
 ms.localizationpriority: medium
 ms.collection: 

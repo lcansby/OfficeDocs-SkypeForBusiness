@@ -4,7 +4,7 @@ author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
 ms.date: 01/29/2025
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -40,7 +40,7 @@ Before an incoming or outbound call can be processed, OPTIONS messages are excha
 
 > [!NOTE]
 > - The SIP headers don't contain userinfo in the SIP URI in use. As per [RFC 3261, section 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), the userinfo part of a URI is optional and MAY be absent when the destination host doesn't have a notion of users or when the host itself is the resource being identified. If the @ sign is present in a SIP URI, the user field MUST NOT be empty.<br>
-> - SIP URI with Direct Routing isn't supported.<br>
+> - SIPS URI with Direct Routing isn't supported.<br>
 > - Check your Session Border Controller configuration and make sure that you aren't using "Replaces" headers in SIP requests. Direct Routing rejects SIP requests that have Replaces headers defined.
 
 On an incoming call, the SIP proxy needs to find the tenant to which the call is destined and find the specific user within this tenant. The tenant administrator might configure non-DID numbers, for example +1001, in multiple tenants. Therefore, it's important to find the specific tenant on which to perform the number lookup because the non-DID numbers might be the same in multiple Microsoft 365 or Office 365 organizations.  

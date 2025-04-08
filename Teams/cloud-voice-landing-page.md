@@ -33,27 +33,26 @@ This article is for IT administrators and IT professionals who are researching a
 
 ## Native Teams calling
 
-The Microsoft Teams application is a Microsoft 365 product that is for users who have either a legacy *Microsoft 365 E5* license or a new, stand-alone, *Microsoft Teams Enterprise* license.
+Microsoft Teams is a Microsoft 365 application for communication and collaboration. It includes support for native 1:1 calling *and* group calling, from one Teams client to any other internal or external Teams clients.
 
-Microsoft Teams includes support for native 1:1 calling *and* group calling from one Teams client to any other internal or external Teams clients.
+Calls between Teams clients are processed by Microsoft 365 Teams cloud services and include unlimited calling.
 
-With the Microsoft Teams application, calls between users in your organization are handled natively within Teams. Calls are processed by Microsoft 365 Teams cloud services and don't use the Public Switched Telephone Network (PSTN)&mdash;thereby removing PSTN toll costs for native Teams calls.
+The Calls app in Teams allows users to originate calls to other Teams users, view call history, and access voicemail that is automatically set up for all Teams users.
 
-All users licensed for Teams can make calls to other Teams users. To support users making Teams calls with users who are *external* to your organization, see [Collaborate with people outside your organization](communicate-with-users-from-other-organizations.md).
+Users can use a wide range of features to call each other. For example, they can select a name in their address book and place Teams calls to that person. They can transfer calls to other users, and set up distinctive rings. They make and receive calls using Teams on their mobile devices, on a laptop or PC with a headset, or one of many certified, third-party phone devices.
 
-The Calls app in Teams allows users to originate calls to other Teams users, view call history, and access voicemail. It also provides an alternative way to access their forwarding and audio settings.
+With the addition of a Public Switched Telephone Network (PSTN) connection to your tenant and Teams Phone licensing for your users, all Teams calling also supports making and receiving external telephone calls and a rich set of enterprise-grade, telephone system features.
 
-**Voicemail** - Cloud Voicemail is automatically set up and provisioned for all Teams users. For more information, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
-
-With Teams, users in your organization can use a wide range of features to call each other. They can select a name in their address book and place Teams calls to that person. They make and receive calls using their mobile devices, a headset with a laptop or PC, or one of many certified, third-party IP phones that work with Teams.
-
-By default, Microsoft Teams native calling is turned on via policy for all users.
+For more insight on Teams calling features, see [What is Teams Phone](what-is-phone-system-in-office-365.md) and [Teams calling features](here-s-what-you-get-with-phone-system.md).
 
 > [!NOTE]
 > Calling is controlled at the tenant level, per calling policy with the setting [Make private calls](settings-policies-reference.md).
 > If the **Make private calls setting** is turned off in the calling policy, users with that policy can't see the **Calls** app in their Teams client, can't escalate Chat conversations to audio calls, and can't receive incoming calls.
 >
-> With **Make private calls setting** turned on, users can call from the **Calls** app and can escalate Chat conversations to audio calls.
+> With **Make private calls setting** turned on, users can call from the **Calls** app and can escalate Chat conversations to audio calls. By default, Microsoft Teams native calling is turned on via policy for all users.
+
+> [!NOTE]
+> All users licensed for Teams can make calls to other Teams users. To support users making Teams calls with other Teams users who are *external* to your organization, see [Collaborate with people outside your organization](communicate-with-users-from-other-organizations.md).
 
 ### Administering Teams calling
 

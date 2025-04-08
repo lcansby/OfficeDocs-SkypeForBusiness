@@ -42,7 +42,7 @@ The features listed below indicate whether or not a license for Teams Phone is r
 
 Microsoft Teams Enterprise includes native calling features, and Teams Phone unlocks even more features.
 
-To review licensing scenarios, see [Teams Phone licensing](teams-phone-licensing.md)
+To review licensing scenarios, see [Teams Phone licensing](teams-phone-licensing.md).
 
 For features where a Teams Phone license is required, a connection with the Public Swithced Telephone Network (PSTN) and phone number is also required.
 

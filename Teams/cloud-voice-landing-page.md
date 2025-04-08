@@ -35,13 +35,13 @@ This article is for IT administrators and IT professionals who are researching a
 
 Microsoft Teams is a Microsoft 365 application for communication and collaboration. It includes support for native 1:1 calling *and* group calling, from one Teams client to any other internal or external Teams clients.
 
-Calls between Teams clients are processed by Microsoft 365 Teams cloud services and include unlimited calling.
+Native calls between Teams clients are processed by Microsoft 365 Teams cloud services and include unlimited calling.
 
 The Calls app in Teams allows users to originate calls to other Teams users, view call history, and access voicemail that is automatically set up for all Teams users.
 
 Users can use a wide range of features to call each other. For example, they can select a name in their address book and place Teams calls to that person. They can transfer calls to other users, and set up distinctive rings. They make and receive calls using Teams on their mobile devices, on a laptop or PC with a headset, or one of many certified, third-party phone devices.
 
-With the addition of a Public Switched Telephone Network (PSTN) connection to your tenant and Teams Phone licensing for your users, all Teams calling also supports making and receiving external telephone calls and a rich set of enterprise-grade, telephone system features.
+With the addition of a Public Switched Telephone Network (PSTN) connection to your tenant and Teams Phone licensing for your users, Teams calling also supports making and receiving external telephone calls and a rich set of enterprise-grade, telephone system features.
 
 For more insight on Teams calling features, see [What is Teams Phone](what-is-phone-system-in-office-365.md) and [Teams calling features](here-s-what-you-get-with-phone-system.md).
 

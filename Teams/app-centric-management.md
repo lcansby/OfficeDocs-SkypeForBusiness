@@ -66,6 +66,9 @@ The method to allow users access to an app changes with this functionality. In t
 
 ## Migrate to app centric management
 
+> [!IMPORTANT]
+> Starting from April 2025, tenants are automatically migrated to app centric management. After the migration, you won't have access to the migration wizard. However, until the migration is complete, you can use the wizard and have the option to complete the migration manually. If you've begun the wizard but have not completed it, your tenant can still be automatically migrated during the migration period. For more details about when your tenant can be auto-migrated, see [Message Center post MC688930](https://admin.microsoft.com/Adminportal/Home#/MessageCenter/:/messages/MC688930).
+
 Previously, we automatically migrated organizations that weren't using any custom policies. Admins can now do an on-demand migration. Understand the difference between the two types of migration.
 
 | Type of migration | Who does it   | Requirement                             | How is it done                        |
@@ -121,6 +124,10 @@ To allow users to add and use an app or a Copilot agent, you must assign users o
 * If your organization is migrated to unified app management, allow apps and Copilot agents in Teams admin center or under the **Integrated apps** page in [Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
 
 For more information, see [manage apps that work across Teams, Outlook, and Microsoft 365 App](manage-apps-across-m365.md).
+
+### Understand the auto-migration process
+
+Auto-migration maintains the same access defined in app permission policies when there is no conflict between a user’s assigned policies. If a user belongs to policies that conflict with one allowing and another blocking the same app, Microsoft auto-migrates the app as allowed. After auto-migration, a security group is created for each set of users assigned to each app permission policy. These groups are assigned to each app they are allowed in their respective policy, maintaining their app access. You can manage these groups to customize the app centric management assignments, such as adding or removing users, or removing the group and replacing it with another.
 
 > [!NOTE]
 > It takes up to 24 hours for the availability changes to take effect. In rare cases, it may take up to six days for the changes to reflect in the client.
@@ -214,6 +221,14 @@ When your tenant's admin center receives this feature, the following updates are
 * After you switch to this feature, you can't access, edit, or use permission policies. Once your organization migrates, you can't revert the migration.
 
 * You can't update app availability in bulk.
+
+* Automatic migration details:
+  
+  * One security group is automatically created per custom app permission policy. All users assigned  to the app permission policy are assigned to the corresponding groups.
+
+  * After the migration, an Entra Global or Groups administrator can view and manage the groups. We recommended assigning owners to each group.
+
+  * There is no change in app availability for users during the automatic migration, except where an app is allowed in the global app permission policy but blocked in the custom app permission policy for specific users. The app becomes allowed for everyone.
 
 ## Related articles
 

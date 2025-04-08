@@ -7,6 +7,7 @@ ms.reviewer: jaydenlee
 ms.date: 03/28/2025
 ms.topic: how-to
 ms.service: msteams
+ms.subservice: meetings
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150

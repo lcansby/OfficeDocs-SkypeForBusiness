@@ -56,6 +56,170 @@ The 10DLC (10-digit long code) registration process involves validating your **C
 
 Examples of details that TCR may require, based on [your Brand](sms-setup-brand.md):
 
+#### Campaign Details
+##### Campaign Use case
+The use case specifies how the SMS service will be used for the given campaign.
+For Teams SMS, the use case is Unified Communications as a Service (UCaaS), Low Volume. The use case is defined by Microsoft and cannot be changed by you.
+
+##### Campaign Description
+
+The description provides a comprehensive explanation of the purpose, target, and utilization of the campaign and SMS Service.  
+
+##### SMS Privacy Policy
+
+Brands are required to provide a link to their Privacy Policy related to SMS when registering a campaign. 
+
+The Privacy Policy must clearly describe how consumer data will be used and shared (if applicable), and how consumers can contact the message sender. The Privacy Policy should state that mobile opt-in information will not be shared with third parties for marketing purposes.
+
+> [!NOTE]
+> The Privacy Policy link can be a webpage or an online file that is publicly accessible.
+> If your company doesn't have a privacy statement related to SMS messaging, you can use a Microsoft-provided template, completed with your company's information. For the template, see [SMS privacy statement and terms and conditions template](/microsoftteams/sms-privacy-terms-template).
+
+##### SMS Terms and Conditions
+
+Brands are required to provide a link to their Terms & Conditions related to SMS when registering a campaign. 
+
+The Terms and Conditions must have an SMS disclosure that includes the types of messages consumers can expect to receive, texting cadence, message and data rate notices, privacy policy links, HELP information, and opt-out instructions.
+
+The Terms & Conditions must include the following information:
+
+- Brand name
+
+- Types of messages the consumer can expect to receive
+
+- Message frequency disclosure (e.g., "Msg frequency varies")
+
+- Message and data rates disclosure ("Msg & data rates may apply")
+
+- Support contact information, e.g., “send HELP for support”, contact [email address] for support, etc.
+
+- Opt-out information (e.g., "Send STOP to unsubscribe")
+
+> [!NOTE]
+> The Terms & Conditions URL can be a webpage or an online file that is publicly accessible.
+> If your company doesn't have a privacy statement related to SMS messaging, you can use a Microsoft-provided template, completed with your company's information. For the template, see [SMS privacy statement and terms and conditions template](/microsoftteams/sms-privacy-terms-template).
+
+##### Call to Action
+
+The Call to Action describes in a clear and transparent way how a recipient opt-in to receive messages from you. It must be explicit, ensure that users understand what they are consenting to, and be collected in a direct and verifiable way. Call To Action should be specific to SMS messaging services and not bundled with other services or be hidden within terms & conditions or other agreements.
+
+The Call-to-Action disclosure refers to the language provided to the recipient informing them that they are opting in and must include the following information:
+
+- Brand name
+
+- Types of messages the consumer can expect to receive
+
+- Message frequency disclosure, e.g., “Msg frequency varies”
+
+- Message and data rates disclosure, e.g., “Msg & data rates may apply”
+
+- Opt-in information (see below)
+
+- Help information, e.g., “send HELP for help”.
+
+- Opt-out information, e.g., "send STOP to unsubscribe".
+
+- Privacy Policy link
+
+- Terms and Conditions link
+
+The table below shows examples of how users might opt in:
+
+|Method|Description|Requirement|Examples|
+|||||
+|Web Sign-Up|Users enter  
+their phone number on a website and check a box agreeing to receive messages.|Provide a  
+direct link to the submission form or the webpage.|By submitting  
+this form, you consent to receive [type of text messages] from [Brand Name]  
+at the number provided. Msg & data rates may apply. Msg frequency varies.  
+Unsubscribe by replying STOP or clicking the unsubscribe link. Reply HELP for  
+help. Phone numbers will not be shared with third parties. Privacy Policy  
+[link] & Terms [link]."|
+|Web Sign-Up|Users enter their phone number on a website and check a box agreeing to receive messages.  |Provide a direct link to the submission form or the webpage.  |By submitting this form, you consent to receive [type of text messages] from [Brand Name] at the number provided. Msg & data rates may apply. Msg frequency varies. Unsubscribe by replying STOP or clicking the unsubscribe link. Reply HELP for help. Phone numbers will not be shared with third parties. Privacy Policy [link] & Terms [link]."|
+|Text Message Keyword|Users opt-in by texting a keyword (e.g., "START") to a specific number.|Explain how users learn about the keyword, such as via a webpage link or screenshot.|By texting START to [phone number], you consent to receive text messages from [Brand Name]. Msg & data rates may apply. Msg frequency varies. Unsubscribe by replying STOP. Reply HELP for help. Phone numbers will not be shared with third parties. Privacy Policy [link] & Terms [link]."|
+|Verbally|Users opt-in verbally at a physical location or over the phone.|Provide a copy of the script used to inform users about the opt-in.|[Brand name] collects opt-in verbally at their locations or over the phone. Customers provide their number and are informed that 'Message and data rates may apply', 'Message frequency varies', and they can 'text HELP for support or STOP to unsubscribe.' Phone numbers will not be shared with third parties. Privacy Policy [link] & Terms [link]."|
+
+ 
+
+##### Sample Messages
+
+These sample messages are examples of messages that will be sent by you. Sample Messages must align with the campaign use case.
+
+The Sample Messages are required and must include the following information:
+
+-          Brand name
+
+-          Opt-out language in at least one sample message
+
+-          An embedded link in at least one sample message if "Yes" is selected for Embedded Link under Content Attributes.
+
+#### Campaign and Content Attributes
+##### Opt-In Message
+
+When a Teams user sends the first message in an SMS conversation, the Opt-In Message is automatically sent to the recipient. 
+
+The Opt-In Message and must include the following information:
+
+- Brand name.
+
+- Message frequency disclosure e.g., "Msg frequency varies".
+
+- Message and data rates disclosure, e.g. "Msg & data rates may apply".
+
+- Help information, e.g., “send HELP for help”.
+
+- Opt-out information, e.g., "send STOP to unsubscribe".
+
+An example might look like this: "*Thank you for opting in to receive [type of messages] from [Brand Name]. Msg frequency varies. Msg & data rates may apply. Reply HELP for help. Reply STOP to opt-out from receiving messages from this number.*"
+
+> [!IMPORTANT]
+> Only the keywords START, HELP, and STOP are monitored and enforced in Teams SMS.
+
+##### Opt-Out Message
+
+When recipient replies STOP, the Opt-Out Message is automatically sent to the recipient.
+
+The Opt-Out Message must include the following information:
+
+- Brand name.
+
+- Confirmation that the recipient will receive no further messages.
+
+An example might look like this: "*You have successfully opted out of messages from this [Brand Name] number. You will receive no further messages. Reply START to resume. Msg & data rates may apply.*"
+
+> [!IMPORTANT]
+> Only the keywords START, HELP, and STOP are monitored and enforced in Teams SMS.
+
+##### Help Message
+
+When recipient replies HELP, the Help Message is automatically sent to the recipient.
+
+The Help Message must include the following information:
+
+- Brand name
+
+- Support contact information, e.g., email address, phone number, or website.
+
+ An example might look like this: "*Thank you for contacting [Brand Name] support. Please email us at [email address] for support. Reply STOP to opt-out from receiving messages from this number. Msg & data rates may apply*."
+
+> [!IMPORTANT]
+> Only the keywords START, HELP, and STOP are monitored and enforced in Teams SMS.
+
+##### Content
+
+ 
+
+|Content|Description|
+| -------- | -------- |
+|__Content__|__Description__|
+|__Direct Lending or Loan Arrangement__|Select "Yes" if the brand engages in lending, even if the campaign is not related to lending or loan arrangement.|
+|__Embedded Link__|Select "Yes" if embedded links will be sent in messages. Public URL shorteners (bitly, tinyurl) aren't accepted. If “Yes” is selected, at least one sample message must include an embedded link.|
+|__Embedded Phone Number__|Select "Yes" if embedded phone numbers will be sent in messages, excluding HELP contact. If “Yes” is selected, at least one sample message must include an embedded phone number.|
+|__Age-Gated Content__|Select “Yes" if the content includes age-gated materials.|
+
+---
+
+
 - **Campaign details**
   - *Brand*: The brand associated with this campaign.
   - *Description*: A description for the campaign, explaining its purpose and target audience.

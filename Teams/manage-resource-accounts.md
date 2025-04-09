@@ -195,7 +195,7 @@ For more information on segmenting users, see [Identify segments](/microsoft-365
 > If a Teams user saves the Resource Account as a contact, they can no longer call it.
 
 
-# Related articles
+## Related articles
 
 [Set up a Microsoft Teams Auto attendant](create-a-phone-system-auto-attendant.md)
 

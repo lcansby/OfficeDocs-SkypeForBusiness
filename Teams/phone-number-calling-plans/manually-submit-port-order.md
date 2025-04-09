@@ -3,11 +3,12 @@ title: Manually submit a port order
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 10/24/2019
+ms.reviewer: julienp
+ms.date: 04/09/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-calling
 search.appverid: MET150
 ms.collection: 
 - M365-voice
@@ -21,33 +22,36 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Learn how to manually submit a port order request.
+description: Learn how to manually submit a telephone number port order request to Microsoft Calling Plans.
 ---
 
 # Manually submit a port order
 
-For most customers, port orders of 999 or fewer phone numbers can be completed in the Microsoft Teams admin center. For instructions on that process, see [Transfer phone numbers to Microsoft Teams](transfer-phone-numbers-to-teams.md).
+When you want to transfer telephone numbers that are acquired through your current service provider to Microsoft for use with a Microsoft Calling Plan deployment, you can transfer those numbers to Microsoft with a telephone number port request.
 
-In some situations, you may have to manually submit a service request to get phone numbers, transfer phone numbers, release phone numbers, or change addresses. To see what's required for each country and region or to learn more about number porting, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+To learn more about porting your numbers, see [Port order overview](port-order-overview.md). To see what's required to port numbers for each specific country and region, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-Use the steps in this article to manually submit a port order if you're unable to use the [porting wizard in the Teams admin center](transfer-phone-numbers-to-teams.md).
+In most instances port orders of 999 or fewer phone numbers are supported in the Microsoft Teams admin center.
+
+However, in some situations, you may have to submit your service request to transfer your phone numbers, manually.
+
+Use the steps in this article to manually submit a port order only if you're unable to use the [porting wizard in the Teams admin center](transfer-phone-numbers-to-teams.md).
 
 ## Manually submit a new port order request
 
-To manually submit a new port order, upload your completed Letter of Authorization (LOA) form directly to the TNS Service Desk.
+To manually submit a new port order, use the Phone Number Service Center portal. To learn more about the portal, see [Contact the Telephone Number Service team](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
-1. Download the [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for your country or region.
-2. Complete the form.
-4. Send it to the [TNS service desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
+Using the Phone Number Service Center portal, create a case and upload your completed Letter of Authorization (LOA) form directly to the Telephone Number Service -- Service Desk.
 
-> [!NOTE]
-> For more information about LOAs to port/transfer existing phone numbers and additional documentation requirements, see [Manage phone numbers for Calling Plan](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+1. [Select your country or region](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) and download the required form(s).
+2. Complete the form(s).
+3. Upload the form(s) to the [TNS service desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 ## What else should you know about number porting
 
 - To use Calling Plans, you must purchase and assign licenses to your users. See [Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-- You must assign the new phone numbers you have to each of your users. See [Manage phone numbers for users](../assign-change-or-remove-a-phone-number-for-a-user.md).
+- Assign the new phone numbers you have to each of your users. See [Manage phone numbers for users](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ## Related topics
 

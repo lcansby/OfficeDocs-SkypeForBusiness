@@ -1410,9 +1410,9 @@ items:
           href: sms-privacy-terms-template.md
         - name: Microsoft policy for SMS in Teams
           href: sms-microsoft-teams-policy.md
-    - name: Routing with dial plans
+    - name: Dial plans and routing
       items: 
-        - name: Plan routing with dial plans
+        - name: Overview
           href: dial-plans-routing-overview.md
         - name: Create and manage dial plans
           href: create-and-manage-dial-plans.md

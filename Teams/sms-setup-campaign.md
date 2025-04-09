@@ -31,10 +31,9 @@ This article is for IT administrators and IT professionals who are enabling Shor
 
 Before reading this article, make sure you've read [Plan for SMS in Teams](sms-overview.md) and [Step 1: Create a brand](sms-setup-brand.md).
 
-SMS in Teams is only available in the United States (including Puerto Rico) and Canada.
-
 > [!NOTE]
-> Customers in the United States and Canada must have an approved Brand and Campaign before enabling SMS for Teams Calling Plan numbers.
+> SMS in Teams is only available on Calling Plan phone numbers in the United States (including Puerto Rico) and Canada. 
+> Customers must have an approved Brand and Campaign before enabling SMS on Teams Calling Plan numbers. 
 
 ## Prerequisites
 

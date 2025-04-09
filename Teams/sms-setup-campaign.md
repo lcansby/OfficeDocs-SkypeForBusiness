@@ -58,8 +58,7 @@ Examples of details that TCR may require, based on [your Brand](sms-setup-brand.
 
 #### Campaign Details
 ##### Campaign Use case
-The use case specifies how the SMS service will be used for the given campaign.
-For Teams SMS, the use case is Unified Communications as a Service (UCaaS), Low Volume. The use case is defined by Microsoft and cannot be changed by you.
+The use case specifies how the SMS service will be used for the given campaign. For Teams SMS, the use case is Unified Communications as a Service (UCaaS), Low Volume. The use case is defined by Microsoft and cannot be changed by you.
 
 ##### Campaign Description
 
@@ -147,11 +146,11 @@ These sample messages are examples of messages that will be sent by you. Sample 
 
 The Sample Messages are required and must include the following information:
 
--          Brand name
+- Brand name
 
--          Opt-out language in at least one sample message
+- Opt-out language in at least one sample message
 
--          An embedded link in at least one sample message if "Yes" is selected for Embedded Link under Content Attributes.
+- An embedded link in at least one sample message if "Yes" is selected for Embedded Link under Content Attributes.
 
 #### Campaign and Content Attributes
 ##### Opt-In Message

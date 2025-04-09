@@ -61,7 +61,7 @@ For more information on PowerShell cmdlets for Teams meetings, see the [Related 
 To allow users with this policy to use voice isolation, use both of the following scripts:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -Identity <policy name> -EnrollUserOverride Enabled
+Set-CsTeamsAIPolicy
 ```
 
 ```powershell

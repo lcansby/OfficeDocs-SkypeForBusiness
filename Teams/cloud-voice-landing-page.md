@@ -71,7 +71,10 @@ You can access your tenant and administer Teams Phone using two methods:
   - For Government Community Cloud High (GCCH) tenants, access Teams admin center via [https://admin.gov.teams.microsoft.us](https://admin.gov.teams.microsoft.us/)
   
 - **PowerShell**
-  - To learn more about connecting to Teams and administering with Teams PowerShell, see [Teams PowerShell overview](teams-powershell-overview.md).
+  - To learn more about connecting to Teams and administering users, policies, and more with Teams PowerShell, see [Teams PowerShell overview](teams-powershell-overview.md).
+
+- **Microsoft Graph Explorer**
+  - To learn more about working with data in Microsoft Graph using Graph Explorer, see [Use Graph Explorer](../graph/graph-explorer/graph-explorer-overview).
 
 #### Teams admin center overview
 

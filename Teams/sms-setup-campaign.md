@@ -47,9 +47,12 @@ Administrators must have one of the following role-based access control (RBAC) r
 
 ## Campaign registration details for SMS in Teams
 
-After your brand is registered with TCR and the Teams admin center shows that your brand's status is **Approved**, proceed with the campaign registration.
+After your brand is verified and the Teams admin center shows that your brand's status is **Approved**, proceed with the campaign registration.
 
 The 10DLC (10-digit long code) registration process involves validating your **Campaign**, or organization's objective, for accessing the 10DLC network. To get your campaign approved, you must submit details to TCR via the Teams admin center.
+
+> [!IMPORTANT]
+> To increase the likelihood of your campaign being approved and to ensure 10DLC program compliance, please review the following information.
 
 Examples of details that TCR may require, based on [your Brand](sms-setup-brand.md):
 

@@ -3,7 +3,6 @@ title: Local Media Optimization for Direct Routing
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
-ms.reviewer: filippse
 ms.date: 04/09/2025
 ms.topic: article
 ms.service: msteams

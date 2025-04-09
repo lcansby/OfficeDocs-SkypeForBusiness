@@ -125,26 +125,16 @@ The Call-to-Action disclosure refers to the language provided to the recipient i
 The table below shows examples of how users might opt in:
 
 |Method|Description|Requirement|Examples|
-|||||
-|Web Sign-Up|Users enter  
-their phone number on a website and check a box agreeing to receive messages.|Provide a  
-direct link to the submission form or the webpage.|By submitting  
-this form, you consent to receive [type of text messages] from [Brand Name]  
-at the number provided. Msg & data rates may apply. Msg frequency varies.  
-Unsubscribe by replying STOP or clicking the unsubscribe link. Reply HELP for  
-help. Phone numbers will not be shared with third parties. Privacy Policy  
-[link] & Terms [link]."|
+| -------- | -------- | -------- | -------- |
 |Web Sign-Up|Users enter their phone number on a website and check a box agreeing to receive messages.  |Provide a direct link to the submission form or the webpage.  |By submitting this form, you consent to receive [type of text messages] from [Brand Name] at the number provided. Msg & data rates may apply. Msg frequency varies. Unsubscribe by replying STOP or clicking the unsubscribe link. Reply HELP for help. Phone numbers will not be shared with third parties. Privacy Policy [link] & Terms [link]."|
 |Text Message Keyword|Users opt-in by texting a keyword (e.g., "START") to a specific number.|Explain how users learn about the keyword, such as via a webpage link or screenshot.|By texting START to [phone number], you consent to receive text messages from [Brand Name]. Msg & data rates may apply. Msg frequency varies. Unsubscribe by replying STOP. Reply HELP for help. Phone numbers will not be shared with third parties. Privacy Policy [link] & Terms [link]."|
 |Verbally|Users opt-in verbally at a physical location or over the phone.|Provide a copy of the script used to inform users about the opt-in.|[Brand name] collects opt-in verbally at their locations or over the phone. Customers provide their number and are informed that 'Message and data rates may apply', 'Message frequency varies', and they can 'text HELP for support or STOP to unsubscribe.' Phone numbers will not be shared with third parties. Privacy Policy [link] & Terms [link]."|
-
- 
 
 ##### Sample Messages
 
 These sample messages are examples of messages that will be sent by you. Sample Messages must align with the campaign use case.
 
-The Sample Messages are required and must include the following information:
+The Sample Messages must include the following information:
 
 - Brand name
 

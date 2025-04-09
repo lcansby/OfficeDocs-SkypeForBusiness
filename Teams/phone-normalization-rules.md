@@ -29,6 +29,10 @@ description: "Learn normalization rules for Microsoft Teams user dial plans and 
 
 # Normalization rules
 
+This article is for IT Admins and IT Pros who are applying normalization rules to Teams dial plans.
+
+For more on Teams dial plans, see [Routing with dial plans](dial-plans-routing-overview.md).
+
 Normalization rules are the translation properties of a Teams dial plan and define how phone numbers expressed in various formats are to be translated. The same number string may be interpreted and translated differently, depending on the locale from which it's dialed. Normalization rules may be necessary if users need to be able to dial abbreviated internal or external numbers.
 
 One or more normalization rules must be assigned to the dial plan. Normalization rules are matched from top to bottom, so the order in which they appear in a tenant dial plan is important. For example, if a tenant dial plan has 10 normalization rules, the dialed number matching logic is tried starting with the first normalization rule. If there isn't a match with the first rule, then a match is attempted with the second rule, and so forth. If a match is made, that rule is used and there's no effort to match any other rules that are defined.

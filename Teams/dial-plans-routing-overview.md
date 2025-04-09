@@ -35,7 +35,7 @@ An overview of inbound and outbound call routing is provided for context in rela
 
 Understand the concepts in this article are a prerequisite for [creating Teams dial plans](create-and-manage-dial-plans.md) and [normalization rules](phone-normalization-rules.md).
 
-## Routing phone calls to users in Microsoft Teams
+## Routing inbound phone calls to users in Microsoft Teams
 
 Routing telephone calls in Teams Phone is accomplished by matching dialed number strings to resource objects assigned with the dialed number string.
 
@@ -57,13 +57,13 @@ If the user is assigned a phone number with an extension, +14255551212;ext=12345
 
 If the dialed number isn't matched, either because the number isn't assigned to an account or the number dialed doesn't exactly match any number string assigned to an account, the call fails to route or is routed according to [unassigned number routing](routing-calls-to-unassigned-numbers.md), if configured.
 
-## Routing dialed phone calls for Teams users
+## Routing outbound dialed phone calls for Teams users
 
 Outbound telephone calls from Teams users are routed based on a series of assigned configuration items, including their assigned dial plan and their voice routing policy.
 
 With Microsoft Calling Plans, Operator Connect, and Teams Phone Mobile, dial plans and voice routing policies are preconfigured and administration for dial plans and voice routing policies isn't generally necessary, if the users are instructed to place calls by dialing as they normally would for any call in their country or region.
 
-When you are deploying extension dialing or Direct Routing, Microsoft Teams provides admins with the ability to configure a set of rules that help the dialed digits resolve to a destination that Teams can find and route to. The feature that Teams uses to accomplish this is dial plans.
+When you are deploying extension dialing or Direct Routing, Microsoft Teams provides admins with the ability to configure a set of rules that help translate the user's dialed digits into a number that is resolved to a destination where Teams can route the call. The Teams administrative feature that supports these number translations is called the dial plan.
 
 ## What are dial plans?
 
@@ -76,7 +76,7 @@ The translation rules are optionally applied to phone numbers that:
 - An individual user dials
 - Are sent across PSTN connections ('trunks') between your tenant and PSTN routing integrations.
 
-Teams dial plans change numbers from various input formats into alternate formats (typically E.164) for purposes of call authorization and voice routing.
+Teams dial plans change numbers from various input formats into alternate formats (typically E.164) for purposes of matching the call to a resource that the user is authorized to use, and for routing the call.
 
 A dial plan consists of one or more rules that normalize how phone numbers expressed in various formats are translated to an alternate format. The rules within a dial plan are known as [**normalization rules**](phone-normalization-rules.md).
 
@@ -94,7 +94,7 @@ In Teams, there are two types of dial plans - service-scoped or tenant-scoped.
 
 - Tenant dial plans--A tenant dial plan (better for your organization) can be further broken into two scopes - user-scope or tenant-scope.
   - User-scope--If a tenant defines and assigns a user-scoped dial plan, that user will be provisioned with an effective dial plan of the user's service country/region dial plan and the assigned user dial plan.
-  - Tenant-scop--If a tenant defines a tenant-scoped dial plan but doesn't assign a user-scoped dial plan, then that user will be provisioned with an effective dial plan of the user's service country/region dial plan and the tenant dial plan.
+  - Tenant-scope--If a tenant defines a tenant-scoped dial plan but doesn't assign a user-scoped dial plan, then that user will be provisioned with an effective dial plan of the user's service country/region dial plan and the tenant dial plan.
 
 The following is the inheritance model of dial plans in Teams.
 
@@ -129,9 +129,9 @@ When you create a new dial plan, you must put in the information that is require
 
 ### Name and simple name
 
-For user dial plans, you should specify a descriptive name that identifies the users to which the dial plan will be assigned.
+For user dial plans, specify a descriptive name that identifies the users to which the dial plan will be assigned.
 
-The dial plan Simple Name is prepopulated with a string that is derived from the dial plan name. The Simple Name field is editable, which enables you to create a more descriptive naming convention for your dial plans. The Simple Name value can't be empty and must be unique.
+The dial plan Simple Name is an attribute of the dial plan that is prepopulated with a string that is derived from the dial plan name. The Simple Name field is editable in PowerShell, which enables you to create a more descriptive naming convention for your dial plans. The Simple Name value can't be empty and must be unique.
 
 A best practice is to develop a naming convention for your entire organization and then uses this convention consistently across all sites and users.
 

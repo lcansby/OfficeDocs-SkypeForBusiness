@@ -74,7 +74,7 @@ You can access your tenant and administer Teams Phone using two methods:
   - To learn more about connecting to Teams and administering users, policies, and more with Teams PowerShell, see [Teams PowerShell overview](teams-powershell-overview.md).
 
 - **Microsoft Graph Explorer**
-  - To learn more about working with data in Microsoft Graph using Graph Explorer, see [Use Graph Explorer](../graph/graph-explorer/graph-explorer-overview).
+  - To learn more about working with data in Microsoft Graph using Graph Explorer, see [Use Graph Explorer](/graph/graph-explorer/graph-explorer-overview).
 
 #### Teams admin center overview
 

@@ -200,11 +200,10 @@ The Help Message must include the following information:
 
 |Content|Description|
 | -------- | -------- |
-|__Content__|__Description__|
-|__Direct Lending or Loan Arrangement__|Select "Yes" if the brand engages in lending, even if the campaign is not related to lending or loan arrangement.|
-|__Embedded Link__|Select "Yes" if embedded links will be sent in messages. Public URL shorteners (bitly, tinyurl) aren't accepted. If “Yes” is selected, at least one sample message must include an embedded link.|
-|__Embedded Phone Number__|Select "Yes" if embedded phone numbers will be sent in messages, excluding HELP contact. If “Yes” is selected, at least one sample message must include an embedded phone number.|
-|__Age-Gated Content__|Select “Yes" if the content includes age-gated materials.|
+|__Direct Lending or Loan Arrangement__| Indicates if the brand engages in lending, even if the campaign is not related to lending or loan arrangement.|
+|__Embedded Link__|Indicates if embedded links will be sent in messages. Public URL shorteners (bitly, tinyurl) aren't accepted. If “Yes” is selected, at least one sample message must include an embedded link.|
+|__Embedded Phone Number__|Indicates if embedded phone numbers will be sent in messages, excluding HELP contact. If “Yes” is selected, at least one sample message must include an embedded phone number.|
+|__Age-Gated Content__|Indicates" if the content includes age-gated materials.|
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Manage the Shifts app for your organization
-author: lana-chin
-ms.author: v-chinlana
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 ms.date: 09/19/2024
 ms.topic: how-to

@@ -58,7 +58,7 @@ Guests can use an app if the app was added by an organization's user.
 
 #### Bots added to a channel
 
-Guests can mention the bot and interact with adaptive cards.
+Guests can mention the bot and interact with Adaptive Cards.
 
 #### Personal bots added with policies
 
@@ -75,8 +75,8 @@ External users don't have access to the Teams app store of the host organization
 
 ### Add, update, and delete apps for external access users
 
-* People from other organizations adhere to the hosting organization's global (org-wide default) policy
-* Users in the hosting organization can add apps in meeting chats with people from other organizations. People from other organizations can't add apps in meeting chats but can interact with bots, tabs and message extensions once added to the chat.
+* People from other organizations adhere to the hosting organization's global (org-wide default) policy.
+* Users in the hosting organization can add apps in meeting chats with people from other organizations. People from other organizations can't add apps in meeting chats but can interact with bots, tabs, and message extensions once added to the chat.
 * A meeting host can install, remove, or update apps for use by all members of a meeting, including external users.
 * Apps in one-on-one chat with external users aren't supported.
 

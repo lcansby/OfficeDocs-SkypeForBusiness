@@ -41,15 +41,16 @@ Use the steps in this article to manually submit a port order only if you're una
 
 ## Manually submit a new port order request
 
-To manually submit a new port order, use the Phone Number Service Center portal. To learn more about the portal, see [Contact the Telephone Number Service team](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
+To manually submit a new port order, use the following guidance:
 
-Using the Phone Number Service Center portal, create a case and upload your completed Letter of Authorization (LOA) form directly to the Telephone Number Service--Service Desk.
-
-1. [Select your country or region](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) and download the required forms.
+1. Navigate to [Manage phone numbers for Calling Plan and services](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md), select your country or region, and then download the required forms.
 2. Complete the forms.
-3. Upload the forms to Microsoft's [Telephone Number Services--service desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
+3. Create a case with Microsoft's [Telephone Number Services--service desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
+4. Upload the forms to your case.
 
 ## What else should you know about number porting
+
+- Manually submitted cases are subject to manual processing delays and are not subject to the same timelines outlined for port requests submitted through the Teams admin center in [Port planning](port-order-overview.md).
 
 - Purchase and assign licenses to your users. See [Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 

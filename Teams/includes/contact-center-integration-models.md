@@ -23,8 +23,6 @@ The Unify program extends Teams Phone system capabilities into CCaaS with the fo
 - OpenAI
 - Other Microsoft tools
 
-Further information can be found 
-
 ### [**The Connect Program**](#tab/connect)
 
 The Connect program uses Microsoft certified SBCs and Direct Routing to connect contact center solutions to Teams Phone system infrastructure, enabling enhanced routing, configuration, and system insights.

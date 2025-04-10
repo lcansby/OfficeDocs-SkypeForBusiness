@@ -1378,6 +1378,8 @@ items:
                   href: phone-number-calling-plans/port-order-overview.md
                 - name: Transfer phone numbers to Teams
                   href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
+                - name: Manually submit a port order
+                  href: manually-submit-port-order.md
                 - name: What's the status of your port orders?
                   href: phone-number-calling-plans/port-order-status.md
             - name: Supported rate centers and coverage

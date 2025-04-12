@@ -54,7 +54,7 @@ PCs with an integrated Bluetooth radio is required. PCs that don't come with int
   
 For a better and more consistent experience, we suggest that customers should check if they have the latest Audio and Bluetooth drivers.  
   
-On PCs with Intel processors, it is recommended to use Intel® Core™ 12th Gen Intel processors or newer. We recommend ensuring that your Intel-based PC has the following minimum driver versions before using Native Bluetooth peripherals:
+On PCs with Intel processors, it's recommended to use Intel® Core™ 12th Gen Intel processors or newer. We recommend ensuring that your Intel-based PC has the following minimum driver versions before using Native Bluetooth peripherals:
 
 - **Intel Smart Sound Technology (Intel SST)**:
   - Intel Core Ultra processors (Series 2): 20.42.11233.0 or newer

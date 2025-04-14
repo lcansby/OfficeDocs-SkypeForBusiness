@@ -275,6 +275,10 @@ See the following articles for information on how to create Auto attendants and 
 
 If you need more extensive capabilities, such as integration with workflows, bots, and SMS (Short Message Service), consider [Azure Communication Services](/azure/communication-services/overview).
 
+## Alternate provisioning tools
+
+[Auto Attendant and Call Queue Backup and Bulk Provisioning Tools](https://github.com/MicrosoftDocs/Teams-Auto-Attendant-and-Call-Queue-Backup-and-Bulk-Provisioning-Tools/) are a set of tools that provide a way to configure Auto attendants, Call queues and Authorized users through Excel spreadsheets and PowerShell scripts.
+
 ## Related articles
 
 [Plan Direct Routing](direct-routing-plan.md)

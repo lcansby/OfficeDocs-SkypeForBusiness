@@ -125,7 +125,7 @@ In addition to the Teams Phone Resource Account license, when a nested auto atte
 - A [Calling Plan](calling-plans-for-office-365.md) license and a phone number.
 - An [Operator Connect](operator-connect-plan.md) phone number.
 - An [online voice routing policy](manage-voice-routing-policies.md).
-- Phone number assignment is optional when using Direct Routing.
+- Phone number (this assignment is optional when using Direct Routing).
 
 For more information, see [Nested Auto attendants and Call queues](#nested-auto-attendants-and-call-queues).
 
@@ -200,34 +200,20 @@ However, there might be times when you require nesting with resource accounts. F
 
 ### Reporting and Nested Auto attendants and Call queues
 
-#### Teams Admin Center
+Both the Teams Admin Center Usage reports and [Auto attendant and Call queue historical reports](./aa-cq-cqd-historical-reports.md) only report on the calls and caller actions in the first Auto attendant or Call queue that answers the call.
 
-Teams Admin Center Usage reports don't support reporting on Auto attendants or Call queues that are nested without resource accounts. Nest with resource acccounts if reporting in the Teams Admin Center is required.
+For more information about reporting with nested Auto attendants and Call queues in Queues app, see [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9).
 
-Only the calls and caller actions in the first Auto attendant that answers the call are reported on. Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant), regardless of chaining method, aren't reported on.
-1. Only the calls and caller actions in the first Call queue that answers the call are reported on. Calls and caller actions in chained Call queues (when one Call queue transfers to another Call queue), regardless of chaining method, aren't reported on.
-
+#### Teams admin center
+ 
+If you require Teams admin center reporting, nest with resource accounts. Teams Admin Center Usage reports don't support reporting on Auto attendants or Call queues that are nested without resource accounts.
+ 
 #### Auto attendant and Call queue historical reports
+ 
+For Auto attendant and Call queue historical reports, users can access reports in the following ways:
 
-- [Auto attendant and Call queue historical reports](./aa-cq-cqd-historical-reports.md)
-
-##### Authorized Users
-
-1. Only the calls and caller actions in the first Auto attendant that answers the call are reported on. Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant), regardless of chaining method, aren't reported on.
-1. Only the calls and caller actions in the first Call queue that answers the call are reported on. Calls and caller actions in chained Call queues (when one Call queue transfers to another Call queue), regardless of chaining method, aren't reported on.
-
-Authorized users see the report by Auto attendant or Call Queue name.
-
-##### Administrators
-
-1. Only the calls and caller actions in the first Auto attendant that answers the call are reported on. Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant), regardless of chaining method, aren't reported on.
-1. Only the calls and caller actions in the first Call queue that answers the call are reported on. Calls and caller actions in chained Call queues (when one Call queue transfers to another Call queue), regardless of chaining method, aren't reported on.
-
-Administrators see the report by resource account.
-
-### Queues app
-
-See [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/use-the-queues-app-for-microsoft-teams-370ad83e-c2c1-4a9f-8a59-16c98be102e9).
+- Authorized users see the report by Auto attendant or Call Queue name.
+- Administrators see the report by resource account.
 
 ## Click-to-call restrictions
 

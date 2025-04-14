@@ -292,7 +292,7 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |Indoor Talk             |2.46.1     |2.46.1     | |   |
 |          |Clip	                   |2.46.1     |2.46.1     | |   |
 |          |IP Style	               |2.46.1     |2.46.1     | |   |
-|          |IP Verso                |2.46.1     |2.46.1     | |   |
+|          |IP Verso 2.0             |2.46.1     |2.46.1     | |   |
 |          |IP Verso	               |2.46.1     |2.46.1     | |   |
 |          |IP Vario	               |2.46.1     |2.46.1     | |   |
 |          |IP Solo                 |2.46.1     |2.46.1     | |   |

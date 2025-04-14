@@ -86,6 +86,25 @@ The following diagram shows an example of call routing using Auto attendants and
 
 ![Diagram of call routing using Auto attendants and Call queues.](media/attendant-and-queue-call-routing.png)
 
+```mermaid
+flowchart TD
+   id1((Contoso main<br>929-555-0150));
+   id2[[**Auto Attendant**<br>Thank you for calling Contoso.<br>For Sales, press 1.<br>For Support press 2.<br>If you know the name of the person you want to reach press 3.<br>For all other inquiries press 0.]];
+   id3([**Call Queue**<br>Sales]);
+   id4([**Call Queue**<br>Support]);
+   id5[(**Dial By Name**<br>Company Directory)];
+   id6([**Operator**<br>Adele Vance]);
+   id10((Support<br>929-555-0195));
+   id11[[**Auto Attendant**<br>Thank you for calling Contoso support]];
+   id1 -->id2;
+   id2-- 1 --->id3;
+   id2-- 2 --->id4;
+   id2-- 3 --->id5;
+   id2-- 0 --->id6;
+   id10 --->id11;
+   id11 -->id4;
+```
+
 In this example:
 
 - The zero (0) key redirects callers to an operator. The operator for the Auto attendant is configured as a **Person in the organization**.

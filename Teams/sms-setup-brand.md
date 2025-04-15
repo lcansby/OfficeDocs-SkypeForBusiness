@@ -130,7 +130,7 @@ After submission, the Brand status shows as **Submitted** and the brand informat
 If approved, your brand status will be updated to "**Approved**" and you can move on to [Step 2: Create a campaign](sms-setup-campaign.md).
 If not approved, the status will change to "**Microsoft Support Engaged**," and our support team may contact the support representative of your brand for further assistance.
 
-The review and approval process may take 2 business days. These timelines are for informational purposes only and may vary. 
+The review and approval process may take 2 business days. These timelines are for informational purposes only and may vary.
 If you submitted incorrect brand information, [contact Microsoft's Telephone Number Services - Service Desk](contact-tns-service-desk.md).
 
 > [!NOTE]

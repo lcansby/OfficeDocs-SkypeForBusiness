@@ -29,13 +29,14 @@ description: Learn about how Facilitator in Microsoft Teams enables group collab
 > [!IMPORTANT]
 > The following Facilitator capabilities are currently in public preview:
 >
-> - Document summarization
-> - Document question and answer (Q&A)
-> - Question & answer (Q&A) about a chat or meeting chat
-> - Web search
-> - Moderator
+> - AI-generated notes for chats
+> - Document summarization for meetings
+> - Document question and answer (Q&A) for meetings
+> - Question & answer (Q&A) about a meeting chat
+> - Web search for meetings
+> - Moderator for meetings
 >
-> AI-generated notes for chats and meetings is now generally available.
+> AI-generated notes for meetings is now generally available.
 >
 > Features in preview might not be complete and could undergo changes before becoming available in the public release. They're provided for evaluation and exploration purposes only.
 >
@@ -47,6 +48,7 @@ Use Facilitator in peer-to-peer:
 
 - Chats
 - Meetings
+- [Teams Rooms](./rooms/facilitator-teams-rooms.md)
 
 ## How Facilitator behaves in Teams
 
@@ -72,7 +74,6 @@ Facilitator AI-generated notes are supported by [auditing events](/purview/audit
 
 To [automatically retain or delete](/purview/retention) Facilitator in chats and meetings, and for AI-generated notes in chat, use a Microsoft Purview Data Lifecycle Management retention policy with the **Teams chat** location. Because Facilitator data in meetings is [stored in OneDrive](#facilitator-data-storage), these notes can be automatically retained or deleted with a retention policy or retention labels with the **OneDrive accounts** location.
 
-
 Other Microsoft Purview solutions either aren't applicable for Facilitator or aren't yet supported.
 
 For more information about security and privacy in Microsoft 365 Copilot, see the following articles:
@@ -83,14 +84,21 @@ For more information about security and privacy in Microsoft 365 Copilot, see th
 
 ## Facilitator licensing and permission requirements
 
-The following list contains the prerequisites for users to be able to use Facilitator. Users must meet all of the following requirements:
+The following list contains the prerequisites for users to be able to access Facilitator features in Teams chats and meetings. Users must meet all of the following requirements:
 
-- Have an eligible *Microsoft 365* base license.
+### Licensing requirements
+
+- An eligible *Microsoft 365* base license.
   - For the list of eligible base licenses, see [Understand licensing requirements for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-licensing).
 - Have an eligible *Microsoft Teams* license.
   - Teams licenses might be included in your *Microsoft 365* subscription. If you have *Microsoft 365 (no Teams)* licenses, you need to purchase separate Teams licenses.
 - Have a *Microsoft 365 Copilot* license.
   - For information on how to acquire *Microsoft 365 Copilot* licenses, see [Where can I get Microsoft Copilot?](https://support.microsoft.com/topic/where-can-i-get-microsoft-copilot-40a622db-6d25-4266-b008-4bbcb55cf52f)
+
+### User requirements
+
+- Be a Microsoft Teams Public preview participant.
+  - For information on how to access Teams Public preview features, see [Microsoft Teams Public preview](/microsoftteams/public-preview-doc-updates).
 - [Have Loop experiences in Teams for Facilitator in meetings turned on](#3-turn-on-loop-experiences-in-teams-for-facilitator-in-meetings).
 - Have transcription enabled and keep it on for Facilitator in meetings.
 
@@ -195,6 +203,7 @@ Currently, document skills includes summarization and question and answer (Q&A).
 - When a user turns on AI-generated notes during a meeting, they are prompted to select the language participants are speaking during the meeting. The language selected must match the spoken language during the meeting, or notes aren't generated.
 - Currently, AI-generated notes for meetings only supports meetings where a single language is spoken. If multiple languages are spoken during the meeting, notes are only taken for the portions of the meeting that are spoken in the selected meeting language.
 - Meeting settings like [Prevent copy and paste](manage-chat-sensitive-meetings.md#prevent-copying-or-forwarding-chat-captions-and-transcripts) and [Watermarks](watermark-meeting-content-video.md) aren't applied to Facilitator's responses or AI-generated notes in meetings.
+- AI-generated notes for meetings don't inherit the meeting's sensitivity label; however, a sensitivity label can be applied to the notes' Loop component in the [Loop app or OneDrive](/purview/sensitivity-labels-loop). If a sensitivity label is applied to the notes outside of Teams, the note's file can't be accessed in Teams.
 
 ## Related articles
 

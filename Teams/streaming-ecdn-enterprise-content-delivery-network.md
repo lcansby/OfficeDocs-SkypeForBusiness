@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.date: 3/8/2024
+ms.date: 3/28/2025
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
@@ -28,7 +28,7 @@ Teams streaming events can use enterprise content delivery networks (eCDNs), inc
 
 - Town halls
 - Live events
-- [View-only](view-only-meeting-experience.md) meetings
+- [View-only meetings](view-only-meeting-experience.md)
 
 Video playback from Microsoft Teams events utilizes adaptive bitrate streaming (ABR), which is delivered as a unicast stream. Every viewer gets their own video stream from the internet. For events or videos sent out to large portions of your organization, there could be a significant amount of network and internet bandwidth consumed by viewers.
 
@@ -117,7 +117,7 @@ Microsoft eCDN solution is the default for town hall and view-only meeting organ
 |Teams admin center policy option|Parameter value in PowerShell| Behavior|
 |---------|---------|---------------|
 |On|$true| **This is the default value.** Premium town hall organizers with this policy use the Microsoft eCDN.|
-|Off|$false| Premium town hall organizers with this policy use your chosen partner eCDN solution. These organizers might not be able use some future town hall features.|
+|Off|$false| Premium town hall organizers with this policy use your chosen partner eCDN solution. These organizers might not have access to some future town hall features.|
 
 ### Using the Teams admin center
 
@@ -226,3 +226,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/teams/set-csteamsmeetingbroadcastconfiguration).
 > [!NOTE]
 > Your chosen eCDN solution is subject to the selected 3rd party provider’s terms of service and privacy policy, which will govern your use of the eCDN provider’s solution. Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you don't agree to the 3rd party provider’s terms, then don't enable the eCDN solution in Microsoft Teams.
+
+## Platform support
+
+To view the list of platforms that support this feature, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#platform-support-for-premium-town-halls).

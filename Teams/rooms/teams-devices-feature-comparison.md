@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: mattslomka
-ms.date: 10/31/2024
+ms.date: 4/1/2025
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -105,7 +105,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Front of Room (16:9) (1920x1080 or 3840x2160) | Available | Available |
 | | Front of Room (21:9) (2560x1080 or 5120x2160) (Single Display Only) | Available | Not available |
 | **Security** | Secure mounting, security lock slot (Kensington lock), I/O ports access | Available | Available |
-| | Operating System | Windows 10 / Windows 11 | Android 9+ |
+| | Operating System | Windows 10 / Windows 11 | Android 10+ |
 | | Kiosk mode | Available | Available |
 | | Microsoft Defender for Endpoint | Available | Not available |
 | **Device Management** | Built-in backgrounds | Available | Available |
@@ -208,7 +208,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Overflow Meeting Join (1k+ meeting participants) | Available | Not available |
 | | Microsoft Whiteboard - Initiate during a Teams Meeting | Available | Available |
 | | Microsoft Whiteboard - Initiate without a Teams Meeting (from a console) | Not available | Not available |
-| | Microsoft Whiteboard - Initiate without a Teams Meeting (all-in-one board) | Not available | Not available |
+| | Microsoft Whiteboard - Initiate without a Teams Meeting (all-in-one board) | Available | Not available |
 | | Intelligent content capture (content camera) | Available | Available |
 | | Meeting Lock | Available | Available |
 | | Automatically disconnect if room is the only participant 5 minutes after meeting time ends | Available | Available |
@@ -216,7 +216,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Send Multi-stream IntelliFrame | Available | Not available |
 | | Spatial Audio | Available | Not available |
 | | People Recognition | Not available | Not available |
-| | Intelligent Speaker| Not available | Not available |
+| | Intelligent Speaker| Available | Not available |
 | | Room Capacity Notifications | Available | Available |
 | | User accessible device language change | Available | Not available |
 | | Rate my call report| Available | Not available |
@@ -238,7 +238,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Front of Room (16:9) (1920x1080 or 3840x2160) | Available | Available |
 | | Front of Room (21:9) (2560x1080 or 5120x2160) (Single Display Only) | Available | Not available |
 | **Security** | Secure mounting, security lock slot (Kensington lock), I/O ports access | Available | Available |
-| | Operating System | Windows 10 / Windows 11 | Android 9+ |
+| | Operating System | Windows 10 / Windows 11 | Android 10+ |
 | | Kiosk mode | Available | Available |
 | | Microsoft Defender for Endpoint | Available | Not available |
 | **Device Management** | Built-in backgrounds | Available | Available |
@@ -337,9 +337,9 @@ To help guide you as to what features are available on different platforms, you 
 | | Teams Webinar (Presenter role) | Available | Available |
 | | Teams Webinar (Attendee role) | Not available | Not available |
 | | Overflow Meeting Join (1k+ meeting participants) | Available | Not available |
-| | Microsoft Whiteboard - Initiate during a Teams Meeting | Not available | Not available |
+| | Microsoft Whiteboard - Initiate during a Teams Meeting | Available | Not available |
 | | Microsoft Whiteboard - Initiate without a Teams Meeting (from a console) | Not available | Not available |
-| | Microsoft Whiteboard - Initiate without a Teams Meeting (all-in-one board) | Not available | Not available |
+| | Microsoft Whiteboard - Initiate without a Teams Meeting (all-in-one board) | Available | Not available |
 | | Intelligent content capture (content camera) | Available | Available |
 | | Meeting Lock | Available | Available |
 | | Automatically disconnect if room is the only participant 5 minutes after meeting time ends | Available | Available |
@@ -369,7 +369,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Front of Room (16:9) (1920x1080 or 3840x2160) | Available | Available |
 | | Front of Room (21:9) (2560x1080 or 5120x2160) (Single Display Only) | Available | Not available |
 | **Security** | Secure mounting, security lock slot (Kensington lock), I/O ports access | Available | Available |
-| | Operating System | Windows 10 / Windows 11 | Android 9+ |
+| | Operating System | Windows 10 / Windows 11 | Android 10+ |
 | | Kiosk mode | Available | Available |
 | | Microsoft Defender for Endpoint | Available | Not available |
 | **Device Management** | Built-in backgrounds | Available | Available |

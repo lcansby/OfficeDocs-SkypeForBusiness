@@ -5,6 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.topic: concept-article
 ms.service: msteams
+ms.subservice: meetings
 ms.reviewer: idilates
 ms.date: 12/6/2024
 audience: admin
@@ -100,6 +101,10 @@ Additionally, these templates are available in Teams for Education:
 - [Webinar](set-up-webinars.md)
 
 For information about the class and lecture templates, see [Use education templates for Teams meetings](https://support.microsoft.com/topic/9567d25f-3ac5-4fcf-9b66-18f70e5d42b3).
+
+## Platform support
+
+To view the list of platforms that support this feature, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#platform-support-for-personalized-meetings).
 
 ## Related topics
 

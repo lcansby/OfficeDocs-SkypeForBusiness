@@ -143,10 +143,9 @@ The Sample Messages must include the following information:
 - An embedded link in at least one sample message if "Yes" is selected for Embedded Link under Content Attributes.
 
 #### Campaign and Content Attributes
-
 ##### Opt-In Message
 
-When a Teams user sends the first message in an SMS conversation, the Opt-In Message is automatically sent to the recipient. 
+When a Teams user sends the first message in an SMS conversation or when recipient replies START, the Opt-In Message is automatically sent to the recipient. 
 
 The Opt-In Message and must include the following information:
 
@@ -160,8 +159,7 @@ The Opt-In Message and must include the following information:
 
 - Opt-out information, e.g., "send STOP to unsubscribe".
 
-An example might look like this: "*Thank you for opting in to receive [type of messages] from [Brand Name]. Msg frequency varies. Msg & data rates may apply. Reply HELP for help. Reply STOP to opt-out from receiving messages from this number.*"
-
+An example might look like this: "*Thank you for opting in to receive [type of messages] from [Brand Name]. Msg frequency varies. Msg & data rates may apply. Reply HELP for help. Reply STOP to opt-out from receiving messages from this number.*" automated message is sent to the recipient send START to resume a conversation.
 > [!IMPORTANT]
 > Only the keywords START, HELP, and STOP are monitored and enforced in Teams SMS.
 
@@ -176,7 +174,6 @@ The Opt-Out Message must include the following information:
 - Confirmation that the recipient will receive no further messages.
 
 An example might look like this: "*You have successfully opted out of messages from this [Brand Name] number. You will receive no further messages. Reply START to resume. Msg & data rates may apply.*"
-
 > [!IMPORTANT]
 > Only the keywords START, HELP, and STOP are monitored and enforced in Teams SMS.
 
@@ -191,7 +188,6 @@ The Help Message must include the following information:
 - Support contact information, e.g., email address, phone number, or website.
 
  An example might look like this: "*Thank you for contacting [Brand Name] support. Please email us at [email address] for support. Reply STOP to opt-out from receiving messages from this number. Msg & data rates may apply*."
-
 > [!IMPORTANT]
 > Only the keywords START, HELP, and STOP are monitored and enforced in Teams SMS.
 
@@ -227,38 +223,31 @@ Populate your campaign application to TCR according to the following steps assoc
 In the campaign form, provide details of your company's plan for SMS operations, if any.
 
 - **Campaign details**
-  - *Brand*: The brand associated with this campaign.
+
   - *Description*: A description for the campaign, explaining its purpose and target audience.
-  - *Call-to-Action/Message Flow*: A description of how end users are expected to engage with this campaign (such as opt-in process, expected interactions).
-
-- **Campaign use cases**
-  - *Content Type*: The type of content you intend to send (such as Marketing or Customer Care).
-  - *Sub-content Type*: A more specific content category if applicable.
+  - *Call-to-Action/Message Flow*: A description of how recipients are opt-in to receive messages from you (such as opt-in process, expected interactions).
+    
   - *Sample Message*: A sample message that aligns with the campaign's use case. Multiple sample messages are acceptable.
+    
+  - *Privacy Policy*: A link to your privacy policy related to SMS services. It can be a webpage or an online file that is publicly accessible.
+    
+  - *Terms and Conditions*: A link to your terms and conditions related to SMS services. It can be a webpage or an online file that is publicly accessible.
+    
+- **Campaign attributes**
 
-- **Campaign and content attributes**
-  - *Subscriber Opt-in*: Indication if subscriber opt-in is required.
-  - *Subscriber Opt-in Message*: If opt-in is required, the message for subscribers to receive when opting into the campaign.
-  - *Subscriber Opt-out*: Indication if subscribers can opt out.
-  - *Subscriber Opt-out Answer*: If opt-out is required, the message for subscribers to receive when opting out.
-  - *Subscriber Help*: Indication if subscriber help is available.
-  - *Subscriber Help Answer*: If help is available, the message for subscribers seeking assistance, including a website, phone number, and email.
-  - *Privacy Policy*: A link to your privacy policy, concerning data exchanged via SMS with your company.
-  - *Terms and Conditions*: A link to your terms and conditions, concerning correspondence via SMS with your company.
+  - *Opt-in Message*: the content of the automated message sent to the recipient when Teams users sends the first message in an SMS conversation or when recipient sends START.
+    
+  - *Opt-out* *Message*: the content of the automated message sent to the recipient when they send STOP.
+  - *Help* *Message*: the content of the automated message sent to the recipient when they send HELP.
+- **Content attributes**
 
-- **Additional attributes**
   - *Direct Lending or Loan Arrangement*: Indicates if the campaign involves any lending or loan arrangements.
-  - *Embedded Link*: Specifies if the campaign includes an embedded link.
-  - *Embedded Phone Number*: Specifies if a phone number is embedded within the campaign content.
+  - *Embedded Link*: Indicates if the campaign includes an embedded link.
+    
+  - *Embedded Phone Number*: Indicates if a phone number is embedded within the campaign content.
+    
   - *Age-gated Content*: Indicates if the content is age-restricted.
-
-|Category |Description |
-|:-----|:-----|
-|Direct lending or loan arrangements related |Indicates whether the campaign includes content related to direct lending or other loan arrangements. |
-|Embedded Link |Indicates whether the campaign is using an embedded link of any kind. Public URL shorteners (bitly, tinyurl) aren't accepted. |
-|Embedded phone number |Indicates whether the campaign is using an embedded phone number (except the required HELP information contact phone number). |
-|Age-gated content |Indicates whether the campaign includes any age-gated content as defined by Carrier and CTIA guidelines.|
-
+    
 ### Step 2: Accept Terms and Conditions
 
 Select the box to accept the terms and conditions.

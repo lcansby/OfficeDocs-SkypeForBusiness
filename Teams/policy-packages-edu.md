@@ -13,7 +13,7 @@ audience: Admin
 ms.collection: 
   - M365-collaboration
   - remotework
-  - tier2
+  - essentials-manage
 appliesto:
 - Microsoft Teams
 f1.keywords:

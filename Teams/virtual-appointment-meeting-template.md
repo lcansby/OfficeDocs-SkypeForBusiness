@@ -1,9 +1,9 @@
 ---
 title: Manage the Virtual appointment meeting template in Microsoft Teams
-author: lana-chin
-ms.author: v-chinlana
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: jewilcze
 ms.date: 11/11/2024

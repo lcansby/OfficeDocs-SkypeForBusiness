@@ -5,7 +5,7 @@ ms.author: mabond
 manager: pamgreen
 ms.reviewer: roykuntz, jastark
 ms.date: 12/19/2024
-ms.topic: article
+ms.topic: how-to
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -60,7 +60,7 @@ The configuration of call delegation and group call pickup is integrated into th
 
 This video shows the steps to view and edit the voice settings for a user.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1c7JR?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=de43703c-a600-410b-bf30-0385ef726acf]
 
 ## Use PowerShell
 

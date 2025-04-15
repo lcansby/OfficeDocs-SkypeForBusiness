@@ -5,7 +5,7 @@ ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: srpall
 ms.date: 08/21/2024
-ms.topic: article
+ms.topic: how-to
 audience: admin
 appliesto:
 - Microsoft Teams
@@ -20,8 +20,7 @@ f1.keywords:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Learn how to manage your Teams Rooms devices in the Teams Room Pro Management portal.
-ai-usage:  
-- ai-assisted
+ai-usage: ai-assisted
 ms.custom: QuickDraft
 ---
 
@@ -47,13 +46,13 @@ To set up your organization with meeting room location information:
 
 ## Manage Your location directory and view meeting rooms
 
-Once the setup is complete, your organization's location directory appears in the left pane. Meeting rooms are organized hierarchically by location details, such as country, state, city, campus, building, floor, and room. You can also view a comprehensive list of all meeting rooms within your organization.
+Once the setup is complete, your organization's location directory appears in the left pane. Meeting rooms are organized hierarchically by location details, such as country/region, state, city, campus, building, floor, and room. You can also view a comprehensive list of all meeting rooms within your organization.
 
 At the top, you find a summary that includes a breakdown of meeting rooms, including the number of unlicensed rooms. Additionally, there's a quick overview of meeting rooms categorized by type, such as Small, Medium, and Large.
 
 ## Search for specific meeting rooms
 
-To filter your meeting rooms, use the search feature. You can search for rooms in your organization by address details such as country, state, and city, or by meeting room name and other attributes, such as the device manufacturer, capacity, place type, and device type.
+To filter your meeting rooms, use the search feature. You can search for rooms in your organization by address details such as country/region, state, and city, or by meeting room name and other attributes, such as the device manufacturer, capacity, place type, and device type.
 
 ## Manage Your inventory of devices
 

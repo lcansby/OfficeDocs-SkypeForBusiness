@@ -4,7 +4,7 @@ author: dansimp
 ms.author: dansimp
 manager: dansimp
 ms.date: 12/01/2023
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: 
 audience: admin
@@ -35,9 +35,9 @@ You can obtain these three parameters from the new Unified Audit Log (UAL) event
 
 ### Step 1: Search for UAL events 
 
-To search for specific UAL events, you can use the Search-UnifiedAuditLog graph API, or you can use the audit log search feature in the Microsoft Purview compliance portal. The following instructions use the Microsoft Purview compliance portal. Perform the following steps: 
+To search for specific UAL events, you can use the Search-UnifiedAuditLog graph API, or you can use the audit log search feature in the Microsoft Purview portal. The following instructions use the Microsoft Purview portal. Perform the following steps: 
 
-1. Sign in to https://compliance.microsoft.com as an audit log administrator. 
+1. Sign in to https://purview.microsoft.com as an audit log administrator. 
 2. In the left navigation, select **Audit**.
 3. On the Audit log search page, specify the following criteria:
 

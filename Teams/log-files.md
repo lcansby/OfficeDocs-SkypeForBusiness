@@ -34,6 +34,9 @@ There are two types of logs that are automatically created upon request, which c
 > [!NOTE]
 > The media and signaling logs are encrypted and can only be decrypted by Microsoft Support. Weblogs are text files and readable by any text editor. Additionally, performance enhancements have made it possible to always enable media logging. Accordingly, the administrative policy to control media logging has been deprecated.
 
+> [!NOTE]
+> For Teams on VDI, Media logs are only available for the new [Slimcore-based VDI solution](/microsoftteams/vdi-2). For Teams on VDI using legacy WebRTC-based media optimization, please contact your VDI provider for instructions on gathering and interpreting media logs. For Teams Web, see [Browser logs and tracing for Teams](/microsoftteams/browser-logs-and-tracing-for-teams). 
+
 ## Logs overview
 
 It’s important to collect logs as soon as an issue occurs.
@@ -60,3 +63,7 @@ To collect logs for Mac:
 
 > [!NOTE]
 > Wait until the banner showing **Downloading web logs** is dismissed from the Teams client before retrieving logs from the download location. To collect logs from Teams browser client, use the keyboard shortcut.
+
+> [!NOTE]
+> When multiple accounts are in use from a single client, the generated logs include diagnostic information for all logged-in accounts in Teams, regardless of tenant or cloud. To learn how to manage this configuration, see [How different technologies affect Microsoft Teams sign-in](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices).
+

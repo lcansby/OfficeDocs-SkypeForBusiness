@@ -8,6 +8,7 @@ ms.date: 9/16/2024
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -55,7 +56,7 @@ Meeting or event organizers can also set Copilot's value to **Off** to prevent a
 > Microsoft 365 Copilot in Teams meetings and events isn’t available in end-to-end encrypted meetings. For more information on end-to-end encryption, see [Require end-to-end encryption for sensitive Teams meetings](end-to-end-encrypted-meetings.md).
 
 > [!NOTE]
-> Microsoft 365 Copilot in Teams isn’t available for GCC, GCC High, and DoD.
+> Microsoft 365 Copilot in Teams isn’t currently available for GCC High and DoD.
 
 ## Prerequisites
 
@@ -75,7 +76,7 @@ You can use the **Recording & Transcription** section in the Teams admin center 
 
 To learn more about managing transcription, see [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md).
 
-## Manage Copilot for your Teams users
+## Manage Copilot for Teams meetings and events
 
 You can use the Teams admin center or PowerShell to manage how users in your org use Copilot in Teams meetings and events.
 
@@ -88,7 +89,7 @@ The following table shows the behaviors of the settings for the **`-Copilot`** p
 |On with transcript saved by default|EnabledWithTranscriptDefaultOn| When organizers with this policy create meetings and events, Copilot's default value in their meeting options is **During and after the meeting**. Organizers can change this value to **Only during the meeting**, and **Off**.|
 |Off|Disabled| When organizers with this policy create meetings and events, Copilot's  default value in their meeting options is **Off**. Organizers can change this value to **Only during the meeting** or **During and after the meeting**.|
 
-### Manage Copilot in the Teams admin center
+### Manage Copilot for Teams meetings and events in the Teams admin center
 
 1. Open the Teams admin center.
 2. Expand **Meetings** from the navigation pane.
@@ -99,7 +100,7 @@ The following table shows the behaviors of the settings for the **`-Copilot`** p
 
 You can apply your Copilot meeting policies to groups or individual users. You can also add Copilot to your meeting templates. To learn how to apply Copilot to meeting templates, see [IT admins - Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md).
 
-### Manage Copilot using PowerShell
+### Manage Copilot for Teams meetings and events using PowerShell
 
 To manage how users in your org use Copilot in Teams meetings and events, use the **`-Copilot`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet.
 

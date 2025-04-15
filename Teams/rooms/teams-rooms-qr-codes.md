@@ -4,8 +4,8 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: leungsam
-ms.date: 04/05/2024
-ms.topic: article
+ms.date: 01/27/2025
+ms.topic: how-to
 audience: admin
 appliesto:
 - Microsoft Teams

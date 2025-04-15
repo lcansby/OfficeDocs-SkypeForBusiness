@@ -1,12 +1,12 @@
 ---
 title: "Direct Routing - Connecting analog devices"
-ms.author: crowe
-author: CarolynRowe
+ms.author: scottfrancis
+author: sfrancis206
 manager: pamgreen
 audience: ITPro
 ms.reviewer: filippse
 ms.date: 04/30/2018
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 ms.localizationpriority: medium
 search.appverid: MET150

@@ -5,9 +5,10 @@ ms.author: danismith
 manager: jtremper
 ms.reviewer: 
 ms.date: 10/02/2019
-ms.topic: article
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-education
 audience: Admin
 ms.collection: 
   - M365-collaboration

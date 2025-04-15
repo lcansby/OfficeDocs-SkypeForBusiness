@@ -8,6 +8,7 @@ manager: pamgreen
 ms.topic: article
 audience: admin
 ms.service: msteams
+ms.subservice: meetings
 search.appverid: MET150
 description: Learn about the Teams view-only meeting experience for admins, presenters, and attendees.
 ms.localizationpriority: medium
@@ -69,18 +70,18 @@ When the capacity of the main meeting is reached, meeting attendees are informed
 
 Before the meeting reaches capacity, attendees always join the main meeting. Once the meeting reaches capacity, view-only attendees can't be promoted to the main meeting.
 
-If presenter and attendee roles are set, presenters who join after capacity is reached in the main meeting become view-only attendees. These presenters have the same limitations as other view-only attendees. Organizers are always guaranteed space in the main meeting.
+When presenter and attendee roles are set up, the main meeting reserves space for up to 50 presenters. Any extra presenters who join after the main meeting reaches capacity become view-only attendees. These presenters have the same limitations as other view-only attendees. Organizers are always guaranteed space in the main meeting.
 
 ## Meeting presenter and organizer limitations
 
 Limitations for meeting presenters and organizers include:
 
-- They have no information about the view-only attendees. We don't support E-discovery for view-only attendees.
-- Users in the main meeting can't see the view-only attendees.
+- Users in the main meeting can't see the view-only attendees in the People panel. 
 - They can't remove a view-only attendee from the meeting.
+- We don't support E-discovery for view-only attendees.
 
 > [!NOTE]
-> Attendee count only reflects the attendees in the main meeting and not the view-only attendees. Presenters can't get an exact count of attendees in the view-only experience.
+> Attendee count reflects the attendees in the main meeting and the view-only attendees. Organizers can review the view-only attendees who joined using the attendance report after the meeting is over. 
 
 ## Experience for view-only attendees
 
@@ -109,6 +110,7 @@ View-only attendees can't perform these actions in the meeting:
 - View-only attendees can only see Live Captions on Desktop and Web. Only English captions are supported at this time.
 - View-only attendees don't have Information Barrier support. If you need Information Barrier support in your organization, you should disable this feature.
 - Streaming technology supports view-only attendees.
+- View-only attendees are not supported in [Call Analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md).
 - View-only attendees have a single video experience. They can see either the active speaker or the content being shared, but not both.
 - We don't currently support **Gallery**, **Large gallery**, or **Together mode** layouts for view-only attendees.
 - The following lobby policies support view-only attendees: **'People in my org,'** **'People in my org and guests,'** **'People in my org, trusted orgs, and guests,'** and **'Everyone'**. If you use a lobby policy that doesn't support view-only attendees, they're rejected from the meeting.

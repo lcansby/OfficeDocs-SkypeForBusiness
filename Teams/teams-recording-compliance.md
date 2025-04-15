@@ -5,7 +5,7 @@ author: sfrancis206
 manager: pamgreen
 ms.date: 11/11/2024
 audience: Admin
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 ms.reviewer: kkodali
 ms.localizationpriority: medium
@@ -115,6 +115,15 @@ Please contact your recording partner for more information.
 
 Inbound call queue calls are recorded where users have an assigned compliance recording policy. Some routing methods might involve usability concerns with multiple announcements.
 
+**Licensing**
+
+To be eligible for compliance recording, a user account must be equipped with any one of the following licenses:
+
+- Microsoft 365 A3/A5/E3/E5/Business Premium
+- Office 365 A3/A5/E3/E5
+- Microsoft Teams Room (Pro or Basic) license
+- Teams Shared Device license
+
 ## Supported notification methods
 
 Users with an assigned compliance recording policy know that their digital interactions with Teams are being recorded. Depending on the third-party recording solution and how it's configured, users may not be able to disable the recording and may not have access to the recording.
@@ -163,7 +172,7 @@ The following list includes partners certified to deliver a compliance recording
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Imagicle |[https://www.imagicle.com/en/products/call-recording/](https://www.imagicle.com/en/products/call-recording/) |
-|Insightful Technology |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/teams/) |
+|Insightful Technology |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/market-place/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |Mida Solutions |[https://www.midasolutions.com/recorder-for-teams/](https://www.midasolutions.com/recorder-for-teams/) |
 |NICE Engage |[https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage](https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage) |
@@ -183,7 +192,9 @@ The following partners are in the process of certifying their solution for Micro
 |Cloud World Wide Services |[https://recordia.net/microsoft-teams-call-recording/](https://recordia.net/microsoft-teams-call-recording/) |
 |CreaLog |[https://www.crealog.com/en/products-solutions/recording/](https://www.crealog.com/en/products-solutions/recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
+|Liquid Voice |[https://www.liquidvoice.com/microsoft-teams-recording/](https://www.liquidvoice.com/microsoft-teams-recording/) |
 |Redwood Technologies |[https://www.contentguru.com/en-us/solutions/needs/compliance-recording-ms-teams/](https://www.contentguru.com/en-us/solutions/needs/compliance-recording-ms-teams/) |
+|TollRing |[https://www.analytics-365.com/call-recording/](https://www.analytics-365.com/call-recording/) |
 
 This list gets updated as more partners join and meet the certification criteria.
 
@@ -264,4 +275,4 @@ Microsoft only supports compliance recording solutions from the listed, certifie
 ### Related topics  
 
 - [Teams Recordings - Microsoft Teams | Microsoft Learn](./teams-recording-policy.md)
- 
+- [Overview- Recording and transcription for Teams meetings and calls](recording-transcription-overview.md)

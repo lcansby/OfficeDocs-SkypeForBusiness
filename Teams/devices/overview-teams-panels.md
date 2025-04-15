@@ -4,8 +4,8 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: eviegrimshaw
-ms.date: 03/20/2024
-ms.topic: article
+ms.date: 01/27/2025
+ms.topic: concept-article
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin

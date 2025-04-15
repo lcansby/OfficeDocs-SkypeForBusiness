@@ -25,9 +25,9 @@ description: Learn how to set up a Campaign to enable SMS in Microsoft Teams.
 # Create a Campaign for SMS in Microsoft Teams
 
 > [!NOTE]
-> Service update: If you receive a Brand or Campaign rejection, our Telephone Number Services team is aware and managing a case with you through the [Phone Number Service Center](https://pstnsd.powerappsportals.com) portal. Due to a high volume of requests for SMS in Teams, processing times to facilitate approvals of rejected Brand and Campaign applications for SMS in Teams may take 4 to 6 weeks.  We appreciate your patience as we work diligently to address all requests.
+> Service update: If you receive a Brand or Campaign rejection, our Telephone Number Services team is aware and managing a case with you through the [Phone Number Service Center](https://pstnsd.powerappsportals.com) portal. Due to a high volume of requests for SMS in Teams, processing times to facilitate approvals of rejected Brand and Campaign applications for SMS in Teams may take 4 to 6 weeks. We appreciate your patience as we work diligently to address all requests.
 
-This article is for IT administrators and IT professionals who are enabling Short Message Service (SMS) in Teams and need to register their company's Campaign with The Campaign Registry (TCR).
+This article is for IT administrators and IT professionals who are enabling Short Message Service (SMS) in Teams and need to register their company's Campaign.
 
 Before reading this article, make sure you've read [Plan for SMS in Teams](sms-overview.md) and [Step 1: Create a brand](sms-setup-brand.md).
 
@@ -51,18 +51,17 @@ After your brand is verified and the Teams admin center shows that your brand's 
 
 The 10DLC (10-digit long code) registration process involves validating your **Campaign**, or organization's objective, for accessing the 10DLC network. To get your campaign approved, you must submit details to TCR via the Teams admin center.
 
+This section provides details required to register your campaign. 
+
 > [!IMPORTANT]
 > To increase the likelihood of your campaign being approved and to ensure 10DLC program compliance, please review the following information.
-
-Examples of details that TCR may require, based on [your Brand](sms-setup-brand.md):
-
 #### Campaign Details
 ##### Campaign Use case
 The use case specifies how the SMS service will be used for the given campaign. For Teams SMS, the use case is Unified Communications as a Service (UCaaS), Low Volume. The use case is defined by Microsoft and cannot be changed by you.
 
 ##### Campaign Description
 
-The description provides a comprehensive explanation of the purpose, target, and utilization of the campaign and SMS Service.  
+The description provides a comprehensive explanation of the SMS service purpose, its target, and utilization of the campaign and SMS Service.  
 
 ##### SMS Privacy Policy
 
@@ -130,6 +129,7 @@ The table below shows examples of how users might opt in:
 |Text Message Keyword|Users opt-in by texting a keyword (e.g., "START") to a specific number.|Explain how users learn about the keyword, such as via a webpage link or screenshot.|By texting START to [phone number], you consent to receive text messages from [Brand Name]. Msg & data rates may apply. Msg frequency varies. Unsubscribe by replying STOP. Reply HELP for help. Phone numbers will not be shared with third parties. Privacy Policy [link] & Terms [link]."|
 |Verbally|Users opt-in verbally at a physical location or over the phone.|Provide a copy of the script used to inform users about the opt-in.|[Brand name] collects opt-in verbally at their locations or over the phone. Customers provide their number and are informed that 'Message and data rates may apply', 'Message frequency varies', and they can 'text HELP for support or STOP to unsubscribe.' Phone numbers will not be shared with third parties. Privacy Policy [link] & Terms [link]."|
 
+
 ##### Sample Messages
 
 These sample messages are examples of messages that will be sent by you. Sample Messages must align with the campaign use case.
@@ -143,6 +143,7 @@ The Sample Messages must include the following information:
 - An embedded link in at least one sample message if "Yes" is selected for Embedded Link under Content Attributes.
 
 #### Campaign and Content Attributes
+
 ##### Opt-In Message
 
 When a Teams user sends the first message in an SMS conversation, the Opt-In Message is automatically sent to the recipient. 
@@ -196,17 +197,34 @@ The Help Message must include the following information:
 
 ##### Content
 
- 
+The following table provides a detailed description of the content attributes of a campaign:
 
 |Content|Description|
 | -------- | -------- |
 |__Direct Lending or Loan Arrangement__| Indicates if the brand engages in lending, even if the campaign is not related to lending or loan arrangement.|
-|__Embedded Link__|Indicates if embedded links will be sent in messages. Public URL shorteners (bitly, tinyurl) aren't accepted. If “Yes” is selected, at least one sample message must include an embedded link.|
-|__Embedded Phone Number__|Indicates if embedded phone numbers will be sent in messages, excluding HELP contact. If “Yes” is selected, at least one sample message must include an embedded phone number.|
+|__Embedded Link__|Indicates if embedded links will be sent in messages. Public URL shorteners (bitly, tinyurl) aren't accepted. If selected, at least one sample message must include an embedded link.|
+|__Embedded Phone Number__|Indicates if embedded phone numbers will be sent in messages, excluding HELP contact. If selected, at least one sample message must include an embedded phone number.|
 |__Age-Gated Content__|Indicates" if the content includes age-gated materials.|
 
----
 
+## Create an SMS in Teams Campaign in Teams admin center
+
+The Teams Admin Center allows you to provide the minimum details about your company's Campaign.
+
+To initiate Campaign approval application, do the following steps:
+
+1. In the Teams admin center, navigate to **Voice** > **Service configuration** > **SMS** > **Step 2: Create campaign**.
+1. Select **Create Campaign / Update Campaign / View details** to open a right-side configuration slide-out and populate the fields with your company's campaign information. Your Brand must be approved before you can apply for Campaign approval.
+
+Populate your campaign application to TCR according to the following steps associated with the Campaign field sections:
+
+- [Step 1: Campaign details](#step-1-check-campaign-details)
+- [Step 2: Accept Terms and Conditions](#step-2-accept-terms-and-conditions)
+- [Step 3: Submit your Campaign and view Campaign status](#step-3-submit-your-campaign-and-view-status)
+
+### Step 1: Check Campaign details
+
+In the campaign form, provide details of your company's plan for SMS operations, if any.
 
 - **Campaign details**
   - *Brand*: The brand associated with this campaign.
@@ -233,25 +251,6 @@ The Help Message must include the following information:
   - *Embedded Link*: Specifies if the campaign includes an embedded link.
   - *Embedded Phone Number*: Specifies if a phone number is embedded within the campaign content.
   - *Age-gated Content*: Indicates if the content is age-restricted.
-
-## Create an SMS in Teams Campaign in Teams admin center
-
-The Teams Admin Center allows you to provide the minimum details about your company's Campaign.
-
-To initiate Campaign approval application, do the following steps:
-
-1. In the Teams admin center, navigate to **Voice** > **Service configuration** > **SMS** > **Step 2: Create campaign**.
-1. Select **Create Campaign / Update Campaign / View details** to open a right-side configuration slide-out and populate the fields with your company's campaign information. Your Brand must be approved before you can apply for Campaign approval.
-
-Populate your campaign application to TCR according to the following steps associated with the Campaign field sections:
-
-- [Step 1: Campaign details](#step-1-check-campaign-details)
-- [Step 2: Accept Terms and Conditions](#step-2-accept-terms-and-conditions)
-- [Step 3: Submit your Campaign and view Campaign status](#step-3-submit-your-campaign-and-view-status)
-
-### Step 1: Check Campaign details
-
-In the campaign form, provide details of your company's plan for SMS operations, if any.
 
 |Category |Description |
 |:-----|:-----|
@@ -281,40 +280,18 @@ Once TCR approves your Campaign, you can move on to [Step 3: Enable SMS](sms-man
 
 ## Considerations
 
-Because the Campaign application approval can be tedious, Microsoft is working to minimize the level of effort to get your Campaign approved. The following topics relate to considerations when preparing your SMS operation.
-
-### Opt-out messaging
-
-In the initial Campaign application to TCR, Microsoft provides a generic campaign opt-in, opt-out, and help message. The following default messages are provided to TCR (and first time recipients of Teams SMS messages):
-
-|Message action |Default message |
-|:-----|:-----|
-|First message (and START if recipient previously messaged STOP) |This message is sent from an employee of *Contoso* (your brand). Message frequency varies. For more info on Microsoft or SMS service, reply HELP. To stop receiving messages from this number, reply STOP. Standard message and data rates may apply. |
-|STOP |You have opted out of this conversational SMS service and will not receive further messages from this *Contoso* (your brand) number. Reply START to resume. Message and data rates may apply. |
-|HELP |For more info on SMS service for *Contoso* (your brand), contact (*your Brand support contact inserted here*). To stop receiving messages from this number, reply STOP. Message and data rates may apply. |
-
-If a recipient responds with "STOP," all following messages from the Teams user's number are blocked to that recipient. The STOP command applies to the phone number only. Other Teams users in your tenant can still send messages to the recipient.
-
-A recipient doesn't need to respond to the first message with START to enable SMS message flow. The first message from a Teams user to a recipient includes the opt-out message, but explicit consent isn't required on the 10DLC network to continue conversational SMS messaging.
-
 ### Building a campaign with more than 49 SMS-enabled numbers
 
-If you require more than 49 SMS-enabled numbers, you must work with [Microsoft's Telephone Number Services - Service Desk](contact-tns-service-desk.md) so that they can work with you on an exception to the default maximum campaign quantity. Provide the TNS Service Desk with the number of SMS-enabled numbers and the expected volume of messages sent and received per month, so that they can support the required provisioning.
+If you require more than 49 SMS-enabled numbers, you must work with [Microsoft's Telephone Number Services - Service Desk](contact-tns-service-desk.md) so that they can work with you on an exception to the default maximum campaign quantity.
+Provide the TNS Service Desk with the number of SMS-enabled numbers and the expected volume of messages sent and received per month, so that they can support the required provisioning.
+> [!NOTE]
+>Enabling over 49 phone numbers is only allowed on an Approved campaign and may take 20 business days. These timelines are approximate and subject to change.
 
 ### Campaign approval process timeline
 
-The Service Level Agreement for campaign approval or rejection is seven days maximum.
+The review and approval process may take 20 business days. These timelines are for informational purposes only and may vary. 
 
-If you submit incorrect campaign information, if you don't receive an approval or rejection notice in seven days, or if you have questions related to the process, [contact Microsoft's Telephone Number Services (TNS) - Service Desk](contact-tns-service-desk.md).
-
-TCR might require additional information from your company before approving your campaign. Some potential information that may be required before approval includes:
-
-- Further description details about your campaign's purpose
-- Your company's privacy statement related to SMS messaging
-- Your company's terms and conditions related to SMS messaging
-- More resources for recipients who respond with HELP
-
-If your company doesn't have a privacy statement or terms and conditions related to SMS messaging, you can use a Microsoft-provided template, completed with your company's information. For the template, see [SMS privacy statement and terms and conditions template](sms-privacy-terms-template.md).
+If you submit incorrect campaign information, or if you have questions related to the process, [contact Microsoft's Telephone Number Services (TNS) - Service Desk](contact-tns-service-desk.md).
 
 ## Related topics
 

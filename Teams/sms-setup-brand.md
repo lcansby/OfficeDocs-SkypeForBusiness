@@ -29,9 +29,13 @@ description: Learn how to set up an SMS Brand to enable SMS in Microsoft Teams.
 
 This article is for IT administrators and IT professionals who are enabling Short Message Service (SMS) in Teams.
 
-Use this article while creating a brand in Microsoft's Teams admin center to register your company with The Campaign Registry (TCR).
+Use this article while creating a brand in Microsoft's Teams admin center to verify and register your company.
 
-SMS in Teams is only available in the United States (including Puerto Rico) and Canada.
+Before reading this article, make sure you've read [Plan for SMS in Teams](sms-overview.md).
+
+> [!NOTE]
+> SMS in Teams is only available on Calling Plan phone numbers in the United States (including Puerto Rico) and Canada. 
+> Customers must have an approved Brand and Campaign before enabling SMS on Teams Calling Plan numbers. 
 
 ## Prerequisites
 
@@ -45,14 +49,14 @@ Administrators must have one of the following role-based access control (RBAC) r
 
 ## Create a Teams SMS brand in Teams admin center
 
-The 10DLC (10-digit long code) registration process involves verifying your organization's identity with SMS network providers. To get your organization verified, you build an organization profile as your "Brand" in the Teams admin center.
+The 10DLC (10-digit long code) registration process involves verifying your organization's identity. To get your organization verified, you build an organization profile as your "Brand" in the Teams admin center.
 
 1. In the Teams admin center, go to **Voice** > **Service configuration** > **SMS** > **Step 1: Create brand**.
-1. Select **Create your brand to start / Updated brand / View details** to open a right-side configuration slide-out and populate the fields with your company's information.
+1. Select **Create your brand to start / Update brand / View details** to open a right-side configuration slide-out and populate the fields with your company's information.
 
-The form fields change dynamically depending on your company's country/region and status. For example, if your company's headquarters is in the US and is a *publicly traded* company, more fields are required to disclose your company's stock symbol. However, if you have a private company, a stock symbol isn't required.
+The form fields change dynamically depending on your company's country/region and status. For example, if your company is registered in the US and is a *publicly traded* company, more fields are required to disclose your company's stock symbol. However, if you have a private company, a stock symbol isn't required.
 
-Populate your Brand application to The Campaign Registry according to the field headers as follows:
+Populate your Brand application according to the field headers as follows:
 
 ### Description
 
@@ -60,12 +64,12 @@ In the first section of the brand form, provide details of your company, as deno
 
 |Form field |Description |
 |:-----|:-----|
-|Brand display name|Enter how your company's name or *Doing Business As* name should be displayed as the Caller ID in outgoing SMS messages.|
-|Company name |Enter your company's official name as it's legally registered in your country or region.|
-|Tax ID issuing country |Enter the country/region where your business ID is issued.|
-|Tax ID |Enter the Tax ID of your company, respective to the country/region of your company's headquarters.<br><br>**United States** - US companies (and companies with a US EIN), enter your Tax ID's nine-digit EIN.<br>**Canada** - For companies based in Canada, enter your nine-digit Canadian Business Number (BN) issued by the CRA, Corporation/Incorporation Number, or Registry ID. |
-|Business address |Enter the address to match the address where your company is headquartered. If you already defined your headquarters as an address in **Locations**, select **Use existing** and search for the address by the city or by the location description. If the address isn't already added, select **Add new** and enter it here. <br><br>For Canada, the address provided should be the same as that was used for registering with Corporations Canada. |
-|Website |Enter your company's website or a website URL representing your business. *Providing your company's website is optional but recommended to increase the chances of TCR approval.*|
+|Brand legal name |Enter your company's official name as it's legally registered in your country or region. Ensure that your company name matches your corporation registration and is spelled correctly. |
+|Brand display name|Enter how your company's *Doing Business As* name or *trade* name of your company.|
+|Tax ID issuing country |Enter the country/region where your company business ID is issued.|
+|Tax ID |Enter the Tax ID of your company, respective to the country/region of your company registration.<br><br>**United States** - US companies (and companies with a US EIN), enter your Tax ID's nine-digit EIN.<br>**Canada** - For companies based in Canada, enter your nine-digit Canadian Business Number (BN) issued by the CRA, Corporation/Incorporation Number, or Registry ID.<br>**Outside the United States and Canada** - Businesses outside US & Canada should enter the numeric part of their VAT ID.|
+|Brand legal address |Enter the legal address in which the company is registered. If you already defined your legal address as an address in **Locations**, select **Use existing** and search for the address by the city or by the location description. If the address isn't already added, select **Add new** and enter it here.<br>Ensure that your legal address matches your corporation registration and is spelled correctly. |
+|Website |Enter your company's website.|
 
 ### Brand Information
 
@@ -74,9 +78,17 @@ Within the brand information, provide context about your company's business.
 |Form field |Description |
 |:-----|:-----|
 |Organization Legal Form |Select the legal structure of your company.<br><br>**Private company** - A private company is owned by individuals or groups and doesn't sell shares to the public.<br>**Publicly Traded Company** - A publicly traded company sells shares on stock exchanges.<br>**Non-Profit Organization** - A non-profit operates for charitable purposes without distributing profits. Only US-based non-profits or non-profits with a US EIN are accepted. Non-US non-profits should register as private companies. For example, if you're a non-profit organization located in Canada, you register as a **Private company**.|
+|Brand segment |From the drop-down, select the industry that best categorizes your company's business.|
+
+Additional information are required to registered **Publicly Traded** brands:
+
+|Form field |Description |
+|:-----|:-----|
+
 |Brand stock symbol |If your company is a publicly traded company, enter your company's stock symbol.|
 |Brand stock exchange |If your company is a publicly traded company, select the exchange where it's listed and traded.|
 |Brand segment |From the drop-down, select the industry that best categorizes your company's business.|
+
 
 ### Contact Information
 

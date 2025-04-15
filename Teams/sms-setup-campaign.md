@@ -271,12 +271,14 @@ The terms as follows relate to Microsoft sharing your brand information with a 1
 
 After reviewing your Campaign's details and accepting Microsoft's terms and conditions, select **Submit**.
 
-After submission, the Campaign status shows as **Submitted** and the campaign information can't be modified without Microsoft Support intervention.
+After submission, the Campaign status shows as **Submitted** and the campaign information can't be modified.
+
+- If approved, your campaign status will be updated to "__Approved__" and you can move on to [Step 3: Enable SMS](sms-management.md).
+
+- If not approved, the status will change to "__Microsoft Support Engaged__," and our support team may contact the support representative of your brand for further assistance.
 
 > [!NOTE]
-> If TCR *rejects* your campaign submission, a Microsoft case is automatically opened on your behalf with Microsoft's Telephone Number Services (TNS) - Service Desk. You can view your case by navigating to the [Phone Number Service Center](https://pstnsd.powerappsportals.com), and then selecting the tab for **My Company Cases**. Open the case, and you can interact with the Telephone Number Services - Service Desk team about the details and status of the case.
-
-Once TCR approves your Campaign, you can move on to [Step 3: Enable SMS](sms-management.md).
+> If your campaign is not approved, a Microsoft case is automatically opened on your behalf with Microsoft's Telephone Number Services (TNS) - Service Desk. You can view your case by navigating to the [Phone Number Service Center](https://pstnsd.powerappsportals.com), and then selecting the tab for **My Company Cases**. Open the case, and you can interact with the Telephone Number Services - Service Desk team about the details and status of the case.
 
 ## Considerations
 

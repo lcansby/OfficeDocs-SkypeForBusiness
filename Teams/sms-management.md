@@ -26,6 +26,9 @@ description: Enable and manage SMS in Microsoft Teams
 
 This article is for IT administrators and IT professionals who are administering the Short Message Service (SMS) usage in Microsoft Teams. You can manage SMS for Teams through the Teams admin center.
 
+> [!NOTE]
+> SMS in Teams is only available on Calling Plan phone numbers in the United States (including Puerto Rico) and Canada. 
+
 ## Prerequisites
 
 ### Brand and Campaign
@@ -58,7 +61,20 @@ As an administrator, you must be assigned one of the following Role-Based Access
 
 For more information about Teams administrator roles, see [Use Microsoft Teams administrator roles to manage Teams](using-admin-roles.md).
 
-## Turn on SMS for a user
+## Manage SMS for Users
+
+#### SMS Status
+
+Not all phone numbers support SMS. The 'SMS status' shows whether a number can use SMS and its current status. The table below lists the 'SMS status' values and their descriptions.
+
+|SMS |Description|
+| -------- | -------- |
+|__Not available__| SMS is not available on the phone number. SMS might not be available due to the current phone number configuration, e.g., the phone number is assigned to a Resource Account, or the phone number itself does not support SMS.|
+|__Not Activated__| SMS is available on the phone number, but not activated yet. You can **Enable SMS**.|
+|__In Progress__|SMS Activation is in progress and might take up to two hours.|
+|__Activated__|SMS is activated on the phone number. You can **Disable SMS**.|
+
+#### Turn on SMS for a user
 
 To enable SMS in Teams for a user, you must turn on SMS for a user's phone number. 
 
@@ -66,7 +82,7 @@ In Teams admin center, navigate to the left side rail, select **Voice** > **Phon
 
 If the number isn't already assigned to a user, you can assign that number to a user. For more information on number management, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md).
 
-## Turn off SMS for a user
+#### Turn off SMS for a user
 
 To turn off SMS for a user in Teams admin center, navigate to the left side rail, select **Voice** > **Phone numbers** > **Numbers**, and then find and select the number for the user. In the contextual menu just above the list of phone numbers, select **Disable SMS**.
 

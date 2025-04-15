@@ -80,15 +80,18 @@ Within the brand information, provide context about your company's business.
 |Organization Legal Form |Select the legal structure of your company.<br><br>**Private company** - A private company is owned by individuals or groups and doesn't sell shares to the public.<br>**Publicly Traded Company** - A publicly traded company sells shares on stock exchanges.<br>**Non-Profit Organization** - A non-profit operates for charitable purposes without distributing profits. Only US-based non-profits or non-profits with a US EIN are accepted. Non-US non-profits should register as private companies. For example, if you're a non-profit organization located in Canada, you register as a **Private company**.|
 |Brand segment |From the drop-down, select the industry that best categorizes your company's business.|
 
-Additional information are required to registered **Publicly Traded** brands:
+
+> [!NOTE]
+> Brand registration for US Government entities is currently not supported. Non-US Government should register as private companies 
+> Brand registration for Sole Proprietor entities is currently not supported.  
+
+Additional information are required to register **Publicly Traded** brands:
 
 |Form field |Description |
 |:-----|:-----|
-
 |Brand stock symbol |If your company is a publicly traded company, enter your company's stock symbol.|
 |Brand stock exchange |If your company is a publicly traded company, select the exchange where it's listed and traded.|
-|Brand segment |From the drop-down, select the industry that best categorizes your company's business.|
-
+|Business email contact for Two Factor Authentication (2FA) |Brands with a Public Profit entity type are required to complete a two-factor authentication (2FA) process as part of the verification process. Provide the email that will receive the verification email. It cannot be personal or free email or a distribution list such as sales or support.|
 
 ### Contact Information
 
@@ -101,8 +104,6 @@ If there are issues with the registration of your brand, Microsoft Support will 
 |Phone number | Enter the phone number in E.164 format of the point of contact for inquiries related to this application process.<br><br>E.164 is the international phone number format that starts with a plus sign (+) followed by your country code, area code, and local number with no spaces, dashes, or parentheses. For example, a US phone number of (202) 555-0123 should be written as: +12025550123. |
 |Email address | Enter the email address of the *point of contact* for inquiries related to this application process. We recommend entering a distribution or group list here over a personal email. |
 
-> [!IMPORTANT]
-> If you designated your organization's as a *Publicly Traded Company*, then The Campaign Registry employs Two Factor Authentication, sending an email from *noreply@auth.campaignregistry.com* to the email address supplied in the Contact information. The contact email address can't be a personal or free email account, or a distribution list, such as sales or support.
 
 ### Terms and Conditions
 
@@ -116,18 +117,24 @@ The terms as follows relate to Microsoft sharing your brand information with an 
 
 After filling out all the applicable fields, select **Submit**.
 
-Your Brand's **Status** should now show as **Submitted** and the brand information can no longer be modified without Microsoft Support intervention.
+Your Brand's **Status** should now show as **Submitted** and the brand information can no longer be modified.
 
-If you designated your organization's legal form as *Publicly Traded Company* and you don't received a two-factor authentication (2FA) message from **noreply@auth.campaignregistry.com**, check your junk mail and your company's firewall rules.
+After reviewing your Brand's details and accepting Microsoft's terms and conditions, select **Submit**.
 
-The Service Level Agreement for Brand approval or rejection is three days maximum.
+After submission, the Brand status shows as **Submitted** and the brand information can't be modified.
+> [!IMPORTANT]
+> If you designated your organization's legal form as *Publicly Traded Company*, you are required to complete a two-factor authentication (2FA) process as part of the verification process. 
+> Once the brand is submitted, the Business Contact Email will receive an email with a verification link and PIN from **noreply@auth.campaignregistry.com**. They should click the link, enter their first name, last name, job title, and the PIN, and complete the form to verify your brand. 
+> If the Business Contact does not receive the two-factor authentication (2FA) email, please check your junk mail and your company's firewall rules. Alternatively, you can request Microsoft to resend the email.
 
-If you submitted incorrect brand information or if you don't receive an approval or rejection notice in three days, [contact Microsoft's Telephone Number Services - Service Desk](contact-tns-service-desk.md).
+If approved, your brand status will be updated to "**Approved**" and you can move on to [Step 2: Create a campaign](sms-setup-campaign.md).
+If not approved, the status will change to "**Microsoft Support Engaged**," and our support team may contact the support representative of your brand for further assistance.
+
+The review and approval process may take 2 business days. These timelines are for informational purposes only and may vary. 
+If you submitted incorrect brand information, [contact Microsoft's Telephone Number Services - Service Desk](contact-tns-service-desk.md).
 
 > [!NOTE]
-> If the Campaign Registry *rejects* your brand submission, a case is automatically opened on your behalf with Microsoft's Telephone Number Services - Service Desk. You can view your case by navigating to the [Phone Number Service Center](https://pstnsd.powerappsportals.com), and selecting the tab for **My Company Cases**. Open the case, and you can interact with the Telephone Number Services (TNS) - Service Desk team about the details and status of the case.
-
-Once your Brand has been approved by TCR, you can move on to [Step 2: Create a campaign](sms-setup-campaign.md).
+> If your brand is not approved, a case is automatically opened on your behalf with Microsoft's Telephone Number Services - Service Desk. You can view your case by navigating to the [Phone Number Service Center](https://pstnsd.powerappsportals.com), and selecting the tab for **My Company Cases**. Open the case, and you can interact with the Telephone Number Services (TNS) - Service Desk team about the details and status of the case.
 
 ## Related topics
 

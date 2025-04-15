@@ -159,7 +159,7 @@ You can turn off Facilitator's ability to take notes in chats by completing the 
 1. Change the toggle to the **Off** position to turn off AI-generated notes for chats.
 1. Select the **Save** button.
 
-You can also use PowerShell to manage the `MessagingNotes` setting with the [`Set-CsTeamsMessagingConfiguration`](/powershell/module/teams/set-csteamsmessagingconfiguration#-messagingnotes) cmdlet. For information about using PowerShell to manage users' Teams experience, see [Assign policies to users and groups](/assign-policies-users-and-groups#use-powershell-method).
+You can also use PowerShell to manage the `MessagingNotes` setting with the [`Set-CsTeamsMessagingConfiguration`](/powershell/module/teams/set-csteamsmessagingconfiguration#-messagingnotes) cmdlet. For information about using PowerShell to manage users' Teams experience, see [Assign policies to users and groups](assign-policies-users-and-groups.md#use-powershell-method).
 
 ### Turn off AI-generated notes for meetings
 

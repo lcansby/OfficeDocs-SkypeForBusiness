@@ -228,7 +228,7 @@ In the campaign form, provide details of your company's plan for SMS operations,
   - *Description*: A description for the campaign, explaining its purpose and target audience.
   - *Call-to-Action/Message Flow*: A description of how recipients are opt-in to receive messages from you (such as opt-in process, expected interactions).
     
-  - *Sample Message*: A sample message that aligns with the campaign's use case. Multiple sample messages are acceptable.
+  - *Sample Message*: A sample message that aligns with the campaign's use case. Multiple sample messages are acceptable. If embedded phone number or link are selected, please include an embedded phone number or link in your sample messages.
     
   - *Privacy Policy*: A link to your privacy policy related to SMS services. It can be a webpage or an online file that is publicly accessible.
     

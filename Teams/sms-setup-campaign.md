@@ -263,7 +263,7 @@ In the campaign form, provide details of your company's plan for SMS operations,
 
 Select the box to accept the terms and conditions.
 
-The terms as follows relate to Microsoft sharing your brand information with a 10DLC operator.
+The terms as follows relate to Microsoft sharing your brand and campaign information with a 10DLC operator.
 
 >Teams SMS services involve an integration between Microsoft and the underlying carrier, aggregator, or operator ("Operator"). Microsoft must share application details and/or brand information with the Operator to ensure that the program meets regulatory guidelines and standards set by operators. The Operator is the final reviewer and approver of your service application. If the details you provide on your application change, it's your responsibility to resubmit your application with up-to-date information. By submitting an application, you agree that Microsoft may share the application details as necessary for provisioning the Teams messaging service.
 

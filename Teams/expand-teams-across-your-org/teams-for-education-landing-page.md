@@ -9,7 +9,7 @@ audience: admin
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.assignments.overview
-ms.date: 04/25/2035
+ms.date: 04/15/2025
 ms.service: msteams
 ms.subservice: teams-education
 ms.collection: 

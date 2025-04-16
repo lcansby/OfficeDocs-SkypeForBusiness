@@ -163,7 +163,7 @@ For more information, see [Meetings, webinars, and live events](/microsoftteams/
 
 When a meeting is joined or edited/updated before its expiration limit, an additional 60 days is added to the expiration limit (except for Meet now meetings).
 
-|Meeting type  |Meeting expires after this much time  |
+|Meeting type  |Time until meeting expiration  |
 |---------|---------|
 |Scheduled meeting (one time) |60 days after meeting scheduled time|
 |Meet Now (scheduled via calendar) |60 days after the link was created  |

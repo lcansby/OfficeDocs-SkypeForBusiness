@@ -1241,7 +1241,7 @@ items:
     - name: Teams Calling with Teams Premium and Copilot
       items:
         - name: Intelligent recap for Teams calls and meetings
-          href: intelligent-recap-calls-meetings.md
+          href: ../directory/intelligent-recap-calls-meetings.yml
         - name: Teams Premium licensing
           href: teams-add-on-licensing/licensing-enhance-teams.md
     - name: PSTN connectivity options

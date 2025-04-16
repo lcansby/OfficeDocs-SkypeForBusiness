@@ -64,14 +64,18 @@ Teams supports three distinct scopes of dial plans, outlined in the following ta
 |Tenant dial plan |Yes |If an admin doesn't assign a user-scoped dial plan, then that user will be provisioned with an effective dial plan of the user's service country/region dial plan and the tenant's default dial plan (named *Global*). Normalization rules can be managed in the Global (default, tenant level) dial plan. |
 |User dial plan |Yes |If an admin defines and assigns a user-scoped dial plan, that user will be provisioned with an effective dial plan of the user's service country/region dial plan and the assigned user dial plan. |
 
+A user is always assigned to the service dial plan and a user is always assigned to either a tenant dial plan or a user dial plan, but can't be assigned to a tenant dial plan and user dial plan at the same time.
+
+In the priority of processing normalization rules for a dialed number, the user dial plan takes precedence over the tenant (Global) dial plan, and the tenant dial plan takes precendence over the service dial plan.
+
 Using a hiearchy of the three dial plan scopes, each Teams user inherits an "effective" dial plan.
 
 The possible effective dial plans for users are outlined in the following table:
 
 |User's effective dial plan |Description |
 |:-----|:-----|
-|**Service Country** |If the Global (default tenant) dial plan is not modified and no user dial plan is assigned to the user, the user inherits an *effective dial plan* consisting of only the *service* dial plan for the country/region associated with their usage location. |
-|**Tenant Global - Service Country** |If the Global dial plan is modified and no user dial plan is assigned to the user, the user inherits an *effective dial plan* consisting of a merged *tenant and service* dial plan (for their country/region).</br>The normalization rules in the tenant's Global dial plan will take precedence over rules in the service dial plan. |
+|**Service Country** |If the tenant (Global) dial plan *isn't modified* and no user dial plan is assigned to the user, the user inherits an *effective dial plan* consisting of only the *service* dial plan for the country/region associated with their usage location. |
+|**Tenant Global - Service Country** |If the tenant dial plan is modified and no user dial plan is assigned to the user, the user inherits an *effective dial plan* consisting of a merged *tenant and service* dial plan (for their country/region).</br>The normalization rules in the tenant's Global dial plan will take precedence over rules in the service dial plan. |
 |**Tenant User - Service Country** |If a user dial plan is defined and assigned to a user, the user inherits an *effective dial plan* consisting of a merged *user and service* dial plan (for their country/region).</br>The normalization rules in the tenant's user dial plan will take precedence over rules in the service dial plan.  |
 
 You can't change the service dial plan for the Teams Phone service, but you can edit the tenant (Global) dial plan or you can create custom user dial plans, which augment the service dial plan. As clients are provisioned, they obtain an "effective dial plan," which is a combination of the service dial plan for their country or region and the user's assigned dial plan. It's not necessary to define all normalization rules in the tenant or user dial plans as the rules might already exist in the service dial plan for the country/region.
@@ -129,10 +133,10 @@ We recommend that you type the common, recognizable name of the ***geographic lo
 
 There can be a maximum of 1,000 tenant dial plans per tenant.
 
-User effective dial plans for outbound translations behave different than route-based dial plans for inbound translations. For example,
+Number normalization in user effective dial plans behaves different than number translation in route-based rules. For example,
 
-- With user effective dial plans, the Teams client will normalize numbers that start with "+" and calls placed from call history.
-- With route-based dial plans, the Teams service will not normalize numbers that start with "+".
+- The Teams client will normalize numbers for all outbound calls, including calls placed from call history and clicking on telephone number links, based on user effective dial plans.
+- With route-based translation rules, the Teams service will not normalize numbers that start with "+".
 
 ### Number lookup
 

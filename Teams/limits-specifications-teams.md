@@ -159,15 +159,18 @@ For more information, see [Meetings, webinars, and live events](/microsoftteams/
 ### Meeting expiration
 
 > [!NOTE]
-> A meeting URL will never stop working. The expiry only relates to any PSTN dial-in numbers, CVI coordinates, and/or underlying meeting policies and settings.
+> A meeting URL doesn't expire. The expiration only applies to PSTN dial-in numbers, CVI coordinates, and underlying meeting policies and settings.
 
-|Meeting type  |Meeting expires after this much time  |Each time you start or update a meeting, expiration extends by this much time  |
-|---------|---------|---------|
-|Meet now     |Start time + 8 hours         |N/A         |
-|Regular with no end time     |Start time + 60 days         | 60 days        |
-|Regular with end time     |End time + 60 days         |60 days         |
-|Recurring with no end time     |Start time + 60 days         |60 days         |
-|Recurring with end time     |End time of last occurrence + 60 days         |60 days         |
+When a meeting is joined or edited/updated before its expiration limit, an additional 60 days is added to the expiration limit (except for Meet now meetings).
+
+|Meeting type  |Meeting expires after this much time  |
+|---------|---------|
+|Scheduled meeting (one time) |60 days after meeting scheduled time|
+|Meet Now (scheduled via calendar) |60 days after the link was created  |
+|Meet Now (scheduled via channels)     |8 hours after the link was created  |
+|Meet Now (scheduled via group chats)     |N/A |
+|Recurrent meetings with end date     |60 days from end date or 60 days from last occurrence, whichever is longer |
+|Recurrent meeting with no end date   |1 year after the last access, joined or meeting updated |
 
 > [!NOTE]
 > Microsoft Teams meetings have a time limit of 30 hours.

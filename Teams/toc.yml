@@ -1240,8 +1240,7 @@ items:
           href: dial-voice-reference.md
     - name: Teams Calling with Teams Premium and Copilot
       items:
-        - name: Intelligent recap for Teams calls and meetings
-          href: ../directory/intelligent-recap-calls-meetings.yml
+        - name: See Intelligent recap for teams calls and meetings
         - name: Teams Premium licensing
           href: teams-add-on-licensing/licensing-enhance-teams.md
     - name: PSTN connectivity options

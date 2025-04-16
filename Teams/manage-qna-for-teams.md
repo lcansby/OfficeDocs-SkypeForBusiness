@@ -24,7 +24,7 @@ description: Learn about how IT Admins can set up, use, and manage Q&A in Q&A fo
 
 Q&A allows presenters, organizers, and co-organizers to take questions from attendees and answer them in real time. This feature is best suited for large, structured meetings and events– like town halls, webinars, all hands, and trainings.
 
-In Teams town halls and webinars, organizers and co-organizers can allow presenters to manage Q&A. Organizers can also turn on moderation to review and approve questions before they appear in the Q&A feed. Each moderator can respond or post as themselves or as Organizer for a more unified voice across moderators. Town hall and webinar organizers and co-organizers can export the event's questions and answers to a CSV file.
+In Teams town halls and webinars, organizers and co-organizers can allow presenters to manage Q&A. Organizers can also turn on moderation to review and approve questions before they appear in the Q&A feed. Each moderator can respond or post as themselves or as **Organizer** for a more unified voice across moderators. Town hall and webinar organizers and co-organizers can export the event's questions and answers to a CSV file.
 
 As an admin, you can control whether an organizer can use Q&A in their meetings and events.
 

@@ -72,15 +72,15 @@ To learn more about configuring a trunk-based dial plan, refer to Direct Routing
 
 ## User effective dial plans - for outbound calls
 
-Outbound telephone calls from Teams users are routed based on a series of assigned configuration items, including their assigned dial plan. and their voice routing policy.
+Outbound telephone calls from Teams users are routed based on a series of assigned configuration items, including their assigned dial plan.
 
 Teams supports three scopes of dial plans, outlined in the following table:
 
 |Dial plan scope |Configurable |Description |
 |:-----|:-----|:-----|
-|Globally-scoped dial plan |No |Microsoft-managed for the Teams Phone service. Defined for every country or region where Teams Phone is available. Each user is automatically assigned the service country/region dial plan that matches the usage location assigned to the user. |
-|Tenant-scoped dial plan |Yes |If a tenant defines a tenant-scoped dial plan but doesn't assign a user-scoped dial plan, then that user will be provisioned with an effective dial plan of the user's service country/region dial plan and the tenant dial plan. |
-|User-scoped dial plan |Yes |If a tenant defines and assigns a user-scoped dial plan, that user will be provisioned with an effective dial plan of the user's service country/region dial plan and the assigned user dial plan. |
+|Global dial plan |No |Microsoft-managed for the Teams Phone service. Defined for every country or region where Teams Phone is available. Each user is automatically assigned the Global dial plan that matches the usage location assigned to the user. |
+|Tenant dial plan |Yes |If an admin defines a tenant dial plan but doesn't assign a user-scoped dial plan, then that user will be provisioned with an effective dial plan of the user's service country/region dial plan and the tenant dial plan. |
+|User dial plan |Yes |If a tenant defines and assigns a user-scoped dial plan, that user will be provisioned with an effective dial plan of the user's service country/region dial plan and the assigned user dial plan. |
 
 Using the hiearchy of the three user-based dial plans, each Teams user inherits an "effective" dial plan.
 

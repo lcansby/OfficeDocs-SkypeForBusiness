@@ -29,9 +29,12 @@ description: "Learn about Microsoft Teams dial plans and how they help route pho
 
 **APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing
 
-This article is for IT Admins and IT Pros who are researching and planning to use Teams dial plans for routing Teams Phone calls.
+This article is for IT Admins and IT Pros who are researching and planning to use:
 
-An overview of inbound and outbound call routing is provided for context in relation to how Teams translates numbers that are received so that they can be processed for routing to a person or to a PSTN (Public Switchted Telephone Network) resource.
+- Teams dial plans (with normalization rules) for ensuring user-dialed numbers get processed into a standard phone number format
+- Trunk number translation rules, for adapting numbers to expected formats as negotiated between Teams and a Direct Routing integration with the PSTN (Public Switched Telephone Network).
+
+An overview of outbound and inbound called number processing is provided for context in relation to how Teams translates called numbers so that they can be processed for routing to a person or to a PSTN resource.
 
 Understand the concepts in this article are a prerequisite for [creating Teams dial plans](create-and-manage-dial-plans.md) and [normalization rules](phone-normalization-rules.md).
 
@@ -39,38 +42,17 @@ Understand the concepts in this article are a prerequisite for [creating Teams d
 
 Dial plans are what enables Teams to route phone calls, *regardless of how they were dialed*.
 
-A dial plan is a named set of one or more digit-manipulation rules that translate called number strings into alternate (desired) formats, so that Teams can route the calls.
+A dial plan is a named set of one or more number-string translation rules that translate called number-strings into alternate (desired) formats, so that Teams can process and route the calls.
 
-Teams dial plans ensure that numbers orginating from various input formats are translated into standardized formats (typically E.164) for purposes of matching called numbers to resources that the user is authorized to use, and for routing the calls.
+Teams dial plans ensure that numbers orginating with various user-input formats are translated into standardized formats (typically E.164) for the purposes of matching called numbers to resources that the user is authorized to use, and for routing the calls.
 
-The translation rules are optionally applied to phone numbers that:
+The rules within a dial plan are known as **normalization rules**, and their purpose is to support users dialing numbers in a variety of patterns, and resolving their non-standard number format into an expected, standardized format.
 
-- An individual user dials
-- Are sent across PSTN connections ('trunks') between your Direct Routing PSTN integration and your tenant.
+A normalization rule in one dial plan can be translated differently than a normalization rule in another dial plan, so depending on which dial plan is assigned to a given user, a dialed number may be translated and routed differently.
 
-The rules within a dial plan are known as [**normalization rules**](phone-normalization-rules.md).
+Normalization rules and examples are addressed in a later article; see [Normalization rules](phone-normalization-rules.md).
 
-A normalization rule in one dial plan can be translated differently than a normalization rule in another dial plan, so depending on which dial plan is assigned to a given user or trunk, a dialed number may be translated and routed differently.
-
-## Dial plan classification
-
-Dial plans can be classified into two main categories.
-
-A **trunk based dial plan** applies to a voice route between a Direct Routing SBC (Session Border Controller) and Teams, and supports normalizing inbound called number-strings.
-
-A **user's effective dial plan** is an inherited set of hierarchical dial plans applied to numbers that a user dials from their Teams client.
-
-## Trunk-based dial plans - for inbound calls
-
-Routing an inbound phone call to a Teams user uses a process called [Reverse Number Lookup (RNL)](#number-lookup); instead of referencing a Teams user's contact name to lookup their number, RNL looks in your directory for the dialed number-string of a call, finds the user or resource account in your tenant that is assigned with the same number-string, and sets up the incoming call with that user or resource.
-
-If the SBC providing the inbound call's number-string isn't offering a number format matching the numbers you've assigned to your users or resources, you can apply a trunk-based dial plan to the SBC and normalize the inbound, called number into your expected format.
-
-Trunk-based dial plans are configured on the voice route associated with the SBC.
-
-To learn more about configuring a trunk-based dial plan, refer to Direct Routing [Step 4: Translate phone numbers](direct-routing-translate-numbers.md).
-
-## User effective dial plans - for outbound calls
+## Dial plans and a user's *effecctive* dial plan
 
 Outbound telephone calls from Teams users are routed based on a series of assigned configuration items, including their assigned dial plan.
 
@@ -84,7 +66,7 @@ Teams supports three distinct scopes of dial plans, outlined in the following ta
 
 Using a hiearchy of the three dial plan scopes, each Teams user inherits an "effective" dial plan.
 
-The possible user ***effective dial plans*** are outlined in the following table:
+The possible effective dial plans for users are outlined in the following table:
 
 |User's effective dial plan |Description |
 |:-----|:-----|
@@ -93,12 +75,29 @@ The possible user ***effective dial plans*** are outlined in the following table
 |**Tenant User - Service Country** |If a user dial plan is defined and assigned to a user, the user inherits an *effective dial plan* consisting of a merged *user and service* dial plan (for their country/region).</br>The normalization rules in the tenant's user dial plan will take precedence over rules in the service dial plan.  |
 
 You can't change the service dial plan for the Teams Phone service, but you can edit the tenant (Global) dial plan or you can create custom user dial plans, which augment the service dial plan. As clients are provisioned, they obtain an "effective dial plan," which is a combination of the service dial plan for their country or region and the user's assigned dial plan. It's not necessary to define all normalization rules in the tenant or user dial plans as the rules might already exist in the service dial plan for the country/region.
-</br>
-
-> [!NOTE]
-> In the scenario where no dial plan normalization rules apply to a dialed number, the dialed string is still normalized to prepend "+CC" where CC is the country/region code of the dialing user's usage location. This applies to Calling Plans, Direct Routing, and PSTN Conference dial-out scenarios. Additionally, if a tenant dial plan normalization rule results in a number that doesn't start with "+", the Teams cloud calling service will attempt to normalize the number received from the Teams client based on the tenant-scoped dial plan, and if not matched, on the Global-scoped dial plan. To avoid double normalization, it's recommended that Direct Routing customers normalize numbers to include a + and then remove the + using a Trunk-based dial plan.
 
 Clients get the appropriate dial plan through provisioning settings that are automatically provided when users sign in to Teams. As an admin, you can manage and assign dial plan scope levels by using the Microsoft Teams admin center or Remote PowerShell. For more information, see [Create and manage dial plans](create-and-manage-dial-plans.md).
+
+## Route-based number translations - for outbound calls
+
+A route, in this case, references the virtual phone line between the your tenant and the PSTN. Number translation rules are optionally applied to called numbers that are passed through this route, to keep number formats synchronized between your tenant and your Direct Routing PSTN solution.
+
+Once a user dials a number, it processes through the effective dial plan, Teams matches the normalized number to an approved PSTN usage for routing to the PSTN, and the call is directed to a voice route. The voice route is associated with a SBC (Session Border Controller), and there may be instances where you want to manage the format in which your SBC receives the called number-string.
+
+To translate a called number-string into an alternate format, create an outbound number translation rule and apply it to the SBC.
+
+To learn more about creating outbound translation rules and assigning to SBCs, refer to Direct Routing [Step 4: Translate phone numbers](direct-routing-translate-numbers.md).
+
+> [!NOTE]
+> In the scenario where no tenant or user dial plan normalization rules apply to a dialed number, the Teams service dial plan prepends "+CC" to the number, where CC is the country/region code of the dialing user's usage location. This applies to Calling Plans, Direct Routing, and PSTN Conference dial-out scenarios.</br>To avoid double normalization (from the user's effective dial plan and a route-based number translation rule), it's recommended that Direct Routing customers use dial plans to normalize numbers to include a + and then remove the + using a route-based translation rule.
+
+## Route-based number translations - for inbound calls
+
+Routing an inbound phone call to a Teams user uses a process called [Reverse Number Lookup (RNL)](#number-lookup); instead of referencing a Teams user's contact name to lookup their number, RNL looks in your directory for the dialed number-string of a call, finds the user or resource account in your tenant that is assigned with the same number-string, and sets up the incoming call with that user or resource.
+
+If the Direct Routing SBC providing the inbound call's number-string isn't offering a number format that matches the number format you've adopted for your Teams user and resource accounts, you can apply a route-based number translation rule to the SBC's voice route and normalize the inbound, called number into your expected format.
+
+To learn more about creating inbound translation rules and assigning to SBCs, refer to Direct Routing [Step 4: Translate phone numbers](direct-routing-translate-numbers.md).
 
 ## Planning for tenant dial plans
 
@@ -130,10 +129,10 @@ We recommend that you type the common, recognizable name of the ***geographic lo
 
 There can be a maximum of 1,000 tenant dial plans per tenant.
 
-User effective dial plans for outbound translations behave different than trunk-based dial plans for inbound translations. For example,
+User effective dial plans for outbound translations behave different than route-based dial plans for inbound translations. For example,
 
 - With user effective dial plans, the Teams client will normalize numbers that start with "+" and calls placed from call history.
-- With trunk-based dial plans, the Teams service will not normalize numbers that start with "+".
+- With route-based dial plans, the Teams service will not normalize numbers that start with "+".
 
 ### Number lookup
 
@@ -153,7 +152,7 @@ If the user is assigned a phone number with an extension, +14255551212;ext=12345
 
 If the dialed number isn't matched, either because the number isn't assigned to an account or the number dialed doesn't exactly match any number string assigned to an account, the call fails to route or is routed according to [unassigned number routing](routing-calls-to-unassigned-numbers.md), if configured.
 
-When you have a Direct Routing deployment with no digit translation configured on the SBC, and if the calls are not presenting numbers in the format that you've designated for your users, use a trunk-based dial plan to normalize the inbound called number to a format that matches what is assigned to your users.
+When you have a Direct Routing deployment with no digit translation configured on the SBC, and if the calls are not presenting numbers in the format that you've designated for your users, use a route-based number translation rule to normalize the inbound called number to a format that matches what is assigned to your users.
 
 If you want internal users who call a phone number that is assigned to a resource account, to bypass the Reverse Number Lookup logic and route the call externally through the PSTN instead of routing to the resource account, you can enable the **skip RNL** option for the phone number assignment using the **Set-CsPhoneNumberAssignment** PowerShell cmdlet with `-ReverseNumberLookup`. For more information, see [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) and [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment).
 
@@ -167,13 +166,13 @@ When deploying Calling Plan, Operator Connect, or Teams Phone Mobile for your PS
 
 When you are deploying Direct Routing or extension dialing, the **user's effective dial plan** provides admins with the ability to configure a set of rules that help translate the user's dialed digits into a number that is resolved to a destination where Teams can route the call.
 
-- You must configure call routing by specifying the voice routes and assigning voice routing policies to users. You can configure dial plans for number translation at the trunk level to ensure interoperability with Session Border Controllers (SBCs). For more information, see [Configure voice routing for Direct Routing](direct-routing-voice-routing.md), [Manage voice routing policies](manage-voice-routing-policies.md), and [Translate phone numbers](direct-routing-translate-numbers.md).
+- You must configure call routing by specifying the voice routes and assigning voice routing policies to users. You can configure number translation rules at the route level to ensure interoperability with Session Border Controllers (SBCs). For more information, see [Configure voice routing for Direct Routing](direct-routing-voice-routing.md), [Manage voice routing policies](manage-voice-routing-policies.md), and [Translate phone numbers](direct-routing-translate-numbers.md).
 
 - You can assign a Direct Routing online voice routing policy to Calling Plan and Operator Connect users and may want to do this, for example, to enable users to dial in to a call center that is directly connected with Direct Routing.
 
 ### Direct Routing online voice-routing policy with Calling Plan
 
-If a user has a Calling Plan license, that user’s outgoing calls are automatically routed through the Microsoft Calling Plan PSTN infrastructure. If you configure and assign a Direct Routing online voice-routing policy to the user, Teams checks the user’s outgoing calls against the Direct Routing online voice-routing policy to determine whether their dialed number matches a number-pattern that is defined in the online voice-routing policy. If there’s a match, the call is routed through the Direct Routing trunk. If there’s no match, the call is routed through the Calling Plan PSTN infrastructure.
+If a user has a Calling Plan license, that user’s outgoing calls are automatically routed through the Microsoft Calling Plan PSTN infrastructure. If you configure and assign a Direct Routing online voice-routing policy to the user, Teams checks the user’s outgoing calls against the Direct Routing online voice-routing policy to determine whether their dialed number matches a number-pattern that is defined in the online voice-routing policy. If there’s a match, the call is routed through the Direct Routing route. If there’s no match, the call is routed through the Calling Plan PSTN infrastructure.
 
 For more information, see [Direct Routing voice routing policy considerations](direct-routing-voice-routing.md#voice-routing-policy-considerations).
 

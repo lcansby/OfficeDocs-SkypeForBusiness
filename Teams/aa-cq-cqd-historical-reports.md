@@ -126,6 +126,8 @@ Perform the following steps:
 
    - **Per Day** reporting retrieves one daily summary record for each Auto attendant, Call queue, and Agent. This reporting results in fewer records being returned to the client, reducing the possibility of hitting the 90,000 default or 200,000 per query record limit. Per Day reporting is based on a UTC-00:00 day (00:00:00-23:59:59 UTC) only and any UTC offset supplied by the user is ignored.
 
+**Steps 5-8 are only performed once, the first time the template is loaded.**
+
 5. Configure the data sources authentication.
    - Select **File**, then **Options and settings**, and then **Data source settings**.
      
@@ -143,6 +145,10 @@ Perform the following steps:
 8. Select **Save**, then **OK**, and then **Close**.
 
 9. Select **Refresh** in the ribbon bar and the data refreshes.
+
+Depending on your Power BI Desktop settings, the following pop-up may also appear:
+
+:::image type="content" source="media/aa-cq-historical-report-06.png" alt-text="Screenshot showing data privacy screen":::
 
 ## Data latency for Auto attendant and Call queue analytics
 

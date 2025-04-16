@@ -88,7 +88,7 @@ A route, in this case, references the virtual phone line between the your tenant
 
 Once a user dials a number, it processes through the effective dial plan, Teams matches the normalized number to an approved PSTN usage for routing to the PSTN, and the call is directed to a voice route. The voice route is associated with a SBC (Session Border Controller), and there may be instances where you want to manage the format in which your SBC receives the called number-string.
 
-To translate a called number-string into an alternate format, create an outbound number translation rule and apply it to the SBC.
+To translate a called number-string into an alternate format, create an outbound number translation rule and apply it to the SBC's profile (also known as PSTN gateway) in Teams.
 
 To learn more about creating outbound translation rules and assigning to SBCs, refer to Direct Routing [Step 4: Translate phone numbers](direct-routing-translate-numbers.md).
 

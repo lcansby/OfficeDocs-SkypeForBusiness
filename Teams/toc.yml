@@ -1238,7 +1238,7 @@ items:
           href: call-queue-auto-attendant-cmdlets.md
         - name: Dial and voice reference
           href: dial-voice-reference.md
-    - name: Teams Calling with Teams Premium
+    - name: Teams Calling with Teams Premium and Copilot
       items:
         - name: Intelligent recap for Teams calls and meetings
           href: intelligent-recap-calls-meetings.md

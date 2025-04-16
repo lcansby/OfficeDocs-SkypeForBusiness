@@ -3,6 +3,7 @@ title: Microsoft Teams Essentials QuickStart guide for small businesses
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
+ms.reviewer: mirelar
 ms.date: 04/16/2025
 ms.topic: quickstart
 ms.service: msteams

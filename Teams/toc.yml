@@ -366,6 +366,7 @@ items:
       items:
       - name: Intelligent recap for Teams calls and meetings
         href: intelligent-recap-calls-meetings.md
+        anchor: intelligent-recap-calls-meetings
       - name: Manage transcriptions and captions for Teams meetings
         href: meeting-transcription-captions.md
       - name: Manage voice isolation for calls and meetings
@@ -1138,6 +1139,7 @@ items:
           href: here-s-what-you-get-with-phone-system.md
         - name: Teams Phone licensing
           href: teams-phone-licensing.md
+          anchor: teams-phone-licensing
         - name: Set up Teams Phone
           href: setting-up-your-phone-system.md
         - name: Dial pad configuration
@@ -1241,7 +1243,7 @@ items:
     - name: Teams Calling with Teams Premium and Copilot
       items:
         - name: See Intelligent recap for teams calls and meetings
-          href: intelligent-recap-calls-meetings.md#intelligentrecapforteamscallsandmeetings
+          href: intelligent-recap-calls-meetings.md#intelligent-recap-calls-meetings
         - name: Teams Premium licensing
           href: teams-add-on-licensing/licensing-enhance-teams.md
     - name: PSTN connectivity options
@@ -2092,7 +2094,7 @@ items:
         - name: Manage Teams licenses
           href: user-access.md
         - name: See Teams Phone licensing
-          href: teams-phone-licensing.md#teamsphonelicensing
+          href: teams-phone-licensing.md#teams-phone-licensing
         - name: Microsoft Teams Premium licensing
           href: teams-add-on-licensing/licensing-enhance-teams.md
         - name: Teams add-on license options

@@ -217,6 +217,16 @@ Run these to add the existing on-premises dial plan named OPDP1 as a tenant dial
     New-CsTenantDialPlan -Identity $dp.SimpleName -Description $dp.Description -SimpleName $dp.SimpleName -NormalizationRules $NormRules
     ```
 
+### Name and simple name
+
+For user dial plans, specify a descriptive name that identifies the users to which the dial plan will be assigned.
+
+The dial plan Simple Name is an attribute of the dial plan that is prepopulated with a string that is derived from the dial plan name. The Simple Name field is editable in PowerShell, which enables you to create a more descriptive naming convention for your dial plans. The Simple Name value can't be empty and must be unique.
+
+A best practice is to develop a naming convention for your entire organization and then uses this convention consistently across all sites and users.
+
+We recommend that you type the common, recognizable name of the ***geographic location*** or ***group of users*** to which the corresponding dial plan applies.
+
 ## Related articles
 
 - [Plan dial plans](dial-plans-routing-overview.md)

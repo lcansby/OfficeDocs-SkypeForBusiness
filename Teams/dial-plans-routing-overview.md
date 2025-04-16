@@ -115,20 +115,6 @@ To plan custom dial plans, follow these steps:
 
 - **Step 4** Develop an organization-wide scheme for naming dial plans. Adopting a standard naming scheme assures consistency across an organization and makes maintenance and updates easier.
 
-## Creating your new dial plan
-
-When you create a new dial plan, you must put in the information that is required.
-
-### Name and simple name
-
-For user dial plans, specify a descriptive name that identifies the users to which the dial plan will be assigned.
-
-The dial plan Simple Name is an attribute of the dial plan that is prepopulated with a string that is derived from the dial plan name. The Simple Name field is editable in PowerShell, which enables you to create a more descriptive naming convention for your dial plans. The Simple Name value can't be empty and must be unique.
-
-A best practice is to develop a naming convention for your entire organization and then uses this convention consistently across all sites and users.
-
-We recommend that you type the common, recognizable name of the ***geographic location*** or ***group of users*** to which the corresponding dial plan applies.
-
 ## Dial plans and routing considerations
 
 There can be a maximum of 1,000 tenant dial plans per tenant.

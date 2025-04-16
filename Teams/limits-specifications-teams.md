@@ -166,9 +166,9 @@ When a meeting is joined or edited/updated before its expiration limit, an addit
 |Meeting type  |Time until meeting expiration  |
 |---------|---------|
 |Scheduled meeting (one time) |60 days after meeting scheduled time|
-|Meet Now (scheduled via calendar) |60 days after the link was created  |
-|Meet Now (scheduled via channels)     |8 hours after the link was created  |
-|Meet Now (scheduled via group chats)     |N/A |
+|Meet now (scheduled via calendar) |60 days after the link was created  |
+|Meet now (scheduled via channels)     |8 hours after the link was created  |
+|Meet now (scheduled via group chats)     |N/A |
 |Recurrent meetings with end date     |60 days from end date or 60 days from last occurrence, whichever is longer |
 |Recurrent meeting with no end date   |1 year after the last access, joined or meeting updated |
 

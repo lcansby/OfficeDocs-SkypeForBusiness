@@ -62,7 +62,7 @@ A **user's effective dial plan** is an inherited set of hierarchical dial plans 
 
 ## Trunk-based dial plans - for inbound calls
 
-Routing an inbound phone call to a Teams user uses a process called **Reverse Number Lookup (RNL)**; instead of referencing a Teams user's contact name to lookup their number, RNL looks in your directory for the dialed number-string of a call, finds the user or resource account in your tenant that is assigned with the same number-string, and sets up the incoming call with that user or resource.
+Routing an inbound phone call to a Teams user uses a process called [Reverse Number Lookup (RNL)](#number-lookup); instead of referencing a Teams user's contact name to lookup their number, RNL looks in your directory for the dialed number-string of a call, finds the user or resource account in your tenant that is assigned with the same number-string, and sets up the incoming call with that user or resource.
 
 If the SBC providing the inbound call's number-string isn't offering a number format matching the numbers you've assigned to your users or resources, you can apply a trunk-based dial plan to the SBC and normalize the inbound, called number into your expected format.
 
@@ -74,26 +74,27 @@ To learn more about configuring a trunk-based dial plan, refer to Direct Routing
 
 Outbound telephone calls from Teams users are routed based on a series of assigned configuration items, including their assigned dial plan.
 
-Teams supports three scopes of dial plans, outlined in the following table:
+Teams supports three distinct scopes of dial plans, outlined in the following table:
 
 |Dial plan scope |Configurable |Description |
 |:-----|:-----|:-----|
-|Global dial plan |No |Microsoft-managed for the Teams Phone service. Defined for every country or region where Teams Phone is available. Each user is automatically assigned the Global dial plan that matches the usage location assigned to the user. |
-|Tenant dial plan |Yes |If an admin defines a tenant dial plan but doesn't assign a user-scoped dial plan, then that user will be provisioned with an effective dial plan of the user's service country/region dial plan and the tenant dial plan. |
-|User dial plan |Yes |If a tenant defines and assigns a user-scoped dial plan, that user will be provisioned with an effective dial plan of the user's service country/region dial plan and the assigned user dial plan. |
+|Service dial plan |No |Microsoft-managed for the Teams Phone service. Defined for every country or region where Teams Phone is available. Each user is automatically assigned the service dial plan that matches the usage location assigned to the user. |
+|Tenant dial plan |Yes |If an admin doesn't assign a user-scoped dial plan, then that user will be provisioned with an effective dial plan of the user's service country/region dial plan and the tenant's default dial plan (named *Global*). Normalization rules can be managed in the Global (default, tenant level) dial plan. |
+|User dial plan |Yes |If an admin defines and assigns a user-scoped dial plan, that user will be provisioned with an effective dial plan of the user's service country/region dial plan and the assigned user dial plan. |
 
-Using the hiearchy of the three user-based dial plans, each Teams user inherits an "effective" dial plan.
+Using the hiearchy of the three client-based dial plans, each Teams user inherits an "effective" dial plan.
 
-For example, you can't change the globally-scoped dial plan for the Teams Phone service, but you can create tenant-scoped dial plans, which augment the globally-scoped dial plan. As clients are provisioned, they obtain an "effective dial plan," which is a combination of the globally-scoped dial plan for their country or region and the appropriate tenant-scoped dial plan. Therefore, it's not necessary to define all normalization rules in tenant-scoped dial plans as the rules might already exist in the globally-scoped dial plan.
+For example, you can't change the service dial plan for the Teams Phone service, but you can edit the Global, tenant dial plan or you can create custom user dial plans, which augment the service dial plan. As clients are provisioned, they obtain an "effective dial plan," which is a combination of the service dial plan for their country or region and the user's assigned dial plan. It's not necessary to define all normalization rules in tenant or user dial plans as the rules might already exist in the service dial plan for the country/region.
 
 The possible user ***effective dial plans*** are outlined in the following table:
 
 |User's effective dial plan |Description |
 |:-----|:-----|
-|**Service Country** |If no tenant-scoped dial plan is defined and no user-scoped dial plan is assigned to the user, the user inherits only the globally-scoped dial plan and receives an *effective dial plan* mapped to the service country/region associated with their usage location. |
-|**Tenant Global - Service Country** |If a tenant-scoped dial plan is defined and no user-scoped dial plan is assigned to the user, the user receives an *effective dial plan* consisting of a merged tenant-scoped and globally-scoped (for their country/region) dial plans. |
-|**Tenant User - Service Country** |If a user-scoped dial plan is defined and assigned to a user, the user will receive an *effective dial plan* consisting of the merged user-scoped and globally-scoped (for their country/region) dial plans. |
+|**Service Country** |If the Global (default tenant) dial plan is not modified and no user dial plan is assigned to the user, the user inherits an *effective dial plan* consisting of only the *service* dial plan for the country/region associated with their usage location. |
+|**Tenant Global - Service Country** |If the Global dial plan is modified and no user dial plan is assigned to the user, the user inherits an *effective dial plan* consisting of a merged *tenant and service* dial plan (for their country/region).</br>The normalization rules in the tenant's Global dial plan will take precedence over rules in the service dial plan. |
+|**Tenant User - Service Country** |If a user dial plan is defined and assigned to a user, the user inherits an *effective dial plan* consisting of a merged *user and service* dial plan (for their country/region).</br>The normalization rules in the tenant's user dial plan will take precedence over rules in the service dial plan.  |
 
+</br>
 > [!NOTE]
 > In the scenario where no dial plan normalization rules apply to a dialed number, the dialed string is still normalized to prepend "+CC" where CC is the country/region code of the dialing user's usage location. This applies to Calling Plans, Direct Routing, and PSTN Conference dial-out scenarios. Additionally, if a tenant dial plan normalization rule results in a number that doesn't start with "+", the Teams cloud calling service will attempt to normalize the number received from the Teams client based on the tenant-scoped dial plan, and if not matched, on the Global-scoped dial plan. To avoid double normalization, it's recommended that Direct Routing customers normalize numbers to include a + and then remove the + using a Trunk-based dial plan.
  

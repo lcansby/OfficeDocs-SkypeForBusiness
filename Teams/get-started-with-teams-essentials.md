@@ -27,7 +27,7 @@ Microsoft Teams Essentials is a standalone Teams subscription that provides an a
 
 ## Before you continue
 
-Microsoft Teams Essentials is available for purchase through Microsoft's direct website and Microsoft Cloud Partners. For more information about Teams Essentials, see [How does Microsoft Teams Essentials compare to other Microsoft Teams plans?](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans).
+Microsoft Teams Essentials is available for purchase through Microsoft's direct website and Microsoft Cloud Partners. For more information about Teams Essentials, see [How does Microsoft Teams Essentials compare to other Microsoft Teams plans?](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)
 
 Teams Essentials uses Microsoft Entra identity, which asks you to create a new login/identity. You can configure Teams Essentials to connect to your existing email address so you can sign in using your existing email address.
 

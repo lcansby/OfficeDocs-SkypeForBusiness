@@ -150,6 +150,8 @@ Depending on your Power BI Desktop settings, the following pop-up may also appea
 
 :::image type="content" source="media/aa-cq-historical-report-06.png" alt-text="Screenshot showing data privacy screen":::
 
+Select the *Ignore Privacy Levels check*. All the data is coming from the historical report database and there is no undesirable data transfer taking place.
+
 ## Data latency for Auto attendant and Call queue analytics
 
 The data is typically available within 30 minutes of the call being completed, but there are cases where it can take several hours for the data to appear.

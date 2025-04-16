@@ -199,8 +199,8 @@ Currently, document skills includes summarization and question and answer (Q&A).
 
 ## Related articles
 
+- [Frequently asked questions about Facilitator in Microsoft Teams](https://support.microsoft.com/office/frequently-asked-questions-about-facilitator-in-microsoft-teams-f7317b78-fd53-4cfe-88f0-f0a0751a4150)
 - [Keep track of chats with AI notes in Microsoft Teams](https://support.microsoft.com/office/keep-track-of-chats-with-AI-notes-in-Microsoft-Teams-0b7efbd0-fd3e-48e7-9a4b-4ea22cdc12c0)
 - [Automate note-taking in Microsoft Teams meetings](https://support.microsoft.com/office/automate-notetaking-in-Microsoft-Teams-meetings-37657f91-39b5-40eb-9421-45141e3ce9f6)
 - [What is responsible AI?](https://support.microsoft.com/topic/what-is-responsible-ai-33fc14be-15ea-4c2c-903b-aa493f5b8d92)
-- [Frequently asked questions: AI, Microsoft Copilot, and Microsoft Designer](https://support.microsoft.com/topic/frequently-asked-questions-ai-microsoft-copilot-and-microsoft-designer-987b275d-f6f2-4d5d-94c5-e927cffae705)
 - [Providing feedback about Microsoft Copilot with Microsoft 365 apps](https://support.microsoft.com/topic/providing-feedback-about-microsoft-copilot-with-microsoft-365-apps-c481c26a-e01a-4be3-bdd0-aee0b0b2a423?ocid=CopilotLab_SMC_Privacy_Feedback)

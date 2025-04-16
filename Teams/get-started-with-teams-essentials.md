@@ -61,13 +61,7 @@ To do that, complete these three steps:
 
 3. **Plan for adoption.** For small businesses, planning for user adoption can be as simple as individually showing your users how to use Teams. Often, small business customers don't consider this step for new applications, which negatively affects the application's success and adoption.
 
-4. **Manage Microsoft Teams Essentials.** Any Teams (free) users who upgraded to Microsoft Teams Essentials can manage it.
-
-    Managing Microsoft Teams Essentials refers to assigning Microsoft Teams Essentials seats to other users - on whose behalf you purchased - in the intended proportions. You can manage Microsoft Teams Essentials through the Microsoft admin center.
-
-### Upgrade from Teams (free) to Microsoft Teams Essentials
-
-If your organization is using a free version of Microsoft Teams, you can easily upgrade to the Teams Essentials version by purchasing a plan for your users directly in Teams from [Find the right Microsoft Teams for your needs](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options).
+4. **Manage Microsoft Teams Essentials.** Managing Microsoft Teams Essentials refers to assigning Microsoft Teams Essentials seats to other users - on whose behalf you purchased - in the intended proportions. You can manage Microsoft Teams Essentials through the Microsoft admin center.
 
 ### Limitations
 

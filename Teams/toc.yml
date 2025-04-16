@@ -1241,7 +1241,7 @@ items:
     - name: Teams Calling with Teams Premium and Copilot
       items:
         - name: See Intelligent recap for teams calls and meetings
-          href: intelligent-recap-calls-meetings.md
+          href: intelligent-recap-calls-meetings.md#intelligentrecapforteamscallsandmeetings
         - name: Teams Premium licensing
           href: teams-add-on-licensing/licensing-enhance-teams.md
     - name: PSTN connectivity options
@@ -2092,7 +2092,7 @@ items:
         - name: Manage Teams licenses
           href: user-access.md
         - name: See Teams Phone licensing
-          href: teams-phone-licensing.md
+          href: teams-phone-licensing.md#teamsphonelicensing
         - name: Microsoft Teams Premium licensing
           href: teams-add-on-licensing/licensing-enhance-teams.md
         - name: Teams add-on license options

@@ -43,7 +43,8 @@ ms.custom: seo-marvel-apr2020
 
 #### Export app catalog and your allowed apps
 
-1. Start with the Manage Apps page. Export the full list of apps in the catalog as a CSV file, including each app’s allowed/blocked App status.
+1. Start with the Manage Apps page. Export the full list of apps in the catalog as a CSV file, including each app’s allowed/blocked App status. The allow/block status determines whether the app is available to everyone or no one, respectively. This status is used in the following steps to narrow down your users. For more details, see [Export app catalog as CSV](https://learn.microsoft.com/en-us/microsoftteams/manage-apps#export-app-catalog-as-csv).  
+
 1. 
 > :::image type="content" source="media/acm-policy-page.png" alt-text="Screenshot showing the permissions policy change for organizations that are using app centric management.":::
 >

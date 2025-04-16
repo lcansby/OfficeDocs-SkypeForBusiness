@@ -29,14 +29,10 @@ description: Learn about how Facilitator in Microsoft Teams enables group collab
 > [!IMPORTANT]
 > The following Facilitator capabilities are currently in public preview:
 >
-> - AI-generated notes for chats
+> - AI-generated notes for chats and meetings
 > - Document summarization for meetings
 > - Document question and answer (Q&A) for meetings
-> - Question & answer (Q&A) about a meeting chat
-> - Web search for meetings
 > - Moderator for meetings
->
-> AI-generated notes for meetings is now generally available.
 >
 > Features in preview might not be complete and could undergo changes before becoming available in the public release. They're provided for evaluation and exploration purposes only.
 >

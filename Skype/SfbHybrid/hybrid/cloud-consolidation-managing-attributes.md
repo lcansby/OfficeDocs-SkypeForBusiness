@@ -37,13 +37,13 @@ These attributes, in particular sip address (msRTCSIP-PrimaryUserAddress) and ph
 
 However, once the Skype for Business Server deployment has been removed, the Skype for Business Server tools won't be available to manage these attributes.
 
-Without the tools to manage the attribrutes, if changes are required to phone number assignments, administrators can't use the tools to make updates.
+Without the tools to manage the attributes, if changes are required to phone number assignments, administrators can't use the tools to make updates.
 
-There is a multi-phase strategy available to pro-actively handle this situation. Details of the phased approach considerations follow this summary.
+There's a multi-phase strategy available to pro-actively handle this situation. Details of the phased approach considerations follow this summary.
 
 |Phase |Activities |
 |:-----|:-----|
-|1 - Status quo |Keep Active Directory on-prem as the authoritative source for managing phone numbers. </br>Leave users that were enabled for Skype for Business server accounts as is, and manage the msRTCSIP attributes using Active Directory tools. |
+|1 - Status quo |Keep Active Directory on-premises as the authoritative source for managing phone numbers. </br>Leave users that were enabled for Skype for Business server accounts as is, and manage the msRTCSIP attributes using Active Directory tools. |
 |2 - Update administrative operations |Begin managing phone numbers in Teams. |
 |3 - Remove msRTCSIP attributes |Clear all msRTCSIP attributes from migrated users in your on-premises Active Directory and continue administration in Teams. |
 
@@ -52,7 +52,7 @@ There is a multi-phase strategy available to pro-actively handle this situation.
 
 ## Phase 1 - Manage sip addresses and phone numbers for users in Active Directory
 
-This method ensures no loss of service for migrated users, while still maintaining number management operations with on-prem tools and allows you to remove the Skype for Business Server deployment by eliminating (for example, wiping) the servers, without a full decommissioning.
+This method ensures no loss of service for migrated users, while still maintaining number management operations with on-premises tools and allows you to remove the Skype for Business Server deployment by eliminating (for example, wiping) the servers, without a full decommissioning.
 
 > [!NOTE]
 > After user migration to Teams, newly licensed users won't have these attributes populated in your on-premises Active Directory and are managed online.
@@ -72,7 +72,7 @@ If you want to make changes to a user’s sip address or to a user’s phone num
 
 - If the user didn't originally have a value for `msRTCSIP-Line` on-premises before the move, you can modify the phone number using the `-PhoneNumber` parameter in the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) in the Teams PowerShell module.
 
-These steps are not necessary for new users created after you disable hybrid, and those users can be managed directly in the cloud. If you're comfortable using the mix of these methods and with leaving the msRTCSIP attributes in place in your on-premises Active Directory, you can re-image the on-premises Skype for Business servers, and continue with this status quo phase, indefinitely. However, if you prefer to clear all msRTCSIP attributes and do a traditional uninstall of Skype for Business Server, then move to Phase 2.
+These steps aren't necessary for new users created after you disable hybrid, and those users can be managed directly in the cloud. If you're comfortable using the mix of these methods and with leaving the msRTCSIP attributes in place in your on-premises Active Directory, you can reimage the on-premises Skype for Business servers, and continue with this status quo phase, indefinitely. However, if you prefer to clear all msRTCSIP attributes and do a traditional uninstall of Skype for Business Server, then move to Phase 2.
 
 ## Phase 2 - Manage phone numbers in Teams
 
@@ -82,13 +82,13 @@ This designed precedence provides administrators with a seamless migration exper
 
 The seamless migration design is supported between an on-premises deployment to Teams, with any Public Switched Telephone Network (PSTN) connectivity solution, including Microsoft Calling Plan, Operator Connect, and online Direct Routing.
 
-All admin changes related to phone number assignment, that are made in Teams, are honored for online operations.
+All admin changes related to phone number assignments, made in Teams, are honored for online operations.
 
 To evaluate the details of the Directory Sync, see the following table:
 
-|OnPrem Configuration |Online Administrative Operation |Result of future OnPrem Sync |
+|On-premises Configuration |Online Administrative Operation |Result of Future On-premises Sync |
 |:-----|:-----|:-----|
-|User A has "1111" |"1111" is unassigned from User A. </br>"1111" remains unassigned. </br>Number source becomes controlled by Online. |Sync success. User A is reassigned with number 1111. </br>Allowed since  this is assignment operation and 1111 is available/unassigned. </br>Number source changes back to controlled by OnPrem. |
+|User A has "1111" |"1111" is unassigned from User A. </br>"1111" remains unassigned. </br>Number source becomes controlled by Online. |Sync success. User A is reassigned with number 1111. </br>Allowed since  this is assignment operation and 1111 was left unassigned. </br>Number source changes back to being controlled by on-premises. |
 |User A has "1111" |"1111" is assigned to User B. </br> Operation fails due to "1111" is already assigned to user A. |Sync success. No change was made to User A or number 1111. |
 |User A has "1111" |"1234" is assigned to User A. |Sync fails for User A. User A has existing number 1234 assigned. |
 |User A has "1111" |"1111" is unassigned from User A and assigned to User B. </br>Number source becomes controlled by Online. |Sync fails for User A and User B. 1111 has existing user assignment. |
@@ -99,10 +99,10 @@ To evaluate the details of the Directory Sync, see the following table:
 
 This phase achieves a consistent management approach for existing and new users.
 
-This option requires more effort and proper planning because users who were moved from an on-premises Skype for Business Server to the cloud must be re-provisioned. These users can be categorized into two different categories: users without Phone System and users with Phone System. Users with Phone System will experience a temporary loss of phone service as part of transitioning the phone number from being managed in on-premises Active Directory to the cloud. **It's recommended to perform a pilot involving a small number of users with Phone System prior to start bulk user operations.** For large deployments, users can be processed in smaller groups in different time windows.
+This option requires more effort and proper planning because users who were moved from an on-premises Skype for Business Server to the cloud must be reprovisioned. These users can be categorized into two different categories: users without Phone System and users with Phone System. Users with Phone System will experience a temporary loss of phone service as part of transitioning the phone number from being managed in on-premises Active Directory to the cloud. **It's recommended to perform a pilot involving a small number of users with Phone System prior to start bulk user operations.** For large deployments, users can be processed in smaller groups in different time windows.
 
 > [!NOTE] 
-> This process is simplest for users who have a matching sip address and UserPrincipalName. For organizations that have users with non-matching values across these two attributes, extra care must be taken as noted below for a smooth transition.
+> This process is simplest for users who have a matching sip address and UserPrincipalName. For organizations that have users with nonmatching values across these two attributes, extra care must be taken as noted below for a smooth transition.
 
 > [!NOTE]
 > If you have configured on-premises hybrid application endpoints for Auto Attendants or Call Queues, be sure to move these endpoints to Microsoft 365 before decommissioning Skype for Business Server. For details, see [Migrate hybrid application endpoints before decommissioning your on-premises environment](decommission-move-on-prem-endpoints.md).  
@@ -123,7 +123,7 @@ This option requires more effort and proper planning because users who were move
    > [!Important] 
    > Before proceeding open SfbUserSettings.csv file and confirm all user data has been successfully exported. It's recommended to keep a copy of this file.  Do not use this file in the following steps for processing users. 
 
-3. Create a file with a group of users to be used in the following steps. After the first group of users has completed successfully, proceed with the next group of users. In the example below, the groups of users are selected alphabetically. You may filter on users based on criteria that matches how you would like to process the users.
+3. Create a file with a group of users to be used in the following steps. After the first group of users has completed successfully, proceed with the next group of users. In the example below, the groups of users are selected alphabetically. You may filter on users based on criteria that match how you would like to process the users.
 
    ```PowerShell
    Get-CsUser | where userprincipalname -like "abc*" | Select-Object SipAddress, UserPrincipalName, SamAccountName, RegistrarPool, HostingProvider, EnabledForFederation, EnabledForInternetAccess, LineUri, EnterpriseVoiceEnabled, HostedVoiceMail | Sort SipAddress | Export-Csv -Path "c:\data\SfbUsers.csv"

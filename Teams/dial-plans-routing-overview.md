@@ -132,7 +132,7 @@ The unique values of the user's telephone number can have two parts, as follows:
 
 - **Number** - For inbound calls to resolve to users with Microsoft Calling Plan and Operator Connect solutions, the number value is designated as a number in E.164 format. For example, *+14255551212*. For Direct Routing solutions, the number value is designated as a number between 3 and 38 digits without common symbols.
 
-- **Extension** - added to the *number* and separated by the ";ext=" delimiter (case insensitive), between 1 and 12 digits. For example, *+14255551212****;ext=12345***
+- **Extension** - added to the *number* and separated by the ";ext=" delimiter (case insensitive), between 1 and 12 digits. For example, *+14255551212***;ext=12345**
 
 An extension isn't necessary; only a unique number is required for Reverse Number Lookup. If multiple end-users are sharing a single, main number, and a [Teams Shared Calling](shared-calling-plan.md) policy is *not* being used, then a then unique extensions must be assigned to each user. Otherwise, *extensions are neither required or recommended*.
 

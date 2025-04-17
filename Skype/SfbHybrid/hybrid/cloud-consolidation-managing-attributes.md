@@ -72,16 +72,32 @@ If you want to make changes to a user’s sip address or to a user’s phone num
 
 - If the user didn't originally have a value for `msRTCSIP-Line` on-premises before the move, you can modify the phone number using the `-PhoneNumber` parameter in the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) in the Teams PowerShell module.
 
-These steps are not necessary for new users created after you disable hybrid, and those users can be managed directly in the cloud. If you're comfortable using the mix of these methods and with leaving the msRTCSIP attributes in place in your on-premises Active Directory, you can re-image the on-premises Skype for Business servers. However, if you prefer to clear all msRTCSIP attributes and do a traditional uninstall of Skype for Business Server, then move to Phase 2.
+These steps are not necessary for new users created after you disable hybrid, and those users can be managed directly in the cloud. If you're comfortable using the mix of these methods and with leaving the msRTCSIP attributes in place in your on-premises Active Directory, you can re-image the on-premises Skype for Business servers, and continue with this status quo phase, indefinitely. However, if you prefer to clear all msRTCSIP attributes and do a traditional uninstall of Skype for Business Server, then move to Phase 2.
 
 ## Phase 2 - Manage phone numbers in Teams
 
-As administration tasks are performed on a phone number in Teams, *the online service configuration takes precedence over the on-premises Active Directory configuration*.
+As administration tasks are performed on phone numbers in Teams, *the online service configuration for those numbers takes precedence over the on-premises Active Directory configuration*.
+
+This designed precedence provides administrators with a seamless migration experience, requiring no action other than to manage the numbers in Teams.
+
+The seamless migration design is supported between an on-premises deployment to Teams, with any Public Switched Telephone Network (PSTN) connectivity solution, including Microsoft Calling Plan, Operator Connect, and online Direct Routing.
+
+All admin changes related to phone number assignment, that are made in Teams, are honored for online operations.
+
+To evaluate the details of the Directory Sync, see the following table:
+
+|OnPrem Configuration |Online Administrative Operation |Result of future OnPrem Sync |
+|:-----|:-----|:-----|
+|User A has "1111" |"1111" is unassigned from User A. </br>"1111" remains unassigned. </br>Number source becomes controlled by Online. |Sync success. User A is reassigned with number 1111. </br>Allowed since  this is assignment operation and 1111 is available/unassigned. </br>Number source changes back to controlled by OnPrem. |
+|User A has "1111" |"1111" is assigned to User B. </br> Operation fails due to "1111" is already assigned to user A. |Sync success. No change was made to User A or number 1111. |
+|User A has "1111" |"1234" is assigned to User A. |Sync fails for User A. User A has existing number 1234 assigned. |
+|User A has "1111" |"1111" is unassigned from User A and assigned to User B. </br>Number source becomes controlled by Online. |Sync fails for User A and User B. 1111 has existing user assignment. |
+|User A has "1111" |"1111" is uploaded to DR inventory. </br>Number source becomes controlled by Online. |Sync fails for User A. 1111 has existing user assignment and DR Online number. |
+|User A has "1111" </br>"2222" is unassigned and a DR Online number |"2222" is assigned to User A. </br>"1111" remains unassigned. |Sync fails for User A. User A already has number assigned. |
 
 ## Phase 3 - Clear Skype for Business attributes for all on-premises users in Active Directory
 
-This method allows for a consistent management approach for existing and new users.
-
+This phase achieves a consistent management approach for existing and new users.
 
 This option requires more effort and proper planning because users who were moved from an on-premises Skype for Business Server to the cloud must be re-provisioned. These users can be categorized into two different categories: users without Phone System and users with Phone System. Users with Phone System will experience a temporary loss of phone service as part of transitioning the phone number from being managed in on-premises Active Directory to the cloud. **It's recommended to perform a pilot involving a small number of users with Phone System prior to start bulk user operations.** For large deployments, users can be processed in smaller groups in different time windows.
 

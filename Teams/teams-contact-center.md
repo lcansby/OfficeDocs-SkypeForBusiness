@@ -41,7 +41,7 @@ The contact center for Microsoft Teams certification program verifies that each 
 
 If you're an organization looking for a certified contact center solution to use with Teams, see [Certified Microsoft Teams solutions for contact centers](https://cloudpartners.transform.microsoft.com/contact-center-solutions).
 
-For a list of providers in the process of certification, see [Connected Contact Center solutions](#connected-contact-center-solutions).
+For a list of providers in the process of certification, see [Certified Contact Center solutions](#certified-contact-center-solutions).
 
 ## Next steps
 

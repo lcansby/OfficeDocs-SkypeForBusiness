@@ -57,38 +57,37 @@ The following providers offer contact center solutions that are integrated into 
 
 ![Certified Badge.](media/English_Solution_Certified_Teams_badge_noBkgrd_GrayText_RGB_500px.png)
 
-|Solution Provider |Solution website |Unify |Connect |Extend | 
+|Solution Provider |Solution website |Unify |Extend |Connect |
 |:-----|:-----|:-----|:-----|:-----|
-| `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams | | | |
-| `Anywhere365` | https://www.anywhere.now/ | | | |
-| `Audiocodes` | https://www.audiocodes.com/solutions-products/voiceai/voca-conversational-interaction-center | | | |
-| `Avaya` | https://www.avaya.com/en/enterprise-cloud/ | | | |
-| `Bright Pattern` | https://www.brightpattern.com/ | | | |
-| `CentrePal` | https://www.centrepal.com/ | | | |
-| `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ | | | |
-| `Cisco` | https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html | | | |
-| `Competella` | https://www.competella.com/microsoft-teams-skype-for-business | | | |
-| `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams | | | |
-| `ContactCenter4All` | www.contactcenter4all.com | | | |
-| `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/ | | | |
-| `Enghouse Interactive` | http://www.enghouseteams.com/ | | | |
-| `Five9` | https://www.five9.com/products/application-integration/uc-integration | | | |
-| `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams | | | |
-| `Heedify` | https://heedify.io/call-center/ | | | |
-| `Imagicle` | https://www.imagicle.com/en/integration/microsoft-teams/ | | | |
-| `Intermedia` | https://www.intermedia.com/integration/contact-center-for-microsoft-teams | | | |
-| `IPDynamics` | https://www.ipdynamics.de/ | | | |
-| `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/ | | | |
-| `Luware` | https://luware.com/ | | | |
-| `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/ | | | |
-| `Netcall` | https://www.netcall.com/platform/contact-centre/ | | | |
-| `NICE inContact` | https://www.niceincontact.com/microsoft-teams | | | |
-| `Puzzel` | https://www.puzzel.com/ | | | |
-| `ROGER365.io` | https://www.roger365.io/contact-center-teams | | | |
-| `Sikom` | https://sikom.cx/microsoft-teams-en | | | |
-| `Solgari` | https://solgari.com/ | | | |
-| `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/ | | | |
-| `Tendfor` | https://www.tendfor.com | | | |
+| `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams | | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `Anywhere365` | https://www.anywhere.now/ | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `Audiocodes` | https://www.audiocodes.com/solutions-products/voiceai/voca-conversational-interaction-center | | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `Avaya` | https://www.avaya.com/en/enterprise-cloud/ | | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `Bright Pattern` | https://www.brightpattern.com/ | | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `CentrePal` | https://www.centrepal.com/ | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) | |
+| `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ | | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `Cisco` | https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html | | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `ContactCenter4All` | www.contactcenter4all.com | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) | |
+| `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/ | | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `Enghouse Interactive` | http://www.enghouseteams.com/ | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `Five9` | https://www.five9.com/products/application-integration/uc-integration | | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams | | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `Heedify` | https://heedify.io/call-center/ | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) | |
+| `Imagicle` | https://www.imagicle.com/en/integration/microsoft-teams/ | | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `Intermedia` | https://www.intermedia.com/integration/contact-center-for-microsoft-teams | | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `IPDynamics` | https://www.ipdynamics.de/ | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) | |
+| `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/ | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) | |
+| `Luware` | https://luware.com/ | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) | |
+| `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/ | | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `Netcall` | https://www.netcall.com/platform/contact-centre/ | | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `NICE inContact` | https://www.niceincontact.com/microsoft-teams | | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `Puzzel` | https://www.puzzel.com/ | | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `ROGER365.io` | https://www.roger365.io/contact-center-teams | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) | |
+| `Sikom` | https://sikom.cx/microsoft-teams-en | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `Solgari` | https://solgari.com/ | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) | |
+| `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/ | | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| `Tendfor` | https://www.tendfor.com | |![Image of a checkmark for yes](/office/media/icons/success-teams.png) | |
 
 ### Solutions currently in the certification process
 

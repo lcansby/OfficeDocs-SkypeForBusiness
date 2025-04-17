@@ -12,7 +12,7 @@ As a contact center solution provider, there are three integration models to cho
 
 
 
-### [**The Unify integration model**](#tab/unify)
+### [**Unify integration model**](#tab/unify)
 
 The Unify integration model enables solution providers to develop native Azure Communication Service-based CCaaS applications using Teams calling infrastructure.
 
@@ -25,7 +25,7 @@ The Unify integration model extends Teams Phone system capabilities into CCaaS w
 - OpenAI
 - Other Microsoft tools
 
-### [**The Extend integration model**](#tab/extend)
+### [**Extend integration model**](#tab/extend)
 
 The Extend integration model integrates with the Teams client using the [Teams client platform](/microsoftteams/platform/overview), [Teams Graph APIs](/graph/api/resources/teams-api-overview) and [Cloud Communications API in Microsoft Graph](/graph/api/resources/communications-api-overview). The Extend integration model also uses the Teams Phone system for all contact center calls and call control experiences, and the contact center solution provider acts as a telephony carrier alongside Microsoft 365.
 
@@ -53,7 +53,7 @@ While these features aren't a comprehensive list of feature capabilities for thi
 
 - Preserve performance and quality of Teams client experiences in all apps
 
-### [**The Connect integration model**](#tab/connect)
+### [**Connect integration model**](#tab/connect)
 
 The Connect integration model uses Microsoft certified SBCs and Direct Routing to connect contact center solutions to Teams Phone system infrastructure, enabling enhanced routing, configuration, and system insights.
 

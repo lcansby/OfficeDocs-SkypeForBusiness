@@ -99,7 +99,7 @@ To learn more about creating outbound translation rules and assigning to SBCs, r
 
 Routing an inbound phone call to a Teams user uses a process called [Reverse Number Lookup (RNL)](#number-lookup). Instead of referencing a Teams user's contact name to look up their number, RNL looks in your directory for the dialed number-string of a call, finds the user or resource account in your tenant that is assigned with the same number-string, and sets up the incoming call with that user or resource.
 
-If the Direct Routing SBC providing the inbound call's number-string isn't offering a format matching to the number-string standardized for your Teams user and resource accounts, you can apply a route-based number translation rule to the SBC's voice route and normalize the inbound, called number into your expected format.
+In a Direct Routing deployment you could have a scenario where there's no digit translation rules configured in the SBC, and the SBC is just passing through the dialed number-string received from the PSTN. If the inbound call's number-string isn't offering a format matching to the standardized number-string assigned to your Teams user and resource accounts, you can use Teams to apply a route-based, inbound-number translation rule to the SBC's configuration profile and translate the inbound, called number into your expected number-string format.
 
 To learn more about creating inbound translation rules and assigning to SBCs, refer to Direct Routing [Step 4: Translate phone numbers](direct-routing-translate-numbers.md).
 

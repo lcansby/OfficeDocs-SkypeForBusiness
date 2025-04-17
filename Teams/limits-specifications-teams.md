@@ -159,7 +159,7 @@ For more information, see [Meetings, webinars, and live events](/microsoftteams/
 ### Meeting expiration
 
 > [!NOTE]
-> A meeting URL doesn't expire. The expiration only applies to PSTN dial-in numbers, CVI coordinates, and underlying meeting policies and settings.
+> The expiration applies to PSTN dial-in numbers, CVI coordinates, and underlying meeting policies and settings.
 
 When a meeting is joined or edited/updated before its expiration limit, an additional 60 days is added to the expiration limit (except for Meet now meetings).
 
@@ -173,7 +173,7 @@ When a meeting is joined or edited/updated before its expiration limit, an addit
 |Recurrent meeting with no end date   |1 year after the last access, joined or meeting updated |
 
 > [!NOTE]
-> Microsoft Teams meetings have a time limit of 30 hours.
+> Microsoft Teams meetings, webinars, and town halls have a time limit of 30 hours.
 
 ## Live Events
   

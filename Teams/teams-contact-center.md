@@ -41,7 +41,7 @@ The contact center for Microsoft Teams certification program verifies that each 
 
 If you're an organization looking for a certified contact center solution to use with Teams, see [Certified Microsoft Teams solutions for contact centers](https://cloudpartners.transform.microsoft.com/contact-center-solutions).
 
-For a list of providers in the process of certifidcation, see [Connected Contact Center solutions](#connected-contact-center-solutions).
+For a list of providers in the process of certification, see [Connected Contact Center solutions](#connected-contact-center-solutions).
 
 ## Next steps
 
@@ -51,49 +51,44 @@ If you're a vendor seeking to join the certification program, fill out the calli
 
 If you need to provide other context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
 
-## Connected contact center solutions
+## Certified contact center solutions
 
-The following providers offer contact center solutions that are integrated into Teams using one of the Power, Connect, or Extend programs.
-
-### Certified solutions
+The following providers offer contact center solutions that are integrated into Teams using one of the Unify, Connect, or Extend integration models.
 
 ![Certified Badge.](media/English_Solution_Certified_Teams_badge_noBkgrd_GrayText_RGB_500px.png)
 
-|  Solution Provider                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams                                                    |
-| `Anywhere365` | https://www.anywhere.now/                                      |
-| `Audiocodes` | https://www.audiocodes.com/solutions-products/voiceai/voca-conversational-interaction-center                                   |
-| `Avaya` | https://www.avaya.com/en/enterprise-cloud/                           |
-| `Bright Pattern` | https://www.brightpattern.com/                              |
-| `CentrePal` | https://www.centrepal.com/                                 |
-| `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
-| `Cisco` | https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html                                |
-| `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
-| `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
-| `ContactCenter4All` | www.contactcenter4all.com |
-| `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
-| `Enghouse Interactive` | http://www.enghouseteams.com/         |
-| `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
-| `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
-| `Heedify` | https://heedify.io/call-center/                                                 |
-| `Imagicle` | https://www.imagicle.com/en/integration/microsoft-teams/                                                                                        |
-| `Intermedia` | https://www.intermedia.com/integration/contact-center-for-microsoft-teams                       |
-| `IPDynamics` | https://www.ipdynamics.de/ |
-| `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
-| `Luware` | https://luware.com/                                                                                       |
-| `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
-| `Netcall` | https://www.netcall.com/platform/contact-centre/  |
-| `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
-| `Puzzel` | https://www.puzzel.com/                            |
-| `ROGER365.io` | https://www.roger365.io/contact-center-teams                         |
-| `Sikom` | https://sikom.cx/microsoft-teams-en                            |
-| `Solgari` | https://solgari.com/                       |
-| `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
-| `Tendfor` | https://www.tendfor.com                                                            |
-
-
-
+|Solution Provider |Solution website |Unify |Connect |Extend | 
+|:-----|:-----|:-----|:-----|:-----|
+| `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams | | | |
+| `Anywhere365` | https://www.anywhere.now/ | | | |
+| `Audiocodes` | https://www.audiocodes.com/solutions-products/voiceai/voca-conversational-interaction-center | | | |
+| `Avaya` | https://www.avaya.com/en/enterprise-cloud/ | | | |
+| `Bright Pattern` | https://www.brightpattern.com/ | | | |
+| `CentrePal` | https://www.centrepal.com/ | | | |
+| `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ | | | |
+| `Cisco` | https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html | | | |
+| `Competella` | https://www.competella.com/microsoft-teams-skype-for-business | | | |
+| `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams | | | |
+| `ContactCenter4All` | www.contactcenter4all.com | | | |
+| `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/ | | | |
+| `Enghouse Interactive` | http://www.enghouseteams.com/ | | | |
+| `Five9` | https://www.five9.com/products/application-integration/uc-integration | | | |
+| `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams | | | |
+| `Heedify` | https://heedify.io/call-center/ | | | |
+| `Imagicle` | https://www.imagicle.com/en/integration/microsoft-teams/ | | | |
+| `Intermedia` | https://www.intermedia.com/integration/contact-center-for-microsoft-teams | | | |
+| `IPDynamics` | https://www.ipdynamics.de/ | | | |
+| `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/ | | | |
+| `Luware` | https://luware.com/ | | | |
+| `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/ | | | |
+| `Netcall` | https://www.netcall.com/platform/contact-centre/ | | | |
+| `NICE inContact` | https://www.niceincontact.com/microsoft-teams | | | |
+| `Puzzel` | https://www.puzzel.com/ | | | |
+| `ROGER365.io` | https://www.roger365.io/contact-center-teams | | | |
+| `Sikom` | https://sikom.cx/microsoft-teams-en | | | |
+| `Solgari` | https://solgari.com/ | | | |
+| `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/ | | | |
+| `Tendfor` | https://www.tendfor.com | | | |
 
 ### Solutions currently in the certification process
 

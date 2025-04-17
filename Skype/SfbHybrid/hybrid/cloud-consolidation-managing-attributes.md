@@ -29,19 +29,35 @@ description: "This article describes how to manage attributes after decommission
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
+This article addresses the Skype for Business Server attributes that remain in your on-premises Active Directory after user migration, and also explains the topic of where phone numbers get managed.
+
 By default, all users that were enabled for Skype for Business Server and then moved to the cloud still have msRTCSIP attributes configured in your on-premises Active Directory.
 
-These attributes, in particular sip address (msRTCSIP-PrimaryUserAddress) and phone number (msRTCSIP-Line), continue to sync into Microsoft Entra ID. If changes are required to any of the msRTCSIP attributes, these changes must be made in the on-premises Active Directory and then sync'd to Microsoft Entra ID. However, once the Skype for Business Server deployment has been removed, the Skype for Business Server tools won't be available to manage these attributes.
+These attributes, in particular sip address (msRTCSIP-PrimaryUserAddress) and phone number (msRTCSIP-Line), continue to sync from the on-premises Active Directory into Microsoft Entra ID.
 
-There are two options available for handling this situation:
+However, once the Skype for Business Server deployment has been removed, the Skype for Business Server tools won't be available to manage these attributes.
 
-1. Leave users that were enabled for Skype for Business server accounts as is, and manage the msRTCSIP attributes using Active Directory tools. This method ensures no loss of service for migrated users, and allows you to remove the Skype for Business Server deployment by eliminating (for example, wiping) the servers, without a full decommissioning. However, newly licensed users won't have these attributes populated in your on-premises Active Directory and will need to be managed online.
+Without the tools to manage the attribrutes, if changes are required to phone number assignments, administrators can't use the tools to make updates.
 
-2. Clear all msRTCSIP attributes from migrated users in your on-premises Active Directory and manage these attributes using online tools. This method allows for a consistent management approach for existing and new users. However, it may result in a temporary loss of service during the on-premises decommissioning process.
+There is a multi-phase strategy available to pro-actively handle this situation. Details of the phased approach considerations follow this summary.
 
-## Method 1 - Manage sip addresses and phone numbers for users in Active Directory
+|Phase |Activities |
+|:-----|:-----|
+|1 - Status quo |Keep Active Directory on-prem as the authoritative source for managing phone numbers. </br>Leave users that were enabled for Skype for Business server accounts as is, and manage the msRTCSIP attributes using Active Directory tools. |
+|2 - Update administrative operations |Begin managing phone numbers in Teams. |
+|3 - Remove msRTCSIP attributes |Clear all msRTCSIP attributes from migrated users in your on-premises Active Directory and continue administration in Teams. |
 
-Administrators can manage users who were moved from an on-premises Skype for Business Server to the cloud, even after the on-premises deployment is decommissioned. 
+> [!NOTE]
+> If you start the third phase and clear msRTCSIP attributes without *completing* the second phase for all phone numbers, it may result in a temporary loss of service during the on-premises decommissioning process.
+
+## Phase 1 - Manage sip addresses and phone numbers for users in Active Directory
+
+This method ensures no loss of service for migrated users, while still maintaining number management operations with on-prem tools and allows you to remove the Skype for Business Server deployment by eliminating (for example, wiping) the servers, without a full decommissioning.
+
+> [!NOTE]
+> After user migration to Teams, newly licensed users won't have these attributes populated in your on-premises Active Directory and are managed online.
+
+Administrators can manage users who were moved from an on-premises Skype for Business Server to the cloud, even after the on-premises deployment is decommissioned.
 
 If you want to make changes to a user’s sip address or to a user’s phone number (and the sip address or phone number already has a value in the on-premises Active Directory), you must make the change in the on-premises Active Directory and let the value(s) flow up to Microsoft Entra ID. This method does NOT require on-premises Skype for Business Server. Rather, you can modify these attributes directly in the on-premises Active Directory, using either the Active Directory Users and Computers MMC snap-in (as shown below), or by using PowerShell. If you're using the MMC snap-in, open the properties page of the user, click Attribute Editor tab, and find the appropriate attributes to modify:
 
@@ -56,11 +72,18 @@ If you want to make changes to a user’s sip address or to a user’s phone num
 
 - If the user didn't originally have a value for `msRTCSIP-Line` on-premises before the move, you can modify the phone number using the `-PhoneNumber` parameter in the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) in the Teams PowerShell module.
 
-These steps are not necessary for new users created after you disable hybrid, and those users can be managed directly in the cloud. If you're comfortable using the mix of these methods and with leaving the msRTCSIP attributes in place in your on-premises Active Directory, you can re-image the on-premises Skype for Business servers. However, if you prefer to clear all msRTCSIP attributes and do a traditional uninstall of Skype for Business Server, then use Method 2.
+These steps are not necessary for new users created after you disable hybrid, and those users can be managed directly in the cloud. If you're comfortable using the mix of these methods and with leaving the msRTCSIP attributes in place in your on-premises Active Directory, you can re-image the on-premises Skype for Business servers. However, if you prefer to clear all msRTCSIP attributes and do a traditional uninstall of Skype for Business Server, then move to Phase 2.
 
-## Method 2 - Clear Skype for Business attributes for all on-premises users in Active Directory
+## Phase 2 - Manage phone numbers in Teams
 
-This option requires more effort and proper planning because users who were moved from an on-premises Skype for Business Server to the cloud must be re-provisioned. These users can be categorized into two different categories: users without Phone System and users with Phone System. Users with Phone System will experience a temporary loss of phone service as part of transitioning the phone number from being managed in on-premises Active Directory to the cloud. **It's recommended to perform a pilot involving a small number of users with Phone System prior to start bulk user operations.** For large deployments, users can be processed in smaller groups in different time windows. 
+As administration tasks are performed on a phone number in Teams, *the online service configuration takes precedence over the on-premises Active Directory configuration*.
+
+## Phase 3 - Clear Skype for Business attributes for all on-premises users in Active Directory
+
+This method allows for a consistent management approach for existing and new users.
+
+
+This option requires more effort and proper planning because users who were moved from an on-premises Skype for Business Server to the cloud must be re-provisioned. These users can be categorized into two different categories: users without Phone System and users with Phone System. Users with Phone System will experience a temporary loss of phone service as part of transitioning the phone number from being managed in on-premises Active Directory to the cloud. **It's recommended to perform a pilot involving a small number of users with Phone System prior to start bulk user operations.** For large deployments, users can be processed in smaller groups in different time windows.
 
 > [!NOTE] 
 > This process is simplest for users who have a matching sip address and UserPrincipalName. For organizations that have users with non-matching values across these two attributes, extra care must be taken as noted below for a smooth transition.

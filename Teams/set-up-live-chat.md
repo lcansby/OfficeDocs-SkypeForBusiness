@@ -23,8 +23,9 @@ appliesto:
 
 Live chat allows your website's visitors to chat easily with your business through a chat widget on your customer-facing website. Visitors submit queries to your website’s chat, connecting them directly to your support team in Teams.
 
-This article teaches you how to set up and manage the live chat widget for Microsoft Teams. 
-Live chat is currently available in the US only with worldwide availability in Q2 of 2025. Note: This post will be updated with the geo list, as the feature becomes available. 
+This article teaches you how to set up and manage the live chat widget for Microsoft Teams.
+
+Live chat is currently available in the US only with worldwide availability in Q2 of 2025. This post will be updated with the country and region availability list as the feature becomes available. 
 
 ## Requirements and limitations for live chat
 
@@ -74,16 +75,16 @@ The Live chat widget is now added to your website and ready for customers to use
 
 ## Add an AI chatbot to your live chat experience
 
-For tenants with a Microsoft Copilot Studio license, you will be able to add a AI chatbot to your live chat widget to answer frequest customer questions, before being connected to your support team. Learn more about Copilot Studio: https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio
+For tenants with a Microsoft Copilot Studio license, you can add an AI chatbot to your live chat widget to answer frequently asked customer questions before customers are connected to your support team. Learn more about Copilot Studio at [Microsoft Copilot Studio](https://www.microsoft.com/microsoft-copilot/microsoft-copilot-studio).
 
-1. Go to **Teams Admin App** in Teams
-2. Select **Live chat** in the left rail **Admin** app menu
-3. Select **Set-up** on the suggestion **Save time with AI-generated responses** to set-up the chatbot. Note that this suggestion will only be available to the Admin, if they have a Microsoft Copilot Stuidio license.
-4. Add your company's public website and click **Add AI agent**
+1. Go to **Teams Admin App** in Teams.
+1. Select **Live chat** in the left rail **Admin** app menu.
+1. Select **Set up** on the suggestion **Save time with AI-generated responses** to set up the chatbot. This suggestion is only available to the admin if they have a Microsoft Copilot Stuidio license. In this step, add users to be assigned customer requests.
+1. Add your company's public website and select **Add AI agent**.
 
-The AI chatbot is now added to your live chat widget on your website. The AI chatbot will answer your customer's questions based on information available in your website. If no answer found or if the website visitor wants to talk to a human agent, you will get a Teams customer request (same experience as live chat)
-1. When a customer on the website asks a question, Teams creates a request and automatically assigns it to the next available customer service member. In this step, add users to be assigned customer requests.
-    1
+The AI chatbot is now added to your live chat widget on your website. The AI chatbot answers your customer's questions based on information available in your website. If no answer is found or if the website visitor wants to talk to a human agent, a Teams customer request is sent to your support team (same experience as live chat).
+
+- When a customer on the website asks a question, Teams creates a request and automatically assigns it to the next available customer service member.
 
 ## What your customers and support people experience
 

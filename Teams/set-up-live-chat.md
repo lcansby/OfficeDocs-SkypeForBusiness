@@ -79,7 +79,7 @@ For tenants with a Microsoft Copilot Studio license, you can add an AI chatbot t
 
 1. Go to **Teams Admin App** in Teams.
 1. Select **Live chat** in the left rail **Admin** app menu.
-1. Select **Set up** on the suggestion **Save time with AI-generated responses** to set up the chatbot. This suggestion is only available to the admin if they have a Microsoft Copilot Stuidio license. In this step, add users to be assigned customer requests.
+1. Select **Set up** on the suggestion **Save time with AI-generated responses** to set up the chatbot. This suggestion is only available to the admin if they have a Microsoft Copilot Studio license. In this step, add users to be assigned customer requests.
 1. Add your company's public website and select **Add AI agent**.
 
 The AI chatbot is now added to your live chat widget on your website. The AI chatbot answers your customer's questions based on information available in your website. If no answer is found or if the website visitor wants to talk to a human agent, a Teams customer request is sent to your support team (same experience as live chat).

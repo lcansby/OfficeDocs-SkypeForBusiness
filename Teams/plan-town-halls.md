@@ -72,7 +72,7 @@ When managing the event access type for town halls to decide whether organizers 
 
 - External attendees can only join a town hall if the organizer sets the event to public.
 - Guests are considered in-org.
-- Attendees who aren't in your org (including anonymous and external access users) can't join in-org town halls.
+- Attendees who aren't in your organization (including anonymous and external access users) can't join in-org town halls.
 
 ## Monitor town halls in your organization
 
@@ -133,8 +133,8 @@ If you've been using live events for your organization, you might want to unders
 |Live translated captions|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|Six languages|10 languages|
 |Manage the types of events your organizers can create|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Manage what attendees see|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|Manage whether events in your org can be recorded|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|Manage whether events in your org can be transcribed|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Manage whether events in your organization can be recorded|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Manage whether events in your organization can be transcribed|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Microsoft Teams Rooms (Windows) support for presenters and attendees|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Microsoft town hall insights|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Modern group support|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|

@@ -7,6 +7,7 @@ ms.reviewer: colongma
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-calling
 audience: admin
 ms.date: 1/29/2025
 ms.collection: 
@@ -169,16 +170,16 @@ Notes
 
 Agent monitor mode values:
 
-- Off (default) - The authorized user is not able to monitor an agent.
-- Monitor - The authorized user is able to monitor (listen only) an agent and listen to their call queue calls
-- Whisper - The authorized user is able to monitor and whisper to an agent on a call queue call. Only the agent hears what the authorized user says.
-- Barge - The authorized user is able to monitor, whisper, and barge into an agent's call queue call
-- Takeover - The authorized user is able to monitor, whisper, barge into, and take over an agent's call queue call
+- **Off** (default) - The authorized user can't monitor an agent.
+- **Monitor** - The authorized user can monitor (listen only) an agent and listen to their call queue calls.
+- **Whisper** - The authorized user can monitor and whisper to an agent on a call queue call. Only the agent hears what the authorized user says.
+- **Barge** - The authorized user can monitor, whisper, and barge into an agent's call queue call.
+- **Takeover** - The authorized user can monitor, whisper, barge into, and take over an agent's call queue call.
 
 Agent monitor notification mode values:
 
-- Off (default) - The agent isn't notified that they're being monitored
-- Agent - The agent is notified they're being monitored
+- **Off** (default) - The agent isn't notified that they're being monitored.
+- **Agent** - The agent is notified that they're being monitored.
 
 Notes
 

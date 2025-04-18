@@ -165,8 +165,8 @@ Notes
 |Teams voice applications policy setting|Description                                                      |PowerShell parameter     |Teams Premium required<sup>1</sup>|
 |--------------------------------|------------------------------------------------------------------------|--------------------------------------|---------------------|
 |Opt agent in/out of queue       |This setting allows authorized users to change an agent's opt-in status.|AllowCallQueueAgentOptChange          |Yes                  | 
-|Agent monitor mode              |This setting allows authorized users to monitor an agent's call queue calls.           |CallQueueAgentMonitorMode                    |Yes      |
-|Agent monitor notification mode |This setting controls if agents are notified that they are being monitored        |CallQueueAgentMonitorNotificationMode        |Yes      |
+|Agent monitor mode              |This setting allows authorized users to monitor an agent's call queue calls.<sup>2</sup>           |CallQueueAgentMonitorMode                    |Yes      |
+|Agent monitor notification mode |This setting controls if agents are notified that they are being monitored.        |CallQueueAgentMonitorNotificationMode        |Yes      |
 
 Agent monitor mode values:
 
@@ -184,6 +184,7 @@ Agent monitor notification mode values:
 Notes
 
 1. The authorized user requires a Teams Premium license and Queues app to access this functionality.
+1. The call queue assigned an authorized user must have **Conference mode** enabled under *Call answering*. Under *Agent selection*, you must enabled **Presence-based** routing.
    
 ### Call queues - Reporting
 

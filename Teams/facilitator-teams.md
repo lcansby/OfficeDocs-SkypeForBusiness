@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: jtremper
 ms.reviewer: solomon.alex, grace.culver
-ms.date: 03/05/2025
+ms.date: 04/23/2025
 ms.topic: install-set-up-deploy
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -30,8 +30,6 @@ description: Learn about how Facilitator in Microsoft Teams enables group collab
 > The following Facilitator capabilities are currently in public preview:
 >
 > - AI-generated notes for chats and meetings
-> - Document summarization for meetings
-> - Document question and answer (Q&A) for meetings
 > - Moderator for meetings
 >
 > Features in preview might not be complete and could undergo changes before becoming available in the public release. They're provided for evaluation and exploration purposes only.
@@ -85,14 +83,14 @@ The following list contains the prerequisites for users to be able to access Fac
 - Have an eligible *Microsoft Teams* license.
   - Teams licenses might be included in your *Microsoft 365* subscription. If you have *Microsoft 365 (no Teams)* licenses, you need to purchase separate Teams licenses.
 - Have a *Microsoft 365 Copilot* license.
-  - For information on how to acquire *Microsoft 365 Copilot* licenses, see [Where can I get Microsoft Copilot?](https://support.microsoft.com/topic/where-can-i-get-microsoft-copilot-40a622db-6d25-4266-b008-4bbcb55cf52f)
+  - For information on how to acquire *Microsoft 365 Copilot* licenses, see [Where can I get Microsoft Copilot?](https://support.microsoft.com/topic/where-can-i-get-microsoft-copilot-40a622db-6d25-4266-b008-4bbcb55cf52f).
 
 ### User requirements
 
 - Be a Microsoft Teams Public preview participant.
   - For information on how to access Teams Public preview features, see [Microsoft Teams Public preview](/microsoftteams/public-preview-doc-updates).
 - [Have Loop experiences in Teams for Facilitator in meetings turned on](#3-turn-on-loop-experiences-in-teams-for-facilitator-in-meetings).
-- Have transcription enabled and keep it on for Facilitator in meetings.
+- Have transcription enabled, and keep it on for Facilitator in meetings.
 
 ## Facilitator data storage
 
@@ -141,7 +139,7 @@ If there are certain Facilitator skills you would like to manage for your users,
 
 ### Turn off AI-generated notes for chats
 
-AI-generated notes for chats is turned on by default.
+AI-generated notes for chats are turned on by default.
 
 You can turn off Facilitator's ability to take notes in chats by completing the following steps.
 
@@ -155,19 +153,11 @@ You can also use PowerShell to manage the `MessagingNotes` setting with the [`Se
 
 ### Turn off AI-generated notes for meetings
 
-*Loop experiences in Teams* control AI-generated notes for meetings, which is enabled by default.
+*Loop experiences in Teams* control AI-generated notes for meetings, which are enabled by default.
 
 You can manage this control using the `IsCollabMeetingNotesFluidEnabled` setting in PowerShell. This setting applies to your entire tenant and can't be configured at the user level. This means that if you disable this setting, AI-generated notes for meetings is turned off for all users in your organization.
 
 For instructions on managing this setting, see [Settings management for Loop functionality in Teams](/microsoft-365/loop/loop-components-configuration#settings-management-for-loop-functionality-in-teams).
-
-### Block web search for Facilitator
-
-For users to ask Facilitator questions grounded in web search information, ensure **Allow the use of additional optional connected experiences in Office** and **Allow web search in Copilot** settings are enabled.
-
-The **Allow the use of additional optional connected experiences in Office** setting enables Microsoft services to connect with one another, including connecting to Bing. This setting is controlled by the [Cloud Policy service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy). For more information about how to manage the optional connected experiences setting, see [Configure the policy setting by using Cloud Policy](/microsoft-365-apps/privacy/office-web-privacy-controls#configure-the-policy-setting-by-using-cloud-policy).
-
-The **Allow web search in Copilot** setting controls users' access to web search information in their Copilot experiences. For more information, see [Controls available to manage web search](/copilot/microsoft-365/manage-public-web-access#controls-available-to-manage-web-search).
 
 ## Facilitator limitations
 
@@ -181,19 +171,11 @@ Facilitator currently has the following limitations:
 - Retention labels aren't supported for cloud attachments in AI-generated notes.
 - Facilitator only supports the languages listed at [Supported languages for Microsoft Copilot](https://support.microsoft.com/office/supported-languages-for-microsoft-copilot-94518d61-644b-4118-9492-617eea4801d8).
 
-### Document skills limitations
-
-Currently, document skills includes summarization and question and answer (Q&A).
-
-- Document skills only support Word, PowerPoint, and PDF files.
-- Document skills are only triggered if everyone in the chat has permission to the document.
-- Document skills are limited to chats with 30 people or less. If there are more than 30 people in the chat, document skills aren't available.
-
 ### Facilitator for meetings limitations
 
-- Facilitator's AI-generated notes for meeting aren't automatically collected as cloud attachments in [Microsoft Preview eDiscovery](/purview/ediscovery-cloud-attachments) because it isn't currently supported.
-- When a user turns on AI-generated notes during a meeting, they are prompted to select the language participants are speaking during the meeting. The language selected must match the spoken language during the meeting, or notes aren't generated.
-- Currently, AI-generated notes for meetings only supports meetings where a single language is spoken. If multiple languages are spoken during the meeting, notes are only taken for the portions of the meeting that are spoken in the selected meeting language.
+- Facilitator's AI-generated notes for meetings aren't automatically collected as cloud attachments in [Microsoft Preview eDiscovery](/purview/ediscovery-cloud-attachments) because it isn't currently supported.
+- When a user turns on AI-generated notes during a meeting, they're prompted to select the language participants are speaking during the meeting. The language selected must match the spoken language during the meeting, or notes aren't generated.
+- Currently, AI-generated notes for meetings only support meetings where a single language is spoken. If multiple languages are spoken during the meeting, notes are only taken for the portions of the meeting that are spoken in the selected meeting language.
 - Meeting settings like [Prevent copy and paste](manage-chat-sensitive-meetings.md#prevent-copying-or-forwarding-chat-captions-and-transcripts) and [Watermarks](watermark-meeting-content-video.md) aren't applied to Facilitator's responses or AI-generated notes in meetings.
 - AI-generated notes for meetings don't inherit the meeting's sensitivity label; however, a sensitivity label can be applied to the notes' Loop component in the [Loop app or OneDrive](/purview/sensitivity-labels-loop). If a sensitivity label is applied to the notes outside of Teams, the note's file can't be accessed in Teams.
 

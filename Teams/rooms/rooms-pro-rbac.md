@@ -44,9 +44,9 @@ To see roles, in the left navigation of the Microsoft Teams Rooms Pro Management
 - **Permissions**: Lists features and level of permissions to which the role has access.
 - **Assignments**: A list of role assignments defining which users have the configured permissions over the scope of room resource accounts. A role can have multiple assignments, and a user can be in multiple assignments.
 
-## Microsoft Entra built-in roles
+## Built-in roles
 
-You can assign the below Entra built-in roles to groups or users to provide access to Microsoft Teams Rooms Pro management portal using [Microsoft Entra Admin center](https://entra.microsoft.com/#home)
+You can assign the below MIcrosoft Entra built-in roles to groups or users to provide access to Microsoft Teams Rooms Pro management portal using [Microsoft Entra Admin center](https://entra.microsoft.com/#home)
 
 - **Global Administrator**: Has full access to the Microsoft Teams Rooms Pro Management portal.
 

@@ -3,8 +3,8 @@ title: Role-based access control in the Microsoft Teams Rooms Pro Management Por
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: altsou
-ms.date: 1/27/2025
+ms.reviewer: ayerragangu
+ms.date: 4/21/2025
 ms.topic: article
 audience: Admin
 ms.service: msteams

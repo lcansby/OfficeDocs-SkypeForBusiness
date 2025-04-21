@@ -27,9 +27,11 @@ To access the Teams Rooms Pro Management portal, you need to assign one or more 
 
 1. **Microsoft Entra built-in roles:** Global Administrator, Teams Administrator, Teams Devices Administrator, Global Reader.
 
-1. **Teams Rooms Pro Manager** through the Microsoft Teams Rooms Pro Management portal
+1. **Teams Rooms Pro Manager** through the Microsoft Teams Rooms Pro Management portal.
 
 [Assign Microsoft Entra built-in roles](/entra/identity/role-based-access-control/permissions-reference) to the users using the [Microsoft Entra Admin center](https://entra.microsoft.com/#home).
+
+Note: A Teams Administrator or a Teams Devices Administrator assigned to an Administrative Unit (AU), will not be able to access Teams Rooms Pro Management portal, as AUs are not yet supported. In such cases, consider assigning the users to the Teams Rooms Pro Management built-in roles (**Teams Rooms Pro Manager**, **Site Lead**, and **Site Technician**) or create a custom role. Check [Role Based Access Control](/microsoftteams/rooms/rooms-pro-rbac) for more information.
 
 ## Assign users to the Teams Rooms Pro Manager role
 

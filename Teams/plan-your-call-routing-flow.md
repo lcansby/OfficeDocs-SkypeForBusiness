@@ -84,20 +84,7 @@ For more information on when to use **Voice app** or **Resource account** as the
 
 The following diagram shows an example of call routing using Auto attendants and Call queues.
 
-
-
-:::image type="content" source="media/attendant-and-queue-call-routing.svg" alt-text="sample call flow diagram":::
-
-<!---
-flowchart TD
-    id1(("Contoso main<br>929-555-0150d")) --> id2[["**Auto Attendant**<br>Thank you for calling Contoso.<br>For Sales, press 1.<br>For Support press 2.<br>If you know the name of the person you want to reach press 3.<br>For all other inquiries press 0."]]
-    id2 -- 1 ---> id3(["**Call Queue**<br>Sales"])
-    id2 -- 2 ---> id4(["**Call Queue**<br>Support"])
-    id2 -- 3 ---> id5[("**Dial By Name**<br>Company Directory")]
-    id2 -- 0 ---> id6(["**Operator**<br>Adele Vance"])
-    id10(("Support<br>929-555-0195")) ---> id11[["**Auto Attendant**<br>Thank you for calling Contoso support"]]
-    id11 ---> id4
--->
+:::image type="content" source="media/plan-your-call-routing-flow-01.svg" alt-text="sample call flow diagram":::
 
 In this example:
 

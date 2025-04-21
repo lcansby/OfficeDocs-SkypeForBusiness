@@ -44,13 +44,14 @@ To see roles, in the left navigation of the Microsoft Teams Rooms Pro Management
 - **Permissions**: Lists features and level of permissions to which the role has access.
 - **Assignments**: A list of role assignments defining which users have the configured permissions over the scope of room resource accounts. A role can have multiple assignments, and a user can be in multiple assignments.
 
- 
-
 ## Microsoft Entra built-in roles
 
 You can assign the below Entra built-in roles to groups or users to provide access to Microsoft Teams Rooms Pro management portal using [Microsoft Entra Admin center](https://entra.microsoft.com/#home)
 
 - **Global Administrator**: Has full access to the Microsoft Teams Rooms Pro Management portal.
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 - **Teams Administrator**: Access to manage and configure Microsoft Teams service-related entities
 
@@ -63,7 +64,7 @@ In the **Roles** section under **Settings**, you can view the supported Microsof
 ![User's image](media/rooms-pro-rbac/image.png)
 
 > [!NOTE]
-> Teams Administrator or Teams Devices Administrator assigned to an Administrative Unit (AU), cannot access the Teams Rooms Pro Management portal, as AUs are not currently supported. To grant access, consider assigning the users to one of the [Teams Rooms Pro Management built-in roles](/microsoftteams/rooms/rooms-pro-rbac) (Teams Rooms Pro Manager, Site Lead, and Site Technician) or [create a custom role](/microsoftteams/rooms/rooms-pro-rbac).
+> Teams Administrator or Teams Devices Administrator assigned to an Administrative Unit (AU), can't access the Teams Rooms Pro Management portal, as AUs aren't currently supported. To grant access, consider assigning the users to one of the [Teams Rooms Pro Management built-in roles](/microsoftteams/rooms/rooms-pro-rbac) (Teams Rooms Pro Manager, Site Lead, and Site Technician) or [create a custom role](/microsoftteams/rooms/rooms-pro-rbac).
 > 
 The following table summarizes what each Entra built-in role can do in Microsoft Teams Rooms Pro management portal.
 

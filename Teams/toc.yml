@@ -1245,7 +1245,7 @@ items:
         - name: Manage Copilot in Teams calls
           href: voice-node-toc-redirect-to-copilot-and-calling.md
         - name: Intelligent recap for teams calls and meetings
-          href: intelligent-recap-calls-meetings.md#intelligent-recap-calls-meetings
+          href: intelligent-recap-calls-meetings.md#intelligent-call-recap
         - name: Teams Premium licensing
           href: teams-add-on-licensing/licensing-enhance-teams.md
     - name: PSTN connectivity options

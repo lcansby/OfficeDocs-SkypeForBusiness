@@ -108,7 +108,7 @@ The following registry keys could block new media engine MSIX package installati
 - AllowDevelopmentWithoutDevLicense
 
 > [!IMPORTANT]
-> Managed endpoints/thin clients where BlockNonAdminUserInstall is enabled can still allow SlimCore packages to install by applying KB505294 (Windows 11 23H2 and 22H2) and KB505293 (Windows 11 24H2), or any subsequent KB. This introduces a new Group Policy called "Allowed package family names for non-admin user install" in the Local Group Policy Editor. Administrators can then Allow list SlimCore packages by allowing a complete package familyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.43_8wekyb3d8bbwe) or use Regex (for example, Microsoft.Teams.SlimCoreVdi.*_8wekyb3d8bbwe)
+> Managed endpoints/thin clients where BlockNonAdminUserInstall is enabled can still allow SlimCore packages to install by applying KB5052094 (Windows 11 23H2 and 22H2) and KB5052093 (Windows 11 24H2), or any subsequent KB. This introduces a new Group Policy called "Allowed package family names for non-admin user install" in the Local Group Policy Editor. Administrators can then Allow list SlimCore packages by allowing a complete package familyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.43_8wekyb3d8bbwe) or use Regex (for example, Microsoft.Teams.SlimCoreVdi.*_8wekyb3d8bbwe)
 
 > [!IMPORTANT]
 > If AllowAllTrustedApps is disabled, the new media engine (MSIX) installation fails. This issue is fixed in the Windows October cumulative update KB5031455:
@@ -634,7 +634,7 @@ The code logged here needs to be mapped using this table:
 
 ## Using Event Viewer on the VM for troubleshooting
 
-Every connect/disconnect event gets logged in the Event Viewer running on the Virtual Machine. The Event Viewer can also display client-side related errors. Filter by Source (Microsoft Teams VDI) and Event ID (0). Error codes can be found in the [New Teams logs for VDI](#new-teams-logs-for-vdi) section.
+Every connect/disconnect event gets logged in the Event Viewer running on the Virtual Machine. The Event Viewer can also display client-side related errors. Filter by Source (Microsoft Teams VDI) and Event ID (0) under Windows Logs\Application. Error codes can be found in the [New Teams logs for VDI](#new-teams-logs-for-vdi) section.
 
 > [!NOTE]
 > In order to be able to filter by Source, you need to run this command from an elevated powershell window:

@@ -3,8 +3,8 @@ title: Accessing the Pro Management portal
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: srpall
-ms.date: 1/27/2025
+ms.reviewer: ayerragangu
+ms.date: 4/21/2025
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -27,11 +27,14 @@ To access the Teams Rooms Pro Management portal, you need to assign one or more 
 
 1. **Microsoft Entra built-in roles:** Global Administrator, Teams Administrator, Teams Devices Administrator, Global Reader.
 
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 1. **Teams Rooms Pro Manager** through the Microsoft Teams Rooms Pro Management portal.
 
 [Assign Microsoft Entra built-in roles](/entra/identity/role-based-access-control/permissions-reference) to the users using the [Microsoft Entra Admin center](https://entra.microsoft.com/#home).
 
-Note: A Teams Administrator or a Teams Devices Administrator assigned to an Administrative Unit (AU), will not be able to access Teams Rooms Pro Management portal, as AUs are not yet supported. In such cases, consider assigning the users to the Teams Rooms Pro Management built-in roles (**Teams Rooms Pro Manager**, **Site Lead**, and **Site Technician**) or create a custom role. Check [Role Based Access Control](/microsoftteams/rooms/rooms-pro-rbac) for more information.
+Note: A Teams Administrator or a Teams Devices Administrator assigned to an Administrative Unit (AU), won't able to access Teams Rooms Pro Management portal, as AUs aren't yet supported. In such cases, consider assigning the users to the Teams Rooms Pro Management built-in roles (**Teams Rooms Pro Manager**, **Site Lead**, and **Site Technician**) or create a custom role. Check [Role Based Access Control](/microsoftteams/rooms/rooms-pro-rbac) for more information.
 
 ## Assign users to the Teams Rooms Pro Manager role
 

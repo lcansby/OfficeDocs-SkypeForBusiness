@@ -5446,6 +5446,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "Teams/voice-node-toc-redirect-to-copilot-and-calling.md",
+      "redirect_url": "/microsoftteams/copilot-teams-transcription",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/new-teams-known-issues.md",
       "redirect_url": "/microsoftteams/teams-client-update",
       "redirect_document_id": true

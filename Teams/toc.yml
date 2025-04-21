@@ -1242,7 +1242,9 @@ items:
           href: dial-voice-reference.md
     - name: Teams Calling with Teams Premium and Copilot
       items:
-        - name: See Intelligent recap for teams calls and meetings
+        - name: Manage Copilot in Teams calls
+          href: voice-node-toc-redirect-to-copilot-and-calling.md
+        - name: Intelligent recap for teams calls and meetings
           href: intelligent-recap-calls-meetings.md#intelligent-recap-calls-meetings
         - name: Teams Premium licensing
           href: teams-add-on-licensing/licensing-enhance-teams.md

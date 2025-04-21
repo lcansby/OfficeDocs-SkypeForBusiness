@@ -634,7 +634,7 @@ The code logged here needs to be mapped using this table:
 
 ## Using Event Viewer on the VM for troubleshooting
 
-Every connect/disconnect event gets logged in the Event Viewer running on the Virtual Machine. The Event Viewer can also display client-side related errors. Filter by Source (Microsoft Teams VDI) and Event ID (0). Error codes can be found in the [New Teams logs for VDI](#new-teams-logs-for-vdi) section.
+Every connect/disconnect event gets logged in the Event Viewer running on the Virtual Machine. The Event Viewer can also display client-side related errors. Filter by Source (Microsoft Teams VDI) and Event ID (0) under Windows Logs\Application. Error codes can be found in the [New Teams logs for VDI](#new-teams-logs-for-vdi) section.
 
 > [!NOTE]
 > In order to be able to filter by Source, you need to run this command from an elevated powershell window:

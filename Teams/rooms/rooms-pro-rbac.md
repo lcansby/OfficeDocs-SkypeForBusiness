@@ -58,7 +58,7 @@ You can assign the below Entra built-in roles to groups or users to provide acce
 
 ·        Global Reader
 
-In the Roles section under Settings, you will find the supported Entra built-in roles listed, wherein you can view their permissions and assignments. But more assignments can be added only through [Microsoft Entra Admin center](https://entra.microsoft.com/#home)
+In the **Roles** section under **Settings**, you can view the supported Microsoft Entra built-in roles along with their permissions and current assignments. To add or manage additional assignments, please use the [Microsoft Entra Admin center](https://entra.microsoft.com/#home)
 
 ![User's image](media/rooms-pro-rbac/image.png)
 

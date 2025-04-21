@@ -57,15 +57,20 @@ This command hides the new mail user from address lists.
 ```powershell
 Set-MailUser -Identity $user.Identity -HiddenFromAddressListsEnabled $True -DomainController <DomainControllerFQDN>
 ```
-
-These next two commands assign the `UserApplication` and `ArchiveApplication` management role to this new account.
-
+Create a new role based on UserApplication role
 ```powershell
-New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainController <DomainControllerFQDN>
+New-ManagementRole -Name "TeamsApp" -Parent "UserApplication" -DomainController <DomainControllerFQDN>
 ```
+ 
+Remove all cmdlets from the new role except [GetDelegate](/exchange/client-developer/web-service-reference/getdelegate), as this is the only command required by the scheduling (delegation) service.  
 
 ```powershell
-New-ManagementRoleAssignment -Role ArchiveApplication -User $user.Identity -DomainController <DomainControllerFQDN>
+Get-ManagementRoleEntry "TeamsApp\*" -DomainController <DomainControllerFQDN> | Where-Object { $_.Name -ne "GetDelegate" } | Remove-ManagementRoleEntry -DomainController <DomainControllerFQDN>
+```
+ 
+Assign TeamsApp role to this new account
+```powershell
+New-ManagementRoleAssignment -Role TeamsApp -User $user.Identity -DomainController <DomainControllerFQDN>
 ```
 
 ### Step 3: Create and enable a Partner Application for Skype for Business Online 

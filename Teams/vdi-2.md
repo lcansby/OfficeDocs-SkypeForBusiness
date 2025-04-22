@@ -331,9 +331,9 @@ This policy is now expanded with an additional argument as the only configuratio
 |Voice isolation                   |Yes                                                             |No                            |
 |HID                               |Yes                                                             |Yes (AVD and Omnissa)         |
 |Presenter mode                    |Yes                                                             |No                            |
-|Teams Premium                     |Yes</br>(Pending: Watermark, Townhalls, Decorate my Background) |No                            |
+|Teams Premium                     |Check the Teams Premium page                                    |Check the Teams Premium page  |
 |Organizational custom backgrounds |Yes (Teams Premium license required)                            |No                            |
-|User-uploaded background effect   |Coming soon                                                     |No                            |
+|User-uploaded background effect   |Yes                                                             |No                            |
 |Zoom +/-                          |Yes                                                             |No                            |
 |Media bypass, Location-based routing, Operator connect <sup>1</sup> |Yes                           |No                            |
 |Call quality dashboard and Teams admin center|Yes                                                  |Limited                       |
@@ -412,6 +412,7 @@ Customers with Thin Clients that have [Unified Write Filters](/windows/configura
 
 - AVD RemoteApps and Citrix Published Apps aren't supported at this time.
 - Screen Capture Protection (SCP) causes the presenter's screen to show as a black screen with only the mouse cursor on top it (as seen by the receiving side). This has been fixed in Teams 25060.205.3499.6849 and Remote Desktop client 1.2.6081 or Windows app 2.0.379.
+- If you lock the VM during an active call, the call disconnects. This has been fixed in 25094.303.3554.9058 or higher versions.
 - Calls drop on Teams running on the local machine that has an HID peripheral connected if a user launches a virtual desktop from that same local machine and logs into Teams. This can also happen if the user had an active virtual desktop and launches a second one that has Teams installed (or other Unified Communications apps that use optimization).
 - Camera self preview isn't supported at this time (either under Settings/Devices, or while on a call when selecting the down arrow on the camera icon).
 - In the Control Panel/Apps/Installed apps of the endpoint, users will see multiple "Microsoft Teams VDI" entries (one for every Slimcore package installed).

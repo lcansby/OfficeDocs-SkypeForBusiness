@@ -47,7 +47,7 @@ Complete the following steps to assign users to the Teams Rooms Pro Manager role
 1. Follow the wizard to name the assignment and select the users who should be added to it. The assignment will apply to all rooms and room groups.
 5. At the end of the assignment wizard, select **Add assignment**.
 
-Users who are assigned to the above-mentioned Microsoft Entra built-in roles or to the Teams Rooms Pro Manager role are responsible for the day-to-day management and monitoring of Teams Rooms and will have access to all rooms and features within the Teams Rooms Pro management portal. To assign additional roles to restrict access to specific rooms and users, see more under [Role Based Access Control](/microsoftteams/rooms/rooms-pro-rbac)
+Users who are assigned to the above-mentioned Microsoft Entra built-in roles or to the Teams Rooms Pro Manager role are responsible for the day-to-day management and monitoring of Teams Rooms and will have access to all rooms and features within the Teams Rooms Pro management portal. To assign additional roles to restrict access to specific rooms and users, see more under [Role Based Access Control](/microsoftteams/rooms/rooms-pro-rbac).
 
 After you've assigned users to the Teams Rooms Pro Manager role, continue to the [Enroll a Teams Rooms device](enroll-a-device.md) to add a Teams Rooms device to the Teams Rooms Pro management portal.
 

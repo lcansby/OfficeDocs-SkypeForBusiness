@@ -25,7 +25,7 @@ ms.localizationpriority: medium
 description: "This article describes how to manage attributes after decommissioning your on-premises environment."
 ---
 
-# Decide how to manage attributes after decommissioning
+# Manage user attributes after decommissioning
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -43,7 +43,7 @@ There's a multi-phase strategy available to pro-actively handle this situation. 
 
 |Phase |Activities |
 |:-----|:-----|
-|1 - Status quo |Keep Active Directory on-premises as the authoritative source for managing phone numbers. </br>Leave users that were enabled for Skype for Business server accounts as is, and manage the msRTCSIP attributes using Active Directory tools. |
+|1 - Maintain administrative operations |Keep Active Directory on-premises as the authoritative source for managing phone numbers. </br>Leave users that were enabled for Skype for Business server accounts as is, and manage the msRTCSIP attributes using Active Directory tools. |
 |2 - Update administrative operations |Begin managing phone numbers in Teams. |
 |3 - Remove msRTCSIP attributes |Clear all msRTCSIP attributes from migrated users in your on-premises Active Directory and continue administration in Teams. |
 

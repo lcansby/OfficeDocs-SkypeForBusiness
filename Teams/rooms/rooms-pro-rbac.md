@@ -46,7 +46,7 @@ To see roles, in the left navigation of the Microsoft Teams Rooms Pro Management
 
 ## Built-in roles
 
-You can assign the below MIcrosoft Entra built-in roles to groups or users to provide access to Microsoft Teams Rooms Pro management portal using [Microsoft Entra Admin center](https://entra.microsoft.com/#home)
+You can assign the below MIcrosoft Entra built-in roles to groups or users to provide access to Microsoft Teams Rooms Pro management portal using [Microsoft Entra Admin center](https://entra.microsoft.com/#home). 
 
 - **Global Administrator**: Has full access to the Microsoft Teams Rooms Pro Management portal.
 
@@ -59,9 +59,9 @@ You can assign the below MIcrosoft Entra built-in roles to groups or users to pr
 
 - **Global Reader**: Read-only access to the Microsoft Teams Rooms Pro Management portal
 
-In the **Roles** section under **Settings**, you can view the supported Microsoft Entra built-in roles along with their permissions and current assignments. To add or manage additional assignments, please use the [Microsoft Entra Admin center](https://entra.microsoft.com/#home)
+In the **Roles** section under **Settings**, you can view the supported Microsoft Entra built-in roles along with their permissions and current assignments. To add or manage additional assignments, please use the [Microsoft Entra Admin center](https://entra.microsoft.com/#home).
 
-![User's image](media/rooms-pro-rbac/image.png)
+![Screenshot showing the user's image.](media/rooms-pro-rbac/image.png)
 
 > [!NOTE]
 > Teams Administrator or Teams Devices Administrator assigned to an Administrative Unit (AU), can't access the Teams Rooms Pro Management portal, as AUs aren't currently supported. To grant access, consider assigning the users to one of the [Teams Rooms Pro Management built-in roles](/microsoftteams/rooms/rooms-pro-rbac) (Teams Rooms Pro Manager, Site Lead, and Site Technician) or [create a custom role](/microsoftteams/rooms/rooms-pro-rbac).

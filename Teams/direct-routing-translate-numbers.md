@@ -45,7 +45,7 @@ Number translation rules are optionally applied to called numbers that are passe
 
 Once a user dials a number, it processes through the user's effective dial plan. To learn more about the user's effective dial plan, see [Dial Plan overivew](dial-plans-routing-overview.md). Teams matches the dial plan-normalized number to an approved PSTN usage for routing to the PSTN, and the call is directed to a voice route. The voice route is associated with an SBC (Session Border Controller), and there may be instances where you want to manage the format in which your SBC receives the called number-string.
 
-To translate a called number-string into an alternate format, create an outbound number translation rule and apply it to the SBC's profile (also known as PSTN gateway) in Teams.
+To translate a called number-string into an alternate format, create an outbound number translation rule and apply it to the SBC's profile (also known as PSTN gateway) in Teams. See [Configuring translation rules with Powershell](#configuring-translation-rules-with-powershell).
 
 > [!NOTE]
 > In the scenario where the user's effective dial plan doesn't apply normalization rules to the dialed number, the Teams service dial plan prepends "+CC" to the number, where CC is the country/region code of the dialing user's usage location. This applies to Calling Plans, Direct Routing, and PSTN Conference dial-out scenarios. </br>To avoid double normalization (from the user's effective dial plan and a route-based number translation rule), it's recommended that Direct Routing customers use dial plans to normalize numbers to include a + and then remove the + using a route-based translation rule.
@@ -54,18 +54,20 @@ To translate a called number-string into an alternate format, create an outbound
 
 Routing an inbound phone call to a Teams user uses a process called [Reverse Number Lookup (RNL)](dial-plans-routing-overview.md#number-lookup-for-inbound-calls). Instead of referencing a Teams user's contact name to look up their number, RNL looks in your directory for the dialed number-string of a call, finds the user or resource account in your tenant that is assigned with the same number-string, and sets up the incoming call with that user or resource.
 
-In a Direct Routing deployment you could have a scenario where there's no digit translation rules configured in the SBC, and the SBC is just passing through the dialed number-string received from the PSTN. If the inbound call's number-string isn't offering a format matching to the standardized number-string assigned to your Teams user and resource accounts, you can use Teams to apply a route-based, inbound-number translation rule to the SBC's configuration profile and translate the inbound, called number into your expected number-string format.
+In a Direct Routing deployment you could have a scenario where there's no digit translation rules configured in the SBC, and the SBC is just passing through the dialed number-string received from the PSTN. If the inbound call's number-string isn't offering a format matching to the standardized number-string assigned to your Teams user and resource accounts, you can use Teams to apply a route-based, inbound-number translation rule to the SBC's configuration profile and translate the inbound, called number into your expected number-string format. See [Configuring translation rules with Powershell](#configuring-translation-rules-with-powershell).
 
 ## Considerations
 
 The number translation rules are applied at the SBC level. You can assign multiple translation rules to an SBC, which are applied in the order that they appear when you list them in PowerShell. You can also change the order of the rules in the policy.
 
+> [!NOTE]
+> The maximum total number of translation rules is 400, maximum translation parameter name length is 100 symbols, maximum translation parameter pattern length is 1024 symbols, and maximum translation parameter translation length is 256 symbols.
+
+### Configuring translation rules with PowerShell
+
 To create, modify, view, and delete number manipulation rules, use the [New-CsTeamsTranslationRule](/powershell/module/teams/new-csteamstranslationrule), [Set-CsTeamsTranslationRule](/powershell/module/teams/set-csteamstranslationrule), [Get-CsTeamsTranslationRule](/powershell/module/teams/get-csteamstranslationrule), and [Remove-CsTeamsTranslationRule](/powershell/module/teams/remove-csteamstranslationrule) cmdlets.
 
 To assign, configure, and list number manipulation rules on SBCs, use the [New-CSOnlinePSTNGateway](/powershell/module/teams/new-csonlinepstngateway) and [Set-CSOnlinePSTNGateway](/powershell/module/teams/set-csonlinepstngateway) cmdlets together with the InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, and OutboundPSTNNumberTranslationRules parameters.
-
-> [!NOTE]
-> The maximum total number of translation rules is 400, maximum translation parameter name length is 100 symbols, maximum translation parameter pattern length is 1024 symbols, and maximum translation parameter translation length is 256 symbols.
 
 ## Example SBC configuration
 

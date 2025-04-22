@@ -84,7 +84,7 @@ The seamless migration design is supported between an on-premises deployment to 
 
 All admin changes related to phone number assignments, made in Teams, are honored for online operations.
 
-To evaluate the details of the Directory Sync, see the following table:
+To evaluate the details of the Directory Sync behavior when working with seamless migration, see the following table:
 
 |On-premises Configuration |Online Administrative Operation |Result of Future On-premises Sync |
 |:-----|:-----|:-----|

@@ -41,7 +41,7 @@ There are two methods for moving phone numbers from on-premises to online.
 
 In the seamless migration method, the only action required to move a phone number's management from on-premises to online is to begin administering number assignments using the Teams admin center or PowerShell.
 
-As administration tasks are performed on phone numbers online, the *online service configuration* for those numbers takes precedence over the *on-premises Active Directory configuration*. By administering the number online, the on-premises Active Directory configuration offered in every following Directory Sync is rejected.
+As administration tasks are performed on phone numbers online, the *online service configuration* for those numbers takes precedence over the *on-premises Active Directory configuration*. By assigning the number online, the on-premises Active Directory configuration offered in every following Directory Sync is rejected.
 
 This designed precedence provides administrators with a seamless migration experience, requiring no action other than to continue managing the numbers online.
 
@@ -112,13 +112,13 @@ View the order status of numbers you uploaded with PowerShell by using the [Get-
 
 To evaluate the details of the Directory Sync behavior when working with numbers that were migrated to online, see the following table:
 
-|On-premises Configuration |Online Administrative Operation |Result of Future On-premises Sync |
-|:-----|:-----|:-----|
-|User A has "1111" |"1111" is assigned to User B. </br> Operation fails due to "1111" is already assigned to user A. |Sync success. No change was made to User A or number 1111. |
-|User A has "1111" |"1234" is assigned to User A. |Sync fails for User A. User A has existing number 1234 assigned. |
-|User A has "1111" |"1111" is unassigned from User A and assigned to User B. </br>Number source becomes controlled by Online. |Sync fails for User A and User B. 1111 has existing user assignment. |
-|User A has "1111" |"1111" is uploaded to DR inventory. </br>Number source becomes controlled by Online. |Sync fails for User A. 1111 has existing user assignment and DR Online number. |
-|User A has "1111" </br>"2222" is unassigned and a DR Online number |"2222" is assigned to User A. </br>"1111" remains unassigned. |Sync fails for User A. User A already has number assigned. |
+|Existing On-premises Configuration |Next Online Administration Operation |Result Operation |Result of Future On-premises Sync |
+|:-----|:-----|:-----|:-----|
+|User A has "1111" |Assign "1234" to User A. |Operation success. Number assignment to User A is now controlled by online service configuration. |Sync fails for User A. |
+|User A has "1111" |Assign "1111" to User B, without first unassigning from User A |Operation fails. "1111" is already assigned to User A. |Sync success. No change was made to User A or "1111". |
+|User A has "1111" |Unassign "1111" from User A and assigned to User B. |Operation success. Number assignment to User A and User B is now controlled by online service configuraiton. |Sync fails for User A and User B. |
+|User A has "1111" |Upload "1111" to your tenant. |Operation success. Number assignment to User A is now controlled by online service configuration. |Sync fails for User A. |
+|User A has "1111" </br>"2222" is unassigned and controlled by online service configuration. |"2222" is assigned to User A. </br>"1111" remains unassigned. |Operation success. Number assignment to User A is now controlled by online service configuration. |Sync fails for User A. |
 
 ## See also
 

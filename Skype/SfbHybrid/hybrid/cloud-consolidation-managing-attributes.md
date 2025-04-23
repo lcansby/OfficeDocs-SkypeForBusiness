@@ -158,6 +158,8 @@ This option requires more effort and proper planning because users who were move
 
 8. To assign phone numbers and enable users for Phone System, execute the following Teams PowerShell command:
 
+   > [!Note]
+   > Skip this step if you already moved your numbers online. To learn more about uploading your phone numbers to online and preventing a potential service disruption in this process, see [Move phone numbers to the cloud](decommission-move-on-prem-phone-numbers.md).
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"

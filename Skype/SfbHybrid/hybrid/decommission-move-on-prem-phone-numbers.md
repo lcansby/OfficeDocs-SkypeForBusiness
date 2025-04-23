@@ -34,7 +34,8 @@ Use the guidance in this article to move phone numbers online before decommissio
 
 There are two methods for moving phone numbers from Skype for Business to online.
 
-The first method is the seamless migration method and the second method is by manually uploading your numbers.
+1. Seamless migration method
+1. Manually uploading numbers
 
 ## Seamless migration
 
@@ -45,16 +46,6 @@ As administration tasks are performed on phone numbers in Teams, the *online ser
 This designed precedence provides administrators with a seamless migration experience, requiring no action other than to continue managing the numbers in Teams.
 
 All admin changes related to phone number assignments, made in Teams, are honored for online operations.
-
-To evaluate the details of the Directory Sync behavior when working with seamless migration, see the following table:
-
-|On-premises Configuration |Online Administrative Operation |Result of Future On-premises Sync |
-|:-----|:-----|:-----|
-|User A has "1111" |"1111" is assigned to User B. </br> Operation fails due to "1111" is already assigned to user A. |Sync success. No change was made to User A or number 1111. |
-|User A has "1111" |"1234" is assigned to User A. |Sync fails for User A. User A has existing number 1234 assigned. |
-|User A has "1111" |"1111" is unassigned from User A and assigned to User B. </br>Number source becomes controlled by Online. |Sync fails for User A and User B. 1111 has existing user assignment. |
-|User A has "1111" |"1111" is uploaded to DR inventory. </br>Number source becomes controlled by Online. |Sync fails for User A. 1111 has existing user assignment and DR Online number. |
-|User A has "1111" </br>"2222" is unassigned and a DR Online number |"2222" is assigned to User A. </br>"1111" remains unassigned. |Sync fails for User A. User A already has number assigned. |
 
 You can still manage number assignment with Skype for Business on-premises administrative tools. Optionally using Teams admin center to assign a number to a user automatically uploads the number to Microsoft's telephone number management inventory (if it's not already there) and automatically promotes Teams to control the service configuration of the number.
 
@@ -117,6 +108,17 @@ View the order status of numbers you uploaded with PowerShell by using the [Get-
 ```PowerShell
  Get-CsOnlineTelephoneNumberOrder -OrderType DirectRoutingNumberCreation -OrderId <orderId>
 ```
+## Considerations
+
+To evaluate the details of the Directory Sync behavior when working with numbers that were migrated to online, see the following table:
+
+|On-premises Configuration |Online Administrative Operation |Result of Future On-premises Sync |
+|:-----|:-----|:-----|
+|User A has "1111" |"1111" is assigned to User B. </br> Operation fails due to "1111" is already assigned to user A. |Sync success. No change was made to User A or number 1111. |
+|User A has "1111" |"1234" is assigned to User A. |Sync fails for User A. User A has existing number 1234 assigned. |
+|User A has "1111" |"1111" is unassigned from User A and assigned to User B. </br>Number source becomes controlled by Online. |Sync fails for User A and User B. 1111 has existing user assignment. |
+|User A has "1111" |"1111" is uploaded to DR inventory. </br>Number source becomes controlled by Online. |Sync fails for User A. 1111 has existing user assignment and DR Online number. |
+|User A has "1111" </br>"2222" is unassigned and a DR Online number |"2222" is assigned to User A. </br>"1111" remains unassigned. |Sync fails for User A. User A already has number assigned. |
 
 ## See also
 

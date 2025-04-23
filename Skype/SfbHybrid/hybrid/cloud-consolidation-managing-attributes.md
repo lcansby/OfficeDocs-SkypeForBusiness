@@ -39,18 +39,15 @@ However, once the Skype for Business Server deployment has been removed, the Sky
 
 Without the tools to manage the attributes, if changes are required to phone number assignments, administrators can't use the tools to make updates.
 
-There's a multi-phase strategy available to pro-actively handle this situation. Details of the phased approach considerations follow this summary.
+There are two models available to pro-actively handle this situation. Details of the phased approach considerations follow this summary.
 
-|Phase |Activities |
+|Model |Activities |
 |:-----|:-----|
 |1 - Maintain administrative operations |Keep Active Directory on-premises as the authoritative source for managing phone numbers. </br>Leave users that were enabled for Skype for Business server accounts as is, and manage the msRTCSIP attributes using Active Directory tools. |
-|2 - Update administrative operations |Begin managing phone numbers in Teams. |
-|3 - Remove msRTCSIP attributes |Clear all msRTCSIP attributes from migrated users in your on-premises Active Directory and continue administration in Teams. |
+|2 - Move attributes to online and remove msRTCSIP attributes |Clear all msRTCSIP attributes from migrated users in your on-premises Active Directory and continue administration online. |
 
-> [!NOTE]
-> If you start the third phase and clear msRTCSIP attributes without *completing* the second phase for all phone numbers, it may result in a temporary loss of service during the on-premises decommissioning process.
 
-## Phase 1 - Manage sip addresses and phone numbers for users in Active Directory
+## Model 1 - Manage sip addresses and phone numbers for users in Active Directory
 
 This method ensures no loss of service for migrated users, while still maintaining number management operations with on-premises tools and allows you to remove the Skype for Business Server deployment by eliminating (for example, wiping) the servers, without a full decommissioning.
 
@@ -72,30 +69,9 @@ If you want to make changes to a user’s sip address or to a user’s phone num
 
 - If the user didn't originally have a value for `msRTCSIP-Line` on-premises before the move, you can modify the phone number using the `-PhoneNumber` parameter in the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) in the Teams PowerShell module.
 
-These steps aren't necessary for new users created after you disable hybrid, and those users can be managed directly in the cloud. If you're comfortable using the mix of these methods and with leaving the msRTCSIP attributes in place in your on-premises Active Directory, you can reimage the on-premises Skype for Business servers, and continue with this status quo phase, indefinitely. However, if you prefer to clear all msRTCSIP attributes and do a traditional uninstall of Skype for Business Server, then move to Phase 2.
+These steps aren't necessary for new users created after you disable hybrid, and those users can be managed directly in the cloud. If you're comfortable using the mix of these methods and with leaving the msRTCSIP attributes in place in your on-premises Active Directory, you can reimage the on-premises Skype for Business servers, and continue with this model, indefinitely. However, if you prefer to clear all msRTCSIP attributes and do a traditional uninstall of Skype for Business Server, then use Model 2.
 
-## Phase 2 - Manage phone numbers in Teams
-
-As administration tasks are performed on phone numbers in Teams, *the online service configuration for those numbers takes precedence over the on-premises Active Directory configuration*.
-
-This designed precedence provides administrators with a seamless migration experience, requiring no action other than to manage the numbers in Teams.
-
-The seamless migration design is supported between an on-premises deployment to Teams, with any Public Switched Telephone Network (PSTN) connectivity solution, including Microsoft Calling Plan, Operator Connect, and online Direct Routing.
-
-All admin changes related to phone number assignments, made in Teams, are honored for online operations.
-
-To evaluate the details of the Directory Sync behavior when working with seamless migration, see the following table:
-
-|On-premises Configuration |Online Administrative Operation |Result of Future On-premises Sync |
-|:-----|:-----|:-----|
-|User A has "1111" |"1111" is unassigned from User A. </br>"1111" remains unassigned. </br>Number source becomes controlled by Online. |Sync success. User A is reassigned with number 1111. </br>Allowed since  this is assignment operation and 1111 was left unassigned. </br>Number source changes back to being controlled by on-premises. |
-|User A has "1111" |"1111" is assigned to User B. </br> Operation fails due to "1111" is already assigned to user A. |Sync success. No change was made to User A or number 1111. |
-|User A has "1111" |"1234" is assigned to User A. |Sync fails for User A. User A has existing number 1234 assigned. |
-|User A has "1111" |"1111" is unassigned from User A and assigned to User B. </br>Number source becomes controlled by Online. |Sync fails for User A and User B. 1111 has existing user assignment. |
-|User A has "1111" |"1111" is uploaded to DR inventory. </br>Number source becomes controlled by Online. |Sync fails for User A. 1111 has existing user assignment and DR Online number. |
-|User A has "1111" </br>"2222" is unassigned and a DR Online number |"2222" is assigned to User A. </br>"1111" remains unassigned. |Sync fails for User A. User A already has number assigned. |
-
-## Phase 3 - Clear Skype for Business attributes for all on-premises users in Active Directory
+## Model 2 - Clear Skype for Business attributes for all on-premises users in Active Directory
 
 This phase achieves a consistent management approach for existing and new users.
 
@@ -131,6 +107,7 @@ This option requires more effort and proper planning because users who were move
 
    > [!Important] 
    > Before proceeding open SfbUsers.csv file and confirm user data has been successfully exported. You'll need the LineUri (phone number), UserPrincipalName, SamAccountName, and SipAddress from this file in a later step.
+   > If you wish to prevent a service interruption, before proceeding, ensure that you've uploaded your phone numbers to online. See [Move phone numbers to the cloud](decommission-move-on-prem-phone-numbers.md). If you continue and clear msRTCSIP attributes without *completing* moving your phone numbers to the cloud, it may result in a temporary loss of service during the on-premises decommissioning process.
 
 4. Delete the attribute information related to Skype for Business Server from active Directory for the set of users you're ready to update.  There are two steps to this process, as shown below.
 

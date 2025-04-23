@@ -114,10 +114,10 @@ To evaluate the details of the Directory Sync behavior when working with numbers
 
 |Existing On-premises Configuration |Next Online Administration Operation |Result Operation |Result of Future On-premises Sync |
 |:-----|:-----|:-----|:-----|
-|User A has "1111" </br>"2222" is unassigned and controlled by online service configuration.|Assign "2222" to User A. |Operation success. Number assignment to User A is now controlled by online service configuration. |Sync fails for User A. |
-|User A has "1111" |Assign "1111" to User B, without first unassigning from User A |Operation fails. "1111" is already assigned to User A. |Sync success. No change was made to User A or "1111". |
-|User A has "1111" |Unassign "1111" from User A and assigned to User B. |Operation success. Number assignment to User B is now controlled by online service configuraiton. |Sync fails for User A and User B. |
-|User A has "1111" |Upload "1111" to your tenant. |Operation success. Number assignment to User A is now controlled by online service configuration. |Sync fails for User A. |
+|User A has "1111". </br>"2222" is unassigned and controlled by online service configuration. |Assign "2222" to User A. |Operation success. Number assignment to User A is now controlled by online service configuration. |Sync fails for User A. |
+|User A has "1111". |Assign "1111" to User B, without first unassigning from User A. |Operation fails. "1111" is already assigned to User A. |Sync success. No change was made to User A or "1111". |
+|User A has "1111".|Unassign "1111" from User A and assigned to User B. |Operation success. Number assignment to User B is now controlled by online service configuraiton. |Sync fails for User A and User B. |
+|User A has "1111". |Upload "1111" to your tenant. |Operation success. Number assignment to User A is now controlled by online service configuration. |Sync fails for User A. |
 
 ## See also
 

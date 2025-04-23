@@ -24,8 +24,6 @@ ms.localizationpriority: high
 
 New VDI solution for Teams is a new architecture for optimizing the delivery of multimedia workloads in virtual desktops.
 
-> [!IMPORTANT]
-> Microsoft completed the General Availability rollout for Citrix customers. The new optimization requires Microsoft Teams version 24295.605.3225.8804, and client version 24110115722, as seen in **Settings** > **About Teams**.
 
 ## Components
 
@@ -111,12 +109,11 @@ The following registry keys could block new media engine MSIX package installati
 > Managed endpoints/thin clients where BlockNonAdminUserInstall is enabled can still allow SlimCore packages to install by applying KB5052094 (Windows 11 23H2 and 22H2) and KB5052093 (Windows 11 24H2), or any subsequent KB. This introduces a new Group Policy called "Allowed package family names for non-admin user install" in the Local Group Policy Editor. Administrators can then Allow list SlimCore packages by allowing a complete package familyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.43_8wekyb3d8bbwe) or use Regex (for example, Microsoft.Teams.SlimCoreVdi.*_8wekyb3d8bbwe)
 
 > [!IMPORTANT]
-> If AllowAllTrustedApps is disabled, the new media engine (MSIX) installation fails. This issue is fixed in the Windows October cumulative update KB5031455:
+> If AllowAllTrustedApps is disabled, the new media engine (MSIX) installation fails. This issue is fixed in the following Windows cumulative updates:
 >
 > - [Windows 10: October 26, 2023—KB5031445 (OS Build 19045.3636)](https://support.microsoft.com/topic/october-26-2023-kb5031445-os-build-19045-3636-preview-03f350cb-57f9-45e6-bfd7-438895d3c7fa)
 > - [Windows 11: October 26, 2023—KB5031455 (OS Build 22621.2506)](https://support.microsoft.com/topic/october-26-2023-kb5031455-os-build-22621-2506-preview-6513c5ec-c5a2-4aaf-97f5-44c13d29e0d4)
->
-> If this optional October update isn't available for your OS build, the November security update also includes the fix.
+> - [Windows 10 1809: April 8, 2025—KB5055519 (OS Build 17763.7136)](https://support.microsoft.com/en-us/topic/april-8-2025-kb5055519-os-build-17763-7136-417d1340-ce40-4d0b-98ac-637c0f6dca35)
 
 These three registry keys can be found at either of the following locations on the user's device:
 

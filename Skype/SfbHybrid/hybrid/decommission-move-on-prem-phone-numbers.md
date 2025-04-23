@@ -56,7 +56,7 @@ To evaluate the details of the Directory Sync behavior when working with seamles
 |User A has "1111" |"1111" is uploaded to DR inventory. </br>Number source becomes controlled by Online. |Sync fails for User A. 1111 has existing user assignment and DR Online number. |
 |User A has "1111" </br>"2222" is unassigned and a DR Online number |"2222" is assigned to User A. </br>"1111" remains unassigned. |Sync fails for User A. User A already has number assigned. |
 
-You can still manage number assignment with Skype for Business on-premises administrative tools. Optionally using Teams admin center to assign a number to a user automatically uploads the number to Microsoft's telephone number management inventory if it's not already there and automatically promotes Teams to control the service configuration of the number.
+You can still manage number assignment with Skype for Business on-premises administrative tools. Optionally using Teams admin center to assign a number to a user automatically uploads the number to Microsoft's telephone number management inventory (if it's not already there) and automatically promotes Teams to control the service configuration of the number.
 
 ## Uploading Direct Routing numbers to your tenant
  

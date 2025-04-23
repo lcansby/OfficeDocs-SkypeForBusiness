@@ -46,7 +46,6 @@ There are two models available to pro-actively handle this situation. Details of
 |1 - Maintain administrative operations |Keep Active Directory on-premises as the authoritative source for managing phone numbers. </br>Leave users that were enabled for Skype for Business server accounts as is, and manage the msRTCSIP attributes using Active Directory tools. |
 |2 - Move attributes to online and remove msRTCSIP attributes |Clear all msRTCSIP attributes from migrated users in your on-premises Active Directory and continue administration online. |
 
-
 ## Model 1 - Manage sip addresses and phone numbers for users in Active Directory
 
 This method ensures no loss of service for migrated users, while still maintaining number management operations with on-premises tools and allows you to remove the Skype for Business Server deployment by eliminating (for example, wiping) the servers, without a full decommissioning.
@@ -105,8 +104,9 @@ This option requires more effort and proper planning because users who were move
    Get-CsUser | where userprincipalname -like "abc*" | Select-Object SipAddress, UserPrincipalName, SamAccountName, RegistrarPool, HostingProvider, EnabledForFederation, EnabledForInternetAccess, LineUri, EnterpriseVoiceEnabled, HostedVoiceMail | Sort SipAddress | Export-Csv -Path "c:\data\SfbUsers.csv"
    ```
 
-   > [!Important] 
+   > [!Important]
    > Before proceeding open SfbUsers.csv file and confirm user data has been successfully exported. You'll need the LineUri (phone number), UserPrincipalName, SamAccountName, and SipAddress from this file in a later step.
+   > </br>
    > If you wish to prevent a service interruption, before proceeding, ensure that you've uploaded your phone numbers to online. See [Move phone numbers to the cloud](decommission-move-on-prem-phone-numbers.md). If you continue and clear msRTCSIP attributes without *completing* moving your phone numbers to the cloud, it may result in a temporary loss of service during the on-premises decommissioning process.
 
 4. Delete the attribute information related to Skype for Business Server from active Directory for the set of users you're ready to update.  There are two steps to this process, as shown below.

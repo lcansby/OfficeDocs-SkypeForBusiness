@@ -43,8 +43,8 @@ There are two models available to pro-actively handle this situation. Details of
 
 |Model |Activities |
 |:-----|:-----|
-|1 - Maintain administrative operations |Keep Active Directory on-premises as the authoritative source for managing phone numbers. </br>Leave users that were enabled for Skype for Business server accounts as is, and manage the msRTCSIP attributes using Active Directory tools. |
-|2 - Move attributes to online and remove msRTCSIP attributes |Clear all msRTCSIP attributes from migrated users in your on-premises Active Directory and continue administration online. |
+|1 - Maintain administrative operations on-premises |Keep Active Directory on-premises as the authoritative source for managing phone numbers. </br>Leave users that were enabled for Skype for Business server accounts as is, and manage the msRTCSIP attributes using Active Directory tools. |
+|2 - Manage operations online and remove on-premises attributes | Move administrative tasks to online and clear all msRTCSIP attributes from migrated users in your on-premises Active Directory. |
 
 ## Model 1 - Manage sip addresses and phone numbers for users in Active Directory
 

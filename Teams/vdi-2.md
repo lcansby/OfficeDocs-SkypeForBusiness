@@ -42,7 +42,7 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 |----------------------------------|----------------|
 |New Teams                         |24193.1805.3040.8975 (for Azure Virtual Desktop/Windows 365) </br>24295.605.3225.8804 (for Citrix) |
 |Azure Virtual Desktop/Windows 365 |Windows App: 1.3.252</br>Remote Desktop Client: 1.2.5405.0 |
-|Citrix                            |VDA: 2203 LTSR CU3 or 2305 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR </br>MsTeamsPluginCitrix: 2024.41.1.1 |
+|Citrix                            |VDA: 2203 LTSR CU3 or 2305 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR. [Only versions that have not reached EOL are supported](https://www.citrix.com/support/product-lifecycle/workspace-app.html) </br>MsTeamsPluginCitrix: 2024.41.1.1 |
 |Endpoint                          |Windows 10 1809 (SlimCore minimum requirement)</br>[Windows Enterprise LTSC](/windows/whats-new/ltsc/overview#the-long-term-servicing-channel-ltsc) Thin clients on Windows 10 2019/2021, or Windows 11 2024 are supported</br>GPOs must not block MSIX installations (see [Step 3: SlimCore MSIX staging and registration on the endpoint](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint))</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
 
 ## Optimizing with new VDI solution for Teams
@@ -108,7 +108,7 @@ The following registry keys could block new media engine MSIX package installati
 - AllowDevelopmentWithoutDevLicense
 
 > [!IMPORTANT]
-> Managed endpoints/thin clients where BlockNonAdminUserInstall is enabled can still allow SlimCore packages to install by applying KB505294 (Windows 11 23H2 and 22H2) and KB505293 (Windows 11 24H2), or any subsequent KB. This introduces a new Group Policy called "Allowed package family names for non-admin user install" in the Local Group Policy Editor. Administrators can then Allow list SlimCore packages by allowing a complete package familyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.43_8wekyb3d8bbwe) or use Regex (for example, Microsoft.Teams.SlimCoreVdi.*_8wekyb3d8bbwe)
+> Managed endpoints/thin clients where BlockNonAdminUserInstall is enabled can still allow SlimCore packages to install by applying KB5052094 (Windows 11 23H2 and 22H2) and KB5052093 (Windows 11 24H2), or any subsequent KB. This introduces a new Group Policy called "Allowed package family names for non-admin user install" in the Local Group Policy Editor. Administrators can then Allow list SlimCore packages by allowing a complete package familyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.43_8wekyb3d8bbwe) or use Regex (for example, Microsoft.Teams.SlimCoreVdi.*_8wekyb3d8bbwe)
 
 > [!IMPORTANT]
 > If AllowAllTrustedApps is disabled, the new media engine (MSIX) installation fails. This issue is fixed in the Windows October cumulative update KB5031455:
@@ -360,7 +360,7 @@ The new solution for VDI stores user-specific data on the endpoint in the follow
 > Locked-down thin clients must allow these locations to be read/write, otherwise the new optimization might fail. For older Windows 10 1809 Thin Clients (such as Dell Wyse 5070 and similar models), the folder location for SlimCore profile is
 `C:\Users\<user>\AppData\Local\Packages\Microsoft.Teams.SlimCoreVdi.win-<architecture>.<version>_8wekyb3d8bbwe\LocalCache\`.
 
-Logs, configurations, and AI or ML models (used in noise suppression, bandwidth estimation, etc.) are saved in this location. If these folders are purged after a user signs out (for example, locked-down thin clients without roaming profiles), MsTeamsVdi.exe recreates them and downloads the user-specific configuration (about 6 MB of data).
+Logs, configurations, and AI or ML models (used in noise suppression, bandwidth estimation, etc.) are saved in this location. If these folders are purged after a user signs out (for example, locked-down thin clients without roaming profiles), MsTeamsVdi.exe recreates them and downloads the user-specific configuration (about 12 MB of data). User-specific data can grow to ~100 MB (including ~60 MB for logs).
 
 ### SlimCore installation and upgrade process in locked down Thin Client environments (optional)
 
@@ -411,7 +411,7 @@ Customers with Thin Clients that have [Unified Write Filters](/windows/configura
 ### Known issues
 
 - AVD RemoteApps and Citrix Published Apps aren't supported at this time.
-- Screen Capture Protection (SCP) causes the presenter's screen to show as a black screen with only the mouse cursor on top it (as seen by the receiving side).
+- Screen Capture Protection (SCP) causes the presenter's screen to show as a black screen with only the mouse cursor on top it (as seen by the receiving side). This has been fixed in Teams 25060.205.3499.6849 and Remote Desktop client 1.2.6081 or Windows app 2.0.379.
 - Calls drop on Teams running on the local machine that has an HID peripheral connected if a user launches a virtual desktop from that same local machine and logs into Teams. This can also happen if the user had an active virtual desktop and launches a second one that has Teams installed (or other Unified Communications apps that use optimization).
 - Camera self preview isn't supported at this time (either under Settings/Devices, or while on a call when selecting the down arrow on the camera icon).
 - In the Control Panel/Apps/Installed apps of the endpoint, users will see multiple "Microsoft Teams VDI" entries (one for every Slimcore package installed).
@@ -458,7 +458,8 @@ Users who have App Protection enabled can still share their screen and apps whil
 
 #### AVD Screen Capture Protection and Microsoft Teams compatibility
 
-Users who have [Screen Capture Protection](/azure/virtual-desktop/screen-capture-protection?tabs=intune) (SCP) enabled can't share their screens or apps. Other people on the call can only see a black screen. If you want to allow users to share their screen even with SCP enabled, you need to disable SlimCore optimization in the Teams Admin Center policy (so the user is optimized with WebRTC), and set the SCP policy to **Block screen capture on client**.
+Users who have [Screen Capture Protection](/azure/virtual-desktop/screen-capture-protection?tabs=intune) (SCP) enabled to block screen capture on the remote desktop client (**Block screen capture on client**) can still share their screen and apps while using the new SlimCore-based optimization for Microsoft Teams. Sharing requires the following minimum versions: Teams 25060.205.3499.6849, and Remote Desktop client 1.2.6081 or Windows App 2.0.379.
+Users on lower versions end up sharing a black screen instead when SCP is enabled.
 
 ### Peripherals in VDI
 
@@ -494,7 +495,7 @@ Json File Structure:
 -	VDI Optimization - vdiConnectedState.vdiMode indicates the optimization version (remains static for the duration of the VDI session)  
 -	Connected State - connectedStack (remote = optimized, local = not optimized) (remains static for the duration of the VDI session)
 -	SlimCore Version on the endpoint - remoteSlimcoreVersion
--	VdiBridge Versionon the VM - bridgeVersion
+-	VdiBridge Version on the VM - bridgeVersion
 -	MS Teams Plugin Version on the endpoint - pluginVersion
 -	Teams Version - vdiVersionInfo.teamsVersion
 -	Client Platform - vdiVersionInfo.clientPlatform
@@ -633,7 +634,7 @@ The code logged here needs to be mapped using this table:
 
 ## Using Event Viewer on the VM for troubleshooting
 
-Every connect/disconnect event gets logged in the Event Viewer running on the Virtual Machine. The Event Viewer can also display client-side related errors. Filter by Source (Microsoft Teams VDI) and Event ID (0). Error codes can be found in the [New Teams logs for VDI](#new-teams-logs-for-vdi) section.
+Every connect/disconnect event gets logged in the Event Viewer running on the Virtual Machine. The Event Viewer can also display client-side related errors. Filter by Source (Microsoft Teams VDI) and Event ID (0) under Windows Logs\Application. Error codes can be found in the [New Teams logs for VDI](#new-teams-logs-for-vdi) section.
 
 > [!NOTE]
 > In order to be able to filter by Source, you need to run this command from an elevated powershell window:

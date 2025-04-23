@@ -12,8 +12,6 @@
     - name: Move users between on-premises and cloud
       href: ../hybrid/move-users-between-on-premises-and-cloud.md
       items: 
-        - name: Move numbers from on-premises to Teams
-          href: ../hybrid/decommission-move-on-prem-phone-numbers.md
         - name: Move users from on-premises to Teams
           href: ../hybrid/move-users-from-on-premises-to-teams.md
         - name: Move users from the cloud to on premises
@@ -24,6 +22,8 @@
       items:
         - name: Overview
           href: ../hybrid/decommission-on-prem-overview.md
+        - name: Move numbers to the cloud
+          href: ../hybrid/decommission-move-on-prem-phone-numbers.md
         - name: Move users to the cloud
           href: ../hybrid/decommission-move-on-prem-users.md
         - name: Disable hybrid to complete migration to Teams Only

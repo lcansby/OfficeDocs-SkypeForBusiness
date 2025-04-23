@@ -225,8 +225,7 @@ When your tenant's admin center receives this feature, the following updates are
   
   * One security group is automatically created per custom app permission policy. All users assigned  to the app permission policy are assigned to the corresponding groups.
 
-  * After the migration, an Entra Global or Groups Administrator can view and manage the groups. We recommended assigning owners to each group.
-
+  * After the migration, an Entra Global or Groups Administrator can view and manage the groups. We recommend assigning owners to each group.
   * There is no change in app availability for users during the automatic migration, except where an app is allowed in the global app permission policy but blocked in the custom app permission policy for specific users. The app becomes allowed for everyone.
 
 ## Related articles

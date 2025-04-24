@@ -357,6 +357,8 @@ items:
           href: privacy/operator-connect-data-transfer.md
         - name: Intelligent recap
           href: privacy/intelligent-recap.md
+        - name: User location consent
+          href: privacy/user-location-data.md  
 
 - name: AI, Copilot, and agents in Teams
   items:

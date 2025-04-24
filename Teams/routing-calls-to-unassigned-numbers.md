@@ -46,7 +46,7 @@ You can configure routing of unassigned numbers by using the Teams admin center 
 
 1. Give the rule a name, a description, and specify the evaluation order for the rule.
 
-1. Decide which kind of rule you want to add. You can select rules where the type of phone number pattern is pre-configured, and you complete the pattern and the routing option. You can also select advanced setup, where you directly enter the regular expression for the phone number pattern and the routing option.
+1. Decide which kind of rule you want to add. You can select rules where the type of phone number pattern is preconfigured, and you complete the pattern and the routing option. You can also select advanced setup, where you directly enter the regular expression for the phone number pattern and the routing option.
 
 1. Select **Save**.
 
@@ -104,14 +104,14 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - To route calls to unassigned Microsoft Calling Plan service numbers, your tenant needs to have at least one **Microsoft Teams Phone Resource Account** license.
 
-- The custom audio file supported formats are WAV (uncompressed, linear PCM with 8/16/32-bit depth in mono or stereo), WMA (mono only), and MP3. The audio file content can't be more than 5 MB.
+- The custom audio file-supported formats are WAV (uncompressed, linear PCM with 8/16/32-bit depth in mono or stereo), WMA (mono only), and MP3. The audio file content can't be more than 5 MB.
 
 > [!NOTE]
-> You're responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service. This may include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders. Holders may include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations, and any other parties who own, control or license the music copyrights, sound effects, audio and other intellectual property rights.
+> You're responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service. This might include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders. Holders can include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations, and any other parties who own, control or license the music copyrights, sound effects, audio and other intellectual property rights.
 
 - Both inbound calls to Microsoft Teams and outbound calls from Microsoft Teams have the called number checked against the unassigned number range.
 
-- If a specified pattern/range contains phone numbers that are assigned to a user or resource account in the tenant, calls to these phone numbers are be routed to the appropriate target and not routed to the specified unassigned number treatment. There are no other checks of the numbers in the range. If the range contains a valid external phone number, outbound calls from Microsoft Teams to that phone number are routed according to the treatment.
+- If a specified pattern/range contains phone numbers that are assigned to a user or resource account in the tenant, calls to these phone numbers are routed to the appropriate target and not routed to the specified unassigned number treatment. There are no other checks of the numbers in the range. If the range contains a valid external phone number, outbound calls from Microsoft Teams to that phone number are routed according to the treatment.
 
 ## Related articles
 

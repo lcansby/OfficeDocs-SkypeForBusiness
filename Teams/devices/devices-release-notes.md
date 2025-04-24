@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: eviegrimshaw
-ms.date: 03/12/2025
+ms.date: 04/24/2025
 ms.topic: release-notes
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -39,7 +39,7 @@ To view feature updates for Microsoft Teams Rooms, go to:
 
 **Note:** This update introduces a new versioning format, moving away from using dates. Going forward, this format will be used 1449/1.0.94.*year of release.internal codes*
 
-- **Occupancy state** Teams panels can now smartly utilize signals from Teams Rooms devices or occupancy sensors paired with panels to indicate when a room is in use (e.g. LED glow), so you’re not surprised to find an available room is actually occupied. Requires a Teams Rooms Pro or Shared Devices. 
+- **Occupancy state** Teams panels can now smartly utilize signals from Teams Rooms devices or occupancy sensors paired with panels to indicate when a room is in use (e.g. LED glow), so you’re not surprised to find an available room is actually occupied. Requires a Teams Rooms Pro or Shared Devices. For more information, see [Occupancy state on Teams panels](/microsoftteams/devices/teams-panels-occupancy.md).
 
 ## April 2025
 

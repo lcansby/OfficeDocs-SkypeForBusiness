@@ -1,5 +1,5 @@
 ---
-title: Routing calls to unassigned numbers
+title: Configure routing options for unassigned phone numbers
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
@@ -23,10 +23,10 @@ f1.keywords:
   - CSH
 ms.custom: 
   - Calling Plans
-description: Learn how to route calls to unassigned numbers in your organization.
+description: Learn how to configure routing options for unassigned phone numbers in Microsoft Teams.
 ---
 
-# Routing calls to unassigned numbers
+# Configure routing options for unassigned phone numbers
 
 As an administrator, you can route calls to unassigned numbers in your organization. For example, you might want to route calls to unassigned numbers as follows:
 

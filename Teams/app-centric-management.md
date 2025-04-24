@@ -67,7 +67,12 @@ The method to allow users access to an app changes with this functionality. In t
 ## Migrate to app centric management
 
 > [!IMPORTANT]
+<<<<<<< Updated upstream
 > Starting from April 2025, tenants are automatically migrated to app centric management. After the migration, you won't have access to the migration wizard. However, until the auto migration is complete, you can use the wizard to complete the migration manually. If you've begun the migration but haven't completed it, your tenant can still be automatically migrated during the migration period. For more details about when your tenant is auto-migrated, see [Message Center post MC688930](https://admin.microsoft.com/Adminportal/Home#/MessageCenter/:/messages/MC688930).
+=======
+> Starting from April 2025, your tenant is automatically migrated to app centric management. After the migration, you can't access the migration wizard. However, until the migration is complete, you can use the wizard and have the option to complete the migration manually. For more information, see [understand the auto-migration process](#understand-the-auto-migration-process).
+
+>>>>>>> Stashed changes
 Previously, we automatically migrated organizations that weren't using any custom policies. Admins can now do an on-demand migration. Understand the difference between the two types of migration.
 
 | Type of migration | Who does it   | Requirement                             | How is it done                        |

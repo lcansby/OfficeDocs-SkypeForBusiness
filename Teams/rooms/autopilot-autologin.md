@@ -23,7 +23,7 @@ description: Learn how to set up and use the Windows Autopilot and Autologin fea
 
 # Windows Autopilot and Autologin for Teams Rooms on Windows
 
-You can use Windows  and Autologin to deploy, provision, reset, redeploy, and recover Teams Rooms on Microsoft Teams Rooms on Windows consoles in your organization.
+You can use Windows Autopilot and Autologin to deploy, provision, reset, redeploy, and recover Teams Rooms on Microsoft Teams Rooms on Windows consoles in your organization.
 
 Windows Autopilot with Autologin for Teams Rooms simplifies and accelerates the on-site deployment time for Teams Rooms consoles running Windows. The combination of these technologies removes the need for direct interaction with the Teams Rooms console during provisioning and deployment. Using Windows Autopilot and Autologin, there isn't a need for someone to physically interact with the Teams Room console to deploy it.
 

@@ -1,4 +1,4 @@
----
+by assi---
 ms.date: 04/22/2025
 title: Move phone numbers to the cloud
 author: MicrosoftHeidi
@@ -41,7 +41,7 @@ There are two methods for moving phone numbers from on-premises to online.
 
 In the seamless migration method, the only action required to move a phone number's management from on-premises to online is to begin administering number assignments using the Teams admin center or PowerShell.
 
-As administration tasks are performed on phone numbers online, the *online service configuration* for those numbers takes precedence over the *on-premises Active Directory configuration*. By assigning the number online, the on-premises Active Directory configuration offered in every following Directory Sync is rejected.
+As administration tasks are performed on phone numbers online, the *online service configuration* for those numbers takes precedence over the *on-premises Active Directory configuration*. After assigning the number online, the on-premises Active Directory configuration offered in every following Directory Sync is rejected.
 
 This designed precedence provides administrators with a seamless migration experience, requiring no action other than to continue managing the numbers online.
 
@@ -63,7 +63,7 @@ Uploaded phone numbers can be viewed in the Teams admin center under **Phone Num
 
 2. Under the **Numbers** tab, select **Add**.
 
-Adding phone numbers to your tenant and to Microsoft's telephone number management inventory is accomplished by creating an order request. By selecting **Add**, you are originating an order request that will create an order ID and launch the process of uploading your direct routing numbers. Follow the remaining steps to complete your order.
+Adding phone numbers to your tenant and to Microsoft's telephone number management inventory is accomplished by creating an order request. By selecting **Add**, you're originating an order request that creates an order ID and launch the process of uploading your Direct Routing numbers. Follow the remaining steps to complete your order.
 
 3. Give your order a **Name** and **Description**.
 
@@ -75,7 +75,7 @@ Adding phone numbers to your tenant and to Microsoft's telephone number manageme
 
 If you select **Add one to many phone numbers**, type or paste the phone numbers you wish to upload in the text field.
 
-If you are adding more than one phone number to this list, separate each number with a comma or a new line.
+If you're adding more than one phone number to this list, separate each number with a comma or a new line.
 
 #### Add phone number range
 
@@ -114,11 +114,11 @@ To evaluate the details of the Directory Sync behavior when working with numbers
 
 |Existing On-premises Configuration |Next Online Administration Operation |Result Operation |Result of Future On-premises Sync |
 |:-----|:-----|:-----|:-----|
-|User A has "1111". </br>"2222" is unassigned and controlled by online service configuration. |Assign "2222" to User A. |Operation success. Number assignment to User A is now controlled by online service configuration. |Sync fails for User A. |
+|User A has "1111". </br>"2222" is unassigned and controlled by online service configuration. |Assign "2222" to User A. |Operation success. Online service configuration now controls number assignment (to User A). |Sync fails for User A. |
 |User A has "1111". |Assign "1111" to User B, without first unassigning from User A. |Operation fails. "1111" is already assigned to User A. |Sync success. No change was made to User A or "1111". |
-|User A has "1111". |Unassign "1111" from User A and assigned to User B. |Operation success. Number assignment to User B is now controlled by online service configuraiton. |Sync fails for User A and User B. |
+|User A has "1111". |Unassign "1111" from User A and assigned to User B. |Operation success. Online service configuration now controls number assignment (to User B). |Sync fails for User A and User B. |
 |User A has "1111". |Unassign "1111" from User A |Operation failure. Number unassignment of an on-premises number (without simultaneously assigning to another user) isn't supported online. |Sync success. No change was made to User A or "1111". |
-|User A has "1111". |Upload "1111" to your tenant. |Operation success. Number assignment to User A is now controlled by online service configuration. |Sync fails for User A. |
+|User A has "1111". |Upload "1111" to your tenant. |Operation success. Online service configuration now controls number assignment (to User A). |Sync fails for User A. |
 
 ## See also
 

@@ -1,5 +1,5 @@
 ---
-title: "Call park and retrieve in Microsoft Teams"
+title: "Configure call park and retrieve in Microsoft Teams"
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
@@ -24,10 +24,10 @@ ms.custom:
  - Phone System
  - ms.teamsadmincenter.callparkpolicies.overview
  - seo-marvel-apr2020
-description: Learn about how to use call park and retrieve to place a call on hold in Microsoft Teams.
+description: Learn about how to configure call park and retrieve to place a call on hold in Microsoft Teams.
 ---
 
-# Configure Call park and retrieve
+# Configure call park and retrieve
 
 Call park and retrieve lets a user place a call on hold. When a call is parked, the service generates a unique code for call retrieval. The user who parked the call or someone else can then use that code with a supported app or device to retrieve the call. For more information on how your users can park a call, see [Park a call in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
 

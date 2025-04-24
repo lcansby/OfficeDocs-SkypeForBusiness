@@ -35,6 +35,14 @@ To view feature updates for Microsoft Teams Rooms, go to:
 
 ## April 2025
 
+**Applies to:** *Teams app version: 1449/1.0.97.2025086303*
+
+**Note:** This update introduces a new versioning format, moving away from using dates. Going forward, this format will be used 1449/1.0.94.*year of release.internal codes*
+
+- **Occupancy state** Teams panels can now smartly utilize signals from Teams Rooms devices or occupancy sensors paired with panels to indicate when a room is in use (e.g. LED glow), so you’re not surprised to find an available room is actually occupied. Requires a Teams Rooms Pro or Shared Devices. 
+
+## April 2025
+
 **Applies to:** *Teams app version: 1449/1.0.97.2025031901*
 
 - AOSP resiliency fixes. 

@@ -1420,7 +1420,7 @@ items:
           href: what-are-dial-plans.md
         - name: Create and manage dial plans
           href: create-and-manage-dial-plans.md
-        - name: Route calls to unassigned numbers
+        - name: Routing options for unassigned phone numbers
           href: routing-calls-to-unassigned-numbers.md
 
     - name: Network settings and topology

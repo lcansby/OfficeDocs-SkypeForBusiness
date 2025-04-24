@@ -1,13 +1,14 @@
 ---
 title: "Call park and retrieve in Microsoft Teams"
-author: sfrancis206
-ms.author: scottfrancis
+author: mkbond007
+ms.author: mabond
 manager: pamgreen
 ms.reviewer: roykuntz
-ms.date: 12/14/2023
+ms.date: 04/24/2025
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-calling
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -47,8 +48,8 @@ You can specify a timeout as the number of seconds to wait before ringing back w
 To configure call park and retrieve, you must be a Teams administrator. Call park and retrieve is turned off by default. You can enable it for users and create user groups by using the call park policy. Assign the same call park policy to users who need to park and retrieve calls amongst themselves.  
 
 > [!NOTE]
-> When users are **not** assigned the same call park policy, retrieving parked calls will fail.
-> 
+> When users are **not** assigned the same call park policy, retrieving parked calls fails.
+>
 > Call park and retrieve is only available in [Teams Only deployment mode](teams-and-skypeforbusiness-coexistence-and-interoperability.md). It isn't supported on Skype for Business IP phones.
 
 You can configure call park and retrieve by using the Teams admin center or by using PowerShell.

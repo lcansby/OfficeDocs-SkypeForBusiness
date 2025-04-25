@@ -1172,16 +1172,6 @@ items:
               href: caller-id-policies.md
             - name: More about Calling Line ID and Calling Party Name
               href: more-about-calling-line-id-and-calling-party-name.md
-        - name: Dial plans and routing
-          items: 
-            - name: Overview
-              href: dial-plans-routing-overview.md
-            - name: What are dial plans?
-              href: what-are-dial-plans.md
-            - name: Create and manage dial plans
-              href: create-and-manage-dial-plans.md
-            - name: Route calls to unassigned numbers
-              href: routing-calls-to-unassigned-numbers.md
         - name: Shared Calling
           items:
             - name: Plan for Shared Calling
@@ -1418,6 +1408,16 @@ items:
           href: sms-privacy-terms-template.md
         - name: Microsoft policy for SMS in Teams
           href: sms-microsoft-teams-policy.md
+    - name: Dial plans and routing
+      items: 
+        - name: Overview
+          href: dial-plans-routing-overview.md
+        - name: What are dial plans?
+          href: what-are-dial-plans.md
+        - name: Create and manage dial plans
+          href: create-and-manage-dial-plans.md
+        - name: Route calls to unassigned numbers
+          href: routing-calls-to-unassigned-numbers.md
     - name: Emergency calling
       items: 
         - name: Plan and manage emergency calling

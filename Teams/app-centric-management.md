@@ -228,11 +228,10 @@ When your tenant's admin center receives this feature, the following updates are
 
 * You can't update app availability in bulk, but you can use PowerShell to do so.
 
-* During the migration, create one security group per custom app permission policy. All users assigned to the app permission policy are assigned to the corresponding groups.
-
-* After the migration, you can view and manage the groups.
-
-* There is no change of app permissions during the migration, except where an app is allowed in the global policy but blocked in the custom app permission policy. Here, the app is allowed for all users in the group. This is the only instance where there is a change in app permissions in the tenant.
+* Details of automatic migration for app permission policies.
+    * During the migration, create one security group per custom app permission policy. All users assigned to the app permission policy are assigned to the corresponding groups.
+    * After the migration, you can view and manage the groups.
+    * There is no change of app permissions during the migration, except where an app is allowed in the global policy but blocked in the custom app permission policy. Here, the app is allowed for all users in the group. This is the only instance where there is a change in app permissions in the tenant.
 
 ## Related articles
 

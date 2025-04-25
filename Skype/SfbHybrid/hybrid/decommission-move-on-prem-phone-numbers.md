@@ -36,24 +36,13 @@ This guidance can be performed at any time before [Clearing Skype for Business a
 
 There are two methods for moving phone numbers from on-premises to online.
 
-1. Seamless migration method
-1. Manually uploading numbers
-
-## Seamless migration
-
-In the seamless migration method, the only action required to move a phone number's management from on-premises to online is to begin administering number assignments using the Teams admin center or PowerShell.
-
-As administration tasks are performed on phone numbers online, the *online service configuration* for those numbers takes precedence over the *on-premises Active Directory configuration*. After assigning the number online, the on-premises Active Directory configuration offered in every following Directory Sync is rejected.
-
-This designed precedence provides administrators with a seamless migration experience, requiring no action other than to continue managing the numbers online.
-
-All admin changes related to phone number assignments, made online, are honored for online operations.
-
-Electing to administer number assignments online is optional. If you prefer, you can still manage number assignment with on-premises administrative tools. The option to use online tools to assign a number to a user automatically uploads the number to Microsoft's telephone number management inventory (if it's not already there) and automatically promotes Teams to control the service configuration of the number.
+1. Manually upload numbers
+1. Use PowerShell cmdlet Set-CsPhoneNumberAssignment
+1. Begin administering phone numbers online
 
 ## Uploading Direct Routing numbers to your tenant
  
-Uploading your Direct Routing phone numbers to Microsoft's telephone number management inventory is optional.
+Uploading your Direct Routing phone numbers to Microsoft's telephone number management inventory is optional. However, if you want to administer your phone numbers online, this is the preferred method to convert on-premises Direct Routing number to online Direct Routing number.
 
 Once uploaded, Teams controls the service configuration of the numbers and the on-premises Active Directory configuration offered in every following Directory Sync is rejected.
 
@@ -110,7 +99,35 @@ View the order status of numbers you uploaded with PowerShell by using the [Get-
 ```PowerShell
  Get-CsOnlineTelephoneNumberOrder -OrderType DirectRoutingNumberCreation -OrderId <orderId>
 ```
+## PowerShell Set-CsPhoneNumberAssignment
+
+
+[Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment). 
+
+## Seamless migration method
+
+> [!Note]
+> Before beginning this process, ensure user has proper online, Teams Phone licensing.
+
+In the seamless migration method, the only action required to move a phone number's management from on-premises to online is to begin administering number assignments using the Teams admin center or PowerShell.
+
+As administration tasks are performed on phone numbers online, the *online service configuration* for those numbers takes precedence over the *on-premises Active Directory configuration*.
+
+This designed precedence provides administrators with a seamless migration experience, requiring no action other than to continue managing the numbers online.
+
+All admin changes related to phone number assignments, made online, are honored for online operations.
+
+Making any changes in Teams admin center to any phone number assignmnent converts the number from a on-premises Direct Routing number to an online Direct Routing number.
+
+Electing to administer number assignments online is optional. If you prefer, you can still manage number assignment with on-premises administrative tools. The option to use online tools to assign a number to a user automatically uploads the number to Microsoft's telephone number management inventory (if it's not already there) and automatically promotes Teams to control the service configuration of the number.
+
 ## Considerations
+
+Once a phone number is migrated to online, you can't manage that phone number using on-premises tools any longer. If you need to manage the number on-premises, you can remove the telephone number from online, and add it back to your on-premises Active Directory.
+
+After assigning the number online, the on-premises Active Directory configuration offered in every following Directory Sync is rejected. Once your numbers are migrated to online, stop Active Directory Sync for those numbers.
+
+If you want to manage your Direct Routing phone numbers online, stop Directory Sync for those phone numbers, otherwise DirSync will overrride
 
 To evaluate the details of the Directory Sync behavior when working with numbers that were migrated to online, see the following table:
 

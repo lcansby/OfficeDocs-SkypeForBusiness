@@ -34,10 +34,9 @@ This guidance can be performed at any time before [Clearing Skype for Business a
 
 ## Uploading numbers to online
 
-There are three methods for moving phone numbers from on-premises to online.
+There are two methods for moving phone numbers from on-premises to online.
 
 1. Manual upload method
-1. PowerShell method
 1. Administer phone numbers online method
 
 ## Manual upload method
@@ -84,7 +83,7 @@ Download a template by selecting **Download a sample CSV file with Direct Routin
 
 7. Select **Confirm**, then select **Finish**
 
-## PowerShell method
+### PowerShell method
 
 To upload Direct Routing telephone numbers to Microsoft's telephone number management inventory, use the [New-CsOnlineDirectRoutingTelephoneNumberUploadOrder](/powershell/module/teams/new-csonlinedirectroutingtelephonenumberuploadorder) cmdlet.
 

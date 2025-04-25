@@ -34,13 +34,13 @@ This guidance can be performed at any time before [Clearing Skype for Business a
 
 ## Uploading numbers to online
 
-There are two methods for moving phone numbers from on-premises to online.
+There are three methods for moving phone numbers from on-premises to online.
 
-1. Manually upload numbers
-1. Use PowerShell cmdlet Set-CsPhoneNumberAssignment
-1. Begin administering phone numbers online
+1. Manual upload method
+1. PowerShell method
+1. Administer phone numbers online method
 
-## Uploading Direct Routing numbers to your tenant
+## Manual upload method
  
 Uploading your Direct Routing phone numbers to Microsoft's telephone number management inventory is optional. However, if you want to administer your phone numbers online, this is the preferred method to convert on-premises Direct Routing number to online Direct Routing number.
 
@@ -84,7 +84,7 @@ Download a template by selecting **Download a sample CSV file with Direct Routin
 
 7. Select **Confirm**, then select **Finish**
 
-### Use PowerShell
+## PowerShell method
 
 To upload Direct Routing telephone numbers to Microsoft's telephone number management inventory, use the [New-CsOnlineDirectRoutingTelephoneNumberUploadOrder](/powershell/module/teams/new-csonlinedirectroutingtelephonenumberuploadorder) cmdlet.
 
@@ -99,17 +99,13 @@ View the order status of numbers you uploaded with PowerShell by using the [Get-
 ```PowerShell
  Get-CsOnlineTelephoneNumberOrder -OrderType DirectRoutingNumberCreation -OrderId <orderId>
 ```
-## PowerShell Set-CsPhoneNumberAssignment
 
-
-[Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment). 
-
-## Seamless migration method
+## Administer phone numbers online method
 
 > [!Note]
-> Before beginning this process, ensure user has proper online, Teams Phone licensing.
+> Before beginning this process, ensure user has proper Teams Phone licensing.
 
-In the seamless migration method, the only action required to move a phone number's management from on-premises to online is to begin administering number assignments using the Teams admin center or PowerShell.
+In the administer phone numbers online method, the only action required to move a phone number's management from on-premises to online is to begin administering number assignments using the Teams admin center or PowerShell.
 
 As administration tasks are performed on phone numbers online, the *online service configuration* for those numbers takes precedence over the *on-premises Active Directory configuration*.
 
@@ -118,6 +114,8 @@ This designed precedence provides administrators with a seamless migration exper
 All admin changes related to phone number assignments, made online, are honored for online operations.
 
 Making any changes in Teams admin center to any phone number assignmnent converts the number from a on-premises Direct Routing number to an online Direct Routing number.
+
+Using the PowerShell cmdlet [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) is also supported.
 
 Electing to administer number assignments online is optional. If you prefer, you can still manage number assignment with on-premises administrative tools. The option to use online tools to assign a number to a user automatically uploads the number to Microsoft's telephone number management inventory (if it's not already there) and automatically promotes Teams to control the service configuration of the number.
 

@@ -52,7 +52,7 @@ Normalization rules use .NET Framework regular expressions to specify numeric ma
 
 For details about using .NET Framework regular expressions, see [.NET Framework Regular Expressions](/dotnet/standard/base-types/regular-expressions).
 
-For validating regular expressions, see [Regex101 (an interactive tool for testing and learning regular expressions)](https://regex101.com/)
+For validating regular expressions, see [Regex101 (an interactive tool for testing and learning regular expressions)](https://regex101.com/(https://regex101.com/))
 
 See [Create and manage dial plans](create-and-manage-dial-plans.md) to create and manage normalization rules for your tenant dial plans.
 
@@ -104,4 +104,4 @@ The following table shows sample normalization rules that are written as .NET Fr
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
-[Emergency Calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(v.1.0).zip)
+[Emergency Calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip)

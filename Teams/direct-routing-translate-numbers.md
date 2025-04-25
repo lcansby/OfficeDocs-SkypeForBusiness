@@ -1,7 +1,7 @@
 ---
 title: "Translate phone numbers for Direct Routing"
 ms.reviewer: filippse
-ms.date: 02/13/2020
+ms.date: 04/25/2025
 ms.author: scottfrancis
 author: sfrancis206
 manager: pamgreen
@@ -143,3 +143,5 @@ SBC is configured to use non-E.164 four-digit numbers for Teams users and ten-di
 [Plan Direct Routing](direct-routing-plan.md)
 
 [Configure Direct Routing](direct-routing-configure.md)
+
+[Dial plans and rounting](dial-plans-routing-overview.md)

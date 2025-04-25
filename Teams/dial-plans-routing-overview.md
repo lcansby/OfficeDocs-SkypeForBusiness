@@ -156,6 +156,8 @@ For more information, see [Direct Routing voice routing policy considerations](d
 
 [Normalization rules](phone-normalization-rules.md)
 
+[Direct Routing trunk translation rules](direct-routing-translate-numbers.md)
+
 [Route calls to unassigned numbers](routing-calls-to-unassigned-numbers.md)
 
 [PSTN connectivity options](pstn-connectivity.md)

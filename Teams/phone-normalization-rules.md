@@ -3,8 +3,8 @@ title: "Normalization rules for Microsoft Teams dial plans"
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.reviewer: mikedav, roykuntz
-ms.date: 03/31/2025
+ms.reviewer: roykuntz
+ms.date: 04/25/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams

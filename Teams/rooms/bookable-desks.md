@@ -75,7 +75,7 @@ Wait 24 hours after associating to test this experience. After that point, ensur
 
 ## Step 6 - Review data in usage reports 
 
-Once the end-user experience is working, you can start to review reports to learn more on how your desk pools or individual desks are being used. Desk usage reports are located in the Teams Rooms Pro Managements portal > Reports > Desks usage.   
+Once the end-user experience is working, you can start to review reports to learn more on how your desk pools or individual desks are being used. Desk usage reports are located in the Teams Rooms Pro Management portal > Reports > Desks usage.   
 
 The top metrics listed are described in the following table: 
 

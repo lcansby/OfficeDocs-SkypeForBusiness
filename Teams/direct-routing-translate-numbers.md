@@ -36,8 +36,8 @@ Sometimes tenant administrators may want to change the number for outbound and/o
 
 You can use the Number Translation Rules policy to translate numbers for the following:
 
-- Inbound calls: Calls from a PSTN endpoint (caller) to a Teams client (callee)
 - Outbound calls: Calls from a Teams client (caller) to a PSTN endpoint (callee)
+- Inbound calls: Calls from a PSTN endpoint (caller) to a Teams client (callee)
 
 ## Route-based number translations - for outbound calls
 

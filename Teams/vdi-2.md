@@ -48,7 +48,7 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 ### Step 1: Confirm prerequisites
 
 1. Make sure you have the new Microsoft Teams version 24193.1805.3040.8975 or higher (for Azure Virtual Desktop/Windows 365), and 24295.605.3225.8804 or higher for Citrix.
-1. [Enable the new Teams policy](#microsoft-teams-PowerShell-policy-for-optimization) **if necessary** for a specific user group (it's enabled by default at a Global org-wide level).
+1. [Enable the new Teams policy](#microsoft-teams-powershell-policy-for-optimization) **if necessary** for a specific user group (it's enabled by default at a Global org-wide level).
 1. For Citrix, you must configure the **Virtual channel allow list** as described in the [Citrix Virtual channel allow list](#citrix-virtual-channel-allow-list) section of this article.
 
 ### Step 2: Plugin installation on the endpoint
@@ -431,7 +431,7 @@ Organizations in Microsoft’s Public, GCC (Government Community Cloud), GCCH (G
 The following scenarios are supported:
  
 - **Cross Cloud Anonymous** allows the scenario where a user is signed into Cloud A in Teams, and joins a meeting in a different Cloud B anonymously. Check [Manage anonymous participant access to Teams meetings, webinars, and town halls (IT admins)](/microsoftteams/anonymous-users-in-meetings) for more details.
-- **Cross-cloud Guest Access** extends functionality to allow a user to participate in rich collaboration experiences in teams, channels, documents and Teams meetings for a full experience including audio/video optimization, screen share, file share and both 1:1 and 1:n chat. Check [here](/microsoft-365/solutions/collaborate-guests-cross-cloud?view=o365-worldwide) for more details.
+- **Cross-cloud Guest Access** extends functionality to allow a user to participate in rich collaboration experiences in teams, channels, documents and Teams meetings for a full experience including audio/video optimization, screen share, file share and both 1:1 and 1:n chat. Check [here](/microsoft-365/solutions/collaborate-guests-cross-cloud?view=o365-worldwide&preserve-view=true) for more details.
 - **Cross-cloud authenticated meeting join** delivers the ability for a Teams user to join a meeting in another cloud while signed into their account in their home tenant. This feature provides the meeting host the ability to validate the identities of meeting participants without granting those participants any access to the host tenant.
  
 Mimimum versions: Teams 25060.205.3499.6849. Remote Desktop Client 1.2.6186. Citrix Plugin 2024.41.1.1.

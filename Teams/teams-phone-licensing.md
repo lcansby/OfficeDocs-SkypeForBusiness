@@ -142,8 +142,6 @@ If you elect to use Microsoft to provide your PSTN access and phone numbers, in 
 
 If you elect to use a PSTN operator other than Microsoft, then Microsoft doesn't require other licensing because the PSTN costs are incurred from your preferred operator.
 
-There is no extra Microsoft licensing cost to integrate third-party PSTN operators with your Teams tenant.
-
 To learn more, see [PSTN connectivity options](pstn-connectivity.md).
 
 The ***Teams Phone with Calling Plan*** license bundle is Microsoft’s all-in-the-cloud solution. This option provides Private Branch Exchange (PBX) capabilities and external calls to the Public Switched Telephone Network (PSTN) with Microsoft as your carrier. If the Teams Phone with Calling Plan bundle is available in your location and you don't already have a ***Microsoft 365 E5*** or ***Office 365 E5*** license that includes the **Microsoft 365 Phone System** application, you should consider this option. But if your PSTN calling requirements are more complex, Microsoft supports several third-party PSTN connectivity options for making external calls.
@@ -152,9 +150,9 @@ The ***Teams Phone with Calling Plan*** license bundle is Microsoft’s all-in-t
 
 Microsoft Teams can support multiple users sharing a single phone number. In this scenario, a resource account is provisioned with Teams Phone and a telephone number, and then you grant a policy to users that allows them to access the phone number of the licensed resource account to make outbound calls.
 
-With Shared Calling, end users don't need a dedicated phone number or a calling plan. They only require licensing described in [Licensing Teams Phone for end users](#licensing-teams-phone---for-end-users).
+With Shared Calling, end users don't need a dedicated phone number or a calling plan. They only require a license for Teams Phone, as described in [Licensing Teams Phone for end users](#licensing-teams-phone---for-end-users).
 
-Shared Calling is a cost-effective way to give users a way to make outbound calls, without allocating a calling plan and a phone number to every user.
+Shared Calling is a cost-effective way to give users a way to make outbound calls, without allocating a calling plan and a phone number to every user. If a Microsoft service number is used for the Shared Calling resource account, then the Shared Calling resource account requires a Microsoft pay-as-you-go calling plan license assigned.
 
 To learn more about Shared Calling, see [Plan for Shared Calling](shared-calling-plan.md).
 

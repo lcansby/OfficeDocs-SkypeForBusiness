@@ -124,17 +124,6 @@ Once a phone number is migrated to online, you can't manage that phone number us
 
 After assigning the number online, the on-premises Active Directory configuration offered in every following Directory Sync is rejected. Once your numbers are migrated to online, stop Active Directory Sync for those numbers.
 
-If you want to manage your Direct Routing phone numbers online, stop Directory Sync for those phone numbers, otherwise DirSync will overrride
-
-To evaluate the details of the Directory Sync behavior when working with numbers that were migrated to online, see the following table:
-
-|Existing On-premises Configuration |Next Online Administration Operation |Result Operation |Result of Future On-premises Sync |
-|:-----|:-----|:-----|:-----|
-|User A has "1111". </br>"2222" is unassigned and controlled by online service configuration. |Assign "2222" to User A. |Operation success. Online service configuration now controls number assignment (to User A). |Sync fails for User A. |
-|User A has "1111". |Upload "1111" to your tenant. |Operation success. Online service configuration now controls number assignment (to User A). |Sync fails for User A. |
-|User A has "1111". |Run Set-CsPhoneNumberAssignment cmdlet, with parameter -PhoneNumberType *DirectRouting*. |Operation success. Online service configuration now controls number assignment (to User A). |Sync fails for User A. |
-|User A has "1111". |Unassign "1111" from User A. |Operation failure. Number unassignment/reassignment of an on-premises number isn't supported online. |Sync success. No change was made to User A or "1111". |
-
 ## See also
 
 - [Move users to the cloud](decommission-move-on-prem-users.md)

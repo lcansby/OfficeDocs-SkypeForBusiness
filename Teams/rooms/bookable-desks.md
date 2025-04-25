@@ -63,7 +63,7 @@ After you create the account, allow 24 to 48 hours for the account to appear in 
 
 Next, to ensure a seamless user experience, peripherals such as the monitors on the physical desks need to be associated or linked to the desk pool or individual desk account you created earlier. To do this, you need to identify the peripherals based on their unique information such as product ID, vendor ID, and serial number.
 
-You can use a free PowerShell script to fetch the details of a peripheral and ensure they're mapped to the corresponding desk pool or individual desk accounts in the Teams Rooms Pro Management portal. The PowerShell script is located [here ](https://www.microsoft.com/en-us/download/details.aspx?id=106063)to download, and for detailed step-by-step instructions, see [Add peripherals to inventory](/microsoftteams/rooms/get-peripheral-information).
+You can use a free PowerShell script to fetch the details of a peripheral and ensure they're mapped to the corresponding desk pool or individual desk accounts in the Teams Rooms Pro Management portal. The PowerShell script is located [here ](https://www.microsoft.com/download/details.aspx?id=106063)to download, and for detailed step-by-step instructions, see [Add peripherals to inventory](/microsoftteams/rooms/get-peripheral-information).
 
 ## Step 4 - Enable additional features for users
 
@@ -71,7 +71,7 @@ You have the option to [enable the automatic work location update policy](/power
 
 ## Step 5 - Test the end user experience
 
-Wait 24 hours after associating to test this experience. After that point, ensure that you're signed into Teams on a Windows or Mac laptop. Upon plugging the laptop into a peripheral you associated to a desk pool or individual desk account and assuming there is availability to book, you should receive an activity feed notification that 'The [space or desk] is reserved and ready for you' along with a booking in your calendar. You can also reserve the desk for a future time slot. To learn more on the end user experience, see [First things to know about bookable desks in Microsoft Teams](https://support.microsoft.com/en-us/office/first-things-to-know-about-bookable-desks-in-microsoft-teams-5d10c217-1205-48a1-a883-ff4533f4ae71?preview=true).
+Wait 24 hours after associating to test this experience. After that point, ensure that you're signed into Teams on a Windows or Mac laptop. Upon plugging the laptop into a peripheral you associated to a desk pool or individual desk account and assuming there is availability to book, you should receive an activity feed notification that 'The [space or desk] is reserved and ready for you' along with a booking in your calendar. You can also reserve the desk for a future time slot. To learn more on the end user experience, see [First things to know about bookable desks in Microsoft Teams](https://support.microsoft.com/office/first-things-to-know-about-bookable-desks-in-microsoft-teams-5d10c217-1205-48a1-a883-ff4533f4ae71?preview=true).
 
 ## Step 6 - Review data in usage reports 
 
@@ -157,7 +157,7 @@ The inventory management permission in Teams Rooms Pro Management portal allows 
 
 **Question:** **Is the bookable desks feature available on Classic (old Teams) and new Teams?**
 
-**Answer**: No, the bookable desk experience is only available on the new Teams client. To download and switch to the latest Teams client see, [New Microsoft Teams](https://adoption.microsoft.com/en-us/new-microsoft-teams/).
+**Answer**: No, the bookable desk experience is only available on the new Teams client. To download and switch to the latest Teams client see, [New Microsoft Teams](https://adoption.microsoft.com/new-microsoft-teams/).
 
 **Question: Does Bookable** **desks work with Microsoft Places?**
 

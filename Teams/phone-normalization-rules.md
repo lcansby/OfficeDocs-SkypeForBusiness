@@ -52,7 +52,7 @@ Normalization rules use .NET Framework regular expressions to specify numeric ma
 
 For details about using .NET Framework regular expressions, see [.NET Framework Regular Expressions](/dotnet/standard/base-types/regular-expressions).
 
-For validating regular expressions, see [Regex101 (an interactive tool for testing and learning regular expressions)](https://regex101.com/(https://regex101.com/))
+For validating regular expressions, see [Regex101 (an interactive tool for testing and learning regular expressions)](https://regex101.com/)
 
 See [Create and manage dial plans](create-and-manage-dial-plans.md) to create and manage normalization rules for your tenant dial plans.
 

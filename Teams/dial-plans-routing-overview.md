@@ -4,7 +4,7 @@ author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: roykuntz
-ms.date: 03/31/2025
+ms.date: 04/25/2025
 ms.topic: article
 ms.assetid: aa2ec464-3481-4bbb-8c14-e13e18093df5
 ms.tgt.pltfrm: cloud
@@ -31,8 +31,7 @@ description: "Learn about Microsoft Teams dial plans and how they help route pho
 
 This article is for IT Admins and IT Pros who are researching and planning to use:
 
-- Teams dial plans (with normalization rules) for ensuring user-dialed numbers get processed into a standard phone number format
-- Trunk number translation rules, for adapting numbers to expected formats as negotiated between Teams and a Direct Routing integration with the PSTN (Public Switched Telephone Network).
+- Teams dial plans (with normalization rules) for ensuring user-dialed numbers get processed into a standard phone number format.
 
 An overview of outbound and inbound called number processing is provided for context in relation to how Teams translates called numbers so that they can be processed for routing to a person or to a PSTN resource.
 
@@ -40,9 +39,11 @@ Understand the concepts in this article are a prerequisite for [creating Teams d
 
 ## What are dial plans?
 
-Dial plans are what enables Teams to route phone calls, *regardless of how they were dialed*.
+Dial plans are what enables Teams to process and route phone calls dialed by users, *regardless of the number-format used when the user entered the numbers to dial*.
 
-A dial plan is a named set of one or more number-string translation rules that translate called number-strings into alternate (desired) formats, so that Teams can process and route the calls.
+For example, a Teams user may enter a dialed number that is familiar to them, such as 333-4444. With a dial plan, Teams can identify the number entered format and translate the dialed number into a standardized format, such as +1-222-333-4444, for further routing.
+
+A dial plan is a named set of one or more number-string translation rules that translate called number-strings into alternate (desired) formats.
 
 Teams dial plans ensure that numbers originating with various user-input formats are translated into standardized formats (typically E.164) for the purposes of matching called numbers to resources that the user is authorized to use, and for routing the calls.
 
@@ -101,7 +102,6 @@ There can be a maximum of 1,000 tenant dial plans per tenant.
 Number normalization in user effective dial plans behaves different than number translation in route-based rules. For example,
 
 - The Teams client normalizes numbers for all outbound calls, including calls placed from call history or from telephone-number links, based on user effective dial plans.
-- With route-based translation rules, the Teams service doesn't normalize numbers that start with "+".
 
 To learn more about route-based translation rules, see [Translate phone numbers in Direct Routing](direct-routing-translate-numbers.md).
 

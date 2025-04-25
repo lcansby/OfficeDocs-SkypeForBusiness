@@ -40,7 +40,7 @@ Clients are available for PC, Mac, and mobile, which provides features on device
 
 The features listed below indicate whether or not a license for Teams Phone is required.
 
-Microsoft Teams Enterprise includes native calling features, and Teams Phone unlocks even more features.
+The Microsoft Teams Enterprise license includes native calling features, and the Teams Phone license unlocks even more features.
 
 To review licensing scenarios, see [Teams Phone licensing](teams-phone-licensing.md).
 
@@ -92,9 +92,9 @@ Optional features are available to enhance your organization's Teams Phone exper
 
 **[SMS in Teams overview](sms-overview.md)**
 
-- Assign users with a number acquired through a Microsoft Calling Plan in the United States (including Puerto Rico) or Canada to provide SMS support.
+- Assign users with a number acquired through a Microsoft Calling Plan license in the United States (including Puerto Rico) or Canada to provide SMS support.
 
-**[Teams Premium and Copilot](intelligent-recap-calls-meetings.md)**
+**[Teams Premium](intelligent-recap-calls-meetings.md)**
 
 - Add Teams Premium and Microsoft 365 Copilot to Teams Phone to give end users enhanced capabilities:
   - Additional AI capabilities

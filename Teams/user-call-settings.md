@@ -28,7 +28,7 @@ description: Learn how to configure user settings for call forwarding and delega
 
 This article describes how you, the administrator, can change call forwarding and delegation settings for your users. This capability is sometimes referred to in the industry as *shared line appearance*.
 
-Shared line appearance in Teams, using call forwarding and delegation settings, lets a user choose a delegate to answer or handle calls on their behalf. This feature is helpful if a user has an administrative assistant who regularly handles the user's calls. In the context of shared line appearance, a manager is someone who authorizes a delegate to make or receive calls on their behalf. A delegate can make or receive calls on behalf of the delegator.
+A shared line appearance in Teams, using call forwarding and delegation settings, lets a user choose a delegate to answer or handle calls on their behalf. This feature is helpful if a user has an administrative assistant who regularly handles the user's calls. In the context of shared line appearance, a manager is someone who authorizes a delegate to make or receive calls on their behalf. A delegate can make or receive calls on behalf of the delegator.
 
 As a Teams administrator, you may receive a service reqeust to modify these user settings, for example, if:
 

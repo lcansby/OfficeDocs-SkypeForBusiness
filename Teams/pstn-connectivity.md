@@ -3,7 +3,7 @@ title: PSTN connectivity options
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.date: 03/12/2023
+ms.date: 04/25/2025
 ms.topic: article
 ms.service: msteams
 audience: admin

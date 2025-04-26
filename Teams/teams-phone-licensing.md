@@ -140,6 +140,8 @@ With PSTN access to your tenant and licensed users, Microsoft Teams Phone provid
 
 If you elect to use Microsoft to provide your PSTN access and phone numbers, in addition to Teams Phone licensing, the user also requires a Microsoft Calling Plan license. To learn more, see [Microsoft Calling Plans](calling-plans-for-office-365.md).
 
+If you have India PSTN requirements, a separate, India-specific Microsoft Teams Phone license from a licensed telecom operator in India is required. See [Plan Operator Connect for India](operator-connect-india-plan.md).
+
 If you elect to use a PSTN operator other than Microsoft, then Microsoft doesn't require other licensing because the PSTN costs are incurred from your preferred operator.
 
 To learn more, see [PSTN connectivity options](pstn-connectivity.md).

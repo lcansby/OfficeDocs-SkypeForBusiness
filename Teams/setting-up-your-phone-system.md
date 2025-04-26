@@ -93,6 +93,8 @@ Microsoft options for making external calls to the PSTN include:
 
 For more information about all connectivity options and which one is the best solution for your organization, see [PSTN connectivity options](pstn-connectivity.md) and [Voice and PSTN connectivity license options](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing#voice-and-pstn-connectivity).
 
+> [!Note]
+> For user migrations to PSTN, Shared Calling allows migrating large groups of users to Teams Phone without assigning phone numbers, but still allows users to make calls. Shared calling enables user migration as an effective first step in your migration and supports a phased approach to your Teams Phone road map. See [Shared Calling](shared-calling-plan.md).
 
 ## Step 3: Get and assign phone numbers for your users and services
 

@@ -45,10 +45,15 @@ The **Microsoft Teams Shared Devices** license includes the following service pl
 - Microsoft Teams Phone (Previously known as *Phone System*)
 - Microsoft Intune (Microsoft Intune Plan 1 and Plan 2)
 - Microsoft Entra ID P1
-- Exchange Online Plan (Cloud-based voicemail capabilities only.)
+- Exchange Online Plan 2 (Cloud-based voicemail capabilities only.)
+
+> [!NOTE]
+> The **Exchange Online (Plan 2)** license is only to support cloud voicemail.  Email and calendar is not supported.  If you don't want your Teams enabled shared device to have voicemail, you can deselect the Exchange Online (Plan 2) license, or disable the user account's voicemail using the following Teams PowerShell command:
+> ```
+> `Set-CsOnlineVoicemailUserSettings -Identity`` user1@contoso.com`` -VoicemailEnabled`` ``$false`
+> ```
 
 ## Teams Shared Devices license availability
-
 The **Teams Shared Devices** license is available to purchase worldwide to commercial, public sector, GCC, GCC High, and DoD tenants.
 
 To purchase the **Teams Shared Devices** license, you can choose your preferred purchasing channel: EA, EAS, EES, CSP, Web Direct, MCA - Customer led, and MCA - Partner led.

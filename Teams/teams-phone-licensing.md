@@ -98,7 +98,7 @@ Assigning the following license combinations are just a few examples that grant 
 - A legacy ***Microsoft 365 E5*** license - includes **Microsoft Teams** and **Microsoft 365 Phone System** applications
 - A ***Office 365 F3*** license combined with a ***Microsoft Teams Phone Standard for Frontline Workers*** license
 
-In the case where any Microsfot 365 E5 license is used, it isn't necessary to also assign the stand-alone ***Microsoft Teams Phone Standard*** license.
+In the case where any Microsoft 365 E5 license is used, it isn't necessary to also assign the stand-alone ***Microsoft Teams Phone Standard*** license.
 
 There are three variations on the ***Microsoft Teams Phone Standard*** license, each requiring the purchase of a Prerequisite License as listed in the following table:
 

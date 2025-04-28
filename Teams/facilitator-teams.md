@@ -30,7 +30,8 @@ description: Learn about how Facilitator in Microsoft Teams enables group collab
 > The following Facilitator capabilities are currently in public preview:
 >
 > - AI-generated notes for chats and meetings
-> - Moderator for meetings
+> - Time moderation for meetings
+> - Questions and answers for meetings
 >
 > Features in preview might not be complete and could undergo changes before becoming available in the public release. They're provided for evaluation and exploration purposes only.
 >

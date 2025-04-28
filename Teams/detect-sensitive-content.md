@@ -1,5 +1,5 @@
 ---
-title: Manage whether meetings in your organization can detect sensitive content
+title: Manage whether meetings in your organization can detect sensitive content during screen sharing
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
@@ -21,10 +21,10 @@ ms.collection:
   - m365initiative-meetings
   - highpri
   - Tier1
-description: Learn how to manage which organizers can use meeting chat for their Microsoft Teams town halls.
+description: Learn how to manage manage whether meetings in your organization can detect sensitive content for screen share.
 ---
 
-# Manage whether meetings in your organization can detect sensitive content
+# Manage whether meetings in your organization can detect sensitive content during screen sharing
 
 **APPLIES TO:** ![Image of a x for no](/office/media/icons/cancel-teams.png)Meetings ![Image of a x for no](/office/media/icons/cancel-teams.png)Webinars ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Town halls
 

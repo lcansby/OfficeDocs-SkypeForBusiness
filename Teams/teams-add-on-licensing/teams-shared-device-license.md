@@ -48,7 +48,7 @@ The **Microsoft Teams Shared Devices** license includes the following service pl
 - Exchange Online Plan 2 (Cloud-based voicemail capabilities only.)
 
 > [!NOTE]
-> The **Exchange Online (Plan 2)** license is only to support cloud voicemail.  Email and calendar is not supported.  If you don't want your Teams enabled shared device to have voicemail, you can deselect the Exchange Online (Plan 2) license, or disable the user account's voicemail using the following Teams PowerShell command:
+> The **Exchange Online (Plan 2)** license is only to support cloud voicemail.  Email and calendar are not supported.  If you don't want your Teams enabled shared device to have voicemail, you can deselect the Exchange Online (Plan 2) license, or disable the user account's voicemail using the following Teams PowerShell command:
 > ```
 > `Set-CsOnlineVoicemailUserSettings -Identity`` user1@contoso.com`` -VoicemailEnabled`` ``$false`
 > ```

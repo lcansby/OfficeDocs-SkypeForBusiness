@@ -26,7 +26,7 @@ description: Learn how to manage manage whether meetings in your organization ca
 
 # Manage whether meetings in your organization can detect sensitive content during screen sharing
 
-**APPLIES TO:** ![Image of a x for no](/office/media/icons/cancel-teams.png)Meetings ![Image of a x for no](/office/media/icons/cancel-teams.png)Webinars ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Town halls
+**APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Meetings ![Image of a x for no](/office/media/icons/cancel-teams.png) Webinars ![Image of a x for no](/office/media/icons/cancel-teams.png) Town halls
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
@@ -35,7 +35,7 @@ description: Learn how to manage manage whether meetings in your organization ca
 
 ## Overview
 
-As an admin, you can manage whether meetings in your organization can detect sensitive content. When you turn on the **Detect sensitive content during screen sharing** for organizers with a Teams Premium license, sensitive information like credit card and account numbers in shared screen content is identified during their meetings. When sensitive content is detected, both the presenter and the meeting organizer receive notifications to stop sharing. This added layer of protection helps safeguard sensitive data and minimizes accidental disclosure.
+As an admin, you can manage whether meetings in your organization can detect sensitive content during screen sharing. When you turn on the **Detect sensitive content during screen sharing** for organizers with a Teams Premium license, sensitive information like credit card and account numbers in shared screen content is identified during their meetings. When sensitive content is detected, both the presenter and the meeting organizer receive notifications to stop sharing. This added layer of protection helps safeguard sensitive data and minimizes accidental disclosure.
 
 We currently support the following sensitive content categories in English:
 

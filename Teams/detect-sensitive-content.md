@@ -68,7 +68,7 @@ To manage whether meetings in your organization can detect sensitive content in 
 5. Toggle the **Detect sensitive content during screen sharing** setting **On** (default) or **Off**.
 6. Select **Save**.
 
-## Data privacy and security
+## Data, privacy, and security
 
 [PLACEHOLDER] Freda, when the information is detected, is it stored anywhere? Are there any storage/compliance/security scenarios admins might need to be aware of?
 

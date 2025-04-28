@@ -76,4 +76,4 @@ To manage whether meetings in your organization can detect sensitive content in 
 
 - [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 - [Require end-to-end encryption for sensitive Teams meetings](end-to-end-encrypted-meetings.md)
-- [Require a watermark for sensitive Teams meetings](watermark-meeting-content-video)
+- [Require a watermark for sensitive Teams meetings](watermark-meeting-content-video.md)

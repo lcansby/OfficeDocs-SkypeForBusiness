@@ -106,7 +106,7 @@ The following registry keys could block new media engine MSIX package installati
 - AllowDevelopmentWithoutDevLicense
 
 > [!IMPORTANT]
-> Managed endpoints/thin clients where BlockNonAdminUserInstall is enabled can still allow SlimCore packages to install by applying KB5052094 (Windows 11 23H2 and 22H2) and KB5052093 (Windows 11 24H2), or any subsequent KB. This introduces a new Group Policy called "Allowed package family names for non-admin user install" in the Local Group Policy Editor. Administrators can then Allow list SlimCore packages by allowing a complete package familyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.43_8wekyb3d8bbwe) or use Regex (for example, Microsoft.Teams.SlimCoreVdi.*_8wekyb3d8bbwe)
+> Managed endpoints/thin clients where BlockNonAdminUserInstall is enabled can still allow SlimCore packages to install by applying KB5052094 (Windows 11 23H2 and 22H2), KB5052093 (Windows 11 24H2), KB5055612 (Windows 10 22H2), or any subsequent KB. This introduces a new Group Policy called "Allowed package family names for non-admin user install" in the Local Group Policy Editor. Administrators can then Allow list SlimCore packages by allowing a complete package familyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.43_8wekyb3d8bbwe) or use Regex (for example, Microsoft.Teams.SlimCoreVdi.*_8wekyb3d8bbwe)
 
 > [!IMPORTANT]
 > If AllowAllTrustedApps is disabled, the new media engine (MSIX) installation fails. This issue is fixed in the following Windows cumulative updates:
@@ -321,7 +321,7 @@ This policy is now expanded with an additional argument as the only configuratio
 |Feature                           |Available on SlimCore (Windows)                                 |Available on WebRTC (Windows) |
 |----------------------------------|----------------------------------------------------------------|------------------------------|
 |1080p                             |Yes                                                             |No                            |
-|Hardware acceleration on endpoint |Yes                                                             |No                            |
+|Hardware acceleration on endpoint |Yes <sup>2</sup>                                                |No                            |
 |Gallery View 3x3 and 7x7          |Yes                                                             |No                            |
 |Quality of Service                |Yes                                                             |No                            |
 |Noise suppression                 |Yes                                                             |Yes (AVD)                     |
@@ -345,6 +345,7 @@ This policy is now expanded with an additional argument as the only configuratio
 |Annotations                       |Only as presenter                                               |No                            |
 
 <sup>1</sup> Operator Connect in India with mobile numbers requires latitude and longitude access from the endpoint's OS and local internet breakout. Operator connect with wireline numbers can use IP or subnet to map to a location. For more details, check [Wireline and Wireless number types in India](operator-connect-india-plan.md#wireline-and-wireless-number-types-in-india).
+<sup>2</sup> Graphics hardware acceleration requires DirectX 9 or later, with WDDM 2.0 or higher for Windows 10 (or WDDM 1.3 or higher for Windows 10 Fall Creators Update).
 
 ## SlimCore user profile on the endpoint
 

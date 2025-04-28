@@ -55,7 +55,7 @@ For more information, see [Manage emergency calling](what-are-emergency-location
 
 3. Enter a name and description for the policy.
 
-4. To allow your end users to configure their emergency address when they are working from a network location outside the corporate network, set the **External location lookup mode** to on .
+4. To allow your end users to configure their emergency address when they are working from a network location outside the corporate network, set the **External location lookup mode** to on.
 
 5. To show a banner to remind your end users to confirm their emergency location, set the **Emergency service disclaimer**. 
 

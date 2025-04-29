@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: jtremper
 ms.reviewer: solomon.alex, grace.culver
-ms.date: 04/23/2025
+ms.date: 0505/2025
 ms.topic: install-set-up-deploy
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -30,7 +30,7 @@ description: Learn about how Facilitator in Microsoft Teams enables group collab
 > The following Facilitator capabilities are currently in public preview:
 >
 > - AI-generated notes for chats and meetings
-> - Time moderation for meetings
+> - Moderation for meetings
 > - Questions and answers for meetings
 >
 > Features in preview might not be complete and could undergo changes before becoming available in the public release. They're provided for evaluation and exploration purposes only.

@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: jtremper
 ms.reviewer: solomon.alex, grace.culver
-ms.date: 0505/2025
+ms.date: 05/05/2025
 ms.topic: install-set-up-deploy
 ms.tgt.pltfrm: cloud
 ms.service: msteams

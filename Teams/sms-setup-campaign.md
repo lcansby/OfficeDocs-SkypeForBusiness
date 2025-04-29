@@ -8,6 +8,7 @@ ms.date: 02/24/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-calling
 ms.collection:
   - M365-voice
   - m365initiative-voice
@@ -27,13 +28,13 @@ description: Learn how to set up a Campaign to enable SMS in Microsoft Teams.
 > [!NOTE]
 > Service update: If you receive a Brand or Campaign rejection, our Telephone Number Services team is aware and managing a case with you through the [Phone Number Service Center](https://pstnsd.powerappsportals.com) portal. Due to a high volume of requests for SMS in Teams, processing times to facilitate approvals of rejected Brand and Campaign applications for SMS in Teams may take 4 to 6 weeks. We appreciate your patience as we work diligently to address all requests.
 
-This article is for IT administrators and IT professionals who are enabling Short Message Service (SMS) in Teams and need to register their company's Campaign.
+This article is for IT administrators and IT professionals who are enabling Short Message Service (SMS) in Teams and need to register their company's campaign.
 
 Before reading this article, make sure you've read [Plan for SMS in Teams](sms-overview.md) and [Step 1: Create a brand](sms-setup-brand.md).
 
 > [!NOTE]
-> SMS in Teams is only available on Calling Plan phone numbers in the United States (including Puerto Rico) and Canada. 
-> Customers must have an approved Brand and Campaign before enabling SMS on Teams Calling Plan numbers. 
+> SMS in Teams is only available on Calling Plan phone numbers in the United States (including Puerto Rico) and Canada.
+> Customers must have an approved Brand and Campaign before enabling SMS on Teams Calling Plan numbers.
 
 ## Prerequisites
 
@@ -47,33 +48,38 @@ Administrators must have one of the following role-based access control (RBAC) r
 
 ## Campaign registration details for SMS in Teams
 
-After your brand is verified and the Teams admin center shows that your brand's status is **Approved**, proceed with the campaign registration.
+After you verify your brand and your brand's status shows as **Approved** in the Teams admin center, proceed with the campaign registration.
 
-The 10DLC (10-digit long code) registration process involves validating your **Campaign**, or organization's objective, for accessing SMS service on 10DLC phone numbers. To get your campaign approved, you must submit details via the Teams admin center. This section provides details required to register your campaign. 
+The 10DLC (10-digit long code) registration process involves validating your **Campaign**, or organization's objective, for accessing SMS service on 10DLC phone numbers. To get your campaign approved, you must submit details via the Teams admin center. This section provides details required to register your campaign.
 
 > [!IMPORTANT]
 > To increase the likelihood of your campaign being approved and to ensure 10DLC program compliance, please review the following information.
-#### Campaign Details
-##### Campaign Use case
-The use case specifies how the SMS service will be used for the given campaign. For Teams SMS, the use case is Unified Communications as a Service (UCaaS), Low Volume. The use case is defined by Microsoft and cannot be changed by you.
 
-##### Campaign Description
+### Campaign Use Case
 
-The description provides a comprehensive explanation of the SMS service utilization, type of messages sent, and its target audience.  
+The use case specifies how the SMS service will be used for the given campaign. For SMS in Teams, the use case is Unified Communications as a Service (UCaaS), Low Volume. Microsoft defines the use case and you can't change the use case.
 
-##### SMS Privacy Policy
+### Campaign Description
 
-Brands are required to provide a link to their Privacy Policy related to SMS when registering a campaign. 
+The description provides a comprehensive explanation of the SMS service utilization, type of messages sent, and your target audience.  
 
-The Privacy Policy must clearly describe how consumer data will be used and shared (if applicable), and how consumers can contact the message sender. The Privacy Policy should state that mobile opt-in information will not be shared with third parties for marketing purposes.
+### SMS Privacy Policy
 
-> [!NOTE]
-> The Privacy Policy link can be a webpage or an online file that is publicly accessible.
-> If your company doesn't have a privacy statement related to SMS messaging, you can use a Microsoft-provided template, completed with your company's information. For the template, see [SMS privacy statement and terms and conditions template](/microsoftteams/sms-privacy-terms-template).
+When you register a campaign, you must provide a link to your brand's Privacy Policy related to SMS messaging. The Privacy Policy link can be a webpage or an online file that's publicly accessible.
 
-##### SMS Terms and Conditions
+The Privacy Policy must clearly describe the following information:
 
-Brands are required to provide a link to their Terms & Conditions related to SMS when registering a campaign. 
+- How consumer data will be used and shared (if applicable)
+- How consumers can contact the message sender
+- A statement that says "mobile opt-in information won't be shared with third parties for marketing purposes"
+
+If your company doesn't have a privacy statement related to SMS messaging, you can use a Microsoft-provided template, completed with your company's information. For the template, see [SMS privacy statement and terms and conditions template](/microsoftteams/sms-privacy-terms-template).
+
+### SMS Terms and Conditions
+
+When registering a campaign, you must provide a link to your brand's Terms & Conditions related to SMS. The Terms & Conditions URL can be a webpage or an online file that is publicly accessible.
+
+If your company doesn't have a privacy statement related to SMS messaging, you can use a Microsoft-provided template, completed with your company's information. For the template, see [SMS privacy statement and terms and conditions template](/microsoftteams/sms-privacy-terms-template).
 
 The Terms and Conditions must have an SMS disclosure that includes the types of messages consumers can expect to receive, texting cadence, message and data rate notices, privacy policy links, HELP information, and opt-out instructions.
 
@@ -83,21 +89,17 @@ The Terms & Conditions must include the following information:
 
 - Types of messages the consumer can expect to receive
 
-- Message frequency disclosure (e.g., "Msg frequency varies")
+- Message frequency disclosure (for example, "Msg frequency varies")
 
-- Message and data rates disclosure ("Msg & data rates may apply")
+- Message and data rates disclosure (for example, "Msg & data rates may apply")
 
-- Support contact information, e.g., “send HELP for support”, contact [email address] for support, etc.
+- Support contact information (for example, “send HELP for support”, "contact help@contoso.com for support").
 
-- Opt-out information (e.g., "Send STOP to unsubscribe")
+- Opt-out information (for example, "Send STOP to unsubscribe")
 
-> [!NOTE]
-> The Terms & Conditions URL can be a webpage or an online file that is publicly accessible.
-> If your company doesn't have a privacy statement related to SMS messaging, you can use a Microsoft-provided template, completed with your company's information. For the template, see [SMS privacy statement and terms and conditions template](/microsoftteams/sms-privacy-terms-template).
+### Call to Action
 
-##### Call to Action
-
-The Call to Action describes in a clear and transparent way how a recipient opt-in to receive messages from you. It must be explicit, ensure that users understand what they are consenting to, and be collected in a direct and verifiable way. Call To Action should be specific to SMS messaging services and not bundled with other services or be hidden within terms & conditions or other agreements.
+The Call to Action clearly and transparently describes how a recipient opts-in to receive messages from you. The Call to Action must be explicit, must ensure that users understand what they are consenting to, and must be collected in a direct and verifiable way. Call To Action should be specific to SMS messaging services and not bundled with other services or be hidden within terms & conditions or other agreements.
 
 The Call-to-Action disclosure refers to the language provided to the recipient informing them that they are opting in and must include the following information:
 
@@ -127,11 +129,10 @@ The table below shows examples of how users might opt in:
 |Text Message Keyword|Users opt-in by texting a keyword (e.g., "START") to a specific number.|Explain how users learn about the keyword, such as via a webpage link or screenshot.|By texting START to [phone number], you consent to receive text messages from [Brand Name]. Msg & data rates may apply. Msg frequency varies. Unsubscribe by replying STOP. Reply HELP for help. Phone numbers will not be shared with third parties. Privacy Policy [link] & Terms [link]."|
 |Verbally|Users opt-in verbally at a physical location or over the phone.|Provide a copy of the script used to inform users about the opt-in.|[Brand name] collects opt-in verbally at their locations or over the phone. Customers provide their number and are informed that 'Message and data rates may apply', 'Message frequency varies', and they can 'text HELP for support or STOP to unsubscribe.' Phone numbers will not be shared with third parties. Privacy Policy [link] & Terms [link]."|
 
-
 > [!NOTE]
 > Please note that the provided examples are for illustrative purposes and do not guarantee the approval of your campaign. However, they may enhance its chances of being approved. It's important to be as detailed and accurate as possible in your Call to Action
 
-##### Sample Messages
+### Sample Messages
 
 These sample messages are examples of messages that will be sent by you. Sample Messages must align with the campaign use case.
 
@@ -143,10 +144,11 @@ The Sample Messages must include the following information:
 
 - An embedded link in at least one sample message if "Yes" is selected for Embedded Link under Content Attributes.
 
-#### Campaign and Content Attributes
-##### Opt-In Message
+### Campaign and Content Attributes
 
-When a Teams user sends the first message in an SMS conversation or when recipient replies START, the Opt-In Message is automatically sent to the recipient. 
+#### Opt-In Message
+
+When a Teams user sends the first message in an SMS conversation or when recipient replies START, the Opt-In Message is automatically sent to the recipient.
 
 The Opt-In Message and must include the following information:
 
@@ -161,6 +163,7 @@ The Opt-In Message and must include the following information:
 - Opt-out information, e.g., "send STOP to unsubscribe".
 
 An example might look like this: "*Thank you for opting in to receive [type of messages] from [Brand Name]. Msg frequency varies. Msg & data rates may apply. Reply HELP for help. Reply STOP to opt-out from receiving messages from this number.*" automated message is sent to the recipient send START to resume a conversation.
+
 > [!IMPORTANT]
 > Only the keywords START, HELP, and STOP are monitored and enforced in Teams SMS.
 

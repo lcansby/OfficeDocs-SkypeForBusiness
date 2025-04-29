@@ -174,7 +174,7 @@ The Opt-Out Message must include the following information:
 - Confirmation that the recipient will receive no further messages.
 
 An example might look like this:
-`You have successfully opted out of messages from this [Brand Name] number. You'll receive no further messages. Reply START to resume. Msg & data rates may apply.`
+>You have successfully opted out of messages from this [Brand Name] number. You'll receive no further messages. Reply START to resume. Msg & data rates may apply.
 
 > [!IMPORTANT]
 > Only the keywords START, HELP, and STOP are monitored and enforced in Teams SMS.
@@ -186,7 +186,7 @@ When recipient replies HELP, the Help Message is automatically sent to the recip
 The Help Message must include the following information:
 
 - Brand name
-- Support contact information, e.g., email address, phone number, or website
+- Support contact information (for example, an email address, phone number, or website)
 
  An example might look like this:
 >Thank you for contacting [Brand Name] support. Please email us at [email address] for support. Reply STOP to opt-out from receiving messages from this number. Msg & data rates may apply.

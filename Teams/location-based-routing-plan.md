@@ -6,8 +6,8 @@ manager: pamgreen
 ms.topic: concept-article
 ms.service: msteams
 audience: admin
-ms.reviewer: roykuntz
-ms.date: 01/29/2024
+ms.reviewer: filippse
+ms.date: 04/29/2025
 search.appverid: MET150
 description: Learn how to plan Location-Based Routing for Teams Phone Direct Routing.
 ms.localizationpriority: medium

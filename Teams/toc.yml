@@ -1412,11 +1412,11 @@ items:
       items: 
         - name: Overview
           href: dial-plans-routing-overview.md
-        - name: What are dial plans?
-          href: what-are-dial-plans.md
         - name: Create and manage dial plans
           href: create-and-manage-dial-plans.md
-        - name: Routing options for unassigned phone numbers
+        - name: Normalization rules
+          href: phone-normalization-rules.md
+        - name: Route calls to unassigned numbers
           href: routing-calls-to-unassigned-numbers.md
     - name: Emergency calling
       items: 

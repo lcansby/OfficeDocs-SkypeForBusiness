@@ -120,7 +120,7 @@ After you create this new resource account for calling ID, you still need to:
 
 Service level measures the efficiency and responsiveness to incoming customer requests within a specific Service level threshold.
 
-You can set the threshold target to any value from 0 to 40 minutes (2,400 seconds). The value must be less than the value set for [Call timeout](#call-timeout-set-how-to-handle-call-timeouts). Setting the value to blank (empty) disables the service level metric calculation for the call queue.
+You can set the threshold target to any value from 0 to 40 minutes (2,400 seconds). The value should be less than the value set for [Call timeout](#call-timeout-set-how-to-handle-call-timeouts) however, this is not enforced. Setting the threshold value higher than the call timeout will result in the service level always being 100% if there are answered calls or, 0% if there are none. Setting the value to blank (empty) disables the service level metric calculation for the call queue.
 
 >[!NOTE]
 > Service level metrics aren't currently available in historical reporting.

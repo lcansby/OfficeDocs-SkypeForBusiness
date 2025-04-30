@@ -543,7 +543,7 @@
     {
       "source_path": "Teams/transferring-phone-numbers-common-questions.md",
       "redirect_url": "/MicrosoftTeams/phone-number-calling-plans/port-order-overview",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request.md",

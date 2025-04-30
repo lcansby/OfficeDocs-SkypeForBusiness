@@ -108,7 +108,8 @@ Compliance recording isn't supported for:
 
 **Large Meetings**
 
-The Compliance Recording platform is optimized for meetings, however performance may be impacted during meetings with over 250 users in paired bot mode. We're actively working on improvements in a future update to enhance the experience.
+The Compliance Recording platform is optimized for meetings. However, performance may be impacted during meetings with over 250 users in paired bot mode. We are actively working on improvements in a future update to enhance the experience.
+For extra-large meetings with over 250 users, it is recommended to use Town Halls as the meeting type.
 Please contact your recording partner for more information.
 
 **Call queues**

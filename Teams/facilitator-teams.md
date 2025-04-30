@@ -67,7 +67,7 @@ To [automatically retain or delete](/purview/retention) Facilitator AI-generated
 
 Other Microsoft Purview solutions either aren't applicable for Facilitator or aren't yet supported.
 
-For more information about security and privacy in Microsoft 365 Copilot, see the following articles:
+For more information about the security and privacy standards used to develop Microsoft 365 Copilot and AI agents like Facilitator, see the following articles:
 
 - [Data, Privacy, and Security for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-privacy) for Microsoft 365 Copilot in your organization (work or school).
 - [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).

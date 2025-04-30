@@ -52,7 +52,7 @@ We currently support the following sensitive content categories in English:
 - U.S. Individual Taxpayer Identification Numbers
 - EU Tax Social Security Numbers
 
-Detect sensitive content that’s being shared are supported on Teams desktop, Web and mobile. Detecting sensitive content that’s being shared is also supported on video-based screen sharing (VBSS).  
+This feature is supported on Teams desktop, web, mobile, and video-based screen sharing (VBSS).  
 
 > [!NOTE]
 > End-to-end encryption is turned off in meetings where sensitive content detection is turned on.

@@ -5451,6 +5451,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "Teams/phone-number-calling-plans/more-information-about-porting",
+      "redirect_url": "/MicrosoftTeams/phone-number-calling-plans/port-order-overview",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/new-teams-known-issues.md",
       "redirect_url": "/microsoftteams/teams-client-update",
       "redirect_document_id": true

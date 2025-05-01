@@ -50,7 +50,7 @@ The classic Teams desktop client is available as a standalone application and as
 - macOS
 - Chrome OS (For more information, see [How to use Microsoft Office on a Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad))
 
-Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions. Administrator permissions aren't required to install the Teams client on Windows PCs but are required on Macs.
+End users can directly download and install desktop clients from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions. Administrator permissions aren't required to install the Teams client on Windows PCs but are required on Macs.
 
 IT Pros can choose their preferred method to distribute the installation files to computers in their organization. Some examples include Microsoft Endpoint Configuration Manager (Windows) or Jamf Pro (macOS). For more information about distributing Teams, see:
 

@@ -23,7 +23,7 @@ appliesto:
 # Get clients for classic Microsoft Teams
 
 > [!IMPORTANT]
-> The classic Team client is no longer supported. This client is not receiving further updates, including security updates. The classic Teams client will not work after June 30, 2025. You must upgrade to the new Teams client before that time. See [The new Microsoft Teams](new-teams-desktop-admin.md) for more information.
+> The classic Team client is no longer supported. This client isn't receiving further updates, including security updates. The classic Teams client **won't** work after June 30, 2025. You must upgrade to the new Teams client before that time. See [The new Microsoft Teams](new-teams-desktop-admin.md) for more information.
 
 > [!TIP]
 > **Want to install Teams on your PC, Mac, or mobile device?** Check out [Install the Teams client](https://go.microsoft.com/fwlink/?linkid=855754).
@@ -82,7 +82,7 @@ The Windows client is deployed to the AppData folder located in the user’s pro
 
 - %LocalAppData%\\SquirrelTemp
 
-When users initiate a call using the Teams client for the first time, they might notice a warning with the Windows firewall settings that ask for users to allow communication. Users might be instructed to ignore this message because the call works even when the warning is dismissed.
+When users initiate a call using the Teams client for the first time, they might notice a warning with the Windows Firewall settings that ask for users to allow communication. Users might be instructed to ignore this message because the call works even when the warning is dismissed.
 
 :::image type="content" alt-text="Screenshot of a Windows Security Alert dialog." source="media/Get_clients_for_Microsoft_Teams_image3.png":::
 

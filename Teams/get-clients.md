@@ -100,7 +100,7 @@ Mac users can install Teams by using a PKG installation file for macOS computers
 
 1. From the [Teams download page](https://teams.microsoft.com/downloads), under **Mac**, select **Download**.
 2. Double-click the PKG file.
-3. Follow the installation wizard to complete the installation. Teams is installed to the **/Applications** folder. It's a machine-wide installation.
+3. To complete the installation, follow the installation wizard. Teams is installed to the **/Applications** folder. It's a machine-wide installation.
 
 > [!NOTE]
 > During the installation, the PKG prompts for administrator credentials. The user needs to enter the administrator credentials, regardless of whether or not the user is an administrator.
@@ -128,7 +128,7 @@ Supported mobile platforms for Teams mobile apps are:
 > [!NOTE]
 > The mobile version must be available to the public for Teams to work as expected.
 
-Mobile apps are distributed and updated through the respective mobile platform’s app store only. Distribution of the mobile apps via MDM or side-loading isn't supported by Microsoft. Once the mobile app is installed on a supported mobile platform, the Teams Mobile App itself is supported, provided the version is within three months of the current release.
+Mobile apps are distributed and updated through the respective mobile platform’s app store only. Microsoft doesn't support the distribution of the mobile apps via MDM or side-loading. Once the mobile app is installed on a supported mobile platform, the Teams Mobile App itself is supported, provided the version is within three months of the current release.
 
 If you're in China, you can install Teams from the following app stores:
 

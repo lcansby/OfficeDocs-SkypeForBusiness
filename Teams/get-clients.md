@@ -65,7 +65,7 @@ IT Pros can choose their preferred method to distribute the installation files t
 > [!TIP]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it, and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-Teams on Windows provides downloadable MSI installers in [32-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true), [64-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true), and [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) architectures. The x86 architecture (32 bit vs. 64 bit) of Teams is agnostic to the architecture of Windows and Office installed. We recommend the 64-bit version of Teams on 64-bit systems.
+Teams on Windows provides downloadable Microsoft installers in [32-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true), [64-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true), and [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) architectures. The x86 architecture (32 bit vs. 64 bit) of Teams is agnostic to the architecture of Windows and Office installed. We recommend the 64-bit version of Teams on 64-bit systems.
 
 Teams requires .NET Framework 4.5 or later. If .NET Framework 4.5 or later isn't installed, the Teams installer offers to install for you.
 
@@ -128,7 +128,7 @@ Supported mobile platforms for Teams mobile apps are:
 > [!NOTE]
 > The mobile version must be available to the public for Teams to work as expected.
 
-Mobile apps are distributed and updated through the respective mobile platform’s app store only. Microsoft doesn't support the distribution of the mobile apps via MDM or side-loading. Once the mobile app is installed on a supported mobile platform, the Teams Mobile App itself is supported, provided the version is within three months of the current release.
+Mobile apps are distributed and updated through the respective mobile platform’s app store only. Microsoft doesn't support the distribution of the mobile apps via mobile device management (MDM) or side-loading. Once the mobile app is installed on a supported mobile platform, the Teams Mobile App itself is supported, provided the version is within three months of the current release.
 
 If you're in China, you can install Teams from the following app stores:
 

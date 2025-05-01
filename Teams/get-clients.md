@@ -105,7 +105,7 @@ Mac users can install Teams by using a PKG installation file for macOS computers
 > [!NOTE]
 > During the installation, the PKG prompts for administrator credentials. The user needs to enter the administrator credentials, regardless of whether or not the user is an administrator.
 
-If a user currently has a DMG installation of Teams and wants to replace it with the PKG installation, the user should:
+If a user currently has a disk image (DMG) installation of Teams and wants to replace it with the package (PKG) installation, the user should:
 
 1. Exit Teams.
 2. Uninstall Teams.

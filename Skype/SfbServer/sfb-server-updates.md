@@ -28,23 +28,23 @@ For the latest Skype for Business Online and Microsoft 365 updates, see the [Mic
 
 |Package name|KB number|Release date|
 |:--- |:--- |:--- |
-|Skype for Business Server 2019 Cumulative Update 8, Hotfix 1 | [KB 4470124](https://support.microsoft.com/kb/4470124)| March 2025 |
-|Skype for Business Server 2019 Cumulative Update 8 | [KB 4470124](https://support.microsoft.com/kb/4470124)| December 2024 |
+|Skype for Business Server 2019 Cumulative Update 8, Hotfix 1 | [KB 4470124](https://support.microsoft.com/kb/4470124) | March 2025 |
+|Skype for Business Server 2019 Cumulative Update 8 | [KB 4470124](https://support.microsoft.com/kb/4470124) | December 2024 |
 |Description of the security update for Skype for Business Server: October 10, 2023| [KB 5032429](https://support.microsoft.com/help/5032429) | October 2023 |
-| Skype for Business Server 2019 Cumulative Update 7, Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124) | July 2023 |
-| Skype for Business Server 2019 Cumulative Update 7 |[KB 4470124](https://support.microsoft.com/kb/4470124) | June 2023 |
-| Skype for Business Server 2019 Cumulative Update 6, Hotfix 3 |[KB 4470124](https://support.microsoft.com/kb/4470124) | October 2022 |
+| Skype for Business Server 2019 Cumulative Update 7, Hotfix 1 | [KB 4470124](https://support.microsoft.com/kb/4470124) | July 2023 |
+| Skype for Business Server 2019 Cumulative Update 7 | [KB 4470124](https://support.microsoft.com/kb/4470124) | June 2023 |
+| Skype for Business Server 2019 Cumulative Update 6, Hotfix 3 | [KB 4470124](https://support.microsoft.com/kb/4470124) | October 2022 |
 | Description of the security update for Skype for Business Server and Lync Server: July 12, 2022 | [KB 5016714](https://support.microsoft.com/help/5016714) | July 2022 |
 | Description of the security update for Skype for Business Server: April 12, 2022 | [KB 5012686](https://support.microsoft.com/topic/5012686) | April 2022 |
-| Skype for Business Server 2019 Cumulative Update 6 |[KB 4470124](https://support.microsoft.com/topic/4470124) | December 2021 |
-| Skype for Business Server 2019 Cumulative Update 5 |[KB 4470124 (MACP3)](https://support.microsoft.com/topic/4470124)| March 2021 |
-| Skype for Business Server 2019 Cumulative Update 4, Hotfix 1 |[KB 4470124](https://support.microsoft.com/topic/4470124)| November 2020 |
-| Skype for Business Server 2019 Cumulative Update 4 |[KB 4470124](https://support.microsoft.com/topic/4470124)| September 2020 |
-| Skype for Business Server 2019 Cumulative Update 3, Hotfix 1 |[KB 4470124](https://support.microsoft.com/topic/4470124)| July 2020 |
-| Skype for Business Server 2019 Cumulative Update 3 |[KB 4470124](https://support.microsoft.com/topic/4470124)| March 2020 |
-| Skype for Business Server 2019 Cumulative Update 2 |[KB 4470124](https://support.microsoft.com/topic/4470124)| December 2019 |
-| Skype for Business Server 2019 Cumulative Update 1, Hotfix 1 |[KB 4470124](https://support.microsoft.com/topic/4470124)| September 2019 |
-| Skype for Business Server 2019 Cumulative Update 1 |[KB 4470124](https://support.microsoft.com/topic/4470124)| July 2019 |
+| Skype for Business Server 2019 Cumulative Update 6 | [KB 4470124](https://support.microsoft.com/topic/4470124) | December 2021 |
+| Skype for Business Server 2019 Cumulative Update 5 | [KB 4470124 (MACP3)](https://support.microsoft.com/topic/4470124) | March 2021 |
+| Skype for Business Server 2019 Cumulative Update 4, Hotfix 1 | [KB 4470124](https://support.microsoft.com/topic/4470124) | November 2020 |
+| Skype for Business Server 2019 Cumulative Update 4 | [KB 4470124](https://support.microsoft.com/topic/4470124) | September 2020 |
+| Skype for Business Server 2019 Cumulative Update 3, Hotfix 1 | [KB 4470124](https://support.microsoft.com/topic/4470124) | July 2020 |
+| Skype for Business Server 2019 Cumulative Update 3 | [KB 4470124](https://support.microsoft.com/topic/4470124) | March 2020 |
+| Skype for Business Server 2019 Cumulative Update 2 | [KB 4470124](https://support.microsoft.com/topic/4470124) | December 2019 |
+| Skype for Business Server 2019 Cumulative Update 1, Hotfix 1 | [KB 4470124](https://support.microsoft.com/topic/4470124) | September 2019 |
+| Skype for Business Server 2019 Cumulative Update 1 | [KB 4470124](https://support.microsoft.com/topic/4470124) | July 2019 |
 
 ### Skype for Business Server 2019 tools
 
@@ -248,7 +248,7 @@ The complete topology consists of seven virtual machines that enable you to full
 
 ### Resource Kit (technical reference)
 
-Visit the [Microsoft Lync Server 2010 Resource Kit](https://www.microsoft.com/download/en/details.aspx?id=22644) download site to download book chapters individually OR download a .zip file that contains [all 19 chapters of the Resource Kit](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip).
+Visit the [Microsoft Lync Server 2010 Resource Kit](https://www.microsoft.com/download/details.aspx?id=22644) download site to download book chapters individually OR download a .zip file that contains [all 19 chapters of the Resource Kit](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip).
 
 ### Group Chat
 

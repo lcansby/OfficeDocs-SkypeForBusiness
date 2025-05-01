@@ -65,9 +65,9 @@ IT Pros can choose their preferred method to distribute the installation files t
 > [!TIP]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it, and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-Teams on Windows provides downloadable MSI installers in [32-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true), [64-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true), and [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) architectures. The x86 architecture (32 bit vs. 64 bit) of Teams is agnostic to the architecture of Windows and Office that is installed. We recommend the 64-bit version of Teams on 64-bit systems.
+Teams on Windows provides downloadable MSI installers in [32-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true), [64-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true), and [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) architectures. The x86 architecture (32 bit vs. 64 bit) of Teams is agnostic to the architecture of Windows and Office installed. We recommend the 64-bit version of Teams on 64-bit systems.
 
-Teams requires .NET Framework 4.5 or later. If .NET Framework 4.5 or later isn't installed, the Teams installer will offer to install for you.
+Teams requires .NET Framework 4.5 or later. If .NET Framework 4.5 or later isn't installed, the Teams installer offers to install for you.
 
 > [!NOTE]
 > Teams isn't supported in [Assigned Access](/windows/configuration/assigned-access/overview) mode (formerly known as Windows Kiosk mode).
@@ -82,12 +82,12 @@ The Windows client is deployed to the AppData folder located in the user’s pro
 
 - %LocalAppData%\\SquirrelTemp
 
-When users initiate a call using the Teams client for the first time, they might notice a warning with the Windows firewall settings that ask for users to allow communication. Users might be instructed to ignore this message because the call will work even when the warning is dismissed.
+When users initiate a call using the Teams client for the first time, they might notice a warning with the Windows firewall settings that ask for users to allow communication. Users might be instructed to ignore this message because the call works even when the warning is dismissed.
 
 :::image type="content" alt-text="Screenshot of a Windows Security Alert dialog." source="media/Get_clients_for_Microsoft_Teams_image3.png":::
 
 > [!NOTE]
-> Windows Firewall configuration will be altered. Two inbound rules for teams.exe for both TCP and UDP protocols will be created with:
+> Windows Firewall configuration is altered. Two inbound rules for teams.exe for both TCP and UDP protocols are created with:
 
 > - Allow action, in case the user is a local administrator and selects **Allow access** only.
 > - Block action, if the user isn't a local administrator and, in any case, when the prompt is dismissed by selecting **Cancel**.
@@ -100,11 +100,10 @@ Mac users can install Teams by using a PKG installation file for macOS computers
 
 1. From the [Teams download page](https://teams.microsoft.com/downloads), under **Mac**, select **Download**.
 2. Double-click the PKG file.
-3. Follow the installation wizard to complete the installation.
-   Teams will be installed to the **/Applications** folder. It's a machine-wide installation.
+3. Follow the installation wizard to complete the installation. Teams is installed to the **/Applications** folder. It's a machine-wide installation.
 
 > [!NOTE]
-> During the installation, the PKG will prompt for administrator credentials. The user needs to enter the administrator credentials, regardless of whether or not the user is an administrator.
+> During the installation, the PKG prompts for administrator credentials. The user needs to enter the administrator credentials, regardless of whether or not the user is an administrator.
 
 If a user currently has a DMG installation of Teams and wants to replace it with the PKG installation, the user should:
 
@@ -129,7 +128,7 @@ Supported mobile platforms for Teams mobile apps are:
 > [!NOTE]
 > The mobile version must be available to the public for Teams to work as expected.
 
-Mobile apps are distributed and updated through the respective mobile platform’s app store only. Distribution of the mobile apps via MDM or side-loading isn't supported by Microsoft. Once the mobile app has been installed on a supported mobile platform, the Teams Mobile App itself will be supported, provided the version is within three months of the current release.
+Mobile apps are distributed and updated through the respective mobile platform’s app store only. Distribution of the mobile apps via MDM or side-loading isn't supported by Microsoft. Once the mobile app is installed on a supported mobile platform, the Teams Mobile App itself is supported, provided the version is within three months of the current release.
 
 If you're in China, you can install Teams from the following app stores:
 
@@ -140,8 +139,10 @@ If you're in China, you can install Teams from the following app stores:
 - **Baidu** <https://aka.ms/TeamsBaidu>
 
 > [!NOTE]
-> When users install Teams from one of the China-based Android app stores and enable push notifications for Teams, Microsoft will provide Teams push notifications through a China-based push notification service.
->Currently, Microsoft supports push notifications in Xiaomi phones and OPPO phones. As a result, you must enable the push notifications in Xiaomi phones and OPPO phones. For detailed information on how to configure Xiaomi phones, see [How to make Teams push notifications work in your Xiaomi phone?](devices/xiaomi-push-notifications.md#how-to-make-teams-push-notifications-work-in-your-xiaomi-phone).
+> When users install Teams from one of the China-based Android app stores and enable push notifications for Teams, Microsoft provides Teams push notifications through a China-based push notification service.
+>Currently, Microsoft supports push notifications in Xiaomi phones, OPPO phones, and Huawei phones. As a result, you must enable the push notifications in Xiaomi phones, OPPO phones, and Huawei phones respectively. Specifically, you must ensure the banner notification and screen lock notification is turned on for your Teams application in your Android phones’ setting panel. Otherwise, the notification may not pop up.
+> 
+> For detailed information on how to configure Xiaomi phones, see [How to make Teams push notifications work in your Xiaomi phone?](devices/xiaomi-push-notifications.md#how-to-make-teams-push-notifications-work-in-your-xiaomi-phone).
 
 ## Browser client
 
@@ -149,4 +150,4 @@ The browser client ([https://teams.microsoft.com](https://go.microsoft.com/fwlin
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-The browser client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). If an unsupported browser version is detected, it will block access to the browser interface and recommend that the user downloads the desktop client or mobile app.
+The browser client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). If an unsupported browser version is detected, it block access to the browser interface and recommend that the user downloads the desktop client or mobile app.

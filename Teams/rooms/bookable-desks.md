@@ -49,6 +49,8 @@ To set up and use Bookable Desks in your organization, you must perform these ta
 
 - Ensure that your users have access to the new version of Microsoft Teams desktop app on Windows or Mac.
 
+- If you are planning to use individual desks, ensure that your users have Teams premium. Individual desk booking is a Teams premium feature.
+
 ## Step 2 - Create Desk Pool or Individual Desk Accounts
 
 Desk pool accounts, known as **'workspaces'** in Exchange, are slightly different from room accounts. The capacity of a desk pool represents the number of seats in that pool and is set by the admin. The pool can be reserved by multiple users at the same time until all seats (the capacity) are taken. For example, the capacity on a desk pool is set to 2. User A and User B are both able to reserve it from 8am to 5pm, and the remaining capacity will be 0. This means that a third user won't be able to reserve it between 8am and 5pm.

@@ -44,7 +44,6 @@ The _Skype for Business downloads and updates_ web page that was once on Technet
         - [Group Chat 2010 updates](sfb-server-updates.md#group-chat-2010-updates)
         - [Lync 2010 Dev Tools](sfb-server-updates.md#lync-2010-dev-tools)
         - [Lync 2010 Tools](sfb-server-updates.md#lync-2010-tools)
-        - [Lync 2010 downloadable documentation](sfb-server-updates.md#lync-2010-downloadable-documentation)
         - [Resource kit (technical reference)](sfb-server-updates.md#resource-kit-technical-reference)
         - [Group Chat](sfb-server-updates.md#group-chat)
         - [Trial Software](sfb-server-updates.md#trial-software)

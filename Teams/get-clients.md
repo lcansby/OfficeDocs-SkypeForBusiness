@@ -23,7 +23,7 @@ appliesto:
 # Get clients for classic Microsoft Teams
 
 > [!IMPORTANT]
-> The classic Team client is no longer supported. This client isn't receiving further updates, including security updates. The classic Teams client **won't** work after June 30, 2025. You must upgrade to the new Teams client before that time. For more information see [The new Microsoft Teams](new-teams-desktop-admin.md).
+> The classic Team client is no longer supported. This client isn't receiving further updates, including security updates. The classic Teams client **won't** work after June 30, 2025. You must upgrade to the new Teams client before that time. For more information, see [The new Microsoft Teams](new-teams-desktop-admin.md).
 
 > [!TIP]
 > **Want to install Teams on your PC, Mac, or mobile device?** Check out [Install the Teams client](https://go.microsoft.com/fwlink/?linkid=855754).

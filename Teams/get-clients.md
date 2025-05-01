@@ -87,7 +87,7 @@ When users initiate a call using the Teams client for the first time, they might
 :::image type="content" alt-text="Screenshot of a Windows Security Alert dialog." source="media/Get_clients_for_Microsoft_Teams_image3.png":::
 
 > [!NOTE]
-> Windows Firewall configuration is altered. Two inbound rules for teams.exe for both TCP and UDP protocols are created with:
+> Windows Firewall configuration is altered. Two inbound rules for teams.exe for both TCP (transmission control protocol) and UDP (user datagram protocol) protocols are created with:
 
 > - Allow action, in case the user is a local administrator and selects **Allow access** only.
 > - Block action, if the user isn't a local administrator and, in any case, when the prompt is dismissed by selecting **Cancel**.

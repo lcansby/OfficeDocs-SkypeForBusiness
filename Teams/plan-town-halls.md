@@ -32,7 +32,7 @@ description: Learn what is a town hall in Microsoft Teams. Understand how to pla
 Town halls are meant for one-to-many communications where the presenters, organizers, and co-organizers lead the presentation. The audience participation is primarily to view and react to the content being shared.
 As an admin, this article guides you through how to plan and prepare for town halls in your organization.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Organizers with a Teams Premium license must work with the Microsoft 365 Live Event Assistance Program (LEAP) to create town halls with more than 20,000 attendees. To learn more about LEAP, see the [Need help with your town hall](#need-help-with-your-town-hall) section in this article.
 
 ## Turn town halls on or off

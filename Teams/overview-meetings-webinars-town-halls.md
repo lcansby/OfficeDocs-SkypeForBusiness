@@ -1,7 +1,7 @@
 ---
 title: Overview of meetings, webinars, and town halls
-ms.reviewer: 
-ms.date: 9/18/2024
+ms.reviewer: chbalaki
+ms.date: 5/1/2025
 ms.topic: concept-article
 ms.author: wlibebe
 author: wlibebe
@@ -40,27 +40,9 @@ This article, intended for administrators and IT professionals, describes the di
 
 The sections below include further information for planning and configuring these features, as well as links to information for your end users.
 
-The following table shows the main features that are different between meetings, webinars, and town halls. You can use this information to help determine which is best for the use cases in your organization. For a detailed look at the features available in each, see [Meetings, webinars, and town halls feature comparison](meeting-webinar-town-hall-feature-comparison.md).
+For a detailed look at which features available in meetings, webinars, and town halls, see [Meetings, webinars, and town halls feature comparison](meeting-webinar-town-hall-feature-comparison.md).
 
-|Feature|Meetings|Webinars|Town halls|
-|:------|:-------|:-------|:---------|
-|Lobby|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|
-|Attendee mic and camera|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|
-|End-to-end encryption|Premium|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|
-|Watermarks|Premium|Premium|![Image of a x for no](/office/media/icons/cancel-teams.png)|
-|Theme|Premium|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|Registration|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|
-|Breakout rooms|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)<sup>1</sup>|![Image of a x for no](/office/media/icons/cancel-teams.png)|
-|Content sharing and interaction|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|Q&A only</br>- Teams Premium town halls allow chat for attendees and reactions.|
-|Interactive participants|1,000 (Enterprise plans)<br>300 (Business plans)<br>900 (View-only mode)|1,000|Town halls: 10,000<br> Teams Premium town halls: 50,000|
-|View-only participants|10,000<sup>2</sup> (Enterprise plans only)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|
-|Maximum total participants|10,900<sup>2</sup> (Enterprise plans only)|1,000|Town halls: 10,000<br> Teams Premium town halls: 50,000|
-
-<sup>1</sup> Breakout rooms can be used if a webinar has fewer than 300 participants. However, if the number of participants increases to above 300, breakout rooms aren't supported.<br>
-
-<sup>2</sup>The usual maximum is increased to 20,000 until further notice. The maximum total participants for meetings is the sum of the interactive participants plus view-only participants.
-
-For more information on limits and specifications for Teams webinars, meetings, and town halls, see [Limits and specifications for Microsoft Teams.](limits-specifications-teams.md)
+For information on limits and specifications for Teams webinars, meetings, and town halls, see [Limits and specifications for Microsoft Teams.](limits-specifications-teams.md)
 
 ## Manage who can create meetings, webinars, and town halls
 
@@ -138,6 +120,7 @@ To run a successful event, follow the practices outlined below:
 
 ## Related topics
 
-- [Meetings and conferencing in Teams](deploy-meetings-microsoft-teams-landing-page.md)
-- [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md)
+- [Plan for Teams meetings](plan-meetings.md)
+- [Plan for Teams town halls](plan-town-halls.md)
+- [Plan for Teams webinars](plan-webinars.md)
 - [Teams settings and policies reference](settings-policies-reference.md)

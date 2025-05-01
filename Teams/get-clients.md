@@ -150,4 +150,4 @@ The browser client ([https://teams.microsoft.com](https://go.microsoft.com/fwlin
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-The browser client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). If an unsupported browser version is detected, it block access to the browser interface and recommend that the user downloads the desktop client or mobile app.
+The browser client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). If an unsupported browser version is detected, it blocks access to the browser interface and recommend that the user downloads the desktop client or mobile app.

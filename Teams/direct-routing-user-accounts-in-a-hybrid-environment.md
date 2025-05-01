@@ -1,7 +1,7 @@
 ---
 title: "User accounts in hybrid environment with PSTN"
 ms.reviewer:
-ms.date: 06/04/2018
+ms.date: 05/01/2025
 ms.author: scottfrancis
 author: sfrancis206
 manager: pamgreen

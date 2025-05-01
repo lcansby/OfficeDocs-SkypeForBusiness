@@ -108,60 +108,81 @@ If you've been using live events for your organization, you might want to unders
 
 |Capability|Live Events|Town halls|Premium town halls|
 |:------| :---: | :---: | :---: |
-|Ability to not send emails and calendar invites to attendees|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|AI generated captions|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|Attendee reporting|![Image of a checkmark for yes](/office/media/icons/success-teams.png)| ![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|**Scale**||||
 |Broadcast capacity|10k|10k|- 50k</br> *- 100k In development*|
-|Chat for attendees|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)</br> - Not supported for town halls with more than 20,000 attendees.|
 |Concurrent events|15|15|50|
-|Control when event invites are sent|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|Co-organizer capacity|N/A|10|10|
-|CVI support|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|Default audio and video off|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|Download translated transcripts|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Duration|Four hours|30 hours|30 hours|
 |eCDN|Microsoft and partner providers|Microsoft and partner providers|Microsoft and partner providers|
-|DVR|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|Dynamics 365 integration|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|Email editing|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|End event for attendees and return presenters to green room|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|Essential emails|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|External presenters|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|Green room|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|Join as attendee for presenters and organizers|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|Layouts|Single Video, Video + Content​​|Dynamic focused curated view|Dynamic focused curated view|
-|Live translated captions|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|Six languages|10 languages|
-|Manage the types of events your organizers can create|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|Manage what attendees see|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|Manage whether events in your organization can be recorded|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|Manage whether events in your organization can be transcribed|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|Microsoft Teams Rooms (Windows) support for presenters and attendees|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|Microsoft town hall insights|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|**Management controls**||||
+|Ability to not send emails and calendar invites to attendees|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|Email customization|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|Control when event invites are sent|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Separate invites for presenters and attendees|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Modern group support|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|Nudge attendees to join|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|External presenters|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|Who can present|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Who can produce|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Co-organizer capacity|N/A|10|10|
 |Presenter capacity (including external presenters)|100|100|100|
-|Presenters can dial in|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|Preview shared content in managed mode|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|Producer role|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|Producer UX|![Image of a checkmark for yes](/office/media/icons/success-teams.png) |Manage what attendees see|Manage what attendees see|
+|**Interactivity**||||
+|AI generated captions|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|Chat for attendees|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|Up to 20,000 attendees|
+|Default audio and video off|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|DVR|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|Q&A|Up to to 10,000 attendees|Up to to 10,000 attendees|Up to to 50,000 attendees|
 |Q&A: attendees can filter questions|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|Q&A capacity|10k|10k|50k|
+|Q&A: vote on and sort questions|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|Reactions|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|Up to 20,000 attendees|
+|**Host and scene controls**||||
+|Attendee reporting|![Image of a checkmark for yes](/office/media/icons/success-teams.png)| ![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|Download translated transcripts|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|End event for attendees and return presenters to green room|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|Yes|Yes|
+|Green room|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|Join as an attendee for presenters and organizers|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Manage what attendees see|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|Layouts|Single Video, Video + Content​​|Dynamic focused curated view with up to 7 videos|Dynamic focused curated view with up to 7 videos|
+|Live translated captions|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|Six languages|10 languages|
+|Nudge attendees to join|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Presenters can dial in|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Preview shared content in manage what attendees see|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Queue and preview content and presenters|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Q&A: attendees can filter questions|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Q&A: delete and archive questions|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Q&A: moderators can hide their names|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Q&A: organizers can make presenters moderators|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Q&A: organizers can privately reply to a question|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Q&A: question export to CSV|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|Q&A: vote on and sort questions|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|Queue and preview content and presenters|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|Reactions|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)</br> - Not supported for town halls with more than 20,000 attendees.|
-|RTMP-In|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|RTMP-In Transcription|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|Separate invites for presenters and attendees|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|Sharepoint embedded scheduling|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|Usage reports|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|VDI support|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Real time insights|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|Video on Demand (VOD)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|**Devices**||||
+|Cloud Video Interop (CVI) support|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Microsoft Teams Rooms (Windows) support for presenters and attendees|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Sharepoint embedded support|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Virtualized Desktop Infrastructure (VDI) support|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Viva Engage integration|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|VOD|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|**Admin controls**||||
+|Manage the types of events your organizers can create|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Manage whether events in your organization can be recorded|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Manage whether events in your organization can be transcribed|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Usage reports|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|Call quality diagnostics|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|**Advanced broadcast**||||
+|RTMP-In|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|RTMP-In Transcription|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|RTMP-Out (Live streaming)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+
+
+
+
+
+
+END!!!
+
+|Capability|Live Events|Town halls|Premium town halls|
+|:------| :---: | :---: | :---: |
+|Dynamics 365 integration|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+
+
 
 For more information on Teams Premium, see [Teams Premium licensing](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams).
 

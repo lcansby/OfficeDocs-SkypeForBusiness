@@ -22,7 +22,7 @@ description: "Configuring OAuth authentication between Exchange on premises and 
 
 Configuring integration between Exchange server and Skype for Business Online enables the Skype for Business and Exchange Integration features described in [Feature support](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support).
 
-This topic applies to integration with Exchange Server 2013 through 2019. Check the [Exchange Server Supportability Matrix](/exchange/plan-and-deploy/supportability-matrix#supported-versions-and-builds) to find out which version of Exchange Server are in a supported state.
+This topic applies to integration with Exchange Server 2013 through 2019. Check the [Exchange Server Supportability Matrix](/exchange/plan-and-deploy/supportability-matrix#supported-versions-and-builds) to find out which versions of Exchange Server are in a supported state.
 
 ## What do you need to know before you begin?
 

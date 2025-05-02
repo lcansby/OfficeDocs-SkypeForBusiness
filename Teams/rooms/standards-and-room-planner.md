@@ -25,6 +25,8 @@ f1keywords:
 
 Using smart recommendations from your environment, you can build and curate standards. You can then publish your standards to a region, site, building, or a specific meeting room to share planned rooms with partners to track room deployments.
 
+NOTE: This feature is available with a Teams Rooms Pro or Teams Shared Device license.
+
 ## View meeting room types
 
 On this page, you can view room or meeting space types within your organization. A quick breakdown of how many standards you have for meeting rooms, how many new devices were discovered and number of devices that require an action to be taken.

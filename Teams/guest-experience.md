@@ -21,6 +21,7 @@ appliesto:
 ms.custom: 
   - seo-marvel-apr2020
   - chat-teams-channels-revamp
+  - guest-access-external-collab
 description: This article describes the Microsoft Teams functionality available to guests.
 ---
 

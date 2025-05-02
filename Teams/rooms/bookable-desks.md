@@ -49,7 +49,7 @@ To set up and use Bookable Desks in your organization, you must perform these ta
 
 - Ensure that your users have access to the new version of Microsoft Teams desktop app on Windows or Mac.
 
-- If you are planning to use individual desks, ensure that your users have Teams premium. Individual desk booking is a Teams premium feature.
+- If you are planning to use individual desks, verify that your users have Teams Premium license. Individual desk booking is a Teams Premium feature.
 
 ## Step 2 - Create Desk Pool or Individual Desk Accounts
 

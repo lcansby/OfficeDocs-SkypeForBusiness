@@ -1458,22 +1458,6 @@ items:
           href: manage-your-network-topology.md
         - name: Manage video and media settings
           href: network-roaming-policy.md
-    - name: Contoso voice migration case study
-      items: 
-        - name: Overview
-          href: voice-case-study-overview.md
-        - name: Teams upgrade plan
-          href: voice-case-study-migration-plan.md
-        - name: Teams Phone
-          href: voice-case-study-phone-system.md
-        - name: Location-Based-Routing
-          href: voice-case-study-location-based-routing.md
-        - name: Emergency calling
-          href: voice-case-study-emergency-calling.md
-        - name: Audio Conferencing
-          href: voice-case-study-audio-conferencing.md
-        - name: Auto attendants and Call queues
-          href: voice-case-study-call-queues.md
   
     - name: Reference
       items: 

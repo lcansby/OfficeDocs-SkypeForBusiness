@@ -101,6 +101,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | [Lenovo ThinkSmart Core + IP Controller](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/lenovo-thinksmart-core-plus-ip-controller-for-microsoft-teams-rooms/len102e0015) | Core i5 | 16 GB | 256 GB |
 | [Lenovo ThinkSmart One + IP Controller](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/lenovo-thinksmart-one-plus-ip-controller-for-teams/12bw0002us) | Core i5 | 16 GB | 256 GB |
 |[Lenovo ThinkSmart Tiny Kit](https://psref.lenovo.com/Product/ThinkSmart/ThinkSmart_Tiny_Kit)| Core i3|16 GB|256 GB|
+| Lenovo ThinkSmart Core Gen 2 + Controller <br/> ThinkSmart Core Gen 2 + IP Controller <br/> ThinkSmart Core Gen 2 Full Room Kit <br/> ThinkSmart Core Gen 2 Full Room Kit IP | Core Ultra 7 | 32 GB | 256 GB |
 | [Logitech Tap with Intel NUC](https://www.logitech.com/product/microsoft-rooms) | Core i5 | 8 GB | 128 GB |
 | Logitech Tap and Intel Tiger Canyon NUC PC | Core i5 | 8 GB | 128 GB |
 | Logitech TAP Console with Lenovo Core Compute | Core i5 | 8 GB | 128 GB |
@@ -174,6 +175,8 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) | 0.0.7450.02 | &#x2714; |  |||
 | [Aver Fone540](https://www.averusa.com/products/vc-accessories/fone540) | 0.0.7002.17 |  |  |||
 | Aver VB130 Camera Soundbar | 0.0.7300.71 |  |  |||
+| [Aver PTZ211 Camera](https://www.averusa.com/products/ptz-camera/ptz211) | 0.0.0001.50 |  |  |||
+| [Aver PTZ310UV2 Camera](https://averusa.com/products/ptz-camera/ptz310uv2) | 0.0.0001.50 |  |  |||
 | [Aver TR211 Camera](https://www.averusa.com/products/ptz-camera/tr211) | 0.0.0001.50 |  |  |||
 | [Aver TR313V2 Camera](https://www.averusa.com/products/ptz-camera/tr313v2) | 0.3.0011.38 |  |  |||
 | [Aver TR315 Camera](https://www.averusa.com/products/ptz-camera/tr315) | 0.0.0001.50 |  |  |||

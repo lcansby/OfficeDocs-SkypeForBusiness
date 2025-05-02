@@ -71,7 +71,7 @@ Operator Connect for India supports both number types and Microsoft's method of 
 - The India Teams Phone license available from the Operator Connect for India partners supports both India wireline and wireless numbers.
 
 > [!IMPORTANT]
-> Wireline and wireless numbers aren't interchangeable after the fact. Prevent unplanned outcomes and extra deployment costs by acquiring the correct number type when purchasing Teams Phone licenses from your India telecom operator. When ordering, specify which type of service you need: wireline or wireless.
+> Wireline and wireless numbers aren't interchangeable. Prevent unplanned outcomes and extra deployment costs by acquiring the correct number type when purchasing Teams Phone licenses from your India telecom operator. When ordering numbers, specify which type of service you need for each number: wireline or wireless.
 
 
 - Teams Phone for India supports the entitlement model for [Teams Phone Resource Account licenses](teams-add-on-licensing\virtual-user.md).

@@ -21,6 +21,7 @@ f1.keywords:
 - NOCSH
 description: "Learn about different combinations of user creation and which combinations are supported or unsupported."
 ms.custom: seo-marvel-mar2020
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # User accounts in a hybrid environment with PSTN connectivity

@@ -543,7 +543,7 @@
     {
       "source_path": "Teams/transferring-phone-numbers-common-questions.md",
       "redirect_url": "/MicrosoftTeams/phone-number-calling-plans/port-order-overview",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request.md",
@@ -5441,8 +5441,18 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "Teams/what-are-dial-plans.md",
+      "redirect_url": "/microsoftteams/dial-plans-routing-overview",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/shared-line-appearance.md",
       "redirect_url": "/microsoftteams/user-call-settings",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/phone-number-calling-plans/more-information-about-porting.md",
+      "redirect_url": "/MicrosoftTeams/phone-number-calling-plans/port-order-overview",
       "redirect_document_id": true
     },
     {

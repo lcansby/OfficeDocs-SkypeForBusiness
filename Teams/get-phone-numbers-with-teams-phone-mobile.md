@@ -29,7 +29,7 @@ description: "Learn how to get numbers in Teams with your Teams Phone Mobile par
 
 # Get phone numbers with Teams Phone Mobile
 
-**APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Operator Connect
+**APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Teams Phone Mobile
 
 When you're setting up users in your organization to make and receive telephone calls using Microsoft-supplied telephone numbers, you must first use the **Microsoft Teams admin center** and acquire telephone numbers to be assigned to users. The telephone number you assign to a user is a telephone number that you previously acquired for your organization. The number is listed in the drop-down list when you edit the properties of the user and select **Assign**.
   

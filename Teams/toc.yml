@@ -1234,10 +1234,8 @@ items:
           href: call-queue-auto-attendant-cmdlets.md
         - name: Dial and voice reference
           href: dial-voice-reference.md
-    - name: Teams Calling with Teams Premium and Copilot
+    - name: Teams Calling with Teams Premium
       items:
-        - name: Manage Copilot in Teams calls
-          href: copilot-teams-transcription.md
         - name: Intelligent recap for teams calls
           href: intelligent-recap-calls-meetings.md#intelligent-call-recap
         - name: Teams Premium licensing
@@ -1416,11 +1414,11 @@ items:
       items: 
         - name: Overview
           href: dial-plans-routing-overview.md
-        - name: What are dial plans?
-          href: what-are-dial-plans.md
         - name: Create and manage dial plans
           href: create-and-manage-dial-plans.md
-        - name: Routing options for unassigned phone numbers
+        - name: Normalization rules
+          href: phone-normalization-rules.md
+        - name: Route calls to unassigned numbers
           href: routing-calls-to-unassigned-numbers.md
     - name: Emergency calling
       items: 

@@ -5,7 +5,7 @@ ms.author: danismith
 manager: jtremper
 ms.reviewer: aaglick
 ms.date: 06/13/2024
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -13,7 +13,9 @@ description: Learn how to create a custom team template in Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-ms.custom: chat-teams-channels-revamp
+ms.custom: 
+- chat-teams-channels-revamp
+- teams-chat-and-channels
 ms.collection: 
 - M365-collaboration
 appliesto: 

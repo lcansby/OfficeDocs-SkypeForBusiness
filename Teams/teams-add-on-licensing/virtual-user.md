@@ -2,9 +2,9 @@
 title: Microsoft Teams Phone Resource Account licenses
 author: DaniEASmith
 ms.author: danismith
-manager: pamgreen
+manager: jtremper
 ms.reviewer: roykuntz
-ms.date: 02/24/2023
+ms.date: 04/03/2025
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
@@ -26,9 +26,9 @@ description: Learn how to assign Microsoft Teams Phone Resource Account licenses
 
 # Microsoft Teams Phone Resource Account licenses
 
-In Microsoft Teams, all auto attendants and call queues require an associated resource account. Each resource account must be assigned a **Microsoft Teams Phone Resource Account** license to ensure they're correctly identified by the system and properly function, *regardless of whether the resource account will be assigned a telephone number*.
+In Microsoft Teams, auto attendants and call queues that directly answer calls require an associated resource account. Each resource account must be assigned a **Microsoft Teams Phone Resource Account** license to ensure they're correctly identified by the system and properly function, *regardless of whether the resource account will be assigned a telephone number*.
 
-Organizations with a subscription that includes Teams Phone are allocated a certain amount of **Teams Phone Resource Account** licenses at no extra cost. A Microsoft calling plan isn't required unless you want to be able to dial out using that resource account. For more information, see [Plan for Teams auto attendant and call queues](../plan-auto-attendant-call-queue.md#prerequisites).
+A Microsoft calling plan isn't required unless you want to be able to dial out using that resource account. For more information, see [Plan for Teams auto attendant and call queues](../plan-auto-attendant-call-queue.md#prerequisites).
 
 The **Teams Phone Resource Account** license should never be assigned to users that aren't resource accounts.
 
@@ -39,29 +39,15 @@ The **Teams Phone Resource Account** license should never be assigned to users t
 >
 > Don't assign a **Teams Phone Standard** license to a resource account. If you currently have resource accounts configured with **Teams Phone Standard** licenses, you must [switch to a **Teams Phone Resource Account** license as described below](#change-an-existing-resource-account-to-use-a-microsoft-teams-phone-resource-account-license).
 
-## Resource Account license allocation
-
-Your organization is allotted **Teams Phone Resource Account** licenses based on its overall size. Any organization that has a subscription with Phone System features, such as **Teams Phone Standard**, **Teams Phone with Calling Plan**, and **Teams Shared Devices** licenses, is allocated 25 **Teams Phone Resource Account** licenses available at no cost.
-
-For every 10 user licenses of **Teams Phone Standard**, **Teams Phone with Calling Plan**, or devices with **Teams Shared Devices** license in your organization, one more **Teams Phone Resource Account** license becomes available.  Most organizations will have enough **Teams Phone Resource Account** licenses based on this scaling plan.
-
-In the event more **Teams Phone Resource Account** licenses are required, you can purchase more **Teams Phone Resource Account** licenses beyond the standard allocation through EA, EAS, EES, CSP, Web Direct, MCA – Customer led, and MCA – Partner led or your Microsoft account representative at a cost.
-
-Your allocation of **Teams Phone Resource Account** licenses is not automatically added to your tenant. You will need to go through the purchasing process for **Teams Phone Resource Account** licenses. Licenses within your allocation of **Teams Phone Resource Account** licenses will be zero cost. Any **Teams Phone Resource Account** license that exceeds your allocation of licenses will have a cost.
-
-### License allocation example
-
-Contoso, Inc. purchased 500 licenses that include Phone System (one for each employee) and has 100 devices licensed with the **Teams Shared Devices** license. Contoso is allotted an initial 25 plus 60 **Teams Phone Resource Account** licenses, 85 in total. Their organization has 90 call queues and auto attendants. They need to assign all the **Teams Phone Resource Account** licenses and purchase five extra **Teams Phone Resource Account** licenses.
-
 ## How to obtain Microsoft Teams Phone Resource Account licenses
 
 You obtain Teams Phone Resource Account licenses from the same purchasing channel you purchased the subscription containing Teams Phone. For example, if you purchased Resource Account licenses through an Enterprise Agreement (EA), you need to order through EA.
 
 For Web Direct customers:
+
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
-1. Go to **Billing** > [**Purchase services**](https://go.microsoft.com/fwlink/p/?linkid=868433) > **Add-ons**.
-    > [!NOTE]
-    > If **Purchase Services** isn't available, go to **Marketplace** and search for *Resource*. Select **Microsoft Teams Phone Resource Account**.
+1. Go to **Marketplace** > **All products**.
+1. Search for *Resource* and select **Microsoft Teams Phone Resource Account**.
 1. Scroll to find the **Microsoft Teams Phone Resource Account** license.
 1. Select the **Details** button.
 1. Choose the number of licenses you wish to purchase and your billing frequency.
@@ -70,7 +56,7 @@ For Web Direct customers:
 1. Select the **Place order** button.
 
    > [!NOTE]
-   > Keep in mind, even if you're within your allocation, you must still **Buy** the license even though it has a cost of zero.
+   > You must still **Buy** the license even though it has a cost of zero.
 
 ## Change an existing resource account to use a Microsoft Teams Phone Resource Account license
 
@@ -84,8 +70,7 @@ If you have existing resource accounts using a **Teams Phone Standard** license,
 >
 > If this happens, we recommend you create a new resource account using the **Teams Phone Resource Account** license and remove the broken resource account.
 
-## Related information
+## Related articles
 
-[Auto Attendant and Call Queues Service Update](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
-
-[Manage resource accounts in Microsoft Teams](../manage-resource-accounts.md)
+- [Auto Attendant and Call Queues Service Update](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
+- [Manage resource accounts in Microsoft Teams](../manage-resource-accounts.md)

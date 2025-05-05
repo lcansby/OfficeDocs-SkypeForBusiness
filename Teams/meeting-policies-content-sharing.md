@@ -3,8 +3,9 @@ title: Manage meeting policies for content sharing
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
+ms.subservice: meetings
 ms.reviewer: kamila.korsec, mario.novoselec
 ms.date: 5/30/2024
 audience: admin

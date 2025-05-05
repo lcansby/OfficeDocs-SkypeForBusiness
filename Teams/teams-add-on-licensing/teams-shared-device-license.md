@@ -5,7 +5,7 @@ ms.author: danismith
 manager: jtremper
 ms. reviewer: chester, sirigudur
 ms.date: 11/11/2024
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
@@ -45,10 +45,13 @@ The **Microsoft Teams Shared Devices** license includes the following service pl
 - Microsoft Teams Phone (Previously known as *Phone System*)
 - Microsoft Intune (Microsoft Intune Plan 1 and Plan 2)
 - Microsoft Entra ID P1
-- Exchange Online Plan (Cloud-based voicemail capabilities only.)
+- Exchange Online Plan 2 (Cloud-based voicemail capabilities only.)
 
-> [!IMPORTANT]
-> You can't use an account that only has the Teams Shared Device license assigned to sign in to Teams using the desktop or web clients.
+> [!NOTE]
+> The **Exchange Online (Plan 2)** license is only to support cloud voicemail. Email and calendar aren't supported. If you don't want your Teams enabled shared device to have voicemail, you can deselect the Exchange Online (Plan 2) license or disable the user account's voicemail using the following Teams PowerShell command:
+> ```
+> `Set-CsOnlineVoicemailUserSettings -Identity`` user1@contoso.com`` -VoicemailEnabled`` ``$false`
+> ```
 
 ## Teams Shared Devices license availability
 

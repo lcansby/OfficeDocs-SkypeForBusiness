@@ -3,7 +3,7 @@ title: Turn guest access in Microsoft Teams on or off
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -18,6 +18,7 @@ ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 - chat-teams-channels-revamp
+- guest-access-external-collab
 ms.localizationpriority: medium
 f1.keywords:
 - CSH

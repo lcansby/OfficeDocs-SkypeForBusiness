@@ -11,6 +11,7 @@ ms.date: 01/17/2025
 description: Learn how to set up and manage Live chat on your website and connect with customers in real time.
 ms.localizationpriority: medium
 search.appverid: MET150
+ms.custom: teams-chat-and-channels
 ms.collection: 
   - M365-collaboration
 f1.keywords:
@@ -19,23 +20,25 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Set up and manage Live chat
+# Set up and manage live chat
 
 Live chat allows your website's visitors to chat easily with your business through a chat widget on your customer-facing website. Visitors submit queries to your website’s chat, connecting them directly to your support team in Teams.
 
-This article teaches you how to set up and manage the Live chat widget for Teams.
+This article teaches you how to set up and manage the live chat widget for Microsoft Teams.
 
-## Requirements and limitations for Live chat
+Live chat is currently available in the US only with worldwide availability in Q2 of 2025. This post will be updated with the country and region availability list as the feature becomes available. 
+
+## Requirements and limitations for live chat
 
 - Live chat is available only to Microsoft 365 Business Basic, Microsoft 365 Business Standard, and Microsoft 365 Business Premium users.
-- The Teams admin must be on a business license to set up Live chat.
+- The Teams admin must be on a business license to set up live chat.
 - The handoff support team should all have Business license.
 - There's a limit of up to 25 users who can be added to the handoff support team.
 - Any user in the tenant can be added to the Teams **Live chat requests** team. They can view visitor conversations but aren't tickets.
 
-## Set up and manage Live chat's settings
+## Set up and manage live chat's settings
 
-You must be a Global admin to set up Live chat in the Teams **Admin** app.
+You must be a Global admin to set up live chat in the Teams **Admin** app.
 
 1. Sign in to the Teams app using your Global admin credentials.
 1. If you don’t already have the **Admin** app added to your Teams client, search the Teams **Apps** store for **Admin** and add it to Teams.
@@ -53,7 +56,7 @@ You must be a Global admin to set up Live chat in the Teams **Admin** app.
     1. You can also customize what the bot should say when no one is available to chat with a customer or if customers reach you outside the service hours.
 1. When you're finished managing Live chat’s settings, select the **Save changes** button.
 
-## Add the Live chat widget to your website
+## Add the live chat widget to your website
 
 You must consent to adding the live chat bot to your organization.  
 
@@ -71,11 +74,24 @@ You must consent to adding the live chat bot to your organization.
 
 The Live chat widget is now added to your website and ready for customers to use.
 
+## Add an AI chatbot to your live chat experience
+
+For tenants with a Microsoft Copilot Studio license, you can add an AI chatbot to your live chat widget to answer frequently asked customer questions before customers are connected to your support team. Learn more about Copilot Studio at [Microsoft Copilot Studio](https://www.microsoft.com/microsoft-copilot/microsoft-copilot-studio).
+
+1. Go to **Teams Admin App** in Teams.
+1. Select **Live chat** in the left rail **Admin** app menu.
+1. Select **Set up** on the suggestion **Save time with AI-generated responses** to set up the chatbot. This suggestion is only available to the admin if they have a Microsoft Copilot Studio license. In this step, add users to be assigned customer requests.
+1. Add your company's public website and select **Add AI agent**.
+
+The AI chatbot is now added to your live chat widget on your website. The AI chatbot answers your customer's questions based on information available in your website. If no answer is found or if the website visitor wants to talk to a human agent, a Teams customer request is sent to your support team (same experience as live chat).
+
+- When a customer on the website asks a question, Teams creates a request and automatically assigns it to the next available customer service member.
+
 ## What your customers and support people experience
 
-Once a customer opens the Live chat widget on your website and submits a query, a ticket is made in the **Live chat requests** team. The admin and users in the Live chat team can view all tickets in the **General** channel under the **Requests** tab.
+Once a customer opens the **Live chat widget** on your website and submits a query, a request is made in the **Live chat requests** team. The admin and users in the Live chat team can view all tickets in the **General** channel under the **Requests** tab.
 
-On your website, the customer initially talks to the Live chat bot until they're connected to a support agent in your business.
+On your website, the customer initially talks to the **Live chat bot** until they're connected to a support agent in your business.
 
 Live chat finds an available support person and connects the customer to the support person in your business. Live chat automatically assigns the ticket to someone in your support team and connects them to the customer in Teams **Chat** where the support person can chat with the customer in real time.
 

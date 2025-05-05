@@ -3,7 +3,7 @@ title: Assign team owners and members in Microsoft Teams admin center
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: conceptual
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 ms.reviewer: dansteve
@@ -13,7 +13,9 @@ description: Learn to assign team owner and member roles and permissions in Micr
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-ms.custom: chat-teams-channels-revamp
+ms.custom: 
+- chat-teams-channels-revamp
+- teams-chat-and-channels
 ms.collection: 
 - M365-collaboration
 appliesto: 

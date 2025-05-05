@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: jtremper
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: rahulmi
 ms.date: 09/17/2024
@@ -15,7 +15,9 @@ search.appverid: MET150
 description: Learn about cross-team analytics, per-team analytics, and per-channel analytics in Teams, which let users see usage data for teams or channels that they're part of.
 appliesto: 
   - Microsoft Teams
-ms.custom: chat-teams-channels-revamp
+ms.custom: 
+  - chat-teams-channels-revamp
+  - teams-chat-and-channels
 ms.collection: 
   - M365-collaboration
 ---

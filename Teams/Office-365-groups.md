@@ -5,7 +5,7 @@ ms.date: 06/11/2024
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: conceptual
+ms.topic: concept-article
 audience: admin
 ms.service: msteams
 ms.localizationpriority: medium
@@ -16,7 +16,9 @@ ms.collection:
 - M365-collaboration
 appliesto: 
 - Microsoft Teams
-ms.custom: seo-marvel-apr2020
+ms.custom: 
+  - seo-marvel-apr2020
+  - m365-groups
 description: Learn about how Microsoft 365 groups and group memberships work with Microsoft Teams.
 ---
 

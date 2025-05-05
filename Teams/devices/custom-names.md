@@ -5,7 +5,7 @@ ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: eviegrimshaw
 ms.date: 11/18/2024
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
@@ -36,7 +36,8 @@ The custom name will be displayed on the Teams panel home screen, so we recommen
 To set up and manage custom names for your Teams panels:
 
 1. Sign in to the **Teams Rooms Pro Management Portal**.
-2. Go to **Inventory** > **Planning** > select the account where you’d like to apply a custom name.
+1. Go to __Planning__ > **Inventory** > **Rooms** > select the room where you’d like to apply a custom name.
+
 1. In the **Custom name** field, add the name for the Teams panel. By default, this field is automatically filled with the name that is shown in the Global Address Book (GAL). 
 
 4. Select **Save**.
@@ -56,6 +57,9 @@ If you would like to remove the custom name, you can remove the name in the cust
 
 **Question:** I am not able to see the custom name field in Teams Rooms Pro Management portal when I click on a room account in Inventory. What am I missing?  
 **Answer:** Please make sure that the panel is appearing as signed into the room account in the Pro Management portal, and the panel has a Teams Rooms Pro or Teams Shared Device license assigned. 
+
+**Question:** What admin role do I need in order to be able to add a custom name in the Teams Rooms Pro Management portal?  
+**Answer:** The admin must be a global admin, Exchange admin, or Mail Recipients admin. 
 
 ## Related articles
 

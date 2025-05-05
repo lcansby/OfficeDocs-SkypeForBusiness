@@ -5,7 +5,7 @@ ms.author: danismith
 manager: jtremper
 ms.reviewer: shubhanshi.jain
 ms.date: 11/12/2024
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -22,6 +22,7 @@ appliesto:
 ms.custom: 
   - seo-marvel-apr2020
   - chat-teams-channels-revamp
+  - teams-chat-and-channels
 ---
 
 # Use organization-wide teams in Microsoft Teams to help everyone collaborate

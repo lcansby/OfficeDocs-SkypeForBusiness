@@ -5,7 +5,7 @@ ms.author: danismith
 manager: jtremper
 ms.reviewer: arnavgupta
 ms.date: 01/09/2025
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
@@ -16,6 +16,7 @@ ms.localizationpriority: medium
 ms.custom: 
   - seo-marvel-apr2020
   - chat-teams-channels-revamp
+  - teams-chat-and-channels
 ms.collection: 
   - M365-collaboration
 appliesto: 

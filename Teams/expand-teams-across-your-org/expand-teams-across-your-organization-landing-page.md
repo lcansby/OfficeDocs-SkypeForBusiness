@@ -1,9 +1,9 @@
 ---
 title: Expand Microsoft Teams across your organization
 description: Use these resources to build on the standard Teams deployment to help you get the most out of Teams for specific organization types.
-ms.topic: conceptual
-author: lana-chin
-ms.author: v-chinlana
+ms.topic: article
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 ms.date: 09/18/2024
 audience: admin

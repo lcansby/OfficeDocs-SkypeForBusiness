@@ -4,8 +4,8 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: kimmatlock
-ms.date: 05/15/2024
-ms.topic: article
+ms.date: 2/28/2025
+ms.topic: how-to
 audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -32,7 +32,7 @@ This article describes the prerequisites and steps to configure your ServiceNow 
 ### Teams Rooms prerequisites
 
 - You must have an assigned Service Administrator role. For more information, see [Role-based access control with Microsoft Teams Rooms Pro Management](rooms-pro-rbac.md).
-- Please note that the ServiceNow API isn't currently available for GCC customers. We're reviewing solutions to enable this in government clouds. For integration with your ITSM workflow, it is recommended that customers consider using email notifications and your ITSM email ingest features.
+- Please note that the ServiceNow API isn't currently available for GCC or GCCH customers. We're reviewing solutions to enable this in government clouds. For integration with your ITSM workflow, it is recommended that customers consider using email notifications and your ITSM email ingest features.
 
 ### ServiceNow prerequisites
 

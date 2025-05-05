@@ -5,6 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
+ms.subservice: meetings
 ms.reviewer: lisma, ritikag
 ms.date: 11/12/2024
 audience: admin
@@ -36,17 +37,19 @@ The following table shows the features available to help you manage meeting reco
 |Microsoft 365 Copilot in Teams meetings and events|Yes|No|Yes|Yes|
 |Meeting recording overall|Yes|No|No|No|
 |Privacy and Security URL|Yes|No|No|No|
-|Record and transcribe automatically|No|Yes|Yes|Yes|
+|Record and transcribe automatically|No<sup>1</sup>|Yes|Yes|Yes|
 |Recordings and transcripts expiration|Yes|No|No|No|
 |Transcription|Yes|No|No|Yes|
 |Require participant agreement for recording|Yes|No|No|No|
 |Who can record and transcribe **(Teams Premium)**|No|Yes|Yes|Yes|
 
+<sup>1</sup> - There isn't an admin policy for **Record and transcribe automatically**. However, to control whether organizers have the **Record and transcribe automatically** setting in their **Meeting options**, you can use the **Auto recording** policy in PowerShell. To learn more, see [Manage Teams recording policies for meetings and events](meeting-recording.md#auto-recording).
+
 You control whether the ability to record meetings is available in your organization. Through sensitivity labels, meeting templates, and meeting organizer settings, both you and your meeting organizers can manage who can record and transcribe and whether meetings are automatically recorded and transcribed.
 
 ## Block or allow download of channel meeting recordings
 
-You can set a Teams admin policy through PowerShell's **`-ChannelRecordingDownload`** parameter in the[Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) to control whether channel members can download meeting recordings. If you block the download of channel recordings, members can watch recordings, but can't download them. To learn more, see [Manage Teams recording policies for meetings and events](meeting-recording.md#block-or-allow-download-of-channel-meeting-recordings).
+You can set a Teams admin policy through PowerShell's **`-ChannelRecordingDownload`** parameter in the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) to control whether channel members can download meeting recordings. If you block the download of channel recordings, members can watch recordings, but can't download them. To learn more, see [Manage Teams recording policies for meetings and events](meeting-recording.md#block-or-allow-download-of-channel-meeting-recordings).
 
 ## Manage who can record and transcribe meetings (Teams Premium)
 
@@ -64,6 +67,10 @@ If you need to prevent meetings from being recorded entirely, you must use the [
 
 To learn more about how your organizers use this feature, see [Record a meeting in Microsoft Teams](https://support.microsoft.com/office/record-a-meeting-in-microsoft-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24).
 
+### Platform support
+
+To view the list of platforms that support this feature, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#platform-support-for-advanced-management-for-meetings).
+
 ## Microsoft 365 Copilot in Teams meetings and events
 
 With a Teams admin policy or meeting template, you can manage how meeting transcripts are used with Copilot. The only Copilot policy setting that you can enforce is **On with saved transcript required**. The other settings create a default that your organizers can change. For details, see [Manage Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md).
@@ -78,6 +85,9 @@ With a Teams meeting policy, you can require participants to agree to being reco
 
 ## Record and transcribe automatically
 
+> [!NOTE]
+> Customers with a Microsoft 365 Education A1 subscription don't have the option to record and transcribe meetings automatically.
+
 Meetings can be set to record automatically when they start. Normally, the meeting organizer makes this choice when they create the meeting.
 
 If there are certain types of meetings that should always be recorded, you can enforce this option by using a meeting template or a sensitivity label.
@@ -85,6 +95,8 @@ If there are certain types of meetings that should always be recorded, you can e
 If all of a particular type of meeting must be recorded (for example, all sensitive meetings), consider enforcing this option by using a sensitivity label. If only certain sensitive meetings need to be recorded, consider using meeting templates to configure this setting. You can create two templates that both use the same label, one which automatically records and another which doesn't.
 
 For details on managing this option with meeting templates, see [IT admins - Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md#recording--transcription).
+
+For details on managing this option with sensitivity labels, see [Use sensitivity labels to protect calendar items, Teams meetings, and chat](/purview/sensitivity-labels-meetings).
 
 ## Recording and transcription lifecycle
 
@@ -113,6 +125,7 @@ For details about enforcing settings by using meeting templates and sensitivity 
 
 ## Related topics
 
+- [Overview- Recording and transcription for Teams meetings, events, and calls](recording-transcription-overview.md)
 - [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md)
 - [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 - [Options for meeting organizers in Microsoft Teams](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e)

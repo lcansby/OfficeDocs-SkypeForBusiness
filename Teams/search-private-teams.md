@@ -4,12 +4,14 @@ author: DaniEASmith
 ms.author: danismith
 manager: jtremper
 ms.reviewer: shubjain
-ms.date: 11/01/2023
-ms.topic: article
+ms.date: 04/15/2025
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
-ms.custom: 
+ms.custom:
+  - admindeeplinkTEAMS
+  - teams-chat-and-channels
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -27,10 +29,10 @@ By default, users can't search for and find private teams. You can allow users t
 
 You can allow or prevent private team discovery for users or groups in your organization by using a Teams policy.
 
-To manage if users can search for private teams
-1. In the Teams admin center, expand **Teams** and select **Teams policies**.
-1. Select the policy that you want to update or create a new one.
-1. On the **Teams policy** pane, set **Private teams discovery** to **On** or **Off**.
+To manage if users can search for private teams, complete the following steps:
+
+1. In the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), select **Settings & policies**.
+1. Select **Teams** and set **Discover private teams** to **On** or **Off**.
 
 Policy changes may take several hours to take effect.
 
@@ -38,6 +40,6 @@ Policy changes may take several hours to take effect.
 
 If you want to enable private team discovery but restrict the discovery of certain teams, such as those containing sensitive information, you can prevent private team discovery by using a sensitivity label. For more information, see [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites#how-to-configure-groups-and-site-settings).
 
-## Related topics
+## Related articles
 
-[Find and join a team in Microsoft Teams](https://support.microsoft.com/office/9f284981-39a1-486d-b43d-ab2dcc4c1e0f)
+- [Find and join a team in Microsoft Teams](https://support.microsoft.com/office/9f284981-39a1-486d-b43d-ab2dcc4c1e0f)

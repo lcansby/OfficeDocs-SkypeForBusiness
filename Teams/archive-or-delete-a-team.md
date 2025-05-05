@@ -3,7 +3,7 @@ title: Archive or delete a team in Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: conceptual
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 ms.reviewer: divyasrirk
@@ -19,6 +19,7 @@ ms.custom:
   - chat-teams-channels-revamp
   - has-azure-ad-ps-ref
   - azure-ad-ref-level-one-done
+  - teams-chat-and-channels
 ms.collection:
   - M365-collaboration
 appliesto:

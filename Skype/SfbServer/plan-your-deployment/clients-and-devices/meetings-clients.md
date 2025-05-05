@@ -23,9 +23,9 @@ description: "Summary: IT Professionals should review the support requirements f
  
 **Summary:** IT Professionals should review the support requirements for the Skype for Business Web App and Skype Meetings App while planning for Skype for Business Server. This article is not intended for the users of these apps.
   
-Once you've implemented Skype for Business Server, your organization's users will presumably have the Skype for Business client installed as part of the deployment process. 
+When you implement Skype for Business Server, your organization's users presumably have the Skype for Business client installed as part of the deployment process. 
   
-Later on, those users may create meetings and invite users from outside the organization, and those meeting invitees may not have any version of the Skype for Business client. When those users click the URL for the meeting invite, the lack of a client will be detected and the invitee without a Skype for Business client will be asked to download and install a lightweight, meetings-only client so they can join the meeting.
+Later on, those users may create meetings and invite users from outside the organization, and those meeting invitees may not have any version of the Skype for Business client. When those users click the URL for the meeting invite, the lack of a client is detected. The invitee without a Skype for Business client is asked to download and install a lightweight, meetings-only client so they can join the meeting.
   
 > [!NOTE]
 > The Skype for Business Web App and Skype Meetings App are only available when trying to log in to a meeting without having Skype for Business. User help for these apps is at [https://aka.ms/smahelp](https://aka.ms/smahelp). 
@@ -33,14 +33,14 @@ Later on, those users may create meetings and invite users from outside the orga
 > [!NOTE]
 > You can't pre-install either the Skype for Business Web App or Skype Meetings App, but [smart phone](https://products.office.com/skype-for-business/download-app?tab=tabs-1) and [tablet](https://products.office.com/skype-for-business/download-app?tab=tabs-2) users may be able to install inexpensive mobile clients they can use to attend meetings.
   
-By default, the server hosting the meeting will direct the user to download and install Skype for Business Web App to join the meeting. The Skype for Business Web App is stored on the Front End Server and gets sent to the meeting attendee. 
+By default, the server hosting the meeting directs the user to download and install Skype for Business Web App to join the meeting. The Skype for Business Web App is stored on the Front End Server and gets sent to the meeting attendee. 
   
-For Skype for Business Server, Skype Meetings App (on Windows) and Skype for Business for Mac (on Mac) are available as replacements for Skype for Business Web App beginning with CU5, but providing the replacement apps requires the additional configuration described in [Enable Skype Meetings App to replace Skype for Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). If Skype Meetings App and Skype for Business for Mac are enabled, users will download the latest version of the apps from the Microsoft 365 or Office 365 Content Delivery Network (CDN) rather than from your Skype for Business server. For Skype for Business Server 2019, using Skype Meetings App and Skype for Business for Mac is the only option.
+For Skype for Business Server, Skype Meetings App (on Windows) and Skype for Business for Mac (on Mac) are available as replacements for Skype for Business Web App beginning with CU5, but providing the replacement apps requires the extra configuration described in [Enable Skype Meetings App to replace Skype for Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). If Skype Meetings App and Skype for Business for Mac are enabled, users will download the latest version of the apps from the Microsoft 365 or Office 365 Content Delivery Network (CDN) rather than from your Skype for Business server. For Skype for Business Server 2019, using Skype Meetings App and Skype for Business for Mac is the only option.
   
 Skype Meetings App offers a simplified browser experience for downloading and installing the app and joining meetings, including one-click join for users of Internet Explorer. Skype Meetings App also has many improvements over the Skype for Business Web App for reliability and the meeting experience. 
   
 > [!NOTE]
-> As of Skype for Business Server 2015 CU5 or later, meetings held using Skype for Business Online will no longer send a clientless user the Skype for Business Web App, they will instead be sent Skype Meetings App (on Windows) or Skype for Business for Mac (on Mac). As of Skype for Business Server 2015 CU5 or later, if you [Enable Skype Meetings App to replace Skype for Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable), clientless users will be sent Skype Meetings App or Skype for Business for Mac instead of Skype for Business Web App. 
+> As of Skype for Business Server 2015 CU5 or later, meetings held using Skype for Business Online no longer send a clientless user the Skype for Business Web App, they'll instead be sent Skype Meetings App (on Windows) or Skype for Business for Mac (on Mac). As of Skype for Business Server 2015 CU5 or later, if you [Enable Skype Meetings App to replace Skype for Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable), clientless users are sent Skype Meetings App or Skype for Business for Mac instead of Skype for Business Web App. 
   
 ## Software requirements
 <a name="OS-Browser"> </a>
@@ -133,7 +133,7 @@ This table compares the Meetings features available to users of the Skype for Bu
 |Make everyone an attendee  <br/> |&#x2714;|||||
 |Produce Skype Meeting Broadcast  <br/> |&#x2714;|||||
    
- &#x2776;  Participants can't control desktops that are shared by Skype for Business for Mac, Lync for Mac 2011 or Communicator for Mac 2011 users. This also won't work for Skype for Business Web App on Max OSX.
+ &#x2776;  Participants can't control desktops that are shared by Skype for Business for Mac, Lync for Mac 2011 or Communicator for Mac 2011 users. This also doesn't work for Skype for Business Web App on Max OSX.
   
  &#x2777;  For Skype for Business Online, this feature requires Microsoft PSTN Conferencing, Exchange Unified Messaging, or a 3rd party audio conferencing provider.
   

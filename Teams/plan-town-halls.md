@@ -121,7 +121,7 @@ If you've been using live events for your organization, you might want to unders
 |Download translated transcripts|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Duration|Four hours|30 hours|30 hours|
 |eCDN|Microsoft and partner providers|Microsoft and partner providers|Microsoft and partner providers|
-|DVR|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|DVR|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Dynamics 365 integration|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Email editing|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |End event for attendees and return presenters to green room|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|

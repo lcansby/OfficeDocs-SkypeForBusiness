@@ -49,7 +49,7 @@ To set up and use Bookable Desks in your organization, you must perform these ta
 
 - Ensure that your users have access to the new version of Microsoft Teams desktop app on Windows or Mac.
 
-- If you're planning to use individual desks, verify that your users have Teams Premium license. Individual desk booking is a Teams Premium feature.
+- If you're planning to use individual desks, verify that your users have a Teams Premium license. Individual desk booking is a Teams Premium feature.
 
 ## Step 2 - Create Desk Pool or Individual Desk Accounts
 
@@ -160,6 +160,10 @@ The inventory management permission in Teams Rooms Pro Management portal allows 
 **Question:** **Is the bookable desks feature available on Classic (old Teams) and new Teams?**
 
 **Answer**: No, the bookable desk experience is only available on the new Teams client. To download and switch to the latest Teams client see, [New Microsoft Teams](https://adoption.microsoft.com/new-microsoft-teams/).
+
+**Question: Is the bookable desks feature available in VDI?**
+
+**Answer:** Yes, this feature set is supported in the [New VDI solution for Teams](/MicrosoftTeams/vdi-2).  
 
 **Question: Does Bookable** **desks work with Microsoft Places?**
 

@@ -925,6 +925,8 @@ items:
               href: manage-meeting-presentation-experience.md
             - name: Manage chat
               href: manage-chat-sensitive-meetings.md
+            - name: Detect sensitive content during screen sharing
+              href: detect-sensitive-content.md
             - name: Encrypt meetings
               href: end-to-end-encrypted-meetings.md
             - name: Watermark meetings

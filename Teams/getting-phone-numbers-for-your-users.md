@@ -251,6 +251,52 @@ The following table applies to Microsoft Calling Plans, [Audio Conferencing](dep
 > [!NOTE]
 > You can see the quantity of telephone numbers you can get from Microsoft during the search and acquire process in the Microsoft Teams admin center (**Add phone numbers**).
 
+## Considerations for getting Microsoft Calling Plan numbers in your tenant
+
+Currently, Microsoft Calling Plan licenses support two telephone number types for resources in your tenant; **user** numbers and **service** numbers.
+
+### User telephone numbers
+
+[**User numbers**](#user-telephone-numbers), also called subscriber numbers, are numbers that are assigned to users and shared devices in your organization.
+
+There are two categories of user telephone numbers, which can be assigned to users in your organization:  
+  
+- **Geographic numbers** have a relationship to a geographic area and are the most common. For example, geographic telephone numbers in most cases can only be used within a certain address, city, state, or region of the country/region.
+
+- **Non-geographic numbers** are known as national numbers or sometimes VoIP numbers. These numbers don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region. Also, some countries/regions, such as Denmark, only have non-geographic numbers available.
+
+### Service numbers
+
+**Service numbers** are numbers that are assigned to services, such as [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md), [Auto Attendants](plan-auto-attendant-call-queue.md), or [Call Queues](plan-auto-attendant-call-queue.md).
+
+Service numbers have a higher concurrent call capacity than user numbers. Service number availability varies by country/region and the type of number (whether it's a toll or toll-free number). Microsoft’s telephony licenses in each country/region dictate what the number can be used for.
+
+There are two categories of service telephone numbers provided by Microsoft--**toll** and **toll-free**--.
+
+- **Toll service numbers** - There are two types of toll service numbers, which may incur a toll cost to the caller:
+
+  - **Geographic numbers** Geographic numbers have a relationship to a geographic area. For example, geographic telephone numbers in most cases can only be used within a certain address, city, state, or region of the country.
+
+  - **Non-geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region.
+
+- **Toll-free service numbers** - These service numbers don't typically incur a toll cost to the caller. Teams provides national toll-free numbers in over 60 countries/regions.
+
+> [!CAUTION]
+> Some countries/regions and originating number types, such as calls originating from mobile phones, may incur a toll cost to the caller.
+
+If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a telephone number request to the [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
+
+For information about service numbers provided by Operator Connect or Direct Routing, contact your provider.
+
+### Supported rate centers and coverage for Calling Plans
+
+A rate center is a term used in the United States for a geographical area that traditionally defines boundaries for local calling, billing rates, and phone number assignment for the PSTN. In many cases, with the industry moving to all inclusive plans or bundles of minutes, the rate center has become less important for billing but is still used by some US PSTN operators.
+
+The [Supported rate centers and coverage matrix for North America](https://www.microsoft.com/download/details.aspx?id=102534) spreadsheet lists the rate centers that we support. When you're getting new phone numbers or when you're transferring phone numbers from your existing provider to Teams, download the spreadsheet and use it to look up rate centers. If you don't know your rate center, you can look it up on the internet based on your area codes (NPAs) and prefixes (NXX)s.
+If you're getting new numbers and we don't have the numbers that you've requested, we'll attempt to offer you numbers from the same rate center.
+
+If you're getting new numbers and we don't have the numbers that you've requested, we'll offer you numbers from the same rate center.
+
 ## Related articles
 
 [Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)

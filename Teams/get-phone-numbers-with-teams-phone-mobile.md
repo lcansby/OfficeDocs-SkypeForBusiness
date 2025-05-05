@@ -1,5 +1,5 @@
 ---
-title: "Get Operator Connect phone numbers for your users"
+title: "Get Teams Phone Mobile phone numbers for your users"
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
@@ -24,10 +24,10 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Calling Plans
-description: "Learn how to get numbers in Teams with your Operator Connect partner."
+description: "Learn how to get numbers in Teams with your Teams Phone Mobile partner."
 ---
 
-# Get phone numbers with Operator Connect
+# Get phone numbers with Teams Phone Mobile
 
 **APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Operator Connect
 
@@ -62,7 +62,7 @@ Operator Connect and Teams Phone Mobile are alternatives to Microsoft's Calling 
 
 6. If you've already provided consent to the operator, you'll be directed to the landing page of the operator to complete the order process.
 
-7. If you haven't provided consent to the operator, you'll be directed to enable your operator on the chosen operator page in the Teams admin center. For more information, see [Enable an operator](operator-connect-configure.md#enable-an-operator).
+7. If you haven't provided consent to the operator, you'll be directed to enable your operator on the chosen operator page in the Teams admin center. For more information, see [Configure Teams Phone Mobile](operator-connect-mobile-configure.md).
 
 8. After your order is complete, your operator will upload phone numbers to your tenant, and you can assign them to users.  
 

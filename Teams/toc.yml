@@ -1363,9 +1363,9 @@ items:
             - name: Get Operator Connect phone numbers
               href: get-phone-numbers-with-operator-connect.md
             - name: Get Teams Phone Mobile phone numbers
-              href: operator-connect-mobile-configure.md#step-2-manage-phone-numbers-and-assign-licenses
+              href: get-phone-numbers-with-teams-phone-mobile.md
             - name: Get Direct Routing phone numbers
-              href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
+              href: get-phone-numbers-with-direct-routing.md
             - name: Port phone numbers
               items: 
                 - name: Port planning

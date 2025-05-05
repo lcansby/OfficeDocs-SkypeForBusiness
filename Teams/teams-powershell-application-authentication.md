@@ -33,6 +33,11 @@ All cmdlets are supported now, except for the cmdlets mentioned below.
   - \*-CsBatchTeamsDeployment\*
   - [Get|Set]-CsTeamsSettingsCustomApp
   - Get-MultiGeoRegion
+  - Get-AllM365TeamsApps
+  - [Get|Update]-M365TeamsApp
+  - Get-M365UnifiedCustomPendingApps
+  - [Get|Update]-M365UnifiedTenantSettings
+  - Update-M365UnifiedCustomPendingApp
 
 
 ## Examples

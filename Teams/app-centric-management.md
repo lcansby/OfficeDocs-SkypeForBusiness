@@ -226,10 +226,10 @@ When your tenant's admin center receives this feature, the following updates are
 
 * After you switch to this feature, you can't access, edit, or use permission policies. Once your organization migrates, you can't revert the migration.
 
-* You can't update app availability in bulk in Teams admin center, but you can do so through PowerShell.
+* You can't update app availability in bulk in Teams admin center, but you can do so through PowerShell. For more details app availability using PowerShell cmdlets, see [Update-M365TeamsApp](/powershell/module/teams/update-m365teamsapp?view=teams-ps).
 
 * Details of automatic migration for app permission policies:
-    * During the migration, create one security group per custom app permission policy. All users assigned to the app permission policy are assigned to the corresponding groups.
+    * During the migration, [create one security group](/microsoft-365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide) per custom app permission policy. All users assigned to the app permission policy are assigned to the corresponding groups. 
     * After the migration, you can view and manage the groups.
     * There is no change of app permissions during the migration, except where an app is allowed in the global policy but blocked in the custom app permission policy. Here, the app is allowed for all users in the group. This is the only instance where there is a change in app permissions in the tenant.
 

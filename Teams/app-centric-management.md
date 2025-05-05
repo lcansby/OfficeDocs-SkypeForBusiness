@@ -119,11 +119,11 @@ During migration, you can save a draft of the migration progress using the **Fin
 
 After migration, your blocked apps continue to remain unavailable to users. The statuses of such apps show as `unblocked` now, but the apps are assigned to `No one` in the `Available to` column on the Manage apps page. It means that org user can't use the app, just as you intended before. Users can view the apps in store and [request access to apps](user-requests-approve-apps.md).
 
-After migration, any admin consent to app permissions that was previously granted is retained. App permissions are a different concept from permission policies, which app centric management is replacing.
+After migration, any admin consent to app permissions that was previously granted is retained. App permissions are a different concept from permission policies, which app centric management is replacing. For more information, see [grant and manage consent to Teams app permissions](manage-consent-app-permissions.md).
 
 ### Understand the auto-migration process
 
-Auto-migration maintains the same access defined in app permission policies when there is no conflict between a user’s assigned policies. If a user belongs to policies that conflict with one allowing and another blocking the same app, Microsoft auto-migrates the app as allowed. These groups are assigned to each app they are allowed in their respective policy, maintaining their app access. You can manage these groups to customize the app centric management assignments, such as adding or removing users, or removing the group and replacing it with another.
+Auto-migration maintains the same access defined in app permission policies when there is no conflict between a user’s assigned policies. If a user is assigned to a custom app permission policy that blocks an app, while the Global permission policy allows the same app, Microsoft auto-migrates the app as allowed for that user. During the auto migration, one security group is created for each custom app permission policy. All users currently assigned to an app permission policy are then added to the corresponding security group for that policy. These groups are assigned to each app they are allowed in their respective policy, maintaining their app access. Administrators manage these groups like any others to customize the app centric management assignments, such as adding and removing users or removing the group and replacing it with another group.
 
 ## Add or modify app availability for users
 
@@ -226,7 +226,7 @@ When your tenant's admin center receives this feature, the following updates are
 
 * After you switch to this feature, you can't access, edit, or use permission policies. Once your organization migrates, you can't revert the migration.
 
-* You can't update app availability in bulk, but you can use PowerShell to do so.
+* You can't update app availability in bulk in Teams admin center, but you can do so through PowerShell.
 
 * Details of automatic migration for app permission policies.
     * During the migration, create one security group per custom app permission policy. All users assigned to the app permission policy are assigned to the corresponding groups.

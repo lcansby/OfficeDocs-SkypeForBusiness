@@ -74,7 +74,7 @@ Previously, we automatically migrated organizations that weren't using any custo
 | Type of migration | Who does it   | Requirement                             | How is it done                        |
 |-------------------|---------------|-----------------------------------------|---------------------------------------|
 | Assisted          | Administrator | Org uses one or more custom policies    | Guided UI in admin center. This is transitioned to automatic migration. See [Message Center post MC688930](https://admin.microsoft.com/Adminportal/Home#/MessageCenter/:/messages/MC688930) for timelines.              |
-| Automatic         | Microsoft     | Org uses only the default global policy | Automatic, without admin intervention. One or more custom policies is being rolled out. See [Message Center post MC688930](https://admin.microsoft.com/Adminportal/Home#/MessageCenter/:/messages/MC688930) for timelines.|
+| Automatic         | Microsoft     | Org uses only the default global policy | Automatic, without admin intervention. One or more custom policies are being rolled out. See [Message Center post MC688930](https://admin.microsoft.com/Adminportal/Home#/MessageCenter/:/messages/MC688930) for timelines.|
 
 To migrate your organization, follow these steps:
 
@@ -228,7 +228,7 @@ When your tenant's admin center receives this feature, the following updates are
 
 * You can't update app availability in bulk in Teams admin center, but you can do so through PowerShell.
 
-* Details of automatic migration for app permission policies.
+* Details of automatic migration for app permission policies:
     * During the migration, create one security group per custom app permission policy. All users assigned to the app permission policy are assigned to the corresponding groups.
     * After the migration, you can view and manage the groups.
     * There is no change of app permissions during the migration, except where an app is allowed in the global policy but blocked in the custom app permission policy. Here, the app is allowed for all users in the group. This is the only instance where there is a change in app permissions in the tenant.

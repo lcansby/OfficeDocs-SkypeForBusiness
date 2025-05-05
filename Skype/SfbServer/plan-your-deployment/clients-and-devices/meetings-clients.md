@@ -16,12 +16,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
-description: "Summary: IT Professionals should review the support requirements for the Skype for Business Web App and Skype Meetings App while planning for Skype for Business Server. This article is not intended for the users of these apps."
+description: "Summary: IT Professionals should review the support requirements for the Skype for Business Web App and Skype Meetings App while planning for Skype for Business Server. This article isn't intended for the users of these apps."
 ---
 
 # Plan for Meetings clients (Web App and Meetings App)
  
-**Summary:** IT Professionals should review the support requirements for the Skype for Business Web App and Skype Meetings App while planning for Skype for Business Server. This article is not intended for the users of these apps.
+**Summary:** IT Professionals should review the support requirements for the Skype for Business Web App and Skype Meetings App while planning for Skype for Business Server. This article isn't intended for the users of these apps.
   
 When you implement Skype for Business Server, your organization's users presumably have the Skype for Business client installed as part of the deployment process. 
   
@@ -59,11 +59,11 @@ To use the Skype for Business Web App, a user must have one of the following sup
 |Windows Server 2008 R2 with SP1 &#x2777; <br/> |N/A  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |N/A <br/>|Yes &#x2778; <br/> |
 |macOS 10.8 and later (Intel-based) &#x2777; <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |Yes <br/> |
 
-&#x2776; The Skype for Business Web App browser plug-in requires a specific sharing plugin to use computer-based voice, video, sharing, and viewing of ongoing screen sharing and other features. A meeting attendee is given the option to install the sharing plug-in either when they join the meeting or when they initiate one of these features. On Windows 8, and Windows 8.1, the sharing plug-in can be installed only if you're running Internet Explorer 10 or Internet Explorer 11 for the desktop. These features are not available with non-desktop versions of Internet Explorer 10 and 11. Note that Firefox and Safari version 12.0 and later is no longer supported.
+&#x2776; The Skype for Business Web App browser plug-in requires a specific sharing plugin to use computer-based voice, video, sharing, and viewing of ongoing screen sharing and other features. A meeting attendee is given the option to install the sharing plug-in either when they join the meeting or when they initiate one of these features. On Windows 8, and Windows 8.1, the sharing plug-in can be installed only if you're running Internet Explorer 10 or Internet Explorer 11 for the desktop. These features aren't available with non-desktop versions of Internet Explorer 10 and 11. Note that Firefox and Safari version 12.0 and later is no longer supported.
   
-&#x2777; On supported Windows 7, Windows Server 2008 R2, and Macintosh operating systems, all features are available including computer-based voice, video, application viewing, application sharing, desktop viewing, and desktop sharing. To use these features, you must install a plug-in when prompted. Note that Mac OS X version 10.7 is no longer supported.  Also note the web app will not install on OS X 10.15 or later.  We recommend using the latest version of Skype for Business for Mac which supports anonymous join scenarios moving forward.
+&#x2777; On supported Windows 7, Windows Server 2008 R2, and Macintosh operating systems, all features are available including computer-based voice, video, application viewing, application sharing, desktop viewing, and desktop sharing. To use these features, you must install a plug-in when prompted. Note that Mac OS X version 10.7 is no longer supported.  The web app doesn't install on OS X 10.15 or later.  We recommend using the latest version of Skype for Business for Mac which supports anonymous join scenarios moving forward.
   
-&#x2778; Accessing the Web App from Chrome on Windows will launch a small program which loads the Web App in an embedded Internet Explorer frame. This program requires one of the supported versions of Internet Explorer be installed for the Web App to load properly.
+&#x2778; Accessing the Web App from Chrome on Windows launches a small program which loads the Web App in an embedded Internet Explorer frame. This program requires one of the supported versions of Internet Explorer be installed for the Web App to load properly.
   
 > [!NOTE]
 > Microsoft 365 and Office 365 users can use Internet Explorer 10 or later with Skype for Business. 
@@ -137,7 +137,7 @@ This table compares the Meetings features available to users of the Skype for Bu
   
  &#x2777;  For Skype for Business Online, this feature requires Microsoft PSTN Conferencing, Exchange Unified Messaging, or a 3rd party audio conferencing provider.
   
- &#x2778;  The Lync for Mac 2011 client cannot view Microsoft Office 2013 PowerPoint presentations when they have been shared in a conference by the Skype for Business Web App.
+ &#x2778;  The Lync for Mac 2011 client can't view Microsoft Office 2013 PowerPoint presentations when they have been shared in a conference by the Skype for Business Web App.
   
 ## Known issues and troubleshooting
 <a name="BKMK_Conferencing"> </a>
@@ -152,7 +152,7 @@ For End-users, the [online help](https://aka.ms/smahelp) for these apps is readi
     
 - Users may see a firewall warning the first time they run the meetings app. They may be prompted to open ports to optimize the experience, and this may require Admin privileges on the machine they may not have. The app should still function and the user can safely decline to open the requested ports. 
     
-- You must have [ActiveX enabled without filtering](https://support.office.com/article/Turn-off-ActiveX-filtering-for-Skype-for-Business-Web-App-b6de8ff6-ac7e-4e2f-b18c-2f13db643c41?ui=en-US&amp;rs=en-US&amp;ad=US) in Internet Explorer, even if IE is not your default browser. In Skype for Business Web App, an ActiveX control—a small module that adds additional features to a web app or other program—is required for audio, video, and screen sharing.
+- You must have [ActiveX enabled without filtering](https://support.office.com/article/Turn-off-ActiveX-filtering-for-Skype-for-Business-Web-App-b6de8ff6-ac7e-4e2f-b18c-2f13db643c41?ui=en-US&amp;rs=en-US&amp;ad=US) in Internet Explorer, even if IE isn't your default browser. In Skype for Business Web App, an ActiveX control—a small module that adds additional features to a web app or other program—is required for audio, video, and screen sharing.
     
 - For some features of Skype for Business Web App to work correctly, you must allow your browser to [save cookies](https://support.office.com/article/Allow-cookies-for-Skype-Meetings-App-Skype-for-Business-Web-App-2108276b-b5c3-484b-bf2b-dac6eeba4c93) on your computer or device.
     
@@ -160,7 +160,7 @@ For End-users, the [online help](https://aka.ms/smahelp) for these apps is readi
     
 ### AES Support 
 
-As of Skype for Business Server 2015 CU5, AES is not supported for ASP.NET 4.6 and this may cause Skype Meetings App to fail to start. [Cryptographic requirements due to ASP .NET 4.5](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) has more details.
+As of Skype for Business Server 2015 CU5, AES isn't supported for ASP.NET 4.6 and this may cause Skype Meetings App to fail to start. [Cryptographic requirements due to ASP .NET 4.5](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) has more details.
   
 ## See also
 <a name="BKMK_Conferencing"> </a>

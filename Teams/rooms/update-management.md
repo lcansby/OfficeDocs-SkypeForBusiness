@@ -57,7 +57,7 @@ There are a few prerequisites for receiving updates through the Pro Management s
 |Microsoft Store updates   |Should be turned off. Teams Rooms Pro management will turn off Store updates if found on. |
 |Anti-Virus Software |Only Microsoft Defender is the supported anti-virus tool on Teams Rooms for Windows devices. If you are running any other AV software on these devices, you should ensure that AV has exclusions in place for Teams and Skype dlls. See [How to include or exclude Teams from antivirus or DLP applications](/microsoftteams/troubleshoot/teams-administration/include-exclude-teams-from-antivirus-dlp) for more details. |
 |Additional Software |Additional software such as third-party remote desktop viewing, etc. is not supported. If issues arise, where additional software has been added, you should remove software to rule out side-effects. |
-|Additional Change Management|Can interfere with covered updates, and shouldn't be introduced.||
+|Additional Change Management|Can interfere with covered updates, and shouldn't be introduced.|
 
 ## Managed updates – How it works 
 

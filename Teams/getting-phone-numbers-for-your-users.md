@@ -155,6 +155,50 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
     > The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and **International Calling Plan** licenses you have assigned multiplied by 1.1, plus 10 additional phone numbers. For example, if you have 50 users in total with a Domestic Calling Plan and/or International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**. Note that if you have a Pay-As-You-Go Calling Plan, you can only acquire 1 phone number per license assigned.
     >
     > For details, see [How many phone numbers can you get?](./how-many-phone-numbers-can-you-get.md). If you need to get more phone numbers than this, [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products).
+
+# Search for telephone numbers for users
+
+When you're setting up users in your organization to make and receive telephone calls using Microsoft-supplied telephone numbers, you must first use the **Microsoft Teams admin center** and acquire telephone numbers to be assigned to users. The telephone number you assign to a user is a telephone number that you previously acquired for your organization. The number is listed in the drop-down list when you edit the properties of the user and select **Assign**.
+  
+Before you can assign Microsoft-supplied telephone numbers to your users, you must use the **Get new numbers** page to search for telephone numbers that are available to you. You can search by **Country (Market)**, **Number type**, and **Location**. You'll then see a list of operators that supply numbers in that country.
+
+If you select Microsoft as your operator, you can acquire the numbers from the Teams admin center by entering the quantity of telephone numbers you'll need for your users. The page automatically limits the quantity based on how many you still have available to acquire. If you select an Operator Connect operator, you'll be directed to the landing page of your selected operator to complete the number order.
+
+How you acquire and manage telephone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing.
+
+This article applies to [Microsoft Calling Plans](#search-for-telephone-numbers-for-microsoft-calling-plans), [Operator Connect](#search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile), and [Teams Phone Mobile](#search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile). For more information about all options, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
+
+## Search for telephone numbers for Microsoft Calling Plans
+
+To search for telephone numbers for your users:
+  
+1. Go to the **Microsoft Teams admin center**.
+
+2. In the left navigation, select **Voice** > **Phone numbers** > **Get new numbers**.
+  
+    > [!IMPORTANT]
+    > For you to see the **Voice** option in the left navigation in the Teams admin center, you must first buy at least one **Enterprise E5 or E3 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.  
+
+3. On the **Select location and quantity** page, select a location from the **Country (Market)** drop-down list.
+
+4. Select **User** from the **Number type** drop-down list.
+
+5. Depending on the Country (Market) you select, you have different options available for locating the telephone numbers you require.  
+
+6. Under **Quantity**, enter the number of phone numbers that you want for your organization, and then select **Next**. You have 10 minutes to select your phone numbers. If you take more than 10 minutes, the numbers are returned to the pool of phone numbers.
+
+    > [!NOTE]
+    > You can see the number of telephone numbers available to you (which is based on the number of licenses), listed next to **Quantity**.
+  
+7. On the **Get numbers** page, select the telephone numbers you want, select **Acquire numbers**, and then select **Next**.
+
+    > [!IMPORTANT]
+    > You can acquire more telephone numbers than you have Microsoft licenses. To determine how many telephone numbers you can acquire, take your number of Microsoft Calling Plan licenses, add 10 percent of the number of licenses, then add 10, and then remove however many you have already acquired. For example, if you have 100 Microsoft **Domestic Calling Plan** and/or **International Calling Plan** licenses, you can reserve 120 telephone numbers, assuming that you have not already acquired some telephone numbers for those 100 users. For more details, see [How many telephone numbers can you get?](./how-many-phone-numbers-can-you-get.md).
+
+8. On the **Confirmation** page, verify your choices, and then select **Place order**.
+
+9. When you return to the **Phone numbers** page, select the telephone number or numbers that you want to assign and then select **Edit** to assign it to a user.
+
   
 ## Port or transfer phone numbers from your service provider or phone carrier
   

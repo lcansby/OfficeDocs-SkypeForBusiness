@@ -5473,8 +5473,13 @@
     {
       "source_path": "Teams/how-many-phone-numbers-can-you-get.md",
       "redirect_url": "/microsoftteams/getting-phone-numbers-for-your-users",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
+    {
+      "source_path": "Teams/search-for-phone-numbers-for-users.md",
+      "redirect_url": "/microsoftteams/getting-phone-numbers-for-your-users",
+      "redirect_document_id": true
+    },    
     {
       "source_path": "Teams/new-teams-known-issues.md",
       "redirect_url": "/microsoftteams/teams-client-update",

@@ -5456,6 +5456,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "Teams/sip-tester-powershell-script.md",
+      "redirect_url": "/MicrosoftTeams/direct-routing-monitor-and-troubleshoot",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/new-teams-known-issues.md",
       "redirect_url": "/microsoftteams/teams-client-update",
       "redirect_document_id": true

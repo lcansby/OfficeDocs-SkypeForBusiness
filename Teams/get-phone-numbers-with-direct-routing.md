@@ -39,8 +39,6 @@ If you select Microsoft as your operator, you can acquire the numbers from the T
 
 How you acquire and manage telephone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing.
 
-This article applies to [Microsoft Calling Plans](#search-for-telephone-numbers-for-microsoft-calling-plans), [Operator Connect](#search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile), and [Teams Phone Mobile](#search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile). For more information about all options, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
-
 ## Considerations for getting Direct Routing numbers in your tenant
 
 Direct Routing phone numbers can be managed in on-premises Active Directory or in Microsoft 365.

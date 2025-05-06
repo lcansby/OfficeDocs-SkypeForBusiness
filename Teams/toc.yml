@@ -1358,10 +1358,8 @@ items:
           items:
             - name: Overview
               href: manage-phone-numbers-landing-page.md
-            - name: Microsoft Calling Plans
+            - name: why two labels
               items: 
-                - name: why two labels
-                  items:
                 - name: Get Microsoft Calling Plan phone numbers
                   href: getting-phone-numbers-for-your-users.md
                 - name: Port phone numbers

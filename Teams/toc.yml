@@ -1358,15 +1358,16 @@ items:
           items:
             - name: Overview
               href: manage-phone-numbers-landing-page.md
-            - name: Get new Calling Plan phone numbers
-              href: getting-phone-numbers-for-your-users.md
-            - name: Port existing phone numbers
-              items: 
-                - name: Port planning
-                  href: phone-number-calling-plans/port-order-overview.md
-                - name: Port phone numbers to Microsoft Calling Plan
-                  href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
-              href: getting-phone-numbers-for-your-users.md
+            - name: Teams Calling plans
+              items:  
+                - name: Get new Calling Plan phone numbers
+                  href: getting-phone-numbers-for-your-users.md
+                - name: Port existing phone numbers
+                  items: 
+                    - name: Port overview
+                      href: phone-number-calling-plans/port-order-overview.md
+                    - name: Port existing phone numbers to Microsoft Calling Plan
+                      href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
             - name: Get Operator Connect phone numbers
               href: get-phone-numbers-with-operator-connect.md
             - name: Get Teams Phone Mobile phone numbers

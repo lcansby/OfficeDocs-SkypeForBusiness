@@ -2,12 +2,13 @@
 title: "Session Border Controllers certified for Direct Routing"
 ms.author: scottfrancis
 ms.reviewer: FilippSe
-ms.date: 06/12/2024
+ms.date: 05/06/2025
 author: sfrancis206
 manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-calling
 ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:

@@ -1362,19 +1362,16 @@ items:
               items:  
                 - name: Get new Calling Plan phone numbers
                   href: getting-phone-numbers-for-your-users.md
-                - name: Port existing phone numbers
-                  items: 
-                    - name: Port overview
-                      href: phone-number-calling-plans/port-order-overview.md
-                    - name: Port existing phone numbers to Microsoft Calling Plan
-                      href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
+                - name: Port in existing phone numbers
+                  href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
             - name: Get Operator Connect phone numbers
               href: get-phone-numbers-with-operator-connect.md
             - name: Get Teams Phone Mobile phone numbers
               href: get-phone-numbers-with-teams-phone-mobile.md
             - name: Get Direct Routing phone numbers
               href: get-phone-numbers-with-direct-routing.md
-
+            - name: Porting overview
+              href: phone-number-calling-plans/port-order-overview.md
         - name: Manage phone numbers in your tenant
           items:
             - name: See a list of phone numbers in your organization

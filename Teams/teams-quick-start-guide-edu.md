@@ -9,12 +9,14 @@ displayType: one-column
 ms.date: 08/30/2018
 ms.reviewer: 
 ms.service: msteams
+ms.subservice: teams-education
 ms.topic: tutorial
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
   - M365-collaboration
-  - tier2
+  - essentials-overview
+  - essentials-get-started
 f1.keywords:
   - CSH
 ms.custom:

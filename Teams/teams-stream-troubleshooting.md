@@ -10,7 +10,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
 ms.reviewer: christi.balaki
-ms.date: 03/05/2024
+ms.date: 03/28/2025
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -43,8 +43,8 @@ Teams requires connectivity to the internet. All endpoints listed on [Office 365
 
 To get a video feed for a Teams Encoder live event sent to Teams from your encoder, you need the domain name and ports open in your network's firewall:
 
-- Domains: *.rtmpingest.mcr.teams.microsoft.com
-- Ports: 1935/1936 (for RTMP/RTMPS)
+- **Domains**: *.rtmpingest.mcr.teams.microsoft.com
+- **Ports**: 1935/1936 (for RTMP/RTMPS)
 
 ### Make sure you have enough upload bandwidth
 
@@ -66,8 +66,11 @@ Many viewers watch live events, which can strain your network and download bandw
 
 Viewers receive the Teams live event's stream via TCP HTTPS. The following URLs should bypass any proxy servers within your environment, and have SSL inspection disabled:
 
- - *.media.azure.net
- - bmc.cdn.office.net
+- *.bmc.cdn.office.net
+- *.ml.cdn.office.net
+- *.cdn.ml.gcc.teams.microsoft.com (Microsoft 365 U.S. Government Community Cloud (GCC))
+- *.cdn.ml.gov.teams.microsoft.us (Microsoft 365 U.S. Government GCC High Cloud (GCC High))
+- *.cdn.ml.dod.teams.microsoft.us (Microsoft 365 U.S. Government DoD Cloud (DoD))
 
 ### I can't create a live event
 
@@ -151,3 +154,8 @@ Select **Stop event** before disconnecting your encoder. If you already disconne
 
 > [!NOTE]
 > If you've deployed Microsoft eCDN as your video distribution provider for live events, please refer to [Troubleshooting eCDN performance issues](/ecdn/troubleshooting/troubleshoot-ecdn-performance-issues) for more details on troubleshooting the eCDN performance issues you may be experiencing.
+
+## Related topics
+
+- [What are Microsoft Teams live events](/microsoftteams/teams-live-events/what-are-teams-live-events)
+- [Plan for live events in Microsoft Teams](/microsoftteams/teams-live-events/plan-for-teams-live-events)

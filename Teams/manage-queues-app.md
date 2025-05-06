@@ -33,15 +33,17 @@ The Queues app is a Teams-native solution designed to empower organizations to m
 
 - **Historical reporting**: View historical metrics for call queues, and auto attendants, and agent queue actions. Historical metrics report up to the past 27 days. For more information on historical reports, see [Auto attendant and Call queue historical reports](aa-cq-cqd-historical-reports.md).
 
+- **Monitor, Whisper, Barge, Takeover** - Authorized users can enter into a monitoring session with selected agents for private coaching. Authorized users can listen to customer calls, whisper to agents with private messages, even barge into or takeover the calls. For information about configuring Monitor, Whisper, Barge, and Takeover, see [Manage voice applications policies in Microsoft Teams](manage-voice-applications-policies.md).
+
 Queues app is designed to enhance call queue handling capabilities within Teams for your users who utilize or plan to utilize call queues and auto attendants.
 
 Keep the following in mind:
 
-- The Queues app is currently only supported on Teams desktop, Mac, and Virtualized Desktop Infrastructure (VDI) clients, not on web or mobile clients.
+- The Queues app is currently only supported on Teams desktop, Mac, and Virtualized Desktop Infrastructure (VDI) clients, [Teams phones (touch devices only)](phones/queues-app.md), not on web clients.
 - Nesting Auto attendants and Call queues without a resource account isn't currently supported for [Authorized users](aa-cq-authorized-users-plan.md) in Queues App. If you nest an Auto attendant or Call queue without a resource account, authorized users can't edit the auto attendant or call queue.
 - Queues app is available in all regions where Teams Phone is supported. For more information, see [Country/region availability for Teams Phone](calling-plan-overview.md).
 - Queues app is currently only available in public clouds, including GCC.
-- For the best experience in Queues app, we advise having no more than 100 call queues assigned per user.
+- For the best experience in Queues app, we advise having no more than 100 call queues assigned per user. There is a hard limit of 200 call queues assigned per user.
 - There's a limit of 200 agents per call queue. For more information, please see [Create a Call queue in Microsoft Teams](create-a-phone-system-call-queue.md).
 
 To learn more about Call queues and Auto attendants, see [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md).
@@ -105,6 +107,10 @@ To automatically pin the Queues app in the Teams client for your users, do the f
 ## Give feedback or report an issue
 
 To send feedback or report an issue, select **Settings and more** (**…**) in Teams, and then choose **Help** > **Give feedback**. Enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about Queues app so we can easily identify Queues app-related issues.
+
+## Platform support
+
+To view the list of platforms that support this feature, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#platform-support-for-queues-app).
 
 ## Related articles
 

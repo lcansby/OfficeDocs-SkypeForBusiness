@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: parisataheri
-ms.date: 02/10/2025
+ms.date: 05/06/2025
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -56,7 +56,8 @@ To enable speaker recognition for your employees, you can set up a voice profile
 
 #### Teams Rooms:
 
-- Teams Rooms on Windows
+- Teams Rooms on Windows and Android 
+
 - Room resource account should have a Teams Room Pro license assigned.
 - To ensure best precision for the transcript, we suggest limiting the number of in person attendees to a maximum of 10 people.
 - People to be identified in the room, need to be enrolled with their voice profile and be invited to the scheduled meeting.
@@ -92,7 +93,9 @@ Set-CsTeamsMeetingPolicy -Identity PolicyName -roomAttributeUserOverride Attribu
 ```
 
 > [!NOTE]
-> If your voice profile isn't available under the *Recognition* tab in Settings and you aren't being attributed in transcriptions, re-enroll your Voice Profile.
+- If your voice profile isn't available under the *Recognition* tab in **Settings** and you aren't being attributed in transcriptions, re-enroll your Voice Profile.
+
+> - Speaker attribution using the meeting invite list begins when someone other than a Microsoft Teams Room (MTR) device joins the meeting.
 
 The following are the required policies to set an Intelligent Speaker and user recognition.
 
@@ -110,7 +113,7 @@ In the Teams admin center, set the **Transcription** policy.
 
 Once an end-user enrolls, their voice can be recognized during meetings and identified in the transcription when the meeting is set to one of the following languages:  
   
-English (US), English (Canada), English (India), English (UK), English (Australia), English (New Zealand), Arabic (Arab Emirates), Arabic (Saudi Arabia), Chinese (Simplified China), Chinese (Traditional, Hong Kong SAR), Chinese (Traditional, Taiwan), Czech (Czechia), Danish (Denmark), Dutch (Belgium), Dutch (Netherlands), French (Canada), French (France), Finnish (Finland), German (Germany), Greek (Greece), Hebrew (Israel), Hindi (India), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea), Norwegian (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Slovak (Slovakia), Spanish (Mexico), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Turkey), Ukrainian (Ukraine), Vietnamese (Vietnam), Welsh (United Kingdom)
+English (US), English (Canada), English (India), English (UK), English (Australia), English (New Zealand), Arabic (Arab Emirates), Arabic (Saudi Arabia), Chinese (Simplified China), Chinese (Traditional, Hong Kong SAR), Chinese (Traditional, Taiwan), Czech (Czechia), Danish (Denmark), Dutch (Belgium), Dutch (Netherlands), French (Canada), French (France), Finnish (Finland), German (Germany), Greek (Greece), Hebrew (Israel), Hindi (India), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea), Norwegian (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Slovak (Slovakia), Spanish (Mexico), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye), Ukrainian (Ukraine), Vietnamese (Vietnam), Welsh (United Kingdom)
 
 ## Frequently asked questions (FAQ)
 

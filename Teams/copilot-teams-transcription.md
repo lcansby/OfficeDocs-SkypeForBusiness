@@ -3,11 +3,12 @@ title: Manage Microsoft 365 Copilot in Teams meetings and events
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.reviewer: maryam.ahmad
-ms.date: 9/16/2024
+ms.reviewer: elederman
+ms.date: 4/30/2025
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -55,7 +56,7 @@ Meeting or event organizers can also set Copilot's value to **Off** to prevent a
 > Microsoft 365 Copilot in Teams meetings and events isn’t available in end-to-end encrypted meetings. For more information on end-to-end encryption, see [Require end-to-end encryption for sensitive Teams meetings](end-to-end-encrypted-meetings.md).
 
 > [!NOTE]
-> Microsoft 365 Copilot in Teams isn’t available for GCC, GCC High, and DoD.
+> Microsoft 365 Copilot in Teams isn’t currently available for GCC High and DoD.
 
 ## Prerequisites
 
@@ -94,8 +95,9 @@ The following table shows the behaviors of the settings for the **`-Copilot`** p
 2. Expand **Meetings** from the navigation pane.
 3. Under **Meetings**, select **Meeting Policies**.
 4. Either select an existing policy or create a new one.
-5. Select **On**, **On with saved transcript required**, **On with transcript saved by default**, or **Off** from the dropdown for the **Copilot** setting.
-6. Select **Save**
+5. Navigate to the **Recording & transcription** section and find the **Copilot** setting.
+6. Select **On**, **On with saved transcript required**, **On with transcript saved by default**, or **Off** from the dropdown.
+7. Select **Save**
 
 You can apply your Copilot meeting policies to groups or individual users. You can also add Copilot to your meeting templates. To learn how to apply Copilot to meeting templates, see [IT admins - Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md).
 

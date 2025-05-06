@@ -1358,11 +1358,12 @@ items:
           items:
             - name: Overview
               href: manage-phone-numbers-landing-page.md
-            - name: why two labels
+            - name: Teams Calling Plans
               items: 
+                - name: Get new Calling Plan phone numbers
                 - name: Get Microsoft Calling Plan phone numbers
                   href: getting-phone-numbers-for-your-users.md
-                - name: Port phone numbers
+                - name: Port existing phone numbers
                   items: 
                     - name: Port planning
                       href: phone-number-calling-plans/port-order-overview.md

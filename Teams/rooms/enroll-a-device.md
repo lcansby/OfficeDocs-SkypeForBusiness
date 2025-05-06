@@ -23,6 +23,9 @@ f1keywords:
 
 # Enrolling a device into Pro Management
 
+This article discusses enrollment for Teams Rooms on Windows in Pro Management Portal in clouds where the service is supported.
+## [Commercial and GCC](#tab/CommercialAndGCC)
+
 **With Teams Rooms on Windows app update (version 4.17 and higher), we have streamlined the enrollment process for Windows-based Teams Rooms devices. With version 4.17+, IT admins will no longer need to manually download and install the Teams Rooms Pro management admin agent on each device.**
 
 Instead of performing the steps in this article, the Teams Rooms Pro Management agent will be automatically downloaded and installed onto the Windows-based Teams Rooms devices as part of the Teams Rooms app update. This improvement simplifies the agent deployment and device enrollment tasks for IT admins, reducing their workload.
@@ -241,3 +244,20 @@ C:\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-x.
 |You receive an error message: </p><p> ***ERROR: Local user account named 'Admin' or 'Skype' not found***|Ensure that the user accounts exist on the certified Microsoft Teams Rooms systems device.|
 |||
 |You receive any error state messages that are not covered above.|Please provide a copy of your installation log to your Microsoft Teams System support agent.|
+
+## [GCC High](#tab/GCCH)
+
+In the GCC High environment, manual installation of the Teams Rooms Pro Management admin agent is required. The minimum required version is 5.25.12002. Before proceeding, ensure that any existing version of the agent is uninstalled from the device. Once uninstalled, follow the instructions outlined in the Enrollment Process section of this document to complete the manual installation and enrollment of the agent.
+
+Before proceeding, ensure that any existing version of the agent is uninstalled from the device. Once uninstalled, follow the instructions outlined in the Enrollment Process section of this document to complete the manual installation and enrollment of the agent.
+
+> [!IMPORTANT]
+>
+> Both automatic and manual deployment require onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms Pro Management portal. The monitoring service agent is intended for use with certified Microsoft Teams Rooms systems and peripherals.
+>
+
+##Prerequisites
+Follow these procedures to set up your hardware before attempting the enrollment process:
+
+###Adding proxy settings (optional)
+

@@ -1360,8 +1360,9 @@ items:
               href: manage-phone-numbers-landing-page.md
             - name: Teams Calling Plans
               items: 
+
+
                 - name: Get new Calling Plan phone numbers
-                - name: Get Microsoft Calling Plan phone numbers
                   href: getting-phone-numbers-for-your-users.md
                 - name: Port existing phone numbers
                   items: 

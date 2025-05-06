@@ -156,7 +156,7 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
     >
     > For details, see [How many phone numbers can you get?](./how-many-phone-numbers-can-you-get.md). If you need to get more phone numbers than this, [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products).
 
-# Search for telephone numbers for users
+## Search for telephone numbers for users
 
 When you're setting up users in your organization to make and receive telephone calls using Microsoft-supplied telephone numbers, you must first use the **Microsoft Teams admin center** and acquire telephone numbers to be assigned to users. The telephone number you assign to a user is a telephone number that you previously acquired for your organization. The number is listed in the drop-down list when you edit the properties of the user and select **Assign**.
   
@@ -166,7 +166,7 @@ If you select Microsoft as your operator, you can acquire the numbers from the T
 
 How you acquire and manage telephone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing.
 
-This article applies to [Microsoft Calling Plans](#search-for-telephone-numbers-for-microsoft-calling-plans), [Operator Connect](#search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile), and [Teams Phone Mobile](#search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile). For more information about all options, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
+For more information about all options, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
 
 ## Search for telephone numbers for Microsoft Calling Plans
 
@@ -199,7 +199,6 @@ To search for telephone numbers for your users:
 
 9. When you return to the **Phone numbers** page, select the telephone number or numbers that you want to assign and then select **Edit** to assign it to a user.
 
-  
 ## Port or transfer phone numbers from your service provider or phone carrier
   
 - If you need 999 or fewer phone numbers for your users, use the porting wizard in the Microsoft Teams admin center. Follow the steps in [Transfer phone numbers to Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md). If you need assistance with this process, you can [manually submit a port order](phone-number-calling-plans/manually-submit-port-order.md) or see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) to download the correct Letter of Authorization (LOA).
@@ -326,10 +325,6 @@ If you experience issues with the porting wizard, you can [manually submit a por
 >To port/transfer 999 or fewer phone numbers for your users, upload the completed and signed LOAs in the Microsoft Teams admin center for further processing. You can also purchase extra phone numbers in the Microsoft Teams admin center.
 >
 > To port/transfer more than 999 phone numbers or if you experience issues with the porting process in the Microsoft Teams admin center, you can [manually submit a port order](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) to the TNS Service Desk for your region.
-
-## View the phone numbers for your organization
-
-In the Teams admin center, in the left navigation, go to **Voice** > **Phone numbers** to view the numbers for your organization, including location, number type, and status information.
 
 ## Assign service phone numbers
 

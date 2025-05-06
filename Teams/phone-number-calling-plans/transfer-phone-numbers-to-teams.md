@@ -285,16 +285,7 @@ To update the number usage, check the desired number and select **Update number 
 
 ---
 
-## What happens next
-
-When we receive your port order, you receive an email that verifies your request. Your request is updated daily, and you're notified of its progress and status in email. If your current carrier rejects the port request, contact the [Phone Number Service Center](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) for assistance.
-
-> [!NOTE]
-> If you already have a case open with the TNS-Service Desk for your port request, update that existing ticket instead of creating a new case.
-
-For more information about Letters of Authorization to port existing phone numbers and other considerations, see [Manage phone numbers for Calling Plan](../manage-phone-numbers-for-your-organization.md) and [Planning number ports](port-order-overview.md).
-
-# What's the status of your port orders?
+## What's the status of your port orders?
 
 **APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Microsoft Calling Plans
 
@@ -321,6 +312,15 @@ Keep in mind the lead times for order processing, as described in [Port planning
 If you need to inquire about an existing order, use the [Phone Number Service Center Portal](https://pstnsd.powerappsportals.com/) to contact the [Telephone Number Services (TNS) Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 When making an inquiry about an existing port request, find the related case for your order in the Phone Number Service Center Portal and provide your inquiry in the case comments, rather than opening a new case.
+
+## What happens next
+
+When we receive your port order, you receive an email that verifies your request. Your request is updated daily, and you're notified of its progress and status in email. If your current carrier rejects the port request, contact the [Phone Number Service Center](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) for assistance.
+
+> [!NOTE]
+> If you already have a case open with the TNS-Service Desk for your port request, update that existing ticket instead of creating a new case.
+
+For more information about Letters of Authorization to port existing phone numbers and other considerations, see [Manage phone numbers for Calling Plan](../manage-phone-numbers-for-your-organization.md) and [Planning number ports](port-order-overview.md).
 
 ## Report phone number issues
 

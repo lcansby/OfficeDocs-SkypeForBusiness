@@ -1358,11 +1358,11 @@ items:
           items:
             - name: Overview
               href: manage-phone-numbers-landing-page.md
-            - name: Teams Calling plans
+            - name: Get Microsoft Teams Calling plan phone numbers
               items:  
-                - name: Get new Calling Plan phone numbers
+                - name: Get new Calling Plan numbers
                   href: getting-phone-numbers-for-your-users.md
-                - name: Port in existing phone numbers
+                - name: Port in existing numbers
                   href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
             - name: Get Operator Connect phone numbers
               href: get-phone-numbers-with-operator-connect.md

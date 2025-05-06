@@ -184,7 +184,7 @@ Agent monitor notification mode values:
 Notes
 
 1. The authorized user requires a Teams Premium license and Queues app to access this functionality.
-1. The call queue assigned an authorized user must have **Conference mode** enabled under *Call answering*. Under *Agent selection*, you must enabled **Presence-based** routing.
+1. The call queue assigned an authorized user must have **Conference mode** enabled under *Call answering*. Under *Agent selection*, you must enable **Presence-based** routing.
 
 ### Call queues - Reporting
 

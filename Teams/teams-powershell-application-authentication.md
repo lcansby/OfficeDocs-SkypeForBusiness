@@ -28,7 +28,7 @@ All cmdlets are supported now, except for the cmdlets mentioned below.
 
   - New-Team
   - Set-CsOnlineApplicationInstance
-  - [Get|New|Sync]-CsOnlineApplicationInstance (supported in commercial & GCC environments, not supported in GCC High & DoD environments)
+  - [Get|New|Sync]-CsOnlineApplicationInstance (not supported only in GCC High & DoD environments)
   - \*PolicyPackage\*
   - \*-CsTeamsShiftsConnection\*
   - \*-CsBatchTeamsDeployment\*

@@ -5484,6 +5484,11 @@
       "source_path": "Teams/search-for-phone-numbers-for-users.md",
       "redirect_url": "/microsoftteams/getting-phone-numbers-for-your-users",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/phone-number-calling-plans/port-order-status.md",
+      "redirect_url": "/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams",
+      "redirect_document_id": true
     },    
     {
       "source_path": "Teams/new-teams-known-issues.md",

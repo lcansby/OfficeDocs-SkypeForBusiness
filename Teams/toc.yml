@@ -1358,90 +1358,14 @@ items:
           items:
             - name: Overview
               href: manage-phone-numbers-landing-page.md
-
-
-            - name: Teams Calling Plans
-              items:
-                - name: Get new Calling Plan phone numbers
-                  href: getting-phone-numbers-for-your-users.md
-                - name: Port existing phone numbers
-                  items: 
-                    - name: Port planning
-                      href: phone-number-calling-plans/port-order-overview.md
-                    - name: Port phone numbers to Microsoft Calling Plan
-                      href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
-                    - name: What's the status of your port orders?
-                      href: phone-number-calling-plans/port-order-status.md
-                - name: Microsoft Calling Plan phone number acquisition by country
-                  items: 
-                    - name: Phone number management for Australia
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md
-                    - name: Phone number management for Austria
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md
-                    - name: Phone number management for Belgium
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
-                    - name: Phone number management for Canada
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
-                    - name: Phone number management for the Czech Republic
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md
-                    - name: Phone number management for Denmark
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
-                    - name: Phone number management for Estonia
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-estonia.md
-                    - name: Phone number management for Finland
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md
-                    - name: Phone number management for France
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
-                    - name: Phone number management for Germany
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
-                    - name: Phone number management for Hong Kong SAR
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-hong-kong.md
-                    - name: Phone number management for Hungary
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-hungary.md
-                    - name: Phone number management for Ireland
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
-                    - name: Phone number management for Italy
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
-                    - name: Phone number management for Japan
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
-                    - name: Phone number management for Latvia
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-latvia.md
-                    - name: Phone number management for Lithuania
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
-                    - name: Phone number management for Luxembourg
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
-                    - name: Phone number management for Mexico
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
-                    - name: Phone number management for New Zealand
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
-                    - name: Phone number management for Norway
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-norway.md
-                    - name: Phone number management for Poland
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-poland.md
-                    - name: Phone number management for Portugal
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
-                    - name: Phone number management for Romania
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-romania.md
-                    - name: Phone number management for Singapore
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md
-                    - name: Phone number management for Slovakia
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
-                    - name: Phone number management for Slovenia
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovenia.md
-                    - name: Phone number management for South Africa
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-south-africa.md
-                    - name: Phone number management for Spain
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
-                    - name: Phone number management for the Netherlands
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md
-                    - name: Phone number management for Sweden
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md
-                    - name: Phone number management for Switzerland
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md
-                    - name: Phone number management for the United Kingdom
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md
-                    - name: Phone number management for the United States
-                      href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
+            - name: Get new Calling Plan phone numbers
+              href: getting-phone-numbers-for-your-users.md
+            - name: Port existing phone numbers
+              items: 
+                - name: Port planning
+                  href: phone-number-calling-plans/port-order-overview.md
+                - name: Port phone numbers to Microsoft Calling Plan
+                  href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
               href: getting-phone-numbers-for-your-users.md
             - name: Get Operator Connect phone numbers
               href: get-phone-numbers-with-operator-connect.md

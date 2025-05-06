@@ -231,7 +231,7 @@ To add a mobile system OS scanner:
 > [!IMPORTANT]
 > Starting in June 2025, Teams applications that are older than five (5) months will no longer work be able to connect to the service. Please refer to the Message Center Post, MC969451 for more details.
 
-- Bug fixes for caller name resolution in certain scenarios, improvements for Multi-Factor Authentication using Device Code Flow (DCF). 
+- Bug fixes for caller name resolution in certain scenarios, improvements for Multi-Factor Authentication using Device Code Flow (DCF) wherein user account name can be used to sign-in. 
 
 - UI fixes for end call screen. Users will see a toast notification instead of a full screen view when a call ends. 
 

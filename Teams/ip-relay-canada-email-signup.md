@@ -31,7 +31,7 @@ description: "Learn how to get an IP Relay set up for Canada."
 
 Internet Protocol Relay Service, also known as IP Relay, is a service that supports people with hearing or speech disabilities, using an operator as an intermediary.
 
-To get an IP Relay account set up for Canada, open a case with the [Telephone Number Services--service desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md), and provide the following information.
+To get an IP Relay account set up for Canada, open a case with the [Telephone Number Services--service desk](./manage-phone-numbers-for-your-organization/contact-tns-service-desk.md), and provide the following information.
 
 - First & Last Name:
 

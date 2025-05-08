@@ -78,7 +78,7 @@ The following table highlights the primary configuration differences. The sectio
 | Emergency screening service | Included | Optional | Optional | Optional |
 | Registered address for Emergency calling | Included. Teams Admin manages | Optional, enabled and managed by operator | Optional, enabled and managed by operator | Not supported |
 | Dynamic location information for emergency calling | Supported | Supported | Supported | Supported, but requires additional configuration |
-| Call routing | Managed by Microsoft. Teams admin option to configure dialed number translation | Managed by operator. Teams admin option to configure dialed number translation | Manged by operator. Teams admin option to configure dialed number translation | Requires dialed number translation, routing policy, and usage policy configurations in Teams, plus SBC routing configuration |
+| Call routing | Managed by Microsoft. Teams admin option to configure dialed number translation | Managed by operator. Teams admin option to configure dialed number translation | Managed by operator. Teams admin option to configure dialed number translation | Requires dialed number translation, routing policy, and usage policy configurations in Teams, plus SBC routing configuration |
 | Location Based Routing to restrict toll bypass | N/A | N/A | N/A | Supported |
 | Local office PSTN survivability in event of interruption to cloud service | N/A | N/A | N/A | Yes, with Survivable Branch Appliance |
 | Support | Microsoft | Operator + Microsoft | Operator + Microsoft | Operator + SBC vendor + Microsoft |

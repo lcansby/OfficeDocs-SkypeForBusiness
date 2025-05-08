@@ -58,6 +58,7 @@ The highlights of the four PSTN connectivity models for Teams are as follows:
 
 - [**Operator Connect**](operator-connect-plan.md). With the Operator Connect offer, take advantage of certified third-party landline operators who have already completed the PSTN integration with Microsoft. All that is required is a subscription from the certified service provider of your choice. You can easily enable their access to your tenant in the Teams Admin Center and assign their phone numbers to your Teams users. PSTN access, phone numbers, emergency screening service in the U.S., support, SLA and other products for your telephone service come from the certified Operator Connect partner.
   - This option requires a contract with a third-party service provider.
+  - For this PSTN connectivity solution in India, see [Operator Connect for India](operator-connect-india-plan.md).
 
 - [**Teams Phone Mobile**](operator-connect-mobile-plan.md). With Microsoft Teams Phone Mobile, take advantage of certified third-party mobile operators, who have already completed the PSTN integration with Microsoft. All that is required is a subscription from the certified mobile operator of your choice. You then administer mobile numbers that are assigned to the user’s mobile SIM to also be assigned as the user’s Teams phone number. PSTN access, phone numbers, emergency screening service in the U.S., support, SLA, and other products for your telephone service come from the certified Teams Phone Mobile partner.
   - This option requires a contract with a third-party service provider.

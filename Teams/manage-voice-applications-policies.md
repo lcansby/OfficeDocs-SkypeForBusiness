@@ -166,7 +166,7 @@ Notes
 |--------------------------------|------------------------------------------------------------------------|--------------------------------------|---------------------|
 |Opt agent in/out of queue       |This setting allows authorized users to change an agent's opt-in status.|AllowCallQueueAgentOptChange          |Yes                  |
 |Agent monitor mode              |This setting allows authorized users to monitor an agent's call queue calls.<sup>2</sup>           |CallQueueAgentMonitorMode                    |Yes      |
-|Agent monitor notification mode |This setting controls if agents are notified that they are being monitored.        |CallQueueAgentMonitorNotificationMode        |Yes      |
+|Agent monitor notification mode |This setting controls if agents are notified that they're being monitored.        |CallQueueAgentMonitorNotificationMode        |Yes      |
 
 Agent monitor mode values:
 

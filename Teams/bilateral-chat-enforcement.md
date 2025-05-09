@@ -35,7 +35,7 @@ This policy doesn't apply to meetings, meeting chats, or channels.
 
 ## Prerequisites
 
-To set up a bilateral chat policy, you must first have external access set up and turned on. [Learn how to set up external access](/trusted-organizations-external-meetings-chat?tabs=organization-settings).
+To set up a bilateral chat policy, you must first have external access set up and turned on. [Learn how to set up external access](/microsoftteams/trusted-organizations-external-meetings-chat?tabs=organization-settings).
 
 ## Set up a bilateral chat policy for your organization
 

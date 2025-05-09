@@ -157,7 +157,7 @@ If you've been using live events for your organization, you might want to unders
 |**Devices**||||
 |Cloud Video Interop (CVI) support|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Microsoft Teams Rooms (Windows) support for presenters and attendees|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-|Sharepoint embedded support|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Sharepoint embedded support|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Virtualized Desktop Infrastructure (VDI) support|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Viva Engage integration|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |**Admin controls**||||

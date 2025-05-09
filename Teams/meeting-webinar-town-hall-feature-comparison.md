@@ -30,6 +30,8 @@ description: Learn which features are available in Teams meetings, webinars, and
 
 **APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Meetings ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Webinars ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Town halls
 
+## Feature comparison
+
 The following table shows which features are available in meetings, webinars, and town halls:
 
 |Feature|Meetings|Webinars|Town halls|
@@ -108,6 +110,19 @@ The following table shows which features are available in meetings, webinars, an
 <sup>2</sup> Only Microsoft Teams Rooms on Windows with a Pro license can join meetings and events as a presenter. However, Teams Rooms can't send chat messages. To allow Rooms to join as a presenter in meetings, organizers must set **Who can present** to either **Organizer or co-organizer only** or **Specific people**.
 
 <sup>3</sup> The usual maximum is increased to 20,000 until further notice.
+
+## Capacity comparison
+
+The following table details capacity for meetings, webinars, and town halls:
+
+|Feature|Meetings|Webinars|Town halls|
+|:------|:-------|:-------|:---------|
+|Recording hours|30 hours|30 hours|30 hours|
+|Interactive participants|1,000 (Enterprise plans)<br>300 (Business plans)|1,000|Town halls: 10,000<br> Teams Premium town halls: 50,000|
+|View-only participants|10,000<sup>1</sup> (Enterprise plans only)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|
+|Maximum total participants|11,000<sup>1</sup> (Enterprise plans only)|1,000|Town halls: 10,000<br> Teams Premium town halls: 50,000|
+
+<sup>1</sup> The usual maximum is increased to 20,000 until further notice. The maximum total participants for meetings is the sum of the interactive participants plus view-only participants.
 
 ## Related topics
 

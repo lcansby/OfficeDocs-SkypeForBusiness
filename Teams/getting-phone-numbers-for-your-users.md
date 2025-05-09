@@ -46,6 +46,8 @@ Number usages define the services that are supported by a phone number. The foll
 |**Voice Application** |Auto attendants and call queues |Geographic (Toll) <br>Toll-free |
 |**Conference** |Conference bridges |Geographic (Toll) <br>Toll-free |
 
+***
+
 ## Availability of Microsoft numbers and usages by country or region
 
 Use the drop-down to select the country/region where you're checking for availability of Microsoft Calling Plan availability. Calling Plans in general are covered in [Microsoft Teams Calling Plans overview](calling-plans-for-office-365.md) and are the prerequisite to acquiring numbers.
@@ -167,6 +169,8 @@ Use the drop-down to select the country/region where you're checking for availab
 > - [Venezuela](/microsoftteams/phone-reference/plan-availability/availability-in-venezuela)
 > - [Vietnam](/microsoftteams/phone-reference/plan-availability/availability-in-vietnam)
 
+***
+
 ## Acquiring new numbers by country or region
 
 With a secured Microsoft Teams Calling Plan, you can request new numbers using country/region-specific acquisition guidance that might be necessary when ordering. Find the appropriate guidance for your country or region from the following drop-down menu.
@@ -213,6 +217,8 @@ With a secured Microsoft Teams Calling Plan, you can request new numbers using c
 Each country or region has different instructions, different types of phone numbers (geographic/non-geographic and service (toll/toll-free)), and rules/regulations for getting phone numbers so they can be used in Microsoft Teams.
 
 Sometimes (depending on your country or region) you won't be able to get new user or service phone numbers using the Microsoft Teams admin center, or you might need specific phone numbers (vanity requests) or specific area codes.
+
+***
 
 ## How many telephone numbers can you get?
 

@@ -4,10 +4,11 @@ author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: leiaglezer
-ms.date: 01/10/2025
+ms.date: 05/09/2025
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-calling
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -26,7 +27,7 @@ ms.custom: seo-marvel-mar2020
 
 # Submitting a port request
 
-This article is an accompaniment for IT professionals and Teams Phone administrators in the process of porting phone numbers to Microsoft Calling Plans.
+This article is an accompaniment for IT professionals and Teams Phone administrators in the process of porting phone numbers to Microsoft Teams Calling Plans.
 
 ## Prerequisites
 

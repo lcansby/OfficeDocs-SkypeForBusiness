@@ -125,11 +125,14 @@ The following table applies to Microsoft Calling Plans, [Audio Conferencing](dep
 
 ## Get new phone numbers
 
-The Teams admin center has an **Add phone numbers** wizard that helps you submit the specific information required to acquire new numbers in any country or region.
+The Teams admin center has an **Add phone numbers** wizard that helps you submit the specific information required to acquire new numbers in any country or region. To access and complete request for new numbers, complete the following steps.
 
-You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
+1. Sign into the [Microsoft Teams admin center](https://admin.teams.microsoft.com) with one of the following roles:
+    1. Teams Telephony Administrator
+    1. Teams Communications Administrator
+    1. Teams Administrator
 
-1. Sign into the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
+    See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
 2. In the left navigation, go to **Voice** > **Phone numbers**, and then select **Add**.
 
@@ -178,14 +181,16 @@ If you're getting new numbers and we don't have the numbers that you've requeste
 
 ## Related articles
 
-[Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
+[Microsft Teams Calling Plans](calling-plans-for-office-365.md)
 
-[Different kinds of phone numbers used for Calling Plans](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Get phone numbers into your tenant](manage-phone-numbers-landing-page.md)
 
-[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
+[Porting telephone numbers to Microsoft Teams](./phone-number-calling-plans/port-order-overview.md)
+
+[Manage phone numbers for your users](assign-change-or-remove-a-phone-number-for-a-user.md)
 
 [Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
 
 [Emergency Calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip)
 
-[Get phone numbers into your tenant](manage-phone-numbers-landing-page.md)
+

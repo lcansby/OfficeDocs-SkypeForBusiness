@@ -3,7 +3,7 @@ title: "Get Direct Routing phone numbers in your Teams tenant"
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.reviewer: julien
+ms.reviewer: pavellatif
 ms.date: 05/05/2025
 ms.topic: how-to
 ms.assetid: aa2ec464-3481-4bbb-8c14-e13e18093df5
@@ -24,20 +24,25 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Calling Plans
-description: "Learn how to get numbers in Teams with your Direct Routing partner."
+description: "Learn how to upload Direct Routing telephone numbers to your Teams admin center."
 ---
 
-# Get phone numbers with Direct Routing
+# Get phone numbers with Direct Routing uploaded to your tenant
 
 **APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Direct Routing
 
-When you're setting up users in your organization to make and receive telephone calls using Microsoft-supplied telephone numbers, you must first use the **Microsoft Teams admin center** and acquire telephone numbers to be assigned to users. The telephone number you assign to a user is a telephone number that you previously acquired for your organization. The number is listed in the drop-down list when you edit the properties of the user and select **Assign**.
-  
-Before you can assign Microsoft-supplied telephone numbers to your users, you must use the **Get new numbers** page to search for telephone numbers that are available to you. You can search by **Country (Market)**, **Number type**, and **Location**. You'll then see a list of operators that supply numbers in that country.
+This article provides considerations and guidance for IT pros and admins who are acquiring new telephone numbers from a Direct Routing partner.
 
-If you select Microsoft as your operator, you can acquire the numbers from the Teams admin center by entering the quantity of telephone numbers you'll need for your users. The page automatically limits the quantity based on how many you still have available to acquire. If you select an Operator Connect operator, you'll be directed to the landing page of your selected operator to complete the number order.
+Direct Routing is one of several methods to integrate your tenant with the Public Switched Telephone Network (PSTN). The PSTN integration is provided by you or a partnering PSTN managed service operator.
 
-How you acquire and manage telephone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing.
+As an administrator, you can use the Teams admin center to manage Direct Routing phone numbers from your partnering PSTN operator. However, the phone number services agreement is between your organization and your PSTN operator.
+
+> [!NOTE]
+> To reserve and acquire Direct telephone numbers for your tenant, work with your PSTN partner directly to acquire the numbers, and then use the following guidance to upload those numbers to Teams.
+
+Your Direct Routing partner will work with you to fulfill your requirements related to countries and regions, quanitity of telephone numbers, number usage types, emergency calling services, and more.
+
+To learn more about Direct Routing as a PSTN solution, see [Plan for Direct Routing](direct-routing-plan.md).
 
 ## Considerations for getting Direct Routing numbers in your tenant
 
@@ -76,3 +81,74 @@ Note that the phone number needs to be re-assigned to the user or resource accou
 After the removal has been synchronized to Microsoft 365, the OnPremLineUri attribute in the output from Get-CsOnlineUser on the user or resource account will be empty.
 
 For more information, see [Clear Skype for Business attributes for all on-premises users in Active Directory](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory.md).
+
+## Upload Direct Routing numbers to your tenant
+
+Uploading your Direct Routing phone numbers to Microsoft's telephone number management inventory supports future number management enhancements.
+
+For example, if you upload your numbers, you can view them in the Teams admin center under **Phone Numbers** or by using the PowerShell cmdlets [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment) and [Export-CsAcquiredPhoneNumber](/powershell/module/teams/export-csacquiredphonenumber).
+
+Uploading your Direct Routing phone numbers to Microsoft's telephone number management inventory is optional. If you don't upload the phone numbers, you can still assign numbers to users. Assigning a number to a user automatically uploads the number to Microsoft's telephone number management inventory if it's not already there.
+
+### Use Teams admin center
+
+1. Go to **Voice** > **Phone numbers**.
+
+2. Under the **Numbers** tab, select **Add**.
+
+Adding phone numbers to your tenant and to Microsoft's telephone number management inventory is accomplished by creating an order request. By selecting **Add**, you are originating an order request that will create an order ID and launch the process of uploading your direct routing numbers. Follow the remaining steps to complete your order.
+
+3. Give your order a **Name** and **Description**.
+
+4. From the options, choose **From Direct Routing**.
+
+5. Select your preferred method of uploading the numbers by selecting from the drop-down, one of the following options:
+
+#### Add one to many phone numbers
+
+If you select **Add one to many phone numbers**, type or paste the phone numbers you wish to upload in the text field.
+
+If you are adding more than one phone number to this list, separate each number with a comma or a new line.
+
+#### Add phone number range
+
+If you select **Add phone number range**, type or paste the starting and ending numbers of your range in the respective text fields.
+
+#### Upload CSV
+
+If you select **Upload CSV**, select the **Upload CSV** icon and select your CSV file.
+
+The CSV file format requirements are to have a single column, with the first row populated as **TelephoneNumber** and each subsequent row including one phone number.
+
+Download a template by selecting **Download a sample CSV file with Direct Routing Numbers**.
+
+6. Select **Next** and proceed to review the validated numbers to be reserved by Microsoft's telephone number management inventory.
+
+7. Select **Confirm**, then select **Finish**
+
+### Use PowerShell
+
+To upload Direct Routing telephone numbers to Microsoft's telephone number management inventory, use the [New-CsOnlineDirectRoutingTelephoneNumberUploadOrder](/powershell/module/teams/new-csonlinedirectroutingtelephonenumberuploadorder) cmdlet.
+
+Uploading the numbers is an asynchronous operation.
+
+### Order history
+
+View the status of the numbers you uploaded in TAC by navigating in TAC to **Voice** > **Phone numbers** and selecting the **Order history** tab.
+
+View the order status of numbers you uploaded with PowerShell by using the [Get-CsOnlineTelephoneNumberOrder](/powershell/module/teams/get-csonlinetelephonenumberorder) PowerShell cmdlet with **OrderType** set to `DirectRoutingNumberCreation`, as shown in the following example:
+
+```PowerShell
+ Get-CsOnlineTelephoneNumberOrder -OrderType DirectRoutingNumberCreation -OrderId <orderId>
+```
+
+> [!NOTE]
+> Whenever porting Direct Routing numbers to Teams using another PSTN connectivity option, the numbers must be released from Microsoft's telephone number management inventory. After unassigning the numbers from the users and before your number port event, use the PowerShell cmdlet [New-CsOnlineTelephoneNumberReleaseOrder](/powershell/module/teams/new-csonlinetelephonenumberreleaseorder) to make the Direct Routing numbers available for porting. A release order can also be used if you don't want to keep your acquired Direct Routing numbers in Microsoft's inventory.
+
+## Related topics
+
+[Manage telephone numbers for your organization](manage-phone-numbers-landing-page.md)
+
+[Plan for Direct Routing](direct-routing-plan.md)
+
+[Manage phone numbers for your users](assign-change-or-remove-a-phone-number-for-a-user.md)

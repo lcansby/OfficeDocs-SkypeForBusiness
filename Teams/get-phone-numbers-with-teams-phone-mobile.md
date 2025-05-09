@@ -1,9 +1,9 @@
 ---
-title: "Get Teams Phone Mobile phone numbers for your users"
+title: "Get Teams Phone Mobile phone numbers for your organization."
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.reviewer: julien
+ms.reviewer: julienp
 ms.date: 05/05/2025
 ms.topic: how-to
 ms.assetid: aa2ec464-3481-4bbb-8c14-e13e18093df5
@@ -24,48 +24,36 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Calling Plans
-description: "Learn how to get numbers in Teams with your Teams Phone Mobile partner."
+description: "Learn about acquiring new telephone numbers for your tenant with Teams Phone Mobile partners."
 ---
 
-# Get phone numbers with Teams Phone Mobile
+# Get phone numbers from Teams Phone Mobile partner for your tenant
 
 **APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Teams Phone Mobile
 
-When you're setting up users in your organization to make and receive telephone calls using Microsoft-supplied telephone numbers, you must first use the **Microsoft Teams admin center** and acquire telephone numbers to be assigned to users. The telephone number you assign to a user is a telephone number that you previously acquired for your organization. The number is listed in the drop-down list when you edit the properties of the user and select **Assign**.
-  
-Before you can assign Microsoft-supplied telephone numbers to your users, you must use the **Get new numbers** page to search for telephone numbers that are available to you. You can search by **Country (Market)**, **Number type**, and **Location**. You'll then see a list of operators that supply numbers in that country.
+This article provides considerations and guidance for IT pros and admins who are acquiring new telephone numbers from a Teams Phone Mobile partner.
 
-If you select Microsoft as your operator, you can acquire the numbers from the Teams admin center by entering the quantity of telephone numbers you'll need for your users. The page automatically limits the quantity based on how many you still have available to acquire. If you select an Operator Connect operator, you'll be directed to the landing page of your selected operator to complete the number order.
+Teams Phone Mobile is one of several methods to integrate your tenant with the Public Switched Telephone Network (PSTN). The PSTN integration is provided by one or more partnering PSTN operators.
 
-How you acquire and manage telephone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing.
+As an administrator, you can use the Teams admin center to manage Teams Phone Mobile phone numbers from your partnering PSTN operator. However, the phone number services agreement is between your organization and your PSTN operator.
 
-For more information about all options, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
+> [!NOTE]
+> To reserve and acquire Teams Phone Mobile telephone numbers for your tenant, work with your PSTN partner directly.
 
-## Considerations for getting Operator Connect and Teams Phone Mobile numbers in your tenant
+Your Teams Phone Mobile partner will work with you to fulfill your requirements related to countries and regions, quanitity of telephone numbers, number usage types, emergency calling services, and more.
 
-Operator Connect and Teams Phone Mobile are alternatives to Microsoft's Calling Plans, offered by partnering PSTN service providers. As an administrator, you can use the Teams admin center to manage Operator Connect and Teams Phone Mobile phone numbers from your PSTN partner. But the phone number services agreement is between your organization and your PSTN service provider, and you reserve and acquire telephone numbers for your tenant by working with them directly.
+To learn more about Teams Phone Mobile, see [Plan for Teams Phone Mobile](operator-connect-mobile-plan.md).
 
-## Search for telephone numbers for Operator Connect or Teams Phone Mobile
+To learn more acquiring phone numbers with an Operator Connect partners, see [Configure Teams Phone Mobile](operator-connect-mobile-configure.md).
 
-1. Go to the **Microsoft Teams admin center**.
+## Considerations for getting Teams Phone Mobile numbers in your tenant
 
-2. In the left navigation select **Voice** > **Phone numbers** > **Get new numbers**.
-  
-    > [!IMPORTANT]
-    > For you to see the **Voice** option in the left navigation in the Teams admin center, you must first buy at least one **Enterprise E5 or E3 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.  
-
-3. On the **Select location and quantity** page, select a location from the **Country (Market)** drop-down list.
-
-4. Select **User** from the **Number type** drop-down list.
-
-5. Depending on the Country (Market) you have selected, you will now have different options available for you to use for locating the telephone numbers you require. You can filter to show only operators that you have added by selecting **Show my operators**.
-
-6. If you've already provided consent to the operator, you'll be directed to the landing page of the operator to complete the order process.
-
-7. If you haven't provided consent to the operator, you'll be directed to enable your operator on the chosen operator page in the Teams admin center. For more information, see [Configure Teams Phone Mobile](operator-connect-mobile-configure.md).
-
-8. After your order is complete, your operator will upload phone numbers to your tenant, and you can assign them to users.  
+If you attempt to add Teams Phone Mobile phone numbers using Teams admin center's **Add phone numbers** wizard, you will be redirected to the operating partner and away from the Teams admin center.
 
 ## Related topics
 
 [Manage telephone numbers for your organization](manage-phone-numbers-landing-page.md)
+
+[Plan for Teams Phone Mobile](operator-connect-mobile-plan.md)
+
+[Manage phone numbers for your users](assign-change-or-remove-a-phone-number-for-a-user.md)

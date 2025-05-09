@@ -1,5 +1,5 @@
 ---
-title: "Get phone numbers for your users"
+title: "Get Microsoft Calling Plan telephone numbers for your organization"
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
@@ -23,10 +23,12 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Calling Plans
-description: "Learn how to get new, port, or transfer existing numbers for Teams, and how to show the changes to your users."
+description: "Learn about acquiring new telephone numbers for your tenant with Microsoft Teams Calling Plans."
 ---
 
 # Get Microsoft Teams Calling Plan phone numbers for your tenant
+
+**APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Microsoft Teams Calling Plans
 
 This article provides considerations and guidance for IT pros and admins who are acquiring new telephone numbers from Microsoft.
 

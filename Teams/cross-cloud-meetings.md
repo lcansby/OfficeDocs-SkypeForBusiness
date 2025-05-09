@@ -6,13 +6,13 @@ manager: jtremper
 ms.topic: how-to
 ms.service: msteams
 audience: admin
-ms.custom: 
+ms.custom: guest-access-external-collab
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
   - m365initiative-externalcollab
 ms.reviewer: dacarrol
-ms.date: 02/15/2024
+ms.date: 04/03/2025
 search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords:
@@ -37,14 +37,14 @@ If a cross-tenant connection between organizations already exists in Microsoft E
 If the connection doesn't exist, you can add it in Teams meeting settings. This adds a new organization in the cross-tenant access settings in Microsoft Entra ID using the [default settings that you've defined for inbound and outbound access and tenant restrictions](/azure/active-directory/external-identities/cross-tenant-access-settings-b2b-collaboration#configure-default-settings). (This enables B2B collaboration with the other organization if the defaults allow it.)
 
 > [!NOTE]
-> VDI clients aren't supported for cross-cloud meetings.
+> VDI clients using the new [SlimCore-based optimization](/microsoftteams/vdi-2#cross-cloud-collaboration) are supported for cross-cloud meetings. WebRTC-based optimization doesn't support cross-cloud meetings.
 
 > [!IMPORTANT]
 > The organization that you're meeting with must also configure these settings for their organization.
 
 ## Prerequisites
 
-For the best meeting experiences across Microsoft clouds, make sure your network is ready for Microsoft Teams. [Prepare your organization's network for Microsoft Teams](/microsoftteams/prepare-network#network-requirements) contains guidance on how to optimize your network for Teams. Also ensure that the necessary DNS, IPs and Ports are enabled for each of the M365 clouds where your users are collaborating. The following table links to the endpoint definitions for each of the M365 cloud environments:
+For the best meeting experiences across Microsoft clouds, make sure your network is ready for Microsoft Teams. [Prepare your organization's network for Microsoft Teams](/microsoftteams/prepare-network#network-requirements) contains guidance on how to optimize your network for Teams. Also ensure that the necessary DNS, IPs, and Ports are enabled for each of the Microsoft 365 clouds where your users are collaborating. The following table links to the endpoint definitions for each of the Microsoft 365 cloud environments:
 
 |Microsoft 365 Cloud Environment|Endpoints|
 |:--------------------------------|:------------------------------|
@@ -84,8 +84,6 @@ To create a new cross-cloud meeting connection, you need the tenant ID or the fu
 1. If you want to allow users in the other organization to attend meetings hosted by your organization, set **Inbound connections** to **On**.
 1. If you want to allow users in your organization to attend meetings in the other organization, set **Outbound connections** to **On**.
 
-    ![Screenshot of cross-cloud meetings settings in the Teams admin center.](media/cross-cloud-meetings-settings.png)
-
 ## Edit a cross-cloud meeting connection
 
 To edit a cross-cloud meeting connection, you need the tenant ID or the fully qualified domain name for the organization that you want to meet with. The list of tenants in meeting settings shows the tenant ID, but you can use the **Lookup** option to search by fully qualified domain name and find the correct tenant ID in the list.
@@ -98,9 +96,9 @@ To edit a cross-cloud meeting connection, you need the tenant ID or the fully qu
 
 ## Multi-Factor Authentication (MFA)
 
-When setting up the cross-cloud meeting connection, it's important to consider the impact security policies may have on users attempting to join a cross-cloud meeting. When the tenant hosting a cross-cloud meeting has an Entra Conditional Access Policy configured to enforce Multi-Factor Authentication users may be blocked from signing in to the meeting with error AADSTS90072.
+When setting up the cross-cloud meeting connection, it's important to consider the impact security policies may have on users attempting to join a cross-cloud meeting. When the tenant hosting a cross-cloud meeting has an Entra Conditional Access Policy configured to enforce Multi-Factor Authentication users may be blocked from signing in to the meeting with error `AADSTS90072`.
 
-To resolve this error either:
+To resolve this error, either:
 
 - (Recommended) Trust the incoming Multi-Factor Authentication from the user's home tenant as a part of the cross-cloud trust following the instructions here: [To change inbound trust settings for MFA and device claims](/entra/external-id/cross-tenant-access-settings-b2b-collaboration#to-change-inbound-trust-settings-for-mfa-and-device-claims). This trust only impacts the specific tenant configured in cross tenant access settings and makes it possible for the user to satisfy the meeting host's MFA requirements utilizing their own home tenant MFA process.
 
@@ -108,8 +106,7 @@ Or, if the user's home tenant doesn't have MFA enabled:
 
 - Modify the Conditional Access Policy that's enforcing Multi-Factor Authentication to exclude 'Other External Users' following the instructions here: [Assigning Conditional Access policies to external user types](/entra/external-id/authentication-conditional-access#conditional-access-for-external-users). **Note**: This option isn't limited to impacting cross-cloud authenticated meeting users and isn't configurable on a per-tenant basis. Review the definition of 'Other External Users' in the provided link to evaluate the impact to your tenant's external users.
 
-## Related topics
+## Related articles
 
-[Collaborate with guests from other Microsoft clouds](/microsoft-365/solutions/collaborate-guests-cross-cloud)
-
-[Manage external access in Teams](manage-external-access.md)
+- [Collaborate with guests from other Microsoft clouds](/microsoft-365/solutions/collaborate-guests-cross-cloud)
+- [Manage external access in Teams](manage-external-access.md)

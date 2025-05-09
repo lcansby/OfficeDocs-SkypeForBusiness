@@ -5,8 +5,9 @@ author: wlibebe
 manager: pamgreen
 ms.topic: how-to
 ms.service: msteams
+ms.subservice: meetings
 ms.reviewer: nakulm, bryannyce
-ms.date: 04/29/2024
+ms.date: 04/30/2025
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150

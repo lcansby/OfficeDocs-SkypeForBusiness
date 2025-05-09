@@ -7,6 +7,7 @@ ms.reviewer: jaydenlee
 ms.date: 03/28/2025
 ms.topic: how-to
 ms.service: msteams
+ms.subservice: meetings
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -14,6 +15,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
   - m365initiative-meetings
+ms.custom: guest-access-external-collab
 appliesto: 
   - Microsoft Teams
 f1.keywords:

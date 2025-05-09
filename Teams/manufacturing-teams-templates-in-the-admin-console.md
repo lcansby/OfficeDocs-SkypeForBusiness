@@ -7,7 +7,7 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
-ms.date: 02/09/2024
+ms.date: 04/03/2025
 ms.collection: 
   - M365-collaboration
   - m365-frontline 
@@ -20,6 +20,7 @@ ms.custom:
   - NewAdminCenter_Update
   - seo-marvel-apr2020
   - chat-teams-channels-revamp
+  - teams-chat-and-channels
 appliesto: 
   - Microsoft Teams
 ---
@@ -41,4 +42,4 @@ Centralize communication, access to resources, and plant operations with your te
 >[!div class="mx-tdBreakAll"]
 >|Template type|TemplateId| Properties that come with this template |
 >| ------------------|-- |----------------------------------------------------- |
->|Quality and safety|`com.microsoft.teams.template.QualitySafety` |Channels: <ul><li>General</li><li>Leadership</li><li>Maintenance</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Health and Safety</li><li>Training</li><li>Fun Stuff</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>Issue reporting</li><li>Shifts</li> <li>Planner</li> <li>Wiki</li> </ul>|
+>|Quality and safety|`com.microsoft.teams.template.QualitySafety` |Channels: <ul><li>General</li><li>Leadership</li><li>Maintenance</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Health and Safety</li><li>Training</li><li>Fun Stuff</li></ul> Apps: <li>Approvals</li><li>Inspection</li><li>Issue reporting</li><li>Shifts</li> <li>Planner</li> <li>Wiki</li> </ul>|

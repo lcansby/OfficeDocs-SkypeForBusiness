@@ -5,6 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
+ms.subservice: meetings
 ms.reviewer: lisma, ritikag
 ms.date: 11/12/2024
 audience: admin
@@ -65,6 +66,10 @@ If you need to prevent meetings from being recorded entirely, you must use the [
 > Meeting templates only allow you to manage who can record. To manage who can record and transcribe, use a Sensitivity label.
 
 To learn more about how your organizers use this feature, see [Record a meeting in Microsoft Teams](https://support.microsoft.com/office/record-a-meeting-in-microsoft-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24).
+
+### Platform support
+
+To view the list of platforms that support this feature, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#platform-support-for-advanced-management-for-meetings).
 
 ## Microsoft 365 Copilot in Teams meetings and events
 

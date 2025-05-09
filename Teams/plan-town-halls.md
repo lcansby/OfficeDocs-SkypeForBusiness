@@ -171,19 +171,6 @@ If you've been using live events for your organization, you might want to unders
 |RTMP-In Transcription|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |RTMP-Out (Live streaming)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 
-
-
-
-
-
-END!!!
-
-|Capability|Live Events|Town halls|Premium town halls|
-|:------| :---: | :---: | :---: |
-|Dynamics 365 integration|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
-
-
-
 For more information on Teams Premium, see [Teams Premium licensing](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams).
 
 ## Town hall control comparison

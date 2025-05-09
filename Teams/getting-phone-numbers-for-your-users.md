@@ -40,11 +40,11 @@ To learn more about Microsoft's Calling Plans and number usage availabilities pe
 
 Number usages define the services that are supported by a phone number. The following table lists the number usage types.
 
-|Number usage type |Usage purpose |Number type supported |
+|Number usage |Usage type and purpose |Number type supported |
 |:-----|:-----|:-----|
-|**User** |Person or device (for example, common area phone) |Geographic (Toll) |
-|**Voice Application** |Auto attendants and call queues |Geographic (Toll) <br>Toll-free |
-|**Conference** |Conference bridges |Geographic (Toll) <br>Toll-free |
+|**User** |User (subscriber) <br>These are numbers for users or devices in your organization. |Geographic (Toll) |
+|**Voice app** |Call queue and Auto attendant <br>These are service numbers for assigning to resource accounts that support voice applications. |Geographic (Toll) <br>Toll-free |
+|**Conference** |Dedicated conference bridge <br>These are service numbers for assigning to conference bridges so that users can dial-by-phone into a Teams meeting. |Geographic (Toll) <br>Toll-free |
 
 ***
 

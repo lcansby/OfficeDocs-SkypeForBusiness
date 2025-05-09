@@ -861,7 +861,6 @@ Set-CsCallQueue -Identity <CallQueue GUID> -AuthorizedUsers @("User 01 GUID", "U
 The following settings are recommended:
 
 - **Conference mode** to **On**
-  - Conference mode will be the only option available for Call queues after June 2025
 - **Routing method** to **Round robin** or **Longest idle**
 - **Presence-based routing** to **On**
 - **Agent alert time:** to a minimum of **20 seconds**

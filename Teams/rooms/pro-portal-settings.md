@@ -121,18 +121,18 @@ Teams Rooms devices have settings that can either be applied on the device and s
 |:------|:------|:------|:------|
 |Exchange sign in address|Text| Device's resource account sign-in address.|Information only|
 |Supported meeting mode|Text|Teams only are displayed.|Information only|
-|Public Preview|Text| Enrolls the device into Teams Ring 3.6 Public Preview. |Enabling this setting enables Public Preview features on your Teams Rooms device. Use caution as devices in early preview rings aren't supported by Microsoft Support.|
+|Public Preview|Text| Enrolls the device into Teams Ring 3.6 Public Preview. |Enabling this setting enables Public Preview features on your Teams Rooms device. Use caution as devices in early preview rings aren't supported by Microsoft Support. Available for Individual or bulk changes.|
 
 ### Meetings
 
 |**Field**|**Input**|**Description**|**Note**|
 |:------|:------|:------|:------|
-|Default content layout in single display mode|Radio buttons|Focus on Content and People OR Focus on Content only|Set the default content layout for single display mode. Meeting participants can change the default content layout during meetings.|
-|Show Meeting Chat|Toggle| Enabled by default. |If disabled, meeting chat functionality (including chat bubbles and chat selection) isn't available in any meeting layout on the Teams Rooms device.|
-|Open Chat by Default|Checkbox| Enabled by default. |Checkbox won't be visible if Show Meeting Chat is disabled. If disabled, chat panel won't show by default in meetings using Gallery view.|
-|Front Row Experience|Toggle|Enabled by default. |If false, Front row is disabled. For more information, see [Remotely configure Front Row on Teams Rooms](/microsoftteams/rooms/manage-front-row).|
-|Default Layout Experience|Radio button|Front row default|Select the default meeting join layout as Gallery or Front Row.|
-|Front Row Video Size|Dropdown|Medium (default), Small, Large|Sets the size of Front row to provide more or less space for remote participant video and shared content.|
+|Default content layout in single display mode|Radio buttons|Focus on Content and People OR Focus on Content only|Set the default content layout for single display mode. Meeting participants can change the default content layout during meetings. Available for Individual or bulk changes.|
+|Show Meeting Chat|Toggle| Enabled by default. |If disabled, meeting chat functionality (including chat bubbles and chat selection) isn't available in any meeting layout on the Teams Rooms device. Available for Individual or bulk changes.|
+|Open Chat by Default|Checkbox| Enabled by default. |Checkbox won't be visible if Show Meeting Chat is disabled. If disabled, chat panel won't show by default in meetings using Gallery view.  Available for Individual or bulk changes.|
+|Front Row Experience|Toggle|Enabled by default. |If false, Front row is disabled. For more information, see [Remotely configure Front Row on Teams Rooms](/microsoftteams/rooms/manage-front-row).  Available for Individual or bulk changes.|
+|Default Layout Experience|Radio button|Front row default|Select the default meeting join layout as Gallery or Front Row.  Available for Individual or bulk changes.  Available for Individual or bulk changes.|
+|Front Row Video Size|Dropdown|Medium (default), Small, Large|Sets the size of Front row to provide more or less space for remote participant video and shared content. Available for Individual or bulk changes.|
 |Right front row panel|Dropdown|Show raised hand list, Show meeting chat, Hide the panel|Configure the position of the raised hand and chat components in the meeting panels to the left and right of meeting content on front-of-room displays.|
 |Left front row panel|Dropdown|Show raised hand list, Show meeting chat, Hide the panel|Configure the position of the raised hand and chat components in the meeting panels to the left and right of meeting content on front-of-room displays.|
 |Automatic Screen sharing|Toggle| Disabled by default.| If true, a connected HDMI ingest will be automatically shared on the Front of Room display and when in a Teams Meeting it's automatically shared to remote participants. If false, a connected HDMI ingest will be automatically shared on the Front of Room display in and out of a Teams meeting but it will not be shared to remote participants in the meeting automatically, users need to select the share icon to shared content to remote participants.|
@@ -143,10 +143,10 @@ Teams Rooms devices have settings that can either be applied on the device and s
 |Show Captions|Toggle|Disabled by default. |When enabled, captions will be displayed.|
 |Filter Profane words in captions and transcripts|Toggle| Enabled by default. |When captions are on, use of profane words are redacted.|
 |Enable People Count|Toggle|Enabled by default. |If true, people count will be enabled for Teams Rooms.|
-|Require passcode for all Teams meetings|Toggle| Disabled by default. If true, users are required to enter the correct meeting ID and passcode to join all Teams meetings scheduled in the room with a Microsoft Teams Room Pro license.|
+|Require passcode for all Teams meetings|Toggle| Disabled by default. If true, users are required to enter the correct meeting ID and passcode to join all Teams meetings scheduled in the room with a Microsoft Teams Room Pro license.||
 |Require passcode for all Private Teams meetings|Toggle| Disabled by default.| If true, users are required to enter the correct meeting ID and passcode to join all private Teams meetings scheduled in the room with a Microsoft Teams Room Pro license.|
 |Join third-party meetings|Checkbox|Cisco Webex, Zoom, GotoMeetings, RingCentral Meetings, Amazon Chime|May require calling plan to enable. For more information, see [Join third-party meetings](/microsoftteams/rooms/third-party-join?tabs=MTRW).|
-|Join with room info|Radio button|Uses conference room account info to join third party meetings.
+|Join with room info|Radio button|Uses conference room account info to join third party meetings.||
 |Join with custom info|Radio button| Disabled by default.|If this value is set to true, you must specify both *CustomDisplayNameForThirdPartyMeetings* and *CustomDisplayEmailForThirdPartyMeetings* must be specified.|
 |Show Room Facilitator QR code|Toggle|Disabled by default.||
 

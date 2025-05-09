@@ -36,13 +36,13 @@ description: Learn how to use the Teams Auto Attendant & Call Queue Historical R
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues. It also provides agent performance insights.
 
-## V3.2.0 published on March 21, 2025
+## V3.2.1 published on May XX, 2025
 
 What's new in this release:
-- Reports are available in [46 languages/locales](#supported-locales).
-- Authorized users see reports by Auto Attendant and Call Queue names vs Resource Account
-  - Admin users continue to see the reports by Resource Account
-
+- Resolved the issue on the Auto attendant and Call queue reports that resulted in only the calls and caller actions in the first Auto attendant or Call queue being reported on. Calls and caller actions in chained Auto attendants and Call queues are now reported on.
+- Resolved the issue on the Agent Timeline report that resulted in showing all calls for the agent instead of only the calls within the selected date range
+- Bug fixes
+  
 ## Overview
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template contains the following three reports:
@@ -105,11 +105,11 @@ The following steps assume that the Power BI Desktop client is installed on your
 
 Perform the following steps:
 
-1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.2.0.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
+1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.2.1.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
 
 2. Open the zip file.
 
-3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.2.0.pbit` template file. Power BI Desktop should launch.
+3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.2.1.pbit` template file. Power BI Desktop should launch.
 
 4. Select the **Language** and **UTC Offset**.
 
@@ -189,11 +189,10 @@ You have to refresh the report to see any new data.
 
 #### Known issues
 
-1. Only the calls and caller actions in the first Auto attendant that answers the call are reported on. Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant) aren't reported on.
 1. Only 28 days of call history are available. Auto attendant data is considered personal data and is subject to data privacy retention policies.
 1. The Date selector sometimes shows dates outside the range of available data resulting in a blank report. Change the dates to be within the last 28 days to resolve the issue.
-1. If the **Historical Auto Attendant Metrics** permission in the Voice applications policy is set to **All** for an Authorized user, the report reverts back to reporting by Resource account instead of Auto attendant name.
-1. When reporting by Resource account, nested Auto attendants and Call queues that don't have resource accounts assigned to them are reported against the resource account that transferred the call.
+***1. If the **Historical Auto Attendant Metrics** permission in the Voice applications policy is set to **All** for an Authorized user, the report reverts back to reporting by Resource account instead of Auto attendant name.
+***1. When reporting by Resource account, nested Auto attendants and Call queues that don't have resource accounts assigned to them are reported against the resource account that transferred the call.
 
 ### Cloud Call Queue Analytics report
 
@@ -224,11 +223,10 @@ You have to refresh the report to see any new data.
 
 #### Known issues
 
-1. Only the calls and caller actions in the first Call queue that answers the call are reported on. Calls in chained Call queues (when one Call queue transfers to another Call queue) aren't reported on.
 1. Only 28 days of call history are available. Call queue data is considered personal data and is subject to data privacy retention policies.
 1. The Date selector sometimes shows dates outside the range of available data resulting in a blank report. Change the dates to be within the last 28 days to resolve the issue.
-1. If the **Historical Call Queue Metrics** permission in the Voice applications policy is set to **All** for an Authorized user, the report reverts back to reporting by Resource account instead of Call queue name. 
-1. When reporting by Resource account, nested Auto attendants and Call queues that don't have resource accounts assigned to them are reported against the resource account that transferred the call.
+**1. If the **Historical Call Queue Metrics** permission in the Voice applications policy is set to **All** for an Authorized user, the report reverts back to reporting by Resource account instead of Call queue name. 
+**1. When reporting by Resource account, nested Auto attendants and Call queues that don't have resource accounts assigned to them are reported against the resource account that transferred the call.
 
 ### Cloud Call Queue Agent Timeline report
 
@@ -264,9 +262,8 @@ You have to refresh the report to see any new data.
 1. In some scenarios, the agent answered call count might be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
 1. When an agent answers a call in a different call queue due to redirection through Call Overflow exception handling, the call is counted in the original call queue where the exception occurred instead of the one they answered the call in.
 1. Callback calls handled by agents aren't captured resulting in a discrepancy between the number of calls answered on the Call Queue report and the Agent Timeline report.
-1. The agent tooltip shows all calls for the agent instead of only the calls within the selected date range.
-1. If the **Historical Call Queue Metrics** permission in the Voice applications policy is set to **All** for an Authorized user, the report reverts back to reporting by Resource account instead of Call queue name. 
-1. When reporting by Resource account, nested Auto attendants and Call queues that don't have resource accounts assigned to them are reported against the resource account that transferred the call.
+**1. If the **Historical Call Queue Metrics** permission in the Voice applications policy is set to **All** for an Authorized user, the report reverts back to reporting by Resource account instead of Call queue name. 
+**1. When reporting by Resource account, nested Auto attendants and Call queues that don't have resource accounts assigned to them are reported against the resource account that transferred the call.
 
 ## Localization
 
@@ -874,6 +871,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Supported |Filename                                                    |Description                                                             |
 |:--------|:------------------|:---------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
+|3.2.1    |May XX, 2025    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.2.1 |Now report on chained Auto Attendants and Call Queues     |
 |3.2.0    |March 21, 2025    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.2.0 |Localization in 45 languages, reporting by Auto Attendant and Call Queue name for authorized users    |
 |3.1.8    |August 12, 2024    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.8 |Bug fix for Date slicer on Call Queue tab                               |
 |3.1.7    |July 15, 2024      |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.7 |Improved support for authorized users, removed original reporting templates |

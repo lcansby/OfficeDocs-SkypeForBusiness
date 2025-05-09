@@ -63,7 +63,7 @@ Before you can get telephone numbers in Teams, you must have a phone number serv
 
 ### Acquiring and managing telephone numbers
 
-How you acquire and manage telephone numbers depends on the option of your Public Switched Telephone Network (PSTN) connectivity solution. Use the following table to learn more about acquiring numbers from your PSTN service provider:
+How you acquire and manage telephone numbers depends on your PSTN connectivity solution. Use the following table to learn more about how to acquire numbers for your tenant:
 
 |PSTN connectivity solution |Guidance for acquiring and managing numbers |
 |:-----|:-----|

@@ -26,23 +26,151 @@ ms.custom:
 description: "Learn how to get new, port, or transfer existing numbers for Teams, and how to show the changes to your users."
 ---
 
-# Manage phone numbers for Calling Plan and services
+# Get phone numbers from Microsoft Teams Calling Plans
 
-There are four ways to get user (subscriber) and service (toll and toll-free) phone numbers for Microsoft Calling Plan and services, such as Audio Conferencing, Auto Attendants, and Call Queues:
+This article provides considerations and guidance for IT pros and admins who are acquiring new telephone numbers from Microsoft.
 
-- [Get new user phone numbers in the Microsoft Teams admin center](getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users).
-- [Get new service phone numbers in the Microsoft Teams admin center](getting-service-phone-numbers.md#get-new-service-numbers).
-- [Transfer or port your existing phone numbers with us](phone-number-calling-plans/transfer-phone-numbers-to-teams.md#create-a-port-order-and-transfer-your-phone-numbers-to-teams).
-- Use a request form for new phone numbers that aren't listed in the Teams admin center.
+To acquire telephone numbers from Microsoft, you must have at least one Microsoft Calling Plan license assigned in your tenant.
 
-For information about how many phone numbers you can get, see [How many phone numbers can you get](how-many-phone-numbers-can-you-get.md).
+Microsoft Teams Calling Plan licenses enable you to acquire local numbers in any country where Microsoft offers Calling Plans, supporting a variety of number usage types.
 
-> [!NOTE]
-> For country/region specifics, be sure to check the phone number management article for that country/region. For example, for information about Australia, see [Phone number management for Australia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-australia).
+To learn more about Microsoft's Calling Plans and number usage availabilities per country and region, see [Microsoft Teams Calling Plans](calling-plans-for-office-365.md) and [Countries and region availability for Calling Plans](calling-plan-overview.md).
 
-***
+## Number usage types
 
-**Use the drop-down to select the country/region where you're getting numbers. You'll find information about availability, and the downloadable PDF LOA forms you'll need for porting numbers. Additional documentation might be necessary.**
+Number usages define the services that are supported by a phone number. The following table lists the number usage types.
+
+|Number usage type |Usage purpose |Number type supported |
+|:-----|:-----|:-----|
+|**User** |Person or device (for example, common area phone) |Geographic (Toll) |
+|**Voice Application** |Auto attendants and call queues |Geographic (Toll) <br>Toll-free |
+|**Conference** |Conference bridges |Geographic (Toll) <br>Toll-free |
+
+## Availability of Microsoft numbers and usages by country or region
+
+Use the drop-down to select the country/region where you're checking for availability of Microsoft Calling Plan availability. Calling Plans in general are covered in [Microsoft Teams Calling Plans overview](calling-plans-for-office-365.md) and are the prerequisite to acquiring numbers.
+
+> [!div class="op_single_selector"]
+>
+> - [Albania](/microsoftteams/phone-reference/plan-availability/availability-in-albania)
+> - [Algeria](/microsoftteams/phone-reference/plan-availability/availability-in-algeria)
+> - [Antigua and Barbuda](/microsoftteams/phone-reference/plan-availability/availability-in-antigua-and-barbuda)
+> - [Argentina](/microsoftteams/phone-reference/plan-availability/availability-in-argentina)
+> - [Australia](/microsoftteams/phone-reference/plan-availability/availability-in-australia)
+> - [Austria](/microsoftteams/phone-reference/plan-availability/availability-in-austria)
+> - [Bahamas](/microsoftteams/phone-reference/plan-availability/availability-in-the-bahamas)
+> - [Bahrain](/microsoftteams/phone-reference/plan-availability/availability-in-bahrain)
+> - [Bangladesh](/microsoftteams/phone-reference/plan-availability/availability-in-bangladesh)
+> - [Barbados](/microsoftteams/phone-reference/plan-availability/availability-in-barbados)
+> - [Belarus](/microsoftteams/phone-reference/plan-availability/availability-in-belarus)
+> - [Belgium](/microsoftteams/phone-reference/plan-availability/availability-in-belgium)
+> - [Belize](/microsoftteams/phone-reference/plan-availability/availability-in-belize)
+> - [Benin](/microsoftteams/phone-reference/plan-availability/availability-in-benin)
+> - [Bermuda](/microsoftteams/phone-reference/plan-availability/availability-in-bermuda)
+> - [Bosnia and Herzegovina](/microsoftteams/phone-reference/plan-availability/availability-in-bosniaherzegovina)
+> - [Brazil](/microsoftteams/phone-reference/plan-availability/availability-in-brazil)
+> - [Brunei](/microsoftteams/phone-reference/plan-availability/availability-in-brunei)
+> - [Bulgaria](/microsoftteams/phone-reference/plan-availability/availability-in-bulgaria)
+> - [Cambodia](/microsoftteams/phone-reference/plan-availability/availability-in-cambodia)
+> - [Cameroon](/microsoftteams/phone-reference/plan-availability/availability-in-cameroon)
+> - [Canada](/microsoftteams/phone-reference/plan-availability/availability-in-canada)
+> - [Cayman Islands](/microsoftteams/phone-reference/plan-availability/availability-in-the-cayman-islands)
+> - [Chile](/microsoftteams/phone-reference/plan-availability/availability-in-chile)
+> - [China](/microsoftteams/phone-reference/plan-availability/availability-in-china)
+> - [Colombia](/microsoftteams/phone-reference/plan-availability/availability-in-colombia)
+> - [Costa Rica](/microsoftteams/phone-reference/plan-availability/availability-in-costa-rica)
+> - [Croatia](/microsoftteams/phone-reference/plan-availability/availability-in-croatia)
+> - [Cyprus](/microsoftteams/phone-reference/plan-availability/availability-in-cyprus)
+> - [Czech Republic](/microsoftteams/phone-reference/plan-availability/availability-in-the-czech-republic)
+> - [Denmark](/microsoftteams/phone-reference/plan-availability/availability-in-denmark)
+> - [Dominica](/microsoftteams/phone-reference/plan-availability/availability-in-dominica)
+> - [Dominican Republic](/microsoftteams/phone-reference/plan-availability/availability-in-the-dominican-republic)
+> - [Ecuador](/microsoftteams/phone-reference/plan-availability/availability-in-ecuador)
+> - [Egypt](/microsoftteams/phone-reference/plan-availability/availability-in-egypt)
+> - [El Salvador](/microsoftteams/phone-reference/plan-availability/availability-in-el-salvador)
+> - [Estonia](/microsoftteams/phone-reference/plan-availability/availability-in-estonia)
+> - [Finland](/microsoftteams/phone-reference/plan-availability/availability-in-finland)
+> - [France](/microsoftteams/phone-reference/plan-availability/availability-in-france)
+> - [Georgia](/microsoftteams/phone-reference/plan-availability/availability-in-georgia)
+> - [Germany](/microsoftteams/phone-reference/plan-availability/availability-in-germany)
+> - [Ghana](/microsoftteams/phone-reference/plan-availability/availability-in-ghana)
+> - [Greece](/microsoftteams/phone-reference/plan-availability/availability-in-greece)
+> - [Grenada](/microsoftteams/phone-reference/plan-availability/availability-in-grenada)
+> - [Guam](/microsoftteams/phone-reference/plan-availability/availability-in-guam)
+> - [Guatemala](/microsoftteams/phone-reference/plan-availability/availability-in-guatemala)
+> - [Honduras](/microsoftteams/phone-reference/plan-availability/availability-in-honduras)
+> - [Hong Kong SAR](/microsoftteams/phone-reference/plan-availability/availability-in-hong-kong)
+> - [Hungary](/microsoftteams/phone-reference/plan-availability/availability-in-hungary)
+> - [India](/microsoftteams/phone-reference/plan-availability/availability-in-india)
+> - [Indonesia](/microsoftteams/phone-reference/plan-availability/availability-in-indonesia)
+> - [Ireland](/microsoftteams/phone-reference/plan-availability/availability-in-ireland)
+> - [Israel](/microsoftteams/phone-reference/plan-availability/availability-in-israel)
+> - [Italy](/microsoftteams/phone-reference/plan-availability/availability-in-italy)
+> - [Jamaica](/microsoftteams/phone-reference/plan-availability/availability-in-jamaica)
+> - [Japan](/microsoftteams/phone-reference/plan-availability/availability-in-japan)
+> - [Jordan](/microsoftteams/phone-reference/plan-availability/availability-in-jordan)
+> - [Kazakhstan](/microsoftteams/phone-reference/plan-availability/availability-in-kazakhstan)
+> - [Kenya](/microsoftteams/phone-reference/plan-availability/availability-in-kenya)
+> - [Kuwait](/microsoftteams/phone-reference/plan-availability/availability-in-kuwait)
+> - [Latvia](/microsoftteams/phone-reference/plan-availability/availability-in-latvia)
+> - [Lithuania](/microsoftteams/phone-reference/plan-availability/availability-in-lithuania)
+> - [Luxembourg](/microsoftteams/phone-reference/plan-availability/availability-in-luxembourg)
+> - [North Macedonia](/microsoftteams/phone-reference/plan-availability/availability-in-macedonia)
+> - [Malaysia](/microsoftteams/phone-reference/plan-availability/availability-in-malaysia)
+> - [Malta](/microsoftteams/phone-reference/plan-availability/availability-in-malta)
+> - [Mexico](/microsoftteams/phone-reference/plan-availability/availability-in-mexico)
+> - [Moldova](/microsoftteams/phone-reference/plan-availability/availability-in-moldova)
+> - [Monaco](/microsoftteams/phone-reference/plan-availability/availability-in-monaco)
+> - [Morocco](/microsoftteams/phone-reference/plan-availability/availability-in-morocco)
+> - [Netherlands](/microsoftteams/phone-reference/plan-availability/availability-in-the-netherlands)
+> - [New Zealand](/microsoftteams/phone-reference/plan-availability/availability-in-new-zealand)
+> - [Nicaragua](/microsoftteams/phone-reference/plan-availability/availability-in-nicaragua)
+> - [Nigeria](/microsoftteams/phone-reference/plan-availability/availability-in-nigeria)
+> - [Northern Mariana Islands](/microsoftteams/phone-reference/plan-availability/availability-in-northern-mariana-islands)
+> - [Norway](/microsoftteams/phone-reference/plan-availability/availability-in-norway)
+> - [Pakistan](/microsoftteams/phone-reference/plan-availability/availability-in-pakistan)
+> - [Panama](/microsoftteams/phone-reference/plan-availability/availability-in-panama)
+> - [Paraguay](/microsoftteams/phone-reference/plan-availability/availability-in-paraguay)
+> - [Peru](/microsoftteams/phone-reference/plan-availability/availability-in-peru)
+> - [Philippines](/microsoftteams/phone-reference/plan-availability/availability-in-the-philippines)
+> - [Poland](/microsoftteams/phone-reference/plan-availability/availability-in-poland)
+> - [Portugal](/microsoftteams/phone-reference/plan-availability/availability-in-portugal)
+> - [Puerto Rico](/microsoftteams/phone-reference/plan-availability/availability-in-puerto-rico)
+> - [Qatar](/microsoftteams/phone-reference/plan-availability/availability-in-qatar)
+> - [Romania](/microsoftteams/phone-reference/plan-availability/availability-in-romania)
+> - [Russia](/microsoftteams/phone-reference/plan-availability/availability-in-russia)
+> - [Saint Kitts and Nevis](/microsoftteams/phone-reference/plan-availability/availability-in-saint-kitts-and-nevis)
+> - [Saint Lucia](/microsoftteams/phone-reference/plan-availability/availability-in-saint-lucia)
+> - [Saudi Arabia](/microsoftteams/phone-reference/plan-availability/availability-in-saudi-arabia)
+> - [Serbia](/microsoftteams/phone-reference/plan-availability/availability-in-serbia)
+> - [Singapore](/microsoftteams/phone-reference/plan-availability/availability-in-singapore)
+> - [Slovakia](/microsoftteams/phone-reference/plan-availability/availability-in-slovakia)
+> - [Slovenia](/microsoftteams/phone-reference/plan-availability/availability-in-slovenia)
+> - [South Africa](/microsoftteams/phone-reference/plan-availability/availability-in-south-africa)
+> - [South Korea](/microsoftteams/phone-reference/plan-availability/availability-in-south-korea)
+> - [Spain](/microsoftteams/phone-reference/plan-availability/availability-in-spain)
+> - [Sri Lanka](/microsoftteams/phone-reference/plan-availability/availability-in-sri-lanka)
+> - [Sweden](/microsoftteams/phone-reference/plan-availability/availability-in-sweden)
+> - [Switzerland](/microsoftteams/phone-reference/plan-availability/availability-in-switzerland)
+> - [Taiwan](/microsoftteams/phone-reference/plan-availability/availability-in-taiwan)
+> - [Thailand](/microsoftteams/phone-reference/plan-availability/availability-in-thailand)
+> - [Trinidad and Tobago](/microsoftteams/phone-reference/plan-availability/availability-in-trinidad-and-tobago)
+> - [Tunisia](/microsoftteams/phone-reference/plan-availability/availability-in-tunisia)
+> - [Türkiye](/microsoftteams/phone-reference/plan-availability/availability-in-turkey)
+> - [Turks and Caicos Islands](/microsoftteams/phone-reference/plan-availability/availability-in-turks-and-caicos-islands)
+> - [Uganda](/microsoftteams/phone-reference/plan-availability/availability-in-uganda)
+> - [Ukraine](/microsoftteams/phone-reference/plan-availability/availability-in-the-ukraine)
+> - [United Arab Emirates (UAE)](/microsoftteams/phone-reference/plan-availability/availability-in-the-united-arab-emirates-uae)
+> - [United Kingdom](/microsoftteams/phone-reference/plan-availability/availability-in-the-united-kingdom-u-k)
+> - [United States](/microsoftteams/phone-reference/plan-availability/availability-in-the-united-states-u-s)
+> - [Uruguay](/microsoftteams/phone-reference/plan-availability/availability-in-uruguay)
+> - [Venezuela](/microsoftteams/phone-reference/plan-availability/availability-in-venezuela)
+> - [Vietnam](/microsoftteams/phone-reference/plan-availability/availability-in-vietnam)
+
+## Acquiring new numbers by country or region
+
+With a secured Microsoft Teams Calling Plan, you can request new numbers using country/region-specific acquisition guidance that might be necessary when ordering. Find the appropriate guidance for your country or region from the following drop-down menu.
+
 > [!div class="op_single_selector"]
 >
 > - [Australia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-australia)
@@ -80,161 +208,15 @@ For information about how many phone numbers you can get, see [How many phone nu
 > - [United Kingdom](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-the-u-k)
 > - [United States & Puerto Rico](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-the-u-s)
 
-***
-
-## Number request forms
-
-The following sections describe request forms for new numbers and for transferring existing numbers.
-
 ### Request forms for new phone numbers
 
 Each country or region has different instructions, different types of phone numbers (geographic/non-geographic and service (toll/toll-free)), and rules/regulations for getting phone numbers so they can be used in Microsoft Teams.
 
-Sometimes (depending on your country or region) you won't be able to get new user (subscriber) or service (toll or toll-free) phone numbers using the Microsoft Teams admin center, or you might need specific phone numbers (vanity requests) or specific area codes.
-
-If you need help, [contact the TNS Service Desk](contact-tns-service-desk.md).
-
-### Letters of Authorization (LOAs) to transfer/port existing phone numbers
-
-If you need to transfer/port your existing phone numbers from another service provider to Teams, you'll need to download, fill out, sign, and send us a Letter of Authorization (LOA). The LOA gives Microsoft permission to request and transfer, on your behalf, those existing numbers from a different service provider into Teams.
-
-Once you have the **filled and signed** LOA, upload the documents in the Microsoft Teams admin center. For special cases such as a large number ports (1000+), complex ports, or if you need assistance, [contact our TNS Service Desk](contact-tns-service-desk.md).
-
-## Still need assistance?
-
-If you need assistance, [contact the TNS Service Desk](contact-tns-service-desk.md).
-
-To create a case for directory services, see [Create a new case.](/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk)
-
-## Additional resources
-
-- For information about licensing and number availability in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](calling-plan-overview.md)
-- To assist you in choosing the correct type of phone numbers, read [Different kinds of phone numbers used for Calling Plans and services](different-kinds-of-phone-numbers-used-for-calling-plans.md).
-
-## Get phone numbers for your users
-
-Before you can set up users in your organization to make and receive phone calls, you must get phone numbers for them.
-  
-There are three ways to get user numbers:
-
-- **Use the Microsoft Teams admin center.** For some countries and regions, you can get numbers for your users using the Microsoft Teams admin center. See [Get new phone numbers for your users](#get-new-phone-numbers-for-your-users).
-
-- **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier. For more information, see [Transfer phone numbers to Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).  
-  
-- **Use a request form for new numbers.** Sometimes (depending on your country or region) you won't be able to get your new phone numbers using the Microsoft Teams admin center or you'll need specific phone numbers or area codes. For more information, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).
-  
-> [!NOTE]
-> If you need help setting up phone numbers for your organization, [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products).
-
-## Get new phone numbers for your users
-
-**Using the Microsoft Teams admin center**
-
-You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
-
-1. Sign into the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
-
-2. In the left navigation, go to **Voice** > **Phone numbers**, and then select **Add**.
-
-3. Enter a name for the order and add a description.
-
-4. On the Location and quantity page, do the following:
-    1. Under **Country or region**, select a country or region.
-    1. Under **Number type**, select **User (subscriber)**.
-    1. Under **Operator**, select an operator.
-    1. Under **Quantity**, enter the number of numbers that you want for your organization.
-    1. Under **Search for new numbers**, select a location by searching for city name, area code, or postal code. If you need to create a new location, select **Add a location**.
-    1. Under **Area code**, select an area code.
-    1. Select **Next** to select your numbers.
-
-5. Select the numbers you want. You have 10 minutes to select your phone numbers and place your order. If you take more than 10 minutes, the phone numbers will be returned to the pool of numbers.
-
-6. When you're ready to place your order, select **Place order**.
-
-    > [!IMPORTANT]
-    > The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and **International Calling Plan** licenses you have assigned multiplied by 1.1, plus 10 additional phone numbers. For example, if you have 50 users in total with a Domestic Calling Plan and/or International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**. Note that if you have a Pay-As-You-Go Calling Plan, you can only acquire 1 phone number per license assigned.
-    >
-    > For details, see [How many phone numbers can you get?](./how-many-phone-numbers-can-you-get.md). If you need to get more phone numbers than this, [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products).
-
-## Search for telephone numbers for users
-
-When you're setting up users in your organization to make and receive telephone calls using Microsoft-supplied telephone numbers, you must first use the **Microsoft Teams admin center** and acquire telephone numbers to be assigned to users. The telephone number you assign to a user is a telephone number that you previously acquired for your organization. The number is listed in the drop-down list when you edit the properties of the user and select **Assign**.
-  
-Before you can assign Microsoft-supplied telephone numbers to your users, you must use the **Get new numbers** page to search for telephone numbers that are available to you. You can search by **Country (Market)**, **Number type**, and **Location**. You'll then see a list of operators that supply numbers in that country.
-
-If you select Microsoft as your operator, you can acquire the numbers from the Teams admin center by entering the quantity of telephone numbers you'll need for your users. The page automatically limits the quantity based on how many you still have available to acquire. If you select an Operator Connect operator, you'll be directed to the landing page of your selected operator to complete the number order.
-
-How you acquire and manage telephone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing.
-
-For more information about all options, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
-
-## Search for telephone numbers for Microsoft Calling Plans
-
-To search for telephone numbers for your users:
-  
-1. Go to the **Microsoft Teams admin center**.
-
-2. In the left navigation, select **Voice** > **Phone numbers** > **Get new numbers**.
-  
-    > [!IMPORTANT]
-    > For you to see the **Voice** option in the left navigation in the Teams admin center, you must first buy at least one **Enterprise E5 or E3 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.  
-
-3. On the **Select location and quantity** page, select a location from the **Country (Market)** drop-down list.
-
-4. Select **User** from the **Number type** drop-down list.
-
-5. Depending on the Country (Market) you select, you have different options available for locating the telephone numbers you require.  
-
-6. Under **Quantity**, enter the number of phone numbers that you want for your organization, and then select **Next**. You have 10 minutes to select your phone numbers. If you take more than 10 minutes, the numbers are returned to the pool of phone numbers.
-
-    > [!NOTE]
-    > You can see the number of telephone numbers available to you (which is based on the number of licenses), listed next to **Quantity**.
-  
-7. On the **Get numbers** page, select the telephone numbers you want, select **Acquire numbers**, and then select **Next**.
-
-    > [!IMPORTANT]
-    > You can acquire more telephone numbers than you have Microsoft licenses. To determine how many telephone numbers you can acquire, take your number of Microsoft Calling Plan licenses, add 10 percent of the number of licenses, then add 10, and then remove however many you have already acquired. For example, if you have 100 Microsoft **Domestic Calling Plan** and/or **International Calling Plan** licenses, you can reserve 120 telephone numbers, assuming that you have not already acquired some telephone numbers for those 100 users. For more details, see [How many telephone numbers can you get?](./how-many-phone-numbers-can-you-get.md).
-
-8. On the **Confirmation** page, verify your choices, and then select **Place order**.
-
-9. When you return to the **Phone numbers** page, select the telephone number or numbers that you want to assign and then select **Edit** to assign it to a user.
-
-## Port or transfer phone numbers from your service provider or phone carrier
-  
-- If you need 999 or fewer phone numbers for your users, use the porting wizard in the Microsoft Teams admin center. Follow the steps in [Transfer phone numbers to Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md). If you need assistance with this process, you can [manually submit a port order](phone-number-calling-plans/manually-submit-port-order.md) or see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) to download the correct Letter of Authorization (LOA).
-
-- If you need to port more than 999 phone numbers, you can [manually submit a port order](phone-number-calling-plans/manually-submit-port-order.md) or see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) to download the correct Letter of Authorization (LOA). Complete and sign the LOA documents, and then contact [the TNS service desk](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) for your region.
-
-> [!NOTE]
-> For more information about LOAs to port/transfer existing phone numbers and additional documentation requirements, see [Manage phone numbers for Calling Plan](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
->
->To port/transfer 999 or fewer phone numbers for your users, upload the completed and signed LOAs in the Microsoft Teams admin center for further processing.
->
-> To port/transfer more than 999 phone numbers or if you experience issues with the porting process in the Microsoft Teams admin center, you can [manually submit a port order](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) to the TNS Service Desk for your region.
-
-## View the phone numbers for your organization
-
-**Using the Microsoft Teams admin center**
-
-In the left navigation of the admin center, go to **Voice** > **Phone numbers** to view the numbers for your organization, including number provider, location, number type, and status information.
-
-**Using the Teams PowerShell cmdlet**
-
-To view a list of up to 500 phone numbers, use the PowerShell cmdlet [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment). You can also download the full list of all acquired phone numbers by using the [Export-CsAcquiredPhoneNumber](/powershell/module/teams/export-csacquiredphonenumber) cmdlet.
-  
-## Assign phone numbers to users
-
-After you get your phone numbers, you'll need to assign a number to each of your users. For more information, see [Manage phone numbers for users](./assign-change-or-remove-a-phone-number-for-a-user.md).
-
-This video shows the steps to assign a phone number to a user.
-
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=5c650234-8c9a-4126-8177-697fc5074eb7]
+Sometimes (depending on your country or region) you won't be able to get new user or service phone numbers using the Microsoft Teams admin center, or you might need specific phone numbers (vanity requests) or specific area codes.
 
 ## How many telephone numbers can you get?
 
-How you acquire and manage phone numbers differs depending on your Public Switched Telephone Network (PSTN) connectivity option: Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing. For more information, see [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md).
-
-For Microsoft Calling Plans, the number of phone numbers you can get for your organization depends on the types of phone numbers and types of licenses you've bought and assigned. For information about Teams Phone and Audio Conferencing licensing, see [Add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). For more information about Calling Plans, see [Microsoft Calling Plans](calling-plans-for-office-365.md).
+The number of phone numbers you can get from Microsoft for your organization depends on the types of phone numbers and types of licenses you've bought and assigned. For information about Teams Phone and Audio Conferencing licensing, see [Add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). For more information about Calling Plans, see [Microsoft Calling Plans](calling-plans-for-office-365.md).
 
 The following table applies to Microsoft Calling Plans, [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md), and voice apps, such as [Call Queues and Auto Attendants](plan-auto-attendant-call-queue.md).
 
@@ -250,87 +232,44 @@ The following table applies to Microsoft Calling Plans, [Audio Conferencing](dep
 > [!NOTE]
 > You can see the quantity of telephone numbers you can get from Microsoft during the search and acquire process in the Microsoft Teams admin center (**Add phone numbers**).
 
-## Considerations for getting Microsoft Calling Plan numbers in your tenant
+## Get new phone numbers
 
-Currently, Microsoft Calling Plan licenses support two telephone number types for resources in your tenant; **user** numbers and **service** numbers.
+**Using the Microsoft Teams admin center**
 
-### User telephone numbers
+You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
-[**User numbers**](#user-telephone-numbers), also called subscriber numbers, are numbers that are assigned to users and shared devices in your organization.
+1. Sign into the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
 
-There are two categories of user telephone numbers, which can be assigned to users in your organization:  
-  
-- **Geographic numbers** have a relationship to a geographic area and are the most common. For example, geographic telephone numbers in most cases can only be used within a certain address, city, state, or region of the country/region.
+2. In the left navigation, go to **Voice** > **Phone numbers**, and then select **Add**.
 
-- **Non-geographic numbers** are known as national numbers or sometimes VoIP numbers. These numbers don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region. Also, some countries/regions, such as Denmark, only have non-geographic numbers available.
+> [!IMPORTANT]
+> For you to see the **Voice** option in the left navigation in the Teams admin center, you must first buy at least one **Enterprise E5 or E3 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license. 
 
-### Service numbers
+3. Enter a name for the order and add a description.
 
-Service phone numbers for Calling Plans
+4. On the Location and quantity page, do the following:
+    1. Under **Country or region**, select a country or region.
+    1. Under **Number type**, see [Number usage types](#number-usage-types).
+    1. Under **Operator**, select **Microsoft** as the operator.
+    1. Under **Quantity**, enter the number of numbers that you want for your organization.
+    1. Under **Search for new numbers**, select a location by searching for city name, area code, or postal code. If you need to create a new location, select **Add a location**.
+    1. Under **Area code**, select an area code.
+    1. Select **Next** to select your numbers.
 
-In addition to [getting phone numbers for your users](./getting-phone-numbers-for-your-users.md), you can get toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), Auto Attendants, and Call Queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
-  
+5. Select the numbers you want. You have 10 minutes to select your phone numbers and place your order. If you take more than 10 minutes, the phone numbers will be returned to the pool of numbers.
 
-**Service numbers** are numbers that are assigned to services, such as [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md), [Auto Attendants](plan-auto-attendant-call-queue.md), or [Call Queues](plan-auto-attendant-call-queue.md).
+6. When you're ready to place your order, select **Place order**.
 
-Service numbers have a higher concurrent call capacity than user numbers. Service number availability varies by country/region and the type of number (whether it's a toll or toll-free number). Microsoft’s telephony licenses in each country/region dictate what the number can be used for.
+    > [!IMPORTANT]
+    > The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and **International Calling Plan** licenses you have assigned multiplied by 1.1, plus 10 additional phone numbers. For example, if you have 50 users in total with a Domestic Calling Plan and/or International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**. Note that if you have a Pay-As-You-Go Calling Plan, you can only acquire 1 phone number per license assigned.
+    >
+    > For details, see [How many phone numbers can you get?](./how-many-phone-numbers-can-you-get.md). If you need to get more phone numbers than this, [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products).
 
-There are two categories of service telephone numbers provided by Microsoft--**toll** and **toll-free**--.
+## Assign phone numbers to users or services
 
-- **Toll service numbers** - There are two types of toll service numbers, which may incur a toll cost to the caller:
+After you get your phone numbers, you'll need to assign a number to each of your users. For more information, see [Manage phone numbers for users](./assign-change-or-remove-a-phone-number-for-a-user.md) and [Change the phone numbers on your Audio Conferencing bridge](./change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-  - **Geographic numbers** Geographic numbers have a relationship to a geographic area. For example, geographic telephone numbers in most cases can only be used within a certain address, city, state, or region of the country.
-
-  - **Non-geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region.
-
-- **Toll-free service numbers** - These service numbers don't typically incur a toll cost to the caller. Teams provides national toll-free numbers in over 60 countries/regions.
-
-> [!CAUTION]
-> Some countries/regions and originating number types, such as calls originating from mobile phones, may incur a toll cost to the caller.
-
-If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a telephone number request to the [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
-
-For information about service numbers provided by Operator Connect or Direct Routing, contact your provider.
-
-(duplicate?)
-
-## Get new service numbers
-
-To get new service numbers, in the Teams admin center:
-
-1. In the left navigation, go to **Voice** > **Phone numbers**, and then select **Add**.
-
-2. Enter a name for the order and add a description.
-
-3. On the **Location and quantity** page, complete the following steps:
-    - Under **Country or region**, select a country or region.
-    - Under **Number type**, select the type of service number you want.
-    - Under **Location**, select a location. If you need to create a new location, select **Add a location**.
-    - Under **Area code**, select an area code. 
-    - Under **Quantity**, enter the number of numbers you want for your organization, and then select **Next** to select your numbers.
-
-4. Select the numbers you want. You have 10 minutes to select your phone numbers and place your order. If you take more than 10 minutes, the phone numbers will be returned to the pool of numbers.
-
-5. When you're ready to place your order, select **Place order**.
-
-## Port or transfer existing service numbers
-
-To transfer your phone numbers from your current service provider or carrier to Teams, you can use the porting wizard in the Microsoft Teams admin center. Follow the steps in [Transfer phone numbers to Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
-
-If you experience issues with the porting wizard, you can [manually submit a port order](phone-number-calling-plans/manually-submit-port-order.md) or go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md), select your country or region, and then download a Letter of Authorization (LOA). You'll have to submit separate port orders for each type of service number (for example, toll vs. toll-free) you'll be transferring by using an LOA. In the LOA, you must select the correct type of service number. Make sure you specify you're transferring a service number (and not a user or subscriber number), or the concurrent calling capacity may not be enough to handle call volumes.  
-
-> [!NOTE]
-> For more information about LOAs to port/transfer existing phone numbers and additional documentation requirements, see [Manage phone numbers for Calling Plan](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
->
->To port/transfer 999 or fewer phone numbers for your users, upload the completed and signed LOAs in the Microsoft Teams admin center for further processing. You can also purchase extra phone numbers in the Microsoft Teams admin center.
->
-> To port/transfer more than 999 phone numbers or if you experience issues with the porting process in the Microsoft Teams admin center, you can [manually submit a port order](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) to the TNS Service Desk for your region.
-
-## Assign service phone numbers
-
-After you get your service numbers, assign each number to an Audio Conferencing bridge. See [Change the phone numbers on your Audio Conferencing bridge](./change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
-
-### Supported rate centers and coverage for Calling Plans
+### Supported rate centers and coverage for Calling Plans in the United States
 
 A rate center is a term used in the United States for a geographical area that traditionally defines boundaries for local calling, billing rates, and phone number assignment for the PSTN. In many cases, with the industry moving to all inclusive plans or bundles of minutes, the rate center has become less important for billing but is still used by some US PSTN operators.
 

@@ -3,10 +3,11 @@ title: "Phone numbers and licensing changes"
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.reviewer: jenstr
-ms.date: 07/28/2021
+ms.reviewer: julienp
+ms.date: 05/09/2025
 ms.topic: how-to
 ms.service: msteams
+ms.subservice: teams-calling
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -33,8 +34,6 @@ How you remove and assign licenses to users can impact a user's ability to make 
 
 For general information on managing phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md). For general information on Teams add-on licensing, see [Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-
-
 ## Remove a license
 
 If you have a user with an assigned phone number and you remove one or more of the prerequisites licenses, removing the license will also unassign the phone number from the user. Without an assigned phone number, the user's ability to make and receive PSTN calls in Microsoft Teams is impacted.
@@ -46,18 +45,15 @@ Depending on the user's [PSTN connectivity option](pstn-connectivity.md), removi
   - Set EnterpriseVoiceEnabled to False
   - Set phone number assignment status to Unassigned in the phone number database
 
-
 - **Removing a Microsoft 365 Phone System license from a user with an Operator Connect phone number** will:
   - Clear LineUri
   - Set EnterpriseVoiceEnabled to False
   - Set the phone number’s assignment status to Unassigned in the phone number database
 
-
 - **Removing a Microsoft 365 Phone System license from a user with a Direct Routing phone number** will:
   - Clear LineUri
   - Set EnterpriseVoiceEnabled to False
   - Remove the phone number from the phone number database
-
 
 ## Change a license
 

@@ -1,10 +1,10 @@
 ---
-title: Set up bilateral chat enforcement
+title: Set up a bilateral chat policy
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
 ms.reviewer: anpraka
-ms.date: 04/01/2025
+ms.date: 05/09/2025
 ms.topic: install-set-up-deploy
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -13,6 +13,7 @@ ms.collection:
   - M365-collaboration
 ms.custom:
   - admindeeplinkTEAMS
+  - teams-chat-and-channels
 f1.keywords:
 - NOCSH
 appliesto: 
@@ -22,14 +23,46 @@ search.appverid: MET150
 description: Learn about how to set up bilateral chat restrictions for your organization's users.
 ---
 
-# Set up bilateral chat enforcement
+# Set up a bilateral chat policy
 
-Teams allows users to connect with others inside and outside of their organization through unilateral and multilateral chats. Multilateral chats support users in any number of organizations in a single chat thread, collaborating together.
+Some organizations may need to restrict who users are able to message in Teams. While organizations have always been able to limit users' chats to only other internal users, organizations can now limit users' chat ability to only chat other internal users and users in one other organization.
 
-We now support bilateral chats. Bilateral chats are a type of chat that can only be held among members of no more than two organizations (or two tenants). Automatically enforced compliance controls prohibit the participants from creating or adding a user from a third organization.
+In this article, you'll learn to set up a bilateral chat policy and restrict external group chats to a maximum of two organizations for users who are assigned the policy.
 
-This article is for IT admins to learn how to set up and assign bilateral chat restrictions for their organization's users.
+Once your external access and bilateral policy is set up, users with the policy can only be in external group chats with a maximum of two organizations. Users under the policy are also removed from existing external group chats with more than two organizations.
 
-## How bilateral chat enforcement works
+This policy doesn't apply to meetings, meeting chats, or channels.
 
-Once you create and assign a policy that restricts users' to bilateral chats, 
+## Prerequisites
+
+To set up a bilateral chat policy, you must first have external access set up and turned on. [Learn how to set up external access](/trusted-organizations-external-meetings-chat?tabs=organization-settings).
+
+## Set up a bilateral chat policy for your organization
+
+To create a new bilateral chat policy, complete the following steps:
+
+1. Sign in to the Teams admin center with your admin credentials.
+2. In the left-side menu, expand **External access** and select **Policies**.
+3. On the **Policies page**, select **Add**.
+4. Turn on the setting for **Communication with Teams and Skype for Business users from trusted organizations in group chats is limited to two orgs max**.
+
+## Assign a bilateral chat policy to users
+
+To assign you newly created bilateral chat policy to users, complete the following steps:
+
+1. On the External access Policies pages, select your newly created policy.
+2. Select **Assign users**.
+3. Select the users to assign the policy to.
+4. Select the **Save** button.
+
+## Create and assign a bilateral chat policy using PowerShell
+
+You can also create and assign a bilateral chat policy using PowerShell. Use the following PowerShell commands to complete the process.
+
+Connect: Connect-MicrosoftTeams
+**Create the policy:** New-CsExternalAccessPolicy -Identity EnableBilateral -FederatedBilateralChats $True
+**Assign the policy to a user / DL:** Grant-CsExternalAccessPolicy -PolicyName EnableBilateral -Identity [email address]
+**Verify the policy was assigned:** Get-CsUserPolicyAssignment -Identity [email address]
+
+> [!NOTE]
+> Don't include the brackets around your chosen email addresses.

@@ -200,9 +200,7 @@ However, there might be times when you require nesting with resource accounts. F
 
 ### Reporting and Nested Auto attendants and Call queues
 
-The **Auto Attendant Usage** report, **Call Queue Usage** report, and **[Auto attendant and Call queue historical reports](./aa-cq-cqd-historical-reports.md)** only report on the calls and caller actions in the first Auto attendant or Call queue that answers the call.
-
-For more information about reporting with nested Auto attendants and Call queues in Queues app, see [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9).
+For information about reporting with nested Auto attendants and Call queues in Queues app, see [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9).
 
 #### Teams admin center
  
@@ -212,8 +210,8 @@ If you require Teams admin center reporting, nest with resource accounts. Usage 
  
 For Auto attendant and Call queue historical reports, users can access reports in the following ways:
 
-- Authorized users see the report by Auto attendant or Call Queue name.
-- Administrators see the report by resource account.
+- Authorized users see all Auto attendants and Call queues they're authorized for regardless of how they are nested
+- Administrators see the report by resource account or by the Auto attendant or Call queue GUID if no resource account is avaialble
 
 ## Click-to-call restrictions
 

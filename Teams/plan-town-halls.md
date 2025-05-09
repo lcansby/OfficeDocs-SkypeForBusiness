@@ -173,9 +173,9 @@ If you've been using live events for your organization, you might want to unders
 
 For more information on Teams Premium, see [Teams Premium licensing](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams).
 
-## Town hall control comparison
+## Town hall policy and setting controls
 
-Teams admins and organizers have different policies and settings to control the town hall experience. The following table lists the types of features available for town halls and how the admin and organizer controls interact.
+You and your organizers have different policies and settings to control the town hall experience. The following table lists the types of features available for town halls and how the admin and organizer policies and settings interact:
 
 |Feature|Admins|Organizers|
 |:------|:-----|:---------|

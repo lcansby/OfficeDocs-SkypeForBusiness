@@ -211,7 +211,8 @@ If you require Teams admin center reporting, nest with resource accounts. Usage 
 For Auto attendant and Call queue historical reports, users can access reports in the following ways:
 
 - Authorized users see all Auto attendants and Call queues they're authorized for regardless of how they are nested
-- Administrators see the report by resource account or by the Auto attendant or Call queue GUID if no resource account is avaialble
+- Administrators see the Auto attendant report by resource account or by the Auto attendant GUID if no resource account is avaialble
+- Administrators see the Call queue report by resource account or by the resource account of the Auto attendant or Call queue that transferred the call to the Call queue
 
 ## Click-to-call restrictions
 

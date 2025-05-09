@@ -64,7 +64,7 @@ There are five steps you must follow to ensure your network is set up to support
 
 A combination of admin meeting and event policies with organizer and attendee settings manage town halls.
 If you'd like to get familiar with how policies work for Teams meetings and events, see [Manage meeting and event policies in Microsoft Teams](meeting-policies-overview.md).
-For a full list of admin policies and organizer settings for town halls, see [Town hall control comparison](#town-hall-control-comparison) later in this article.
+For a full list of admin policies and organizer settings for town halls, see [Town hall control comparison](#town-hall-policy-and-setting-controls) later in this article.
 
 ## Decide the types of town halls that organizers can create
 

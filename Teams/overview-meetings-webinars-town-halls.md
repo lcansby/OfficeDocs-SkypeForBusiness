@@ -40,7 +40,7 @@ This article, intended for administrators and IT professionals, describes the di
 
 The sections below include further information for planning and configuring these features, as well as links to information for your end users.
 
-For a detailed look at which features available in meetings, webinars, and town halls, see [Meetings, webinars, and town halls feature comparison](meeting-webinar-town-hall-feature-comparison.md).
+For a detailed look at which features are available in meetings, webinars, and town halls, see [Meetings, webinars, and town halls feature comparison](meeting-webinar-town-hall-feature-comparison.md).
 
 For information on limits and specifications for Teams webinars, meetings, and town halls, see [Limits and specifications for Microsoft Teams.](limits-specifications-teams.md)
 

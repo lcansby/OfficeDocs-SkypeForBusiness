@@ -256,8 +256,8 @@ Before proceeding, ensure that any existing version of the agent is uninstalled 
 > Both automatic and manual deployment require onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms Pro Management portal. The monitoring service agent is intended for use with certified Microsoft Teams Rooms systems and peripherals.
 >
 
-##Prerequisites
+## Prerequisites
 Follow these procedures to set up your hardware before attempting the enrollment process:
 
-###Adding proxy settings (optional)
+### Adding proxy settings (optional)
 

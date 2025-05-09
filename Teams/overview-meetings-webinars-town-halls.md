@@ -44,19 +44,9 @@ For a detailed look at which features available in meetings, webinars, and town 
 
 For information on limits and specifications for Teams webinars, meetings, and town halls, see [Limits and specifications for Microsoft Teams.](limits-specifications-teams.md)
 
-## Manage who can create meetings, webinars, and town halls
-
-You can manage which of your users can create meetings, webinars, and town halls by using meeting and event policies. For example, you might want to allow all your users to create meetings, but only people in marketing to create webinars, and only executives to create town halls. Anyone invited can attend these types of meetings, but only those you specify can create them.
-
-For details, see:
-
-- [Manage who can start instant meetings and schedule meetings](manage-who-can-schedule-meetings.md)
-- [Manage who can schedule webinars](set-up-webinars.md)
-- [Manage who can schedule town halls](set-up-town-halls.md)
-
 ## Meetings
 
-Meetings are generally best for situations where participants need to interact with each other via voice, video, or chat and where multiple people may be presenting. Meetings in Teams include audio, video, and screen sharing for up to 1,000 people and a view-only experience for participants over 900. Participants don't need to be a member of an organization (or have a Teams account) to join a Teams meeting. They can join directly from the calendar invitation via the Join meeting link or call in via audio if available.
+Meetings are generally best for situations where participants need to interact with each other via voice, video, or chat and where multiple people may be presenting. Microsoft Teams meetings can support up to 11,000 participants. The first 1,000 participants can fully engage with audio, video, and screen sharing. Any extra participants—up to 10,000 more—join in a view-only mode, allowing them to watch the meeting without interacting. Participants don't need to be a member of an organization, or have a Teams account to join a Teams meeting. They can join directly from the calendar invitation via the Join meeting link or call in via audio if available.
 
 In addition to regularly scheduled meetings, your users can create channel meetings. With channel meetings, everybody in a team can see there's a meeting, join the meeting, and use the meeting chat.
 
@@ -76,9 +66,9 @@ The following table lists meetings training available to the end users in your o
 
 ## Webinars
 
-Webinars are structured events where presenters and participants have clear roles. A key difference between webinars and Teams meetings is that webinars support robust registration management, a customizable event and registration site, and event-oriented default meeting options.
+Webinars are structured events where presenters and participants have clear roles. A key difference between webinars and Teams meetings is that webinars support robust registration management, a customizable event and registration site, and event-oriented default meeting options. Webinars support up to 1,000 attendees.
 
-Teams Premium offers additional meetings functionality through the Teams Premium subscription. For a list of Teams Premium features for webinars, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#webinars) and [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams#webinars).
+Teams Premium offers additional webinar functionality through the Teams Premium subscription. For a list of Teams Premium features for webinars, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#webinars) and [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams#webinars).
 
 For detailed information on how to plan for Teams webinars in your organization, see [Plan for Teams webinars](plan-webinars.md).
 
@@ -93,7 +83,7 @@ The following table lists webinars training available to the end users in your o
 
 ## Town halls
 
-Town halls are generally best for situations where a limited number of presenters are presenting to a large group of attendees and direct interaction via chat or voice conversation isn't needed. For these event formats, attendees don't use their cameras and mics, but instead use Q&A to engage with presenters and organizers.
+Town halls are generally best for situations where a limited number of presenters are presenting to a large group of attendees and direct interaction via chat or voice conversation isn't needed. For these event formats, attendees don't use their cameras and mics, but instead use Q&A to engage with presenters and organizers. Town halls currently support up to 10,000 attendees, but with a Teams Premium license, organizers can create town halls with up to 50,000 attendees.
 
 For a list of Teams Premium features for town halls, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#webinars) and [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams#webinars).
 

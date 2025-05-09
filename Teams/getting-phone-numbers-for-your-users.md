@@ -36,6 +36,8 @@ Microsoft Teams Calling Plan licenses enable you to acquire local numbers in any
 
 To learn more about Microsoft's Calling Plans and number usage availabilities per country and region, see [Microsoft Teams Calling Plans](calling-plans-for-office-365.md) and [Countries and region availability for Calling Plans](calling-plan-overview.md).
 
+***
+
 ## Number usage types
 
 Number usages define the services that are supported by a phone number. The following table lists the number usage types.
@@ -103,12 +105,12 @@ The availability of number usage types vary, depending on countries or regions. 
 
 ## How many telephone numbers can you get?
 
-The number of phone numbers you can get from Microsoft for your organization depends on the types of phone numbers and types of licenses you've bought and assigned. For information about Teams Phone and Audio Conferencing licensing, see [Add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). For more information about Calling Plans, see [Microsoft Calling Plans](calling-plans-for-office-365.md).
+The number of phone numbers you can get from Microsoft for your organization depends on the types of phone numbers and types of licenses you've bought and assigned.
 
 The following table applies to Microsoft Calling Plans, [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md), and voice apps, such as [Call Queues and Auto Attendants](plan-auto-attendant-call-queue.md).
 
 > [!IMPORTANT]
-> The limits in the following table don't include phone numbers you have ported to Microsoft.
+> The limits in the following table don't include phone numbers you've ported or are porting to Microsoft.
 
 |Here's the type of phone number |How do you get the total phone numbers? |Here's an example |
 |:-----|:-----|:-----|
@@ -117,15 +119,13 @@ The following table applies to Microsoft Calling Plans, [Audio Conferencing](dep
 |Toll-free service number   | The number of phone numbers is equal to the total number of **Teams Phone** and **Audio Conferencing** licenses and uses the following: <br/>  If there are **1-25 licenses**, then **5** phone numbers are given. <br/>  If there are **26-49 licenses**, then **10** phone numbers are given. <br/>  If there are **50-99 licenses**, then **20** phone numbers are given. <br/>  If there are **100-149 licenses**, then **30** phone numbers are given. <br/>  If there are **150-199 licenses**, then **40** phone numbers are given. <br/>  If there are **200-499 licenses**, then **65** phone numbers are given. <br/>  If there are **500-749 licenses**, then **90** phone numbers are given. <br/>  If there are **750-999 licenses**, then **110** phone numbers are given. <br/>  If there are **1,000-1,249 licenses**, then **125** phone numbers are given. <br/>  If there are **1,250-1,499 licenses**, then **135** phone numbers are given. <br/>  If there are **1,500-1,999 licenses**, then **160** phone numbers are given. <br/>  If there are **2,000-2,999 licenses**, then **210** phone numbers are given. <br/>  If there are **3,000-6,999 licenses**, then **420** phone numbers are given. <br/>  If there are **7,000-9,999 licenses**, then **500** phone numbers are given. <br/>  If there are **10,000-14,999 licenses**, then **600** phone numbers are given. <br/>  If there are **15,000-19,999 licenses**, then **700** phone numbers are given. <br/>  If there are **20,000-49,999 licenses**, then **1000** phone numbers are given. <br/>  If there are **50,000+ licenses**, then **1500** phone numbers are given.  |If you have a total of **1001** **Teams Phone** and **Audio Conferencing** licenses, you can get **125** toll-free service numbers. <br/> <br/> **Important:** [Communications Credits billing](set-up-communications-credits-for-your-organization.md) is required to reserve and use toll-free phone numbers.          |
 
 > [!NOTE]
-> You can see the quantity of telephone numbers you can get from Microsoft during the search and acquire process in the Microsoft Teams admin center (**Add phone numbers**). <br>
-> <br>
-> The number of phone numbers available for users is equal to the total number of **Domestic Calling Plan** and **International Calling Plan** licenses you have assigned multiplied by 1.1, plus 10 additional phone numbers. For example, if you have 50 users in total with a Domestic Calling Plan and/or International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**. Note that if you have a Pay-As-You-Go Calling Plan, you can only acquire 1 phone number per license assigned.
+> The Teams admin center's **Add phone numbers** wizard will tell you the quantity of telephone numbers you can get from Microsoft during the search and acquire process.
 
 ***
 
 ## Get new phone numbers
 
-The Teams admin center has a new number acquisition wizard that helps you submit the specific information required to acquire new numbers in any country or region.
+The Teams admin center has an **Add phone numbers** wizard that helps you submit the specific information required to acquire new numbers in any country or region.
 
 You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
@@ -161,7 +161,7 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 Once your order is completed, you are able to [See the available phone numbers in your tenant](see-a-list-of-phone-numbers-in-your-organization.md).
 
 > [!NOTE]
-> If you placed a phone number acquisition request to our support team, the order appears in **Phone Numbers** > **Order History** tab with the **Order type** designated as "*Search*" and the **Status** designated as "*Manual*". These designations indicate the order is pending our team to pick it up and work on it. Lead times vary based on the country or region and the type of phone numbers.
+> If you placed a phone number acquisition request to our support team, the order appears in **Phone Numbers** > **Order History** tab with the **Order type** designated as "*Search*" and the **Status** designated as "*Manual*". These designations indicate the order is pending the Support team's work. Lead times vary based on the country or region and the type of phone numbers requested.
 
 ## Assign phone numbers to users or services
 

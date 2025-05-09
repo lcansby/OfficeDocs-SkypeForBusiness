@@ -953,7 +953,7 @@ items:
               href: cloud-video-interop.md
             - name: Configure Quality of Service (QoS)
               href: meetings-real-time-media-traffic.md
-            - name: Stream Teams meetings
+            - name: Live stream with RTMP-Out
               href: stream-teams-meetings.md
             - name: Streaming encoders
               href: teams-encoder-setup.md

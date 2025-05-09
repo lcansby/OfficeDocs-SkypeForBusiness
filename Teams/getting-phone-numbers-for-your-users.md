@@ -26,7 +26,7 @@ ms.custom:
 description: "Learn how to get new, port, or transfer existing numbers for Teams, and how to show the changes to your users."
 ---
 
-# Get phone numbers from Microsoft Teams Calling Plans
+# Get Microsoft Teams Calling Plan phone numbers for your tenant
 
 This article provides considerations and guidance for IT pros and admins who are acquiring new telephone numbers from Microsoft.
 
@@ -58,7 +58,7 @@ Calling Plans are a prerequisite to acquiring numbers. To research optional Micr
 
 With a secured Microsoft Teams Calling Plan in place, you can request new numbers for an available country or region.
 
-Each country or region has unique rules and regulations for getting telephone numbers and ordering instructions.
+The availability of number usage types vary, depending on countries or regions. Furthermore, each country or region has unique rules and regulations for getting telephone numbers and ordering instructions.
 
  Find country/region-specific considerations for acquiring numbers by choosing the country or region from the following drop-down menu.
 
@@ -138,18 +138,30 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 
 3. Enter a name for the order and add a description.
 
+4. Select **From Operator**.
+
 4. On the Location and quantity page, do the following:
     1. Under **Country or region**, select a country or region.
-    1. Under **Number type**, see [Number usage types](#number-usage-types).
+    1. Under **Number type**, select the desired number type for this order. See [Number usage types](#number-usage-types).
     1. Under **Operator**, select **Microsoft** as the operator.
     1. Under **Quantity**, enter the number of numbers that you want for your organization.
-    1. Under **Search for new numbers**, select a location by searching for city name, area code, or postal code. If you need to create a new location, select **Add a location**.
-    1. Under **Area code**, select an area code.
-    1. Select **Next** to select your numbers.
+    1. Under **Search for new numbers**, select your criteria. Criteria vary depending on the country or region and the number type selected. If you need to create a new location, select **Add a location**.
 
-5. Select the numbers you want. You have 10 minutes to select your phone numbers and place your order. If you take more than 10 minutes, the phone numbers will be returned to the pool of numbers.
+    > [!NOTE]
+    > Occasionally, phone numbers might not be available according to your criteria. In an unsuccessful search scenario, you might want to change your search criteria and try again. Alternatively, from the criteria failure message, select **Sending this to the PSTN service desk** to engage search assistance from our Telephone Number Services Support team.
+
+    1. Select **Next** to select your numbers.
+    > [!NOTE]
+    > In some countries or regions where phone numbers are only available via Support, when you select **Next**, a support request to our Support team is automatically created.  
+
+5. On the next page, you have 10 minutes to place your order. If you take more than 10 minutes, the phone numbers won't be reserved for you and are made available to other customers.
 
 6. When you're ready to place your order, select **Place order**.
+
+Once your order is completed, you are able to [See the available phone numbers in your tenant](see-a-list-of-phone-numbers-in-your-organization.md).
+
+> [!NOTE]
+> If you placed a phone number acquisition request to our support team, the order appears in **Phone Numbers** > **Order History** tab with the **Order type** designated as "*Search*" and the **Status** designated as "*Manual*". These designations indicate the order is pending our team to pick it up and work on it. Lead times vary based on the country or region and the type of phone numbers.
 
 ## Assign phone numbers to users or services
 

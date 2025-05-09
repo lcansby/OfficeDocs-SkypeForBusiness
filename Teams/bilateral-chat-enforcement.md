@@ -48,7 +48,7 @@ To create a new bilateral chat policy, complete the following steps:
 
 ## Assign a bilateral chat policy to users
 
-To assign you newly created bilateral chat policy to users, complete the following steps:
+To assign your newly created bilateral chat policy to users, complete the following steps:
 
 1. On the External access Policies pages, select your newly created policy.
 2. Select **Assign users**.

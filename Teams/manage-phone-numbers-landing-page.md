@@ -38,11 +38,13 @@ description: Learn how to get telephone numbers for Microsoft Teams for your org
 
 This article provides an overview and considerations for getting phone numbers in Microsoft Teams.
 
-Telephone numbers are not included with [Teams Phone licensing](teams-phone-licensing.md), although once you connect a PSTN solution and acquire telephone numbers for your tenant, you can assign the numbers to accounts that are licensed to use Teams Phone.
+Telephone numbers are not included with [Teams Phone licensing](teams-phone-licensing.md). Telephone numbers for your tenant are acquired through the service provider that provides your tenant with connectivity and access to the Public Switched Telephone Network (PSTN).
 
-Telephone numbers for your tenant are acquired through your chosen Public Switched Telephone Network (PSTN) service provider. To learn more about the PSTN integrations available to you, see [PSTN Connectivity options](pstn-connectivity.md).
+Once you get a PSTN connection to your tenant, you can then acquire telephone numbers from the service provider and assign the numbers to accounts that are licensed to use Teams Phone.
 
-Once numbers are acquired and available in your tenant, regardless of PSTN connectivity solution, they can be managed in the following administrative tools:
+To learn more about the PSTN integrations available to you, see [PSTN Connectivity options](pstn-connectivity.md).
+
+Once numbers are acquired and available in your tenant, they can be managed in the following administrative tools:
 
 - Teams admin center (TAC)
 - Teams PowerShell

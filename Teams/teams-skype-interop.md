@@ -1,8 +1,8 @@
 ---
 title: Teams and Skype interoperability
-ms.author: jtremper
-author: jacktremper
-manager: pamgreen
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -10,13 +10,16 @@ ms.custom: chat-teams-channels-revamp
 ms.collection:
   - M365-collaboration
 ms.reviewer: vinbel
-ms.date: 2/26/2024
+ms.date: 5/12/2025
 search.appverid: MET150
 description: Learn about the interoperability capabilities between Teams users in your organization and Skype (Consumer) users.
 ms.localizationpriority: medium
 ---
 
 # Teams and Skype interoperability
+
+> [!IMPORTANT]
+> Starting May 5th, 2025, Skype Consumer Interoperability with Teams is no longer supported. You may still communicate with users outside of an organisation through Teams external access.
 
 This article gives you an overview of the interoperability capabilities between Microsoft Teams and Skype (Consumer). Learn how Teams users and Skype users can communicate through chats and calls and the admin controls that apply.
 
@@ -27,8 +30,7 @@ Teams users in your organization can chat with and call Skype users by using the
 
 These capabilities are available on the desktop, web, and mobile (Android and iOS) clients for both Teams and Skype. For an optimal experience, we recommend Skype version 8.58 and later.
 
-> [!NOTE]
-> The Teams and Skype interop capabilities discussed in this article aren't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
+
 
 ## Chat and calling experience
 

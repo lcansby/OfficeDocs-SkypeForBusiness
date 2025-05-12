@@ -53,7 +53,7 @@ You can control whether users in your organization can communicate with Teams us
 
 #### Skype users
 
-> [!IMPORTANT]
+> [!WARNING]
 > Starting May 5, 2025, Skype Consumer Interoperability with Teams is no longer supported and the associated policies have been deprecated. You may still communicate with users outside of an organisation through Teams external access.
 
 ## Guest access

@@ -247,7 +247,7 @@ C:\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-x.
 
 ## [GCC High](#tab/GCCH)
 
-In the GCC High environment, manual installation of the Teams Rooms Pro Management admin agent is required. The minimum required version is 5.25.12002. Before proceeding, ensure that any existing version of the agent is uninstalled from the device. Once uninstalled, follow the instructions outlined in the Enrollment Process section of this document to complete the manual installation and enrollment of the agent.
+In the GCC High environment, manual installation of the Teams Rooms Pro Management admin agent is required. Before proceeding, ensure that any existing version of the agent is uninstalled from the device. Once uninstalled, follow the instructions outlined in the Enrollment Process section of this document to complete the manual installation and enrollment of the agent.
 
 Before proceeding, ensure that any existing version of the agent is uninstalled from the device. Once uninstalled, follow the instructions outlined in the Enrollment Process section of this document to complete the manual installation and enrollment of the agent.
 
@@ -259,7 +259,7 @@ Follow these procedures to set up your hardware before attempting the enrollment
   
 __Adding proxy settings (optional)__
 
-1. Log in as administrator by following  [Performing Operations as the Admin user of the MTR device](/microsoftteams/rooms/enroll-a-device).
+1. Log in as administrator by following  [Performing Operations as the Admin user of the MTR device](https://learn.microsoft.com/en-us/microsoftteams/rooms/enroll-a-device#performing-operations-as-the-admin-user-of-the-teams-rooms-device).
 1. In the window ___Search___ field (bottom-left section of the screen), enter __cmd__ (either long press the screen or right select, and choose ___Run as administrator___).  
 
 1. Run the following command (double quotes at end of command are important):
@@ -282,7 +282,7 @@ __Adding proxy settings (optional)__
       
 __Performing operations as the Admin user of the Teams Rooms device__
 
-Some configuration/installation procedures require you to log in to the device as Administrator.
+Some configuration / installation procedures require you to log in to the device as Administrator.
 
 To log in to the device as Administrator (local administrator):
 

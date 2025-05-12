@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: kimmatlock
-ms.date: 2/21/2025
+ms.date: 5/12/2025
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -95,6 +95,8 @@ Completed With Errors| APP RESTART FAILED|XML with new settings has been written
 | Failed |DEVICE DISCONNECTED | Device was disconnected when we attempted to execute the settings change, so no changes occurred.|Reapply the settings change.|
 
 ## Device Settings Jobs for bulk changes
+
+[!INCLUDE[Preview-feature](../includes/preview-feature.md)]
 
 For Teams Rooms Pro management administrators, a job can be created to apply one or more settings to one or more Teams Rooms on Windows devices through the Teams Rooms Pro management portal.   The device setting job acts as a parent container for each of the individual jobs that will execute for the selected setting changes across the devices selected.  In this way, you will have an overall status of the completion of the parent job, along with the status for each individual device settings jobs.  A filter has been added to easily sort on a parent job status (Submitted, Running, Completed, Completed with errors, Cancelled and Failed).  
 

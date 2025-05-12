@@ -33,16 +33,15 @@ description: "Learn how to upload Direct Routing telephone numbers to your Teams
 
 This article provides considerations and guidance for IT pros and admins who are acquiring new telephone numbers from a Direct Routing partner.
 
-Direct Routing is one of several methods to integrate your tenant with the Public Switched Telephone Network (PSTN). The PSTN integration is provided by you or a partnering PSTN managed service operator.
-
-As an administrator, you can use the Teams admin center to manage Direct Routing phone numbers from your partnering PSTN operator. However, the phone number services agreement is between your organization and your PSTN operator.
-
-You may fulfill other requirements with your Direct Routing PSTN opeator. They can work with you to fulfil regulatory requirements related to various countries and regions, acquiring local telephone numbers, assigning number usage types, providing Emergency Calling services, and more.
+Direct Routing is one of several methods available to integrate your tenant with the Public Switched Telephone Network (PSTN).
 
 To learn more about Direct Routing as a PSTN solution, see [Plan for Direct Routing](direct-routing-plan.md).
 
-> [!NOTE]
-> To reserve and acquire Direct telephone numbers for your tenant, work with your PSTN partner directly. Once you acquire numbers from your partner, use the following guidance to upload those numbers to Teams.
+In a Direct Routing solution, the phone number services agreement is between your organization and your PSTN operator. You may fulfill other requirements with your Direct Routing PSTN operator, like assigning number usage types, Emergency Calling services, and more.
+
+To reserve and acquire Direct telephone numbers for your tenant, work with your PSTN partner directly.
+
+Once you acquire numbers from your partner, use the following guidance to upload those numbers so that you can manage your Direct Routing numbers in Teams.
 
 ## Considerations for getting Direct Routing numbers in your tenant
 

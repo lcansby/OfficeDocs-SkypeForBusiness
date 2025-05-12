@@ -33,16 +33,13 @@ description: "Learn about acquiring new telephone numbers for your tenant with O
 
 This article provides considerations and guidance for IT pros and admins who are acquiring new telephone numbers from an Operator Connect partner.
 
-Operator Connect is one of several methods to integrate your tenant with the Public Switched Telephone Network (PSTN). The PSTN integration is provided by one or more partnering PSTN operators.
-
-As an administrator, you can use the Teams admin center to manage Operator Connect phone numbers from your partnering PSTN operator. However, the phone number services agreement is between your organization and your PSTN operator.
-
-> [!NOTE]
-> To reserve and acquire Operator Connect numbers for your tenant, work with your Operator Connect partner directly.
-
-You may fulfill other requirements with your Operator Connect PSTN opeator. They can work with you to fulfil regulatory requirements related to various countries and regions, acquiring local telephone numbers, assigning number usage types, providing Emergency Calling services, and more.
+Operator Connect is one of several methods available to integrate your tenant with the Public Switched Telephone Network (PSTN).
 
 To learn more about Operator Connect, see [Plan for Operator Connect](operator-connect-plan.md).
+
+In an Operator Connect solution, the phone number services agreement is between your organization and your PSTN operator. You may fulfill other requirements with your Operator Connect PSTN operator, like assigning number usage types, Emergency Calling services, and more.
+
+To reserve and acquire Operator Connect numbers for your tenant, work with your PSTN partner directly.
 
 To learn more acquiring phone numbers with an Operator Connect partners, see [Configure Operator Connect](operator-connect-configure.md).
 

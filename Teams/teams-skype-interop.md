@@ -19,7 +19,7 @@ ms.localizationpriority: medium
 # Teams and Skype interoperability
 
 > [!IMPORTANT]
-> Starting May 5, 2025, Skype Consumer Interoperability with Teams is no longer supported. You may still communicate with users outside of an organisation through Teams external access.
+> Starting May 5, 2025, Skype Consumer Interoperability with Teams is no longer supported and the associated policies have been deprecated. You may still communicate with users outside of an organisation through Teams external access.
 
 This article gives you an overview of the interoperability capabilities between Microsoft Teams and Skype (Consumer). Learn how Teams users and Skype users can communicate through chats and calls and the admin controls that apply.
 

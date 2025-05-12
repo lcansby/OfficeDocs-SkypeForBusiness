@@ -42,13 +42,6 @@ Telephone numbers are not included with [Teams Phone licensing](teams-phone-lice
 
 Telephone numbers for your tenant are acquired through your chosen Public Switched Telephone Network (PSTN) service provider. To learn more about the PSTN integrations available to you, see [PSTN Connectivity options](pstn-connectivity.md).
 
-Microsoft Teams includes a telephone number inventory and management service as part of the product. Teams supports the following methods for getting telephone numbers into your tenant.
-
-- Acquire new numbers from Microsoft
-- Acquire new numbers from an Operator Connect or Teams Phone Mobile partner
-- Upload numbers from a Direct Routing partner
-- Migrate, or port in, telephone numbers that you've already acquired from an existing service provider to Microsoft Calling Plans, or to an Operator Connect, Teams Phone Mobile, or Direct Routing partner.
-
 Once numbers are acquired and available in your tenant, regardless of PSTN connectivity solution, they can be managed in the following administrative tools:
 
 - Teams admin center (TAC)

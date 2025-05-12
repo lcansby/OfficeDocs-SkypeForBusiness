@@ -47,4 +47,4 @@ After running the script:
   - Admins can filter the CSV file for each error to identify all devices requiring a specific fix.
   - Admin can fix one error at a time across all machines and rerun the new Teams installation.
 
-A video demonstration of the script being run [is located here](/_themes/docs.theme/master/en-us/_themes/global/video-embed-one-stream.html?id=3fb0b236-236f-4817-8bf0-e93262b859b1).
+A video demonstration of the script being run [is located here](https://learn.microsoft.com/_themes/docs.theme/master/en-us/_themes/global/video-embed-one-stream.html?id=3fb0b236-236f-4817-8bf0-e93262b859b1).

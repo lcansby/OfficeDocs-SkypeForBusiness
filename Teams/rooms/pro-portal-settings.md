@@ -98,15 +98,15 @@ Completed With Errors| APP RESTART FAILED|XML with new settings has been written
 
 [!INCLUDE[Preview-feature](../includes/preview-feature.md)]
 
-For Teams Rooms Pro management administrators, a job can be created to apply one or more settings to one or more Teams Rooms on Windows devices through the Teams Rooms Pro management portal.   The device setting job acts as a parent container for each of the individual jobs that will execute for the selected setting changes across the devices selected.  In this way, you will have an overall status of the completion of the parent job, along with the status for each individual device settings jobs.  A filter has been added to easily sort on a parent job status (Submitted, Running, Completed, Completed with errors, Cancelled and Failed).  
+For Teams Rooms Pro management administrators, a job can be created to apply one or more settings to one or more Teams Rooms on Windows devices through the Teams Rooms Pro management portal.   The device setting job acts as a parent container for each of the individual jobs that execute for the selected setting changes across the devices selected.  In this way, you'll have an overall status of the completion of the parent job, along with the status for each individual device settings job.  A filter has been added to easily sort on a parent job status (Submitted, Running, Completed, Completed with errors, Cancelled, and Failed).  
 
-When selecting either the **Apply Now** or **Schedule during Nightly Maintenance window**, the parent job will create individual jobs for each room device selected.  At the individual room level, you can see the job under the **Room > Activity** pane.  If the device is in a call or unmonitored, the individual job can fail or be rescheduled for another attempt to apply the settings change.  If one of the individual jobs fail, the parent job will be reflected as **Completed with Errors**.  An export button has been provided to download the entire job details along with statuses of each individual job.
+When selecting either the **Apply Now** or **Schedule during Nightly Maintenance window**, the parent job creates individual jobs for each room device selected.  At the individual room level, you can see the job under the **Room > Activity** pane.  If the device is in a call or unmonitored, the individual job can fail or be rescheduled for another attempt to apply the settings change.  If one of the individual jobs fails, the parent job is reflected as **Completed with Errors**.  An export button has been provided to download the entire job details along with statuses of each individual job.
 
 ### Create a Job
 
 1. In the left navigation of the Microsoft Teams Rooms Pro Management portal, go to **Settings** > **Device Settings**.
 
-1. Select **Create job**.  A wizard will be presented to step through creating the job.
+1. Select **Create job**.  A wizard is presented to step through creating the job.
 
 1. Select **Settings** changes to be applied to devices.
 
@@ -116,11 +116,11 @@ When selecting either the **Apply Now** or **Schedule during Nightly Maintenance
 
 1. Give the job a **name** for reference in the Device Settings Job dashboard.
 
-1. Review the job details.  When you are ready, select **Create job**.  The job will be queued to execute.
+1. Review the job details.  When you're ready, select **Create job**.  The job will be queued to execute.
 
 ### Device Settings Job Detail (for bulk changes)
 
-Details of the job created is available by selecting the job from list on the Device settings job dashboard. A Setting jobs detail pane will be presents with three tabs: **General, Settings and Devices**, along with an Export button. Filters are also available to sort through devices for quick reference of individual job statuses. 
+Details of the job created are available by selecting the job from list on the Device settings job dashboard. A Setting jobs detail pane is presents with three tabs: **General, Settings and Devices**, along with an Export button. Filters are also available to sort through devices for quick reference of individual job statuses. 
 
 ## Settings available
 
@@ -172,7 +172,7 @@ Teams Rooms devices have settings that can either be applied on the device and s
 |Filter Profane words in captions and transcripts|Toggle| Enabled by default. |When captions are on, use of profane words are redacted.|
 |Enable People Count|Toggle|Enabled by default. |If true, people count will be enabled for Teams Rooms. Available for Individual or bulk changes.|
 |Require passcode for all Teams meetings|Toggle| Disabled by default. If true, users are required to enter the correct meeting ID and passcode to join all Teams meetings scheduled in the room with a Microsoft Teams Room Pro license.|Available for Individual or bulk changes.|
-|Require passcode for all Private Teams meetings|Toggle| Disabled by default.| If true, users are required to enter the correct meeting ID and passcode to join all private Teams meetings scheduled in the room with a Microsoft Teams Room Pro license.Available for Individual or bulk changes.|
+|Require passcode for all Private Teams meetings|Toggle| Disabled by default.| If true, users are required to enter the correct meeting ID and passcode to join all private Teams meetings scheduled in the room with a Microsoft Teams Room Pro license. Available for Individual or bulk changes.|
 |Join third-party meetings|Checkbox|Cisco Webex, Zoom, GotoMeetings, RingCentral Meetings, Amazon Chime|May require calling plan to enable. For more information, see [Join third-party meetings](/microsoftteams/rooms/third-party-join?tabs=MTRW). Available for Individual or bulk changes.|
 |Join with room info|Radio button|Uses conference room account info to join third party meetings.|Available for Individual or bulk changes.|
 |Join with custom info|Radio button| Disabled by default.|If this value is set to true, you must specify both *CustomDisplayNameForThirdPartyMeetings* and *CustomDisplayEmailForThirdPartyMeetings* must be specified. Available for Individual or bulk changes.|
@@ -253,7 +253,7 @@ The ability to change specific digital settings is permission based.  If you don
 |Display Period|Header||
 |Activate signage when device has been idle for X minutes|Number|Set the activation time in range of 1 to 100 minutes.|
 |Deactivate signage with meeting is starting in X minutes|Number|Set the deactivation time in range of 1 to 100 minutes.|
-|Allow screen time-out when device is idle|Toggle|Enable to respect OS screen time-out settings. Disable to keep signage active on idle devices.|
+|Allow screen time out when device is idle|Toggle|Enable to respect OS screen time out settings. Disable to keep signage active on idle devices.|
 |Signage source|Selection|Reflects the trusted third-party signage sources where the room is enrolled in.|
 
 ## Related articles

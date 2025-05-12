@@ -19,7 +19,7 @@ ms.localizationpriority: medium
 # Teams and Skype interoperability
 
 > [!IMPORTANT]
-> Starting May 5th, 2025, Skype Consumer Interoperability with Teams is no longer supported. You may still communicate with users outside of an organisation through Teams external access.
+> Starting May 5, 2025, Skype Consumer Interoperability with Teams is no longer supported. You may still communicate with users outside of an organisation through Teams external access.
 
 This article gives you an overview of the interoperability capabilities between Microsoft Teams and Skype (Consumer). Learn how Teams users and Skype users can communicate through chats and calls and the admin controls that apply.
 
@@ -38,7 +38,7 @@ Here's an overview of the chat and calling experience.
 
 ### Teams user starts a chat or call with a Skype user
 
-Teams users can search for a Skype user by typing their email address in a new chat or in the search bar.  The Teams user can then select the Skype user in the search results to start a chat or call with them.
+Teams users can search for a Skype user by typing their email address in a new chat or in the search bar. The Teams user can then select the Skype user in the search results to start a chat or call with them.
 
 A Skype user may choose not to appear in search results. In this case, they won't show up in the search results in Teams and Teams users won't be able to find them.
 
@@ -65,7 +65,7 @@ Blocked Skype users, along with other people and public switched telephone netwo
 - Conversations are one-on-one only. Group chats aren't supported.
 - Teams users and Skype users can't see each other's presence.
 - Searching for Skype users by using their Skype ID or phone number isn't supported.
-- Skype users can't call Teams users who set up call forwarding to another user's number, a delegate's number, or a Public Switched Telephone Network (PSTN) number.  Only voicemail is supported.
+- Skype users can't call Teams users who set up call forwarding to another user's number, a delegate's number, or a Public Switched Telephone Network (PSTN) number. Only voicemail is supported.
 - Interop escalation, group calls, and meetings aren't supported.
 - The ability for a delegate to call a Skype user on behalf of a Teams user isn't supported.
 - Screen sharing with chat isn't supported.

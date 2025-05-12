@@ -39,7 +39,7 @@ To learn more about Operator Connect, see [Plan for Operator Connect](operator-c
 
 In an Operator Connect solution, the phone number services agreement is between your organization and your PSTN operator. You may fulfill other requirements with your Operator Connect PSTN operator, like assigning number usage types, Emergency Calling services, and more.
 
-To reserve and acquire Operator Connect numbers for your tenant, work with your PSTN partner directly.
+To reserve and acquire new Operator Connect numbers or to port existing numbers to your Operator Connect partner, work with your Operator Connect partner directly.
 
 To learn more acquiring phone numbers with an Operator Connect partners, see [Configure Operator Connect](operator-connect-configure.md).
 

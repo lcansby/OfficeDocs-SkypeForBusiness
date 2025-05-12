@@ -39,7 +39,7 @@ To learn more about Direct Routing as a PSTN solution, see [Plan for Direct Rout
 
 In a Direct Routing solution, the phone number services agreement is between your organization and your PSTN operator. You may fulfill other requirements with your Direct Routing PSTN operator, like assigning number usage types, Emergency Calling services, and more.
 
-To reserve and acquire Direct telephone numbers for your tenant, work with your PSTN partner directly.
+To reserve and acquire new Direct telephone numbers or to port existing numbers to your Direct Routing partner, work with your Direct Routing PSTN partner directly.
 
 Once you acquire numbers from your partner, use the following guidance to upload those numbers so that you can manage your Direct Routing numbers in Teams.
 

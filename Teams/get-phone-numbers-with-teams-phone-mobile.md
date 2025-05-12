@@ -39,7 +39,7 @@ To learn more about Teams Phone Mobile, see [Plan for Teams Phone Mobile](operat
 
 In a Teams Phone Mobile solution, the phone number services agreement is between your organization and your PSTN operator. You may fulfill other requirements with your Teams Phone Mobile PSTN operator, like assigning number usage types, Emergency Calling services, and more.
 
-To reserve and acquire Teams Phone Mobile numbers for your tenant, work with your PSTN partner directly.
+To reserve and acquire new Teams Phone Mobile numbers or to port existing numbers to your Teams Phone Mobile partner, work with your Teams Phone Mobile partner directly.
 
 To learn more acquiring phone numbers with a Teams Phone Mobile partner, see [Configure Teams Phone Mobile](operator-connect-mobile-configure.md).
 

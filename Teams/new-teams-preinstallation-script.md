@@ -1,5 +1,5 @@
 ---
-title:  Pre-installation script for new Teams client
+title:  Preinstallation script for new Teams client
 ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
@@ -20,9 +20,9 @@ appliesto:
 ms.localizationpriority: high
 ---
 
-# New Teams client pre-installation script
+# New Teams client preinstallation script
 
-Microsoft has a [pre-installation check script](https://aka.ms/NewTeamsReadinessCheck) designed to identify why devices can't be updated to the new Teams client. The script also suggests solutions to any problems it finds. Admins can save time moving to new Teams by running the script in these two use cases:
+Microsoft has a [preinstallation check script](https://aka.ms/NewTeamsReadinessCheck) designed to identify why devices can't be updated to the new Teams client. The script also suggests solutions to any problems it finds. Admins can save time moving to new Teams by running the script in these two use cases:
 
 - Before you install new Teams for the first time.
 - After the new Teams client installation fails on some devices.
@@ -30,7 +30,7 @@ Microsoft has a [pre-installation check script](https://aka.ms/NewTeamsReadiness
 Admins, by running this script, can proactively identify and resolve issues, making it easier to install the new Teams client across their organization.
 
 > [!NOTE]
-> If you want to get pre-install check status across all devices, run this script using device management software like Intune. If you want to have the pre-install script check the status for a single device, you can run it directly on the device.
+> If you want to get a preinstall check status across all devices, run this script using device management software like Intune. If you want to have the preinstall script check the status for a single device, you can run it directly on the device.
 
 ## Using the script
 

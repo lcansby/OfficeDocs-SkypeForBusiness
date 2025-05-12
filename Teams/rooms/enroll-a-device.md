@@ -300,10 +300,10 @@ To log in to the device as Administrator (local administrator):
 To return to the Microsoft Teams Rooms app after performing the necessary administrative tasks:
 
 1. From the Windows ***Start menu***, sign out from the Admin account.
-1. Return to Microsoft Teams Rooms by selecting the user account icon on the far-left side of the screen and then selecting **Skype**.
+1. Return to Microsoft Teams Rooms by selecting the user account icon on the far left side of the screen and then selecting **Skype**.
 
 > [!NOTE]
-> If the Skype user is not listed, select Other User and enter ***.\skype*** as the user name, and sign in.
+> If the Skype user isn't listed, select Other User and enter ***.\skype*** as the user name, and sign in.
 
 ## URLs Required for Communication
 
@@ -319,7 +319,7 @@ The following hosts must be allowed if you have **traffic allowlist** enabled wi
 
 The Enrollment process involves these steps:
 
-1. On the left navigation bar of the Microsoft Teams Rooms Pro Management portal [http://devices.gov.teams.microsoft.us](https://devices.gov.teams.microsoft.us/), expand **Settings** and select **General**.
+1. In the left navigation bar of the Microsoft Teams Rooms Pro Management portal [http://devices.gov.teams.microsoft.us](https://devices.gov.teams.microsoft.us/), expand **Settings** and select **General**.
 1. Under *Enroll a room*, select **Download installer** to download the latest version of the Pro Portal agent MSI installer.
 1. **Optional:** Set up proxy settings for the agent; see [Adding proxy settings (optional)](#adding-proxy-settings-optional).
 1. Install the agent installer (downloaded in step 2) on MTR units, either by running the MSI locally on an MTR device or via your normal means of publishing MSI applications to devices within your environment (Group-Policy, Entra, etc.)
@@ -331,7 +331,7 @@ The Enrollment process involves these steps:
 
 After downloading the installer from Microsoft, unzip its contents to access the file **ManagedRoomsInstaller.msi**.
 
-There are two modes of installation: 1) individual local machine install and 2) mass deploy mode (usually via Intune of similar method). We recommend individual install for non-domain joined machines or for machines that you have no way of running MSI installers remotely.
+There are two modes of installation: 1) individual local machine install and 2) mass deploy mode (usually using Intune of similar method). We recommend individual install for non-domain joined machines or for machines that you have no way of running MSI installers remotely.
 
 Due to the many varied ways in which customers can run MSI applications in mass deployment mode this document walks through only installation in individual mode as well in bulk on Intune-enrolled devices.
 
@@ -352,7 +352,7 @@ Due to the many varied ways in which customers can run MSI applications in mass 
     The installation will continue. During the installation procedure, a console window opens and begins the final stage of the Microsoft Teams Rooms Pro monitoring software installation.
 
     > [!NOTE]
-    > Do not close the window. Once the installation is complete, the wizard displays a "Finish" button.
+    > Don't close the window. Once the installation is complete, the wizard displays a "Finish" button.
 
 ### Intune-enrolled device bulk deployment
 
@@ -360,10 +360,10 @@ The following components are pre-requisites for successful installation:
 
 - **Intune enrollment**: Teams Rooms on Windows devices must be already enrolled in Intune.
   For more information about how to enroll Teams Rooms on Windows devices in Intune, see [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
-- **Microsoft Entra group with all Teams Rooms on Windows devices as members** – a group created in Microsoft Entra ID that includes all Teams Rooms on Windows devices that should be part of the Microsoft Teams Rooms Premium service. This group will be used for targeting the deployment of the MTR Pro agent.
+- **Microsoft Entra group with all Teams Rooms on Windows devices as members** – a group created in Microsoft Entra ID that includes all Teams Rooms on Windows devices that should be part of the Microsoft Teams Rooms Premium service. This group will be used for targeting the deployment of the Microsoft Teams Rooms Pro agent.
 > [!NOTE]
 > You may consider using Dynamic groups in Microsoft Entra ID for this purpose, more information at [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
-- **Download MTR Pro agent installer** – On the left navigations bar of the Microsoft [Teams Rooms Pro Management portal](https://devices.gov.teams.microsoft.us/), expand **Settings** and Select **General** 
+- **Download Microsodft Teams Room Pro agent installer** – On the left navigations bar of the Microsoft [Teams Rooms Pro Management portal](https://devices.gov.teams.microsoft.us/), expand **Settings** and Select **General** 
 - Under **Enroll a room*, select **Download installer** to download the monitoring agent software.
 
 **To install using Intune**
@@ -380,18 +380,18 @@ The following components are pre-requisites for successful installation:
    1. Ignore app version: select **Yes**.
 
       > [!NOTE]
-      > The MTR Pro agent is self updating; hence, you should explicitly ignore the app version.
+      > The MIcrosoft Teams Rooms Pro agent is self updating; hence, you should explicitly ignore the app version.
 
    1. (Optional) Category: Select **Computer Management**.
    
 1. Click **Next** to display the **Assignments** page.
    1. Under the **Required** section, click **+ add group** to target a group of devices for installation of the agent.
-   1. In the **Select group** pane, type the group name in the Search box (refer to pre-requisites above) and click on the desired **group** and click **Select**.
+   1. In the **Select group** pane, type the group name in the Search box (refer to pre-requisites above) and click on the desired **Group** and click **Select**.
       For more information, see [Add groups to organize users and devices](https://go.microsoft.com/fwlink/?linkid=2202166) and [Assign apps to groups with Microsoft Intune](https://go.microsoft.com/fwlink/?linkid=2202270).
 1. Click **Next** to display the **Review + create** page.
 1. Review the values and settings you entered for the app. When you are done, click **Create** to add the app to Intune.
 
-Once the process is completed, your devices will start installing the MTR Pro agent after a few minutes.
+Once the process is completed, your devices will start installing the Microsoft Teams Rooms Pro agent after a few minutes.
 
 > [!NOTE]
 > Following installation, the Teams Rooms Pro management agent may take up to eight hours to become listed in the Teams Rooms Pro management portal.
@@ -414,10 +414,13 @@ Choose the room and select **Enroll** to start receiving incident alerts.
 
 C:\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\Logs\ServicePortalAgent_xx.log.
 
-|Symptom|Recommended Procedure|
+**Common Symptoms and recommended fixes**
+The table contains some common issues that you could see and the procedure to fix the issue.
+
+|Symptom|Recommended procedure|
 |---|---|
 |You receive an error message stating: </p><p> ***ERROR: Please run this application with*** <br> ***elevated privileges***|Run the application with escalated privileges and try again.|
 |||
 |You receive an error message: </p><p> ***ERROR: Local user account named 'Admin' or 'Skype' not found***|Ensure that the user accounts exist on the certified Microsoft Teams Rooms systems device.|
 |||
-|You receive any error state messages that are not covered above.|Please provide a copy of your installation log to your Microsoft Teams System support agent.|
+|You receive any error state messages that aren't covered above.|Please provide a copy of your installation log to your Microsoft Teams System support agent.|

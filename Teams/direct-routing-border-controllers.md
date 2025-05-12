@@ -2,12 +2,13 @@
 title: "Session Border Controllers certified for Direct Routing"
 ms.author: scottfrancis
 ms.reviewer: FilippSe
-ms.date: 06/12/2024
+ms.date: 05/06/2025
 author: sfrancis206
 manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-calling
 ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
@@ -89,13 +90,13 @@ We're not accepting new nominations for certification until further notice.
 ||Cisco Unified Border Element (CUBE) for 1000 V Series Cloud Services Router|&#10004;|&#10004;|Supported IOS XE Amsterdam 17.2.1r (Recommended 17.3.3)|&#10004;||
 ||Cisco Unified Border Element (CUBE) for 1000 Series Aggregation Services Routers|&#10004;|&#10004;|Supported IOS XE Amsterdam 17.2.1r (Recommended 17.6.1a)|&#10004;||
 ||Cisco Unified Border Element (CUBE) for Catalyst 8000 Edge Platforms|&#10004;|&#10004;|Supported IOS XE Amsterdam 17.3.2 (Recommended 17.6.1a)|&#10004;||
-|[Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|Avaya Session Border Controller for Enterprise (ASBCE)|&#10004;|&#10004;|Release 8.1.1 or higher (8.1.2 or higher for Media Bypass)|&#10004;|&#10004;|
+|[Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|Avaya Session Border Controller for Enterprise (ASBCE)|&#10004;|&#10004;|Release 8.1.1 or higher (8.1.2 or higher for Media Bypass, 10.2.0.2 for ELIN)|&#10004;|&#10004;|
 |[Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|Nokia Session Border Controller|&#10004;|&#10004;|24.7|&#10004;||
 |[Italtel](https://www.italtel.com/italtels-sbc-obtains-microsoft-teams-direct-routing-certification/)|NetMatch-S CI|&#10004;|&#10004;|Supported 5.8 (Recommended the latest version)|&#10004;|&#10004;|
 |[Ericsson](https://www.ericsson.com/portfolio/cloud-software-and-services/cloud-core/communication-services-udm-and-exposure/communication-services--udm/cloud-ims/enterprise-communication/sip-trunking)|vSBC 2.16|&#10004;|||||
 |[Cataleya](https://cataleya.com/cataleya-launches-orchid-cloud-revolutionary-cloud-based-wholesale-voice-business-platform/)|Orchid Link|&#10004;||3.1|||
 |[ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|Teams SBC|&#10004;|&#10004;|1.6|||
-|[Mitel](https://unify.com/en/solutions/voice-platforms/session-border-controller)|Unify OpenScape Session Border Controller|&#10004;|&#10004;|V10R2.2.0 or higher|||
+|[Mitel](https://www.mitel.com/products/openscape-session-border-controller)|Unify OpenScape Session Border Controller|&#10004;|&#10004;|V10R2.2.0 or higher|||
 |[Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|vmVSXi|&#10004;|&#10004;|10.5.1.354-vm-S-x64|&#10004;||
 |[Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/dialogic-session-border-controller/)|Dialogic BorderNet SBC|&#10004;|&#10004;|3.9.x|||
 |[Patton Electronics Co.](https://www.patton.com/microsoft/)|Patton SmartNode eSBC|&#10004;||3.19.x|||
@@ -116,6 +117,8 @@ We're not accepting new nominations for certification until further notice.
 ||GX-3100|&#10004;|&#10004;|Supported 7.20A.250 (Recommended 7.40A.500)|&#10004;|&#10004;|
 |[Telnyx LLC](https://telnyx.com/resources/direct-routing-overview)|Telnyx MS Teams SBC|&#10004;|&#10004;|v2024.0315.18.37.f2c7869|&#10004;||
 |[Vodia Networks Inc.](https://web.vodia.com/microsoft-teams)|Vodia PBX|&#10004;||v69.4|||
+|[Brekeke Software, Inc.](https://docs.brekeke.com/pbx/integration-with-microsoft-teams)|Brekeke PBX|&#10004;||3.17.1.5 or higher||
+|[Nextgen, Inc.](https://www.nextgen.co.jp/english/solution/carrier/border_solutions/sbc/nx-b5000.html)|NX-B5000|&#10004;|&#10004;|7.3 or higher||
 
 \* **911 service providers**
 

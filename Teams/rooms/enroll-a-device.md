@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: altsou
-ms.date: 1/27/2025
+ms.date: 5/08/2025
 ms.topic: how-to
 audience: Admin
 ms.service: msteams
@@ -256,7 +256,7 @@ Before proceeding, ensure that any existing version of the agent is uninstalled 
 
 ## Prerequisites
 Follow these procedures to set up your hardware before attempting the enrollment process:
-
+  
 __Adding proxy settings (optional)__
 
 1. Log in as administrator by following  [Performing Operations as the Admin user of the MTR device](/microsoftteams/rooms/enroll-a-device).
@@ -421,4 +421,3 @@ C:\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\Logs\Se
 |You receive an error message: </p><p> ***ERROR: Local user account named 'Admin' or 'Skype' not found***|Ensure that the user accounts exist on the certified Microsoft Teams Rooms systems device.|
 |||
 |You receive any error state messages that are not covered above.|Please provide a copy of your installation log to your Microsoft Teams System support agent.|
-

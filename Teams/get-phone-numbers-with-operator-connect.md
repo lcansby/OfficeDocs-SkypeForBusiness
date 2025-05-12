@@ -38,20 +38,20 @@ Operator Connect is one of several methods to integrate your tenant with the Pub
 As an administrator, you can use the Teams admin center to manage Operator Connect phone numbers from your partnering PSTN operator. However, the phone number services agreement is between your organization and your PSTN operator.
 
 > [!NOTE]
-> To reserve and acquire Operator Connect telephone numbers for your tenant, work with your PSTN partner directly.
+> To reserve and acquire Operator Connect numbers for your tenant, work with your Operator Connect partner directly.
 
-Your Operator Connect partners will work with you to fulfill your requirements related to countries and regions, quanitity of telephone numbers, number usage types, emergency calling services, and more.
+You may fulfill other requirements with your Operator Connect PSTN opeator. They can work with you to fulfil regulatory requirements related to various countries and regions, acquiring local telephone numbers, assigning number usage types, providing Emergency Calling services, and more.
 
 To learn more about Operator Connect, see [Plan for Operator Connect](operator-connect-plan.md).
 
 To learn more acquiring phone numbers with an Operator Connect partners, see [Configure Operator Connect](operator-connect-configure.md).
 
 > [!NOTE]
-> Operator Connect in India has unique planning and deployment considerations. You still work with your PSTN operator directly. However, for planning guidance, see [Plan for Operator Connect in India](operator-connect-india-plan.md).
+> **Operator Connect in India** has unique planning and deployment considerations. You still work with your PSTN operator directly. However, for planning guidance, see [Plan for Operator Connect in India](operator-connect-india-plan.md).
 
 ## Considerations for getting Operator Connect numbers in your tenant
 
-If you attempt to add Operator Connect phone numbers using Teams admin center's **Add phone numbers** wizard, you will be redirected to the operating partner and away from the Teams admin center.
+If you attempt to add Operator Connect phone numbers using Teams admin center's **Add phone numbers** wizard, you're redirected to the operating partner and away from the Teams admin center.
 
 ## Related topics
 

@@ -37,16 +37,16 @@ Direct Routing is one of several methods to integrate your tenant with the Publi
 
 As an administrator, you can use the Teams admin center to manage Direct Routing phone numbers from your partnering PSTN operator. However, the phone number services agreement is between your organization and your PSTN operator.
 
-> [!NOTE]
-> To reserve and acquire Direct telephone numbers for your tenant, work with your PSTN partner directly to acquire the numbers, and then use the following guidance to upload those numbers to Teams.
-
-Your Direct Routing partner will work with you to fulfill your requirements related to countries and regions, quanitity of telephone numbers, number usage types, emergency calling services, and more.
+You may fulfill other requirements with your Direct Routing PSTN opeator. They can work with you to fulfil regulatory requirements related to various countries and regions, acquiring local telephone numbers, assigning number usage types, providing Emergency Calling services, and more.
 
 To learn more about Direct Routing as a PSTN solution, see [Plan for Direct Routing](direct-routing-plan.md).
 
+> [!NOTE]
+> To reserve and acquire Direct telephone numbers for your tenant, work with your PSTN partner directly. Once you acquire numbers from your partner, use the following guidance to upload those numbers to Teams.
+
 ## Considerations for getting Direct Routing numbers in your tenant
 
-Direct Routing phone numbers can be managed in on-premises Active Directory or in Microsoft 365.
+Direct Routing phone numbers can be managed in on-premises Active Directory or in Microsoft 365. Managing numbers in Microsoft 365 is recommended.
 
 ### Direct Routing numbers managed in an on-premises Active Directory
 
@@ -55,7 +55,7 @@ your on-premises Active Directory is most likely synchronizing with Microsoft 36
 
 If the Direct Routing phone number is managed on the user or resource account in the on-premises Active Directory, the msRTCSIP-Line parameter on the account contains a value. You can use a tool such as ADSI Edit to view the msRTCSIP-Line parameter for a user or resource account that has a Direct Routing phone number assigned in on-premises Active Directory.
 
-After this parameter is automatically synchronized to the user or resource account in Microsoft 365 through the directory synchronization process (Microsoft Entra Connect), you can view the phone number by looking at the OnPremLineURi parameter in the output from the [Get-CsOnlineUser](/powershell/module/teams/get-csonlineuser) cmdlet.
+Through the directory synchronization process (Microsoft Entra Connect), this parameter is automatically synchronized to the user or resource account in Microsoft 365. After the synchronization is complete, view the phone number by looking at the OnPremLineURi parameter in the output from the [Get-CsOnlineUser](/powershell/module/teams/get-csonlineuser) cmdlet.
 
 | Where | Parameter | Value |
 | :------------| :-------| :---------|
@@ -64,21 +64,21 @@ After this parameter is automatically synchronized to the user or resource accou
 
 ### Direct Routing numbers managed in Microsoft 365
 
-If you're not managing Direct Routing phone numbers in the on-premises Active Directory, then they're only managed in Microsoft 365. Because the phone numbers are not synching from on-premises to Microsoft 365, there is no visible value in the OnPremLineUri parameter in the output from the Get-CsOnlineUser cmdlet run for the user or resource account.
+If you're not managing Direct Routing phone numbers in the on-premises Active Directory, then they're only managed in Microsoft 365. When numbers are managed in Microsoft 365 and you run the Get-CsOnlineUser cmdlet for a user or resource account, there's no visible value in the OnPremLineUri parameter.
 
 You can manage Direct Routing numbers in Microsoft 365 with Teams PowerShell, using the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) and [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment) cmdlets.
 
 ### Direct Routing numbers managed in both an on-premises Active Directory and Microsoft 365
 
-It's possible to manage Direct Routing phone numbers of some user and resource accounts in an on-premises Active Directory and Direct Routing phone numbers of other accounts in Microsoft 365. This capability depends on whether the attribute msRTCSIP-Line is set on the user or resource account in the on-premises Active Directory.
+It's possible to manage Direct Routing phone numbers of some user and resource accounts in on-premises Active Directory while managing others in Microsoft 365. This capability depends on whether the attribute msRTCSIP-Line is set on the user or resource account in the on-premises Active Directory.
 
 ### Change where Direct Routing phone numbers are managed
 
-To move management of Direct Routing phone numbers from on-premises Active Directory to Microsoft 365, you need to remove the phone number from the msRTCSIP-Line attribute on the user or resource account in the on-premises Active Directory.
+To move management of Direct Routing phone numbers from on-premises Active Directory to Microsoft 365, in the on-premises Active Directory user or resource account, remove the phone number from the msRTCSIP-Line attribute.
 
-Note that the phone number needs to be re-assigned to the user or resource account in Microsoft 365.
+The phone number needs to be reassigned to the user or resource account in Microsoft 365.
 
-After the removal has been synchronized to Microsoft 365, the OnPremLineUri attribute in the output from Get-CsOnlineUser on the user or resource account will be empty.
+After the removal is synchronized to Microsoft 365, the OnPremLineUri attribute in the output from Get-CsOnlineUser on the user or resource account will be empty.
 
 For more information, see [Clear Skype for Business attributes for all on-premises users in Active Directory](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory.md).
 
@@ -96,7 +96,7 @@ Uploading your Direct Routing phone numbers to Microsoft's telephone number mana
 
 2. Under the **Numbers** tab, select **Add**.
 
-Adding phone numbers to your tenant and to Microsoft's telephone number management inventory is accomplished by creating an order request. By selecting **Add**, you are originating an order request that will create an order ID and launch the process of uploading your direct routing numbers. Follow the remaining steps to complete your order.
+Adding phone numbers to your tenant and to Microsoft's telephone number management inventory is accomplished by creating an order request. By selecting **Add**, you're originating an order request that creates an order ID and launch the process of uploading your Direct Routing numbers. To complete your order, follow the remaining steps.
 
 3. Give your order a **Name** and **Description**.
 
@@ -108,7 +108,7 @@ Adding phone numbers to your tenant and to Microsoft's telephone number manageme
 
 If you select **Add one to many phone numbers**, type or paste the phone numbers you wish to upload in the text field.
 
-If you are adding more than one phone number to this list, separate each number with a comma or a new line.
+If you're adding more than one phone number to this list, separate each number with a comma or a new line.
 
 #### Add phone number range
 
@@ -134,7 +134,7 @@ Uploading the numbers is an asynchronous operation.
 
 ### Order history
 
-View the status of the numbers you uploaded in TAC by navigating in TAC to **Voice** > **Phone numbers** and selecting the **Order history** tab.
+View the status of the numbers you uploaded in Teams admin center by navigating to **Voice** > **Phone numbers** and selecting the **Order history** tab.
 
 View the order status of numbers you uploaded with PowerShell by using the [Get-CsOnlineTelephoneNumberOrder](/powershell/module/teams/get-csonlinetelephonenumberorder) PowerShell cmdlet with **OrderType** set to `DirectRoutingNumberCreation`, as shown in the following example:
 

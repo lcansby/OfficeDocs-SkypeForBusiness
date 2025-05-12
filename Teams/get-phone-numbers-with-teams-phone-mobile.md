@@ -38,9 +38,9 @@ Teams Phone Mobile is one of several methods to integrate your tenant with the P
 As an administrator, you can use the Teams admin center to manage Teams Phone Mobile phone numbers from your partnering PSTN operator. However, the phone number services agreement is between your organization and your PSTN operator.
 
 > [!NOTE]
-> To reserve and acquire Teams Phone Mobile telephone numbers for your tenant, work with your PSTN partner directly.
+> To reserve and acquire Teams Phone Mobile numbers for your tenant, work with your Teams Phone Mobile partner directly.
 
-Your Teams Phone Mobile partner will work with you to fulfill your requirements related to countries and regions, quanitity of telephone numbers, number usage types, emergency calling services, and more.
+You may fulfill other requirements with your Teams Phone Mobile PSTN opeator. They can work with you to fulfil regulatory requirements related to various countries and regions, acquiring local telephone numbers, assigning number usage types, providing Emergency Calling services, and more.
 
 To learn more about Teams Phone Mobile, see [Plan for Teams Phone Mobile](operator-connect-mobile-plan.md).
 
@@ -48,7 +48,7 @@ To learn more acquiring phone numbers with an Operator Connect partners, see [Co
 
 ## Considerations for getting Teams Phone Mobile numbers in your tenant
 
-If you attempt to add Teams Phone Mobile phone numbers using Teams admin center's **Add phone numbers** wizard, you will be redirected to the operating partner and away from the Teams admin center.
+If you attempt to add Teams Phone Mobile phone numbers using Teams admin center's **Add phone numbers** wizard, you're redirected to the operating partner and away from the Teams admin center.
 
 ## Related topics
 

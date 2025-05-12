@@ -34,7 +34,7 @@ This article provides considerations and guidance for IT pros and admins who are
 
 To acquire telephone numbers from Microsoft, you must have at least one Microsoft Calling Plan license assigned in your tenant.
 
-Microsoft Teams Calling Plan licenses enable you to acquire local numbers in any country where Microsoft offers Calling Plans, supporting a variety of number usage types.
+Microsoft Teams Calling Plan licenses enable you to acquire local numbers in any country where Microsoft offers Calling Plans, supporting various number usage types.
 
 To learn more about Microsoft's Calling Plans and number usage availabilities per country and region, see [Microsoft Teams Calling Plans](calling-plans-for-office-365.md) and [Countries and region availability for Calling Plans](calling-plan-overview.md).
 
@@ -42,19 +42,19 @@ To learn more about Microsoft's Calling Plans and number usage availabilities pe
 
 ## Number usage types
 
-Number usages define the services that are supported by a phone number. The following table lists the number usage types.
+Number usages define the services that support a given phone number. The following table lists the number usage types.
 
 |Number usage |Usage type and purpose |Number type supported |
 |:-----|:-----|:-----|
-|**User** |User (subscriber) <br>These are numbers for users or devices in your organization. |Geographic (Toll) |
-|**Voice app** |Call queue and Auto attendant <br>These are service numbers for assigning to resource accounts that support voice applications. |Geographic (Toll) <br>Toll-free |
-|**Conference** |Dedicated conference bridge <br>These are service numbers for assigning to conference bridges so that users can dial-by-phone into a Teams meeting. |Geographic (Toll) <br>Toll-free |
+|**User** |User (subscriber) <br>These numbers are for users or devices in your organization. |Geographic (Toll) |
+|**Voice app** |Call queue and Auto attendant <br>Voice app service numbers are for assigning to resource accounts that support voice applications. |Geographic (Toll) <br>Toll-free |
+|**Conference** |Dedicated conference bridge <br>Conference service numbers are for assigning to conference bridges so that users can dial-by-phone into a Teams meeting. |Geographic (Toll) <br>Toll-free |
 
 ***
 
 ## Availability of Microsoft numbers and usages by country or region
 
-Calling Plans are a prerequisite to acquiring numbers. To research optional Microsoft Calling Plans and whether or not they are available for a country or region, see [Microsoft Teams Calling Plans overview](calling-plans-for-office-365.md).
+Calling Plans are a prerequisite to acquiring numbers. To research optional Microsoft Calling Plans and whether or not they're available for a country or region, see [Microsoft Teams Calling Plans overview](calling-plans-for-office-365.md).
 
 ***
 
@@ -62,7 +62,7 @@ Calling Plans are a prerequisite to acquiring numbers. To research optional Micr
 
 With a secured Microsoft Teams Calling Plan in place, you can request new numbers for an available country or region.
 
-The availability of number usage types vary, depending on countries or regions. Furthermore, each country or region has unique rules and regulations for getting telephone numbers and ordering instructions.
+The availability of number usage types varies, depending on countries or regions. Furthermore, each country or region has unique rules and regulations for getting telephone numbers and ordering instructions.
 
  Find country/region-specific considerations for acquiring numbers by choosing the country or region from the following drop-down menu.
 
@@ -107,21 +107,21 @@ The availability of number usage types vary, depending on countries or regions. 
 
 ## How many telephone numbers can you get?
 
-The number of phone numbers you can get from Microsoft for your organization depends on the types of phone numbers and types of licenses you've bought and assigned.
+The number of phone numbers you can get from Microsoft for your organization depends on the types of phone numbers and types of licenses purchased and assigned.
 
 The following table applies to Microsoft Calling Plans, [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md), and voice apps, such as [Call Queues and Auto Attendants](plan-auto-attendant-call-queue.md).
 
 > [!IMPORTANT]
-> The limits in the following table don't include phone numbers you've ported or are porting to Microsoft.
+> The limits in the following table don't include phone numbers that are ported or are porting to Microsoft.
 
 |Here's the type of phone number |How do you get the total phone numbers? |Here's an example |
 |:-----|:-----|:-----|
-|User (subscriber) number   |The number of phone numbers is equal to the total number of **Domestic Calling Plan** and/or **International Calling Plan** licenses multiplied by 1.1 + 10 extra phone numbers. If you have pay-as-you-go licenses, you can only acquire 1 phone number per license. |If I have 50 users in total with 30 of them on a Domestic Calling Plan or International Calling Plan, and 20 of them on a Pay-As-You-Go Calling Plan, you can acquire **63** phone numbers **(30 x 1.1 + 10) + 20**. |
+|User (subscriber) number   |The number of phone numbers is equal to the total number of **Domestic Calling Plan** and/or **International Calling Plan** licenses multiplied by 1.1 + 10 extra phone numbers. If you have pay-as-you-go licenses, you can only acquire one phone number per license. |If I have 50 users in total with 30 of them on a Domestic Calling Plan or International Calling Plan, and 20 of them on a pay-as-you-go Calling Plan, you can acquire **63** phone numbers **(30 x 1.1 + 10) + 20**. |
 |Toll service number   | The number of phone numbers is equal to the total number of **Teams Phone** and **Audio Conferencing** licenses and uses the following: <br/>  If there are **1-25 licenses**, then **5** phone numbers are given. <br/>  If there are **26-49 licenses**, then **10** phone numbers are given. <br/>  If there are **50-99 licenses**, then **20** phone numbers are given. <br/>  If there are **100-149 licenses**, then **30** phone numbers are given. <br/>  If there are **150-199 licenses**, then **40** phone numbers are given. <br/>  If there are **200-499 licenses**, then **65** phone numbers are given. <br/>  If there are **500-749 licenses**, then **90** phone numbers are given. <br/>  If there are **750-999 licenses**, then **110** phone numbers are given. <br/>  If there are **1,000-1,249 licenses**, then **125** phone numbers are given. <br/>  If there are **1,250-1,499 licenses**, then **135** phone numbers are given. <br/>  If there are **1,500-1,999 licenses**, then **160** phone numbers are given. <br/>  If there are **2,000-2,999 licenses**, then **210** phone numbers are given. <br/>  If there are **3,000-6,999 licenses**, then **420** phone numbers are given. <br/>  If there are **7,000-9,999 licenses**, then **500** phone numbers are given. <br/>  If there are **10,000-14,999 licenses**, then **600** phone numbers are given. <br/>  If there are **15,000-19,999 licenses**, then **700** phone numbers are given. <br/>  If there are **20,000-49,999 licenses**, then **1000** phone numbers are given. <br/>  If there are **50,000+ licenses**, then **1500** phone numbers are given. <br/> <br/> For **Audio Conferencing with dial-out to USA/CAN subscription licenses (free in select geographies)**, 1 toll service number is given in addition to the numbers that are automatically granted when onboarding to the service, regardless of the number of licenses acquired. <br/>|If you have a total of **51** **Teams Phone** and **Audio Conferencing** licenses, you can get **20** toll service numbers.  |
 |Toll-free service number   | The number of phone numbers is equal to the total number of **Teams Phone** and **Audio Conferencing** licenses and uses the following: <br/>  If there are **1-25 licenses**, then **5** phone numbers are given. <br/>  If there are **26-49 licenses**, then **10** phone numbers are given. <br/>  If there are **50-99 licenses**, then **20** phone numbers are given. <br/>  If there are **100-149 licenses**, then **30** phone numbers are given. <br/>  If there are **150-199 licenses**, then **40** phone numbers are given. <br/>  If there are **200-499 licenses**, then **65** phone numbers are given. <br/>  If there are **500-749 licenses**, then **90** phone numbers are given. <br/>  If there are **750-999 licenses**, then **110** phone numbers are given. <br/>  If there are **1,000-1,249 licenses**, then **125** phone numbers are given. <br/>  If there are **1,250-1,499 licenses**, then **135** phone numbers are given. <br/>  If there are **1,500-1,999 licenses**, then **160** phone numbers are given. <br/>  If there are **2,000-2,999 licenses**, then **210** phone numbers are given. <br/>  If there are **3,000-6,999 licenses**, then **420** phone numbers are given. <br/>  If there are **7,000-9,999 licenses**, then **500** phone numbers are given. <br/>  If there are **10,000-14,999 licenses**, then **600** phone numbers are given. <br/>  If there are **15,000-19,999 licenses**, then **700** phone numbers are given. <br/>  If there are **20,000-49,999 licenses**, then **1000** phone numbers are given. <br/>  If there are **50,000+ licenses**, then **1500** phone numbers are given.  |If you have a total of **1001** **Teams Phone** and **Audio Conferencing** licenses, you can get **125** toll-free service numbers.          |
 
 > [!NOTE]
-> The Teams admin center's **Add phone numbers** wizard will tell you the quantity of telephone numbers you can get from Microsoft during the search and acquire process.
+> The Teams admin center's **Add phone numbers** wizard tells you the quantity of telephone numbers you can get from Microsoft during the search and acquire process.
 
 > [!IMPORTANT]
 > A pay-as-you-go billing method is required to reserve and use toll-free phone numbers. To learn more, see [How to fund a pay-as-you-go Calling Plan](calling-plans-for-office-365.md#how-to-fund-a-pay-as-you-go-calling-plan).
@@ -148,7 +148,7 @@ The Teams admin center has an **Add phone numbers** wizard that helps you submit
 
 4. Select **From Operator**.
 
-4. On the Location and quantity page, do the following:
+4. On the Location and quantity page, do the following steps:
     1. Under **Country or region**, select a country or region.
     1. Under **Number type**, select the desired number type for this order. See [Number usage types](#number-usage-types).
     1. Under **Operator**, select **Microsoft** as the operator.
@@ -162,11 +162,11 @@ The Teams admin center has an **Add phone numbers** wizard that helps you submit
     > [!NOTE]
     > In some countries or regions where phone numbers are only available via Support, when you select **Next**, a support request to our Support team is automatically created.  
 
-5. On the next page, you have 10 minutes to place your order. If you take more than 10 minutes, the phone numbers won't be reserved for you and are made available to other customers.
+5. On the next page, you have 10 minutes to place your order. If you take more than 10 minutes, the phone numbers aren't reserved for you and are made available to other customers.
 
 6. When you're ready to place your order, select **Place order**.
 
-Once your order is completed, you are able to [See the available phone numbers in your tenant](see-a-list-of-phone-numbers-in-your-organization.md).
+Once your order is completed, you're able to [See the available phone numbers in your tenant](see-a-list-of-phone-numbers-in-your-organization.md).
 
 > [!NOTE]
 > If you placed a phone number acquisition request to our support team, the order appears in **Phone Numbers** > **Order History** tab with the **Order type** designated as "*Search*" and the **Status** designated as "*Manual*". These designations indicate the order is pending the Support team's work. Lead times vary based on the country or region and the type of phone numbers requested.
@@ -177,16 +177,15 @@ After you get your phone numbers, you'll need to assign a number to your users a
 
 ### Supported rate centers and coverage for Calling Plans in the United States
 
-A rate center is a term used in the United States for a geographical area that traditionally defines boundaries for local calling, billing rates, and phone number assignment for the PSTN. In many cases, with the industry moving to all inclusive plans or bundles of minutes, the rate center has become less important for billing but is still used by some US PSTN operators.
+A rate center is a term used in the United States for a geographical area that traditionally defines boundaries for local calling, billing rates, and phone number assignment for the Public Switched Telephone Network (PSTN). In many cases, with the industry moving to all inclusive plans or bundles of minutes, the rate center is less often used for billing but is still used by some US PSTN operators.
 
 The [Supported rate centers and coverage matrix for North America](https://www.microsoft.com/download/details.aspx?id=102534) spreadsheet lists the rate centers that we support. When you're getting new phone numbers or when you're transferring phone numbers from your existing provider to Teams, download the spreadsheet and use it to look up rate centers. If you don't know your rate center, you can look it up on the internet based on your area codes (NPAs) and prefixes (NXX)s.
-If you're getting new numbers and we don't have the numbers that you've requested, we'll attempt to offer you numbers from the same rate center.
 
-If you're getting new numbers and we don't have the numbers that you've requested, we'll offer you numbers from the same rate center.
+If you're getting new numbers, we might not have the numbers that you've requested. If we don't have the requested numbers, we'll attempt to offer you numbers from the same rate center.
 
 ## Related articles
 
-[Microsft Teams Calling Plans](calling-plans-for-office-365.md)
+[Microsoft Teams Calling Plans](calling-plans-for-office-365.md)
 
 [Get phone numbers into your tenant](manage-phone-numbers-landing-page.md)
 

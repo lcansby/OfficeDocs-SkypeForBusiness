@@ -113,7 +113,7 @@ Select **US & Canada** and select **Start port**.
     - If the wizard categorized your numbers into more than one group, you must submit a separate port request for each. See [Planning number ports](port-order-overview.md).
     - If the wizard detects that your requested numbers are invalid for porting, the error is shown here.
 
-3. Once your numbers are validated in the wizard, you have the option to save your progress and continue later. If you need to exit and return to your order, follow these steps:
+3. Once your numbers are validated in the wizard, you can save your progress and continue later. If you need to exit and return to your order, follow these steps:
     - Go to **Teams Admin Center**
     - Navigate to **Voice** > **Phone Numbers**
     - Select **Order History**
@@ -124,7 +124,7 @@ Select **US & Canada** and select **Start port**.
 
 Enter the Billing telephone number (BTN) for the account with your existing service provider.
 
-- The Billing telephone number (BTN) for the phone numbers being ported must match what the current service provider has on file for the account. Also, if there's a freeze on the account it must be removed. If the BTN is incorrect or there's a freeze on the account, your port request will be rejected after it's submitted.
+- The Billing telephone number (BTN) for the phone numbers being ported must match what the current service provider has on file for the account. Also, if there's a freeze on the account it must be removed. If the BTN is incorrect or there's a freeze on the account, your port request will be rejected after submitting.
 - The BTN can also be referred to as the 'Account telephone number.' It's the primary phone number associated with your account. Your service provider uses the BTN to track activities, payments, and customer service records.
 - You can usually find your BTN on an account statement. If you're unsure, ask your current service provider's account representative to help you identify your BTN.
 - In a **full** port request, all numbers associated with the BTN are ported to Microsoft, including the BTN, and the respective account with the current provider is closed.
@@ -174,7 +174,7 @@ You have two options for submitting.
 1. Offline signature.
     1. In this case, you download the Letter of Authorization, get it signed, upload it, and submit to Microsoft.
 
-In **Edit Mode**, you can modify any field of your validated order, except for the Country or Region that was selected on the Get Started page. If your updates impact the LOA (Letter of Authorization) and the LOA has already been signed and uploaded, we must refresh the LOA with your modifications. Download, sign, and reupload the updated LOA. Only after re-uploading the refreshed LOA will you be able to submit edits to your order.
+In **Edit Mode**, you can modify any field of your validated order, except for the Country or Region that was selected on the Get Started page. If your updates impact the LOA (Letter of Authorization) and the LOA has already been signed and uploaded, we must refresh the LOA with your modifications. Download, sign, and reupload the updated LOA. Only after reuploading the refreshed LOA can you submit edits to your order.
 
 #### Confirmation
 

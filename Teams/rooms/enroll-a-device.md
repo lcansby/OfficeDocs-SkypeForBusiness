@@ -247,7 +247,7 @@ C:\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-x.
 
 ## [GCC High](#tab/GCCH)
 
-In the GCC High environment, manual installation of the Teams Rooms Pro Management admin agent is required. Before proceeding, ensure that any existing version of the agent is uninstalled from the device. Once uninstalled, follow the instructions outlined in the Enrollment Process section of this document to complete the manual installation and enrollment of the agent.
+In the GCC High environment, manual installation of the Teams Rooms Pro Management admin agent is required. 
 
 Before proceeding, ensure that any existing version of the agent is uninstalled from the device. Once uninstalled, follow the instructions outlined in the Enrollment Process section of this document to complete the manual installation and enrollment of the agent.
 

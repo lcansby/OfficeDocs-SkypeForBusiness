@@ -43,6 +43,8 @@ To reserve and acquire Direct telephone numbers for your tenant, work with your 
 
 Once you acquire numbers from your partner, use the following guidance to upload those numbers so that you can manage your Direct Routing numbers in Teams.
 
+One your numbers are uploaded to Teams, you can use Teams to assign Direct Routing numbers to users. To learn more, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md).
+
 ## Considerations for getting Direct Routing numbers in your tenant
 
 Direct Routing phone numbers can be managed in on-premises Active Directory or in Microsoft 365. Managing numbers in Microsoft 365 is recommended.

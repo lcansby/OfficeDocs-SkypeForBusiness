@@ -43,6 +43,8 @@ To reserve and acquire Operator Connect numbers for your tenant, work with your 
 
 To learn more acquiring phone numbers with an Operator Connect partners, see [Configure Operator Connect](operator-connect-configure.md).
 
+Once your Operator Connect partner reserves numbers for you, they will appear in Teams. You can use Teams to assign Operator Connect numbers to users. To learn more, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md).
+
 > [!NOTE]
 > **Operator Connect in India** has unique planning and deployment considerations. You still work with your PSTN operator directly. However, for planning guidance, see [Plan for Operator Connect in India](operator-connect-india-plan.md).
 

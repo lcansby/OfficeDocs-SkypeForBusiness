@@ -41,7 +41,9 @@ In a Teams Phone Mobile solution, the phone number services agreement is between
 
 To reserve and acquire Teams Phone Mobile numbers for your tenant, work with your PSTN partner directly.
 
-To learn more acquiring phone numbers with an Operator Connect partners, see [Configure Teams Phone Mobile](operator-connect-mobile-configure.md).
+To learn more acquiring phone numbers with a Teams Phone Mobile partner, see [Configure Teams Phone Mobile](operator-connect-mobile-configure.md).
+
+Once your Teams Phone Mobile partner reserves numbers for you, they will appear in Teams. You can use Teams to assign Teams Phone Mobile numbers to users. To learn more, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ## Considerations for getting Teams Phone Mobile numbers in your tenant
 

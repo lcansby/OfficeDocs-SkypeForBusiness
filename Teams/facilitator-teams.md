@@ -61,9 +61,9 @@ Users are shown a notice when their prompts are private or shared with others.
 
 Facilitator, Copilot, and Microsoft 365 are built on Microsoft's comprehensive approach to security, compliance, and privacy. When you use Microsoft Purview for your security and compliance management, Facilitator is supported in the following ways:
 
-Facilitator AI-generated notes are supported by [auditing events](/purview/audit-log-activities#microsoft-teams-activities) that surface in [Data Security Posture Management for AI](/purview/ai-microsoft-purview#data-security-posture-management-for-ai-provides-insights-policies-and-controls-for-ai-apps) and can be used by [eDiscovery with a KQL query](/purview/edisc-keyword-query-language).
+AI-generated notes for chats and meetings, and moderation and questions and answers for meetings are supported by [auditing events](/purview/audit-log-activities#microsoft-teams-activities) that surface in [Data Security Posture Management for AI](/purview/ai-microsoft-purview#data-security-posture-management-for-ai-provides-insights-policies-and-controls-for-ai-apps) and can be used by [eDiscovery with a KQL query](/purview/edisc-keyword-query-language).
 
-To [automatically retain or delete](/purview/retention) Facilitator AI-generated notes in chat, use a Microsoft Purview Data Lifecycle Management retention policy with the **Teams chat** location. Because Facilitator data in meetings is [stored in OneDrive](#facilitator-data-storage), AI-generated notes in meetings can be automatically retained or deleted with a retention policy or retention labels with the **OneDrive accounts** location.
+To [automatically retain or delete](/purview/retention) Facilitator AI-generated notes in chat and Facilitator interactions in meetings, use a Microsoft Purview Data Lifecycle Management retention policy with the **Teams chats** location. Because Facilitator data in meetings is [stored in OneDrive](#facilitator-data-storage), AI-generated notes in meetings can be automatically retained or deleted with a retention policy or retention labels with the **OneDrive accounts** location.
 
 Other Microsoft Purview solutions either aren't applicable for Facilitator or aren't yet supported.
 

@@ -75,57 +75,35 @@ To allow or prevent meeting recordings, follow these steps:
     - **To specific users**: Select your policy > select **Manage users** > **Assign users** > enter in the search bar the names of specific users and select **Add** > select **Apply**.
     - **To groups**: Select **Group policy assignment** > select **Add** > enter the group's name and enter the policy's name > select **Apply**.
 
-To manage meeting recording using PowerShell, use the **`-AllowCloudRecording`** parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy). For details, see the [PowerShell section](#manage-recording) in this article.
+To manage meeting recording using PowerShell, use the **`-AllowCloudRecording`** parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy). For details, see the [PowerShell section](#manage-recording-for-meetings) in this article.
 
 ### Webinars
 
-> [!NOTE]
-> This feature is currently in Public preview.
+To allow or prevent webinar recordings, follow these steps:
 
-You must use PowerShell to manage who can control webinars. This policy controls whether users can start recordings when attending webinars and whether webinars they organize can be recorded. The default value for the **`-RecordingForWebinar`** parameter is *EnabledOrganizerOverride*.
+1. In the Microsoft Teams admin center, expand **Meetings** > **Events policies**.
+1. Either select an existing policy or create a new one. To apply changes to all users in your organization who don't have an existing policy assignment, use the **Global policy**. To exclude certain users from the global policy, create and assign a custom events policy.
+1. Toggle **Recording for webinar** **On** or **Off**.
+1. Select **Save**.
+1. To assign the policy:
+    - **To specific users**: Select your policy > select **Manage users** > **Assign users** > enter in the search bar the names of specific users and select **Add** > select **Apply**.
+    - **To groups**: Select **Group policy assignment** > select **Add** > enter the group's name and enter the policy's name > select **Apply**.
 
-Use the following script to allow users with this policy to record webinars. When these users organize webinars, the **Record and transcribe automatically** option **On** by default, but organizers can turn it off:
-
-```PowerShell
-Set-CsTeamsEventsPolicy -Identity <policy name> -RecordingForWebinar EnabledOrganizerOverride 
-```
-
-Use the following script to allow users with this policy to record webinars. When these users organize webinars, the **Record and transcribe automatically** option is always **On**, and organizers can't turn it off:
-
-```PowerShell
-Set-CsTeamsEventsPolicy -Identity <policy name> -RecordingForWebinar Enabled
-```
-
-Use the following script to prevent users with this policy from recording webinars. When these users organize webinars, recording is disabled:
-
-```PowerShell
-Set-CsTeamsEventsPolicy -Identity <policy name> -RecordingForWebinar Disabled 
-```
+To manage webinar recording using PowerShell, use the **`-AllowCloudRecording`** parameter in [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy). For details, see the [PowerShell section](#manage-recording-for-webinars) in this article.
 
 ### Town halls
 
-> [!NOTE]
-> This feature is currently in Public preview.
+To allow or prevent town hall recordings, follow these steps:
 
-You must use PowerShell to manage who can control town halls. This policy controls whether users can start recordings when attending town halls and whether town halls they organize can be recorded. The default value for the **`-RecordingForTownhall`** parameter is *UserOverride*.
+1. In the Microsoft Teams admin center, expand **Meetings** > **Events policies**.
+1. Either select an existing policy or create a new one. To apply changes to all users in your organization who don't have an existing policy assignment, use the **Global policy**. To exclude certain users from the global policy, create and assign a custom events policy.
+1. Toggle **Recording for town hall** **On** or **Off**.
+1. Select **Save**.
+1. To assign the policy:
+    - **To specific users**: Select your policy > select **Manage users** > **Assign users** > enter in the search bar the names of specific users and select **Add** > select **Apply**.
+    - **To groups**: Select **Group policy assignment** > select **Add** > enter the group's name and enter the policy's name > select **Apply**.
 
-Use the following script to allow users with this policy to record town halls. When these users organize town halls, the **Record and transcribe automatically** option **On** by default, but organizers can turn it off:
-
-```PowerShell
-Set-CsTeamsEventsPolicy -Identity <policy name> -RecordingForTownhall UserOverride 
-```
-
-Use the following script to allow users with this policy to record town halls. When these users organize town halls, the **Record and transcribe automatically** option is always **On**, and organizers can't turn it off:
-
-```PowerShell
-Set-CsTeamsEventsPolicy -Identity <policy name> -RecordingForTownhall AlwaysEnable
-```
-
-Use the following script to prevent users with this policy from recording town halls. When these users organize town halls, recording is disabled:
-
-```PowerShell
-Set-CsTeamsEventsPolicy -Identity <policy name> -RecordingForTownhall AlwaysDisable 
-```
+To manage town hall recording using PowerShell, use the **`-AllowCloudRecording`** parameter in [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy). For details, see the [PowerShell section](#manage-recording-for-webinars) in this article.
 
 ## Auto recording
 
@@ -324,7 +302,7 @@ Start by connecting to Windows PowerShell.
 
 After you create or update new policies, you can assign them to users or groups. For more details on assigning policies to users and groups using PowerShell, see [Assign policies to users and groups](assign-policies-users-and-groups.md).
 
-### Manage recording
+### Manage recording for meetings
 
 To allow everyone in your organization to record, except users with an assigned custom meeting policy, run the following command:
 
@@ -359,6 +337,34 @@ To allow specific groups in your organization to record, run the following comma
     ```powershell
     Grant-CsTeamsMeetingPolicy -Group "Group ID" -PolicyName "Your Policy Name"
     ```
+
+### Manage recording for webinars
+
+Use the following script to allow users with this policy to record webinars:
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -RecordingForWebinar Enabled
+```
+
+Use the following script to prevent users with this policy from recording webinars:
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -RecordingForWebinar Disabled 
+```
+
+### Manage recording for town halls
+
+Use the following script to allow users with this policy to record town halls:
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -RecordingForTownhall AlwaysEnable
+```
+
+Use the following script to prevent users with this policy from recording town halls:
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -RecordingForTownhall AlwaysDisable 
+```
 
 ### Manage whether meetings require participant agreement for recording and transcription
 

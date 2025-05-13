@@ -109,9 +109,9 @@ To manage town hall recording using PowerShell, use the **`-AllowCloudRecording`
 
 You can control whether organizers have access to the **Record and transcribe automatically** setting for meetings. You can only apply this policy setting to users and groups.
 
-When you turn on the auto recording policy for an organizer, the **Record and transcribe automatically** setting in their **Meeting options** for meetings is **Off** by default. Organizers must manually turn on this setting for each meeting they want recorded and transcribed. For webinars and town halls, the setting is **On** by default. For webinars and town halls, the **`-RecordingForTownhall`** and **`-RecordingForTownhall`** parameters affect whether organizers can change the **Record and transcribe automatically** default. To learn more, see the previous [Allow or prevent users from recording](#allow-or-prevent-users-from-recording) section in this article.
+When you turn on the auto recording policy for an organizer, the **Record and transcribe automatically** setting in their **Meeting options** for meetings is **Off** by default. Organizers must manually turn on this setting for each meeting they want recorded and transcribed. If you turn off auto recording, organizers don't see the setting and can’t set meetings to record automatically.
 
-If you turn off auto recording, organizers don't see the setting and can’t set meetings to record automatically.
+For webinars and town halls, the setting is **On** by default.
 
 > [!NOTE]
 > This setting doesn't apply to transcripts.

@@ -23,7 +23,7 @@ The external domain activity report in the Microsoft Teams admin center shows yo
 > [!NOTE]
 > We count the following events as meeting chats: When a user is invited to a meeting, when a meeting ends, and when a user leaves a meeting chat.
 
-This report includes both a base and Teams Premium version, where the base version tells you which domains you communicate with and the premium version exposes more detailed information about your communication with each domain.
+This report includes both a base and Teams Premium version. The base version tells you which domains you communicate with and the premium version exposes more detailed information about your communication with each domain.
 
 > [!NOTE]
 > If you have an explicit allowed domains list, this report may include domains not on your allow list. It's possible for users from an allowed organization to start a group chat with users from your organization and users from other organizations allowed by them, but not allowed by you. These domains show up in your external domain activity report.

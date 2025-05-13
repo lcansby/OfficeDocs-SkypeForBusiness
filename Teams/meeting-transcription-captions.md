@@ -13,8 +13,8 @@ ms.collection:
   - highpri
   - Tier1
   - magic-ai-copilot
-ms.reviewer: harinlee
-ms.date: 3/19/2025
+ms.reviewer: harinlee, fezuo
+ms.date: 5/13/2025
 search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords:
@@ -54,7 +54,7 @@ If recording is turned on, but transcription is turned off, the recording doesn'
 The transcription link remains for the lifetime of the file in most cases, but can be broken if the video file is copied within the same OneDrive or SharePoint site. This action would result in captions not displaying on the copied video file.
 
 > [!NOTE]
-> Transcription for recorded meetings is currently only supported for English (US), English (Canada), English (India), English (UK), English (Australia), English (New Zealand), Arabic (United Arab Emirates), Arabic (Saudi Arabia), Chinese (Simplified, China), Chinese (Traditional, Hong Kong SAR), Chinese (Traditional, Taiwan), Czech (Czechia), Danish (Denmark), Dutch (Belgium), Dutch (Netherlands), French (Canada), French (France), Finnish (Finland), German (Germany), German (Switzerland), Greek (Greece), Hebrew (Israel), Hindi (India), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea), Norwegian (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Slovak (Slovakia), Spanish (Mexico), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye), Ukrainian (Ukraine), Vietnamese (Vietnam), Welsh(United Kingdom).
+> Transcription for recorded meetings is currently only supported for English (US), English (Canada), English (India), English (UK), English (Australia), English (New Zealand), Arabic (Saudi Arabia), Arabic (United Arab Emirates), Bulgarian (Bulgaria), Catalan (Catalan), Chinese (Simplified, China), Chinese (Traditional, Hong Kong SAR), Chinese (Traditional, Taiwan), Croatian (Croatia), Czech (Czechia), Danish (Denmark), Dutch (Belgium), Dutch (Netherlands), Estonian (Estonia), Finnish (Finland), French (Canada), French (France), German (Germany), German (Switzerland), Greek (Greece), Hebrew (Israel), Hindi (India), Hungarian (Hungary), Indonesian (Indonesia), Italian (Italy), Japanese (Japan), Korean (Korea), Latvian (Latvia), Lithuanian (Lithuania), Norwegian (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Serbian (Cyrillic, Serbia), Slovak (Slovakia), Slovenian (Slovenia), Spanish (Mexico), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Turkey), Ukrainian (Ukraine), Vietnamese (Vietnam), Welsh (United Kingdom).
 
 ### Meetings
 
@@ -74,41 +74,35 @@ To manage meeting transcription using PowerShell, use the **`-AllowTranscription
 
 ### Webinars
 
-> [!NOTE]
-> This feature is currently in Public preview.
+You can use the Teams admin center or PowerShell to manage transcription for webinars. This policy controls whether users can start transcripts when attending webinars and whether webinars they organize can be transcribed.
 
-You must use PowerShell to manage who can transcribe webinars. This policy controls whether users can start transcripts when attending webinars and whether webinars they organize can be transcribed. The default value for the **`-TranscriptionForWebinar`** parameter is *true*.
+To allow or prevent transcription for webinars using the Teams admin center, follow these steps:
 
-Use the following script to allow users with this policy to transcribe webinars. When these users organize webinars, they can be transcribed:
+1. In the Microsoft Teams admin center, expand **Meetings** > **Events policies**.
+1. Select the policy that you want to edit or create a new one. To apply changes to all users in your organization who don't have an existing policy assignment, use the **Global policy**. To exclude certain users from the global policy, create and assign a custom events policy.
+1. Toggle **Transcription for webinar** **On** or **Off**. This setting is **On** by default.
+1. Select **Save**.
+1. To assign the policy:
+    - **To specific users**: Select your policy > select **Manage users** > **Assign users** > enter in the search bar the names of specific users and select **Add** > select **Apply**.
+    - **To groups**: Select **Group policy assignment** > select **Add** > enter the group's name and enter the policy's name > select **Apply**.
 
-```PowerShell
-Set-CsTeamsEventsPolicy -Identity <policy name> -TranscriptionForWebinar $true
-```
-
-Use the following script to prevent users with this policy from transcribing webinars. When these users organize webinars, they can't be transcribed:
-
-```PowerShell
-Set-CsTeamsEventsPolicy -Identity <policy name> -TranscriptionForWebinar $false
-```
+To manage webinar transcription using PowerShell, use the **`-TranscriptionForWebinar`** parameter in [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy). For details, see the [PowerShell section](#powershell) in this article. The default value for the **`-TranscriptionForWebinar`** parameter is *Enabled*.
 
 ### Town halls
 
-> [!NOTE]
-> This feature is currently in Public preview.
+You can use the Teams admin center or PowerShell to manage transcription for town halls. This policy controls whether users can start transcripts when attending town halls and whether town halls they organize can be transcribed.
 
-You must use PowerShell to manage who can transcribe town halls. This policy controls whether users can start transcripts when attending town halls and whether town halls they organize can be transcribed. The default value for the **`-TranscriptionForTownhall`** parameter is *true*.
+To allow or prevent transcription for town halls using the Teams admin center, follow these steps:
 
-Use the following script to allow users with this policy to transcribe town halls. When these users organize town halls, they can be transcribed. The **Record and transcribe automatically** option is **On** by default, but organizers can turn it off:
+1. In the Microsoft Teams admin center, expand **Meetings** > **Events policies**.
+1. Select the policy that you want to edit or create a new one. To apply changes to all users in your organization who don't have an existing policy assignment, use the **Global policy**. To exclude certain users from the global policy, create and assign a custom events policy.
+1. Toggle **Transcription for town hall** **On** or **Off**. This setting is **On** by default.
+1. Select **Save**.
+1. To assign the policy:
+    - **To specific users**: Select your policy > select **Manage users** > **Assign users** > enter in the search bar the names of specific users and select **Add** > select **Apply**.
+    - **To groups**: Select **Group policy assignment** > select **Add** > enter the group's name and enter the policy's name > select **Apply**.
 
-```PowerShell
-Set-CsTeamsEventsPolicy -Identity <policy name> -TranscriptionForTownhall $true
-```
-
-Use the following script to prevent users with this policy from transcribing town halls. When these users organize town halls, they can't be transcribed:
-
-```PowerShell
-Set-CsTeamsEventsPolicy -Identity <policy name> -TranscriptionForTownhall $false
-```
+To manage town hall transcription using PowerShell, use the **`-TranscriptionForTownhall`** parameter in [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy). For details, see the [PowerShell section](#powershell) in this article. The default value for the **`-TranscriptionForTownhall`** parameter is *Enabled*.
 
 ## Live translated transcription (Teams Premium)
 
@@ -190,6 +184,10 @@ For details on assigning policies to users and groups using PowerShell, see [Ass
 
 ### Manage transcription in PowerShell
 
+You can use PowerShell to manage transcription for meetings, webinars, and town halls in your organization.
+
+#### Transcription for meetings
+
 To allow everyone in your organization to transcribe meetings, events, and group calls, except users with an assigned custom meeting policy, run the following command:
 
 ```powershell
@@ -223,6 +221,34 @@ To allow specific groups in your organization to transcribe, run the following c
     ```powershell
     Grant-CsTeamsMeetingPolicy -Group "Group ID" -PolicyName "Your Policy Name"
     ```
+
+#### Transcription for webinars
+
+Use the following script to allow users with this policy to transcribe webinars. When these users organize webinars, they can be transcribed:
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -TranscriptionForWebinar $true
+```
+
+Use the following script to prevent users with this policy from transcribing webinars. When these users organize webinars, they can't be transcribed:
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -TranscriptionForWebinar $false
+```
+
+#### Transcription for town halls
+
+Use the following script to allow users with this policy to transcribe town halls. When these users organize town halls, the event can be transcribed:
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -TranscriptionForTownhall $true
+```
+
+Use the following script to prevent users with this policy from transcribing town halls. When these users organize town halls, the event can't be transcribed:
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -TranscriptionForTownhall $false
+```
 
 ### Manage live captions in PowerShell
 

@@ -33,7 +33,7 @@ description: Learn how to deploy features in Teams meetings to record audio, vid
 
 In Microsoft Teams, your users can record their Teams meetings, webinars, and town halls to capture audio, video, and screen sharing activity. This type of recording is called [convenience recording](teams-recording-policy.md). The recording happens in Microsoft 365 and is saved to OneDrive or SharePoint, which must be turned on for the user. For details on OneDrive and SharePoint recording storage, see [Use OneDrive and SharePoint for meeting recordings](tmr-meeting-recording-change.md).
 
-Many users use meetings and 1-1 calls interchangeably depending on their needs. We recommend that you check your call recording policy settings as well. If the settings are different for meetings and calls, it might cause confusion for your users. To learn about managing recording for PSTN calls, see [Configure call recording, transcription, and captions in Teams](call-recording-transcription-captions.md).
+Many users use meetings and 1-1 calls interchangeably depending on their needs. We recommend that you check your call recording policy settings as well. If the settings are different for meetings and calls, it might cause confusion for your users. To learn about managing recording for Public Switched Telephone Network (PSTN calls), see [Configure call recording, transcription, and captions in Teams](call-recording-transcription-captions.md).
 
 When a meeting is recorded:
 
@@ -118,7 +118,7 @@ If you turn off auto recording, organizers don't see the setting and can’t set
 
 You must use PowerShell or a meeting template to manage this setting for organizers.
 
-To manage this setting with meeting templates, see [IT admins - Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md). Only organizers with a Teams Premium license can use assigned meeting templates. If you prefer to prevent the organizers from changing your settings, you can lock the value you selected. Once the template is activated, users will see it when scheduling meetings. If they opt to use this template, recording and transcription will commence automatically without any user interaction.
+To manage this setting with meeting templates, see [IT admins - Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md). Only organizers with a Teams Premium license can use assigned meeting templates. If you prefer to prevent the organizers from changing your settings, you can lock the value you selected. Once the template is activated, users see it when scheduling meetings. If they choose to use this template, recording and transcription starts automatically without any user interaction.
 
 To manage this setting using PowerShell, use the **`-AutoRecording`** parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy). For details, see the [PowerShell section](#manage-auto-recording-in-powershell) in this article.
 
@@ -177,9 +177,9 @@ Once you add your privacy policy URL, your URL replaces the default Teams meetin
 
 You can use the Teams admin center or PowerShell to manage whether meetings created by organizers with this assigned policy can require participants to provide explicit consent to be recorded and transcribed. This policy also applies to channel meetings.
 
-When the recording agreement policy is turned on, once a user either starts the meeting recording, transcription, or both, all participants are muted, with their cameras and content-share off. When a participant decides to un-mute, turn on their camera, or share content, they’re prompted to respond **'Yes'** or **'No'** to consent to be included in the meeting recording and transcription. If a participant responds **'No'** to the prompt, they have a view-only meeting experience. View-only participants can't start recording or transcription for any meetings that require explicit consent.
+When the recording agreement policy is turned on, once a user either starts the meeting recording, transcription, or both, all participants are muted, with their cameras and content-share off. When a participant decides to un-mute, turn on their camera, or share content, they’re asked to respond **'Yes'** or **'No'** to consent to be included in the meeting recording and transcription. If a participant responds **'No'** to the question, they have a view-only meeting experience. View-only participants can't start recording or transcription for any meetings that require explicit consent.
 
-The consent choice for each participant is included in the attendance report. Participants who aren't in the attendance report—due to the admin policy or opting out— are required to provide consent. When the attendance report is disabled or participants aren't in the attendance report, organizers and co-organizers don't see consent data, but as an admin, you can still see consent data in the audit logs.
+The consent choice for each participant is included in the attendance report. Participants who aren't in the attendance report—due to the admin policy or opting out—are required to provide consent. When the attendance report is disabled or participants aren't in the attendance report, organizers and co-organizers don't see consent data. However, as an admin, you can still see consent data in the audit logs.
 
 ### Manage recording consent
 
@@ -256,7 +256,7 @@ End users can modify the expiration date of any recordings they control, so you 
 
 File retention takes precedence over file deletion. A Teams meeting recording expiration policy can't delete a Teams meeting recording with a Purview retention policy until after the retention period is completed. For example, if you have a Purview retention policy that says a file will be kept for five years and a Teams meeting recording expiration policy set for 60 days, the Teams meeting recording expiration policy permanently deletes the recording after five years.
 
-Once the recording reaches the expiration date, it gets deleted from the user's OneDrive, and is copied to the tenant's Preservation Hold library. Your users can't see the recording in OneDrive anymore, but as an admin, only you can find the recording in the Preservation Hold library. To learn more about the Preservation Hold library, see [Learn about retention for SharePoint and OneDrive](/purview/retention-policies-sharepoint#how-retention-works-for-sharepoint-and-onedrive).
+Once the recording reaches the expiration date, it gets deleted from the user's OneDrive, and is copied to the organization's Preservation Hold library. Your users can't see the recording in OneDrive anymore, but as an admin, only you can find the recording in the Preservation Hold library. To learn more about the Preservation Hold library, see [Learn about retention for SharePoint and OneDrive](/purview/retention-policies-sharepoint#how-retention-works-for-sharepoint-and-onedrive).
 
 #### Expiration vs deletion policies
 
@@ -282,14 +282,14 @@ Teams meeting recordings are stored in the organizer's OneDrive and SharePoint s
 
 ## eDiscovery search for recordings and transcripts
 
-To use eDiscovery to find your users' recording and transcript files, follow these steps:
+To find your users' recording and transcript files using eDiscovery, follow these steps:
 
 1. Navigate to the [Microsoft Purview portal](https://purview.microsoft.com/).
-1. In the search box, enter 'eDiscovery'.
+1. In the search box, enter 'eDiscovery'
 1. Follow the steps in the linked article to create an eDiscovery case: [Create and manage an eDiscovery (Premium) case](/purview/ediscovery-create-and-manage-cases).
-1. Open the case and on the **Collections** tab, select **New collection**.
-1. Commit the new collection to commit it to **Review set**.
-1. Open review set, and use the filter to find the recordings and transcripts you're looking for.
+1. Open the case and on the **Collections** tab and select **New collection**.
+1. Commit the new collection.
+1. Open **Review set**, and use the filter to find the recordings and transcripts you're looking for.
 
 ## Troubleshooting
 
@@ -300,7 +300,7 @@ To learn how to use diagnostic tools, see [Issues that affect meeting recordings
 
 Start by connecting to Windows PowerShell.
 
-After you create or update new policies, you can assign them to users or groups. For more details on assigning policies to users and groups using PowerShell, see [Assign policies to users and groups](assign-policies-users-and-groups.md).
+After you create or update new policies, you can assign them to users or groups. For more information on assigning policies to users and groups using PowerShell, see [Assign policies to users and groups](assign-policies-users-and-groups.md).
 
 ### Manage recording for meetings
 

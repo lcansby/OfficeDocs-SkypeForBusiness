@@ -317,7 +317,7 @@ Keep the following conditions in mind:
 - Agents can hear the configured music on hold in queue for up to two seconds when first joining the call.
 
 > [!IMPORTANT]
-> Transfer mode (when conference mode is disabled) is now in legacy mode. We'll send a Message Center post at least 3 months before the scheduled removal date.
+> Transfer mode (when conference mode is disabled) is now in legacy mode. A Message Center post will be made at least 3 months before the scheduled removal date.
 
 ### Call answering via PowerShell
 

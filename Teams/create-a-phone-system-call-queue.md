@@ -37,21 +37,18 @@ Call queues provide:
 
 - A greeting message.
 - Music while people are waiting on hold in a queue.
-- Call routing - in *First In, First Out* (FIFO) order - to agents.
+- Call priority routing - in *First In, First Out* (FIFO) order - to agents.
 - Handling options for queue overflow and timeout.
 
 Before following the procedures in this article, make sure you read [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md) and complete the [getting started steps](plan-auto-attendant-call-queue.md#getting-started).
 
 ## What's new for Call queues in the past six months
 
+- May 20
+  - [Call priorities](./call-queue-call-priorities) for call queues allows you to prioritize one type of call over others, controlling which call type gets presented to agents first.
+    
 - December 11
   - [Nested Auto attendants and Call queues](./plan-auto-attendant-call-queue.md#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing are now supported in the Teams admin center.
-     
-- November 22
-  - [Callback](#step-5-callback-1) functionality is now available through the Teams admin center.
-
-- November 5
-  - [Nested Auto attendants and Call queues](#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing.
 
 ## Steps to create a Call queue
 
@@ -320,7 +317,7 @@ Keep the following conditions in mind:
 - Agents can hear the configured music on hold in queue for up to two seconds when first joining the call.
 
 > [!IMPORTANT]
-> Transfer mode (when conference mode is disabled) is now in legacy mode. We'll send a a Message Center post at least 3 months before the scheduled removal date.
+> Transfer mode (when conference mode is disabled) is now in legacy mode. We'll send a Message Center post at least 3 months before the scheduled removal date.
 
 ### Call answering via PowerShell
 

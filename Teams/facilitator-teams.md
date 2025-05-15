@@ -99,13 +99,13 @@ Facilitator data in meetings is stored as a `.loop` file in a OneDrive folder ti
 
 Facilitator data in chats is stored as messaging data in each users' Exchange mailbox. This data is treated like all other Teams chat data.
 
-## Turn on Facilitator for chats and meetings
+## Allow Facilitator for chats and meetings
 
 As an admin, you control whether Facilitator is available to your entire organization or to a certain group of users.
 
-Facilitator is turned on by default. However, if all apps are blocked for your organization, Facilitator is also blocked.
+Facilitator is allowed by default. However, if all apps are blocked for your organization, Facilitator is also blocked.
 
-To turn off or on Facilitator for users, complete the following steps:
+To allow or block Facilitator for users, complete the following steps:
 
 ### 1. Allow Facilitator in the Teams admin center
 

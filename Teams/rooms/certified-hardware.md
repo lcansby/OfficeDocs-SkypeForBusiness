@@ -111,6 +111,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | MAXHUB XCore Kit Pro | Core i5 | 16 GB | 256 GB |
 | MAXHUB XBoard V865T | Core i5 | 16 GB | 256 GB |
 | MAXHUB XBoard V655T | Core i5 | 16 GB | 256 GB |
+| MAXHUB XBoard V555T | Core i5 | 16 GB | 256 GB |
 | [Microsoft Surface Hub 3 50"](https://www.microsoft.com/surface/business/surface-hub-3) | Core i5 | 32 GB | 512 GB |
 | [Microsoft Surface Hub 3 85"](https://www.microsoft.com/surface/business/surface-hub-3) | Core i5 | 32 GB | 512 GB |
 | [Microsoft Surface Hub 2S 50" upgraded with the Surface Hub 3 Pack](https://www.microsoft.com/d/surface-hub-3-pack-for-business/8mf5qhhn1t4g) | Core i5 | 32 GB | 512 GB |

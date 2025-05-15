@@ -40,18 +40,6 @@ To learn more about Microsoft's Calling Plans and number usage availabilities pe
 
 ***
 
-## Number usage types
-
-Number usages define the services that support a given phone number. The following table lists the number usage types.
-
-|Number usage |Usage type and purpose |Number type supported |
-|:-----|:-----|:-----|
-|**User** |User (subscriber) <br>These numbers are for users or devices in your organization. |Geographic (Toll) |
-|**Voice app** |Call queue and Auto attendant <br>Voice app service numbers are for assigning to resource accounts that support voice applications. |Geographic (Toll) <br>Toll-free |
-|**Conference** |Dedicated conference bridge <br>Conference service numbers are for assigning to conference bridges so that users can dial-by-phone into a Teams meeting. |Geographic (Toll) <br>Toll-free |
-
-***
-
 ## Availability of Microsoft numbers and usages by country or region
 
 Calling Plans are a prerequisite to acquiring numbers. To research optional Microsoft Calling Plans and whether or not they're available for a country or region, see [Microsoft Teams Calling Plans overview](calling-plans-for-office-365.md).
@@ -175,14 +163,6 @@ Once your order is completed, you're able to [See the available phone numbers in
 
 After you get your phone numbers, you'll need to assign a number to your users and services. For learn more, see [Manage phone numbers for users](./assign-change-or-remove-a-phone-number-for-a-user.md) and [Change the phone numbers on your Audio Conferencing bridge](./change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-### Supported rate centers and coverage for Calling Plans in the United States
-
-A rate center is a term used in the United States for a geographical area that traditionally defines boundaries for local calling, billing rates, and phone number assignment for the Public Switched Telephone Network (PSTN). In many cases, with the industry moving to all inclusive plans or bundles of minutes, the rate center is less often used for billing but is still used by some US PSTN operators.
-
-The [Supported rate centers and coverage matrix for North America](https://www.microsoft.com/download/details.aspx?id=102534) spreadsheet lists the rate centers that we support. When you're getting new phone numbers or when you're transferring phone numbers from your existing provider to Teams, download the spreadsheet and use it to look up rate centers. If you don't know your rate center, you can look it up on the internet based on your area codes (NPAs) and prefixes (NXX)s.
-
-If you're getting new numbers, we might not have the numbers that you've requested. If we don't have the requested numbers, we'll attempt to offer you numbers from the same rate center.
-
 ## Related articles
 
 [Microsoft Teams Calling Plans](calling-plans-for-office-365.md)
@@ -196,5 +176,3 @@ If you're getting new numbers, we might not have the numbers that you've request
 [Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
 
 [Emergency Calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip)
-
-

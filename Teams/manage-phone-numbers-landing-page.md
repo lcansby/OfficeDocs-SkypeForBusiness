@@ -56,6 +56,16 @@ To learn more, see [Manage phone numbers for users](assign-change-or-remove-a-ph
 
 Before you can get telephone numbers in Teams, you must have a phone number services agreement and a tenant integration with one or more PSTN service providers. To learn more, see [PSTN Connectivity options](pstn-connectivity.md).
 
+## Number usage types
+
+Number usages define the services that support a given phone number. The following table lists the number usage types supported with Microsoft Teams Phone.
+
+|Number usage |Usage type and purpose |Number type supported |
+|:-----|:-----|:-----|
+|**User** |User (subscriber) <br>These numbers are for users or devices in your organization. |Geographic (Toll) |
+|**Voice app** |Call queue and Auto attendant <br>Voice app service numbers are for assigning to resource accounts that support voice applications. |Geographic (Toll) <br>Toll-free |
+|**Conference** |Dedicated conference bridge <br>Conference service numbers are for assigning to conference bridges so that users can dial-by-phone into a Teams meeting. |Geographic (Toll) <br>Toll-free |
+
 ### Acquiring and managing telephone numbers
 
 How you acquire and manage telephone numbers depends on your PSTN connectivity solution. Use the following table to learn more about how to acquire numbers for your tenant:

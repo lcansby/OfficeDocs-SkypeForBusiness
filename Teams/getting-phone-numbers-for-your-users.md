@@ -138,7 +138,7 @@ The Teams admin center has an **Add phone numbers** wizard that helps you submit
 
 4. On the Location and quantity page, do the following steps:
     1. Under **Country or region**, select a country or region.
-    1. Under **Number type**, select the desired number type for this order. See [Number usage types](#number-usage-types).
+    1. Under **Number type**, select the desired number type for this order. See [Number usage types](manage-phone-numbers-landing-page.md#number-usage-types).
     1. Under **Operator**, select **Microsoft** as the operator.
     1. Under **Quantity**, enter the number of numbers that you want for your organization.
     1. Under **Search for new numbers**, select your criteria. Criteria vary depending on the country or region and the number type selected. If you need to create a new location, select **Add a location**.

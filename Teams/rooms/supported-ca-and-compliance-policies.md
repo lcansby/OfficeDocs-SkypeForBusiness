@@ -29,7 +29,7 @@ This article provides supported Conditional Access and Intune device compliance 
 The following list includes the supported Conditional Access policies for Teams Rooms on Windows and Android as well as Teams panels and phones. 
 
 > [!IMPORTANT]
-> While configuring certain policies might be supported, they may lead to less than desired experiences on your devices, test, and confirm configurations function as intended before deploying at scale. For instance, using the sign-in frequency policy causes devices to periodically sign out and this may not be desired. Likewise, configuring sign-in frequency on individual Microsoft 365 services can interrupt or stop the Teams Device sign in flow and isn't supported. Also, blocking Device Code Flow prevents using microsoft.com/devicelogin to remotely sign-in a Teams Android device.
+> While configuring certain policies might be supported, they may lead to less than desired experiences on your devices, test, and confirm configurations function as intended before deploying at scale. For instance, using the sign-in frequency policy causes devices to periodically sign out and may not be desired. Likewise, configuring sign-in frequency on individual Microsoft 365 services can interrupt or stop the Teams Device sign in flow and isn't supported. Also, blocking Device Code Flow prevents using microsoft.com/devicelogin to remotely sign-in a Teams Android device.
 
 
 | Assignment | Teams Rooms on Windows | Teams Rooms on Android / Teams phone / Teams Panels |
@@ -37,7 +37,7 @@ The following list includes the supported Conditional Access policies for Teams 
 | Users            | Supported | Supported |
 | Target Resources | Supported <br><br> (For functionality, don't block access to: Office 365, Office 365 SharePoint Online, Microsoft Teams Services, & Device Registration Service) |Supported <br><br> (For functionality, don't block access to: Office 365, Office 365 SharePoint Online, Microsoft Teams Services, & Device Registration Service) |
 | Network          | Supported| Supported |
-| **Conditions**   | &nbps | &nbps |
+| **Conditions**   | &nbsp | &nbsp |
 | User risk        | Supported | Supported |
 | Sign-in risk     | Supported | Supported |
 | Insider risk     | Not supported | Not supported |
@@ -46,17 +46,17 @@ The following list includes the supported Conditional Access policies for Teams 
 | Client apps      | Supported | Supported |
 | Filter for devices    | Supported | Supported | 
 | Authentication flows  | Supported | Supported <br><br>*To use remote sign-in, don't block Device code flow.* |
-| **Grant**        | &nbps | &nbps |
+| **Grant**        | &nbsp | &nbsp |
 | Block access     | Supported | Supported |
 | Grant access     | Supported | Supported |
-| Require multi-factor authentication | Not supported | Supported <br><br> *To enable seamless sign-on, don't enforce this policy, use a different secondary authentication factor.* |
+| Require multifactor authentication | Not supported | Supported <br><br> *To enable seamless sign-on, don't enforce this policy, use a different secondary authentication factor.* |
 | Require authentication strength     | Not supported | Not supported |
 | Require device to be marked as compliant | Supported | Supported |
 | Require Microsoft Entra hybrid joined device | Not supported | Not supported |
 | Require approved client app         | Not supported | Not supported |
 | Require app protection policy       | Not supported | Not supported |
 | Require password change             | Not supported | Not supported |
-| **Sessions**      | &nbps | &nbps |
+| **Sessions**      | &nbsp | &nbsp |
 | Use app enforced restrictions       | Not supported | Not supported |
 | Use Conditional Access App Control  | Not supported | Not supported |
 | Sign-in frequency                   | Supported | Supported |

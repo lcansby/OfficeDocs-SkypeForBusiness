@@ -28,7 +28,7 @@ description: Learn how to configure user settings for call forwarding and delega
 
 This article describes how you, the administrator, can change call forwarding and delegation settings for your users. The call delegation feature in Teams Phone is sometimes referred to in the industry as *shared line appearance*.
 
-A shared line appearance in Teams allows an end user to configure their call forwarding and delegation settings so that they may assign another end user to manage calls on their behalf. This feature is helpful, for example, if a someone has an administrative assistant to handle their telephone calls. In the context of call delegation, a delegator is the user authorizing a delegate to make or receive calls on their behalf. Put another way, a delegate can make or receive calls on behalf of the delegator.
+A shared line appearance in Teams allows an end user to configure their call forwarding and delegation settings so that they may assign another end user to manage calls on their behalf. This feature is helpful, for example, if someone has an administrative assistant to handle their telephone calls. In the context of call delegation, a delegator is the user authorizing a delegate to make or receive calls on their behalf. Put another way, a delegate can make or receive calls on behalf of the delegator.
 
 As a Teams administrator, you may receive a service request to modify these user settings, for example, if:
 
@@ -57,7 +57,7 @@ Call delegation and is included with Teams Phone. To learn more, see [Teams Phon
 
 When a delegate makes an outbound Public Switched Telephone Network (PSTN) call on behalf of a delegator, the delegator's settings control the checks for appropriate licensing, dial-out restrictions, and call routing.
 
-In a scenario where the delegate and delegator have different calling policies assigned, the delegate is bound to the settings configured in their calling policy and the permissions of the delgator's calling policy are not transferred to the delegate. Therefore, it's recommended that delegates and delegators are assigned the same calling policy.
+In a scenario where the delegate and delegator have different calling policies assigned, the delegate is bound to the settings configured in their calling policy and the permissions of the delegator's calling policy are not transferred to the delegate. Therefore, it's recommended that delegates and delegators are assigned the same calling policy.
 
 ## Call delegation availability
 

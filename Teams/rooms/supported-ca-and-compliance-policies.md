@@ -37,7 +37,7 @@ The following list includes the supported Conditional Access policies for Teams 
 | Users            | Supported | Supported |
 | Target Resources | Supported <br><br> (For functionality, don't block access to: Office 365, Office 365 SharePoint Online, Microsoft Teams Services, & Device Registration Service) |Supported <br><br> (For functionality, don't block access to: Office 365, Office 365 SharePoint Online, Microsoft Teams Services, & Device Registration Service) |
 | Network          | Supported| Supported |
-| **Conditions**   | &nbsp | &nbsp |
+| **Conditions**   | &nbsp; | &nbsp; |
 | User risk        | Supported | Supported |
 | Sign-in risk     | Supported | Supported |
 | Insider risk     | Not supported | Not supported |
@@ -46,7 +46,7 @@ The following list includes the supported Conditional Access policies for Teams 
 | Client apps      | Supported | Supported |
 | Filter for devices    | Supported | Supported | 
 | Authentication flows  | Supported | Supported <br><br>*To use remote sign-in, don't block Device code flow.* |
-| **Grant**        | &nbsp | &nbsp |
+| **Grant**        | &nbsp; | &nbsp; |
 | Block access     | Supported | Supported |
 | Grant access     | Supported | Supported |
 | Require multifactor authentication | Not supported | Supported <br><br> *To enable seamless sign-on, don't enforce this policy, use a different secondary authentication factor.* |
@@ -56,7 +56,7 @@ The following list includes the supported Conditional Access policies for Teams 
 | Require approved client app         | Not supported | Not supported |
 | Require app protection policy       | Not supported | Not supported |
 | Require password change             | Not supported | Not supported |
-| **Sessions**      | &nbsp | &nbsp |
+| **Sessions**      | &nbsp; | &nbsp; |
 | Use app enforced restrictions       | Not supported | Not supported |
 | Use Conditional Access App Control  | Not supported | Not supported |
 | Sign-in frequency                   | Supported | Supported |

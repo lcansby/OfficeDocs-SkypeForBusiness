@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: dimehta
-ms.date: 05/08/2025
+ms.date: 05/16/2025
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -24,48 +24,48 @@ description: Learn about supported and recommended Conditional Access and Intune
 
 This article provides supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms. For best practices and example policies, see [Conditional Access and Intune compliance best practices for Microsoft Teams Rooms](conditional-access-and-compliance-for-devices.md).
 
-[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
-
 ## Supported Conditional Access policies  
 
-The following list includes the supported Conditional Access policies for Teams Rooms on Windows and Android, and for policies on Teams panels, phones, and displays.
+The following list includes the supported Conditional Access policies for Teams Rooms on Windows and Android as well as Teams panels and phones. 
 
-| Assignment | Teams Rooms on Windows | Teams Rooms on Android and panels | Teams phones and displays |
-|:-----|:-----|:-----|:-----|
-| User or workload identities | Supported | Supported | Supported |
-| Cloud apps or actions | Supported <br><br> Teams Rooms needs to access the following Cloud apps: Office 365, Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams Services | Supported <br><br> Teams Rooms needs to access the following Cloud apps: Office 365, Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams Services | Supported <br><br> Teams Rooms needs to access the following Cloud apps: Office 365, Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams Services  |
-| **Conditions**   |---|---|---|
-| User risk        | Supported     | Supported     | Supported |
-| Sign-in risk     | Supported     | Supported     | Supported  |
-| Device platforms | Supported     | Supported     | Supported  |
-| Locations        | Supported     | Supported     | Supported  |
-| Client apps      | Not supported | Not supported| Not supported |
-| Filter for devices   | Supported     | Supported  | Supported   |
-| Authentication flows    | Supported   | Not supported <br><br> Device code flow is required for sign in.  | Not supported <br><br> Device code flow is required for sign in.  |
-| **Grant**        | ---                       |---                     | ---               |
-| Block access                             | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
-| Grant access                             | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                                    |
-| Require multi-factor authentication (MFA)  | Not supported                                                                                                                                                                        | Supported   <br><br> User interactive MFA is not recommended for shared space devices.                                                                             | Supported   <br><br> User interactive MFA is not recommended for shared space devices.                                                            |
-| Require authentication strength      | Not supported   | Not Supported                                                                                                                                                                         | Not supported
-| Require device to be marked as compliant | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
-| Require Microsoft Entra hybrid joined device    | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
-| Require approved client app              | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
-| Require app protection policy            | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
-| Require password change                  | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                       |
-| **Sessions**                | ---                                    | ---                                               | --- |
-| Use app enforced restrictions      | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not Supported                                                                                                                                                            |
-| Use Conditional Access App Control      | Not supported   | Not Supported                | Not supported 
-| Sign-in frequency | Supported| Supported  | Supported |
-| Persistent browser session    | Not supported     | Not supported   | Not supported    |
-| Continuous access evaluation  | Not supported    | Not supported   | Not supported  |
-| Disable resiliency defaults | Not supported | Not supported  | Not supported 
-| Require token protection for sign-in sessions (Preview)     | Not supported      | Not supported    | Not supported
+> [!IMPORTANT]
+> While configuing certain policies might be supported, they may lead to less than desired experiences on your devices, test and confirm configurations function as intended prior to deploying at scale.  For instance, using the sign-in frequency policy will cause devices to periodically sign out and this may not be desired. Likewise, configuring sign-in frequency on individual Microsoft 365 services can interupt or stop the Teams Device sign in flow and isn't supported. Also, blocking Device Code Flow will prevent using microsoft.com/devicelogin to remotely sign-in a Teams Android device.
+
+
+| Assignment | Teams Rooms on Windows | Teams Rooms on Android / Teams phone / Teams Panels |
+| Users            | Supported | Supported |
+| Target Resources | Supported <br><br> (For functionality, do not block access to: Office 365, Office 365 SharePoint Online, Microsoft Teams Services, & Device Registration Service) |Supported <br><br> (For functionality, do not block access to: Office 365, Office 365 SharePoint Online, Microsoft Teams Services, & Device Registration Service) |
+| Network          | Supported| Supported |
+| **Conditions**   | &nbps | &nbps |
+| User risk        | Supported | Supported |
+| Sign-in risk     | Supported | Supported |
+| Insider risk     | Not supported | Not supported |
+| Device platforms | Supported | Supported |
+| Locations        | Supported | Supported |
+| Client apps      | Supported | Supported |
+| Filter for devices    | Supported | Supported | 
+| Authentication flows  | Supported | Supported <br><br>*To use remote sign-in do not block Device code flow.* |
+| **Grant**        | &nbps | &nbps |
+| Block access     | Supported | Supported |
+| Grant access     | Supported | Supported |
+| Require multi-factor authentication | Not supported | Supported <br><br> *To enable seamless sign on, do not enfoce this policy, use a different secondary authentication factor.* |
+| Require authentication strength     | Not supported | Not supported |
+| Require device to be marked as compliant | Supported | Supported |
+| Require Microsoft Entra hybrid joined device | Not supported | Not supported |
+| Require approved client app         | Not supported | Not supported |
+| Require app protection policy       | Not supported | Not supported |
+| Require password change             | Not supported | Not supported |
+| **Sessions**      | &nbps | &nbps |
+| Use app enforced restrictions       | Not supported | Not supported |
+| Use Conditional Access App Control  | Not supported | Not supported |
+| Sign-in frequency                   | Supported | Supported |
+| Persistent browser session          | Not supported | Not supported |
+| Customize continuous access evaluation | Not supported <br><br>*If you check the box, it must be set to Disable or you will experience instability* | Not supported <br><br>*If you check the box, it must be set to Disable or you will experience instability* |
+| Disable resiliency defaults | Not supported | Not supported | 
+| Require token protection for sign-in sessions (Preview)     | Not supported | Not supported |
 
 > [!NOTE]
-> Using the sign-in frequency policy will cause devices to periodically sign out and this may not be desired. Likewise, configuring sign-in frequency on individual Microsoft 365 services can interupt or stop the Teams Device sign in flow and isn't supported.
-
-> [!NOTE]
-> Authentication Strength including but not limited to, FIDO2 Security keys, is not supported for use with Conditional Access policies that affect all Teams Devices.
+> Authentication strength including but not limited to, FIDO2 Security keys, is not supported for use with Conditional Access policies that affect all Teams Devices.
 
 ## Supported device compliance policies 
 

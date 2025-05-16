@@ -54,6 +54,8 @@ In the example where a manager is delegating calls to an administrative assistan
 
 When a delegate makes an outbound Public Switched Telephone Network (PSTN) call on behalf of a delegator, the delegator's settings control the checks for appropriate licensing, dial-out restrictions, and call routing.
 
+In a scenario where the delegate and delegator have different calling policies assigned, the delegate is bound to the settings configured in their calling policy and the permissions of the delgator's calling policy are not transferred to the delegate. Therefore, it's recommended that delegates and delegators are assigned the same calling policy.
+
 ## Shared line appearance feature availability
 
 The following apps and devices currently support shared line appearance:

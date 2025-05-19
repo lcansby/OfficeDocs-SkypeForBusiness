@@ -95,6 +95,7 @@ The following minimum versions are necessary to support the new Teams client:
 - Remote Desktop Client for Windows 1.2.2606
 - Remote Desktop Client for Mac 10.7.7
 - Windows 365 app for Windows via the Microsoft Store
+- Web browsers do not support Microsoft Teams optimization
 
 In addition, you must deploy the following registry key on the virtual desktop for the new Teams client to be optimized:
 

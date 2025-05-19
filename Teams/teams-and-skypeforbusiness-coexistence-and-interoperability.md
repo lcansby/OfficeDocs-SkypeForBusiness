@@ -239,7 +239,7 @@ We also recommend the following video:
 
 ## Technical details of Teams and Skype for Business coexistence
 
-The following sections summarize behavior that can be experienced when running both Teams and Skype for Business clients in the same organization. This behaviour can be experienced regardless of what mode and what upgrade method is used:
+The following sections summarize behavior that can be experienced when running both Teams and Skype for Business clients in the same organization. This behavior can be experienced regardless of what mode and what upgrade method is used:
 
 - [Meetings](#meetings)
 - [Interoperability](#interoperability)
@@ -278,7 +278,7 @@ After applying the registry changes and having the appropriate version of the ne
 
 As described in the [Interoperability of Teams and Skype for Business](#interoperability-of-teams-and-skype-for-business) section of this article, Teams supports interop with Skype for Business in certain scenarios. Interop communication refers to a chat or call between a Skype for Business user and a Teams user. Interop communication is only possible between two users. We don't support multi-party chat, multi-party calling, or adding more users.
 
-An interop chat or call between two users is created when each of the following conditions are true:
+An interop chat or call between two users is created when the following conditions are true:
 
 - One user is using Teams and the other is using Skype for Business.
 - The mode of the recipient of the initial communication isn't Islands (otherwise the communication would land in the same client) if both users are in the same organization. In federated scenarios, the sending user is using Teams, and the recipient isn't in TeamsOnly mode.

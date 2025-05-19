@@ -211,7 +211,10 @@ This escalation to a Skype for Business meeting is available for both in-tenant 
 
 #### Interop escalation from Teams
 
-Interop escalation from Teams to a Teams meeting is now available when the Teams user selects the desktop sharing button in an in-tenant interop thread with a Skype for Business user or in a cross-tenant interop federation thread. Interop escalation is supported from a 1:1 chat conversation or from a 1:1 call.
+Interop escalation from Teams to a Teams meeting is now available when:
+
+- The Teams user selects the desktop sharing button in an in-tenant interop thread with a Skype for Business user.
+- There's a cross-tenant interop federation thread. Interop escalation is supported from a 1:1 chat conversation or from a 1:1 call.
 
 The Teams desktop client supports this capability for Windows. The Teams desktop client supports this capability for Mac. The Teams web client on browsers supports this capability where content sharing is supported, while in communication with any Skype for Business client version.
 

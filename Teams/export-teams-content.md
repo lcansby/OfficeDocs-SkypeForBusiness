@@ -36,7 +36,7 @@ Here are some examples on how you can use these export APIs:
 
 ## What is supported by the Teams Export APIs?
 
-- **Bulk Export of Teams Message:** Please refer to [Teams Export APIs throttling limits](/graph/throttling-limits?#microsoft-teams-service-limits). With these limits you should be able to bulk export of Teams messages. 
+- **Bulk Export of Teams Message:** Please refer to [Teams Export APIs throttling limits](/graph/throttling-limits). With these limits you should be able to bulk export of Teams messages. 
 
 - **Top Limit for Teams Meesage:** The TOP filter limit for Teams Message APIs is recommended to be set at 250 as the maximum limit beyond which the performance would be limited.
 - **Application Context**: To call Microsoft Graph, your app must acquire an access token from the Microsoft identity platform. The access token contains information about your app and the permissions it has for the resources and APIs available through Microsoft Graph. To get an access token, your app must be registered with the Microsoft identity platform and be authorized by either a user or an administrator for access to the Microsoft Graph resources it needs.
@@ -52,6 +52,7 @@ Here are some examples on how you can use these export APIs:
 - **Shared Channel Messages:** Export APIs support capturing messages from a Shared Channel.
 - **Deleted Teams:** Export API supports [capturing messages from deleted Teams](/graph/api/deletedteam-getallmessages) and deleted standard, private, and shared channels.
 - **Deleted Users**: Export API supports capturing messages for deleted users up to 30 days from the time the user was deleted. To find the list of deleted users, see [Deleted Items](/graph/api/directory-deleteditems-list).
+- **Inactive Users**: Export API supports capturing messages for inactive users up to 30 days from the time the user becomes inactive. To find the list of inactive mailboxes, see [Inactive mailboxes](/purview/create-and-manage-inactive-mailboxes#view-a-list-of-inactive-mailboxes).
 - **Chat Message Properties:** Refer to the [complete list of properties that Teams Export APIs support](/graph/api/resources/chatmessage#properties).
 - **Control Messages:** Export API supports capturing control messages in addition to the user generated messages. Control Messages are system generated messages that appear on the Teams client and carry important information such as "User A added User B to the chat and shared all chat history" along with the timestamp. System messages enable the caller to have insights about events that happened in a team, a channel, or a chat. Refer to [the list of control messages](/graph/system-messages#supported-system-message-events) that Export API currently supports.
 

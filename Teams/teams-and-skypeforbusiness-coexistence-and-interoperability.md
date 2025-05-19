@@ -232,7 +232,7 @@ After you review this article, see [Choose your upgrade journey](upgrade-and-coe
 
 ## Technical details of Teams and Skype for Business coexistence
 
-The following sections summarize behavior that may be experienced when running both Teams and Skype for Business clients in the same organization, regardless of what mode and what upgrade method is used:
+The following sections summarize behavior that can be experienced when running both Teams and Skype for Business clients in the same organization. This behaviour can be experienced regardless of what mode and what upgrade method is used:
 
 - [Meetings](#meetings)
 - [Interoperability](#interoperability)
@@ -243,7 +243,7 @@ The following sections summarize behavior that may be experienced when running b
 
 ### Meetings
 
-Regardless of their mode, users can always join any type of meeting they're invited to, whether it's Skype for Business or Teams. However, users must join the meeting with a corresponding client that matches the meeting type:
+Regardless of their mode, users can always join any type of meeting they're invited to, whether Skype for Business or Teams. However, users must join the meeting with a corresponding client that matches the meeting type:
 
 - If the meeting is a Teams meeting, all participants (whether they're TeamsOnly, Islands, or Skype for Business users) use the Teams client to join the meeting. If Teams isn't installed, the user is directed to the web when attempting to join a meeting.
 - If the meeting is a Skype for Business meeting, all participants (whether they're TeamsOnly, Islands, or Skype for Business users) use the Skype for Business client to join the meeting. If the Skype for Business client isn't installed, the user is directed to the web to join using the Skype Meeting App.

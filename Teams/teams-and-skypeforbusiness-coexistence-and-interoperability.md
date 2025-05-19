@@ -89,7 +89,7 @@ Microsoft Teams Phone System isn't supported in Teams in **Islands** mode.
 
 In this coexistence mode, users remain in Skype for Business, not Teams, for chat, meeting, and calling capabilities, and they don't use Teams for teams and channels. This mode is available today, but in the current implementation, teams and channels aren't automatically turned off for the user. You can use the App Setup policy to hide teams and files.
 
-This mode can be used before starting a managed deployment of Teams to prevent users from starting to use Teams ahead of having built readiness. This mode is also a way to enable authenticated participation in Teams meetings for Skype for Business users, provided the users are licensed for Teams.
+This mode can be used before starting a managed deployment of Teams to prevent users from starting to use Teams ahead of readiness. This mode is also a way to enable authenticated participation in Teams meetings for Skype for Business users, provided the users are licensed for Teams.
 
 ### Skype for Business with Teams Collaboration
 

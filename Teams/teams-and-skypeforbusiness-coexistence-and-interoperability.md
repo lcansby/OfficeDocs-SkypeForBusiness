@@ -120,9 +120,9 @@ This coexistence mode is especially useful for organizations with Skype for Busi
 > As of October 2022, this mode is recommended for all on-premises users that previously were assigned either **Skype for Business Only** or **Skype for Business with Teams Collaboration** modes. This mode offers the same functionality as the other two, except new meetings scheduled by the user are Teams meetings instead of Skype for Business meetings. This functionality ensures users schedule their meetings as Teams meetings. This functionality supports authenticated sign-in and meeting join for any user in the organization, regardless of whether the user is TeamsOnly or still using Skype for Business Server. For details, see [What To Expect Post Retirement](skype-for-business-online-retirement.md#what-to-expect-post-retirement).
 
 > [!TIP]
-> To help identify the recommended upgrade mode based on the capabilities you want to enable in Teams while Skype for Business is still in use, leverage [FastTrack](https://aka.ms/SkypeToTeamsWizard).
+> To help identify the recommended upgrade mode based on the capabilities you want to enable in Teams while Skype for Business is still in use, use [FastTrack](https://aka.ms/SkypeToTeamsWizard).
 
-For more information about coexistence modes, prerequisites, and management, see the [Migration and interoperability guidance for organizations using Teams together with Skype for Business](./migration-interop-guidance-for-teams-with-skype.md) and [Setting your coexistence and upgrade settings](./setting-your-coexistence-and-upgrade-settings.md).
+We have more information about coexistence modes, prerequisites, and management. See the [Migration and interoperability guidance for organizations using Teams together with Skype for Business](./migration-interop-guidance-for-teams-with-skype.md) and [Setting your coexistence and upgrade settings](./setting-your-coexistence-and-upgrade-settings.md).
 
 |Decision point icon |Icon definition |Description |
 |--------------------|----------------|------------|

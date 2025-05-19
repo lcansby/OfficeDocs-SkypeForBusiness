@@ -316,7 +316,7 @@ Presence publishing behavior is based on the user's mode. There are three basic 
   - Users in Teams see the presence state of the Teams client only, even if the state of the Skype for Business client is different.
   - Users in federated organizations see the presence of that user based on their Teams activity, despite the state where federated traffic to an Islands mode user lands in Skype for Business.
 
-For example, assume User A is in Islands mode. If User A is active in Teams but isn't signed in to Skype for Business, Teams Only Users and Teams Islands users see User A as active from their Teams client, but Skype for Business Only users in their Skype for Business client see User A as offline. This behavior is by design, since User A can't be reached from the Skype for Business client.
+For example, assume User A is in Islands mode. If User A is active in Teams but isn't signed in to Skype for Business, Teams Only Users and Teams Islands users see User A as active from their Teams client. Skype for Business Only users in their Skype for Business client see User A as offline. This behavior is by design, since User A can't be reached from the Skype for Business client.
 
 ### Federation
 

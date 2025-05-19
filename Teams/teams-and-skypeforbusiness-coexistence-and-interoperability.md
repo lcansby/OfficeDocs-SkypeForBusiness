@@ -39,7 +39,7 @@ If your organization uses Skype for Business today and you're starting to use Te
 
 ## Coexistence of Teams and Skype for Business overview
 
-Ever since the retirement of Skype for Business Online, all users in a pure-online organization (that is, an organization that doesn't have an on-premises deployment of Skype for Business) have a co-existence mode of TeamsOnly. TeamsOnly mode ensures the users have full functionality of Teams. However, organizations with an on-premises deployment of Skype for Business Server may have users who are still homed on-premises; these users can't be TeamsOnly. Users with an on-premises Skype for Business Server account may have any coexistence mode *other than TeamsOnly*. The following sections describe the available coexistence modes before you decide to upgrade on-premises Skype for Business Users to TeamsOnly, and the capabilities each mode offers. In addition, the sections describe the interoperability (interop) that occurs between users on Skype for Business clients and users on Teams clients, and how interop is affected by the chosen coexistence mode.
+Ever since the retirement of Skype for Business Online, all users in a pure-online organization (that is, an organization that doesn't have an on-premises deployment of Skype for Business) have a coexistence mode of TeamsOnly. TeamsOnly mode ensures the users have full functionality of Teams. However, organizations with an on-premises deployment of Skype for Business Server may have users who are still homed on-premises; these users can't be TeamsOnly. Users with an on-premises Skype for Business Server account may have any coexistence mode *other than TeamsOnly*. The following sections describe the available coexistence modes before you decide to upgrade on-premises Skype for Business Users to TeamsOnly, and the capabilities each mode offers. In addition, the sections describe the interoperability (interop) that occurs between users on Skype for Business clients and users on Teams clients, and how interop is affected by the chosen coexistence mode.
 
 Teams delivers collaboration capabilities, chat, calling, and meeting capabilities. Chat, calling and meeting functionality was also historically available in Skype for Business. Depending on what configuration you choose when providing Teams, these capabilities can overlap with the capabilities delivered by Skype for Business for a given user. **Islands** is the default coexistence mode for on-premises users. Islands mode allows the user to run Teams alongside Skype for Business with similar functionality available in both clients. The capabilities overlap. However, other coexistence modes can be assigned to a user to prevent this capability overlap for the user. When another coexistence mode is assigned, interoperability between Teams and Skype for Business is available. For example, if you have significant Skype for Business Server on-premises assets with a complex Enterprise Voice deployment, but want your users to enjoy modern meetings as quickly as possible, you might want to evaluate using the Skype for Business with Teams Collaboration and Meetings mode, also known as [Meetings First](meetings-first.md).
 
@@ -113,7 +113,7 @@ Teams and Skype for Business benefit from a range of "better together" capabilit
 This coexistence mode is especially useful for organizations with Skype for Business on-premises deployments with Enterprise Voice. These organizations are likely to take some time to upgrade to Teams and want to benefit from the superior Teams meetings as soon as possible.
 
 > [!NOTE]
-> As of October 2022, this mode is recommended for all on-premises users that previously were assigned either **Skype for Business Only** or **Skype for Business with Teams Collaboration** modes. This mode offers the same functionality as the other two, except new meetings scheduled by the user are Teams meetings instead of Skype for Business meetings. This functionality ensures users schedule their meetings as Teams meetings, which supports authenticated sign-in and meeting join for any user in the organization, regardless of whether the user is TeamsOnly or still using Skype for Business Server. For details, see [What To Expect Post Retirement](skype-for-business-online-retirement.md#what-to-expect-post-retirement).
+> As of October 2022, this mode is recommended for all on-premises users that previously were assigned either **Skype for Business Only** or **Skype for Business with Teams Collaboration** modes. This mode offers the same functionality as the other two, except new meetings scheduled by the user are Teams meetings instead of Skype for Business meetings. This functionality ensures users schedule their meetings as Teams meetings. This functionality supports authenticated sign-in and meeting join for any user in the organization, regardless of whether the user is TeamsOnly or still using Skype for Business Server. For details, see [What To Expect Post Retirement](skype-for-business-online-retirement.md#what-to-expect-post-retirement).
 
 > [!TIP]
 > To help identify the recommended upgrade mode based on the capabilities you want to enable in Teams while Skype for Business is still in use, leverage [FastTrack](https://aka.ms/SkypeToTeamsWizard).
@@ -189,7 +189,7 @@ Once the parties join the meeting, they can conduct any activity supported in me
 
 #### Interop escalation from Skype for Business
 
-Interop and interop escalation from Skype for Business was updated in the July 2019 build of monthly C2R. Previously, Skype for Business didn't have advance awareness that the remote party was using Teams. It only determined that from the signaling received after a establishing a session.
+Interop and interop escalation from Skype for Business was updated in the July 2019 build of monthly C2R. Previously, Skype for Business didn't have advance awareness that the remote party was using Teams. It only determined that from the signaling received after establishing a session.
 
 When the signaling indicates that the response came from (or through) the interop gateway, it displays the yellow business bar (banner) indicating the other party isn't using Skype for Business. With the evolution of our service, this circumstance results in false positives where Skype for Business users see the business bar when connected to the Cloud Voicemail Service or other cloud voice services, rather than to an actual **Teams Only** user.
 
@@ -244,7 +244,7 @@ Regardless of their mode, users can always join any type of meeting they're invi
 - If the meeting is a Teams meeting, all participants (whether they're TeamsOnly, Islands, or Skype for Business users) use the Teams client to join the meeting. If Teams isn't installed, the user is directed to the web when attempting to join a meeting.
 - If the meeting is a Skype for Business meeting, all participants (whether they're TeamsOnly, Islands, or Skype for Business users) use the Skype for Business client to join the meeting. If the Skype for Business client isn't installed, the user is directed to the web to join using the Skype Meeting App.
 
-When organizing meetings, the meeting type that gets scheduled is based on the mode of the organizer, as shown in the following table:
+When a user organizes meetings, the meeting type that gets scheduled is based on the mode of the organizer, as shown in the following table:
 
 |Mode of organizer                         |Behavior |
 |:-----------------------------------------|:--------|
@@ -275,9 +275,9 @@ An interop chat or call between two users is created when each of the following 
 
 Within the interop communication, chat is plain-text only. In addition, file sharing and screen sharing aren't possible *in the interop chat itself*. However, users in an interop conversation can easily achieve file and/or screen sharing by creating an on-demand meeting, from within the interop chat, as described below:
 
-- If the Teams user attempts to share their screen, an on-demand Teams meeting is automatically created, and an invite link to that meeting is sent to the Skype for Business user's client. Upon selecting the link, the Skype for Business user opens Teams and joins the meeting. Both users are now in a Teams meeting and can share as needed.
+- If the Teams user attempts to share their screen, an on-demand Teams meeting is automatically created, and an invite link to that meeting is sent to the Skype for Business user's client. The Skype for Business user selects the link, opens Teams, and joins the meeting. Both users are now in a Teams meeting and can share as needed.
 
-- If the Skype for Business user is using a client from 2018 or later and attempts to share any content, an on-demand Skype for Business meeting is automatically created, and an invite link to that meeting is sent to the Teams user's client. Upon selecting the link, the Teams user attempts to join the Skype for Business meeting. If the Teams user has the Skype for Business client installed, it opens, and the user is prompted to sign in (if not already signed in). If the Teams user doesn't have the Skype for Business client installed, the user's prompted to use the web version. Once both users are signed in, they're in a Skype for Business meeting and can share as needed.
+- If the Skype for Business user is using a client from 2018 or later and attempts to share any content, an on-demand Skype for Business meeting is automatically created, and an invite link to that meeting is sent to the Teams user's client. The Teams user selects the link to attempt to join the Skype for Business meeting. If the Teams user has the Skype for Business client installed, it opens, and the user is prompted to sign in (if not already signed in). If the Teams user doesn't have the Skype for Business client installed, the user's prompted to use the web version. Once both users are signed in, they're in a Skype for Business meeting and can share as needed.
 
 ### Interop versus native conversation threads
 
@@ -328,7 +328,7 @@ A federated chat can either be a native thread or an interop thread. See [Intero
 
 - If either of the conversation participants is NOT in TeamsOnly upgrade mode, the conversation remains an interop experience with text-only messages. The user interface exposes federated chats in a similar manner to same-tenant interop threads, except there's a note indicating the user is external.
 
-For more details, see [Manage external access in Microsoft Teams](manage-external-access.md) and [Native chat experience for external (federated) users in Teams](native-chat-for-external-users.md).
+For more information, see [Manage external access in Microsoft Teams](manage-external-access.md) and [Native chat experience for external (federated) users in Teams](native-chat-for-external-users.md).
 
 ### Contacts
 

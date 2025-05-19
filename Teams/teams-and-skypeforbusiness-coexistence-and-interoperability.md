@@ -227,8 +227,15 @@ Meanwhile, the Skype for Business user receives an incoming chat message with th
 
 This escalation to a Teams meeting is available for both in-tenant interop and cross-tenant federated calls and chats. It's on by default and there's no setting the admin has to provision. However, it's turned off for the user if the admin sets ``-AllowPrivateMeetNow`` in ``CsTeamsMeetingPolicy`` to ``$false``.
 
-After you review this article, see [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [Migration and interoperability guidance](./migration-interop-guidance-for-teams-with-skype.md), [Coexistence with Skype for Business](coexistence-chat-calls-presence.md), and [Setting your coexistence and upgrade settings](./setting-your-coexistence-and-upgrade-settings.md) for implementation details. We also recommend the following video:
-[Video: Manage Coexistence and Interoperability between SfB and Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)
+After you review this article, learn more at:
+
+- [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).
+- [Migration and interoperability guidance](./migration-interop-guidance-for-teams-with-skype.md).
+- [Coexistence with Skype for Business](coexistence-chat-calls-presence.md).
+- [Setting your coexistence and upgrade settings](./setting-your-coexistence-and-upgrade-settings.md).
+
+We also recommend the following video:
+[Video: Manage Coexistence and Interoperability between SfB and Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11).
 
 ## Technical details of Teams and Skype for Business coexistence
 

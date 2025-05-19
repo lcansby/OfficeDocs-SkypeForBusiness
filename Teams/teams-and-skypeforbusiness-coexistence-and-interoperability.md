@@ -70,7 +70,7 @@ For extra considerations about moving to **Teams Only** mode, see [Teams Only mo
 
 In **Islands** mode, users can run Teams alongside Skype for Business as two separate solutions that deliver similar and overlapping capabilities. The capabilities include presence, chat, calling, and meetings. Teams users also can take advantage of collaboration capabilities such as teams and channels, access to files in Microsoft 365, and applications.
 
-In this coexistence mode, each of the client applications operates as a separate island. Skype for Business talks to Skype for Business, and Teams talks to Teams. Users are expected to run both clients at all times and can communicate natively in the client from which the communication was started. As such, there's no need for interoperability in **Islands** mode.
+In this coexistence mode, each of the client applications operates as a separate island. Skype for Business talks to Skype for Business, and Teams talks to Teams. Users are expected to always run both clients and can communicate natively in the client from which the communication was started. As such, there's no need for interoperability in **Islands** mode.
 
 To avoid a confusing or regressed Skype for Business experience, the Skype for Business handles the following integrations that aren't handled in Teams **Islands** mode:
 

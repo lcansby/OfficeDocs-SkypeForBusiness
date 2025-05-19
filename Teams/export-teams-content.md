@@ -36,7 +36,8 @@ Here are some examples on how you can use these export APIs:
 
 ## What is supported by the Teams Export APIs?
 
-- **Bulk Export of Teams Message:** Teams Export APIs support up to 200 RPS Per App Per tenant and 600 RPS for an Application, with these limits you should be able to bulk export of Teams messages. 
+- **Bulk Export of Teams Message:** Please refer to [Teams Export APIs throttling limits](/graph/throttling-limits). With these limits you should be able to bulk export of Teams messages. 
+
 - **Top Limit for Teams Meesage:** The TOP filter limit for Teams Message APIs is recommended to be set at 250 as the maximum limit beyond which the performance would be limited.
 - **Application Context**: To call Microsoft Graph, your app must acquire an access token from the Microsoft identity platform. The access token contains information about your app and the permissions it has for the resources and APIs available through Microsoft Graph. To get an access token, your app must be registered with the Microsoft identity platform and be authorized by either a user or an administrator for access to the Microsoft Graph resources it needs.
     If you're already familiar with integrating an app with the Microsoft identity platform to get tokens, see the [Next Steps](/graph/auth/auth-concepts#next-steps) section for information and samples specific to Microsoft Graph.
@@ -353,9 +354,7 @@ Export API has filter parameters that help optimize the messages returned for a 
 
  - applications (bots, connectors, and so on).
 
- - anonymous users.
-
- - federated users (external access users).
+ - All [userIdentityTypes](/graph/api/resources/teamworkuseridentity) except emailUser and unknownFutureValue.
    
  - system event messages (control messages).
    
@@ -368,9 +367,7 @@ $filter=from/application/applicationIdentityType eq '<appType>' (bots/tenantBots
   
 $filter=from/user/id eq '<oid>' (any number of id filters)  
   
-$filter=from/user/userIdentityType eq 'anonymousGuest'  
-  
-$filter=from/user/userIdentityType eq 'federatedUser' (guest/external)  
+$filter=from/user/userIdentityType eq '<userIdentityType>'  
   
 $filter=from/application/applicationIdentityType eq '<appType>' or from/user/id eq '<oid>' (sent by app or userid)  
   
@@ -423,25 +420,7 @@ If [your tenant is setup with Teams Retention Policy](/purview/create-retention-
 - **Message is soft deleted by a user in a chat or a channel** If there's a valid retention policy set, then beyond the 21 days of deletion period, the message can be exported through the API.
 - **Message is edited by a user in a chat or a channel** If there's a valid retention policy set, the previous edited versions of the message can be exported.
 
-## Microsoft 365 Copilot Interactions & Microsoft 365 Chat (Preview)
+## Copilot Interaction Export API
 
-The new Copilot Activity Export API allows you to export Copilot interactions data which includes the user prompt to Copilot and the Copilot response back to the user. This API captures the user intent and Copilot accessed resources and the response back to the user across Microsoft 365 Copilot apps such as Teams, Word and Outlook. 
+The new Copilot Interactions Export API allows you to export Copilot interactions data which includes the user prompt to Copilot and the Copilot response back to the user. This API captures the user intent and Copilot accessed resources and the response back to the user across Microsoft 365 Copilot apps such as Teams, Word and Outlook. Please refer to <insert link> to learn more about this API.
 
-## How to access Copilot Activity Export APIs (Preview)
-
-- **Example 1** is a simple query to retrieve all the copilot interactions without any filters (beta):
-
-  ```HTTP
-  GET https://graph.microsoft.com/beta/copilot/users/{id}/interactionHistory/getAllEnterpriseInteractions 
-  ```
-- **Example 2** is a simple query to retrieve all the copilot interactions with appclass filters (beta):
-
-  ```HTTP
-  GET https://graph.microsoft.com/beta/copilot/users/{id}/interactionHistory/getAllEnterpriseInteractions?$filter=appClass eq 'IPM.SkypeTeams.Message.Copilot.Teams or appClass eq 'IPM.SkypeTeams.Message.Copilot.BizChat' (beta)
-  ```
-## Prerequisites to access Copilot Activity Export APIs (Preview)
-
-Application permissions are used by apps that run without a signed-in user present; application permissions can only be approved by an administrator. The following permissions are needed:
-  
-- *AiEnterpriseInteraction.Read.All*: enables access to all copilot interactions across Microsoft 365 apps and Microsoft 365 Chat
-- A **Microsoft 365 Copilot license** is required for accessing the new Copilot Activity Export API.

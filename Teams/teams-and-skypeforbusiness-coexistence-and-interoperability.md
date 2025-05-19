@@ -335,10 +335,9 @@ For more information, see [Manage external access in Microsoft Teams](manage-ext
 Teams and Skype for Business have separate lists of contacts. Contact additions, removal, and modifications made in one system aren't synchronized to the other system. However, contacts from Skype for Business are automatically copied over to Teams when either of two specific events occur:
 
 - For any Skype for Business Online user, the first time they log onto Teams, contacts from Skype for Business are copied over to Teams. This behavior isn't available for users with an on-premises account in Skype for Business Server.
-
 - After a user is upgraded to TeamsOnly (either by assigning TeamsUpgradePolicy or by setting Move-CsUser -MoveToTeams), the next time a user logs into Teams, existing contacts in Skype for Business are merged with existing contacts already in Teams. This behavior happens whether the user was moved to TeamsOnly from on-premises or online.
 
-In both cases, the transfer of contacts from Skype for Business to Teams is asynchronous, so it may be a few minutes before contacts appear in Teams. The two events above are what trigger the copy.
+In both cases, the transfer of contacts from Skype for Business to Teams is asynchronous, so it may be a few minutes before contacts appear in Teams. The two events referenced here trigger the copy.
 
 ### Related links
 

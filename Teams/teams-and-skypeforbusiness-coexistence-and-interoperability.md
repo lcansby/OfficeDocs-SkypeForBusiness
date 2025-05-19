@@ -261,7 +261,7 @@ When a user organizes meetings, the meeting type that gets scheduled is based on
 When making or receiving a call in the new Teams client while an existing Skype for Business call is ongoing, the call in Skype for Business doesn't automatically go on hold. The reverse scenario has the same problem. To enable call hold synchronization between the new Teams client and the Skype for Business client ensure the following is true:
 
 - The new Teams client is version 24261.1100.3128.2662 or greater.
-- These group policy registry key updates are set:
+- These group policy registry keys are updated:
   - `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\16.0\Lync\Enable21Interop` with DWORD set to `0x01`
   - `Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Lync\EnableIPCForHoldResume` with DWORD set to `0x01`
 

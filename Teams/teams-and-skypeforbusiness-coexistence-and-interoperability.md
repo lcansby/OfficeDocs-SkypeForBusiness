@@ -75,7 +75,7 @@ In this coexistence mode, each of the client applications operates as a separate
 To avoid a confusing or regressed Skype for Business experience, the Skype for Business handles the following integrations that aren't handled in Teams **Islands** mode:
 
 - External (federated) communications.
-- PSTN voice services and voice applications, Office integration.
+- PSTN (public switched telephone network) voice services and voice applications, Office integration.
 - HID controls for USB devices.
 - Several other integrations.
 
@@ -172,7 +172,7 @@ Because of the difference in protocols and technology, it's not possible to supp
 - Markdown, rich text, and the full emoticon set aren't supported either from Teams or Skype for Business. Other native features of the compose box in Teams chats aren't supported.
 - Screen sharing (desktop or app sharing) between Teams and Skype for Business isn't supported natively. It's supported through interop escalation.
 - Group chats (multiple-party conversations) in Teams can only include participants who are using Teams.
-- Multiple-party IM conversations (group chats) in Skype for Business can only include participants who are using Skype for Business. However, interop escalation to multiple-party is available from Skype for Business.
+- Multiple-party message conversations (group chats) in Skype for Business can only include participants who are using Skype for Business. However, interop escalation to multiple-party is available from Skype for Business.
 - It's not supported to escalate an ongoing peer-to-peer voice or video call to a multiple-party call involving both Teams and Skype for Business users.
 - File transfer for two-party chats, or file attachment in group chats, from Teams to Skype for Business, and from Skype for Business to Teams, aren't supported.
 - Skype for Business Persistent Chat has no interoperability.

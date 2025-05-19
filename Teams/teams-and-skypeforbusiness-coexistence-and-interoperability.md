@@ -189,7 +189,7 @@ When the Teams user triggers an interop escalation, a Teams meeting is created. 
 
 The other party receives the meeting join link through interop chat and joins by selecting that link. If the Skype for Business user has a Teams account and the Teams user invites them, they join the meeting authenticated. Otherwise, they join as an anonymous participant. Teams users almost always have a Skype for Business account and a Skype for Business client that allows them to join a Skype for Business meeting as an authenticated participant. They might also join as an anonymous participant, for example using the Skype Meeting App.
 
-Once the parties join the meeting, they can conduct any activity supported in meetings, such as desktop or content sharing, file sharing or transfer, adding other participants, and so on.
+Once the parties join the meeting, they can conduct any activity supported in meetings. These activities include desktop or content sharing, file sharing or transfer, adding other participants, and so on.
 
 #### Interop escalation from Skype for Business
 

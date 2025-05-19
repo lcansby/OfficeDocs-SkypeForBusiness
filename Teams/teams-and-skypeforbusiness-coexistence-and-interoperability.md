@@ -170,7 +170,7 @@ These interop experiences are available to and between users who have one of the
 Because of the difference in protocols and technology, it's not possible to support all capabilities natively. Specifically, the following capabilities aren't available:
 
 - Markdown, rich text, and the full emoticon set aren't supported either from Teams or Skype for Business. Other native features of the compose box in Teams chats aren't supported.
-- Screen sharing (desktop or app sharing) between Teams and Skype for Business isn't supported natively. However, it's supported through interop escalation.
+- Screen sharing (desktop or app sharing) between Teams and Skype for Business isn't supported natively. It's supported through interop escalation.
 - Group chats (multiple-party conversations) in Teams can only include participants who are using Teams.
 - Multiple-party IM conversations (group chats) in Skype for Business can only include participants who are using Skype for Business. However, interop escalation to multiple-party is available from Skype for Business.
 - It's not supported to escalate an ongoing peer-to-peer voice or video call to a multiple-party call involving both Teams and Skype for Business users.
@@ -187,7 +187,7 @@ Interop escalation consists in supplementing the native interop capabilities wit
 
 When the Teams user triggers an interop escalation, a Teams meeting is created. When the Skype for Business user triggers an interop escalation, a Skype for Business meeting is created. In both cases, the meeting created is a **Meet now** meeting, which isn't reflected on the user's calendar.
 
-The other party receives the meeting join link through interop chat and joins by selecting that link. If the Skype for Business user has a Teams account and the Teams user invites them, they join the meeting authenticated. Otherwise, they join as an anonymous participant. Teams users almost always have a Skype for Business account and a Skype for Business client they can use to join a Skype for Business meeting as an authenticated participant, but they might also join as an anonymous participant, for example using the Skype Meeting App.
+The other party receives the meeting join link through interop chat and joins by selecting that link. If the Skype for Business user has a Teams account and the Teams user invites them, they join the meeting authenticated. Otherwise, they join as an anonymous participant. Teams users almost always have a Skype for Business account and a Skype for Business client that allows them to join a Skype for Business meeting as an authenticated participant, but they might also join as an anonymous participant, for example using the Skype Meeting App.
 
 Once the parties join the meeting, they can conduct any activity supported in meetings, such as desktop or content sharing, file sharing or transfer, adding other participants, and so on.
 

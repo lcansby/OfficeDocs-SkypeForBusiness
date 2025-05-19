@@ -32,7 +32,7 @@ This article is part of the Project Definition stage of your upgrade journey. Co
 - [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 - [Defined your project scope](./upgrade-define-project-scope.md)
 
-If your organization uses Skype for Business today and you're starting to use Teams alongside Skype for Business, or you're starting to upgrade to Teams, it's important to understand:
+If your organization uses Skype for Business and you're starting to use Teams alongside Skype for Business, or you're starting to upgrade to Teams, you need to understand:
 
 - How the two applications coexist.
 - How and when they interoperate.
@@ -170,7 +170,7 @@ These interop experiences are available to and between users who have one of the
 Because of the difference in protocols and technology, it's not possible to support all capabilities natively. Specifically, the following capabilities aren't available:
 
 - Markdown, rich text, and the full emoticon set aren't supported either from Teams or Skype for Business. Other native features of the compose box in Teams chats aren't supported.
-- Screen sharing (desktop or app sharing) between Teams and Skype for Business isn't supported natively. It's supported through interop escalation.
+- Screen sharing (desktop or app sharing) between Teams and Skype for Business isn't supported natively, but is supported through interop escalation.
 - Group chats (multiple-party conversations) in Teams can only include participants who are using Teams.
 - Multiple-party message conversations (group chats) in Skype for Business can only include participants who are using Skype for Business. However, interop escalation to multiple-party is available from Skype for Business.
 - Escalating an ongoing peer-to-peer voice or video call to a multiple-party call involving both Teams and Skype for Business users isn't supported.

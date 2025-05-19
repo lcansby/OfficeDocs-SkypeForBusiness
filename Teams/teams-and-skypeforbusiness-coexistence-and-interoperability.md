@@ -60,7 +60,7 @@ We recommend that you review the following coexistence modes to help determine w
 
 As soon as your organization is ready for some or all users to use Teams as their only communications and collaboration tool, upgrade those users to **Teams Only** mode. If you're upgrading from **Islands** mode, we advise that you first saturate Teams adoption throughout your organization before beginning the upgrade process. This adoption avoids broken communication scenarios due to **Islands** mode not providing interoperability.
 
-When in **Teams Only** mode, Teams is the default app for the SIP/Tel protocol. Links in a user's contact card in Outlook for calling or chat are handled by Teams.
+When in **Teams Only** mode, Teams is the default app for the SIP/Tel protocol. Teams handles links in a user's contact card in Outlook for calling or chat.
 
 For extra considerations about moving to **Teams Only** mode, see [Teams Only mode considerations](teams-only-mode-considerations.md).
 

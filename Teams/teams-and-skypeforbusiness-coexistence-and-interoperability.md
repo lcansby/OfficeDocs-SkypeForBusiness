@@ -277,10 +277,9 @@ An interop chat or call between two users is created when each of the following 
 - The mode of the recipient of the initial communication isn't Islands (otherwise the communication would land in the same client) if both users are in the same organization. In federated scenarios, the sending user is using Teams, and the recipient isn't in TeamsOnly mode.
 - The Teams user doesn't have a Skype for Business account homed on-premises.
 
-Within the interop communication, chat is plain-text only. In addition, file sharing and screen sharing aren't possible *in the interop chat itself*. However, users in an interop conversation can easily achieve file and/or screen sharing by creating an on-demand meeting, from within the interop chat, as described below:
+Within the interop communication, chat is plain-text only. In addition, file sharing and screen sharing aren't possible *in the interop chat itself*. However, users in an interop conversation can easily achieve file and/or screen sharing by creating an on-demand meeting, from within the interop chat, as described here:
 
 - An on-demand Teams meeting is automatically created if the Teams user attempts to share their screen. An invite link to that meeting is sent to the Skype for Business user's client. The Skype for Business user selects the link, opens Teams, and joins the meeting. Both users are now in a Teams meeting and can share as needed.
-
 - An on-demand Skype for Business meeting is automatically created if the Skype for Business user is using a client from 2018 or later and attempts to share any content. An invite link to that meeting is sent to the Teams user's client. The Teams user selects the link to attempt to join the Skype for Business meeting. If the Teams user has the Skype for Business client installed, it opens, and the user is prompted to sign in (if not already signed in). If the Teams user doesn't have the Skype for Business client installed, the user's prompted to use the web version. Once both users are signed in, they're in a Skype for Business meeting and can share as needed.
 
 ### Interop versus native conversation threads

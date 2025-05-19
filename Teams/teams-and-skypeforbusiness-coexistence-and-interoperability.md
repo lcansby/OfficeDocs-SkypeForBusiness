@@ -311,7 +311,7 @@ Presence for a given user is based on the user's activity in the service via the
 Presence publishing behavior is based on the user's mode. There are three basic cases:
 
 - If a user is in TeamsOnly mode, all other users see the Teams presence for that user, regardless of which client they use.
-- If a user is in any of the Skype for Business modes, all other users see the Skype for Business presence for that user, regardless of which client they use.
+- If a user is in any Skype for Business mode, all other users see the Skype for Business presence for that user, regardless of which client they use.
 - If a user is in Islands mode, presence published in Skype for Business and Teams are independent of respective clients. The presence shown to users within the same organization depends on the client of the other user.
   - Users in Teams see the presence state of the Teams client only, even if the state of the Skype for Business client is different.
   - Users in federated organizations see the presence of that user based on their Teams activity, despite the state where federated traffic to an Islands mode user lands in Skype for Business.

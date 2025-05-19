@@ -215,7 +215,7 @@ Interop escalation from Teams to a Teams meeting is now available when the Teams
 
 The capability is supported in the Teams desktop client for Windows, in the Teams desktop client for Mac, and in the Teams web client on browsers where content sharing is supported, while in communication with any Skype for Business client version.
 
-In interoperability threads, and in federation interoperability threads, the Teams user now has the controls (button) to start content sharing. When the Teams user selects the button, they're presented with an additional menu that informs them that to share content, they need to start a Teams meeting.
+In interoperability threads, and in federation interoperability threads, the Teams user now has the controls (button) to start content sharing. When the Teams user selects the button, they're presented with another menu that informs them that, to share content, they need to start a Teams meeting.
 
 If the users were in a call, the menu warns them that their current call between Teams and Skype for Business is terminated, as they're joining a Teams meeting. If they choose, they can warn the Skype for Business user before accepting.
 
@@ -258,10 +258,10 @@ When a user organizes meetings, the meeting type that gets scheduled is based on
 
 ### New Teams and Skype for Business call hold synchronization
 
-When making or receiving a call in the new Teams client while an existing Skype for Business call is ongoing, the call in Skype for Business doesn't automatically go on hold. The reverse scenario has the same problem. To enable call hold synchronization between the new Teams client and the Skype for Business client ensure the following:
+When making or receiving a call in the new Teams client while an existing Skype for Business call is ongoing, the call in Skype for Business doesn't automatically go on hold. The reverse scenario has the same problem. To enable call hold synchronization between the new Teams client and the Skype for Business client ensure the following is true:
 
 - The new Teams client is version 24261.1100.3128.2662 or greater.
-- Apply these group policy registry key updates:
+- These group policy registry key updates are set:
   - `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\16.0\Lync\Enable21Interop` with DWORD set to `0x01`
   - `Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Lync\EnableIPCForHoldResume` with DWORD set to `0x01`
 
@@ -269,7 +269,7 @@ After applying the registry changes and having the appropriate version of the ne
 
 ### Interoperability
 
-As described in the [Interoperability of Teams and Skype for Business](#interoperability-of-teams-and-skype-for-business) section of this article, Teams supports interop with Skype for Business in certain scenarios. Interop communication refers to a chat or call between a Skype for Business user and a Teams user. Interop communication is only possible between two users. We don't support multi-party chat, multi-party calling, or adding additional users.
+As described in the [Interoperability of Teams and Skype for Business](#interoperability-of-teams-and-skype-for-business) section of this article, Teams supports interop with Skype for Business in certain scenarios. Interop communication refers to a chat or call between a Skype for Business user and a Teams user. Interop communication is only possible between two users. We don't support multi-party chat, multi-party calling, or adding more users.
 
 An interop chat or call between two users is created when each of the following are true:
 
@@ -280,7 +280,7 @@ An interop chat or call between two users is created when each of the following 
 Within the interop communication, chat is plain-text only. In addition, file sharing and screen sharing aren't possible *in the interop chat itself*. However, users in an interop conversation can easily achieve file and/or screen sharing by creating an on-demand meeting, from within the interop chat, as described here:
 
 - An on-demand Teams meeting is automatically created if the Teams user attempts to share their screen. An invite link to that meeting is sent to the Skype for Business user's client. The Skype for Business user selects the link, opens Teams, and joins the meeting. Both users are now in a Teams meeting and can share as needed.
-- An on-demand Skype for Business meeting is automatically created if the Skype for Business user is using a client from 2018 or later and attempts to share any content. An invite link to that meeting is sent to the Teams user's client. The Teams user selects the link to attempt to join the Skype for Business meeting. If the Teams user has the Skype for Business client installed, it opens, and the user is prompted to sign in (if not already signed in). If the Teams user doesn't have the Skype for Business client installed, the user's prompted to use the web version. Once both users are signed in, they're in a Skype for Business meeting and can share as needed.
+- An on-demand Skype for Business meeting is automatically created if the Skype for Business user is using a client from 2018 or later and attempts to share any content. An invite link to that meeting is sent to the Teams user's client. The Teams user selects the link to attempt to join the Skype for Business meeting. If the Teams user has the Skype for Business client installed, it opens, and the user is prompted to sign in, if they're not already signed in. If the Teams user doesn't have the Skype for Business client installed, they receive a prompt to use the web version. Once both users are signed in, they're in a Skype for Business meeting and can share as needed.
 
 ### Interop versus native conversation threads
 

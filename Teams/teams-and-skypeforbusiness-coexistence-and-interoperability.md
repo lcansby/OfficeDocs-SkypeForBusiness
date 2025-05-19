@@ -173,7 +173,7 @@ Because of the difference in protocols and technology, it's not possible to supp
 - Screen sharing (desktop or app sharing) between Teams and Skype for Business isn't supported natively. It's supported through interop escalation.
 - Group chats (multiple-party conversations) in Teams can only include participants who are using Teams.
 - Multiple-party message conversations (group chats) in Skype for Business can only include participants who are using Skype for Business. However, interop escalation to multiple-party is available from Skype for Business.
-- Escalatinj an ongoing peer-to-peer voice or video call to a multiple-party call involving both Teams and Skype for Business users isn't supported.
+- Escalating an ongoing peer-to-peer voice or video call to a multiple-party call involving both Teams and Skype for Business users isn't supported.
 - File transfer for two-party chats, or file attachment in group chats, from Teams to Skype for Business, and from Skype for Business to Teams, aren't supported.
 - Skype for Business Persistent Chat has no interoperability.
 

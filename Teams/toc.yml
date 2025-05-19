@@ -368,7 +368,6 @@ items:
       items:
       - name: Intelligent recap for Teams calls and meetings
         href: intelligent-recap-calls-meetings.md
-        anchor: intelligent-recap-calls-meetings
       - name: Manage transcriptions and captions for Teams meetings
         href: meeting-transcription-captions.md
       - name: Manage voice isolation for calls and meetings
@@ -1145,7 +1144,6 @@ items:
           href: here-s-what-you-get-with-phone-system.md
         - name: Teams Phone licensing
           href: teams-phone-licensing.md
-          anchor: teams-phone-licensing
         - name: Set up Teams Phone
           href: setting-up-your-phone-system.md
         - name: Dial pad configuration
@@ -1204,7 +1202,9 @@ items:
       items: 
         - name: Plan Auto attendants and Call queues
           href: plan-auto-attendant-call-queue.md
-        - name: Routing calls with Auto attendants and Call queues
+        - name: Configure call priorities for Call queues
+          href: aa-cq-call-priorities.md
+        - name: Route calls with Auto attendants and Call queues
           href: plan-your-call-routing-flow.md
         - name: Set up Auto attendants
           href: create-a-phone-system-auto-attendant.md

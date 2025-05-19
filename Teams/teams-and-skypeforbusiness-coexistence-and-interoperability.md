@@ -225,7 +225,7 @@ Upon acceptance, they're put in the Teams meeting; they must start sharing from 
 
 Meanwhile, the Skype for Business user receives an incoming chat message with the link to the meeting and are guided to join.
 
-This escalation to a Teams meeting is available for both in-tenant interop and cross-tenant federated calls and chats. It's on by default and there's no setting the admin has to provision. The admin setting ``-AllowPrivateMeetNow`` in ``CsTeamsMeetingPolicy`` to ``$false`` turns this setting off.
+This escalation to a Teams meeting is available for both in-tenant interop and cross-tenant federated calls and chats. It's on by default and there's no setting the admin has to provision. The admin setting ``-AllowPrivateMeetNow`` in ``CsTeamsMeetingPolicy`` to ``$false`` turns off this setting.
 
 After you review this article, learn more at:
 
@@ -265,7 +265,7 @@ When a user organizes meetings, the meeting type that gets scheduled is based on
 
 ### New Teams and Skype for Business call hold synchronization
 
-When making or receiving a call in the new Teams client while an existing Skype for Business call is ongoing, the call in Skype for Business doesn't automatically go on hold. The reverse scenario has the same problem. To enable call hold synchronization between the new Teams client and the Skype for Business client ensure the following is true:
+When making or receiving a call in the new Teams client while an existing Skype for Business call is ongoing, the call in Skype for Business doesn't automatically go on hold. The reverse scenario has the same problem. To enable call hold synchronization between the new Teams client and the Skype for Business client ensure these items are true:
 
 - The new Teams client is version 24261.1100.3128.2662 or greater.
 - These group policy registry keys are updated:

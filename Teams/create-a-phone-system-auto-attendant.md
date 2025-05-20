@@ -56,7 +56,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 ## What's new for Auto attendants in the past six months
 
 - May 20
-  - [Call priorities](./call-queue-call-priorities) can be set when transferring calls to resource accounts assigned to call queues or directly to call queues.
+  - [Call priorities](/aa-cq-call-priorities) can be set when transferring calls to resource accounts assigned to call queues or directly to call queues.
 
 - December 11
   - [Nested Auto attendants and Call queues](./plan-auto-attendant-call-queue.md#nested-auto-attendants-and-call-queues) that no longer require a resource account and associated licensing are now supported in Teams admin center.

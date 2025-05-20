@@ -36,7 +36,7 @@ Here are some examples on how you can use these export APIs:
 
 ## What is supported by the Teams Export APIs?
 
-- **Bulk Export of Teams Message:** Please refer to [Teams Export APIs throttling limits](/graph/throttling-limits). With these limits you should be able to bulk export of Teams messages. 
+- **Bulk Export of Teams Message:** Please refer to [Teams Export APIs throttling limits](/graph/throttling-limits). With these limits you should be able to bulk export Teams messages. 
 
 - **Top Limit for Teams Meesage:** The TOP filter limit for Teams Message APIs is recommended to be set at 250 as the maximum limit beyond which the performance would be limited.
 - **Application Context**: To call Microsoft Graph, your app must acquire an access token from the Microsoft identity platform. The access token contains information about your app and the permissions it has for the resources and APIs available through Microsoft Graph. To get an access token, your app must be registered with the Microsoft identity platform and be authorized by either a user or an administrator for access to the Microsoft Graph resources it needs.
@@ -423,5 +423,4 @@ If [your tenant is setup with Teams Retention Policy](/purview/create-retention-
 
 ## Copilot Interaction Export API
 
-The new Copilot Interactions Export API allows you to export Copilot interactions data which includes the user prompt to Copilot and the Copilot response back to the user. This API captures the user intent and Copilot accessed resources and the response back to the user across Microsoft 365 Copilot apps such as Teams, Word and Outlook. Please refer to <insert link> to learn more about this API.
-
+The new Copilot Interactions Export API allows you to export Copilot interactions data which includes the user prompt to Copilot and the Copilot response back to the user. This API captures the user intent and Copilot accessed resources and the response back to the user across Microsoft 365 Copilot apps such as Teams, Word, Excel and Outlook. Please refer to <insert link> to learn more about this API.

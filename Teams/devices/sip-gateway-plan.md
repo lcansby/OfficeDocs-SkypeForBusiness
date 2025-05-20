@@ -127,12 +127,12 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |VVX501<sup>2</sup>    |5.9.5       |6.4.6.2640 |   |   |
 |          |VVX600<sup>3</sup>     |5.9.5       |5.9.7.3480 |   |   |
 |          |VVX601<sup>2</sup>    |5.9.5       |6.4.6.2640 |   |   |
-|          |Rove B1<sup>1</sup>    |8.0.5.0002  |8.0.5.0002 |   |   |
-|          |Rove B2<sup>1</sup>    |8.0.5.0002  |8.0.5.0002 |   |   |
-|          |Rove B4<sup>1</sup>    |8.0.5.0002  |8.0.5.0002 |   |   |
-|          |Rove 20<sup>1</sup>    |8.0.5.0003  |8.0.5.0003 |   |   |
-|          |Rove 30<sup>1</sup>    |8.0.5.0002  |8.0.5.0002 |   |   |
-|          |Rove 40<sup>1</sup>    |8.0.5.0002  |8.0.5.0002 |   |   |
+|          |Rove B1<sup>1</sup>    |8.0.11|8.0.11 |   |   |
+|          |Rove B2<sup>1</sup>    |8.0.11 |8.0.11|   |   |
+|          |Rove B4<sup>1</sup>    |8.0.11|8.0.11|   |   |
+|          |Rove 20<sup>1</sup>    |8.0.11|8.0.11|   |   |
+|          |Rove 30<sup>1</sup>    |8.0.11|8.0.11|   |   |
+|          |Rove 40<sup>1</sup>    |8.0.11|8.0.11|   |   |
 |          |Edge E100<sup>2</sup>  |8.1.0.12774  |8.2.2.1176 |   |   |
 |          |Edge E220<sup>2</sup>  |8.1.0.12774  |8.2.2.1176 |   |   |
 |          |Edge E300<sup>2</sup>  |8.1.0.12774  |8.2.2.1176 |   |   |
@@ -281,6 +281,27 @@ If you have a 3PIP or SIP device, you must have the following:
 |**Snom**|       |     |              |                |   |
 |          |D717<sup>3</sup>          |10.1.141.13     |10.1.141.13 |IP Phone   |   |
 |          |D735<sup>3</sup>          |10.1.141.13     |10.1.141.13 |IP Phone   |   |
+|**2N**|       |           |           |   |[2N EMEA Support](https://www.2n.com/en-GB/support/#verticaltabscontainer-do-you-need-support-or-help) <br> [2N NOAM Support](https://www.2n.com/en-US/support/#verticaltabscontainer-do-you-need-support-or-help) <br> [2N APAC Support](https://www.2n.com/en-AU/support/#verticaltabscontainer-do-you-need-support-or-help)|
+|          |SIP Speaker Horn        |2.46.1     |2.46.1     | |   |
+|          |SIP Speaker             |2.46.1     |2.46.1     | |   |
+|          |Sentrio Cabin           |2.46.1     |2.46.1     | |   |
+|          |Lift IP 2.0              |2.46.1     |2.46.1     | |   |
+|          |Indoor View - WiFi      |2.46.1     |2.46.1     | |   |
+|          |Indoor View             |2.46.1     |2.46.1     | |   |
+|          |Indoor Compact	         |2.46.1     |2.46.1     | |   |
+|          |Indoor Talk             |2.46.1     |2.46.1     | |   |
+|          |Clip	                   |2.46.1     |2.46.1     | |   |
+|          |IP Style	               |2.46.1     |2.46.1     | |   |
+|          |IP Verso 2.0             |2.46.1     |2.46.1     | |   |
+|          |IP Verso	               |2.46.1     |2.46.1     | |   |
+|          |IP Vario	               |2.46.1     |2.46.1     | |   |
+|          |IP Solo                 |2.46.1     |2.46.1     | |   |
+|          |IP One                  |2.46.1     |2.46.1     | |   |
+|          |IP Safety               |2.46.1     |2.46.1     | |   |
+|          |IP Force	               |2.46.1     |2.46.1     | |   |
+|          |IP Base                 |2.46.1     |2.46.1     | |   |
+|          |IP Video Kit	           |2.46.1     |2.46.1     | |   |
+|          |IP Audio Kit            |2.46.1     |2.46.1     | |   |
 
 <sup>1</sup> Device supports dynamic location discovery through LLDP with SIP Gateway.
 

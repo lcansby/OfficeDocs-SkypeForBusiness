@@ -20,7 +20,7 @@ appliesto:
 ms.localizationpriority: high
 ---
 
-# Troubleshooting
+# Troubleshooting VDI 2.0
 
 - Not optimized with SlimCore and instead you see:</br>"Azure Virtual Desktop Media Optimized"</br>"Citrix HDX Optimized"
   - Error Codes 2000 ("No Plugin") and 2001 ("Virtual Channel not available") are the most likely causes.

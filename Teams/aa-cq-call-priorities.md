@@ -97,6 +97,16 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($generalID) -Configurat
 
 ### Scenario 2: Priority to callers based on Auto attendant menu choices
 
+In this scenario, Contoso Travel has a single Travel Support call queue for all travel inquiries. This call queue is associated with an auto attendant that provides callers with the following options:
+
+> Thank you for calling Contoso Travel.
+If you are currently traveling and need immediate assistance, press 1.
+If you are calling to inquire about an existing booking, press 2.
+To make a new booking, press 3.
+For all other inquiries, press 4.
+
+Callers who press 1 are assigned the highest priority level and are all presented to agents first, followed in order by those who press 2, 3, and then 4, with each number representing a progressively lower priority.
+
 The following command shows how to set the call priority for a call queue based on the Auto attendant menu choices (immediate assistance, existing booking, new booking, other inquiries):
 
 ```powershell
@@ -121,6 +131,8 @@ New-CsAutoAttendant -Name "Contoso Travel" -LanguageId en-US -TimeZoneId "Easter
 ```
 
 ### Scenario 3: Priority to agents transferring calls to another call queue
+
+In this scenario, Contoso Finance Customer Service agents triage calls and they often transfer these calls to Tier 2 support groups. Tier 2 support groups can also take calls directly from customers. Constoso wants calls transfers from Customer Service to 
 
 The following command shows how to set the call priority for a call queue based on the agent transferring calls to another call queue:
 

@@ -421,6 +421,26 @@ If [your tenant is setup with Teams Retention Policy](/purview/create-retention-
 - **Message is soft deleted by a user in a chat or a channel** If there's a valid retention policy set, then beyond the 21 days of deletion period, the message can be exported through the API.
 - **Message is edited by a user in a chat or a channel** If there's a valid retention policy set, the previous edited versions of the message can be exported.
 
-## Copilot Interaction Export API
 
-The new Copilot Interactions Export API allows you to export Copilot interactions data which includes the user prompt to Copilot and the Copilot response back to the user. This API captures the user intent and Copilot accessed resources and the response back to the user across Microsoft 365 Copilot apps such as Teams, Word, Excel and Outlook. Please refer to <insert link> to learn more about this API.
+## Microsoft 365 Copilot Interactions & Microsoft 365 Chat (Preview)
+
+The new Copilot Activity Export API allows you to export Copilot interactions data which includes the user prompt to Copilot and the Copilot response back to the user. This API captures the user intent and Copilot accessed resources and the response back to the user across Microsoft 365 Copilot apps such as Teams, Word and Outlook. 
+
+## How to access Copilot Activity Export APIs (Preview)
+
+- **Example 1** is a simple query to retrieve all the copilot interactions without any filters (beta):
+
+  ```HTTP
+  GET https://graph.microsoft.com/beta/copilot/users/{id}/interactionHistory/getAllEnterpriseInteractions 
+  ```
+- **Example 2** is a simple query to retrieve all the copilot interactions with appclass filters (beta):
+
+  ```HTTP
+  GET https://graph.microsoft.com/beta/copilot/users/{id}/interactionHistory/getAllEnterpriseInteractions?$filter=appClass eq 'IPM.SkypeTeams.Message.Copilot.Teams or appClass eq 'IPM.SkypeTeams.Message.Copilot.BizChat' (beta)
+  ```
+## Prerequisites to access Copilot Activity Export APIs (Preview)
+
+Application permissions are used by apps that run without a signed-in user present; application permissions can only be approved by an administrator. The following permissions are needed:
+
+- *AiEnterpriseInteraction.Read.All*: enables access to all copilot interactions across Microsoft 365 apps and Microsoft 365 Chat
+- A **Microsoft 365 Copilot license** is required for accessing the new Copilot Activity Export API.

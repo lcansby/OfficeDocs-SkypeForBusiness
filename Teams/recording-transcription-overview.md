@@ -93,7 +93,7 @@ If you have a Teams Premium license, you can use meeting  sensitivity labels and
 
 ## Troubleshooting and diagnostics
 
-If you or your users are having any issues or errors with recordings and transcripts, check out the following trouble shooting and end user articles:
+If you or your users are having any issues or errors with recordings and transcripts, check out the following troubleshooting and end user articles:
 
 - If your users are having issues with recording meetings, see [I can't record a meeting in Microsoft Teams](https://support.microsoft.com/office/i-can-t-record-a-meeting-in-microsoft-teams-f35329c2-57b1-487f-b5e3-70a7efb0945b).
 - To understand issues that affect meeting recordings, see [Issues that affect meeting recordings](/microsoftteams/troubleshoot/meetings/troubleshoot-meeting-recording-issues).

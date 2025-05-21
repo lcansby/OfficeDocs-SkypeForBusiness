@@ -25,7 +25,7 @@ description: Learn how to set up call priorities for call queues in Microsoft Te
 
 # Set up call priorities for call queues
 
-Call priorities for Call queues in Microsoft Teams allow you to set the order in which calls are routed to agents within a call queue. This is useful for ensuring that high-priority calls are answered first, while lower-priority calls are held in a queue until an agent becomes available.
+Call priorities for Call queues in Microsoft Teams allow you to set the order in which calls are routed to agents within a call queue. This functionality is useful for ensuring that high-priority calls are answered first, while lower-priority calls are held in a queue until an agent becomes available.
 
 Before reading this article, make sure you have read [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md).
 
@@ -48,20 +48,22 @@ As an IT admin, you can assign different levels of call priority on a scale of 1
 Priority is assigned to a call in the following situations:
 
 - Auto attendants can set the priority of a call when transferring to a Call queue or a resource account with a Resource account type set to Call queue.
-- Call queues can set the priority of a call when transferring to another Call queue or a resource account with a Resource account type set to Call queue.
 - Resource accounts assigned to a Call queue can have a priority set.
 
-When a transferred call arrives at a call queue, the call queue honors the priority that has been previously set by the transferring auto attendant or call queue. When a direct call arrives at a call queue, the call queue uses the priority assigned to the resource account.
+When a transferred call arrives at a call queue, the call queue honors the priority that the transferring auto attendant or call queue had previously set. When a direct call arrives at a call queue, the call queue uses the priority assigned to the resource account.
 
 ## Configure call priorities
 
 Call priorities can currently only be configured using PowerShell. See the following [call priority call flow scenarios](#call-priority-call-flow-scenarios) for PowerShell examples.
 
+> [!IMPORTANT]
+> If you make changes through the Teams admin center to Auto attendants or Call queues that you configured with call priorities, the call priority configuration is removed. Once you configure an Auto attendant or Call queue with call priorities via PowerShell, all future changes to that Auto attendant or Call queue must be done through PowerShell until the functionality becomes available in Teams admin center.
+
 ## Call priority call flow scenarios
 
 ### Scenario 1: Priority to callers based on dialed number
 
-In this scenario, Contoso Support has a single Technical Support call queue that's open 24/7. Contoso's website and documentation provides their customers with the general number for all support requests. However, customers who sign-up for "enhanced support" are given a dedicated number to call. The enhanced support customers are given priority over other customers based on the level of enhanced support purchased (or not purchased).
+In this scenario, Contoso Support has a single Technical Support call queue that's open 24/7. Contoso's website and documentation provides their customers with the general number for all support requests. However, customers who sign up for "enhanced support" are given a dedicated number to call. The enhanced support customers are given priority over other customers based on the level of enhanced support purchased (or not purchased).
 
 Constoso Support defines the following call priorities for their resource accounts:
 
@@ -72,7 +74,7 @@ Constoso Support defines the following call priorities for their resource accoun
 
 Customers in the call queue are presented to agents in the order of their priority. The Gold level customers are all presented first, followed by Silver, Bronze, and finally General support customers.
 
-:::image type="content" source="media/" alt-text="Screenshot showing the call flow for Scenario 1.":::
+:::image type="content" source="media/cq-call-priorities-scenario-1.svg" alt-text="Screenshot showing the call flow for Scenario 1.":::
 
 The following command shows how to set the call priority for a call queue based on the dialed number (Gold, Silver, Bronze, General):
 
@@ -100,9 +102,9 @@ In this scenario, Contoso Travel has a single Travel Support call queue for all 
 > To make a new booking, press 3.
 > For all other inquiries, press 4.
 
-Callers who press 1 are assigned the highest priority level and are all presented to agents first, followed in order by those who press 2, 3, and then 4, with each number representing a progressively lower priority.
+Callers who press 1 get top priority and connect to agents first, followed by callers who press 2, 3, and 4 in decreasing order of priority.
 
-:::image type="content" source="media/cq-call-priorities-scenario-2.svg" alt-text="Screenshot showing the call flow for Scenario 2.":::
+:::image type="content" source="media/cq-call-priorities-scenario-2.png" alt-text="Screenshot showing the call flow for Scenario 2.":::
 
 The following command shows how to set the call priority for a call queue based on the Auto attendant menu choices (immediate assistance, existing booking, new booking, other inquiries):
 
@@ -138,7 +140,7 @@ In this scenario, Contoso Finance Customer Service agents triage calls and they 
 Keep in mind the following considerations when configuring call priorities:
 
 - Agents always receive calls with the highest priority first, regardless of how long lower priority calls have been waiting.
-- Call priorities isn't supported for [Authorized users](/microsoftteams/aa-cq-authorized-users-plan).
+- Call priorities aren't supported for [Authorized users](/microsoftteams/aa-cq-authorized-users-plan).
 - Keep the highest and lowest call priorities available for future use. **(why?)**
 - Agents don't receive notifications about which calls are what priority. The priority is only used to determine the order in which calls are presented to agents.
 

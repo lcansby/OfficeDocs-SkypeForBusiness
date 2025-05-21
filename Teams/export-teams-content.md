@@ -441,6 +441,5 @@ The new Copilot Activity Export API allows you to export Copilot interactions da
 ## Prerequisites to access Copilot Activity Export APIs (Preview)
 
 Application permissions are used by apps that run without a signed-in user present; application permissions can only be approved by an administrator. The following permissions are needed:
-
 - *AiEnterpriseInteraction.Read.All*: enables access to all copilot interactions across Microsoft 365 apps and Microsoft 365 Chat
 - A **Microsoft 365 Copilot license** is required for accessing the new Copilot Activity Export API.

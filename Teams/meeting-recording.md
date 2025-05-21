@@ -109,7 +109,7 @@ To manage town hall recording using PowerShell, use the **`-RecordingForTownhall
 
 ## Auto recording
 
-You can control whether organizers have access to the **Record and transcribe automatically** setting for meetings. You can only apply this policy setting to users and groups.
+You can control whether organizers have access to the **Record and transcribe automatically** setting for meetings, webinars, and town halls. You can only apply this policy setting to users and groups.
 
 When you turn on the auto recording policy for an organizer, the **Record and transcribe automatically** setting in their **Meeting options** for meetings is **Off** by default. Organizers must manually turn on this setting for each meeting they want recorded and transcribed. If you turn off auto recording, organizers don't see the setting and can’t set meetings to record automatically.
 
@@ -383,13 +383,13 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -ExplicitRecordingConsent Enabl
 
 ### Manage auto recording in PowerShell
 
-To give organizers with this policy the option to record their meetings automatically, follow this script:
+To give organizers with this policy the option to record their meetings, webinars, and town halls automatically, follow this script:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AutoRecording Enabled
 ```
 
-To prevent organizers with this policy from recording their meetings automatically, follow this script:
+To prevent organizers with this policy from recording their meetings, webinars, and town halls automatically, follow this script:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AutoRecording Disabled
@@ -412,10 +412,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Allow
 ## Related topics
 
 - [Overview- Recording and transcription for Teams meetings, events, and calls](recording-transcription-overview.md)
-- [Live event recording policies in Teams](teams-live-events/live-events-recording-policies.md)
 - [Use OneDrive and SharePoint to store meeting recordings](tmr-meeting-recording-change.md)
 - [Introduction to Microsoft Teams third party compliance recording](teams-recording-policy.md)
-- [Teams policy reference - Meetings](settings-policies-reference.md#meetings)
 - [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)
 - [Live event recording policies in Teams](teams-live-events/live-events-recording-policies.md)
 - [Roles in a Teams meeting](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019)

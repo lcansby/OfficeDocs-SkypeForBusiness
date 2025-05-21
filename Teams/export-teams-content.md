@@ -421,7 +421,6 @@ If [your tenant is setup with Teams Retention Policy](/purview/create-retention-
 - **Message is soft deleted by a user in a chat or a channel** If there's a valid retention policy set, then beyond the 21 days of deletion period, the message can be exported through the API.
 - **Message is edited by a user in a chat or a channel** If there's a valid retention policy set, the previous edited versions of the message can be exported.
 
-
 ## Microsoft 365 Copilot Interactions & Microsoft 365 Chat (Preview)
 
 The new Copilot Activity Export API allows you to export Copilot interactions data which includes the user prompt to Copilot and the Copilot response back to the user. This API captures the user intent and Copilot accessed resources and the response back to the user across Microsoft 365 Copilot apps such as Teams, Word and Outlook. 

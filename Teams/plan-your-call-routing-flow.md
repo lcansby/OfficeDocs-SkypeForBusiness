@@ -135,7 +135,7 @@ Here are some call routing best practices:
 
 [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md)
 
-[Call priorities](call-priorities.md)
+[Call priorities](aa-cq-call-priorities.md)
 
 [Set up Auto attendants](create-a-phone-system-auto-attendant.md)
 

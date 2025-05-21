@@ -42,7 +42,17 @@ The sections below include further information for planning and configuring thes
 
 For a detailed look at which features are available in meetings, webinars, and town halls, see [Meetings, webinars, and town halls feature comparison](meeting-webinar-town-hall-feature-comparison.md).
 
-For information on limits and specifications for Teams webinars, meetings, and town halls, see [Limits and specifications for Microsoft Teams.](limits-specifications-teams.md)
+For more information on limits and specifications for Teams webinars, meetings, and town halls, see [Limits and specifications for Microsoft Teams.](limits-specifications-teams.md)
+
+## Manage who can create meetings, webinars, and town halls
+
+You can manage which of your users can create meetings, webinars, and town halls by using meeting and event policies. For example, you might want to allow all your users to create meetings, but only people in marketing to create webinars, and only executives to create town halls. Anyone invited can attend these types of meetings, but only those you specify can create them.
+
+For details, see:
+
+- [Manage who can start instant meetings and schedule meetings](manage-who-can-schedule-meetings.md)
+- [Manage who can schedule webinars](set-up-webinars.md)
+- [Manage who can schedule town halls](set-up-town-halls.md)
 
 ## Meetings
 

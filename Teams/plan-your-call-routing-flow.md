@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-calling
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -84,21 +85,20 @@ For more information on when to use **Voice app** or **Resource account** as the
 
 The following call flow diagrams show 3 different examples of call routing using Auto attendants and Call queues.
 
-**INSERT CALL PRIORITIES DIALED NUMBER IMAGE**
+:::image type="content" source="media/cq-call-priorities-scenario-1.svg" alt-text="Screenshot showing the call flow for call priority based on dialed resource account phone number.":::
 
 In this example:
 
 - The call queues are open 24/7.
 - Call priorities are assigned based on the resource account phone number dialed by the caller.
 
-
-**INSERT CALL PRIORITIES AUTO ATTENDANT IMAGE**
+:::image type="content" source="media/cq-call-priorities-scenario-2.png" alt-text="Screenshot showing the call flow for call priority based on auto attendant menu choices.":::
 
 In this example:
 
 - The auto attendant assigns the call priority based on the menu option selected by the caller.
 
-**INSERT PRIORITY TRANSFERS IMAGE**
+:::image type="content" source="media/cq-call-priorities-scenario-3.svg" alt-text="Screenshot showing the call flow for call priority call queue transfers.":::
 
 In this example:
 

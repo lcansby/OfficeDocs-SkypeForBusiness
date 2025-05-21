@@ -83,7 +83,7 @@ To allow or prevent webinar recordings, follow these steps:
 
 1. In the Microsoft Teams admin center, expand **Meetings** > **Events policies**.
 1. Either select an existing policy or create a new one. To apply changes to all users in your organization who don't have an existing policy assignment, use the **Global policy**. To exclude certain users from the global policy, create and assign a custom events policy.
-1. Navigate to the **Recording & transcription section**.
+1. Navigate to the **Recording & transcription** section.
 1. Toggle **Record a webinar** **On** or **Off**.
 1. Select **Save**.
 1. To assign the policy:
@@ -98,7 +98,7 @@ To allow or prevent town hall recordings, follow these steps:
 
 1. In the Microsoft Teams admin center, expand **Meetings** > **Events policies**.
 1. Either select an existing policy or create a new one. To apply changes to all users in your organization who don't have an existing policy assignment, use the **Global policy**. To exclude certain users from the global policy, create and assign a custom events policy.
-1. Navigate to the **Recording & transcription section**.
+1. Navigate to the **Recording & transcription** section.
 1. Toggle **Record a town hall** **On** or **Off**.
 1. Select **Save**.
 1. To assign the policy:

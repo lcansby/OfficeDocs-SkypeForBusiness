@@ -141,7 +141,7 @@ Keep in mind the following considerations when configuring call priorities:
 
 - Agents always receive calls with the highest priority first, regardless of how long lower priority calls have been waiting.
 - Call priorities aren't supported for [Authorized users](/microsoftteams/aa-cq-authorized-users-plan).
-- Keep the highest and lowest call priorities available for future use. **(why?)**
+- Keep the highest and lowest call priorities available for future use.
 - Agents don't receive notifications about which calls are what priority. The priority is only used to determine the order in which calls are presented to agents.
 
 ## Related articles

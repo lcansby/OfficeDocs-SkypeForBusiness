@@ -71,8 +71,8 @@ Call queues place the caller on hold until an agent assigned to the queue is ava
 Calls redirected out of a queue can be sent to the following destinations:
 
 - **Person in the organization** - a person in your organization who is able to receive voice calls. This person can be an online user or a user hosted on-premises using Skype for Business Server.
-- **Voice app** - another Auto attendant or a Call queue. The call priority can be set when the destination is a call queue.
-- **Resource account** - the resource account associated with another Auto attendant or Call queue. The call priority can be set when the resource account is associated with a call queue.
+- **Voice app** - another Auto attendant or a Call queue.
+- **Resource account** - the resource account associated with another Auto attendant or Call queue.
 - **External phone number** - any phone number. For more information, see [external transfer technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources).
 - **Voicemail (personal)** - the voice mailbox associated with a specific user.
 - **Voicemail (shared)** - the voice mailbox associated with a Microsoft 365 group, distribution list, or mail-enabled security group.

@@ -61,7 +61,7 @@ External participants can't record meetings except when it's a [Teams third part
 
 ## Allow or prevent users from recording
 
-You can use the Microsoft Teams admin center or PowerShell to control whether your users can record meetings, webinars, and town halls. Meetings, webinars, and town halls each have their own recording policies that you can manage. Both the meeting organizer and the recording initiator need to have recording permissions to record the meeting. Organizers with a Teams Premium license can use their meeting options to control who can record and transcribe.
+You can use the Microsoft Teams admin center or PowerShell to control whether your users can record meetings, webinars, and town halls. Meetings, webinars, and town halls each have their own recording policies that you can manage. Both the organizer and recording initiator need to have recording permissions to record the meeting, webinar, or town hall. Organizers with a Teams Premium license can use their meeting options to control who can record and transcribe.
 
 ### Meetings
 

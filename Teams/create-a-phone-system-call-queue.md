@@ -45,7 +45,7 @@ Before following the procedures in this article, make sure you read [Plan for Te
 ## What's new for Call queues in the past six months
 
 - May 20
-  - [Call priorities](./aa-cq-call-priorities) for call queues allows you to prioritize one type of call over others, controlling which call type gets presented to agents first.
+  - [Call priorities](aa-cq-call-priorities.md) for call queues allows you to prioritize one type of call over others, controlling which call type gets presented to agents first.
     
 - December 11
   - [Nested Auto attendants and Call queues](./plan-auto-attendant-call-queue.md#nested-auto-attendants-and-call-queues) no longer require a resource account and associated licensing are now supported in the Teams admin center.

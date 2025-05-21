@@ -136,6 +136,7 @@ The two values for this setting are:
 To manage this setting using PowerShell, use the **`-ChannelRecordingDownload`** parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy). For details, see the [PowerShell section](#manage-download-of-channel-meeting-recordings-in-powershell) in this article.
 
 ## Expiration policy
+
 > [!NOTE]
 > Expiration policies don't apply to webinars and town halls.
 

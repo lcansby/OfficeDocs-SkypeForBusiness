@@ -40,9 +40,9 @@ These work location options are available in Teams:
 Users can also set up a recurring work plan for each day of the week by [setting work location and work hours in Outlook](https://support.microsoft.com/office/set-your-work-hours-and-location-in-outlook-af2fddf9-249e-4710-9c95-5911edfd76f6). When a user sets or changes a recurring work plan, their work location and work hours are also set automatically in Teams; changes are reflected in both apps.
 
 > [!NOTE]
-> - The tenant admin must add buildings to Microsoft Places so that users can set their locations with building details. For more information, go to [Configure buildings and floors](/places/get-started/quick-setup-buildings-floors) in the Microsoft Places documentation.
+> - The tenant admin must add buildings to Microsoft Places so that users can set their locations with building details. For more information, go to [Configure buildings and floors](/microsoft-365/places/get-started/quick-setup-buildings-floors) in the Microsoft Places documentation.
 >
-> - In Exchange hybrid environments, Places features are only available for users with a mailbox managed in Exchange Online. Users with an on-premises mailbox can't use work plans or many other Places features. To learn more about limitations on on-premises resource mailboxes, go to [Set-PlaceV3](/places/powershell/set-placev3).
+> - In Exchange hybrid environments, Places features are only available for users with a mailbox managed in Exchange Online. Users with an on-premises mailbox can't use work plans or many other Places features. To learn more about limitations on on-premises resource mailboxes, go to [Set-PlaceV3](/microsoft-365/places/powershell/set-placev3).
 
 ## Location details in Teams
 

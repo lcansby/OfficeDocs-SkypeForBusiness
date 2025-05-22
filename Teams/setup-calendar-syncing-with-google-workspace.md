@@ -39,7 +39,7 @@ If your business relies on Google Workspace for email and calendaring, you can e
 
 1. Sign into [Teams](https://teams.microsoft.com) using your Global Admin account.
 1. Go to the [Admin app in Teams](https://teams.microsoft.com/l/app/b47c7387-2807-440c-9fc2-7c8f46147a20?source=share-app-dialog).
-1. If you haven't already connected your custom business domain with Microsoft 365, select the **Use your existing email and custom domain with Teams** option on the Admin app home page and proceed to "[Use your existing email and custom domain with Teams](#use-your-existing-email-and-custom-domain-with-teams)."
+1. If your custom business domain isn't already connected with Microsoft 365, select the **Use your existing email and custom domain with Teams** option on the Admin app home page and proceed to "[Use your existing email and custom domain with Teams](#use-your-existing-email-and-custom-domain-with-teams)."
 1. If your domain is already connected, select the **Set up calendar synchronization** option on the Admin app home page and proceed to "[Set up calendar synchronization](#set-up-calendar-synchronization)."
 
 ## Use your existing email and custom domain with Teams

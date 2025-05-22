@@ -78,6 +78,10 @@ Customers in the call queue are presented to agents in the order of their priori
 
 The following command shows how to set the call priority for a call queue based on the dialed number (Gold, Silver, Bronze, General):
 
+<!-- markdownlint-disable MD040 -->
+<details>
+<summary>Expand to see the PowerShell example</summary>
+
 ```powershell
 # Assign resource accounts to call queue
 $callQueueID = (Get-CsCallQueue -NameFilter "Support").Identity
@@ -91,6 +95,9 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($silverID) -Configurati
 New-CsOnlineApplicationInstanceAssociation -Identities @($bronzeID) -ConfigurationID $callQueueID -ConfigurationType CallQueue -CallPriority 3
 New-CsOnlineApplicationInstanceAssociation -Identities @($generalID) -ConfigurationID $callQueueID -ConfigurationType CallQueue -CallPriority 4
 ```
+
+</details>
+<!-- markdownlint-enable MD040 -->
 
 ### Scenario 2: Priority to callers based on Auto attendant menu choices
 
@@ -107,6 +114,10 @@ Callers who press 1 get top priority and connect to agents first, followed by ca
 :::image type="content" source="media/cq-call-priorities-scenario-2.png" alt-text="Screenshot showing the call flow for Scenario 2.":::
 
 The following command shows how to set the call priority for a call queue based on the Auto attendant menu choices (immediate assistance, existing booking, new booking, other inquiries):
+
+<!-- markdownlint-disable MD041 -->
+<details>
+<summary>Expand to see the PowerShell example</summary>
 
 ```powershell
 # Create the Auto Attendant
@@ -128,6 +139,9 @@ $defaultMenu = New-CsAutoAttendantMenu -Name "Default menu" -Prompts @($menuProm
 $defaultCallFlow = New-CsAutoAttendantCallFlow -Name "Default call flow" -Greetings @($greetingPrompt) -Menu $defaultMenu
 New-CsAutoAttendant -Name "Contoso Travel" -LanguageId en-US -TimeZoneId "Eastern Standard Time" -DefaultCallFlow $defaultCallFlow 
 ```
+
+</details>
+<!-- markdownlint-enable MD041 -->
 
 ### Scenario 3: Priority to agents transferring calls to another call queue
 

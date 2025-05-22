@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 ---
 
-# Set up calendar syncing between Google Workspace and Microsoft Teams for your small or medium business
+# Set up calendar syncing between Google Workspace and Microsoft Teams for your business
 
 > [!NOTE]
 > If your primary email service provider is Microsoft or another service provider other than Google Workspace, you can connect your business domain and email to Teams to manage Teams meetings by following the process in [Integrating your business email with Microsoft Teams](/MicrosoftTeams/integrating-business-email?branch=main).
 
-If your small or medium business relies on Google Workspace for email and calendaring, you can enable bidirectional syncing with Microsoft Teams. Enabling sync reduces missed meetings and simplifies meeting management by ensuring events and meeting responses created in either platform are seamlessly reflected in both.
+If your business relies on Google Workspace for email and calendaring, you can enable bidirectional syncing with Microsoft Teams. Enabling sync reduces missed meetings and simplifies meeting management by ensuring events and meeting responses created in either platform are seamlessly reflected in both.
 
 > [!NOTE]
 > Currently, this set up is only available to small and medium business administrators with a Teams Essentials license and using Google Workspace with a custom domain for email and calendaring.
@@ -71,7 +71,7 @@ If your small or medium business relies on Google Workspace for email and calend
 
 1. Review the Calendar sync **Overview** page and select **Get Started**.
 1. Before moving forward in the Setup Wizard in Microsoft Teams, you must install an application in Google Marketplace that authorizes Microsoft to access your Google user directory and manage their calendars. To do this, select the **Go to Google Workspace Marketplace** button to go to the Google Workspace Marketplace, choose **Install**, and follow the steps to authorize access. These permissions are used solely for calendar synchronization.
-1. After the installation, return to the Setup Wizard in Teams. Select the **I have installed the Microsoft 365 Mail Migration app** checkbox in Google Workspace and select **Next**.
+1. After the installation, return to the Setup Wizard in Teams. Select the **I have installed the Microsoft 365 Mail Migration and Calendar Sync app** checkbox in Google Workspace and select **Next**.
 1. When prompted, sign in to your Google Workspace administrator account. Select the **Sign in to Google Workspace** button, enter your credentials in the pop-up dialog box, and follow the instructions to sign in and provide consent.
 
     Once you're successfully signed in, you may get a loading screen as the system imports the Google user-account details and performs matching with the corresponding Microsoft user accounts.  

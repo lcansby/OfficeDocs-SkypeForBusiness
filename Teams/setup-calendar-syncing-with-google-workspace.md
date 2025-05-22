@@ -109,7 +109,7 @@ If your business relies on Google Workspace for email and calendaring, you can e
 
 **I previously set up calendar forwarding using this wizard. Can I switch to the sync experience?**
 
-- If you have set up calendar forwarding using this wizard in the past, you can't set up bidirectional syncing at this time. We're working to improve this experience. For updates, check your Microsoft Admin Center Message Center posts or this article.
+- If calendar forwarding using this wizard was set up in the past, you can't set up bidirectional syncing at this time. We're working to improve this experience. For updates, check your Microsoft Admin Center Message Center posts or this article.
 
 **How can I share feedback about this experience?**
 

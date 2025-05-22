@@ -23,6 +23,7 @@ Not all features available in new Microsoft Teams desktop clients are available 
 
 |Category|Feature Name|Details|Link|
 |:-----|:-----|:-----|:-----|
+|Early Access|Public Preview|Public Preview is unavailable on Microsoft Teams on the web. Only users assigned to the *Microsoft 365 Targeted release* see preview features on Microsoft Teams on the web|[Details](public-preview-doc-updates.md?tabs=new-teams-client)|
 |Availability|Desktop-wide idle detection|Teams for Web sets status for users based on activity within the browser tab, not activity across the desktop while Teams for Web is in the background|[Details](https://support.microsoft.com/office/change-your-status-in-microsoft-teams-ce36ed14-6bc9-4775-a33e-6629ba4ff78e)|
 |Chat|Open chat or post in a new window||[Details](https://support.microsoft.com/office/open-a-chat-in-a-new-window-in-microsoft-teams-cff95cb0-34af-423f-8f69-fe9106973790)|
 |Meetings and Calls|Max gallery sizes in Meetings|<ul><li>Microsoft Edge and Chrome: no gallery sizes greater than nine in meetings</li> <li>Safari and Firefox: no gallery sizes greater than four in meetings</li></ul>|[Details](https://support.microsoft.com/office/using-video-in-microsoft-teams-3647fc29-7b92-4c26-8c2d-8a596904cdae)|

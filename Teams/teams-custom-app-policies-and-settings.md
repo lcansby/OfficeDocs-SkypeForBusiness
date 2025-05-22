@@ -97,6 +97,8 @@ Alternatively, an org user can submit an updated custom app for your approval. W
 
 Microsoft Teams provides granular control over who can add custom apps to a team. To control if custom apps can be added to a team or not, admins and team owners use the following settings. These settings don't affect the ability to block third-party apps.
 
+* [**Org-wide app settings**](manage-apps.md#manage-org-wide-app-settings) for entire organization: The setting named **Let users interact with custom apps in preview** lets you either allow or disallow all your users across the organization to interact with custom apps. Users can upload custom apps only for their personal use or within their teams.
+
 * [**App setup policy**](#app-setup-policy-settings-for-custom-apps) for specific users: The setting named **Upload custom apps** in the app setup policy lets assigned users upload custom apps. You can use this setting to allow specific users in your org to upload custom apps.
 
    :::image type="content" source="media/upload-custom-app-setup-policy.png" alt-text="Screenshot showing the custom app option available in an app setup policy.":::

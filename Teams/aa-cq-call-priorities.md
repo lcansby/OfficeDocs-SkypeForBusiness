@@ -76,7 +76,7 @@ Customers in the call queue are presented to agents in the order of their priori
 
 :::image type="content" source="media/cq-call-priorities-scenario-1.svg" alt-text="Screenshot showing the call flow for Scenario 1.":::
 
-The following command shows how to set the call priority for a call queue based on the dialed number (Gold, Silver, Bronze, General):
+The following command uses the [New-CsOnlineApplicationInstanceAssociation](/powershell/module/teams/new-csonlineapplicationinstanceassociation) cmdlet with the `-CallPriority` parameter to set the call priority for a call queue based on the dialed number (Gold, Silver, Bronze, General):
 
 <!-- markdownlint-disable MD040 -->
 <details>
@@ -113,7 +113,7 @@ Callers who press 1 get top priority and connect to agents first, followed by ca
 
 :::image type="content" source="media/cq-call-priorities-scenario-2.png" alt-text="Screenshot showing the call flow for Scenario 2.":::
 
-The following command shows how to set the call priority for a call queue based on the Auto attendant menu choices (immediate assistance, existing booking, new booking, other inquiries):
+The following command uses the [New-CsAutoAttendantCallableEntity](/powershell/module/teams/new-csautoattendantcallableentity) cmdlet with the `-CallPriority` parameter to set the call priority for a call queue based on the Auto attendant menu choices (immediate assistance, existing booking, new booking, other inquiries):
 
 <!-- markdownlint-disable MD041 -->
 <details>
@@ -169,3 +169,5 @@ Keep in mind the following considerations when configuring call priorities:
 [Set up call queues in Microsoft Teams](create-a-phone-system-call-queue.md)
 
 [Manage resource accounts in Microsoft Teams](manage-resource-accounts.md)
+
+[Call flows in Microsoft Teams](microsoft-teams-online-call-flows.md)

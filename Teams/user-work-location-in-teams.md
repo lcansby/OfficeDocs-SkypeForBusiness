@@ -25,7 +25,7 @@ appliesto:
 
 # User work location in Teams
 
-Work location is part of a user's profile in Microsoft Teams and throughout Microsoft 365. Users can set work locations in Microsoft Teams and share visibility for each day they're in the office or working from home, making it easier to coordinate in-person meetings. By default, anyone in the organization using Teams can see locations shared by others, including location changes in nearly real time.
+Work location is part of a user's profile in Microsoft Teams and throughout Microsoft 365. Users can set work locations in Microsoft Teams and share visibility for each day they're in the office or working from home, making it easier to coordinate in-person meetings. By default, anyone in the organization using Teams can see, in nearly real time, locations shared by others.
 
 ## Work location options in Teams
 
@@ -42,13 +42,13 @@ Users can also set up a recurring work plan for each day of the week by [setting
 > [!NOTE]
 > - The tenant admin must add buildings to Microsoft Places so that users can set their locations with building details. For more information, go to [Configure buildings and floors](/microsoft-365/places/get-started/quick-setup-buildings-floors) in the Microsoft Places documentation.
 >
-> - In Exchange hybrid environments, Places features are only available for users with a mailbox managed in Exchange Online. Users with an on-premises mailbox can't use work plans or many other Places features. To learn more about limitations on on-premises resource mailboxes, go to [Set-PlaceV3](/microsoft-365/places/powershell/set-placev3).
+> - In Exchange hybrid environments, Places features are only available for users with a mailbox managed in Exchange Online. Users with an on-premises mailbox can't use work plans or many other Places features.
 
 ## Location details in Teams
 
 Users can learn where coworkers are working on a given day from their coworkers' profile card details. [Profile cards](https://support.microsoft.com/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501) make it easy for users to quickly get an overview of coworkers' online status, next available time to meet, work hours, local time, and work location.
 
-Also, users in a group chat can find the location details of other group chat members by opening the list view.
+Also, users in a group chat can find the location details of other group chat members by opening the chat member list view.
 
 When a user is chatting from the same location as the chat recipient, location details display on the top header area of the chat message window.
 

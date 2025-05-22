@@ -372,7 +372,6 @@ items:
       items:
       - name: Intelligent recap for Teams calls and meetings
         href: intelligent-recap-calls-meetings.md
-        anchor: intelligent-recap-calls-meetings
       - name: Manage transcriptions and captions for Teams meetings
         href: meeting-transcription-captions.md
       - name: Manage voice isolation for calls and meetings

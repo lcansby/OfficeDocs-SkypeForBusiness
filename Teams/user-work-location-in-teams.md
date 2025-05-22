@@ -46,7 +46,7 @@ Users can also set up a recurring work plan for each day of the week by [setting
 
 ## Location details in Teams
 
-Users can learn where coworkers are working on a given day from their coworkers' profile card details. [Profile cards](https://support.microsoft.com/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501) make it easy for users to quickly get an overview of coworkers' online status, next available time to meet, work hours, local time, and work location.
+Users can learn where coworkers are working at any time from their coworkers' profile card details. [Profile cards](https://support.microsoft.com/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501) make it easy for users to quickly get an overview of coworkers' online status, next available time to meet, work hours, local time, and work location.
 
 Also, users in a group chat can find the location details of other group chat members by opening the chat member list view.
 

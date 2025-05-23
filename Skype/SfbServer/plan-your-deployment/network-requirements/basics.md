@@ -17,6 +17,8 @@ description: "Windows Server 2016 has built-in software that can provide DNS ser
 
 # DNS basics
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 Windows Server 2016 has built-in software that can provide DNS services, so you might want to review the available documentation such as the [DNS Policy Scenario Guide](/windows-server/networking/dns/deploy/dns-policy-scenario-guide). You can choose a third-party solution if you prefer.
   
 We recommend that as a best practice you dedicate a specific server in your implementation to provide DNS. You could potentially set it up on one of the servers dedicated to one of the Skype for Business server roles, but if that server was also part of a pool and got decommissioned by accident Skype for Business would malfunction until DNS services were re-established.

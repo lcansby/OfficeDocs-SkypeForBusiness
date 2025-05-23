@@ -21,6 +21,8 @@ description: "Summary: Review the DNS considerations in this article before impl
 
 # DNS requirements for Skype for Business Server
 
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 **Summary:** Review the DNS considerations in this article before implementing Skype for Business Server.
 
 This article only addresses DNS planning for Skype for Business Server deployments on an organization's on-premises network. For Skype for Business Online refer to "Office 365 URLs and IP address ranges" at [https://aka.ms/o365ips](/microsoft-365/enterprise/urls-and-ip-address-ranges).

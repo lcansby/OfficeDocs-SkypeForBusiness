@@ -21,6 +21,8 @@ description: "Summary: Learn about the things you should consider when you plan 
 
 # Plan to upgrade to Skype for Business Server 2015
  
+[!INCLUDE [appliesto-2015-xxx-xxx](../../SfBServer2019/includes/appliesto-2015-xxx-xxx.md)]
+
 Summary: Learn about the things you should consider when you plan an upgrade to Skype for Business Server 2015.
   
 As part of your plan to upgrade to Skype for Business Server 2015, use this topic to understand the recommended upgrade paths to Skype for Business Server 2015, how the In-Place Upgrade works, what the supported coexistence scenarios are, and what the upgrade process looks like.

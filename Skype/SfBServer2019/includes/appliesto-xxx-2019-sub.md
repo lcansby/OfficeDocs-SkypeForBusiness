@@ -1,6 +1,6 @@
 ---
-author: SerdarSoysal
-ms.author: serdars
+author: jacktremper
+ms.author: jtremper
 ms.date: 06/06/2025
 ms.topic: include
 ms.service: skype-for-business-server

@@ -52,6 +52,9 @@ Also, users in a group chat can find the location details of other group chat me
 
 When a user is chatting from the same location as the chat recipient, location details display on the top header area of the chat message window.
 
+> [!TIP]
+> By default, all of a user's location details are visible to other users, but admins can use the &#8209;`LocationDetailsInFreeBusy` parameter to the [`set-mailboxconfiguration` Exchange PowerShell cmdlet](/powershell/module/exchange/set-mailboxcalendarconfiguration#-locationdetailsinfreebusy) to control the level of location detail that is visible.
+
 ## User settings to edit location sharing
 
 Users must opt in to location sharing by manually setting up their work locations. By opting in, users enable anyone in their organization to view this information.

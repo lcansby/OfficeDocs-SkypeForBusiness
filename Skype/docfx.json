@@ -93,20 +93,50 @@
         ]
       }
     ],
-    "resource": [
-      {
-        "src": "Skype/*/media",
-        "files": ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
-        "exclude": ["**/obj/**", "**/includes/**"],
-        "dest": "Skype"
-      },
-      {
-        "src": "Skype/media",
-        "files": ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
-        "exclude": ["**/obj/**", "**/includes/**"],
-        "dest": "Skype/media"
-      }
-    ],
+	"resource": [
+	  {
+		"src": "Skype/SfBServer2019/media",
+		"files": ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
+		"exclude": ["**/obj/**", "**/includes/**"],
+		"dest": "Skype/SfBServer2019/media"
+	  },
+	  {
+		"src": "Skype/SfbHybrid/media",
+		"files": ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
+		"exclude": ["**/obj/**", "**/includes/**"],
+		"dest": "Skype/SfbHybrid/media"
+	  },
+	  {
+		"src": "Skype/SfbOnline/media",
+		"files": ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
+		"exclude": ["**/obj/**", "**/includes/**"],
+		"dest": "Skype/SfbOnline/media"
+	  },
+	  {
+		"src": "Skype/SfbServer/media",
+		"files": ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
+		"exclude": ["**/obj/**", "**/includes/**"],
+		"dest": "Skype/SfbServer/media"
+	  },
+	  {
+		"src": "Skype/Hub/media",
+		"files": ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
+		"exclude": ["**/obj/**", "**/includes/**"],
+		"dest": "Skype/Hub/media"
+	  },
+	  {
+		"src": "Skype/SfbPartnerCertification/media",
+		"files": ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
+		"exclude": ["**/obj/**", "**/includes/**"],
+		"dest": "Skype/SfbPartnerCertification/media"
+	  },
+	  {
+		"src": "Skype/media",
+		"files": ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
+		"exclude": ["**/obj/**", "**/includes/**"],
+		"dest": "Skype/media"
+	  }
+	],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {

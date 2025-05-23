@@ -95,44 +95,44 @@
     ],
     "resource": [
       {
-        "src": "Skype/SfBServer2019/media",
-        "files": ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
+        "src": "SfbServer",
+        "files": ["**/media/*.{png,jpg,jpeg,gif,svg}"],
         "exclude": ["**/obj/**", "**/includes/**"],
         "dest": "."
       },
       {
-        "src": "Skype/SfbHybrid/media",
-        "files": ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
+        "src": "SfBServer2019",
+        "files": ["**/media/*.{png,jpg,jpeg,gif,svg}"],
         "exclude": ["**/obj/**", "**/includes/**"],
         "dest": "."
       },
       {
-        "src": "Skype/SfbOnline/media",
-        "files": ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
+        "src": "SfbHybrid",
+        "files": ["**/media/*.{png,jpg,jpeg,gif,svg}"],
         "exclude": ["**/obj/**", "**/includes/**"],
         "dest": "."
       },
       {
-        "src": "Skype/SfbServer/media",
-        "files": ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
+        "src": "SfbOnline",
+        "files": ["**/media/*.{png,jpg,jpeg,gif,svg}"],
         "exclude": ["**/obj/**", "**/includes/**"],
         "dest": "."
       },
       {
-        "src": "Skype/Hub/media",
-        "files": ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
+        "src": "Hub",
+        "files": ["**/media/*.{png,jpg,jpeg,gif,svg}"],
         "exclude": ["**/obj/**", "**/includes/**"],
         "dest": "."
       },
       {
-        "src": "Skype/SfbPartnerCertification/media",
-        "files": ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
+        "src": "SfbPartnerCertification",
+        "files": ["**/media/*.{png,jpg,jpeg,gif,svg}"],
         "exclude": ["**/obj/**", "**/includes/**"],
         "dest": "."
       },
       {
-        "src": "Skype/media",
-        "files": ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
+        "src": "Skype",
+        "files": ["**/media/*.{png,jpg,jpeg,gif,svg}"],
         "exclude": ["**/obj/**", "**/includes/**"],
         "dest": "."
       }

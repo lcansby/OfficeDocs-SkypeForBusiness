@@ -121,8 +121,10 @@ Skype for Business Server supports AlwaysOn with the following database software
 - SQL Server 2016 Standard Edition with limitations, see note below
 
 - SQL Server 2014 Enterprise Edition
-    
+
 - SQL Server 2012 SP2 and CU2 Enterprise Edition
+
+- SQL Server 2022 starting with Skype for Business 2019 CU8
 
 > [!NOTE]
 > SQL Server 2019, 2017, and 2016 are the only versions supported by Skype for Business Server 2019.
@@ -146,8 +148,10 @@ Skype for Business Server supports SQL Server failover clustering with the follo
 - SQL Server 2016, both Enterprise Edition and Standard Edition
 
 - SQL Server 2014, both Enterprise Edition and Standard Edition
-    
+
 - SQL Server 2012 SP2 and CU2, both Enterprise Edition and Standard Edition
+
+- SQL Server 2022 starting with Skype for Business 2019 CU8
 
 To use SQL failover clustering, you should first set up and configure the SQL Server cluster before deploying your Front End pool. For best practices and setup instructions for failover clustering in SQL Server 2012, see [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation).
 

@@ -17,6 +17,8 @@ description: "Learn about what users experience when a Front End pool fails over
 ---
 
 # User experience during pool failure in Skype for Business Server
+
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
  
 Learn about what users experience when a Front End pool fails over or fails back during disaster recovery in Skype for Business Server.
   

@@ -18,6 +18,8 @@ description: "Learn about Front End pool management in Skype for Business Server
 
 # Front End Pool high availability and management
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 Learn about Front End pool management in Skype for Business Server, including managing pools, quorum loss, and special steps for pools with only two Front End Servers.
   
 In Skype for Business Server, the architecture of Front End pools uses a distributed systems model, with each user's data kept on as many as three Front End Servers in the pool. We recommend that all your Enterprise Edition Front End pools include at least three Front End Servers.

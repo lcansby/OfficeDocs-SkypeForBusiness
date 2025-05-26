@@ -17,6 +17,8 @@ description: "Summary: Read this topic to learn how to plan for high availabilit
 
 # Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 **Summary:** Read this topic to learn how to plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server.
   
 High availability and disaster recovery for Persistent Chat Server require additional resources beyond what is typically needed for full operation. 

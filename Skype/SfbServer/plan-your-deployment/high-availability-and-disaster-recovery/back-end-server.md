@@ -18,6 +18,8 @@ description: "Learn about the Back End Server high availability options supporte
 
 # Back End Server high availability in Skype for Business Server
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 Learn about the Back End Server high availability options supported in Skype for Business Server, including AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances, database mirroring, and SQL failover clustering.
   
 To enhance high availability for your Back End Servers, you have four options:

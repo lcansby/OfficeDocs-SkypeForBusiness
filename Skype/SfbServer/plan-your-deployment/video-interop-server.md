@@ -17,7 +17,7 @@ description: "Summary: Review this article while planning to integrate Skype for
 
 # Plan for Video Interop Server in Skype for Business Server
 
-[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)] 
+[!INCLUDE [appliesto-2015-2019-sub](../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
 
 **Summary:** Review this article while planning to integrate Skype for Business Server with partner teleconferencing devices.
   

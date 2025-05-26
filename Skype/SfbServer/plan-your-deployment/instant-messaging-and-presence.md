@@ -17,7 +17,7 @@ description: "Summary: Learn how to plan for instant messaging and presence in S
 
 # Plan for instant messaging and presence in Skype for Business Server
  
-[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+[!INCLUDE [appliesto-2015-2019-sub](../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
 
 **Summary:** Learn how to plan for instant messaging and presence in Skype for Business Server.
   

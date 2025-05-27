@@ -159,3 +159,4 @@ LED indicators on line keys provide visual cues for call status: 
 - [Microsoft Certified Teams phones](../devices/teams-phones-certified-hardware.md)
 
 - [Phones for Microsoft Teams](phones-for-teams.md)
+

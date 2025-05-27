@@ -32,7 +32,7 @@ To enhance high availability for your Back End Servers, you have four options:
     
 Using one of these solutions is optional, but is recommended to maintain your organization's business continuity. Otherwise, having a single database server go down could cause the loss of significant Skype for Business Server data. 
   
-You can set up database mirroring using only Topology Builder. For AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances,or SQL failover clustering, you use SQL Server to create the high availability solution, then you can use Topology Builder to associate it with a Front End pool.
+You can set up database mirroring using only Topology Builder. For AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances, or SQL failover clustering, you use SQL Server to create the high availability solution, then you can use Topology Builder to associate it with a Front End pool.
   
 If you use Back End Server high availability on a Front End pool that is paired with another Front End pool for disaster recovery, you should use the same Back End high availability solution in both pools. 
   
@@ -54,15 +54,15 @@ Skype for Business Server supports mirroring with the following database softwar
 > [!NOTE]
 > SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are the only supported options with Skype for Business Server 2019.
     
-Asynchronous database mirroring is not supported for Back End Server high availability in Skype for Business Server. In the rest of this document, database mirroring means synchronous database mirroring, unless otherwise explicitly stated. 
+Asynchronous database mirroring isn't supported for Back End Server high availability in Skype for Business Server. In the rest of this document, database mirroring means synchronous database mirroring, unless otherwise explicitly stated. 
   
 When you deploy database mirroring in a Front End pool, all Skype for Business Server databases in the pool are mirrored, including the Central Management store, if it is located in this pool, as well as the Response Group application database and the Call Park application database, if those applications are running in the pool. 
   
-With database mirroring, you do not need to use shared storage for the servers. Each server keeps its copy of the databases in local storage. 
+With database mirroring, you don't need to use shared storage for the servers. Each server keeps its copy of the databases in local storage. 
   
 You may choose to deploy database mirroring with or without a witness. We recommend using a witness because it enables failover of the Back End Server to be automatic. Otherwise, an administrator must manually invoke failover. Note that even if a witness is deployed, an administrator can manually invoke Back End Server failover, if necessary.
   
-If you use a witness, you can use a single witness for multiple pairs of Back End Servers. There is no strict 1:1 correspondence between witnesses and pairs of Back End Servers. Deployments that use a single witness for multiple pairs of Back End Servers are not quite as resilient as topologies with a separate witness for each Back End Server pair. 
+If you use a witness, you can use a single witness for multiple pairs of Back End Servers. There's no strict 1:1 correspondence between witnesses and pairs of Back End Servers. Deployments that use a single witness for multiple pairs of Back End Servers aren't quite as resilient as topologies with a separate witness for each Back End Server pair. 
   
 ### Guidelines for planning Back End Server mirroring
 
@@ -74,9 +74,9 @@ In general, setting up SQL mirroring between the two Back End Servers with a wit
     
 - The primary and the mirror must have the same edition of SQL Server. The witness may have a different edition.
     
-For SQL best practices in terms of what SQL versions are supported for a Witness role, see  ["Database Mirroring Witness"](/sql/database-engine/database-mirroring/database-mirroring-witness) in the MSDN Library.
+For SQL best practices in terms of what SQL versions are supported for a Witness role, see ["Database Mirroring Witness"](/sql/database-engine/database-mirroring/database-mirroring-witness) in the MSDN Library.
   
-Before configuring server mirroring, you must first set up SQL database permissions correctly. For details, see  ["Set Up Login Accounts for Database Mirroring or AlwaysOn Availability Groups (SQL Server)"](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability).
+Before configuring server mirroring, you must first set up SQL database permissions correctly. For details, see ["Set Up Login Accounts for Database Mirroring or AlwaysOn Availability Groups (SQL Server)"](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability).
   
 With SQL mirroring, database recovery mode is always set to **Full**, which means you must closely monitor transaction log size and back up transaction logs on a regular basis to avoid running out of disk space on the Back End Servers. The frequency of transaction log backups depends on the log growth rate, which in turn depends on database transactions incurred by user activities on the Front End pool. We recommend that you determine how much transaction log growth is expected for your Lync deployment workload so that you can do the planning accordingly. The following articles provide additional information on SQL backup and log management:
   
@@ -94,9 +94,9 @@ For automatic Back End failover with database mirroring, the engineering target 
 
 User experience during a failure depends on the nature of the failure, and on your topology.
   
-If you use database mirroring and have a witness configured, and the principal fails, Back End Server failover happens automatically and quickly. Active users should not notice much interruption to their ongoing sessions.
+If you use database mirroring and have a witness configured, and the principal fails, Back End Server failover happens automatically and quickly. Active users shouldn't notice much interruption to their ongoing sessions.
   
-If there is no witness configured, it will take some time for the administrator to manually invoke the failover. During that time, active users may be affected. They will continue their sessions as normal for about 30 minutes. If the primary is still not restored, or an administrator has not failed over to the backup, then users are switched to Resiliency mode, meaning that they are unable to perform tasks that require a persistent change on Lync Server (such as adding a contact).
+If there's no witness configured, it will take some time for the administrator to manually invoke the failover. During that time, active users may be affected. They will continue their sessions as normal for about 30 minutes. If the primary is still not restored, or an administrator has not failed over to the backup, then users are switched to Resiliency mode, meaning that they are unable to perform tasks that require a persistent change on Lync Server (such as adding a contact).
   
 If both the principal and the mirror Back End Servers fail, or if one of those servers and the witness fails, the Back End Server will become unavailable (even if it is the principal that is still working). In this case, active users are switched to Resiliency mode after some time.
   

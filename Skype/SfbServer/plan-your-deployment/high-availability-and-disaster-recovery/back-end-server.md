@@ -127,10 +127,10 @@ Skype for Business Server supports AlwaysOn with the following database software
 - SQL Server 2022 starting with Skype for Business 2019 CU8
 
 > [!NOTE]
-> SQL Server 2019, 2017, and 2016 are the only versions supported by Skype for Business Server 2019.
+> SQL Server 2022, 2019, 2017, and 2016 are the only versions supported by Skype for Business Server 2019.
 
 > [!NOTE]
-> Always On Availability Groups is **not** supported in SQL 2016, 2017, and 2019 Standard Editions but you can use Always On Failover Cluster Instances. See [Editions and supported features of SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017&preserve-view=true) to learn more.
+> Always On Availability Groups is **not** supported in SQL 2016, 2017, 2019, and 2022 Standard Editions but you can use Always On Failover Cluster Instances. See [Editions and supported features of SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017&preserve-view=true) to learn more.
   
 > [!IMPORTANT]
 > Instance names for multiple AlwaysOn Availability Group instances must be the same. 
@@ -156,7 +156,7 @@ Skype for Business Server supports SQL Server failover clustering with the follo
 To use SQL failover clustering, you should first set up and configure the SQL Server cluster before deploying your Front End pool. For best practices and setup instructions for failover clustering in SQL Server 2012, see [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation).
 
 > [!NOTE]
-> SQL Server 2019, 2017, and SQL Server 2016 are the only versions supported by Skype for Business Server 2019.
+> SQL Server 2022, 2019, 2017, and SQL Server 2016 are the only versions supported by Skype for Business Server 2019.
     
 To use SQL failover clustering, you should first set up and configure the SQL Server cluster before deploying your Front End pool. For best practices and setup instructions for failover clustering in SQL Server 2014 and 2016, see [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation). For failover clustering in SQL Server 2008, see [https://technet.microsoft.com/library/ms189134(v=sql.105).aspx](/previous-versions/sql/sql-server-2008-r2/ms189134(v=sql.105)).
   

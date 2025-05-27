@@ -21,6 +21,8 @@ description: "Learn about network regions, network sites, and IP subnets. All th
 
 # Network settings for the advanced Enterprise Voice features in Skype for Business Server
 
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 Learn about network regions, network sites, and IP subnets. All these must be configured to deploy [Plan for media bypass in Skype for Business](media-bypass.md), [Plan for call admission control in Skype for Business Server](call-admission-control.md), or [Plan for emergency services in Skype for Business Server](emergency-services.md) in Skype for Business Server Enterprise Voice.
 
 Skype for Business Server has three advanced Enterprise Voice features: [Plan for call admission control in Skype for Business Server](call-admission-control.md), [Plan for emergency services in Skype for Business Server](emergency-services.md), and [Plan for media bypass in Skype for Business](media-bypass.md). These features share certain configuration requirements for network regions, network sites, and association of each subnet in the Skype for Business Server topology with a network site.

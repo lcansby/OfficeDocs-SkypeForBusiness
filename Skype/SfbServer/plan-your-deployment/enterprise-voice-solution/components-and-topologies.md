@@ -21,6 +21,8 @@ description: "Planning for call admission control (CAC) if you have an MPLS netw
 
 # Components and topologies for call admission control in Skype for Business
 
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 Planning for call admission control (CAC) if you have an MPLS network, a SIP trunk, or a third-party PSTN gateway or PBX. Applies to Skype for Business Server Enterprise Voice.
 
 The topics in this section provide information about special considerations for deploying call admission control (CAC) with various types of network topologies.

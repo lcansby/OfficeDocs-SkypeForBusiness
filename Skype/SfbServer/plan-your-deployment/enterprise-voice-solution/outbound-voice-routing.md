@@ -20,6 +20,8 @@ description: "Learn about outbound voice routing in Skype for Business Server En
 ---
 
 # Plan for outbound voice routing in Skype for Business Server
+
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
  
 Learn about outbound voice routing in Skype for Business Server Enterprise Voice, including call routing settings, dial plans, normalization rules, voice policies, PSTN usage records, and voice routes.
   

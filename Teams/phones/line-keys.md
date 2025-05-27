@@ -52,17 +52,26 @@ To set up a line key for speed dial, follow these steps:
 
 After updating the phone, you notice a new home screen experience on your device with a dedicated place for your line keys. To update your Teams phones, see [Update your phones remotely](remote-update-teams-phones.md).  Verify that you're running the minimum Teams versions.
 
-1. You can see the versioning information in the Teams admin center or on the Teams phone.
+1. You can see the versioning information in the Teams admin center or on the Teams phone
 
    To see it in the Teams admin center:
-   
-1. Sign in to the Teams admin center.
-1. Go to **Teams devices** > **Phones** > then select the phone you want to look at.
-1. Then in the table under **Software type** look for **Teams** and in the **Current version** column you can see the version.
 
-   To see the versioning information on the Teams phone itself: Go to the **Profile** icon > **Settings** > **About**.
+1. Sign in to the Teams admin center
+
+1. Go to **Teams devices** > **Phones** > then select the phone you want to look at
+
+1. Then in the table under **Software type** look for **Teams** and in the **Current version** column you can see the version
+
+   To see the versioning information on the Teams phone itself: Go to the **Profile** icon > **Settings** > **About**
    
-##     Assign line keys 
+## Assignment of line keys
+
+When you first start to assign line keys, you see this image showing available and unassigned line keys: 
+
+![L2 First Time](media/line-keys/l2-first-time.png)
+
+> [!NOTE]
+> Line key assignment UI might differ on touch, nontouch, and sidecar devices.
 
 1. Steps to assign line keys:
 
@@ -72,10 +81,6 @@ After updating the phone, you notice a new home screen experience on your device
    
    1. Choose the type of assignment (for example, contact, shared line, call queue)
       
-   1. Search for an existing contact or group, or enter a new phone number  
-   
-   1. Confirm the assignment
-   
 1. The following options are supported for assignment:
 
    1. Speed dial: Assign a frequently contacted person or external phone number
@@ -88,9 +93,9 @@ After updating the phone, you notice a new home screen experience on your device
       
    1. Call transfer: Assign a contact to enable one-touch transfer of active calls
       
-## Manage line keys 
+## Management of line keys
 
-To manage line keys, users can assign a contact or phone number to a line key by selecting or long pressing the key. Unassigned line keys can be hidden via the Calling settings menu.  Management options include:  
+Users can manage an assigned line key by selecting or long pressing the key. Management options include:  
 
 1. Assign: Add a new contact or number 
 
@@ -100,7 +105,9 @@ To manage line keys, users can assign a contact or phone number to a line key by
 
 1. Manage: View and edit all line key assignments
 
-## Handle calls using assigned line keys 
+Unassigned line keys can be hidden via the Calling settings menu. 
+
+## Call handling assigned line keys
 
 1. Speed Dial:  Assign frequently contacted numbers to line keys for one-touch dialing. 
 
@@ -139,6 +146,9 @@ LED indicators on line keys provide visual cues for call status: 
 1. Solid red: Line is busy or an active call
 
 1. Blinking green: Line is receiving and active call 
+
+> [!NOTE]
+> LED support will be introduced by device manufacturers—please check with them directly for rollout timelines.
 
 ## Frequently Asked Question
 

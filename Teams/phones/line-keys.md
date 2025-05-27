@@ -24,13 +24,13 @@ description: Learn how to set up and manage line or speed dial keys on Microsoft
 
 # Line keys on Microsoft Teams certified phones
 
-This article provides you with guidance on setting up and managing line keys on Microsoft Teams certified phones. This feature allows your users to use a phone line key to set up line keys for quick access using buttons on touch, non-touch and sidecar devices. These keys allow users to quickly access key calling features such as speed dial, shared lines, call queues, and collaborative delegation.
+This article provides you with guidance on setting up and managing line keys on Microsoft Teams certified phones. This feature allows your users to use a phone line key to set up line keys for quick access using buttons on touch, nontouch, and sidecar devices. These keys allow users to quickly access key calling features such as speed dial, shared lines, call queues, and collaborative delegation.
 
 ## Supported Devices 
 
 Line keys are supported on:
 
-- Non-touch Teams phones  
+- Nontouch Teams phones  
 
 - Touch Teams phones (via the Line Keys app on the home screen)  
 
@@ -40,7 +40,7 @@ Line keys are supported on:
 
 To use line keys, devices must be running the following minimum Teams versions:  
 
-- Non-touch devices: 1449/1.0.94.2024101709 or later 
+- Nontouch devices: 1449/1.0.94.2024101709 or later 
 
 - Touch devices: 1449/1.0.94.2025084203 or later 
 
@@ -70,8 +70,8 @@ After updating the phone, you notice a new home screen experience on your device
    
    1. Select Assign line key
    
-   1. Choose the type of assignment (e.g., contact, shared line, call queue)
-   
+   1. Choose the type of assignment (for example, contact, shared line, call queue)
+      
    1. Search for an existing contact or group, or enter a new phone number  
    
    1. Confirm the assignment
@@ -122,7 +122,7 @@ To manage line keys, users can assign a contact or phone number to a line key by
    
 1. Call Queues:  Assign call queues to line keys to:  
 
-   1. Monitor queue status (e.g., available, active call)  
+   1. Monitor queue status (for example, available, active call)  
    
    1. Pick up calls directly from the queue    
    

@@ -148,11 +148,11 @@ LED indicators on line keys provide visual cues for call status: 
 
 **Question:**  What other functions can I perform using line keys?  
 
-**Answer:**  With this update, you can use line keys for quick access to speed dial only. In the future, we support line keys for call controls and offer enhancements for shared line configuration.
+**Answer:**  With this update, you can use line keys for quick access to speed dial, assign shared lines, collaborative call delegation, call queues and call transfers. In the future, we will support line keys for other call controls.
 
 **Question:**  Does this change the existing functionality of sidecars?  
 
-**Answer:**  No, the current functionality of the pinning of speed dial, shared lines, and group contacts doesn't change. However, in future updates, we'll also support ability to configure them as line keys on the sidecar.
+**Answer:**  No, the current functionality of the pinning of speed dial, shared lines, and group contacts doesn't change. However, you can now assign line keys to sidecars in addition to automatic syncing of speed dial, shared lines, and group contacts.
 
 ### Related articles
 

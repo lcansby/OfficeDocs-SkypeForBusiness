@@ -52,100 +52,100 @@ To set up a line key for speed dial, follow these steps:
 
 After updating the phone, you notice a new home screen experience on your device with a dedicated place for your line keys. To update your Teams phones, see [Update your phones remotely](remote-update-teams-phones.md).  Verify that you're running the minimum Teams versions.
 
-1. You can see the versioning information in the Teams admin center or on the Teams phone
+1. You can see the versioning information in the Teams admin center or on the Teams phone.
 
    To see it in the Teams admin center:
 
-1. Sign in to the Teams admin center
+1. Sign in to the Teams admin center.
 
-1. Go to **Teams devices** > **Phones** > then select the phone you want to look at
+1. Go to **Teams devices** > **Phones** > then select the phone you want to look at.
 
-1. Then in the table under **Software type** look for **Teams** and in the **Current version** column you can see the version
+1. Then in the table under **Software type** look for **Teams** and in the **Current version** column you can see the version.
 
-   To see the versioning information on the Teams phone itself: Go to the **Profile** icon > **Settings** > **About**
+   To see the versioning information on the Teams phone itself: Go to the **Profile** icon > **Settings** > **About**.
    
 ## Assignment of line keys
 
-When you first start to assign line keys, you see this image showing available and unassigned line keys: 
+When you first start to assign line keys, you see available and unassigned line keys:
 
-![L2 First Time](media/line-keys/l2-first-time.png)
+![An image showing unassigned line keys. The image shows six boxes with a plus sign to the left of the words Assign line key.](media/line-keys/l2-first-time.png)
 
 > [!NOTE]
 > Line key assignment UI might differ on touch, nontouch, and sidecar devices.
 
 1. Steps to assign line keys:
 
-   1. Find an available line key on your device
+   1. Find an available line key on your device.
    
-   1. Select Assign line key
+   1. Select Assign line key.
    
-   1. Choose the type of assignment (for example, contact, shared line, call queue)
+   1. Choose the type of assignment (for example, contact, shared line, call queue).
       
 1. The following options are supported for assignment:
 
-   1. Speed dial: Assign a frequently contacted person or external phone number
+   1. Speed dial: Assign a frequently contacted person or external phone number.
       
-   1. Shared line: Assign a shared line to monitor and pick up calls on behalf of another user
+   1. Shared line: Assign a shared line to monitor and pick up calls on behalf of another user.
       
-   1. Collaborative call delegation: Assign a boss or delegate group to manage calls collaboratively
+   1. Collaborative call delegation: Assign a boss or delegate group to manage calls collaboratively.
       
-   1. Call queue: Assign a call queue to monitor its status and pick up incoming calls
+   1. Call queue: Assign a call queue to monitor its status and pick up incoming calls.
       
-   1. Call transfer: Assign a contact to enable one-touch transfer of active calls
+   1. Call transfer: Assign a contact to enable one-touch transfer of active calls.
       
 ## Management of line keys
 
 Users can manage an assigned line key by selecting or long pressing the key. Management options include:  
 
-1. Assign: Add a new contact or number 
+- Assign: Add a new contact or number
 
-1. Unassign: Remove an existing assignment 
+- Unassign: Remove an existing assignment
 
-1. Reassign: Change the contact or number 
+- Reassign: Change the contact or number
 
-1. Manage: View and edit all line key assignments
+- Manage: View and edit all line key assignments
 
 Unassigned line keys can be hidden via the Calling settings menu. 
 
 ## Call handling assigned line keys
 
-1. Speed Dial:  Assign frequently contacted numbers to line keys for one-touch dialing. 
+1. Speed Dial:  Assign frequently contacted numbers to line keys for one-touch dialing.
 
 1. Shared Line:  Assign a shared line to a line key to:  
 
-   1. View the presence of the boss and delegates 
+   1. View the presence of the boss and delegates.
       
-   1. Pick up calls on behalf of the boss
+   1. Pick up calls on behalf of the boss.
       
-   1. Barge into active calls 
+   1. Barge into active calls.
    
 1. Collaborative Call Delegation:  Assign a group to a line key to:  
 
-   1. View presence of the group members  
+   1. View presence of the group members.
    
-   1. Pick up incoming calls on behalf of others  
+   1. Pick up incoming calls on behalf of others.
    
-   1. Join active calls  
+   1. Join active calls.
    
 1. Call Queues:  Assign call queues to line keys to:  
 
-   1. Monitor queue status (for example, available, active call)  
+   1. Monitor queue status (for example, available, active call).
    
-   1. Pick up calls directly from the queue    
+   1. Pick up calls directly from the queue.
    
-1. Call Transfers:  Assign a contact to a line key to enable one-touch transfer (including blind and consult transfer) of active calls. 
+1. Call Transfers:  Assign a contact to a line key to enable one-touch transfer (including blind and consult transfer) of active calls.
 
 ## LED conventions of line keys 
 
 LED indicators on line keys provide visual cues for call status:  
 
-1. Solid green: Line is available 
+1. Solid green: Line is available.
 
-1. Blinking red: Line has a call on hold  
+1. Blinking red: Line has a call on hold.
 
-1. Solid red: Line is busy or an active call
+1. Solid red: Line is busy or an active call.
 
-1. Blinking green: Line is receiving and active call 
+1. Blinking green: Line is receiving and active call.
 
 > [!NOTE]
 > LED support will be introduced by device manufacturers—please check with them directly for rollout timelines.

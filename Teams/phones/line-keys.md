@@ -148,7 +148,7 @@ LED indicators on line keys provide visual cues for call status: 
 
 **Question:**  What other functions can I perform using line keys?  
 
-**Answer:**  With this update, you can use line keys for quick access to speed dial, assign shared lines, collaborative call delegation, call queues and call transfers. In the future, we will support line keys for other call controls.
+**Answer:**  With this update, you can use line keys for quick access to speed dial, assign shared lines, collaborative call delegation, call queues and call transfers. In the future, we'll support line keys for other call controls.
 
 **Question:**  Does this change the existing functionality of sidecars?  
 

@@ -36,7 +36,7 @@ description: Learn how to use the Teams Auto Attendant & Call Queue Historical R
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues. It also provides agent performance insights.
 
-## V3.2.1 published on May XX, 2025
+## V3.2.1 published on June 16, 2025
 
 What's new in this release:
 - Resolved the issue on the Auto attendant and Call queue reports that resulted in only the calls and caller actions in the first Auto attendant or Call queue being reported on. Calls and caller actions in chained Auto attendants and Call queues are now reported on.
@@ -869,7 +869,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Supported |Filename                                                    |Description                                                             |
 |:--------|:------------------|:---------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
-|3.2.1    |May XX, 2025    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.2.1 |Now report on chained Auto Attendants and Call Queues     |
+|3.2.1    |June 16, 2025    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.2.1 |Now report on chained Auto Attendants and Call Queues     |
 |3.2.0    |March 21, 2025    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.2.0 |Localization in 45 languages, reporting by Auto Attendant and Call Queue name for authorized users    |
 |3.1.8    |August 12, 2024    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.8 |Bug fix for Date slicer on Call Queue tab                               |
 |3.1.7    |July 15, 2024      |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.7 |Improved support for authorized users, removed original reporting templates |

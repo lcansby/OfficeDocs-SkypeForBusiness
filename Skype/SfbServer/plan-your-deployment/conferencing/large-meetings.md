@@ -17,6 +17,8 @@ description: "Summary: Read this topic to learn about best practices for impleme
 
 # Plan for large meetings in Skype for Business Server
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 **Summary:** Read this topic to learn about best practices for implementing and managing large meetings in Skype for Business Server.
   
 The size of meetings that Skype for Business Server can support depends on whether conferencing is hosted on a shared or dedicated pool: anywhere from 250 participants on a shared pool to 1000 participants on a dedicated pool. 

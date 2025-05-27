@@ -21,6 +21,8 @@ description: "Summary: Plan for your Skype for Business Server Edge environment.
 
 # Plan for Edge Server deployments in Skype for Business Server
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 **Summary:** Plan for your Skype for Business Server Edge environment. This topic introduces you to Edge concepts and lets you get organized with our more in-depth topics.
   
 When you have a Skype for Business Server environment that's working well internally, the next step for you might be to introduce an Edge Server or an Edge pool to the environment. This role would be vital if you want the services provided by Skype for Business Server to be used by people who are outside your internal network. These can potentially include:

@@ -17,6 +17,8 @@ description: "Summary: Read this topic to learn about planning for dial-in confe
 
 # Plan for dial-in conferencing in Skype for Business Server
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 **Summary:** Read this topic to learn about planning for dial-in conferencing in Skype for Business Server.
   
 Dial-in conferencing is an optional feature of Skype for Business Server that allows meeting attendees to join the audio portion of a meeting by calling in to the meeting from a phone. Dial-in conferencing is a subset of audio conferencing and requires additional configuration. This topic describes what you need to think about before deploying dial-in conferencing for your organization. 

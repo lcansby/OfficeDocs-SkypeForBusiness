@@ -30,11 +30,11 @@ This article provides you with guidance on setting up and managing line keys on 
 
 Line keys are supported on:
 
-- Nontouch Teams phones  
+- Nontouch Teams Phones  
 
-- Touch Teams phones (via the Line Keys app on the home screen)  
+- Touch Teams Phones (via the Line Keys app on the home screen)  
 
-- Teams phones with sidecars (for extended key capacity)
+- Teams Phones with sidecars (for extended key capacity)
 
 ## Software Requirements 
 

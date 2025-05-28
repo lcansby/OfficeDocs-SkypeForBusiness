@@ -94,7 +94,7 @@ When you first start to assign line keys, you see available and unassigned line 
    1. Call transfer: Assign a contact to enable one-touch transfer of active calls.
       
 > [!IMPORTANT]
-> Call queue and shared lines assignments on nontouch devices will not work as they are not supported.
+> Call queue and shared lines assignments on nontouch devices don't work as they're not supported.
 
 ## Management of line keys
 

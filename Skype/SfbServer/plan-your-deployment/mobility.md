@@ -18,6 +18,8 @@ description: "Plan for your implementation of Mobility for Skype for Business Se
 
 # Plan for Mobility for Skype for Business Server
  
+[!INCLUDE [appliesto-2015-2019-sub](../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 Plan for your implementation of Mobility for Skype for Business Server.
   
 With Skype for Business Server, you can deploy the Mobility feature to provide Skype for Business Server functionality on mobile devices. This article provides details about the Mobility feature, and helps you plan for your deployment.

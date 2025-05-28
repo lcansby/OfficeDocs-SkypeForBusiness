@@ -18,6 +18,8 @@ description: "Skype for Business Server includes Role-Based Access Control (RBAC
 
 # Role-based access control (RBAC) for Skype for Business Server
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 Skype for Business Server includes Role-Based Access Control (RBAC) groups to enable you to delegate administrative tasks while maintaining high standards for security. These groups are created during forest preparation. For details about forest preparation, see [Active Directory Domain Services for Skype for Business Server](active-directory-domain-services.md). For details about the specific groups created by forest preparation, see [Changes made by forest preparation in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) in the Deployment documentation.
   
 With RBAC, administrative privilege is granted by assigning users to pre-defined administrative roles, including the 11 predefined roles that cover many common administrative tasks. Each role is associated with a specific list of Skype for Business Server Management Shell cmdlets that users in that role are allowed to run. You can use RBAC to follow the principle of "least privilege," in which users are given only the administrative abilities that their jobs require. 

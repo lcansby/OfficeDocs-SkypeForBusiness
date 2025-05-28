@@ -22,9 +22,11 @@ ms.localizationpriority: high
 
 # Troubleshooting VDI 2.0
 
+When troubleshooting the new Slimcore-based optimziation for Microsoft Teams, it's important to understand if the users are optimized with the legacy WebRTC stack, or if they ended up in fallback mode "SlimCore Media Not Connected" (or server side rendering).
+
 - Not optimized with SlimCore and instead you see:</br>"Azure Virtual Desktop Media Optimized"</br>"Citrix HDX Optimized"
   - Error Codes 2000 ("No Plugin") and 2001 ("Virtual Channel not available") are the most likely causes.
-  
+
   1. Make sure your 'Virtual Channel Allow list' is properly configured to allow MSTEAMS, MSTEAM1, MSTEAM2.
   2. Make sure the endpoint has the plugin, and is loaded by the VDI Client with Process Explorer:
     - Run [process explorer](/sysinternals/downloads/process-explorer).

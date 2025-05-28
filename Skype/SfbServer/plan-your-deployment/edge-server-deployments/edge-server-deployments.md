@@ -16,14 +16,14 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom:
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
-description: "Summary: Plan for your Skype for Business Server Edge environment. This topic introduces you to Edge concepts and lets you get organized with our more in-depth topics."
+description: "Summary: Plan for your Skype for Business Server Edge environment. This article introduces you to Edge concepts and lets you get organized with our more in-depth articles."
 ---
 
 # Plan for Edge Server deployments in Skype for Business Server
  
 [!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
 
-**Summary:** Plan for your Skype for Business Server Edge environment. This topic introduces you to Edge concepts and lets you get organized with our more in-depth topics.
+**Summary:** Plan for your Skype for Business Server Edge environment. This article introduces you to Edge concepts and lets you get organized with our more in-depth articles.
   
 When you have a Skype for Business Server environment that's working well internally, the next step for you might be to introduce an Edge Server or an Edge pool to the environment. This role would be vital if you want the services provided by Skype for Business Server to be used by people who are outside your internal network. These can potentially include:
   
@@ -33,7 +33,7 @@ When you have a Skype for Business Server environment that's working well intern
     
 - Mobile Users.
     
-- Potential customers, partners and even anonymous users you want to invite to meetings and presentations.
+- Potential customers, partners, and even anonymous users you want to invite to meetings and presentations.
     
 External User Access, which is what Edge Servers provide, allow all this to happen. Your internal users will be able to enjoy the following services that are hosted by your Skype for Business Server deployment:
   
@@ -45,7 +45,7 @@ External User Access, which is what Edge Servers provide, allow all this to happ
     
 Mobile device access is supported, as is Enterprise Voice. You can invite external users to those meetings you wish them to attend, even anonymous users, if you want to give permissions to them.
   
-If this sounds like something your organization needs, then planning for an Edge environment's going to be a big help in deploying it. For further reading, we have the topics listed below.
+If this sounds like something your organization needs, then planning for an Edge environment's going to be a big help in deploying it. For further reading, we have the articles listed below.
 
 > [!NOTE]
 > XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. See [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information. 

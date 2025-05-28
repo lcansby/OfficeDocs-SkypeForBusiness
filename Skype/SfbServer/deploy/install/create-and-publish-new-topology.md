@@ -20,6 +20,8 @@ description: "Summary: Learn how to create, publish, and verify a new topology b
 ---
 
 # Create and publish new topology in Skype for Business Server
+
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
  
 **Summary:** Learn how to create, publish, and verify a new topology before you install Skype for Business Server.
   

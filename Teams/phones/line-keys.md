@@ -76,9 +76,9 @@ When you first start to assign line keys, you see available and unassigned line 
 1. Steps to assign line keys:
 
    1. Find an available line key on your device.
-   
+      
    1. Select Assign line key.
-   
+      
    1. Choose the type of assignment (for example, contact, shared line, call queue).
       
 1. The following options are supported for assignment:
@@ -93,6 +93,9 @@ When you first start to assign line keys, you see available and unassigned line 
       
    1. Call transfer: Assign a contact to enable one-touch transfer of active calls.
       
+> [!IMPORTANT]
+> Call queue and shared lines assignments on non-touch devices will not work as they are not supported.
+
 ## Management of line keys
 
 Users can manage an assigned line key by selecting or long pressing the key. Management options include:  

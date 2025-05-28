@@ -25,7 +25,7 @@ description: "Summary: Plan for your Skype for Business Server Microsoft Edge en
 
 **Summary:** Plan for your Skype for Business Server Microsoft Edge environment. This article introduces you to Microsoft Edge concepts and lets you get organized with our more in-depth articles.
   
-When you have a Skype for Business Server environment that's working internally, the next step for you might be to introduce a Microsoft Edge Server or an Edge pool to the environment. This role would be vital if you want the services provided by Skype for Business Server to be used by people who are outside your internal network. These can potentially include:
+When you have a Skype for Business Server environment that's working internally, the next step for you might be to introduce a Microsoft Edge Server or a Microsoft Edge pool to the environment. This role would be vital if you want the services provided by Skype for Business Server to be used by people who are outside your internal network. These can potentially include:
   
 - Remote Users: Employees who are offsite, either temporarily or in an ongoing way.
     
@@ -45,7 +45,7 @@ External User Access, which is what Microsoft Edge Servers provide, allow all th
     
 Mobile device access is supported, as is Enterprise Voice. You can invite external users to those meetings you wish them to attend, even anonymous users, if you want to give permissions to them.
   
-If this sounds like something your organization needs, then planning for a Microsoft Edge environment's going to be a big help in deploying it. For further reading, we have the articles listed below.
+If this sounds like something your organization needs, then planning for a Microsoft Edge environment's going to be a significant help in deploying it. For further reading, we have the articles listed below.
 
 > [!NOTE]
 > XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. For more information, see [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md). 
@@ -54,7 +54,7 @@ If this sounds like something your organization needs, then planning for a Micro
 
 The planning articles are:
   
-- [Edge Server system requirements in Skype for Business Server 2015](system-requirements.md)
+- [Microsoft Edge Server system requirements in Skype for Business Server 2015](system-requirements.md)
     
 - [Microsoft Edge Server environmental requirements in Skype for Business Server 2015](edge-environmental-requirements.md)
     

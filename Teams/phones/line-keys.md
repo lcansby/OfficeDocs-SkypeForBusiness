@@ -151,7 +151,7 @@ LED indicators on line keys provide visual cues for call status: 
 1. Blinking green: Line is receiving and active call.
 
 > [!NOTE]
-> LED support will be introduced by device manufacturers—please check with them directly for rollout timelines.
+> LED support will be introduced by device manufacturers— check with them directly for rollout timelines.
 
 ## Frequently Asked Question
 

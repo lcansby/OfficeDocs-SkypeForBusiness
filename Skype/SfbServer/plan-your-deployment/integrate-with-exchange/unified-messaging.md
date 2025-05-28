@@ -13,7 +13,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
-description: "Summary: Review this article while planning to integrate Skype for Business Server with Exchange 2013 or 2016."
+description: "Summary: Review this article while planning to integrate Skype for Business Server with Exchange Unified Messaging (UM)."
 ---
 
 # Plan for Exchange Unified Messaging integration in Skype for Business

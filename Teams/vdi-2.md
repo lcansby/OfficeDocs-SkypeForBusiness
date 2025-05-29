@@ -428,7 +428,7 @@ Customers with Thin Clients with [Unified Write Filters](/windows/configuration/
   
 ## Cross Cloud Collaboration
  
-Organizations in Microsoft’s Public, GCC (Government Community Cloud), GCCH (Government Community Cloud High) and DoD (Department of Defense) clouds can now collaborate with each other efficiently in with the new optimization (this collaboration applies to both intra-company and inter-company). This collaboration often involves access to shared content which requires authenticated access. Previously, collaboration across clouds via Teams was limited due to the lack of optimization in audio/video. With new Teams and Slimcore based optimization, users can now enjoy a high definition user experience. For more information on Cross Cloud, please check [here](/microsoftteams/cross-cloud-meetings).
+Organizations in Microsoft’s Public, GCC (Government Community Cloud), GCCH (Government Community Cloud High), and DoD (Department of Defense) clouds can now collaborate with each other efficiently in with the new optimization (this collaboration applies to both intra-company and inter-company). This collaboration often involves access to shared content which requires authenticated access. Previously, collaboration across clouds via Teams was limited due to the lack of optimization in audio/video. With new Teams and Slimcore based optimization, users can now enjoy a high definition user experience. For more information on Cross Cloud, please check [here](/microsoftteams/cross-cloud-meetings).
  
 The following scenarios are supported:
  

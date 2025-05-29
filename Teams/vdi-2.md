@@ -93,7 +93,7 @@ The plugin MSI automatically detects the CWA installation folder and places MsTe
 |Release note version |Details  |
 |---------------------|---------|
 |2024.41.1.1          |October 2024</br>-When using SlimCore in multimonitor set ups, a Citrix user is unable to share entire screen or individual monitors.</br>-Attempts a [Reset-AppxPackage](/PowerShell/module/appx/reset-appxpackage) if SlimCoreVdi MSIX package registrations fail after the virtual channel is established. |
-|2024.32.X.X          |August 2024</br>-Plugin now attempts a Reset-AppxPackage for SlimCoreVdi MSIX package, in case AppExecution alias is missing. |
+|2024.32.X.X          |August 2024</br>-The plugin now attempts a Reset-AppxPackage for SlimCoreVdi MSIX package in the event the AppExecution alias is missing. |
 
 ### Step 3: SlimCore MSIX staging and registration on the endpoint
 

@@ -22,8 +22,7 @@ ms.localizationpriority: high
 
 # New VDI solution for Teams
 
-New VDI solution for Teams is a new architecture for optimizing the delivery of multimedia workloads in virtual desktops.
-
+The new VDI solution for Teams is a new architecture for optimizing the delivery of multimedia workloads in virtual desktops.
 
 ## Components
 

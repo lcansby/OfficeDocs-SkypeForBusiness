@@ -411,8 +411,6 @@ items:
           href: manage-policy-packages.md
         - name: Encrypt meetings
           href: end-to-end-encrypted-meetings.md
-        - name: Hide attendee names
-          href: hide-attendee-names.md
         - name: Restrict copying and forwarding
           href: manage-chat-sensitive-meetings.md
         - name: Prevent users from sharing content in external Teams meetings
@@ -856,8 +854,6 @@ items:
               href: manage-email-communications.md
             - name: Manage the registration form for webinars
               href: manage-registration-form-webinars.md
-            - name: Hide attendee names
-              href: hide-attendee-names.md
             - name: Manage the attendance report
               href: teams-analytics-and-reports/meeting-attendance-report.md
             - name: Manage lobby options in Microsoft Teams

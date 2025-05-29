@@ -14,7 +14,7 @@ ms.reviewer: fklurfan
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about troublesooting Teams for Virtualized Desktop Infrastructure (VDI) 2.0 issues.
+description: Learn about troubleshooting Teams for Virtualized Desktop Infrastructure (VDI) 2.0 issues.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
@@ -24,7 +24,7 @@ ms.localizationpriority: high
 
 When troubleshooting the new Slimcore-based optimziation for Microsoft Teams, it's important to understand if the users are optimized with the legacy WebRTC stack, or if they ended up in fallback mode "SlimCore Media Not Connected" (or server side rendering).
 
-- Not optimized with SlimCore and instead you see:</br>"Azure Virtual Desktop Media Optimized"</br>"Citrix HDX Optimized"
+- Not optimized with SlimCore and instead you see:</br>"Azure Virtual Desktop Media Optimized" </br>"Citrix HDX Optimized"
   - Error Codes 2000 ("No Plugin") and 2001 ("Virtual Channel not available") are the most likely causes.
 
   1. Make sure your 'Virtual Channel Allow list' is properly configured to allow MSTEAMS, MSTEAM1, MSTEAM2.
@@ -63,7 +63,7 @@ Teams logs can be collected by selecting Ctrl+Alt+Shift+1 while running Teams on
 
 ## Diagnostics-logs.txt could be on weblogs\user(..)
 
-For further investigating VDI connection-related issues, using keyword **vdiBRidgeEventsHandler** provides the logs from the vdiBridge connection and disconnection event handlings, as shown (onConnected event handling) in the following example of a successful connection with the new optimization stack:
+To further investigate VDI connection-related issues, using keyword **vdiBRidgeEventsHandler** provides the logs from the vdiBridge connection and disconnection event handlings, as shown (onConnected event handling) in the following example of a successful connection with the new optimization stack:
 
 `7432 2024-03-01T17:51:22.032Z Inf    vdiBridgeEventsHandler: VDI Mode: slimcore - onConnected: end, currentStack=remote
 7435 2024-03-01T17:51:22.032Z Inf    vdiBridgeEventsHandler: VDI Mode: slimcore - new calling stack type set: currentStack=remote
@@ -94,7 +94,7 @@ The code logged here needs to be mapped using this table:
 |2000       |16002      |No Plugin                          |Endpoint doesn't have the MsTeamsPlugin, or if it has it, it didn't load (check with Process Explorer). |
 |2001       |           |Virtual Channel Not Available      |Error on Citrix VDA WFAPI. |
 |2003       |16026      |Custom Virtual Channels (MSTEAMS, MSTEAM1 and MSTEAM2) are blocked due to a Citrix Studio policy |Review the [Citrix virtual channel allow list](#citrix-virtual-channel-allow-list) section of this article. |
-|2005       |16043      |Teams is running as a Published App (Citrix) or RemoteApp (AVD/Windows 365) |This mode is currently not supported - Teams won't load SlimCore in this case, and users are always optimized with WebRTC. |
+|2005       |16043      |Teams is running as a Published App (Citrix) or RemoteApp (AVD/Windows 365) |This mode is currently not supported - Teams doesn't load SlimCore in this case, and users are always optimized with WebRTC. |
 |3000       |24002      |SlimCore Deployment not needed     |This code isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
 |3001       |24010      |SlimCore already loaded            |This code isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
 |3004       |24035      |Plugin irresponsive                |Try restarting RDP or ICA session. |

@@ -500,7 +500,7 @@ SlimCore-based optimization supports Human Interface Devices (HID) for [Teams ce
 
 ## Monitoring API
 
-Administrators can create custom scripts to [query](/windows/win32/fileio/obtaining-directory-change-notifications) vdi_connection_info.json - this file in the virtual machine contains information about the current and last session, such as optimization status, peripherals and software versions of the different components.
+Administrators can create custom scripts to [query](/windows/win32/fileio/obtaining-directory-change-notifications) vdi_connection_info.json - this file in the virtual machine contains information about the current and last session, such as optimization status, peripherals, and software versions of the different components.
 
 Location (in the VDA or RD Host): C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\tfw
 

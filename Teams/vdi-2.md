@@ -467,7 +467,7 @@ The new Teams client requires three custom virtual channels to function: MSTEAMS
 
 Both outgoing screensharing and appsharing behave differently in optimized VDI when compared to the non-optimized Teams desktop client. As such, these activities require encoding that employs the user's device resources (for example CPU, GPU, RAM, network, and so on). From a network perspective, sharing is done directly between the user's device and the other peer or conference server.
 
-When doing a full monitor screenshare, the Teams call monitor is captured and visible to the other participants. The video elements inside aren't visible and instead are seen as blank squares. When doing app sharing, only the application being shared is visible to the other participants and the call monitor isn't captured.
+A full monitor screenshare captures the Teams call monitor and makes it visible to the other participants. The video elements inside aren't visible and instead are seen as blank squares. When doing app sharing, only the application being shared is visible to the other participants and the call monitor isn't captured.
 
 ### Citrix App Protection and Microsoft Teams compatibility
 

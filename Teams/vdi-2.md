@@ -416,7 +416,7 @@ Customers with Thin Clients with [Unified Write Filters](/windows/configuration/
 - Camera self preview isn't supported at this time (either under Settings/Devices, or while on a call when selecting the down arrow on the camera icon).
 - In the Control Panel/Apps/Installed apps of the endpoint, users see multiple "Microsoft Teams VDI" entries (one for every Slimcore package installed).
 - When doing full monitor screen sharing, the call monitor window is visible for the other participants (without any video content inside).
-- In Citrix, app sharing sessions might freeze for the other participants if the presenter is on both VDA version 2402 and CWA for Windows 2309.1 (or higher versions).
+- In Citrix, app sharing sessions might freeze for the other participants if the presenter is on both VDA (virtual delivery agent) version 2402 and CWA for Windows 2309.1 (or higher versions).
   - The issue happens when a video element is destroyed.
        - For example, a participant turns off their camera in the middle of the app sharing session.
        - If someone turns their camera **on** only, there's no issue because the video element is created, not destroyed.

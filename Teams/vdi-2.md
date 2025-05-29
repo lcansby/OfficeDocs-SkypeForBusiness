@@ -428,16 +428,16 @@ Customers with Thin Clients with [Unified Write Filters](/windows/configuration/
   
 ## Cross Cloud Collaboration
  
-Organizations in Microsoft’s Public, GCC (Government Community Cloud), GCCH (Government Community Cloud High), and DoD (Department of Defense) clouds can now collaborate with each other efficiently in with the new optimization (this collaboration applies to both intra-company and inter-company). This collaboration often involves access to shared content which requires authenticated access. Previously, collaboration across clouds via Teams was limited due to the lack of optimization in audio/video. With new Teams and Slimcore based optimization, users can now enjoy a high definition user experience. For more information on Cross Cloud, please check [here](/microsoftteams/cross-cloud-meetings).
- 
+Organizations in Microsoft’s Public, GCC (Government Community Cloud), GCCH (Government Community Cloud High), and DoD (Department of Defense) clouds can now collaborate with each other efficiently in with the new optimization (this collaboration applies to both intra-company and inter-company). This collaboration often involves access to shared content which requires authenticated access. Previously, collaboration across clouds via Teams was limited due to the lack of optimization in audio/video. With new Teams and Slimcore based optimization, users can now enjoy a high definition user experience. For more information on Cross Cloud, check [this link](/microsoftteams/cross-cloud-meetings).
+
 The following scenarios are supported:
- 
+
 - **Cross Cloud Anonymous** allows the scenario where a user is signed into Cloud A in Teams, and joins a meeting in a different Cloud B anonymously. Check [Manage anonymous participant access to Teams meetings, webinars, and town halls (IT admins)](/microsoftteams/anonymous-users-in-meetings) for more details.
 - **Cross-cloud Guest Access** extends functionality to allow a user to participate in rich collaboration experiences in teams, channels, documents, and Teams meetings for a full experience including audio/video optimization, screen share, file share and both 1:1 and 1:n chat. Check [here](/microsoft-365/solutions/collaborate-guests-cross-cloud?view=o365-worldwide&preserve-view=true) for more details.
 - **Cross-cloud authenticated meeting join** delivers the ability for a Teams user to join a meeting in another cloud while signed into their account in their home tenant. This feature provides the meeting host the ability to validate the identities of meeting participants without granting those participants any access to the host tenant.
 
 Minimum versions: Teams 25060.205.3499.6849. Remote Desktop Client 1.2.6186. Citrix Plugin 2024.41.1.1.
- 
+
 Known issues: 
 -	HID only works in the primary Cloud.
 -	Muting from Teams UI doesn't play the "Mute/Unmuted" voice command in the nonprimary Cloud.

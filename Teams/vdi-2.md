@@ -191,7 +191,7 @@ If you enable the bottom pane and switch to the DLL tab, you can also see the Pl
 
 ## VDI Status Indicator
 
-Microsoft Teams displays information about the optimization status, helping the user understand if they are optimized or not. It also shows if they're using the legacy WebRTC optimization or the new Slimcore-based one by hovering their cursor over the **Optimized** banner.
+Microsoft Teams displays information about the optimization status, helping the user understand if they're optimized or not. It also shows if they're using the legacy WebRTC optimization or the new Slimcore-based one by hovering their cursor over the **Optimized** banner.
 
 In cases where Microsoft Teams isn't optimized, the user sees a warning icon.
 
@@ -346,7 +346,7 @@ This policy now has an additional argument as the only configuration point to co
 
 <sup>1</sup> Operator Connect in India with mobile numbers requires latitude and longitude access from the endpoint's OS and local internet breakout. Operator connect with wireline numbers can use IP or subnet to map to a location. For more details, check [Wireline and Wireless number types in India](operator-connect-india-plan.md#wireline-and-wireless-number-types-in-india).
 <sup>2</sup> Graphics hardware acceleration requires DirectX 9 or later, with WDDM 2.0 or higher for Windows 10 (or WDDM 1.3 or higher for Windows 10 Fall Creators Update).
-<sup>3</sup> If you join a meeting as a guest, this feature is not supported.
+<sup>3</sup> If you join a meeting as a guest, this feature isn't supported.
 
 ## SlimCore user profile on the endpoint
 

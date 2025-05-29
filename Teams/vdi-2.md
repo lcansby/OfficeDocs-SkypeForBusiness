@@ -211,8 +211,8 @@ Additionally, users can roam from a device that only supports WebRTC to a device
 
 |Reconnecting options                                        |If current optimization is WebRTC |If current optimization is SlimCore  |
 |------------------------------------------------------------|----------------------------------|-------------------------------------|
-|Reconnecting from an endpoint **without** the MsTeamsPlugin |Then WebRTC classic optimization </br>("AVD Media Optimized") </br>("Citrix HDX Media Optimized") |Then restart dialogue prompt</br>After restart, the user is on WebRTC classic optimization. Otherwise, Teams isn't restarted and the user is in fallback mode (server -side rendering). |
-|Reconnecting from an endpoint **with** the MsTeamsPlugin    |Then restart dialogue prompt</br>After restart, the user is on new SlimCore optimization. Otherwise, Teams isn't restarted and the user is still in WebRTC. |Then new SlimCore-based optimization |
+|Reconnecting from an endpoint **without** the MsTeamsPlugin |Then WebRTC classic optimization. </br>("AVD Media Optimized"). </br>("Citrix HDX Media Optimized"). |Then restart dialogue prompt. </br>After restart, the user is on WebRTC classic optimization. Otherwise, Teams isn't restarted and the user is in fallback mode (server -side rendering). |
+|Reconnecting from an endpoint **with** the MsTeamsPlugin    |Then restart dialogue prompt. </br>After restart, the user is on new SlimCore optimization. Otherwise, Teams isn't restarted and the user is still in WebRTC. |Then new SlimCore-based optimization. |
 
 ## Networking considerations
 

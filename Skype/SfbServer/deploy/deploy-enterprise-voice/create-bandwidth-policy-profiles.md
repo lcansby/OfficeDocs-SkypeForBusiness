@@ -21,6 +21,8 @@ description: "Create or modify bandwidth policies, which are used by Enterprise 
 
 # Create bandwidth policy profiles in Skype for Business Server 
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 Create or modify bandwidth policies, which are used by Enterprise Voice call admission control in Skype for Business Server. 
   
 Bandwidth policies define limitations on bandwidth usage for real-time audio and video modalities. Bandwidth policies are applied tobandwidth policy profiles, which can be applied to multiple network sites for call admission control.

@@ -146,7 +146,7 @@ Error 15615 usually means that the Windows Package Manager can't install the MSI
 - Make sure the Endpoint trusts the digital signature of that MSIX (Go to MSIX > Properties > Digital signatures > Details). It's a valid store-friendly Microsoft signature, but customers may have something special configured.
 - Try enabling the [AllowAllTrustedApps policy](/windows/client-management/mdm/policy-csp-applicationmanagement).
 - Try to allow sideloading apps from trusted nonstore sources.
-  - On Windows 10, this setting is enabled by default, so modify it here in case it's disabled: Settings > Update and Security > For developers > Sideload apps.
+  - On Windows 10, this setting is enabled by default, so modify it here if you find it disabled: Settings > Update and Security > For developers > Sideload apps.
   - On Windows 11, this setting is enabled by default: Settings > Apps > Advanced app settings > Choose where to get apps > Anywhere.
 
 ## Log collection

@@ -183,7 +183,7 @@ Status            : Ok
 ```
 
 > [!IMPORTANT]
-> Microsoft stores up to 12 versions of SlimCoreVdi for compatibility purposes. These versions are stored in case the user accesses different VDI environments, such as persistent, where new Teams auto-updates itself, and non-persistent, where new Teams auto-updates are disabled.
+> Microsoft stores up to 12 versions of SlimCoreVdi for compatibility purposes. We store these versions in case the user accesses different VDI environments, such as persistent, where new Teams auto-updates itself, and non-persistent, where new Teams auto-updates are disabled.
 
 If you're optimized, you can see MsTeamsVdi.exe running on your endpoint for Azure Virtual Desktop/W365 (as a child process of msrdc.exe) or Citrix (as a child process of wfica32.exe). When using Process Explorer, If you select msrdc.exe (or wfica32.exe), select **Show the lower pane** under **View** and switch to the DLL tab, you can also see the Plugin (MsTeamsPluginAvd.dll or MsTeamsPluginCitrix.dll) being loaded. This action is a useful troubleshooting step in case you're not getting the new optimization.
 

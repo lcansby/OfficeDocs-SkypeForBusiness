@@ -205,7 +205,7 @@ Users are presented with a [link](https://go.microsoft.com/fwlink/?linkid=229524
 
 ## Session roaming and reconnections
 
-New Teams loads WebRTC or SlimCore at launch time. If virtual desktop sessions are disconnected (not logged off, Teams is left running on the VM), new Teams can't switch optimization stacks unless it's restarted. As a result, users might be in fallback mode (not optimized) if they roam between different devices that don't support the new optimization architecture (for example, a MAC device that is used in BYOD while working from home, and a corporate-managed thin client in the office). In order to avoid this scenario, Teams prompts the user with a modal dialogue asking to restart the app. After the restart, users are in WebRTC optimization mode.
+New Teams loads WebRTC or SlimCore at launch time. If virtual desktop sessions are disconnected (not logged off, Teams is left running on the VM), Teams can't switch optimization stacks unless restarted. As a result, users might be in fallback mode (not optimized) if they roam between different devices that don't support the new optimization architecture (for example, a MAC device that is used in BYOD while working from home, and a corporate-managed thin client in the office). In order to avoid this scenario, Teams prompts the user with a modal dialogue asking to restart the app. After the restart, users are in WebRTC optimization mode.
 
 Additionally, users can roam from a device that only supports WebRTC to a device that supports SlimCore. In this scenario, Teams also prompts the user with a modal dialogue asking to restart the app. After the restart, users are in SlimCore optimization mode.
 

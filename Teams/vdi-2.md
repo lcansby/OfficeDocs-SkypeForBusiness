@@ -511,8 +511,8 @@ Typical use cases for the monitoring API are:
 
 Json File Structure:
 -	Timestamp - vdiConnectedState.timestamp indicates the timestamp of the session connection
--	VDI Optimization - vdiConnectedState.vdiMode indicates the optimization version (remains static for the duration of the VDI session)  
--	Connected State - connectedStack (remote = optimized, local = not optimized) (remains static for the duration of the VDI session)
+-	VDI Optimization - vdiConnectedState.vdiMode indicates the optimization version (remains static throughout the VDI session)  
+-	Connected State - connectedStack (remote = optimized, local = not optimized) (remains static throughout the VDI session)
 -	SlimCore Version on the endpoint - remoteSlimcoreVersion
 -	VdiBridge Version on the VM - bridgeVersion
 -	MS Teams Plugin Version on the endpoint - pluginVersion

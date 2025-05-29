@@ -28,7 +28,7 @@ When troubleshooting the new Slimcore-based optimziation for Microsoft Teams, yo
   - Error Codes 2000 ("No Plugin") and 2001 ("Virtual Channel not available") are the most likely causes.
 
   1. Make sure your 'Virtual Channel Allow list' is properly configured to allow MSTEAMS, MSTEAM1, MSTEAM2.
-  2. Make sure the endpoint has the plugin, and is loaded by the VDI Client with Process Explorer:
+  2. Make sure the endpoint has the plugin, and the VDI Client with Process Explorer loads it:
     - Run [process explorer](/sysinternals/downloads/process-explorer).
     - Enable the bottom pane and switch to the DLL tab.
     - On Azure Virtual Desktop, look for the msrdc.exe process and ensure the MsTeamsPluginAvd.dll is loaded.
@@ -50,8 +50,8 @@ Teams logs can be collected by selecting Ctrl+Alt+Shift+1 while running Teams on
 |"vdiConnectedState": {"connectedStack": "remote"}, "vdiVersionInfo": {"bridgeVersion": "2024.18.1.11", "remoteSlimcoreVersion": "2024.18.01.11", "nodeId": "1051a908af6b160e", "clientOsVersion": "10.0.22631", "rdClientVersion": "1.2.5405.0", "rdClientProductName": "Microsoft® Remote Desktop", "pluginVersion": "2024.14.01.1", "screenShareFallback": true} |"vdiConnectedState": {"connectedStack": "remote"}, "vdiVersionInfo": {"bridgeVersion": "2024.18.1.14", "remoteSlimcoreVersion": "2024.18.01.14", "nodeId": "ffffffff93eaee6a", "clientOsVersion": "10.0.22631", "rdClientVersion": "24.3.0.64", "rdClientProductName": "Citrix Workspace", "pluginVersion": "2024.15.01.3", "screenShareFallback": true} |
 
 - **vdiConnectedState** shows the current active calling stack.
-  - **connectedStack**: **remote** indicates Teams has successfully connected to the remote endpoint through the virtual channel. It doesn't necessarily mean the calling stack is successfully initialized, so the user can still encounter calling-related failures, such as being unable to start a call.
-  - **connectedStack**: **local** indicates the virtual channel connection has failed. The user is now on fallback mode.
+  - **connectedStack**: **remote** indicates Teams successfully connected to the remote endpoint through the virtual channel. It doesn't necessarily mean the calling stack is successfully initialized, so the user can still encounter calling-related failures, such as being unable to start a call.
+  - **connectedStack**: **local** indicates the virtual channel connection failed. The user is now on fallback mode.
 - **vdiVersionInfo** provides useful information for the Teams client and the endpoint.
   - **bridgeVersion** is tied to the version of the Teams desktop client running on the VM.
   - **remoteSlimcroreVersion** is the version of the SlimCore VDI that's available on the endpoint.

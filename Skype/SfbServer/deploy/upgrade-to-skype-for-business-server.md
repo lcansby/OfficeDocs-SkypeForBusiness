@@ -21,6 +21,8 @@ description: "Summary: Learn how to upgrade from Lync Server 2013 to Skype for B
 
 # Upgrade to Skype for Business Server 2015
  
+[!INCLUDE [appliesto-2015-xxx-xxx](../../SfBServer2019/includes/appliesto-2015-xxx-xxx.md)]
+
 **Summary:** Learn how to upgrade from Lync Server 2013 to Skype for Business Server 2015. 
   
 Use the procedures in this document to upgrade from Lync Server 2013 to Skype for Business Server 2015 by using the Skype for Business Server Topology Builder and the new In-Place Upgrade feature. If you want to upgrade from Lync Server 2010 or Office Communications Server 2007 R2, see [Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md).

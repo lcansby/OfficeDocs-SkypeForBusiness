@@ -199,7 +199,7 @@ In cases where Microsoft Teams isn't optimized, the user sees a warning icon.
 
 Users can select the three dots and choose **Optimize virtual desktop and restart** to attempt a repair.
 
-This selection triggers a Teams restart, which can solve some known issues. If the user is still unoptimized, an error code displays for quick diagnosis by IT Admins based on the [connection error table](#connection-error).
+This selection triggers a Teams restart, which can solve some known issues. If the user is still unoptimized, an error code displays for quick diagnosis by IT Admins based on the [connection error table](vdi-2-troubleshooting.md#connection-error).
 
 Users are presented with a [link](https://go.microsoft.com/fwlink/?linkid=2295247) to receive more information about the error, and if it's actionable, they can try a self-remediation.
 

@@ -205,7 +205,7 @@ Users are presented with a [link](https://go.microsoft.com/fwlink/?linkid=229524
 
 ## Session roaming and reconnections
 
-New Teams loads WebRTC or SlimCore at launch time. If virtual desktop sessions are disconnected (not logged off, Teams is left running on the VM), Teams can't switch optimization stacks unless restarted. As a result, users might be in fallback mode (not optimized) if they roam between different devices that don't support the new optimization architecture. For example, a MAC device used in BYOD (bring your own device) while working from home, and a corporate-managed thin client in the office. In order to avoid this scenario, Teams prompts the user with a modal dialogue asking to restart the app. After the restart, users are in WebRTC optimization mode.
+New Teams loads WebRTC or SlimCore at launch time. If virtual desktop sessions are disconnected (not logged off, Teams is left running on the virtual machine), Teams can't switch optimization stacks unless restarted. As a result, users might be in fallback mode (not optimized) if they roam between different devices that don't support the new optimization architecture. For example, a MAC device used in BYOD (bring your own device) while working from home, and a corporate-managed thin client in the office. In order to avoid this scenario, Teams prompts the user with a modal dialogue asking to restart the app. After the restart, users are in WebRTC optimization mode.
 
 Additionally, users can roam from a device that only supports WebRTC to a device that supports SlimCore. In this scenario, Teams also prompts the user with a modal dialogue asking to restart the app. After the restart, users are in SlimCore optimization mode.
 
@@ -411,7 +411,7 @@ Customers with Thin Clients with [Unified Write Filters](/windows/configuration/
 
 - AVD RemoteApps and Citrix Published Apps aren't supported at this time.
 - Screen Capture Protection (SCP) causes the presenter's screen to show as a black screen with only the mouse cursor on top (as seen by the receiving side). This issue's fixed in Teams 25060.205.3499.6849 and Remote Desktop client 1.2.6081 or Windows app 2.0.379.
-- If you lock the VM during an active call, the call disconnects. This issue's fixed in 25094.303.3554.9058 or higher versions.
+- If you lock the virtual machine (VM) during an active call, the call disconnects. This issue's fixed in 25094.303.3554.9058 or higher versions.
 - Calls drop on Teams running on the local machine that has an HID peripheral connected if a user launches a virtual desktop from that same local machine and logs into Teams. This issue can also happen if the user had an active virtual desktop and launches a second one that has Teams installed (or other Unified Communications apps that use optimization).
 - Camera self preview isn't supported at this time (either under Settings/Devices, or while on a call when selecting the down arrow on the camera icon).
 - In the Control Panel/Apps/Installed apps of the endpoint, users see multiple "Microsoft Teams VDI" entries (one for every Slimcore package installed).

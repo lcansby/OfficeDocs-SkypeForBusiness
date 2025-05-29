@@ -435,14 +435,14 @@ The following scenarios are supported:
 - **Cross Cloud Anonymous** allows the scenario where a user is signed into Cloud A in Teams, and joins a meeting in a different Cloud B anonymously. Check [Manage anonymous participant access to Teams meetings, webinars, and town halls (IT admins)](/microsoftteams/anonymous-users-in-meetings) for more details.
 - **Cross-cloud Guest Access** extends functionality to allow a user to participate in rich collaboration experiences in teams, channels, documents, and Teams meetings for a full experience including audio/video optimization, screen share, file share and both 1:1 and 1:n chat. Check [here](/microsoft-365/solutions/collaborate-guests-cross-cloud?view=o365-worldwide&preserve-view=true) for more details.
 - **Cross-cloud authenticated meeting join** delivers the ability for a Teams user to join a meeting in another cloud while signed into their account in their home tenant. This feature provides the meeting host the ability to validate the identities of meeting participants without granting those participants any access to the host tenant.
- 
+
 Minimum versions: Teams 25060.205.3499.6849. Remote Desktop Client 1.2.6186. Citrix Plugin 2024.41.1.1.
  
 Known issues: 
 -	HID only works in the primary Cloud.
 -	Muting from Teams UI doesn't play the "Mute/Unmuted" voice command in the nonprimary Cloud.
 -	More Peripherals limitations are described [here](/microsoftteams/troubleshoot/meetings/known-issues-teams-certified-peripherals)
--	Any user who is actually signed into multiple clouds (Multi Cloud or Cross Cloud), won't be able to get optimized with WebRTC at all. If the user roams to a device which doesn't support SlimCore, they're in fallback mode (server-side rendering) until they roam back to a SlimCore capable device. This issue happens because WebRTC doesn't support any Cross Cloud features.
+-	Any user signed into multiple clouds (Multi Cloud or Cross Cloud), can't get optimized with WebRTC. If the user roams to a device which doesn't support SlimCore, they're in fallback mode (server-side rendering) until they roam back to a SlimCore capable device. This issue happens because WebRTC doesn't support any Cross Cloud features.
 -	If Cross Cloud features don't appear to work even though the user meets the minimum requirements, you can quit Teams (after it gets optimized with SlimCore) and try to delete a file called ecs_settings.dat64 at the following path: %localappdata%\packages\MSTeams_8wekyb3d8bbwe\LocalCache\microsoft\MSTeams. Restart Teams.
 
 ## Citrix virtual channel allow list
@@ -451,7 +451,7 @@ The [Virtual channel allow list](https://docs.citrix.com/en-us/citrix-virtual-
 
 With Citrix Virtual Apps and Desktops 2203 or later, the virtual channel allow list is **enabled by default**. These default settings deny access to the new Teams custom virtual channels as the allow list **doesn't** include the new Teams main process name.
 
-The new Teams client requires three custom virtual channels to function: MSTEAMS, MSTEAM1 and MSTEAM2. These channels are accessed by ms-teams.exe. You can use wildcards to allow the ms-teams.exe executable and custom virtual channel:
+The new Teams client requires three custom virtual channels to function: MSTEAMS, MSTEAM1 and MSTEAM2. Ms-teams.xes accesses these channels. You can use wildcards to allow the ms-teams.exe executable and custom virtual channel:
 
 - MSTEAMS,C:\Program Files\WindowsApps\MSTeams*8wekyb3d8bbwe\ms-teams.exe
 - MSTEAM1,C:\Program Files\WindowsApps\MSTeams*8wekyb3d8bbwe\ms-teams.exe
@@ -501,12 +501,13 @@ SlimCore-based optimization supports Human Interface Devices (HID) for [Teams ce
 
 ## Monitoring API
 
-Administrators can create custom scripts to [query](/windows/win32/fileio/obtaining-directory-change-notifications) vdi_connection_info.json - this file in the virtual machine contains information about the current and last session, for example optimization status, peripherals and software versions of the different components.
-Location (in the VDA / RD Host): C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\tfw
+Administrators can create custom scripts to [query](/windows/win32/fileio/obtaining-directory-change-notifications) vdi_connection_info.json - this file in the virtual machine contains information about the current and last session, such as optimization status, peripherals and software versions of the different components.
+
+Location (in the VDA or RD Host): C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\tfw
 
 Typical use cases for the monitoring API are:
-- Administrators deploying an automation script in VDA/RD Host to detect whether the client endpoint operating system has changed since the last connection, consuming the contents of the JSON file to compare the last two sessions' values, and issue their own alerts/pop-up messages.
-- Developers creating third-party apps that report the current state of the VDI optimization connection, consuming the contents of the JSON file to retrieve all available connection, optimization, and device information of the current Teams session.
+- Administrators deploying an automation script in a VDA or RD Host to detect whether the client endpoint operating system has changed since the last connection. The script consumes the contents of the JSON file to compare the last two sessions' values, and issue their own alerts/pop-up messages.
+- Developers creating third-party apps that report the current state of the VDI optimization connection. The script consumes the contents of the JSON file to retrieve all available connection, optimization, and device information of the current Teams session.
 
 Json File Structure:
 -	Timestamp - vdiConnectedState.timestamp indicates the timestamp of the session connection

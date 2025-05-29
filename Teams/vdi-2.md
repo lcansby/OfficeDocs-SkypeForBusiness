@@ -106,7 +106,7 @@ The following registry keys could block new media engine MSIX package installati
 - AllowDevelopmentWithoutDevLicense
 
 > [!IMPORTANT]
-> Managed endpoints/thin clients where BlockNonAdminUserInstall is enabled can still allow SlimCore packages to install. Apply KB5052094 (Windows 11 23H2 and 22H2), KB5052093 (Windows 11 24H2), KB5055612 (Windows 10 22H2), or any subsequent KB. This installation introduces a new Group Policy called "Allowed package family names for non-admin user install" in the Local Group Policy Editor. Administrators can then Allow list SlimCore packages by allowing a complete package familyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.43_8wekyb3d8bbwe) or use Regex (for example, Microsoft.Teams.SlimCoreVdi.*_8wekyb3d8bbwe)
+> Managed endpoints/thin clients with BlockNonAdminUserInstall enabled can still allow SlimCore packages to install. Apply KB5052094 (Windows 11 23H2 and 22H2), KB5052093 (Windows 11 24H2), KB5055612 (Windows 10 22H2), or any subsequent KB. This installation introduces a new Group Policy called "Allowed package family names for non-admin user install" in the Local Group Policy Editor. Administrators can then Allow list SlimCore packages by allowing a complete package familyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.43_8wekyb3d8bbwe) or use Regex (for example, Microsoft.Teams.SlimCoreVdi.*_8wekyb3d8bbwe)
 
 > [!IMPORTANT]
 > If AllowAllTrustedApps is disabled, the new media engine (MSIX) installation fails. This issue is fixed in the following Windows cumulative updates:
@@ -479,7 +479,7 @@ Users with App Protection enabled can still share their screen and apps while us
 
 Users with [Screen Capture Protection](/azure/virtual-desktop/screen-capture-protection?tabs=intune) (SCP) enabled to block screen capture on the remote desktop client (**Block screen capture on client**) can still share their screen and apps while using the new SlimCore-based optimization for Microsoft Teams. Sharing requires the following minimum versions: Teams 25060.205.3499.6849, and Remote Desktop client 1.2.6081 or Windows App 2.0.379.
 
-Users on lower versions end up sharing a black screen instead when SCP is enabled.
+Users on lower versions end up sharing a black screen instead with SCP enabled.
 
 ## Peripherals in VDI
 

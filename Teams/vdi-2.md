@@ -332,7 +332,7 @@ This policy now has an additional argument as the only configuration point to co
 |Organizational custom backgrounds |Yes (Teams Premium license required)                            |No                            |
 |User-uploaded background effect   |Yes <sup>3</sup>                                                            |No                            |
 |Zoom +/-                          |Yes                                                             |No                            |
-|Media bypass, Location-based routing, Operator connect <sup>1</sup> |Yes                           |No                            |
+|Media bypass, Location-based routing, Operator Connect <sup>1</sup> |Yes                           |No                            |
 |Call quality dashboard and Teams admin center|Yes                                                  |Limited                       |
 |Published app/Remote app          |No                                                              |Yes                           |
 |Give/Take control                 |Yes                                                             |Yes                           |
@@ -344,7 +344,7 @@ This policy now has an additional argument as the only configuration point to co
 |Background blurring               |Yes                                                             |Yes                           |
 |Annotations                       |Only as presenter                                               |No                            |
 
-<sup>1</sup> Operator Connect in India with mobile numbers requires latitude and longitude access from the endpoint's OS and local internet breakout. Operator connect with wireline numbers can use IP or subnet to map to a location. For more details, check [Wireline and Wireless number types in India](operator-connect-india-plan.md#wireline-and-wireless-number-types-in-india).
+<sup>1</sup> Operator Connect in India with mobile numbers requires latitude and longitude access from the endpoint's OS and local internet breakout. Operator Connect with wireline numbers can use IP or subnet to map to a location. For more details, check [Wireline and Wireless number types in India](operator-connect-india-plan.md#wireline-and-wireless-number-types-in-india).
 <sup>2</sup> Graphics hardware acceleration requires DirectX 9 or later, with WDDM 2.0 or higher for Windows 10 (or WDDM 1.3 or higher for Windows 10 Fall Creators Update).
 <sup>3</sup> If you join a meeting as a guest, this feature isn't supported.
 

@@ -41,7 +41,7 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 |New Teams                         |24193.1805.3040.8975 (for Azure Virtual Desktop/Windows 365) </br>24295.605.3225.8804 (for Citrix) |
 |Azure Virtual Desktop/Windows 365 |Windows App: 1.3.252</br>Remote Desktop Client: 1.2.5405.0 |
 |Citrix                            |VDA: 2203 Long Term Service Release (LTSR) CU3 or 2305 Current Release</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR. [Only versions that haven't reached End of Life are supported](https://www.citrix.com/support/product-lifecycle/workspace-app.html) </br>MsTeamsPluginCitrix: 2024.41.1.1 |
-|Endpoint                          |Windows 10 1809 (SlimCore minimum requirement)</br>[Windows Enterprise LTSC](/windows/whats-new/ltsc/overview#the-long-term-servicing-channel-ltsc) Thin clients on Windows 10 2019/2021, or Windows 11 2024 are supported</br>GPOs must not block MSIX installations (see [Step 3: SlimCore MSIX staging and registration on the endpoint](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint))</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
+|Endpoint                          |Windows 10 1809 (SlimCore minimum requirement)</br>[Windows Enterprise LTSC](/windows/whats-new/ltsc/overview#the-long-term-servicing-channel-ltsc) Thin clients on Windows 10 2019/2021, or Windows 11 2024 are supported</br>GPOs must not block MSIX installations (see [Step 3: SlimCore MSIX staging and registration on the endpoint](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint)) </br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
 
 ## Optimizing with new VDI solution for Teams
 
@@ -436,7 +436,7 @@ The following scenarios are supported:
 - **Cross-cloud Guest Access** extends functionality to allow a user to participate in rich collaboration experiences in teams, channels, documents and Teams meetings for a full experience including audio/video optimization, screen share, file share and both 1:1 and 1:n chat. Check [here](/microsoft-365/solutions/collaborate-guests-cross-cloud?view=o365-worldwide&preserve-view=true) for more details.
 - **Cross-cloud authenticated meeting join** delivers the ability for a Teams user to join a meeting in another cloud while signed into their account in their home tenant. This feature provides the meeting host the ability to validate the identities of meeting participants without granting those participants any access to the host tenant.
  
-Mimimum versions: Teams 25060.205.3499.6849. Remote Desktop Client 1.2.6186. Citrix Plugin 2024.41.1.1.
+Minimum versions: Teams 25060.205.3499.6849. Remote Desktop Client 1.2.6186. Citrix Plugin 2024.41.1.1.
  
 Known issues: 
 -	HID only works in the primary Cloud.
@@ -465,7 +465,7 @@ The new Teams client requires three custom virtual channels to function: MSTEAMS
 
 ## Screen sharing
 
-Both outgoing screen sharing and appsharing behave differently in optimized VDI when compared to the non-optimized Teams desktop client. As such, these activities require encoding that employs the user's device resources (for example CPU, GPU, RAM, network, and so on). From a network perspective, sharing is done directly between the user's device and the other peer or conference server.
+Both outgoing screen sharing and app sharing behave differently in optimized VDI when compared to the non-optimized Teams desktop client. As such, these activities require encoding that employs the user's device resources (for example CPU, GPU, RAM, network, and so on). From a network perspective, sharing is done directly between the user's device and the other peer or conference server.
 
 A full monitor screen share captures the Teams call monitor and makes it visible to the other participants. The video elements inside aren't visible and instead are seen as blank squares. When doing app sharing, only the application being shared is visible to the other participants and the call monitor isn't captured.
 
@@ -549,7 +549,7 @@ A well-formed CQD query/report contains all three of these parameters:
 Some examples of a well-formed query would be:
 
 1. "Show me Poor Streams [Measurement] for VDI Users with the new Optimization [Dimension] for Last Month [Filter]."
-1. "Show me Poor Appsharing [Measurement] by Total Stream Count [Dimension] for Last Month AND where First OR Second Client VDI mode was optimized [Filters]." 
+1. "Show me Poor App sharing [Measurement] by Total Stream Count [Dimension] for Last Month AND where First OR Second Client VDI mode was optimized [Filters]." 
 
 You can use many Dimension and Measurement values as filters too. You can use filters in your query to eliminate information in the same way you'd select a Dimension or Measurement to add or include information in the query.
 

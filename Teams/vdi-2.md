@@ -257,7 +257,7 @@ IP blocks for signaling, media, background effects, and other options are descri
 
 1. Teams media flows connectivity is implemented using standard IETF Interactive Connectivity Establishment (ICE) for STUN and TURN procedures.
 1. Real-time media. Data encapsulated within Real-time Transport Protocol (RTP) that supports audio, video, and screen sharing workloads. In general, media traffic is highly latency sensitive. This traffic must take the most direct path possible and use UDP versus TCP as the transport layer protocol, which is the best transport for interactive real-time media from a quality perspective.
-    - As a last resort, media can use TCP/IP and also be tunneled within the HTTP protocol, but it's not recommended due to bad quality implications.
+    - As a last resort, media can use TCP/IP and also be tunneled within the HTTP protocol, but we don't recommended it due to bad quality implications.
     - RTP flow is secured using SRTP, in which only the payload is encrypted.
 1. Signaling. The communication link between the endpoint and Teams servers, or other clients, used to control activities (for example, when a call is initiated). Most signaling traffic uses UDP 3478 with fallback to HTTPS, though in some scenarios (for example, the connection between Microsoft 365 and a Session Border Controller) it uses SIP protocol. It's important to understand that this traffic is much less sensitive to latency but may cause service outages or call time-outs if latency between the endpoints exceeds several seconds.
 
@@ -292,8 +292,8 @@ Implement QoS settings for endpoints and network devices and determine how you w
 
 ### Technologies that aren't recommended with Microsoft Teams in VDI
 
-1. **VPN network**. It's not recommended for media traffic.
-1. Packet shapers. Any kind of packet sniffer, packet inspection, proxies, or packet shaper devices aren't recommended for Teams media traffic and may degrade quality significantly.
+1. **VPN network**. Not recommended for media traffic.
+1. **Packet shapers**. Any kind of packet sniffer, packet inspection, proxies, or packet shaper devices aren't recommended for Teams media traffic and may degrade quality significantly.
 
 ## Microsoft Teams PowerShell policy for optimization
 

@@ -440,7 +440,7 @@ Minimum versions: Teams 25060.205.3499.6849. Remote Desktop Client 1.2.6186. Cit
  
 Known issues: 
 -	HID only works in the primary Cloud.
--	Muting from Teams UI doesn't play the "Mute/Unmuted" voice command in non-primary Cloud.
+-	Muting from Teams UI doesn't play the "Mute/Unmuted" voice command in the nonprimary Cloud.
 -	More Peripherals limitations are described [here](/microsoftteams/troubleshoot/meetings/known-issues-teams-certified-peripherals)
 -	Any user who is actually signed into multiple clouds (Multi Cloud or Cross Cloud), won't be able to get optimized with WebRTC at all. If the user roams to a device which doesn't support SlimCore, they're in fallback mode (server-side rendering) until they roam back to a SlimCore capable device. This issue happens because WebRTC doesn't support any Cross Cloud features.
 -	If Cross Cloud features don't appear to work even though the user meets the minimum requirements, you can quit Teams (after it gets optimized with SlimCore) and try to delete a file called ecs_settings.dat64 at the following path: %localappdata%\packages\MSTeams_8wekyb3d8bbwe\LocalCache\microsoft\MSTeams. Restart Teams.
@@ -465,7 +465,7 @@ The new Teams client requires three custom virtual channels to function: MSTEAMS
 
 ## Screen sharing
 
-Both outgoing screen sharing and app sharing behave differently in optimized VDI when compared to the non-optimized Teams desktop client. As such, these activities require encoding that employs the user's device resources (for example CPU, GPU, RAM, network, and so on). From a network perspective, sharing is done directly between the user's device and the other peer or conference server.
+Both outgoing screen sharing and app sharing behave differently in optimized VDI when compared to the nonoptimized Teams desktop client. As such, these activities require encoding that employs the user's device resources (for example CPU, GPU, RAM, network, and so on). From a network perspective, sharing is done directly between the user's device and the other peer or conference server.
 
 A full monitor screen share captures the Teams call monitor and makes it visible to the other participants. The video elements inside aren't visible and instead are seen as blank squares. When doing app sharing, only the application being shared is visible to the other participants and the call monitor isn't captured.
 

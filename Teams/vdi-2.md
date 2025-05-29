@@ -506,7 +506,7 @@ Administrators can create custom scripts to [query](/windows/win32/fileio/obtain
 Location (in the VDA or RD Host): C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\tfw
 
 Typical use cases for the monitoring API are:
-- Administrators deploying an automation script in a VDA or RD Host to detect whether the client endpoint operating system has changed since the last connection. The script consumes the contents of the JSON file to compare the last two sessions' values, and issue their own alerts/pop-up messages.
+- Administrators deploying an automation script in a VDA or RD Host to detect whether the client endpoint operating system changed since the last connection. The script consumes the contents of the JSON file to compare the last two sessions' values, and issue their own alerts/pop-up messages.
 - Developers creating third-party apps that report the current state of the VDI optimization connection. The script consumes the contents of the JSON file to retrieve all available connection, optimization, and device information of the current Teams session.
 
 Json File Structure:

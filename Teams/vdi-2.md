@@ -481,7 +481,7 @@ Users on lower versions end up sharing a black screen instead with SCP enabled.
 
 ## Peripherals in VDI
 
-When Teams is optimized with SlimCore, Camera(s), microphone(s), and speaker(s) connected to your physical device are mapped on your virtual desktop. Teams enumerates all the detected devices, prioritizing Default Communication Devices (as seen in the mmsys.cpl panel when run on the user's device).
+When Teams is optimized with SlimCore, Cameras, microphones, and speakers connected to your physical device are mapped on your virtual desktop. Teams enumerates all the detected devices, prioritizing Default Communication Devices (as seen in the mmsys.cpl panel when run on the user's device).
 SlimCore-based optimization supports Human Interface Devices (HID) for [Teams certified headsets](https://aka.ms/teamsdevices), allowing users to mute/umute and increase/decrease volume themselves directly from their headset. A Microsoft Teams button on a certified Teams device isn't currently supported.
 
 > [!NOTE]

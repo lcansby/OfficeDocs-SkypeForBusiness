@@ -86,7 +86,7 @@ The code logged here needs to be mapped using this table:
 |loadErrc   |deployErrc |Definition                         |Notes |
 |-----------|-----------|-----------------------------------|------|
 |0          |0          |OK                                 |Not an error. 'SlimCore Connected' success|
-|5          |43         |ERROR_ACCESS_DENIED                |MsTeamsVdi.exe process failed at startup. Could be caused by BlockNonAdminUserInstall being enabled. Or the endpoint could be busy registering multiple MSIX packages after a user logon and it didn't finish registering SlimCoreVdi. |
+|5          |43         |ERROR_ACCESS_DENIED                |MsTeamsVdi.exe process failed at startup. BlockNonAdminUserInstall being enabled could cause this error. Or the endpoint could be busy registering multiple MSIX packages after a user logon and it didn't finish registering SlimCoreVdi. |
 |404        |3235       |HTTP_STATUS_NOT_FOUND              |Publishing issue: SlimCore MSIX package isn't found on Content Delivery Network. |
 |1260       |10083      |ERROR_ACCESS_DISABLED_BY_POLICY    |This error usually means that Windows Package Manager can't install the SlimCore MSIX package. Event Viewer can show the hex error code 0x800704EC. AppLocker Policies can cause this error code. You can either disable AppLocker, or add an exception for SlimCoreVdi packages in Local Security Policy -> Application Control Policies -> AppLocker. Check [Step 3](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint) under "Optimizing with new VDI solution for Teams". |
 |1460       |11683      |ERROR_time-out                      |MsTeamsVdi.exe process failed at startup (60-second time-out). |
@@ -94,7 +94,7 @@ The code logged here needs to be mapped using this table:
 |2000       |16002      |No Plugin                          |Endpoint doesn't have the MsTeamsPlugin, or if it has it, it didn't load (check with Process Explorer). |
 |2001       |           |Virtual Channel Not Available      |Error on Citrix VDA WFAPI. |
 |2003       |16026      |Custom Virtual Channels (MSTEAMS, MSTEAM1 and MSTEAM2) are blocked due to a Citrix Studio policy |Review the [Citrix virtual channel allow list](#citrix-virtual-channel-allow-list) section of this article. |
-|2005       |16043      |Teams is running as a Published App (Citrix) or RemoteApp (AVD/Windows 365) |This mode is currently not supported - Teams won't load SlimCore in this case, and users will always be optimized with WebRTC. |
+|2005       |16043      |Teams is running as a Published App (Citrix) or RemoteApp (AVD/Windows 365) |This mode is currently not supported - Teams won't load SlimCore in this case, and users are always optimized with WebRTC. |
 |3000       |24002      |SlimCore Deployment not needed     |This code isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
 |3001       |24010      |SlimCore already loaded            |This code isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
 |3004       |24035      |Plugin irresponsive                |Try restarting RDP or ICA session. |
@@ -143,7 +143,7 @@ Diagnostic information can be found in the detailed event logs on the user's dev
 
 Error 15615 usually means that the Windows Package Manager can't install the MSIX package with SlimCoreVdi.
 
-- Make sure the digital signature of that MSIX is trusted by the Endpoint (Go to MSIX > Properties > Digital signatures > Details). It's a valid store-friendly Microsoft signature, but customers may have something special configured.
+- Make sure the Endpoint trusts the digital signature of that MSIX (Go to MSIX > Properties > Digital signatures > Details). It's a valid store-friendly Microsoft signature, but customers may have something special configured.
 - Try enabling the [AllowAllTrustedApps policy](/windows/client-management/mdm/policy-csp-applicationmanagement).
 - Try to allow sideloading apps from trusted nonstore sources.
   - On Windows 10, this setting is enabled by default, so modify it here in case it's disabled: Settings > Update and Security > For developers > Sideload apps.

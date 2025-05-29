@@ -304,7 +304,7 @@ The default policy configurations are:
 - DisableCallsAndMeetings: False
 - DisableAudioVideoInCallsAndMeetings: False
 
-This policy now has an additional argument as the only configuration point to control whether a user can get the new optimization mode that's based on SlimCore or not. In other words, the VDI Partner's policy engines don't control the new optimization mode:
+This policy now has an additional argument as the only configuration point to control whether or not a user can get the new optimization mode based on SlimCore. In other words, the VDI Partner's policy engines don't control the new optimization mode:
 
 - VDI2Optimization: Enabled  (default value)
 

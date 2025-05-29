@@ -34,7 +34,7 @@ When troubleshooting the new Slimcore-based optimization for Microsoft Teams, yo
     - On Azure Virtual Desktop, look for the msrdc.exe process and ensure the MsTeamsPluginAvd.dll is loaded.
     - On Citrix, look for the wfica32.exe process and ensure the MsTeamsPluginCitrix.dll is loaded.
   3. Restart the new Teams app. It requires two restarts to transition from WebRTC to SlimCore, when the plugin is detected for the first time.
-  4. If the problem persists, check Event Viewer in the VM for **Microsoft Teams VDI**-related errors (new Teams 24123.X.X.X or higher).
+  4. If the problem persists, check Event Viewer in the virtual machine (VM) for **Microsoft Teams VDI**-related errors (new Teams 24123.X.X.X or higher).
 
 - Not optimized with SlimCore and instead you see: "Azure Virtual Desktop SlimCore Media Not Connected" or "Citrix SlimCore Media Not Connected".
   - Check the [Troubleshooting SlimCoreVdi MSIX deployment errors](#troubleshooting-slimcorevdi-msix-deployment-errors) section. MSIX or AppX-related errors are the most likely reasons for this error.
@@ -92,12 +92,12 @@ The code logged here needs to be mapped using this table:
 |1460       |11683      |ERROR_time-out                      |MsTeamsVdi.exe process failed at startup (60-second time-out). |
 |1722       |           |RPC_S_SERVER_UNAVAILABLE           |'The RPC server is unavailable' MsTeamsVdi.exe related error. |
 |2000       |16002      |No Plugin                          |Endpoint doesn't have the MsTeamsPlugin, or if it has it, it didn't load (check with Process Explorer). |
-|2001       |           |Virtual Channel Not Available      |Error on Citrix VDA WFAPI. |
+|2001       |           |Virtual Channel Not Available      |Error on the Citrix VDA (virtual delivery agent) WFAPI. |
 |2003       |16026      |Custom Virtual Channels (MSTEAMS, MSTEAM1 and MSTEAM2) are blocked due to a Citrix Studio policy |Review the [Citrix virtual channel allow list](vdi-2.md#citrix-virtual-channel-allow-list) section of the VDI 2.0 article. |
 |2005       |16043      |Teams is running as a Published App (Citrix) or RemoteApp (AVD/Windows 365) |This mode is currently not supported - Teams doesn't load SlimCore in this case, and users are always optimized with WebRTC. |
 |3000       |24002      |SlimCore Deployment not needed     |This code isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
 |3001       |24010      |SlimCore already loaded            |This code isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
-|3004       |24035      |Plugin irresponsive                |Try restarting RDP or ICA session. |
+|3004       |24035      |Plugin irresponsive                |Try restarting RDP (remote desktop protocol) or ICA (independent computing architecture) session. |
 |3005       |24043      |Plugin time-out while downloading   |Failure to download the MSIX within 2 minutes. |
 |3007       |24058      |Load time-out                       |SlimCore download or installation timed out (slow internet or App Readiness Service is busy). |
 |4000       |           |ERROR_WINS_INTERNAL                |WINS encountered an error while processing the command. |

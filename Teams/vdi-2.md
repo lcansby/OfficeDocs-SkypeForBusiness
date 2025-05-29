@@ -506,7 +506,7 @@ Location (in the VDA / RD Host): C:\Users\<username>\AppData\Local\Packages\MSTe
 
 Typical use cases for the monitoring API are:
 - Administrators deploying an automation script in VDA/RD Host to detect whether the client endpoint operating system has changed since the last connection, consuming the contents of the JSON file to compare the last two sessions' values, and issue their own alerts/pop-up messages.
-- Developers creating a Third party apps that report the current state of the VDI optimization connection, consuming the contents of the JSON file to retrieve all available connection, optimization, and device information of the current Teams session.
+- Developers creating third-party apps that report the current state of the VDI optimization connection, consuming the contents of the JSON file to retrieve all available connection, optimization, and device information of the current Teams session.
 
 Json File Structure:
 -	Timestamp - vdiConnectedState.timestamp indicates the timestamp of the session connection

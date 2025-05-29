@@ -117,7 +117,7 @@ Every connect/disconnect event gets logged in the Event Viewer running on the Vi
 
 ## Troubleshooting Plugin deployment errors
 
-Diagnostic information can be found in the detailed event logs on the user's device. After install, MsTeamsPluginCitrix.dll is written into the CWA folder. Only for the Citrix platform, the following keys on the Endpoint (not VM) are created:
+Diagnostic information can be found in the detailed event logs on the user's device. After install, MsTeamsPluginCitrix.dll is written into the CWA (Citrix Workspace app) folder. Only for the Citrix platform, the following keys on the Endpoint (not VM) are created:
 
 |Key |Key type |Key name |Key value |
 |---------|---------|---------|---------|
@@ -128,7 +128,7 @@ To debug installations, you can enable installer logging, but then you must use 
 
 ## Troubleshooting SlimCoreVdi MSIX deployment errors
 
-Make sure you review the [SlimCore MSIX staging and registration on the endpoint](vdi-2.md#step-3-slimcore-msix-staging-and-registration-on-the-endpoint) section, as certain GPOs can prevent MSIX installations.
+Make sure you review the [SlimCore MSIX staging and registration on the endpoint](vdi-2.md#step-3-slimcore-msix-staging-and-registration-on-the-endpoint) section, as certain GPOs (group policies) can prevent MSIX installations.
 
 Diagnostic information can be found in the detailed event logs on the user's device.
 

@@ -50,7 +50,7 @@ Here are some examples on how you can use these export APIs:
 > Reactions customized with color changes are currently not supported by Export API.
 
 - **Shared Channel Messages:** Export APIs support capturing messages from a Shared Channel.
-- **Deleted Teams:** Export API supports [capturing messages from deleted Teams](/graph/api/deletedteam-getallmessages) and deleted standard, private, and shared channels for a maximum of 30 days from the day of deletion as long as there is a valid retention policy set. Post 30 days, the teams/channels are considered hard deleted, and messages cannot be retrieved. 
+- **Deleted Teams:** Export API supports [capturing messages from deleted Teams](/graph/api/deletedteam-getallmessages) and deleted standard, private, and shared channels for a maximum of 30 days from the day of deletion. Post 30 days, the teams/channels are considered hard deleted, and messages cannot be retrieved. 
 
 - **Deleted Users**: Export API supports capturing messages for deleted users up to 30 days from the time the user was deleted. To find the list of deleted users, see [Deleted Items](/graph/api/directory-deleteditems-list).
 - **Inactive Users**: Export API supports capturing messages for inactive users up to 30 days from the time the user becomes inactive. To find the list of inactive mailboxes, see [Inactive mailboxes](/purview/create-and-manage-inactive-mailboxes#view-a-list-of-inactive-mailboxes).
@@ -431,7 +431,7 @@ If [your tenant is setup with Teams Retention Policy](/purview/create-retention-
 - **Message is edited by a user in a chat or a channel** If there's a valid retention policy set, the previous edited versions of the message can be exported.
 
 > [!NOTE]
-> The /getAllRetainedMessages API enables retrieval of deleted teams or channel messages for a maximum of 30 days from the day of deletion as long as there is a valid retention policy set. Post 30 days, the teams/channels are considered hard deleted, and messages cannot be retrieved.
+> The /getAllRetainedMessages API enables retrieval of deleted teams or channel messages for a maximum of 30 days from the day of deletion. Post 30 days, the teams/channels are considered hard deleted, and messages cannot be retrieved.
 
 ## Microsoft 365 Copilot Interactions & Microsoft 365 Chat (Preview)
 

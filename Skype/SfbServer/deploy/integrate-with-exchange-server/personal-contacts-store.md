@@ -18,6 +18,8 @@ description: "Summary: Configure the personal contact store used by legacy clien
 
 # Configure the personal contacts store on Lync 2010 client computers
   
+[!INCLUDE [appliesto-2015-xxx-xxx](../../../SfBServer2019/includes/appliesto-2015-xxx-xxx.md)]
+
 If you are integrating Skype for Business Server 2015 and Exchange Server 2016 or Exchange Server 2013, then you should configure the personal contact store used by the clients. In particular, you should configure Skype for Business to use Exchange as the personal contact store, and, at the same time, ensure that users are not able to override that decision. This can be done by creating and configuring a Registry value on each client computer.
   
 > [!NOTE]

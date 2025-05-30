@@ -18,6 +18,8 @@ description: "Summary: Review integration steps for Exchange Server 2016 or Exch
 
 # Integrate Skype for Business Server with Exchange Server
 
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 **Summary:** Review integration steps for Exchange Server 2013 or later and Skype for Business Server.
 
 Exchange Server 2013 or later and Skype for Business Server are compatible and integrate well. For example, Skype for Business user presence information can be reported in Microsoft Outlook; likewise, Skype for Business can access a user's Outlook calendar, notice the user has a meeting scheduled, and show the user's presence as Busy during the meeting. Although you do not have to run Exchange Server in order to run Skype for Business Server (or vice-versa) the two products together enhance each other's user experience.

@@ -18,6 +18,8 @@ description: "Summary: Configure the use of high-resolution photos in Exchange S
 
 # Configure the use of high-resolution photos in Skype for Business Server
 
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 **Summary:** Configure the use of high-resolution photos in Exchange Server 2019, Exchange Server 2016, Exchange Server 2013, or Exchange Online and Skype for Business Server.
   
 In Skype for Business Server, photos can be stored in a user's mailbox in Exchange Server 2019, Exchange Server 2016, Exchange Server 2013, or Exchange Online. Storing the photo in the mailbox allows for photo sizes up to 648 pixels by 648 pixels. In addition, Exchange Server can automatically resize these photos for use in different products as needed. Typically, there are three different photo sizes and resolutions:

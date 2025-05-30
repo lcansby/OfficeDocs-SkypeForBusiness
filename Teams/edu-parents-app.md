@@ -65,18 +65,11 @@ The Parents Connection allows educators and guardians to chat, email, and call u
 
 ## Turn on the Parents app in the Teams admin center
 
-The Parents app is turned off by default, so the class team owners won't see it in their class teams until it's allowed through the Teams admin center. The Parents app can be turned on in the Teams admin center in either of the following ways: 
-
-1. If administrators save their institution type as K12 (Primary or Secondary) in the [Teams for Education Policy Wizard](easy-policy-setup-edu.md), the Parents app gets enabled for their tenant. 
-
-1. Administrators can also control access to Parents app using [Allow apps blocked by developers](manage-apps.md#allow-or-block-apps). Sign in to the Teams admin center and access **Teams apps** > [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps). Search for **Parents** on the  **Manage** apps page to find the Parents app published by Microsoft, and select  **Allow** or **Block**  option. 
+The Parents app is turned off by default, so the class team owners won't see it in their class teams until it's allowed through the Teams admin center. Administrators can control access to Parents app using [Allow apps blocked by developers](manage-apps.md#allow-or-block-apps). Sign in to the Teams admin center and access **Teams apps** > [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps). Search for **Parents** on the  **Manage** apps page to find the Parents app published by Microsoft, and select  **Allow** or **Block**  option.
 
 At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-or-block-apps)  in the Teams admin center. If it's turned off at the tenant level, it will be blocked for all users, even if user-level permissions are turned on. 
 
-The Parents app can also be turned off **at the user level** using  [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md). 
-
-> [!TIP]
-> If you want to learn about School Connection, which empowers parents and guardians to stay informed about their child’s classroom progress in real-time with no extra work required from educators, see  [Set up School Connection](/microsoft-365/education/deploy/school-connection-app). 
+The Parents app can also be turned off **at the user level** using  [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md).
 
 ## Requirements
 
@@ -115,7 +108,9 @@ If guardian is removed from a *Student's* records, any existing chats involving 
 
 ### Manually Update Parent Contact Information 
 
-Schools can allow teachers to update manually the parent contact information corresponding to each child. This feature is enabled by default. However, no teacher’s request goes through unless an admin 'approves' it. **Once an admin approves the request, educators can leverage the parent contact information to easily contact parents and guardians through Teams. Additionally, the [School Connection](/microsoft-365/education/deploy/school-connection-app) app can use this information to keep parents and guardians informed about their child’s classroom progress in real-time.** <br> If your school doesn't want to use this feature, you can disable it using [PowerShell](#disable-manual-update-of-parent-contact-information).     
+Schools can allow teachers to update manually the parent contact information corresponding to each child. This feature is enabled by default. However, no teacher’s request goes through unless an admin 'approves' it. **Once an admin approves the request, educators can leverage the parent contact information to easily contact parents and guardians through Teams. 
+
+If your school doesn't want to use this feature, you can disable it using [PowerShell](#disable-manual-update-of-parent-contact-information).
 
 1. The teacher opens the parent app for the class inside the class team. 
 
@@ -281,20 +276,20 @@ Once the user-level external access policies are set correctly for the users in 
 
 - Set the federation configuration settings for your tenant: [Set-CsTenantFederationConfiguration](/powershell/module/teams/set-cstenantfederationconfiguration)
 
-
-
 ## Set a preferred invitation channel
+
+> [!NOTE]
+> Effective June 30, 2025, we will retire the SMS invitation option in the Parents app. Educators will no longer be able to invite parents to a Microsoft Teams chat using a text message. Educators can continue to use email as the preferred method to invite parents to Teams chats. 
 
 Admins can choose either email or SMS as their preferred Parent Connection invitation channel.
 
 Messages sent to parents and guardians will be in plain text, without HTML, formatting, or styles applied.
 
-> [!NOTE]
-> If you choose SMS as the preferred channel for sending Parent Connection invites to parents and guardians, be aware that:
->
-> - Parent and guardian phone numbers must be E.164 formatted for SMS invites and profile look-up to work.
->   - For example, format phone numbers as `+[country code][area code][phone number]`, like `+12223334444`.
-> - Mobile carrier SMS rates may be charged to parents and guardians who receive SMS invitations.
+If you choose SMS as the preferred channel for sending Parent Connection invites to parents and guardians, be aware that:
+
+- Parent and guardian phone numbers must be E.164 formatted for SMS invites and profile look-up to work.
+- For example, format phone numbers as `+[country code][area code][phone number]`, like `+12223334444`.
+- Mobile carrier SMS rates may be charged to parents and guardians who receive SMS invitations.
 
 ### Set a preferred invite channel in the Teams admin center
 

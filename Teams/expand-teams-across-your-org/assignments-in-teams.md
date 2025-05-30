@@ -47,9 +47,8 @@ The following are settings related to Assignments:
 
 Guardian emails are sent each weekend to parents or guardians. The email contains information about assignments from the previous week and for the upcoming week.
 
-1. There are three ways in which you can populate each student's guardian contact information. You can select any one of the following:
+1. There are two ways in which you can populate each student's guardian contact information. You can select any one of the following:
     1. **School Data Sync**: You can ingest contact information via CSV files or via API sync. To learn how to do this, see [Sync Parents and Guardian Contacts in SDS](/schooldatasync/parents-and-guardians-in-sds). If you want to leverage CSV files for populating the contacts, V2.1 is the preferred CSV file format in SDS, and you will need four CSV files: _orgs.csv_, _users.csv_, _roles.csv_, and _relationships.csv_. For more information, see [SDS V2.1 CSV File Format](/schooldatasync/sds-v2.1-csv-file-format). If you'd like to first get an overview of SDS instead, see [School Data Sync Overview](/schooldatasync/school-data-sync-overview).
-    1. **Parents App**: You can select this method if you’ve not set up SDS. An educator can add or edit parent/guardian contact information through a form-based input for each student and request their school admin for approval. Once the admin approves the request, the contact details are updated. For more information, see [Manually Update Parent Contact Information](../edu-parents-app.md#manually-update-parent-contact-information).
     1. **Microsoft Graph**: The contact information can be updated in the ‘relatedContact resource type’, and the ‘Update’ API can be used to populate parent/guardian contact information for each student. Learn more [here](/graph/api/resources/relatedcontact?view=graph-rest-beta&preserve-view=true).  
 
 2. Turn on the Guardian Setting in the Microsoft Teams admin center navigating to [Education > Parent and guardian settings](https://admin.teams.microsoft.com/education/parent-settings), as the setting is turned off by default. This will enable teachers to send out a weekly digest.
@@ -66,8 +65,6 @@ To verify that Parents will get the email, the following three items must be tru
 - The emails will contain information about assignments that have a due date from the previous week or in the upcoming week.
 
 Default setting for this feature is - **Off**.
-> [!TIP]
-> If you want to learn about School Connection, which empowers parents and guardians to stay informed about their child’s assignments, grades, and insights in real-time with no extra work required from educators, see  [Set up School Connection](/microsoft-365/education/deploy/school-connection-app). 
 
 <a name="bkmakecode"> </a>
 

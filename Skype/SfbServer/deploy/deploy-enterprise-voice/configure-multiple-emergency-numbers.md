@@ -20,6 +20,8 @@ description: "Read this topic to learn how to configure multiple emergency numbe
 
 # Configure multiple emergency numbers in Skype for Business
 
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 Read this topic to learn how to configure multiple emergency numbers in Skype for Business Server.
 
 Skype for Business Server now supports multiple emergency numbers for a client. Multiple emergency numbers is a new feature introduced in the June 2016 Cumulative Update. Before you configure your environment to support multiple emergency numbers, be sure to read [Plan for multiple emergency numbers in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md).

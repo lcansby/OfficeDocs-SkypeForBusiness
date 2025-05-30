@@ -21,6 +21,8 @@ description: "Final checklist for deploying Call Admission Control (CAC) in Skyp
 
 # Call admission control deployment: final checklist for Skype for Business Server
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 Final checklist for deploying Call Admission Control (CAC) in Skype for Business Server Enterprise Voice. 
   
 Use the following checklist to verify that you have completed all the necessary configuration tasks to deploy Call Admission Control (CAC).

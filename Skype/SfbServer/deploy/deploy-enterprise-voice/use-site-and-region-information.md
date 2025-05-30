@@ -21,6 +21,8 @@ description: "Configure media bypass to be used for only certain sites and regio
 
 # Configure media bypass global settings in Skype for Business Server to use site and region information
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 Configure media bypass to be used for only certain sites and regions in Skype for Business Server Enterprise Voice. 
   
  If you use the steps in this topic to configure global settings for media bypass, the assumption is that you do not have good connectivity between all Skype for Business endpoints and any peer for which you configured media bypass on the trunk connection.

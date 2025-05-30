@@ -21,6 +21,8 @@ description: "Enable call admission control in Skype for Business Server Enterpr
 
 # Enable call admission control in Skype for Business Server
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 Enable call admission control in Skype for Business Server Enterprise Voice. 
   
 After you have configured your network settings for call admission control deployment, you must enable CAC to put your bandwidth policies into effect.

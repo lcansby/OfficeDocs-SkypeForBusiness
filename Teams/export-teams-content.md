@@ -66,7 +66,7 @@ Learn more about Exporting Messages in [chat](/graph/api/chats-getallmessages?vi
 
    To learn more about Teams Retention policy, see the [Manage retention policies for Microsoft Teams](/microsoftteams/retention-policies) for further details.
   
-   Learn more about Exporting Edited History Messages in [chat ](/graph/api/chat-getallretainedmessages?view=graph-rest-1.0&tabs=http)and [channel](/graph/api/channel-getallmessages?view=graph-rest-1.0&tabs=http).
+   Learn more about Exporting Edited History Messages in [chat](/graph/api/chat-getallretainedmessages?view=graph-rest-1.0&tabs=http) and [channel](/graph/api/channel-getallmessages?view=graph-rest-1.0&tabs=http).
   
 - **Meeting Transcripts:** Get all transcripts from scheduled online meeting instances for which the specified user is the organizer. This API currently only supports private scheduled meetings.
 

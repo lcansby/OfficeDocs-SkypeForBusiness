@@ -217,7 +217,7 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |||Mode for IP video|Outgoing and incoming video enabled|Outgoing and incoming video enabled|
 |||IP video|On|On|
 |||Allow NDI streaming|Off|Off|
-|||Media bit rate (Kbs)|50,000|50,000|
+|||Media bit rate (KBs)|50,000|50,000|
 ||Content sharing|Screen sharing mode|Entire screen|Entire screen|
 |||Allow a participant to give or request control|On|On|
 |||Allow an external participant to give or request control|On|On|
@@ -290,7 +290,7 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |||Mode for IP video|Outgoing and incoming video enabled|Outgoing and incoming video enabled|
 |||IP video|On|On|
 |||Allow NDI streaming|Off|Off|
-|||Media bit rate (Kbs)|50,000|50,000|
+|||Media bit rate (KBs)|50,000|50,000|
 ||Content sharing|Screen sharing mode|Entire screen|Entire screen|
 |||Allow a participant to give or request control|On|On|
 |||Allow an external participant to give or request control|On|On|

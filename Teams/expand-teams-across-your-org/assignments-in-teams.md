@@ -162,7 +162,7 @@ The data about the student submissions will be exported.
 
 Bulk Export assignment data works the same way for a student, but all submissions that the teacher has access to will be exported.
 
-### Bulk Delete assignment data outside of SharePoint document libraries
+### Bulk delete assignment data outside of SharePoint document libraries
 
 #### For a student
 

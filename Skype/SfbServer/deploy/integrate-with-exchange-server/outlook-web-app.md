@@ -53,13 +53,13 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 ```
 
 > [!NOTE]
-> If you are using Microsoft 365 or Office 365 operated by 21Vianet in China, replace the value for the ProxyFqdn parameter in this example ("exap.um.outlook.com") with the FQDN for the service operated by 21Vianet: "exap.um.partner.outlook.cn". If you are using Microsoft 365 or Office 365 GCC High, replace the value for the ProxyFqdn parameter in this example ("exap.um.outlook.com") with the FQDN for GCC High: "exap.um.office365.us".
+> If you're using Microsoft 365 or Office 365 operated by 21Vianet in China, replace the value for the ProxyFqdn parameter in this example ("exap.um.outlook.com") with the FQDN for the service operated by 21Vianet: "exap.um.partner.outlook.cn". If you're using Microsoft 365 or Office 365 GCC High, replace the value for the ProxyFqdn parameter in this example ("exap.um.outlook.com") with the FQDN for GCC High: "exap.um.office365.us".
 
-- **Identity** specifies a unique string value identifier for the hosting provider that you are creating (for example, "Exchange Online"). Values that contain spaces must be in double quotes.
+- **Identity** specifies a unique string value identifier for the hosting provider that you're creating (for example, "Exchange Online"). Values that contain spaces must be in double quotes.
 
 - **Enabled** indicates whether the network connection between your domain and the hosting provider is enabled. This must be set to True.
 
-- **EnabledSharedAddressSpace** indicates whether the hosting provider will be used in a shared SIP address space scenario. This must be set to True.
+- **EnabledSharedAddressSpace** indicates whether the hosting provider is used in a shared SIP address space scenario. This must be set to True.
 
 - **HostsOCSUsers** indicates whether the hosting provider is used to host Office Communications Server or Skype for Business Server. This must be set to False.
 
@@ -67,7 +67,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 
 - **IsLocal** indicates whether the proxy server used by the hosting provider is contained within your Skype for Business Server topology. This must be set to False.
 
-- **VerificationLevel** Indicates the verification level allowed for messages that are sent to and from the hosted provider. Specify **UseSourceVerification**, which relies on the verification level included in messages sent from the hosting provider. If this level is not specified, the message will be rejected as being unverifiable.
+- **VerificationLevel** Indicates the verification level allowed for messages that are sent to and from the hosted provider. Specify **UseSourceVerification**, which relies on the verification level included in messages sent from the hosting provider. If this level isn't specified, the message is rejected as being unverifiable.
 
 ## Verify Replication of the Updated Central Management Store
 

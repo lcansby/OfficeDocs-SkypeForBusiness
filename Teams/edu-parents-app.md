@@ -108,7 +108,7 @@ If guardian is removed from a *Student's* records, any existing chats involving 
 
 ### Manually Update Parent Contact Information 
 
-Schools can allow teachers to update manually the parent contact information corresponding to each child. This feature is enabled by default. However, no teacher’s request goes through unless an admin 'approves' it. **Once an admin approves the request, educators can leverage the parent contact information to easily contact parents and guardians through Teams. 
+Schools can allow teachers to update manually the parent contact information corresponding to each child. This feature is enabled by default. However, no teacher’s request goes through unless an admin 'approves' it. **Once an admin approves the request, educators can use the parent contact information to easily contact parents and guardians through Teams. 
 
 If your school doesn't want to use this feature, you can disable it using [PowerShell](#disable-manual-update-of-parent-contact-information).
 
@@ -116,7 +116,7 @@ If your school doesn't want to use this feature, you can disable it using [Power
 
 1. The teacher can add or edit existing parent contact details. To view the educator flow, see [Communicate with guardians in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e#ID0EDDBHD). 
 
-1. Once the request is submitted, it is sent to admins for approval. For more information about Approvals app, see [What is Approvals?](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) and [Manage the Approvals app in Microsoft Teams](approval-admin.md). 
+1. Once the request is submitted, it's sent to admins for approval. For more information about Approvals app, see [What is Approvals?](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) and [Manage the Approvals app in Microsoft Teams](approval-admin.md). 
 
 1. Global admins and Teams admins are eligible to approve these requests. To check for admin roles, visit [Azure portal](https://ms.portal.azure.com/#view/Microsoft_AAD_IAM/AllRolesBlade). Search for the administrative role you want to check. Select Assignments from the Manage menu to view who are the admins. 
 
@@ -125,7 +125,7 @@ If your school doesn't want to use this feature, you can disable it using [Power
 
     :::image type="content" source="media/enabled-users.png" alt-text="Screenshot of enabled users.":::
   
-    For more details on the power automate side, see [Enable or disable application users.](/power-apps/developer/data-platform/use-single-tenant-server-server-authentication#enable-or-disable-application-users)  
+    For more information on the power automate side, see [Enable or disable application users.](/power-apps/developer/data-platform/use-single-tenant-server-server-authentication#enable-or-disable-application-users)  
 
     Use the following steps to enable the Global/Teams administrator:
 
@@ -153,7 +153,7 @@ If your school doesn't want to give educators the capability to manually update 
 An educator can add or update the parents data via manual ingestion using an admin setting `UpdateParentInformation`. The default value for the setting is enabled. However, to disable the setting, the tenant admin should install the latest TPM version > [6.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/6.1.0).<br>
 Once the latest TPM version is installed,  
 1. Check if the setting is enabled for you or not, by following these [steps](/powershell/module/teams/get-csteamseducationconfiguration).<br>
-Note the value of the 'Identity' property. It is required when you update the setting. 
+Note the value of the 'Identity' property. It's required when you update the setting. 
 
 2. To update the setting on behalf of your tenant, use this [link](/powershell/module/teams/set-csteamseducationconfiguration) and follow the examples of `UpdateParentInformation` setting.
 
@@ -179,7 +179,7 @@ To delete student data stored in the Dataverse:
 1. Select the **Partner Id Hash** dropdown and select **Filter by**.
 1. In the **Filter by window**, enter **student object ID** in the field, and select **Apply**.
 
-    :::image type="content" source="media/delete-data-verse/delete-student-4.png" alt-text="Screenshot of student id column." lightbox="media/delete-data-verse/delete-student-4.png":::
+    :::image type="content" source="media/delete-data-verse/delete-student-4.png" alt-text="Screenshot of student ID column." lightbox="media/delete-data-verse/delete-student-4.png":::
 
 1. From the displayed list, select the rows of student data to be deleted.
 
@@ -253,7 +253,7 @@ Here are the steps to turn on external access for parents and guardians.
 4. For each policy other than the 'Global' policy, check which users have the policy assigned.
 
     > [!NOTE]
-    > Any users who do not have a specific policy assigned will fall back to the 'Global' policy. Any new users who are added to the tenant will have the 'Global' policy assigned.
+    > Any users who don't have a specific policy assigned will fall back to the 'Global' policy. Any new users who are added to the tenant will have the 'Global' policy assigned.
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
@@ -266,7 +266,7 @@ Since all user-level external access policies have `EnableTeamsConsumerAccess` s
 - Customize an existing external access policy (including the 'Global' policy): [Set-CsExternalAccessPolicy](/powershell/module/teams/set-csexternalaccesspolicy)
 
 > [!NOTE]
-> The following subscription default policies cannot be modified: 'FederationAndPICDefault', 'FederationOnly', 'NoFederationAndPIC'. The 'FederationAndPICDefault' policy used to be assigned to all users by default, however new users are now assigned the 'Global' policy by default. If you need to change the policy settings for users who have these subscription default policies assigned, assign different policies with the correct settings to these users.
+> The following subscription default policies can't be modified: 'FederationAndPICDefault', 'FederationOnly', 'NoFederationAndPIC'. The 'FederationAndPICDefault' policy used to be assigned to all users by default, however new users are now assigned the 'Global' policy by default. If you need to change the policy settings for users who have these subscription default policies assigned, assign different policies with the correct settings to these users.
 
 - Assign an external access policy to a single user: [Grant-CsExternalAccessPolicy](/powershell/module/teams/grant-csexternalaccesspolicy)
 
@@ -279,13 +279,13 @@ Once the user-level external access policies are set correctly for the users in 
 ## Set a preferred invitation channel
 
 > [!NOTE]
-> Effective June 30, 2025, we will retire the SMS invitation option in the Parents app. Educators will no longer be able to invite parents to a Microsoft Teams chat using a text message. Educators can continue to use email as the preferred method to invite parents to Teams chats. 
+> Effective June 30, 2025, we'll retire the SMS invitation option in the Parents app. Educators will no longer be able to invite parents to a Microsoft Teams chat using a text message. Educators can continue to use email as the preferred method to invite parents to Teams chats. 
 
 Admins can choose either email or SMS as their preferred Parent Connection invitation channel.
 
 Messages sent to parents and guardians will be in plain text, without HTML, formatting, or styles applied.
 
-If you choose SMS as the preferred channel for sending Parent Connection invites to parents and guardians, be aware that:
+If you choose SMS as the preferred channel for sending Parent Connection invites to parents and guardians, know that:
 
 - Parent and guardian phone numbers must be E.164 formatted for SMS invites and profile look-up to work.
 - For example, format phone numbers as `+[country code][area code][phone number]`, like `+12223334444`.

@@ -39,7 +39,7 @@ Policies must be adjusted for both students and educators to keep the learning e
 This article walks you through how to run the wizard.
 
 > [!IMPORTANT]
-> The policies applied by the wizard will satisfy the needs of the majority of Teams for Education customers. The wizard adjusts the Global (Org-wide default) definition of a core set of policies with settings that we recommend for student safety and applies it to students. The wizard also creates and assigns a set of custom policies to educators and staff. Most Teams for Education customers won't need to use other policy assignment methods after running this wizard. Use other policy assignment methods *only* if you want to manually create and manage policies for your students, educators and staff.
+> The policies applied by the wizard will satisfy the needs of most Teams for Education customers. The wizard adjusts the Global (Org-wide default) definition of a core set of policies with settings that we recommend for student safety, and applies it to students. The wizard also creates and assigns a set of custom policies to educators and staff. Most Teams for Education customers won't need to use other policy assignment methods after running this wizard. Use other policy assignment methods *only* if you want to manually create and manage policies for your students, educators, and staff.
 
 ## Teams for Education Policy Wizard
 
@@ -67,7 +67,7 @@ Now, let's get started!
 
 Follow these steps to run the wizard.
 
-1. If you're new to Teams, the wizard automatically starts. Otherwise, you can start the wizard any time from the dashboard. In the left navigation of the Microsoft Teams admin center, go to **Home**, and then in the **Easy policy setup for a safe learning environment** tile, select **Quick setup**.
+1. If you're new to Teams, the wizard automatically starts. Otherwise, you can start the wizard anytime from the dashboard. In the left navigation of the Microsoft Teams admin center, go to **Home**, and then in the **Easy policy setup for a safe learning environment** tile, select **Quick setup**.
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Screenshot of the wizard in the dashboard.":::
 
@@ -75,7 +75,7 @@ Follow these steps to run the wizard.
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Screenshot of the page in wizard to select institution type.":::
 
-3. Search for and select groups that contain your educators and staff, and then select **Next**. If you don't have any groups set up yet for your educators and staff, [create a group](/microsoft-365/admin/create-groups/create-groups), and then re-run the wizard. <br/><br/>You can select up to three groups. Educators and staff in the groups you select will be assigned [a set of custom policies](#policies-applied-by-the-wizard) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
+3. Search for and select groups that contain your educators and staff, and then select **Next**. If you don't have any groups set up yet for your educators and staff, [create a group](/microsoft-365/admin/create-groups/create-groups), and then rerun the wizard. <br/><br/>You can select up to three groups. Educators and staff in the groups you select will be assigned [a set of custom policies](#policies-applied-by-the-wizard) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
 
     :::image type="content" source="media/edu-policy-wizard-add-3-groups.png" alt-text="Screenshot of page in wizard to select educator and staff groups.":::
 
@@ -84,7 +84,7 @@ Follow these steps to run the wizard.
     :::image type="content" source="media/edu-policy-wizard-3-groups-review.png" alt-text="Screenshot of page in wizard to review selections.":::
 
 5. Select **Apply** to apply your changes. This may take a few minutes to complete.<br/><br/>The Global (Org-wide default) policy definitions are immediately applied to students. For your educators and staff, it could take a few hours for the custom policies to be assigned to each member of the groups you selected, depending on the size of the groups. This happens in the background, after you successfully complete this step.
-6. You're on your way, but you're not done yet! There're a few more things to consider. Next, check out the steps in the [What to do after running the wizard](#what-to-do-after-running-the-wizard) section of this article.
+6. You're on your way, but you're not done yet! There are a few more things to consider. Next, check out the steps in the [What to do after running the wizard](#what-to-do-after-running-the-wizard) section of this article.
 
     :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Screenshot of page in wizard for next steps.":::
 
@@ -121,15 +121,15 @@ For each [policy area applied by the wizard](#policies-applied-by-the-wizard), d
 
 [Learn more](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) about how to remove policies that are directly assigned to users.
 
-For example, you assigned a meeting policy directly to educators and your students have the Global (Org-wide default) meeting policy. In this scenario, remove the meeting policy that you directly assigned to educators so that the custom policy definition for the meeting policy created by the wizard will take effect. You don't have to do anything with the existing Global (Org-wide default) meeting policy for students because no other meeting policies conflict with it.
+For example, you assigned a meeting policy directly to educators and your students have the Global (Org-wide default) meeting policy. In this scenario, remove the meeting policy that you directly assigned to educators so that the custom policy definition for the meeting policy created by the wizard takes effect. You don't have to do anything with the existing Global (Org-wide default) meeting policy for students because no other meeting policies conflict with it.
 
 <a name="polwiz_addmeasures"> </a>
 
 ### Step 2: Check for additional measures that you can take for student safety
 
-The wizard automatically adjusts and applies [these policies](#policies-applied-by-the-wizard). There are few additional measures, which you may want to take based on the needs of your institution to stay safe.
+The wizard automatically adjusts and applies [these policies](#policies-applied-by-the-wizard). There are few more measures, which you may want to take based on the needs of your institution to stay safe.
 
-See [Keeping students safe while using Teams for distance learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) for additional safety recommendations.
+See [Keeping students safe while using Teams for distance learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) for more safety recommendations.
 
 <a name="polwiz_mc"> </a>
 
@@ -143,7 +143,7 @@ But do check the [Message Center](https://admin.microsoft.com/AdminPortal/Home?#
 
 <a name="polwiz_change"> </a>
 
-If you need to make changes after you run the wizard, you can re-run it and change your selections.
+If you need to make changes after you run the wizard, you can rerun it and change your selections.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Home**, and then in the **Easy policy setup for a safe learning environment** tile, select **Change**.
 2. From here, continue through each page of the wizard to make your changes. You can change your institution type, the groups of educators and staff to which you want to assign policies, or both.
@@ -193,13 +193,13 @@ Here's a summary of the settings applied by the wizard for each policy area.
 > [!NOTE]
 > Only team owners can create shared channels.
 >
-> Shared channels with other organizations requires configuration of [Microsoft Entra B2B direct connect](/azure/active-directory/external-identities/b2b-direct-connect-overview) which is disabled by default. See [Collaborate with external participants in a channel](/microsoft-365/solutions/collaborate-teams-direct-connect) to enable this feature.
+> Shared channels with other organizations require configuration of [Microsoft Entra B2B direct connect](/azure/active-directory/external-identities/b2b-direct-connect-overview) which is disabled by default. See [Collaborate with external participants in a channel](/microsoft-365/solutions/collaborate-teams-direct-connect) to enable this feature.
 
 #### [**Students**](#tab/student-settings/)
 
 Here's a list of the Global (Org-wide default) policy definitions adjusted by the wizard and applied to students.
 
-|Policy area|Sub-area|Policy setting|Primary or Secondary|Higher education|
+|Policy area|Subarea|Policy setting|Primary or Secondary|Higher education|
 |---|---|---|---|---|
 |Teams policy||Create private channels|Off|On|
 |||Create shared channels|On|On|
@@ -229,7 +229,7 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |||Who can bypass the lobby|People in my org|People in my org|
 |||People dialing in can bypass the lobby|Off|Off|
 |||Meet now in private meetings|Off|On|
-|||Live captions|Off, but organizers and co-organizers can turn them on|Off, but organizers and co-organizers can turn them on|
+|||Live captions|Off, but organizers and coorganizers can turn them on|Off, but organizers and coorganizers can turn them on|
 |||Meeting chat|On|On|
 |Live events policy||Live events scheduling|Off|Off|
 |||Transcription for attendees|On|On|
@@ -272,7 +272,7 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 
 Here's a list of the custom policy definitions assigned to the educators and staff groups that you choose in the wizard.  
 
-|Policy area|Sub-area|Policy setting|Primary or Secondary|Higher education|
+|Policy area|Subarea|Policy setting|Primary or Secondary|Higher education|
 |---|---|---|---|---|
 |Teams policy||Create private channels|On|On|
 |||Create shared channels|On|On|
@@ -299,7 +299,7 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |||Shared notes|On|On|
 ||Participants & guests|Anonymous users and dial-in callers can start a meeting|On|On|
 |||Roles that have presenter rights in meetings|OrganizerOnlyUserOverride|OrganizerOnlyUserOverride|
-|||Who can bypass the lobby|Only organizers and co-organizers|Only organizers and co-organizers|
+|||Who can bypass the lobby|Only organizers and coorganizers|Only organizers and coorganizers|
 |||People dialing in can bypass the lobby|Off|Off|
 |||Meet now in private meetings|On|On|
 |||Live captions|Disabled but user can override|Disabled but user can override|
@@ -334,7 +334,7 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |||Busy on busy is available when in a call|Off|Off|
 |||Allow web PSTN calling|On|On|
 
-## Related topics
+## Related articles
 
 - [Teams policies and policy packages for Education](policy-packages-edu.md)
 - [Assign policies to large sets of users in your school](batch-group-policy-assignment-edu.md)

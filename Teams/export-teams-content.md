@@ -62,7 +62,7 @@ Learn more about Exporting Messages in [chat ](/graph/api/chats-getallmessages?v
 > [!NOTE]
 > Meeting related control messages are currently not supported by Export API.
 
-- **Edited History:** If [your tenant is setup with Teams Retention Policy](/purview/create-retention-policies?tabs=teams-retention), Export API supports capturing messages' edited history for individual & group chat, and [posts, comments in Public & Shared channels](/graph/api/channel-getallretainedmessages).
+- **Edited History:** If [your tenant is setup with Teams Retention Policy](/purview/create-retention-policies?tabs=teams-retention), Export API supports capturing messages' edited history for individual & group chat, and posts, comments in Public & Shared channels.
 
    To learn more about Teams Retention policy, see the [Manage retention policies for Microsoft Teams](/microsoftteams/retention-policies) for further details.
   

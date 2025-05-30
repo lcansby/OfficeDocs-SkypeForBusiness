@@ -57,7 +57,7 @@ Here are some examples on how you can use these export APIs:
 - **Chat Message Properties:** Refer to the [complete list of properties that Teams Export APIs support](/graph/api/resources/chatmessage#properties).
 - **Control Messages:** Export API supports capturing control messages in addition to the user generated messages. Control Messages are system generated messages that appear on the Teams client and carry important information such as "User A added User B to the chat and shared all chat history" along with the timestamp. System messages enable the caller to have insights about events that happened in a team, a channel, or a chat. Refer to [the list of control messages](/graph/system-messages#supported-system-message-events) that Export API currently supports.
 
-Learn more about Exporting Messages in [chat ](/graph/api/chats-getallmessages?view=graph-rest-1.0&tabs=http)and [channel](/graph/api/channel-getallmessages?view=graph-rest-1.0&tabs=http).
+Learn more about Exporting Messages in [chat](/graph/api/chats-getallmessages?view=graph-rest-1.0&tabs=http) and [channel](/graph/api/channel-getallmessages?view=graph-rest-1.0&tabs=http).
 
 > [!NOTE]
 > Meeting related control messages are currently not supported by Export API.

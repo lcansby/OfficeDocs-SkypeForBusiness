@@ -39,4 +39,4 @@ Skype for Business Server provides a web service interface that you can use to p
 
 ## See also
 
-[Set-CsWebServiceConfiguration](/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
+[Set-CsWebServiceConfiguration](/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps&preserve-view=true)

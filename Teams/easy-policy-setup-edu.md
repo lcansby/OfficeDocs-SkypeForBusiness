@@ -148,13 +148,13 @@ If you need to make changes after you run the wizard, you can rerun it and chang
 1. In the left navigation of the Microsoft Teams admin center, go to **Home**, and then in the **Easy policy setup for a safe learning environment** tile, select **Change**.
 2. From here, continue through each page of the wizard to make your changes. You can change your institution type, the groups of educators and staff to which you want to assign policies, or both.
 
-The following table summarizes what happens when you make a change in the wizard.
+   The following table summarizes what happens when you make a change in the wizard.
 
-|Type of change|Policy behavior|
-|---|---|
-|Change both the educational institution type and the educators and staff groups|<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the new educator and staff groups. The previous custom policy definitions are removed from the previous educators and staff groups.</li></ul>|
-|Change only the educational institution type|<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the educators and staff groups. The custom policy definitions created for the previous educational institution type are removed from the educators and staff groups.</li></ul>|
-|Change only the educators and staff groups|<ul><li>**Students**: No change to the Global (Org-wide default) policy definitions applied to students.</li><li>**Educators and staff**: The custom policy definitions are assigned to the new educators and staff groups and removed from the previous educators and staff groups.</li></ul>|
+   |Type of change|Policy behavior|
+   |---|---|
+   |Change both the educational institution type and the educators and staff groups|<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the new educator and staff groups. The previous custom policy definitions are removed from the previous educators and staff groups.</li></ul>|
+   |Change only the educational institution type|<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the educators and staff groups. The custom policy definitions created for the previous educational institution type are removed from the educators and staff groups.</li></ul>|
+   |Change only the educators and staff groups|<ul><li>**Students**: No change to the Global (Org-wide default) policy definitions applied to students.</li><li>**Educators and staff**: The custom policy definitions are assigned to the new educators and staff groups and removed from the previous educators and staff groups.</li></ul>|
 
 ## Policies applied by the wizard
 

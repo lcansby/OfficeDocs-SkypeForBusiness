@@ -224,6 +224,36 @@ To add a mobile system OS scanner:
 
 ## [Teams phones](#tab/phones)
 
+## May 27, 2025
+
+**Applies to:** *Teams app version: 1449/1.0.94.2025042103 (Yealink MP52, Crestron UC-Px, UX-Px-I, UC-2 and Audiocodes C488HD, C450HD)*
+
+- Authentication token and back-end calendar fixes 
+
+This update also includes these features, which were already available for certified Teams Phones:
+
+- Copilot-generated summaries for call transfers
+
+- Line Keys for Shared Line, Collaborative call delegation, Call queues and Call transfers
+
+- External Contacts Management
+
+- Line keys on touch, non-touch and sidecar devices for speed dials
+
+- Queues app 
+
+- Shared line call history 
+
+- App pinning on home screen using dedicated settings 
+
+- Collaborative call delegation 
+
+- Multi-banner updates 
+
+- Critical bug fixes and improvements 
+
+For a detailed and comprehensive list of capabilities available for these device models, please review release notes after December 18, 2024 until May 27, 2025.
+
 ## May 26, 2025
 
 **Applies to:** *Teams app version: 1449/1.0.94.2025165302 (Poly, Yealink and Audiocodes)*

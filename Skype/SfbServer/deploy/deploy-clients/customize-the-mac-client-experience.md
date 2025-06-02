@@ -49,17 +49,17 @@ To set these preferences, get to a terminal prompt on the client's Mac and as ne
    
 ### Usage examples
 
-To add a single domain (Contoso.com) to the trusted domain list you would use the trustedDomainList key as shown:
+To add a single domain (Contoso.com) to the trusted domain list, you would use the trustedDomainList key as shown:
   
 defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "Contoso.com"
   
-To add several domains to the trusted domain list you would use the trustedDomainList key as shown:
+To add several domains to the trusted domain list, you would use the trustedDomainList key as shown:
   
 defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.com" "abc.com" "test.org"
   
 ### Sample unedited settings
 
-For reference, here is a sample settings file using default settings only: 
+For reference, here's a sample settings file using default settings only: 
   
 ```console
 {

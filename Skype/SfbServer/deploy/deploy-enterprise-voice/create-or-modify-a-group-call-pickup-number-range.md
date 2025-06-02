@@ -32,7 +32,7 @@ Like call park orbit numbers, call pickup group numbers need to be virtual exten
 Use the following procedure to create or modify a call pickup group number range in the call park orbit table.
 
 > [!NOTE]
-> You must use Skype for Business Server Management Shell to create, modify, remove, and view Group Call Pickup number ranges in the call park orbit table. Group Call Pickup number ranges are not available in Skype for Business Server Control Panel.
+> You must use Skype for Business Server Management Shell to create, modify, remove, and view Group Call Pickup number ranges in the call park orbit table. Group Call Pickup number ranges aren't available in Skype for Business Server Control Panel.
 
 The call pickup group number ranges must comply with the following rules:
 
@@ -40,11 +40,11 @@ The call pickup group number ranges must comply with the following rules:
 
 - The value of the beginning number of the range must be the same length as the ending number of the range.
 
-- The number range must be unique. This range cannot overlap with any other range.
+- The number range must be unique. This range can't overlap with any other range.
 
 - If the number range begins with the character \* or #, the range must be greater than 100.
 
-- Valid values: Must match the regular expression string ([\\*|#]?[1-9]\d{0,7})|([1-9]\d{0,8}). This means the value must be a string beginning with either the character \* or # or a number 1 through 9 (the first character cannot be a zero). If the first character is \* or #, the following character must be a number 1 through 9 (it cannot be a zero). Subsequent characters can be any number 0 through 9 up to seven additional characters (for example, "#6000", "\*92000", "\*95551212", and "915551212"). If the first character is not \* or #, the first character must be a number 1 through 9 (it cannot be zero), followed by up to eight characters, each a number 0 through 9 (for example, "915551212", "41212", "300").
+- Valid values: Must match the regular expression string ([\\*|#]?[1-9]\d{0,7})|([1-9]\d{0,8}). This means the value must be a string beginning with either the character \* or # or a number 1 through 9 (the first character can't be a zero). If the first character is \* or #, the following character must be a number 1 through 9 (it can't be a zero). Subsequent characters can be any number 0 through 9 up to seven additional characters (for example, "#6000", "\*92000", "\*95551212", and "915551212"). If the first character is not \* or #, the first character must be a number 1 through 9 (it cannot be zero), followed by up to eight characters, each a number 0 through 9 (for example, "915551212", "41212", "300").
 
 ### To create or modify a call pickup group range
 

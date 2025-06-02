@@ -17,6 +17,8 @@ description: "Summary: Read this topic to learn how to deploy conferencing in Sk
 
 # Deploy conferencing in Skype for Business Server
 
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 **Summary:** Read this topic to learn how to deploy conferencing in Skype for Business Server.
 
 There are four types of conferencing available in Skype for Business Server: web conferencing, audio and video (A/V) conferencing, dial-in conferencing, and instant message (IM) conferencing. You can choose to enable all conferencing types, or to use only one type, depending on your needs.

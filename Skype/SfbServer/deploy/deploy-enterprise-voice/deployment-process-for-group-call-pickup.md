@@ -20,7 +20,9 @@ description: "Deployment process and steps for Group Call Pickup in Skype for Bu
 ---
 
 # Deployment process for Group Call Pickup in Skype for Business
- 
+
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 Deployment process and steps for Group Call Pickup in Skype for Business Server Enterprise Voice.
   
 Group Call Pickup enables users to answer incoming calls to their colleagues from their own phones. 

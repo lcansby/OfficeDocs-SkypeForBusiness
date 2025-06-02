@@ -21,6 +21,8 @@ description: "Create or modify a Group Call Pickup number range in Skype for Bus
 
 # Create or modify a Group Call Pickup number range in Skype for Business
 
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 Create or modify a Group Call Pickup number range in Skype for Business Server Enterprise Voice.
 
 Group Call Pickup is based on the Call Park application. When you deploy Group Call Pickup, you must configure the call park orbit table with ranges of phone numbers that are designated as call pickup group numbers. These group numbers are the numbers that users dial to pick up calls that are ringing for another user.

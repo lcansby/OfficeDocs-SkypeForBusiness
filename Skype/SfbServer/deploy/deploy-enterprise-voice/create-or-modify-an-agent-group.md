@@ -20,6 +20,8 @@ description: "Create or modify an agent group in Response Group, in Skype for Bu
 ---
 
 # Create or modify an agent group in Skype for Business
+
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
  
 Create or modify an agent group in Response Group, in Skype for Business Server Enterprise Voice.
   

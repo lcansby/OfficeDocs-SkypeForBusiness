@@ -17,6 +17,8 @@ description: "Summary: Read this topic to learn how to configure the client expe
 
 # Configure the client experience with Skype for Business 2015
  
+[!INCLUDE [appliesto-2015-xxx-xxx](../../../SfBServer2019/includes/appliesto-2015-xxx-xxx.md)]
+
 **Summary:** Read this topic to learn how to configure the client experience for Skype for Business 2015 users.
   
 Skype for Business 2015 provides a new user experience that is based on the Skype consumer product experience. In addition to all the features of Lync, Skype for Business provides new features with simplified controls and familiar icons. For detailed information about the new client experience, see [Explore Skype for Business](https://go.microsoft.com/fwlink/?LinkId=529022).

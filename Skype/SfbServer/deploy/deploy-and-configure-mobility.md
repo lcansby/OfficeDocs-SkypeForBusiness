@@ -17,6 +17,8 @@ description: "This article will walk you through the steps to configure an exist
 
 # Deploy and Configure Mobility for Skype for Business Server  
  
+[!INCLUDE [appliesto-2015-2019-sub](../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 This article will walk you through the steps to configure an existing Skype for Business Server installation to use the Mobility service, allowing your mobile devices to be able to take advantage of Skype for Business Server Mobility features.
   
 Having reviewed the [Plan for Mobility for Skype for Business Server](../plan-your-deployment/mobility.md) article, you should be ready to proceed with the steps below to deploy Mobility into your Skype for Business Server environment. The steps are as follows (and we're including in this table a permissions list):

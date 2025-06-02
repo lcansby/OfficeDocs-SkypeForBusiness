@@ -20,6 +20,8 @@ description: "Summary: Learn how to verify that your deployment of Microsoft Edg
 
 # Validate your Edge deployment in Skype for Business Server
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 **Summary:** Learn how to verify that your deployment of Microsoft Edge Server or Microsoft Edge Server pool is working in Skype for Business Server.
   
 Once you deploy your Microsoft Edge Server or Microsoft Edge Server pool, you need to know if it's working properly. Here are a couple of things that can help with confirming your Edge environment is connected to your internal servers, and also that your external users can connect to your Skype for Business Server environment through your Edge.

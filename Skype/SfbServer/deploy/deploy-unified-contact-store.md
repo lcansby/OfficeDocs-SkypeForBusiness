@@ -17,7 +17,7 @@ description: "Summary: Enable the unified contact store in Skype for Business Se
 
 # Deploy unified contact store in Skype for Business Server
 
-[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+[!INCLUDE[appliesto-2015-2019-sub.md](../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
 
 **Summary:** Enable the unified contact store in Skype for Business Server.
   

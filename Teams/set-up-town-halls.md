@@ -54,7 +54,7 @@ To manage who can schedule and run town halls through the Teams admin center, us
 5. Toggle the **Town halls** setting **On** or **Off**.
 6. Select **Save**.
 
-If you change this value to **Off** after a user has scheduled a town hall, they will not be able to run or start the town hall. 
+If you change this value to **Off** after a user schedules a town hall, they can't run or start the town hall. 
 
 ### Manage who can schedule town halls through PowerShell
 

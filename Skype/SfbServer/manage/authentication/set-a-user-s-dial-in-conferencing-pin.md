@@ -97,5 +97,5 @@ This command uses the Pin parameter to assign the PIN number 121989 to the user 
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989
   ```
 
-For more information, see the help topic for the [Set-CsClientPin](/powershell/module/skype/set-csclientpin?view=skype-ps) cmdlet.
+For more information, see the help topic for the [Set-CsClientPin](/powershell/module/skype/set-csclientpin?view=skype-ps&preserve-view=true) cmdlet.
 

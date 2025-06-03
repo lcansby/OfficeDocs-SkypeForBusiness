@@ -106,4 +106,4 @@ You can lock and unlock user PINs by using Windows PowerShell and the Lock-CsCli
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 
-For more information, see the help topic for the [Lock-CsClientPin](/powershell/module/skype/lock-csclientpin?view=skype-ps) and [Unlock-CsClientPin](/powershell/module/skype/unlock-csclientpin?view=skype-ps) cmdlets.
+For more information, see the help topic for the [Lock-CsClientPin](/powershell/module/skype/lock-csclientpin?view=skype-ps&preserve-view=true) and [Unlock-CsClientPin](/powershell/module/skype/unlock-csclientpin?view=skype-ps&preserve-view=true) cmdlets.

@@ -77,8 +77,8 @@ The call pickup group number ranges must comply with the following rules:
 
 ## See also
 
-[New-CsCallParkOrbit](/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
+[New-CsCallParkOrbit](/powershell/module/skype/new-cscallparkorbit?view=skype-ps&preserve-view=true)
 
-[Set-CsCallParkOrbit](/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
+[Set-CsCallParkOrbit](/powershell/module/skype/set-cscallparkorbit?view=skype-ps&preserve-view=true)
 
 [Delete a Call Park Orbit Range](/previous-versions/office/lync-server-2013/lync-server-2013-delete-a-call-park-orbit-range)

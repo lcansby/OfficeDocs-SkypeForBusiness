@@ -20,7 +20,7 @@ search.appverid: MET150
 description: Learn how to manage shared agents on the Integrated apps page.
 ---
 
-# Manage Microsoft Power Platform apps in the Teams admin center
+# Manage shared agents
 
 You can now manage shared agents directly from the Microsoft 365 admin center. The Integrated apps page provides administrators with the tools you need to manage applications integrated into your tenant. You can use this page to review app usage, manage app lifecycles, and take actions to ensure compliance and security. For more information, see [Manage Microsoft Power Platform apps in the Teams admin center](/microsoft-365/admin/manage/manage-shared-agents?view=o365-worldwide&preserve-view=true).
 

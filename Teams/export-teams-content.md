@@ -50,31 +50,31 @@ Here are some examples on how you can use these export APIs:
 > Reactions customized with color changes are currently not supported by Export API.
 
 - **Shared Channel Messages:** Export APIs support capturing messages from a Shared Channel.
-- **Deleted Teams:** Export API supports [capturing messages from deleted Teams](/graph/api/deletedteam-getallmessages) and deleted standard, private, and shared channels for a maximum of 30 days from the day of deletion. Post 30 days, the teams/channels are considered hard deleted, and messages cannot be retrieved. 
+- **Deleted Teams:** Export API supports [capturing messages from deleted Teams](/graph/api/deletedteam-getallmessages) and deleted standard, private, and shared channels for a maximum of 30 days from the day of deletion. After 30 days the teams and channels are hard deleted, and messages can't be retrieved.
 
 - **Deleted Users**: Export API supports capturing messages for deleted users up to 30 days from the time the user was deleted. To find the list of deleted users, see [Deleted Items](/graph/api/directory-deleteditems-list).
 - **Inactive Users**: Export API supports capturing messages for inactive users up to 30 days from the time the user becomes inactive. To find the list of inactive mailboxes, see [Inactive mailboxes](/purview/create-and-manage-inactive-mailboxes#view-a-list-of-inactive-mailboxes).
 - **Chat Message Properties:** Refer to the [complete list of properties that Teams Export APIs support](/graph/api/resources/chatmessage#properties).
 - **Control Messages:** Export API supports capturing control messages in addition to the user generated messages. Control Messages are system generated messages that appear on the Teams client and carry important information such as "User A added User B to the chat and shared all chat history" along with the timestamp. System messages enable the caller to have insights about events that happened in a team, a channel, or a chat. Refer to [the list of control messages](/graph/system-messages#supported-system-message-events) that Export API currently supports.
 
-Learn more about Exporting Messages in [chat](/graph/api/chats-getallmessages?view=graph-rest-1.0&tabs=http) and [channel](/graph/api/channel-getallmessages?view=graph-rest-1.0&tabs=http).
+Learn more about exporting messages in [chat](/graph/api/chats-getallmessages?view=graph-rest-1.0&tabs=http) and [channel](/graph/api/channel-getallmessages?view=graph-rest-1.0&tabs=http).
 
 > [!NOTE]
 > Meeting related control messages are currently not supported by Export API.
 
-- **Edited History:** If [your tenant is setup with Teams Retention Policy](/purview/create-retention-policies?tabs=teams-retention), Export API supports capturing messages' edited history for individual & group chat, and posts, comments in Public & Shared channels.
+- **Edited History:** If [your tenant is setup with Teams Retention Policy](/purview/create-retention-policies?tabs=teams-retention), Export API supports capturing messages' edited history for individual and group chats, as well as posts and comments in Public and Shared channels.
 
-   To learn more about Teams Retention policy, see the [Manage retention policies for Microsoft Teams](/microsoftteams/retention-policies) for further details.
-  
-   Learn more about Exporting Edited History Messages in [chat](/graph/api/chat-getallretainedmessages?view=graph-rest-1.0&tabs=http) and [channel](/graph/api/channel-getallmessages?view=graph-rest-1.0&tabs=http).
-  
+   To learn more about Teams retention policy, see the [Manage retention policies for Microsoft Teams](/microsoftteams/retention-policies) for further details.
+
+   Learn more about exporting edited history messages in [chats](/graph/api/chat-getallretainedmessages?view=graph-rest-1.0&tabs=http) and [channels](/graph/api/channel-getallmessages?view=graph-rest-1.0&tabs=http).
+
 - **Meeting Transcripts:** Get all transcripts from scheduled online meeting instances for which the specified user is the organizer. This API currently only supports private scheduled meetings.
 
-Learn more about [Exporting Meeting Transcripts](/graph/api/onlinemeeting-getalltranscripts?view=graph-rest-1.0&tabs=http).
+Learn more about [exporting meeting transcripts](/graph/api/onlinemeeting-getalltranscripts?view=graph-rest-1.0&tabs=http).
 
 - **Meeting Recordings:** Get all recordings from scheduled online meeting instances for which the specified user is the organizer. This API currently only supports private scheduled meetings.
 
-Learn more about [Exporting Meeting Recordings.](/graph/api/onlinemeeting-getallrecordings?view=graph-rest-beta&tabs=http)
+Learn more about [exporting meeting recordings.](/graph/api/onlinemeeting-getallrecordings?view=graph-rest-beta&tabs=http).
 
 ## How to access Teams Export APIs
 
@@ -431,7 +431,7 @@ If [your tenant is setup with Teams Retention Policy](/purview/create-retention-
 - **Message is edited by a user in a chat or a channel** If there's a valid retention policy set, the previous edited versions of the message can be exported.
 
 > [!NOTE]
-> The /getAllRetainedMessages API enables retrieval of deleted teams or channel messages for a maximum of 30 days from the day of deletion. Post 30 days, the teams/channels are considered hard deleted, and messages cannot be retrieved.
+> The /getAllRetainedMessages API enables the retrieval of deleted teams or channel messages for a maximum of 30 days from the day of deletion. After 30 days, the teams and channels are hard deleted, and messages can't be retrieved.
 
 ## Microsoft 365 Copilot Interactions & Microsoft 365 Chat (Preview)
 

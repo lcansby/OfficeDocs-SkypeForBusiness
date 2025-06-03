@@ -17,7 +17,9 @@ description: "Summary: View a user's PIN policy information for Skype for Busine
 ---
 
 # View PIN policy information in Skype for Business Server
- 
+
+[!INCLUDE[appliesto-xxx-2019-sub.md](../../../SfBServer2019/includes/appliesto-xxx-2019-sub.md)]
+
 **Summary:** View a user's PIN policy information for Skype for Business Server.
   
 You can use the **PIN Policy** tab to view personal identification number (PIN) authentication of users who are connecting to Skype for Business with IP Phones. To use PIN authentication, make sure that **Enable PIN Authentication** is selected in Web Service settings.

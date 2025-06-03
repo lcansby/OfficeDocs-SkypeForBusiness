@@ -17,7 +17,9 @@ description: "Summary: View user PIN information in Skype for Business Server."
 ---
 
 # View user PIN information in Skype for Business Server
- 
+
+[!INCLUDE[appliesto-xxx-2019-sub.md](../../../SfBServer2019/includes/appliesto-xxx-2019-sub.md)]
+
 **Summary:** View user PIN information in Skype for Business Server.
   
 To join a dial-in conference as an authenticated user, a Skype for Business Server user with Active Directory Domain Services (AD DS) credentials requires a personal identification number (PIN). You can view a user's PIN information from Skype for Business Server Control Panel.

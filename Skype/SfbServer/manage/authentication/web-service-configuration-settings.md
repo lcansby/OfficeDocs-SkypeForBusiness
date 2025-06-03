@@ -17,7 +17,9 @@ description: "Summary: Manage Web Service configuration settings in Skype for Bu
 ---
 
 # Manage Web Service configuration settings in Skype for Business Server
- 
+
+[!INCLUDE[appliesto-xxx-2019-sub.md](../../../SfBServer2019/includes/appliesto-xxx-2019-sub.md)]
+
 **Summary:** Manage Web Service configuration settings in Skype for Business Server.
   
 You can use the **Web Service** page to configure the authentication methods for accessing Skype for Business Server related web servers and Web Services.

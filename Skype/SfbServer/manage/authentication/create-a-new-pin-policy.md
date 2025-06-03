@@ -17,7 +17,9 @@ description: "Summary: Create a new PIN policy in Skype for Business Server."
 ---
 
 # Create a new PIN policy in Skype for Business Server
- 
+
+[!INCLUDE[appliesto-xxx-2019-sub.md](../../../SfBServer2019/includes/appliesto-xxx-2019-sub.md)]
+
 **Summary:** Create a new PIN policy in Skype for Business Server.
   
 You can use the **PIN Policy** page to provide personal identification number (PIN) authentication to users who are connecting to Skype for Business with IP Phones. To use PIN authentication, make sure that **Enable PIN Authentication** is selected in Web Service settings.

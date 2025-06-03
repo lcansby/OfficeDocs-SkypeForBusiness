@@ -17,7 +17,9 @@ description: "Summary: Delete a user's dial-in conferencing PIN for Skype for Bu
 ---
 
 # Delete a PIN policy in Skype for Business Server
- 
+
+[!INCLUDE[appliesto-xxx-2019-sub.md](../../../SfBServer2019/includes/appliesto-xxx-2019-sub.md)]
+
 **Summary:** Delete a user's dial-in conferencing PIN for Skype for Business Server.
   
 Follow these steps to delete a personal identification number (PIN) policy.

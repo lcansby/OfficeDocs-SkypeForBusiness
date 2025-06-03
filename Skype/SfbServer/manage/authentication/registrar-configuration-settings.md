@@ -17,7 +17,9 @@ description: "Summary: Manage Registrar configuration settings for Skype for Bus
 ---
 
 # Manage Registrar configuration settings in Skype for Business Server
- 
+
+[!INCLUDE[appliesto-xxx-2019-sub.md](../../../SfBServer2019/includes/appliesto-xxx-2019-sub.md)]
+
 **Summary:** Manage Registrar configuration settings for Skype for Business Server.
   
 You can use the Registrar to configure proxy server authentication methods. The authentication protocol you specify determines which type of challenges the servers in the pool issue to clients. The available protocols are:

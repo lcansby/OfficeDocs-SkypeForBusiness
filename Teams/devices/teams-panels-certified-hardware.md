@@ -52,13 +52,13 @@ The following devices are Certified under the Microsoft Teams panels Android Cer
 |Cisco Navigator | `CiscoOS 11.20 `|August 15, 2027  | 13 |
 |Crestron TSS-770 | `3.000.0110` |August 15, 2027 | 12 |
 |Crestron TSS-1070 | `3.000.0110` |August 15, 2027 | 12 |
-|EPOS Expand Control Panel   | `1.2.22206.03` | September 3, 2025 | 10 |
-|Logitech Dock Flex (VR0035) | `1.10.81` | September 3, 2025 | 10|
-|Logitech TAP Scheduler (VR0028) | `1.3.111` |September 3, 2025 | 10 |
-|Neat Pad Panel    | `NFA1.20230928.0108` | 	September 3, 2025  | 10 |
-|Poly TC10 | `5.0.0.211194`|September 3, 2025  | 11 |
-|Yealink RoomPanel | `147.520.0.4 `|September 3, 2025  | 10 |
-|Yealink RoomPanel Plus | `269.520.0.2 `|September 3, 2025   | 11 |
+|EPOS Expand Control Panel   | `1.2.22206.03` | September 3, 2026 | 10 |
+|Logitech Dock Flex (VR0035) | `1.10.81` | September 3, 2026 | 10|
+|Logitech TAP Scheduler (VR0028) | `1.3.111` |September 3, 2026 | 10 |
+|Neat Pad Panel    | `NFA1.20230928.0108` | 	September 3, 2026  | 10 |
+|Poly TC10 | `5.0.0.211194`|September 3, 2026  | 11 |
+|Yealink RoomPanel | `147.520.0.4 `|September 3, 2026  | 10 |
+|Yealink RoomPanel Plus | `269.520.0.2 `|September 3, 2026   | 11 |
 |Yealink RoomPanel E2 | `324.520.0.3 `|August 15, 2027 | 13 |
 |Yealink RoomPanel Plus E2 | `324.520.0.10 (MDEP)`|August 15, 2027 | 13 |
 |Yealink RoomPanel E2 | `324.520.0.10 (MDEP)`|August 15, 2027 | 13 |

@@ -66,7 +66,7 @@ You can enable QoE by using Windows PowerShell and the **Set-CsQoEConfiguration*
   Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
   ```
 
-For details, see [Set-CsQoEConfiguration](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps).
+For details, see [Set-CsQoEConfiguration](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps&preserve-view=true).
 
 ## See also
 

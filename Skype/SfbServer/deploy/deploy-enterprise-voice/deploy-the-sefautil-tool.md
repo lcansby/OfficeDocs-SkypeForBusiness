@@ -20,6 +20,8 @@ description: "Deploying the SEFAUtil tool in Skype for Business Server."
 ---
 
 # Deploy the SEFAUtil tool in Skype for Business
+
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
  
 Deploying the SEFAUtil tool in Skype for Business Server.
   

@@ -47,9 +47,9 @@ To manage meetings by using Skype for Business Server Management Shell, use the 
 
 |**Cmdlet**|**Description**|
 |:-----|:-----|
-|[Get-CsConferencingPolicy](/powershell/module/skype/get-csconferencingpolicy?view=skype-ps) <br/> |Returns information about the conferencing policies that have been configured for use in your organization.  <br/> |
-|[Grant-CsConferencingPolicy](/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps) <br/> |Assigns a conferencing policy at the per-user scope.  <br/> |
-|[New-CsConferencingPolicy](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps) <br/> |Creates a new conferencing policy for use in your organization.  <br/> |
-|[Remove-CsConferencingPolicy](/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps) <br/> |Removes the specified conferencing policy.  <br/> |
-|[Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> |Modifies an existing conferencing policy.  <br/> |
+|[Get-CsConferencingPolicy](/powershell/module/skype/get-csconferencingpolicy?view=skype-ps&preserve-view=true) <br/> |Returns information about the conferencing policies that have been configured for use in your organization.  <br/> |
+|[Grant-CsConferencingPolicy](/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps&preserve-view=true) <br/> |Assigns a conferencing policy at the per-user scope.  <br/> |
+|[New-CsConferencingPolicy](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps&preserve-view=true) <br/> |Creates a new conferencing policy for use in your organization.  <br/> |
+|[Remove-CsConferencingPolicy](/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps&preserve-view=true) <br/> |Removes the specified conferencing policy.  <br/> |
+|[Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps&preserve-view=true) <br/> |Modifies an existing conferencing policy.  <br/> |
 

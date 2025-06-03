@@ -16,7 +16,9 @@ description: "Summary: Learn how to delete Quality of Experience (QoE) settings 
 ---
 
 # Delete Quality of Experience configuration settings in Skype for Business Server
- 
+
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 **Summary:** Learn how to delete Quality of Experience (QoE) settings in Skype for Business Server.
   
 Quality of Experience (QoE) metrics track the quality of audio and video calls made in your organization, including such things as the number of network packets lost, background noise, and the amount of "jitter" (differences in packet delay). These metrics are stored in a database apart from other data (such as call detail records), which allows you to enable and disable QoE independent of other data recording.

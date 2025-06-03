@@ -16,6 +16,8 @@ description: "Summary: Learn how to manage call detail recording (CDR) data for 
 ---
 
 # Specify retention of CDR data in Skype for Business Server
+
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
  
 **Summary:** Learn how to manage call detail recording (CDR) data for Skype for Business Server.
   

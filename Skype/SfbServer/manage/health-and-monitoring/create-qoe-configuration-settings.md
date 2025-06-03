@@ -16,6 +16,8 @@ description: "Summary: Learn about Quality of Experience (QoE) settings in Skype
 ---
 
 # Create Quality of Experience configuration settings in Skype for Business Server
+
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
  
 **Summary:** Learn about Quality of Experience (QoE) settings in Skype for Business Server.
   

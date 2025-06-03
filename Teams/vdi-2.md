@@ -135,9 +135,9 @@ Some policies might change these registry keys and block app installation in you
 >
 > AppLocker can't process trailing wildcards, unlike Windows Defender Application Control. Since SlimCoreVdi Packages contain a version-specific PackageFamilyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.36_8wekyb3d8bbwe), customers can add AppX or MSIX exclusions by relying on the PublisherID 8wekyb3d8bbwe instead.
 >
-> Administrators using the more granular per-application ['AllAppList'](windows/configuration/assigned-access/configuration-file?pivots=windows-11#allapplist) to define the list of applications that are allowed to run need to add exceptions in this manner (since SlimCore follows the UWP model):
-> <App AppUserModelId="Microsoft.Teams.SlimCoreVdi.<platform>-<architecture>.<release_version>_8wekyb3d8bbwe!MsTeamsVdi" /> 
-> For example: <App AppUserModelId="Microsoft.Teams.SlimCoreVdi.win-x86.2025.12_8wekyb3d8bbwe!MsTeamsVdi" />. To find a list of released SlimCore pacakges, click [here](officeupdates/teams-app-versioning#vdi-slimcore-version-2-msix-packages)
+> Administrators using the more granular per-application ['AllAppList'](/windows/configuration/assigned-access/configuration-file#allapplist) to define the list of applications that are allowed to run need to add exceptions in this manner (since SlimCore follows the UWP model):
+> &lt;App AppUserModelId="Microsoft.Teams.SlimCoreVdi.<platform>-<architecture>.<release_version>_8wekyb3d8bbwe!MsTeamsVdi" />
+> For example: &lt;App AppUserModelId="Microsoft.Teams.SlimCoreVdi.win-x86.2025.12_8wekyb3d8bbwe!MsTeamsVdi" />. To find a list of released SlimCore pacakges, [check this table](/officeupdates/teams-app-versioning#vdi-slimcore-version-2-msix-packages).
 
 
 ## Verifying that the end point is optimized

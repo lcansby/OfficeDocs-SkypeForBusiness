@@ -90,7 +90,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Logitech Rally Bar (VR0019) | `1.2.788` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | MAXHUB XBar 50 | `ATB001.00.20250326.1141 (MDEP)` | August 15, 2027 | Small Meeting Room (4.5 m x 4.5 m) | 13 |
 | MAXHUB XPanel AP30 | `ATT101.00.20250326.1236 (MDEP)` | August 15, 2027 | Compatible with MAXHUB XBar 50 | 13 |
-| Neat Bar Pro + Shure Complete Room Bundle| `NFD1.20241113.0013`| September 3,2026 | Medium size room (4.5 m x 6 m) | 10 |
+| Neat Bar Pro + Shure Complete Room Bundle| `NFD1.20241113.0013`| September 3, 2026 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar Pro | `NFD1.20220914.1210` | September 3, 2026 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar | `NFF1.20220914.1210` | September 3, 2026 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Pad Touch Console | `NFA1.20230928.0108` | September 3, 2026 | Compatible with Neat Bar Gen 2, Neat Bar, Neat Bar Pro, Neat Board 50, Neat Board & Neat Board Pro 65 | 10 |
@@ -98,7 +98,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Neat Board 50 |`NFH1.20230824.0001` | September 3, 2026 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar Gen2 | `NFA1.20231116.0626 ` |  September 3, 2026 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Board Pro 65 | `NFK1.20240620.0209` | September 3, 2026 | Medium size room (4.5 m x 6 m) | 10 |
-| Poly Studio X30 | `4.0.0.100885` | September 3, 2026 | Small meeting room(4.5 m x 4.5 m) | 10 |
+| Poly Studio X30 | `4.0.0.100885` | September 3, 2026 | Small meeting room (4.5 m x 4.5 m) | 10 |
 | Poly Studio X50 | `4.0.0.100885` | September 3, 2026 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly Studio X70 | `4.0.0-376092` | September 3, 2026 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly Studio X32 | `PolyOS 4.2.6-414029`| September 3, 2026 | Small meeting room (4.5 m x 4.5 m) | 10 |

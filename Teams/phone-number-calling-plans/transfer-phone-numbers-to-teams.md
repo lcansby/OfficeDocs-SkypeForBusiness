@@ -79,6 +79,8 @@ This article is an accompaniment for IT professionals and Teams Phone administra
 
 ## Create a port order and transfer your phone numbers to Teams
 
+To learn how to create a port order and transfer your phone numbers in the Teams admin center, select the appropriate tab for country-specific instructions.
+
 ### [**Porting wizard - New (U.S. & Canada)**](#tab/new-porting-wizard)
 
 #### Launch the port wizard

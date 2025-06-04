@@ -473,7 +473,6 @@ So certificate planning is a must. Now, let's look at a list of some of the thin
 
   > [!NOTE]
   > Using the RSASSA-PSS signature algorithm is unsupported and may cause errors on login and call forwarding issues, among other problems. 
-
   > [!NOTE]
   > Skype for Business Server 2019 does not support CNG certificates.
   

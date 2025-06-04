@@ -20,9 +20,9 @@ Admins can save time and effort using the new AI-powered assistant in Teams Room
 
 ## Core Capabilities of the AI Assistant
 
-__Knowledge Queries:__ Interact with the portal using everyday language to answer what, where, and ‘how to’ questions. Ask detailed questions about features and even compare features.
+**Knowledge Queries:** Interact with the portal using everyday language to answer what, where, and ‘how to’ questions. Ask detailed questions about features and even compare features.
 
-__Data Queries:__ Interact with the Assistant using everyday language to extract data on these topics:
+**Data Queries:** Interact with the Assistant using everyday language to extract data on these topics:
 
 - Health
 
@@ -36,7 +36,7 @@ To use the AI assistant, ensure you meet these prerequisites
 
 - A valid Teams Pro license
 
-- Global or Pro Portal administrative privileges
+- Global or Teams Rooms Pro Manager administrative privileges
 
 > [!NOTE]
 > This is not officially Copilot as it doesn’t yet meet all requirements. It is LLM chatbot AI assistance thought. It provides information, does NOT yet perform actions.
@@ -45,7 +45,7 @@ To use the AI assistant, ensure you meet these prerequisites
 
 1. Log in to the Teams Pro Management Portal.
 
-1. Open the __AI Assistant__ by selecting the AI assistant icon on the top right banner
+1. Open the **AI Assistant** by selecting the AI assistant icon on the top right banner
 
 1. Type your question in the chat window and hit enter
 

@@ -1738,6 +1738,9 @@ items:
               items:
                 - name: Getting started
                   items:
+                    - name: AI assistant
+                      href: ./rooms/rooms-pro-aiassistant.md
+                      displayName: Natural language, queries, Copilot
                     - name: Overview
                       href: rooms/rooms-pro-management.md
                     - name: Accessing the Pro Management portal

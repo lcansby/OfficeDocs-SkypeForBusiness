@@ -51,6 +51,7 @@ To use the AI assistant, ensure you meet these prerequisites
 
 > [!TIP]
 > The AI assistant will limit results based on the role assignment and scope of the user.
+ 
 4. To rate the response, select the **Thumb up** or **Thumb down** icon on the message. It is possible to rate each message individually.
 
 5. To restart the conversation, select **Clear messages** at the bottom right of the conversation window

@@ -95,7 +95,7 @@ The sample prompts listed here show a few of the areas where the AI assistant ca
 
 - Show me how many rooms were enrolled in the last two weeks, broken down by manufacturers and locations. 
 
-- ## Availability
+## Availability
 
 Currently, the AI assistant is in Public Preview in the following environments:
 

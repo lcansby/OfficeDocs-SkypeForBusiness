@@ -7,6 +7,7 @@ title: AI Assistant for the Teams Pro Management Portal
 description: Learn what the AI assistant can do and how to use it.
 author:      altsou # GitHub alias
 ms.author: altsou
+manager: srpall
 ms.service: msteams
 ms.topic: article
 ms.date:     06/03/2025
@@ -53,16 +54,17 @@ To use the AI assistant, ensure you meet these prerequisites
 4. To rate the response, select the **Thumb up** or **Thumb down** icon on the message. It is possible to rate each message individually.
 
 5. To restart the conversation, select **Clear messages** at the bottom right of the conversation window
+   
 > [!NOTE]
 > The AI assistant will interact in the same language configured by the user for the Pro Management portal. It uses automatic translation to interact in all languages supported by the Pro Management.
 
-## Feedback
+## Rating responses
 
 When rating the responses from the AI assistant, we capture the previous input and the response. These data are used to help make quality improvements and add capabilities in the future.
 
 ## Example prompts for the AI assistant
 
-Here are some helpful examples of questions you can ask the AI assistant.
+The sample prompts listed here show a few of the areas where the AI assistant can be especially helpful, but this isn't a complete list of all the things you can do. We encourage you to experiment with your own prompts and see how the AI assistant can help you with your management tasks.
 
 #### How to questions:
 

@@ -39,7 +39,7 @@ To use the AI assistant, ensure you meet these prerequisites
 - Global or Teams Rooms Pro Manager administrative privileges
 
 > [!NOTE]
-> This is not officially Copilot as it doesn’t yet meet all requirements. It is LLM chatbot AI assistance thought. It provides information, does NOT yet perform actions.
+> This is not officially Copilot as it doesn’t yet meet all requirements. It is LLM chatbot AI assistance though. It provides information, does NOT yet perform actions.
 
 ## Enabling the AI Assistant
 

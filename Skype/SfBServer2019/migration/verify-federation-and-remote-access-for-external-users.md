@@ -16,6 +16,8 @@ description: "After transitioning the federation route to the Skype for Business
 
 # Verify federation and remote access for external users
 
+[!INCLUDE [appliesto-xxx-2019-sub](../includes/appliesto-xxx-2019-sub.md)]
+
 After transitioning the federation route to the Skype for Business Server 2019 Edge Server, you should perform some functional tests to verify that federation performs as expected. Tests for external user access should include each type of external user that your organization supports, including any or all of the following.
   
 ### Test connectivity of external users and external access

@@ -17,6 +17,8 @@ description: "Learn to enable or disable Offline Instant Messaging (IM) in Skype
 
 # Enable or Disable Offline Instant Messaging (IM) in Skype for Business Server
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 Learn to enable or disable Offline Instant Messaging (IM) in Skype for Business Server.
   
 ## Enable Offline Instant Messaging (IM) in Skype for Business Server

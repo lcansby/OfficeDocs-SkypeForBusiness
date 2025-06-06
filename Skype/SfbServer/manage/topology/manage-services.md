@@ -42,7 +42,7 @@ Use the Skype for Business Server Control Panel to view all the services that ar
 1. From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.
 2. Open a browser window, and then enter the Admin URL to open the Control Panel. For details about the different methods you can use to start the Skype for Business Server Control Panel, see [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
 3. In the left navigation bar, click **Topology**.
-4. On the Status page, sort or search the list, as required, to find the computer you’re interested in, and then click the computer name.
+4. On the Status page, sort or search the list, as required, to find the computer you're interested in, and then click the computer name.
 5. Do either of the following:
     - To see the latest status of services running on the computer, click **Get service status**.
     - To see a list of specific services running on the computer and the status of each service, click **Properties**, and then click **Close** to return to the list.

@@ -17,6 +17,8 @@ description: "Summary: Learn about the Response Group application in Skype for B
 
 # Response Group Call List Report in Skype for Business Server
 
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 **Summary:** Learn about the Response Group application in Skype for Business Server.
 
 The Response Group application provides a way for Skype for Business Server to answer and route phone calls based on the number that was dialed and, optionally, on the caller's responses to a series of questions. Typically, Response Group calls aren't routed to an individual person but, instead, are routed to a team of people referred to as an agent group. For example, if someone calls the phone number for your help desk, Skype for Business Server can automatically route that call to the first available help desk agent. Alternatively, Skype for Business Server could ask a series of questions ("Press 1 if you're having hardware problems. Press 2 if you're having software problems. Press 3 if you're having network problems.") and then route the call to the most appropriate help desk agent based on the answer to those questions.

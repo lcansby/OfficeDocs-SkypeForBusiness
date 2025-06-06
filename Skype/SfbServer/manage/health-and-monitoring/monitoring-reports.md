@@ -17,6 +17,8 @@ description: "Summary: Learn about Monitoring Reports in Skype for Business Serv
 
 # Using Monitoring Reports in Skype for Business Server 
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 **Summary:** Learn about Monitoring Reports in Skype for Business Server.
   
 Skype for Business Server includes a set of standard reports that are published by Microsoft SQL Server Reporting Service. These reports, which are accessible by using a web browser, provide usage, call diagnostic information, and media quality information, all based on call detail recording (CDR) and Quality of Experience (QoE) records stored in the CDR and QoE databases.

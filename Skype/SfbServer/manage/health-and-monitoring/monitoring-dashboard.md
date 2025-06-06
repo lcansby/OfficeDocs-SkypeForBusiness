@@ -29,7 +29,7 @@ The Monitoring Dashboard provides administrators with a quick overview of their 
     
 - Totals for the month, and trend totals for the past six months (for system usage only).
     
-You can use the [Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) cmdlet to return the URL used for accessing Skype for Business Server Monitoring Reports:
+You can use the [Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps&preserve-view=true) cmdlet to return the URL used for accessing Skype for Business Server Monitoring Reports:
   
 ```PowerShell
 Get-CsReportingConfiguration

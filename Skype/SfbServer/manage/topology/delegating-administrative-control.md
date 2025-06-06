@@ -11,7 +11,7 @@ ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: ""
+description: "Learn how to delegate administrative control of Skype for Business Server."
 ---
 
 # Delegate administrative control of Skype for Business Server 

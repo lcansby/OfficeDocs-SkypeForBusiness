@@ -17,6 +17,8 @@ description: "Summary: Learn how to add, remove, patch, or update Front End Serv
 
 # Manage Front End Servers in Skype for Business Server
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 This article explains how to add or remove Front End Servers and how to apply upgrades or patches to Front End Servers.
 
   > [!NOTE]

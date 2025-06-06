@@ -17,6 +17,8 @@ description: Prepare for and implement disabling TLS 1.0 and 1.1 in your environ
 
 # Disable TLS 1.0/1.1 in Skype for Business Server 2015
 
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 This article helps you prepare for and implement disabling TLS 1.0 and 1.1 in your environments. This process requires extensive planning and preparation. Carefully review all of the information in this article as you make your plan to disable TLS 1.0 and 1.1 for your organization. There are many external dependencies and connectivity conditions that could be impacted by disabling TLS 1.0/1.1, so extensive planning and testing is warranted.
 
 - [Background and scope](#background-and-scope)
@@ -115,7 +117,7 @@ PIC (Public IM Connectivity) to Skype Consumer service: We do not expect disabli
 
 Except where noted above, once TLS 1.0 and 1.1 are disabled out-of-scope servers, clients and devices will longer function properly, or at all. This may mean you need to pause and wait for updated guidance from Microsoft. Once you are satisfied that you meet all requirements and have a plan to address gaps, proceed.
 
-At a high level, while Skype for Business Server 2019 is ready for procedure at install, Skype for Business Server 2015 will require that you install CU9, applying pre-requisite updates to .NET and SQL, deploying prerequisite registry keys, and finally a separate round of OS configuration updates (i.e. disabling TLS 1.0 and 1.1 via registry file import). It is critically important that you complete installation of all prerequisites, including Skype for Business Server 2015 CU6 HF2, prior to disabling TLS 1.0 and 1.1 on any server in your environment. Every Skype for Business server, including Edge role and SQL Backends, requires the updates. Also ensure that all supported (in-scope) clients have been updated to the required minimum versions. Don’t forget to update management workstations as well.
+At a high level, while Skype for Business Server 2019 is ready for procedure at install, Skype for Business Server 2015 will require that you install CU9, applying pre-requisite updates to .NET and SQL, deploying prerequisite registry keys, and finally a separate round of OS configuration updates (i.e. disabling TLS 1.0 and 1.1 via registry file import). It is critically important that you complete installation of all prerequisites, including Skype for Business Server 2015 CU6 HF2, prior to disabling TLS 1.0 and 1.1 on any server in your environment. Every Skype for Business server, including Edge role and SQL Backends, requires the updates. Also ensure that all supported (in-scope) clients have been updated to the required minimum versions. Don't forget to update management workstations as well.
 
 We want to follow the usual order of operations of "inside out" for upgrading Skype for Business servers. Treat Director pools, Persistent chat, and Paired Pools in the same manner you normally would. Order and methods for upgrade are covered [here](topology.md) and [here](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
 
@@ -470,7 +472,7 @@ Because some dependency prerequisites are required to support TLS 1.2 in Skype f
 
 **Option 2:** Pre-install local SQL instances (RTCLOCAL and LYNCLOCAL)
 
-1. Download and copy SQL Express 2014 SP2 (SQLEXPR_x64.exe) to local folder on FE. Let’s say folder path <SQL_FOLDER_PATH>.
+1. Download and copy SQL Express 2014 SP2 (SQLEXPR_x64.exe) to local folder on FE. Let's say folder path <SQL_FOLDER_PATH>.
 2. Launch PowerShell or Command Prompt and navigate to <SQL_FOLDER_PATH>.
 3. Create the RTCLOCAL SQL instance by running the command below. Wait until SQLEXPR_x64.exe finishes before proceeding:
 

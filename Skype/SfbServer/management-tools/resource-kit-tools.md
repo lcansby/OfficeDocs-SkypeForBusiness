@@ -17,6 +17,8 @@ description: "This article describes the tools in the Skype for Business Server 
 
 # Skype for Business Server 2015 Resource Kit Tools Documentation
 
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 This article describes the tools in the Skype for Business Server 2015 Resource Kit, including the purpose of each tool, and examples of its use. The Skype for Business Server 2015 Resource Kit helps to make routine tasks easier for IT administrators who deploy and manage Skype for Business Server 2015. For example, the **Web Conf Data** tool can be used to easily control data that is uploaded by users during an online meeting. The **SEFAUtil** tool can be used to set up delegate call forwarding and answering for users. We encourage IT administrators to use these tools to more effectively manage Skype for Business Server 2015.
 
 ## Installation of the Resource Kit Tools
@@ -83,7 +85,7 @@ The primary scenarios for the tool are the following:
 The ABSConfig tool can be started by using the ABSConfig.exe file. The tool opens to the **Configure Attributes** tab. This table has options to map Active Directory Domain Services attributes to the attribute fields for Skype for Business Server 2015 and to specify which users to include or exclude in Address Book Service files based on specific attribute filters. It also has options to customize which value of the phone number to be included in the Address Book file. The **Restore Defaults** option enables administrators to restore Address Book Service settings to default values.
 
 > [!NOTE]
-> Re-mapping of AD attributes to different OC Field Names will only work for Address Book File Download, and is not supported by Address Book Web Query.
+> Re-mapping of AD attributes to different OC Field Names will only work for Address Book File Download, and isn't supported by Address Book Web Query.
 
 ### Output
 
@@ -155,11 +157,11 @@ The **Machine Info** tab shows the details of the Bandwidth Policy Service that 
 The **Topology Info** tab shows a list of all the links that are configured in the Network configuration settings. For each link, the audio and video bandwidth capacity is displayed. Additionally, the currently utilized bandwidth is displayed, both in Kbps and as a percentage of the capacity. The tool uses color-coding to highlight links that have utilization that is close to the capacity—this allows administrators to quickly isolate such links.
 
 > [!NOTE]
->  If the Bandwidth Policy Service Monitor tool experiences failure when it connects to any of the configured Bandwidth Policy services, the information in the **Machine Info** and the **Topology Info** tabs won't be populated. However, it is possible that the tool might connect initially but subsequently lose its connection to the service. In such cases, administrators might see outdated information. There is a **Last Updated** time stamp on each of the tabs that can allow administrators to see when the data was last updated for a particular Bandwidth Policy Service.
+>  If the Bandwidth Policy Service Monitor tool experiences failure when it connects to any of the configured Bandwidth Policy services, the information in the **Machine Info** and the **Topology Info** tabs won't be populated. However, it's possible that the tool might connect initially but later lose its connection to the service. In such cases, administrators might see outdated information. There's a **Last Updated** time stamp on each of the tabs that can allow administrators to see when the data was last updated for a particular Bandwidth Policy Service.
 
 ### Output
 
-There is no command-line output; the program output is contained within the main graphical user interface (GUI).
+There's no command-line output; the program output is contained within the main graphical user interface (GUI).
 
 ### Purpose
 

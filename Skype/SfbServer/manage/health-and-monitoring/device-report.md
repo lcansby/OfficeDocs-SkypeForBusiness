@@ -16,7 +16,9 @@ description: "Summary: Learn about the Device Report in Skype for Business Serve
 ---
 
 # Device Report in Skype for Business Server
- 
+
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 **Summary:** Learn about the Device Report in Skype for Business Server.
   
 The Device Report might be better titled the Microphone and Speakers Report; that's because the Device Report retrieves call-related metrics (such as poor call percentage, echo, and voice switch time) grouped by the microphones and speakers used in the call. If you're interested in IP phones (also commonly referred to as "devices"), use the [IP Phone Inventory Report in Skype for Business Server](ip-phone-inventory-report.md) instead.

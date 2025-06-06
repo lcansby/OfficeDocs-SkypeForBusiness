@@ -17,6 +17,8 @@ description: "Summary: Learn how to test dial-in conferencing in Skype for Busin
 
 # Test dial-in conferencing in Skype for Business Server
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 **Summary:** Learn how to test dial-in conferencing in Skype for Business Server.
   
 As final verification of your dial-in conferencing configuration, you can search for dial plans that have a dial-in conferencing region that is not used by any access number and for access numbers that have not specified a dial-in conferencing region. You should also verify that the Dial-in Conferencing Settings webpage and the dial-in access numbers work correctly.

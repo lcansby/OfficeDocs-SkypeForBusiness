@@ -17,6 +17,8 @@ description: "Summary: Learn how to manage PIN policies for dial-in conferencing
 
 # Manage PIN policies for dial-in conferencing in Skype for Business Server
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 **Summary:** Learn how to manage PIN policies for dial-in conferencing in Skype for Business Server.
   
 Skype for Business Server users who have Active Directory Domain Services (AD DS) credentials in your organization can join dial-in conferences as authenticated users by using a personal identification number (PIN). PIN policy defines the rules for how dial-in conferencing PINs work.

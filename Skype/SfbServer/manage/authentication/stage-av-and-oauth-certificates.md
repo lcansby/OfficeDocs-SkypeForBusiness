@@ -18,6 +18,8 @@ description: "Summary: Stage AV and OAuth certificates for Skype for Business Se
 
 # Stage AV and OAuth certificates in Skype for Business Server using -Roll in Set-CsCertificate
 
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 **Summary:** Stage AV and OAuth certificates for Skype for Business Server.
 
 Audio/Video (A/V) communications is a key component of Skype for Business Server. Features such as application sharing and audio and video conferencing rely on the certificates assigned to the A/V Edge service, specifically the A/V Authentication service.

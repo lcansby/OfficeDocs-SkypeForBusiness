@@ -17,6 +17,8 @@ description: "Summary: Learn how to create conference directories in Skype for B
 
 # Create conference directories in Skype for Business Server
  
+[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 **Summary:** Learn how to create conference directories in Skype for Business Server.
   
 Conference directories maintain a mapping between the alphanumeric meeting ID that a participant uses to join a conference when using Skype for Business, and the numeric-only conference ID that a dial-in conferencing participant uses to join the conference. 

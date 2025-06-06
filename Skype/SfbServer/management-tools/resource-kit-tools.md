@@ -17,7 +17,7 @@ description: "This article describes the tools in the Skype for Business Server 
 
 # Skype for Business Server 2015 Resource Kit Tools Documentation
 
-[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+[!INCLUDE[appliesto-2015-2019-sub.md](../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
 
 This article describes the tools in the Skype for Business Server 2015 Resource Kit, including the purpose of each tool, and examples of its use. The Skype for Business Server 2015 Resource Kit helps to make routine tasks easier for IT administrators who deploy and manage Skype for Business Server 2015. For example, the **Web Conf Data** tool can be used to easily control data that is uploaded by users during an online meeting. The **SEFAUtil** tool can be used to set up delegate call forwarding and answering for users. We encourage IT administrators to use these tools to more effectively manage Skype for Business Server 2015.
 

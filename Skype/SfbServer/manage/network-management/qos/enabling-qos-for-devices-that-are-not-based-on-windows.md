@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
-description: ""Learn how to enable QoS for devices used in your organization that use an operating system other than Windows."
+description: "Learn how to enable QoS for devices used in your organization that use an operating system other than Windows."
 ---
 
 # Enabling QoS in Skype for Business Server for devices that aren't based on Windows

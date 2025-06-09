@@ -16,6 +16,7 @@ description: ""
 
 # Preventing new connections to Skype for Business Server for server maintenance
 
+[!INCLUDE[appliesto-2015-xxx-xxx.md](../../../SfBServer2019/includes/appliesto-2015-xxx-xxx.md)]
 
 Skype for Business Server enables you to take a server offline (for example, to apply software or hardware upgrades) without any loss of service to users.
 

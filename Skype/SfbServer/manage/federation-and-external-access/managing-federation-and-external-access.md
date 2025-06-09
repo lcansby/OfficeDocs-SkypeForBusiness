@@ -20,6 +20,8 @@ description: "You enable and configure external user access to control whether s
 
 # Managing federation and external access to Skype for Business Server
 
+[!INCLUDE[appliesto-2015-xxx-xxx.md](../../../SfBServer2019/includes/appliesto-2015-xxx-xxx.md)]
+
 Deploying an Edge Server or Edge pool is the first step to supporting external users. For details about deploying Edge Servers, see [Deploy Edge Server in Skype for Business Server](../../deploy/deploy-edge-server/deploy-edge-server.md).
 
 After installing and configuring your internal deployment of Skype for Business Server, internal users in your organization can collaborate with other internal users who have SIP accounts in your Active Directory Domain Services (AD DS). Collaboration can include sending and receiving instant messages, and update of presence status and participating in conferences (also known as "meetings"). You enable and configure external user access to control whether supported external users can collaborate with internal Skype for Business Server users. External users can include remote users of your deployment, federated users (including supported users of public instant messaging (IM) service providers), and anonymous participants in conferences.

@@ -85,8 +85,8 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Logitech Tap USB Touch Console | `1.2.982` | September 3, 2025 | Compatible with Logitech Rally Bar, Rally Bar Mini, Rally Bar Huddle, Roommate and Rally Board 65 | N/A |
 | Logitech Rally Bar Mini (VR0020) | `1.2.982` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Rally Bar (VR0019) | `1.2.788` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| MAXHUB XBar 50 | `ATB001.00.20250326.1141 (MDEP)` | August 15, 2027 | Small Meeting Room (4.5 m x 4.5 m) | 13 |
-| MAXHUB XPanel AP30 | `ATT101.00.20250326.1236 (MDEP)` | August 15, 2027 | Compatible with MAXHUB XBar 50 | 13 |
+| XBar 50 | `ATB001.00.20250326.1141 (MDEP)` | August 15, 2027 | Small Meeting Room (4.5 m x 4.5 m) | 13 |
+| Panel AP30 | `ATT101.00.20250326.1236 (MDEP)` | August 15, 2027 | Compatible with XBar 50 | 13 |
 | Neat Bar Pro + Shure Complete Room Bundle| `NFD1.20241113.0013`| September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar Pro | `NFD1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar | `NFF1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
@@ -306,6 +306,8 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Microsoft Intune | Authenticator | Admin Agent | Release date |
 |:-------------------|:----------------------------|:--------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|
+| Crestron AIO Video Bar 70 | `1.250418.1621 (AOSP)` | N/A | `1449/1.0.96.2025031102`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202412110504.product (753)` | June 5, 2025 |
+| Crestron Touch Panel TS-1070 | `2.005.1116 (AOSP)` | N/A | `1449/1.0.96.2025031102`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202412110504.product (753)` | June 5, 2025 |
 | Crestron AIO Video Bar 70 | `1.250401.1604 (AOSP)` | N/A | `1449/1.0.96.2025020302`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)` | April 30, 2025 |
 | Crestron Touch Panel TS-1070 | `2.005.1110 (AOSP)` | N/A | `1449/1.0.96.2025020302`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)` | April 30, 2025 |
 | Crestron AIO Video Bar 70 | `1.240912.1415` | N/A | `1449/1.0.96.2024080804 ` | `5.0.6152.0` |`N/A` | `N/A` | `1.0.0.202402202353.product`| November 11, 2024 |
@@ -315,6 +317,10 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Microsoft Intune | Authenticator | Admin Agent | Release date |
 |:-------------------|:----------------------------|:--------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|
+| DTEN Bar |`1.4.32.1 (AOSP)` | N/A| `1449/1.0.96.2025020302` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202412110504.product (753)`| June 5, 2025|
+| DTEN D7X 75" |`1.7.2.1 (AOSP)` | N/A| `1449/1.0.96.2025020302` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202412110504.product (753)`| June 5, 2025|
+| DTEN D7X 55" |`1.7.2.1 (AOSP)`   | N/A| `1449/1.0.96.2025020302` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202412110504.product (753)`| June 5, 2025|
+| DTEN Mate Touch Console | `2.4.1.1 (AOSP)` | N/A| `1449/1.0.96.2025020302` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202412110504.product (753)`| June 5, 2025|
 | DTEN Bar |`1.3.13.1 (AOSP)` | N/A| `1449/1.0.96.2024091202` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)`| February 19, 2025|
 | DTEN D7X 75" |`1.6.13.1 (AOSP)` | N/A| `1449/1.0.96.2024091202` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)`| February 19, 2025|
 | DTEN D7X 55" |`1.6.13.1(AOSP)`   | N/A| `1449/1.0.96.2024091202` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)`| February 19, 2025|

@@ -43,7 +43,7 @@ To determine which configuration settings and which policies you need to create 
 
 **Do you want to allow internal and external users of your domain to be able to collaborate using instant messaging, Web conferencing, and Audio/Video?**
 
-Configure the settings as detailed in the topics [Configure policies to control remote user access](external-access-policies/configure-policies-to-control-remote-user-access.md), and [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md).
+Configure the settings as detailed in the articles [Configure policies to control remote user access](external-access-policies/configure-policies-to-control-remote-user-access.md), and [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md).
 
 **Do you want to allow anonymous users to attend and be invited to conferences hosted by users in your deployment?**
 
@@ -55,7 +55,7 @@ Configure the settings as detailed in the articles [Configure policies to contro
 
 **If you have enabled communication with SIP Federated Domains, do you want to enable SIP Federation automatic discovery?**
 
-Configure the settings as detailed in the topic [Enable or disable discovery of federation partners](access-edge/enable-or-disable-discovery-of-federation-partners.md).
+Configure the settings as detailed in the article [Enable or disable discovery of federation partners](access-edge/enable-or-disable-discovery-of-federation-partners.md).
 
 **If you have enabled communication with SIP Federation Domains, do you want to enable sending a disclaimer to Federated contacts notifying them that you use archiving and that communications may be archived?**
 

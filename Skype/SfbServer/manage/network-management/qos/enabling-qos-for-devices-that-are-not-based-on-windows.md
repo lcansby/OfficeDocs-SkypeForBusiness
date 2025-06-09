@@ -1,21 +1,18 @@
 ---
-ms.date: 09/26/2018
-title: 'Enabling QoS in Skype for Business Server for devices that aren't based on Windows'
+ms.date: 03/17/2018
+title: "Enabling QoS in Skype for Business Server for devices that aren't based on Windows"
 ms.reviewer: 
-ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
-ms:contentKeyID: 48183694
-mtps_version: v=OCS.15
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: "Learn how to enable QoS for devices used in your organization that use an operating system other than Windows."
+ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
+description: ""Learn how to enable QoS for devices used in your organization that use an operating system other than Windows."
 ---
 
 # Enabling QoS in Skype for Business Server for devices that aren't based on Windows

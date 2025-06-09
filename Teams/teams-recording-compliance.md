@@ -177,7 +177,7 @@ The following list includes partners certified to deliver a compliance recording
 |Insightful Technology |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/market-place/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |NUSO |[https://nuso.cloud/nuso-connect-recorder/](https://nuso.cloud/nuso-connect-recorder/) |
-|NICE Engage |[https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage](https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage) |
+|NICE Engage |[https://www.nice.com/products/recording/engage](https://www.nice.com/products/recording/engage) |
 |NICE NTR-X |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |Oak Innovation |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |

@@ -1,10 +1,10 @@
 ---
 ms.date: 09/26/2018
-title: 'Enabling QoS for devices that aren't based on Windows'
+title: 'Configuring port ranges and a Quality of Service policy for your clients'
 ms.reviewer: 
-ms:assetid: 26f793df-aef8-4028-9e3b-6c2c37ea61b9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)
-ms:contentKeyID: 48183661
+ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
+ms:contentKeyID: 48183694
 mtps_version: v=OCS.15
 ms.author: serdars
 author: SerdarSoysal

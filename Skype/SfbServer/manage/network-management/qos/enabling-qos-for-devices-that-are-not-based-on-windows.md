@@ -1,6 +1,6 @@
 ---
 ms.date: 09/26/2018
-title: 'Configuring port ranges and a Quality of Service policy for your clients'
+title: 'Enabling QoS in Skype for Business Server for devices that aren't based on Windows'
 ms.reviewer: 
 ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)

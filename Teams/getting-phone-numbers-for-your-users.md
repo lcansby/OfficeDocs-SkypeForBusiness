@@ -129,8 +129,8 @@ The Teams admin center has an **Add phone numbers** wizard that helps you submit
 
 2. In the left navigation, go to **Voice** > **Phone numbers**, and then select **Add**.
 
-> [!IMPORTANT]
-> For you to see the **Voice** option in the left navigation in the Teams admin center, you must first buy at least one **Enterprise E5 or E3 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license. 
+   > [!IMPORTANT]
+   > For you to see the **Voice** option in the left navigation in the Teams admin center, you must first buy at least one **Enterprise E5 or E3 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license. 
 
 3. Enter a name for the order and add a description.
 

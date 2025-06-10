@@ -22,7 +22,7 @@ description: "You can configure Edge Servers to allow your internal and external
 
 Edge Servers can be configured to allow your internal and external users access to contacts at partner organizations or services.
   
- Federation works like it did for Microsoft Lync 2013. For more details about preparing your environment for Federation, see the following topics:
+ Federation works like it did for Microsoft Lync 2013. For more information about preparing your environment for Federation, see the following topics:
   
 - [Planning for Lync Server 2013 and Office Communications Server federation](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-lync-server-and-office-communications-server-federation)
     

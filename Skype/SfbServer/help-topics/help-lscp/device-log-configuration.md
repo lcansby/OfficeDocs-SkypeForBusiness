@@ -19,7 +19,7 @@ description: "Device Update Web service automatically creates log files that rec
 
 # Device Log Configuration
 
-[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+[!INCLUDE[appliesto-2015-xxx-xxx.md](../../../SfBServer2019/includes/appliesto-2015-xxx-xxx.md)]
 
 Device Update Web service automatically creates log files that record device update activity. As part of your organization's data management strategy, you may want to set thresholds on log data cache size, log file size, or the length of time a log file is kept before it's purged. You can change these settings according to your organization's requirements. If you don't want Device Update Web service to purge log files automatically, you can purge them manually, as needed. Log settings can be changed globally or per site.
 

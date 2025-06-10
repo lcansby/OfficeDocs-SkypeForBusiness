@@ -85,8 +85,8 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Logitech Tap USB Touch Console | `1.2.982` | September 3, 2025 | Compatible with Logitech Rally Bar, Rally Bar Mini, Rally Bar Huddle, Roommate and Rally Board 65 | N/A |
 | Logitech Rally Bar Mini (VR0020) | `1.2.982` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Rally Bar (VR0019) | `1.2.788` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| XBar 50 | `ATB001.00.20250326.1141 (MDEP)` | August 15, 2027 | Small Meeting Room (4.5 m x 4.5 m) | 13 |
-| Panel AP30 | `ATT101.00.20250326.1236 (MDEP)` | August 15, 2027 | Compatible with XBar 50 | 13 |
+| MAXHUB XBar V50 | `ATB001.00.20250326.1141 (MDEP)` | August 15, 2027 | Small Meeting Room (4.5 m x 4.5 m) | 13 |
+| MAXHUB Panel AP30 | `ATT101.00.20250326.1236 (MDEP)` | August 15, 2027 | Compatible with XBar 50 | 13 |
 | Neat Bar Pro + Shure Complete Room Bundle| `NFD1.20241113.0013`| September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar Pro | `NFD1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar | `NFF1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
@@ -614,6 +614,9 @@ For information about the latest Teams app releases, see [What's new in Microsof
 #### Yealink
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Microsoft Intune | Authenticator | Admin Agent | Release date |
 |:-------------------|:----------------------------|:--------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|
+| Yealink MeetingBoard 65 Pro" | `331.320.0.30 (AOSP)` | N/A | `1449/1.0.96.2025031102`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202412110504.product (753)` | June 5, 2025 |
+| Yealink MeetingBoard 75 Pro" | `331.320.0.30 (AOSP)` | N/A | `1449/1.0.96.2025031102`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202412110504.product (753)` | June 5, 2025 |
+| Yealink MeetingBoard 86 Pro" | `331.320.0.30 (AOSP)` | N/A | `1449/1.0.96.2025031102`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202412110504.product (753)` | June 5, 2025 |
 | Yealink DeskVisionA24 | `156.15.0.45 (AOSP)` | N/A | `1449/1.0.96.2025031102`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202412110504.product (753)` | April 30, 2025 |
 | Yealink MeetingBar A40 | `289.320.0.60 (MDEP)` | N/A | `1449/1.0.96.2024091202`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)` | April 30, 2025 |
 | Yealink CTP25 | `311.320.0.55 (MDEP)` | N/A | `1449/1.0.96.2024091202`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)` | April 30, 2025 |

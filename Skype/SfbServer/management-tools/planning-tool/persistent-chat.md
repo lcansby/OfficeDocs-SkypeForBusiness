@@ -18,7 +18,7 @@ description: "With Persistent Chat Server, users can participate in multiparty, 
 
 # Persistent Chat planning tool
 
-[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+[!INCLUDE[appliesto-2015-xxx-xxx.md](../../../SfBServer2019/includes/appliesto-2015-xxx-xxx.md)]
 
 Persistent Chat Server enables users to participate in multiparty, topic-based conversations that persist over time.
   

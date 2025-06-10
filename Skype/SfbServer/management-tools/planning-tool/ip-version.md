@@ -18,7 +18,7 @@ description: "You have three options when you configure IP addresses in Skype fo
 
 # IP Version planning tool
 
-[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+[!INCLUDE[appliesto-2015-xxx-xxx.md](../../../SfBServer2019/includes/appliesto-2015-xxx-xxx.md)]
 
 You have three options when configuring IP addresses in Skype for Business Server 2015. You can configure Skype for Business Server 2015 to support only IP version 4 (IPv4), only IP version 6 (IPv6), or a combination of both (known as a dual stack).
   

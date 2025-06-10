@@ -18,7 +18,7 @@ description: "Summary: View a user's PIN policy information for Skype for Busine
 
 # View PIN policy information in Skype for Business Server
 
-[!INCLUDE[appliesto-xxx-2019-sub.md](../../../SfBServer2019/includes/appliesto-xxx-2019-sub.md)]
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
 
 **Summary:** View a user's PIN policy information for Skype for Business Server.
   

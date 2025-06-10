@@ -18,7 +18,7 @@ description: "Summary: Lock or unlock a user's dial-in conferencing PIN for Skyp
 
 # Lock or unlock a user PIN in Skype for Business Server
 
-[!INCLUDE[appliesto-xxx-2019-sub.md](../../../SfBServer2019/includes/appliesto-xxx-2019-sub.md)]
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
 
 **Summary:** Lock or unlock a user's dial-in conferencing PIN for Skype for Business Server.
   

@@ -18,7 +18,7 @@ description: "Summary: Configure an on-premises partner application for Skype fo
 
 # Configure an on-premises partner application for Skype for Business Server
 
-[!INCLUDE[appliesto-xxx-2019-sub.md](../../../SfBServer2019/includes/appliesto-xxx-2019-sub.md)]
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
 
 **Summary:** Configure an on-premises partner application for Skype for Business Server.
   

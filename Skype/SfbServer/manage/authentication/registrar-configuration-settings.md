@@ -18,7 +18,7 @@ description: "Summary: Manage Registrar configuration settings for Skype for Bus
 
 # Manage Registrar configuration settings in Skype for Business Server
 
-[!INCLUDE[appliesto-xxx-2019-sub.md](../../../SfBServer2019/includes/appliesto-xxx-2019-sub.md)]
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
 
 **Summary:** Manage Registrar configuration settings for Skype for Business Server.
   

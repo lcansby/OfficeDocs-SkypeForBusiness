@@ -97,7 +97,7 @@ Uploading your Direct Routing phone numbers to Microsoft's telephone number mana
 
 2. Under the **Numbers** tab, select **Add**.
 
-Adding phone numbers to your tenant and to Microsoft's telephone number management inventory is accomplished by creating an order request. By selecting **Add**, you're originating an order request that creates an order ID and launch the process of uploading your Direct Routing numbers. To complete your order, follow the remaining steps.
+   Adding phone numbers to your tenant and to Microsoft's telephone number management inventory is accomplished by creating an order request. By selecting **Add**, you're originating an order request that creates an order ID and launch the process of uploading your Direct Routing numbers. To complete your order, follow the remaining steps.
 
 3. Give your order a **Name** and **Description**.
 

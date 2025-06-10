@@ -18,7 +18,7 @@ description: "Skype for Business Server 2015 dial-in conferencing enables users 
 
 # Dial-in Conferencing planning tool
 
-[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+[!INCLUDE[appliesto-2015-xxx-xxx.md](../../../SfBServer2019/includes/appliesto-2015-xxx-xxx.md)]
 
 Skype for Business Server 2015 dial-in conferencing enables users to join the audio portion of a Skype for Business Server 2015 conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.
   

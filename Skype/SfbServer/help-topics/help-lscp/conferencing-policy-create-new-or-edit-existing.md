@@ -19,6 +19,8 @@ description: "A Conferencing policy defines the features and capabilities that u
 
 # Conferencing Policy: Create New or Edit Existing
 
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 A Conferencing policy defines the features and capabilities that users have available during a conference (also known as meeting).
 
 ## UI Reference

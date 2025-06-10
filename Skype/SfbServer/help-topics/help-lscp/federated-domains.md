@@ -19,6 +19,8 @@ description: "What do you want to do? Click the link to the task that you want t
 
 # Federated Domains
 
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 What do you want to do? Click the link to the task that you want to perform.
 
 - [Configure Access for Federated Partners](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-federated-user-access)

@@ -17,7 +17,7 @@ description: "Summary: Learn how to configure your Skype for Business Server 201
 
 # Manage Skype for Business Server 2019 using SCOM Management pack
 
-[!INCLUDE[appliesto-xxx-2019-sub.md](../includes/appliesto-xxx-2019-sub.md)]
+[!INCLUDE[appliesto-2015-2019-sub.md](../includes/appliesto-2015-2019-sub.md)]
 
 **Summary:** Learn how to configure your Skype for Business Server 2019 infrastructure to work with System Center Operations Manager.
   

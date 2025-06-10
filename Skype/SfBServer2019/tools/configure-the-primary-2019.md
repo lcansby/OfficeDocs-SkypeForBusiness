@@ -17,7 +17,7 @@ description: "Summary: Configure your primary management server, install System 
 
 # Skype for Business Server: Configure the primary management server
 
-[!INCLUDE[appliesto-xxx-2019-sub.md](../includes/appliesto-xxx-2019-sub.md)]
+[!INCLUDE[appliesto-2015-2019-sub.md](../includes/appliesto-2015-2019-sub.md)]
 
 **Summary:** Configure your primary management server, install System Center Operations Manager, and import management packs for Skype for Business Server 2019.
 

@@ -18,7 +18,9 @@ description: "You can use the Save Voice Routing Test Case Information dialog bo
 ---
 
 # Save Voice Routing Test Case Information
- 
+
+[!INCLUDE[appliesto-2015-xxx-xxx.md](../../../SfBServer2019/includes/appliesto-2015-xxx-xxx.md)]
+
 You can use the **Save Voice Routing Test Case Information** dialog box to save atemporary voice routing test case. In **Save Voice Routing Test Case Information**, type the name you want to give this test case in **Name** and then click **OK**. 
   
 > [!NOTE]

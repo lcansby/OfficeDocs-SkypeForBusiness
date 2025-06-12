@@ -62,7 +62,7 @@ For more information on Teams Phone, see [What is Teams Phone](what-is-phone-sys
 
 Queues app is enabled by default for all Teams users in your organization who are assigned both a Teams Premium and Teams Phone license and who are voice enabled.
 
-As an IT admin, you can manage Queues app settings and designate *authorized users* to perform various actions such as adding and removing queue members, changing call handling flows, configuring auto attendant greetings, and more. For users who need additional capabilities to manage day-to-day operational changes, such as team leads, you must set up a voice applications policy and assign this policy to authorized users. You can allow authorized users to control call queue membership, greetings, call routing rules, and hours of operation.
+As an IT admin, you can manage Queues app settings and designate *authorized users* to perform various actions such as adding and removing queue members, changing call handling flows, configuring auto attendant greetings, and more. For users who need additional capabilities to manage day-to-day operational changes, such as team leads, you must set up a voice applications policy and assign this policy to authorized users. You can allow authorized users to control call queue membership, auto attendant and call queue greetings, call routing rules, and auto attendant hours of operation.
 
 By utilizing multiple voice application policies, you can assign different levels of permissions that reflect the configuration changes you want to allow authorized users to make to auto attendants and call queues. For example, you could have one voice application policy that allows the "team supervisor" to have access to both real-time and historical reporting and another policy for "shift leads" that allows access to real-time reporting and the ability to opt agents in and out of call queues.
 
@@ -85,9 +85,9 @@ Your users, both queue members and leads, can find information on using the Queu
 
 Queues app is enabled by default for all Teams users in your organization who are assigned both a Teams Premium and Teams Phone license and who are voice enabled.
 
-### Step 2: Assign users to a call queue
+### Step 2: Assign users, authorizd and agents, to a call queue
 
-In order to use Queues app, your users must be in at least one Call     queue. For information on configuring Call queues, see [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md). For more information on how to add users to a Call queue, see [Create a Call queue](create-a-phone-system-call-queue.md).
+In order to use Queues app, your users must be in at least one Call queue. For information on configuring Call queues, see [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md). For more information on how to add users to a Call queue, see [Create a Call queue](create-a-phone-system-call-queue.md).
 
 ### Step 3: Pin Queues app to Teams (optional)
 

@@ -18,6 +18,8 @@ description: "Use this page to select which Front End pools and Standard Edition
 ---
 
 # Add Edge Server Associations
+
+[!INCLUDE[appliesto-2015-xxx-xxx.md](../../../SfBServer2019/includes/appliesto-2015-xxx-xxx.md)]
  
 Use this page to select which Front End pools and Standard Edition servers will use this Edge pool for A/V traffic. 
   

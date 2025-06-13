@@ -33,7 +33,7 @@ Town halls are meant for one-to-many communications where the presenters, organi
 As an admin, this article guides you through how to plan and prepare for town halls in your organization.
 
 > [!IMPORTANT]
-> Organizers with a Teams Premium license must work with the Microsoft 365 Live Event Assistance Program (LEAP) to create town halls with more than 20,000 attendees. To learn more about LEAP, see the [Need help with your town hall](#need-help-with-your-town-hall) section in this article.
+> Organizers with a Teams Premium license must work with the Microsoft 365 Live Event Assistance Program (LEAP) to create town halls with more than 20,000 attendees at least two weeks before the event. To learn more about LEAP, see the [Need help with your town hall](#need-help-with-your-town-hall) section in this article.
 
 ## Turn town halls on or off
 

@@ -33,7 +33,7 @@ Town halls are meant for one-to-many communications where the presenters, organi
 As an admin, this article guides you through how to plan and prepare for town halls in your organization.
 
 > [!IMPORTANT]
-> Organizers with a Teams Premium license must work with the Microsoft 365 Live Event Assistance Program (LEAP) to create town halls with more than 20,000 attendees. To learn more about LEAP, see the [Need help with your town hall](#need-help-with-your-town-hall) section in this article.
+> Organizers with a Teams Premium license must work with the Microsoft 365 Live Event Assistance Program (LEAP) to create town halls with more than 20,000 attendees at least two weeks before the event. To learn more about LEAP, see the [Need help with your town hall](#need-help-with-your-town-hall) section in this article.
 
 ## Turn town halls on or off
 
@@ -157,7 +157,7 @@ If you've been using live events for your organization, you might want to unders
 |**Devices**||||
 |Microsoft Teams Rooms (Windows) support for presenters and attendees<sup>1</sup>|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Microsoft Teams Rooms (Android) support for presenters and attendees<sup>1</sup>|![Image of a x for no](/office/media/icons/cancel-teams.png)|*In development*|![Image of a x for no](/office/media/icons/cancel-teams.png)|
-|Cloud Video Interop (CVI) support|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Cloud Video Interop (CVI) support|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Sharepoint embedded support|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Virtualized Desktop Infrastructure (VDI) support|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Viva Engage integration|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|

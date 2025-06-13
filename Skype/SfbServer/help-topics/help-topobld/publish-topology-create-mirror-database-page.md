@@ -19,6 +19,8 @@ description: "This is preliminary documentation and is subject to change. Blank 
 
 # Publish Topology Create Mirror Database Page
  
+[!INCLUDE [appliesto-2015-xxx-xxx](../../../SfBServer2019/includes/appliesto-2015-xxx-xxx.md)]
+
 This is preliminary documentation and is subject to change. Blank articles are included as placeholders.
   
 Topology Builder parses all configuration settings in your defined topology document. If you are configuring mirrored SQL Server databases, you're presented a screen that displays the mirror store, the primary store, file share path, and the database paths. You select a check box associated with a database mirror store to create the mirrored database and the file share path. You clear a checkbox for a database mirror if you don't want to create and deploy the database to the defined SQL Server.

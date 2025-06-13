@@ -19,6 +19,8 @@ description: "This is preliminary documentation and is subject to change. Blank 
 
 # Publish Topology Reset Pool Page
  
+[!INCLUDE [appliesto-2015-xxx-xxx](../../../SfBServer2019/includes/appliesto-2015-xxx-xxx.md)]
+
 This is preliminary documentation and is subject to change. Blank topics are included as placeholders.
   
 To add new computers to an existing pool, you must reset the pool to allow the Windows Fabric to redefine the connections between all members of the pool. To do this, select the pool that you have added servers to, and then click **Next**.

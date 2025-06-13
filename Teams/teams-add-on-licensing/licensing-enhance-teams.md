@@ -232,12 +232,24 @@ In the meeting recap, your users can find the most important parts of a meeting,
 | View AI-generated notes and tasks from meetings |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | View when you were mentioned in a meeting\* |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Multilingual meeting support |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| View the recording divided into meeting chapters|  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 
 \* *Mentions of a user's name is pulled from the meeting transcript, not from an @mention tag in the meeting chat.*
 
-##### Intelligent call recap
+##### Intelligent call recap for PSTN calls
 
-Intelligent recap is also available for Teams calls. To learn more, see [Intelligent recap for Teams calls and meetings](../intelligent-recap-calls-meetings.md).
+| Feature | Teams | Teams Premium |
+|---------|:-----:|:-------------:|
+|AI generated notes and recommended tasks|  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+
+##### Intelligent call recap for 1:1 peer-to-peer and group VoIP calls
+
+| Feature | Teams | Teams Premium |
+|---------|:-----:|:-------------:|
+|AI generated notes and recommended tasks|  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+|View speaker timeline markers|  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+|View the recording divided into chapters|  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+|Users can see when they were mentioned|  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 
 ### Virtual Appointments
 

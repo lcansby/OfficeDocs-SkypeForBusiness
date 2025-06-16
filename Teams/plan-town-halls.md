@@ -224,8 +224,7 @@ You and your organizers have different policies and settings to control the town
 |[VOD publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify town hall recordings. |
 |[Voice isolation](voice-isolation.md)|Can control whether users can use voice isolation in town halls.|Can enable voice isolation.|
 
-<sup>1</sup> Only Microsoft Teams Rooms on Windows with a Pro license are officially supported to join meetings and events as a presenter or as an attendee. To allow Rooms to join as a presenter in meetings, organizers must set **Who can present** to either **Organizer or co-organizer only** or **Specific people**. To allow Rooms to join as an atteendee in town halls, organizers must add the Room as an attendee when creating the town hall. To allow Rooms to join as an atteendee in webinars, the registered attendee must send the registration link to the Room.  
-
+<sup>1</sup> Only Microsoft Teams Rooms on Windows with a Pro license are officially supported to join meetings and events as a presenter or as an attendee. To allow Rooms to join as a presenter in meetings, organizers must set **Who can present** to either **Organizer or co-organizer only** or **Specific people**. To allow Rooms to join as an attendee in town halls, organizers must add the Room as an attendee when creating the town hall. To allow Rooms to join as an attendee in webinars, the registered attendee must send the registration link to the Room.  
 
 ## Need help with your town hall?
 

@@ -103,7 +103,7 @@ To create or manage meeting themes, follow these steps:
 7. In the **Meeting themes** pane, upload your images and create your custom color:
 
       - **Logo**: Select the **Upload logo** buttons to upload a light and dark version of your logo. These square logos appear on key surfaces during the meeting or event, including the lobby screen.
-      - **Images**: Select the **Upload image** buttons to upload a light and dark version of your custom image. Your organization's images are shown on the meetings or event  screen and provide a colorful backdrop.
+      - **Images**: Select the **Upload image** buttons to upload a light and dark version of your custom image. Your organization's images are shown on the meetings or event screen and provide a colorful backdrop.
       - **Color**: Enter the hex code value of your organization's color, which displays on key surfaces of the meeting or event experience. To meet accessibility standards, the final color might differ from the color you enter.
 8. Select the **Preview** button to see how your theme looks on desktop.
 9. Select **Apply**.

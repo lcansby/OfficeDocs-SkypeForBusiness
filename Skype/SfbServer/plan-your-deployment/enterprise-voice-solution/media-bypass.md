@@ -66,13 +66,13 @@ When a user receives a call from the PSTN, the user's client compares its bypass
 Only Lync 2010 or newer clients and devices support media bypass interactions with a Mediation Server.
 
 > [!IMPORTANT]
-> In addition to enabling media bypass globally, you must enable media bypass individually on each PSTN trunk. If bypass is enabled globally, but is not enabled for a particular PSTN trunk, media bypass will not be invoked for any calls involving that PSTN trunk. In addition, when media bypass is set to **Use Site and Region Information**, you must associate all routable subnets with the sites in which they are located. If there are routable subnets within a site for which bypass is not wanted, these subnets should be grouped within a new site before you enable media bypass. Doing so will assure that the unroutable subnets are assigned a different bypass ID.
+> In addition to enabling media bypass globally, you must enable media bypass individually on each PSTN trunk. If bypass is enabled globally, but isn't enabled for a particular PSTN trunk, media bypass will not be invoked for any calls involving that PSTN trunk. In addition, when media bypass is set to **Use Site and Region Information**, you must associate all routable subnets with the sites in which they're located. If there are routable subnets within a site for which bypass isn't wanted, these subnets should be grouped within a new site before you enable media bypass. Doing so will assure that the unroutable subnets are assigned a different bypass ID.
 
 ## Media bypass modes
 
 You must configure media bypass both globally and for each individual PSTN trunk. When enabling media bypass globally, you have two choices: **Always Bypass** and **Use Site and Region Information**.
 
-As the name suggests, **Always Bypass** means that bypass will be attempted for all PSTN calls. **Always Bypass** is used for deployments where there is no need to enable call admission control, nor is there a need to specify detailed configuration information regarding when to attempt media bypass. Furthermore, **Always Bypass** is used when there is full connectivity between clients and PSTN gateways. In this configuration, all subnets are mapped to one and only one bypass ID, which is computed by the system.
+As the name suggests, **Always Bypass** means that bypass will be attempted for all PSTN calls. **Always Bypass** is used for deployments where there's no need to enable call admission control, nor is there a need to specify detailed configuration information regarding when to attempt media bypass. Furthermore, **Always Bypass** is used when there's full connectivity between clients and PSTN gateways. In this configuration, all subnets are mapped to one and only one bypass ID, which is computed by the system.
 
 With **Use Site and Region Information**, the bypass ID associated with site and region configuration is used to make the bypass decision. This configuration provides the flexibility to configure bypass for most common topologies, as it gives you fine-grained control over when bypass happens, in addition to supporting interactions with call admission control (CAC). The system tries to ease your task by automatically assigning bypass IDs as follows.
 
@@ -90,7 +90,7 @@ Media bypass and call admission control (CAC) work together to manage bandwidth 
 
 - CAC and Media Bypass are both enabled. Media Bypass must be set to **Use Site and Region Information**. This site and region information is the same as that used for CAC.
 
-    If you enable CAC, you cannot select **Always Bypass**, and vice-versa, because the two configurations are mutually exclusive. That is, only one of the two will apply to any given PSTN call. First, a check is made to determine if media bypass applies to the call. If it does, then CAC is not used. This makes sense, because if a call is eligible for bypass, it is by definition using a connection where CAC is not needed. If bypass cannot be applied to the call (that is, if the client's and gateway's bypass IDs do not match), then CAC is applied to the call.
+    If you enable CAC, you can't select **Always Bypass**, and vice-versa, because the two configurations are mutually exclusive. That is, only one of the two will apply to any given PSTN call. First, a check is made to determine if media bypass applies to the call. If it does, then CAC isn't used. This makes sense, because if a call is eligible for bypass, it is by definition using a connection where CAC isn't needed. If bypass can't be applied to the call (that is, if the client's and gateway's bypass IDs don't match), then CAC is applied to the call.
 
 - CAC not enabled and Media Bypass set to **Always Bypass**.
 
@@ -98,11 +98,11 @@ Media bypass and call admission control (CAC) work together to manage bandwidth 
 
 - CAC not enabled and Media Bypass set to **Use Site and Region Information**.
 
-    Where **Use Site and Region Information** is enabled, bypass determination works essentially the same way, regardless of whether CAC is enabled or not. That is, for any given PSTN call, the client's subnet is mapped to a particular site, and the bypass ID for that subnet is extracted. Similarly, the gateway's subnet is mapped to a particular site, and the bypass ID for that subnet is extracted. Only if the two bypass IDs are identical will bypass happen for the call. If they are not identical, media bypass will not occur.
+    Where **Use Site and Region Information** is enabled, bypass determination works essentially the same way, regardless of whether CAC is enabled or not. That is, for any given PSTN call, the client's subnet is mapped to a particular site, and the bypass ID for that subnet is extracted. Similarly, the gateway's subnet is mapped to a particular site, and the bypass ID for that subnet is extracted. Only if the two bypass IDs are identical will bypass happen for the call. If they aren't identical, media bypass won't occur.
 
-    Even though CAC is disabled globally, bandwidth policy needs to be defined for each site and link if you want to use site-and-region configuration to control the bypass decision. The actual value of the bandwidth constraint or its modality doesn't matter. The ultimate goal is to have the system automatically calculate different bypass IDs to associate with different locales that are not well connected. Defining a bandwidth constraint by definition means a link is not well connected.
+    Even though CAC is disabled globally, bandwidth policy needs to be defined for each site and link if you want to use site-and-region configuration to control the bypass decision. The actual value of the bandwidth constraint or its modality doesn't matter. The ultimate goal is to have the system automatically calculate different bypass IDs to associate with different locales that aren't well connected. Defining a bandwidth constraint by definition means a link isn't well connected.
 
-- CAC is enabled and media bypass is not enabled. This would apply only where all gateways and IP-PBXs are not well connected or do not meet other requirements for media bypass. For details about requirements for media bypass, see [Requirements for Media Bypass](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-media-bypass).
+- CAC is enabled and media bypass isn't enabled. This would apply only where all gateways and IP-PBXs aren't well connected or don't meet other requirements for media bypass. For details about requirements for media bypass, see [Requirements for Media Bypass](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-media-bypass).
 
 ## Technical requirements
 
@@ -114,4 +114,4 @@ Media bypass can be employed when the following requirements are met:
 
 - The Mediation Server peer must accept media traffic directly from Skype for Business endpoints. Many ITSPs allow their SBC to receive traffic only from the Mediation Server. Contact your ITSP to determine whether its SBC accepts media traffic directly from Skype for Business endpoints.
 
-- Skype for Business clients and a Mediation Server peer must be well connected, meaning that they are either located in the same network region or at network sites that connect to the region over WAN links that have no bandwidth constraints
+- Skype for Business clients and a Mediation Server peer must be well connected, meaning that they're either located in the same network region or at network sites that connect to the region over WAN links that have no bandwidth constraints

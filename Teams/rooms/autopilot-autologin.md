@@ -131,7 +131,6 @@ The required settings for ESP on Teams Rooms are:
 | Block device use until all apps and profiles are installed                                  | Yes         |
 | Turn on log collection and diagnostics page for end users                                   | Yes         |
 | Only show page to devices provisioned by out-of-box experience (OOBE)                       | Yes         |
-| Block device use until all apps and profiles are installed                                  | Yes         |
 | Allow users to reset device if installation error occurs                                    | Yes         |
 | Allow users to use device if installation error occurs                                      | No          |
 | Block device use until required apps are installed if they're assigned to the user/device   | Selected    |

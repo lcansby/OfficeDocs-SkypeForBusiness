@@ -17,6 +17,8 @@ description: "Find and manage updates for Skype for Business Server or Lync 2013
 
 # Skype for Business downloads and updates
 
+[!INCLUDE[appliesto-2015-2019-sub.md](../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 The _Skype for Business downloads and updates_ web page that was previously on Technet is now retired. The content was reorganized into client and server pages. Follow these links to the content that you need:
 
 - [Updates for Skype for Business clients](sfb-client-updates.md) which contains the sections:

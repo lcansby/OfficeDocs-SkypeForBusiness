@@ -99,7 +99,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Streaming encoders](teams-encoder-setup.md)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |[Town hall attendee reactions](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c#bkmk_townhall_reactions)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|Premium|
 |[Video effects](meeting-policies-audio-and-video.md)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|[View-only attendees](view-only-meeting-experience.md)|10,000<sup>3</sup>|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|
+|[View-only attendees](view-only-meeting-experience.md)|10,000<sup>4</sup>|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|
 |[VOD](manage-vod-publishing.md)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |[Voice isolation](voice-isolation.md)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |[Watermarks](watermark-meeting-content-video.md)|Premium|Premium|![Image of a x for no](/office/media/icons/cancel-teams.png)|
@@ -108,12 +108,11 @@ The following table shows which features are available in meetings, webinars, an
 
 <sup>1</sup> Your users can use breakout rooms if a webinar has fewer than 300 attendees. However, if the number of attendees increases to above 300, breakout rooms aren't supported.
 
-<sup>2</sup> Only Microsoft Teams Rooms on Windows with a Pro license are officially supported to join meetings and events as a presenter or as an attendee. To allow Rooms to join as a presenter in meetings, organizers must set **Who can present** to either **Organizer or co-organizer only** or **Specific people**. To allow Rooms to join as an atteendee in townhalls, organizers must add the room during the townhall creation as an attendee. To allow Rooms to join as an atteendee in webinars, the registered attendee must send the registration link to the room.  
+<sup>2</sup> Only Microsoft Teams Rooms on Windows with a Pro license are officially supported to join meetings and events as a presenter or as an attendee. To allow Rooms to join as a presenter in meetings, organizers must set **Who can present** to either **Organizer or co-organizer only** or **Specific people**. To allow Rooms to join as an attendee in town halls, organizers must add the Room as an attendee when creating the town hall. To allow Rooms to join as an attendee in webinars, the registered attendee must send the registration link to the Room.  
 
-<sup>3</sup> The experience on Microsoft Teams Rooms on Android is not officially supported. The existent experience will change since only Teams Rooms on Android with a Pro license will be officially supported to join meetings and events as a presenter or an attendee.
+<sup>3</sup> The experience for Microsoft Teams Rooms on Android isn't officially supported. Soon, only Teams Rooms on Androids with a Pro license will be officially supported to join meetings and events as a presenter or an attendee.
 
-
-<sup>3</sup> The usual maximum is increased to 20,000 until further notice.
+<sup>4</sup> The usual maximum is increased to 20,000 until further notice.
 
 ## Capacity comparison
 

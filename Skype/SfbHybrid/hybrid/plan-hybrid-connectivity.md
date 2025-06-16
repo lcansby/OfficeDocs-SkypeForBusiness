@@ -25,6 +25,8 @@ ms.custom: seo-marvel-jun2020
 
 # Plan hybrid connectivity between Skype for Business Server and Teams
 
+[!INCLUDE[appliesto-2015-2019-sub.md](../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+
 > [!IMPORTANT]
 > Although Skype for Business Online has been retired since 2021, the on-premises products Skype for Business Server 2019, Skype for Business Server 2015, and Lync Server 2013 are still supported. In addition, Microsoft supports hybrid environments between these on-premises products and Microsoft Teams. This allows organizations with these on-premises deployments to migrate their users to TeamsOnly.  Finally, Cloud Connector Edition of Skype for Business Server is no longer supported. Customers requiring on-premises PSTN connectivity should use [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
 

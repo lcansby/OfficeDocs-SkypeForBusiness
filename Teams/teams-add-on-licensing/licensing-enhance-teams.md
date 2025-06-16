@@ -91,11 +91,10 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | View attendance reports | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | In-progress meeting real time telemetry with 24 hour retention | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Customize meeting templates for your organization |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
-| Add organization branding to meeting lobbies |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Users can decorate their backgrounds |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Customize meeting backgrounds for your organization |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Customize Together mode scenes for your organization |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
-| Add branding to meeting invites and meeting join launch pages |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| Use meeting themes to add branding to meeting invites, lobby, and pre-join screen |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Read live translated captions during meetings |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Read live translated transcripts during and after meetings |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Manage what attendees see |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
@@ -139,6 +138,8 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Read live translated captions during webinars |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Read live translated transcripts during and after webinars |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | View the number of webinars each user attended that used a Teams Premium feature.| | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Customize meeting backgrounds for your organization| | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Use meeting themes to add branding to webinar invites, lobby, and pre-join screen |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 
 ### Town halls
 
@@ -174,6 +175,8 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Read live translated captions during town halls |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Read live translated transcripts during and after town halls |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Meeting chat for town hall attendees| | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
+| Use meeting themes to add branding to meeting invites, lobby, and pre-join screen |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| Customize meeting backgrounds for your organization| | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
 
 <sup>1</sup> If RTMP-In is enabled for a town hall, live translated captions aren't available to the attendees even if the organizer selects the languages before the town hall starts.
 <sup>2</sup> To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*

@@ -146,7 +146,7 @@ Teams Premium provides more ways to personalize your Teams meeting experiences w
 
 - **Meeting templates** - Control meeting settings that the meeting organizer normally controls. With templates, you can create consistent meeting experiences in your organization and help enforce compliance requirements and business rules.
 
-- **Meeting themes** - Set up and create meeting themes for various business units and departments within a single tenant.
+- **Meeting themes** - Create custom organization themes to customize the visual appearance of the meeting invite, pre-join screen, and lobby. Organizers can use these themes for their meetings, webinars, and town halls.
 
 - **Real Time Messaging Protocol (RTMP)-In** - Organizers can produce their Teams meetings directly from an external hardware or software-based encoder.
 

@@ -121,7 +121,7 @@ The following table details capacity for meetings, webinars, and town halls:
 |Feature|Meetings|Webinars|Town halls|
 |:------|:-------|:-------|:---------|
 |Duration|30 hours|30 hours|30 hours|
-|Recording maximum length|4 hours or 1.5 GB. When this limit is reached, the recording ends and automatically restarts.|4 hours or 1.5 GB. When this limit is reached, the recording ends and automatically restarts.|4 hours or 1.5 GB. When this limit is reached, the recording ends and automatically restarts.|
+|Recording maximum length|Four hours or 1.5 GB. When this limit is reached, the recording ends and automatically restarts.|Four hours or 1.5 GB. When this limit is reached, the recording ends and automatically restarts.|Four hours or 1.5 GB. When this limit is reached, the recording ends and automatically restarts.|
 |Interactive participants|1,000 (Enterprise plans)<br>300 (Business plans)|1,000|Town halls: 10,000<br> Teams Premium town halls: 50,000|
 |View-only participants|10,000<sup>1</sup> (Enterprise plans only)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|
 |Maximum total participants|11,000<sup>1</sup> (Enterprise plans only)|1,000|Town halls: 10,000<br> Teams Premium town halls: 50,000|

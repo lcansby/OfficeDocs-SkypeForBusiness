@@ -89,6 +89,9 @@ The Teams Rooms app update tool updates the Teams room app running on the device
 
 Going through these steps enables Intune to push the update tool to the Teams Rooms enrolling through Windows Autopilot. The update tool then automatically updates the Teams app on the console so it can automatically log in.
 
+> [!Note]
+> The update tool Win32 package automatically downloads the latest Teams Rooms application when it runs, it is not nessesary to replace the update tool each time a new Teams Rooms app version is released. At times a new version of the Win32 package update tool may be released to reolve bugs or add new features, at such time, you can delete the existing app from Intune and redeploy a newer build of the update tool. The app will only run once on each Teams Rooms device.
+
 To deploy the Teams Rooms app update tool to your consoles:
 
 1. To download the update tool Win32 package, see [here](https://aka.ms/mtrp/autopilot-tool).

@@ -48,10 +48,11 @@ The following devices are certified under the Microsoft Teams phones Android Cer
 | Device model | Firmware version | Current certification end date | Android OS version |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
 | AudioCodes C430HD    | `2.3.364`     | August 15, 2027 | 12 |
-| AudioCodes Exp Module supported on C455HD-DBW| 2.1.638| August 15, 2027 | N/A |
-| AudioCodes C470HD | `2.1.87`  |August 15, 2027  | 12 |
 | AudioCodes C435HD    | `2.1.673`     | August 15, 2027 | 12 |
+| AudioCodes C436HD    | `2.7.324`     | August 15, 2027 | 12 |
 | AudioCodes C455HD    | `2.1.638`    | August 15, 2027 | 12 |
+| AudioCodes C470HD | `2.1.87`  |August 15, 2027  | 12 |
+| AudioCodes Exp Module supported on C455HD-DBW| 2.1.638| August 15, 2027 | N/A |
 | Poly CCX350  | `9.0.0.10315`  | 	August 15, 2027 | 12 |
 | Poly CCX400  | `9.0.0.10315`  | 	August 15, 2027 | 12 |
 | Poly CCX500  | `9.0.0.10315` | 	August 15, 2027 | 12 |
@@ -83,6 +84,7 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 #### <b> Audiocodes </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications**   | Release date |
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------------------------------------------|:------------------------------------------|
+| C436HD | `2.7.358 (AOSP)` | `2.3.497`| Teams client: `1449/1.0.94.2025084203` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202412110504.product (753)`| June 10, 2025| 
 | C430HD/C435HD/C455HD/C470HD | `2.7.358 (AOSP)` | `2.3.497`| Teams client: `1449/1.0.94.2025084203` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202412110504.product (753)`| April 28, 2025| 
 | C430HD/C435HD/C455HD/C470HD | `2.3.497 (AOSP)` | `2.3.453`| Teams client: `1449/1.0.94.2024122303` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product (733)`| February 24, 2025| 
 | C470HD | `2.3.480 (AOSP)` | `2.3.453`| Teams client: `1449/1.0.94.2024092304` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product (733)`| December 18, 2024| 

@@ -65,9 +65,9 @@ As a Teams admin, there are many reasons why you’d consider using Meeting Temp
 
 - **Compliance**: Your organization has compliance requirements for meetings. You can use meeting templates to manage end-to-end encryption, what attendees can see, whether attendees can unmute and use their microphone, who can record, sensitivity labels, and more.
 
-- **Branding**: Meeting themes can be used to apply your brand colors, logo, and images to the pre-join and lobby screens for your meetings. These themes create a consistent and professional look and feel for your brand across all your meetings. Custom meeting backgrounds allow your brand’s logo amongst other custom images to be used as a background during meetings.
+- **Branding**: Meeting themes can be used to apply your brand colors, logo, and images to the pre-join and lobby screens for your meetings. These themes create a consistent and professional look and feel for your brand across all your meetings. Custom meeting backgrounds allow your brand’s logo among other custom images to be used as a background during meetings.
 
-- **Privacy**: Custom backgrounds allow your users to replace their actual background with a virtual one, which can help them maintain their privacy and confidentiality. You could use meeting templates to decide manage who can record meetings and allow meeting organizers to preview and approve content being shared on screen before other meeting participants can see it.
+- **Privacy**: Custom backgrounds allow your users to replace their actual background with a virtual one, which can help them maintain their privacy and confidentiality. You could use meeting templates to choose who can record meetings and allow meeting organizers to preview and approve shared content on screen before other meeting participants can see it.
 
 - **Engagement**: Custom meeting backgrounds can be used to create a more engaging and interactive experience. For example, you might upload a custom background that reflects the theme of the meeting for members of your organization to use. You could use a specific background image for marketing team meetings and create a user/group policy to assign it to marketing members.  After that, you can use a different specified image for engineering meetings and use a policy to assign it to your engineering team.
 
@@ -81,12 +81,11 @@ Evaluate how these customization features align with the needs of your organizat
 
 ### Marketing and branding
 
-Consult with the marketing team to understand your org's branding guidelines and visual identity. Once you gather the approved branding assets like colors, logos, and images,
-send the design specifications for custom meeting backgrounds and themes to your branding department. The design specs should cover dimensions, file formats, resolution, and any restrictions or branding requirements. You should create an approval process to ensure that all custom backgrounds align with your org's standards and policies.
+To understand your org's branding guidelines and visual identity, you should consult with the marketing team. Once you gather the approved branding assets like colors, logos, and images, send the design specifications for custom meeting backgrounds and themes to your branding department. The design specs should cover dimensions, file formats, resolution, and any restrictions or branding requirements. You should create an approval process to ensure that all custom backgrounds align with your org's standards and policies.
 
 ### Departments
 
-Start by understanding the unique requirements of each department. Consult with department heads or key stakeholders to determine their preferences for custom meeting backgrounds. It's important to consider the nature of their work, branding guidelines, and any specific themes they might require.
+Start by understanding the unique requirements of each department. To preferences for custom meeting backgrounds, you should consult with department heads or key stakeholders. It's important to consider the nature of their work, branding guidelines, and any specific themes they might require.
 Collaborating with each team to define a standardized set of needs for meetings makes it easier for you to select settings for meeting templates.
 
 ### Compliance requirements

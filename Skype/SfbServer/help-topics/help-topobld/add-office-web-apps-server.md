@@ -28,7 +28,7 @@ The **Define New Office Web Apps Server** wizard defines a new Office Web Apps S
  **Office Web Apps Server discovery URL**: Type the full uniform resource locator (URL) of the Office Web Apps Server
 
 > [!TIP]
-> The default behavior of the **Office Web Apps Server discovery URL** is to create the URL based on the FQDN of the Office Web Apps Server in the format: `https://<FQDN of the Office Web Apps Server/hosting/discovery` . In most cases you won't need to change the default format. You may need to change the default format in the event that the Office Web Apps Server and the Office Web Apps Server discovery URL must be different. For example, your Office Web Apps Server is placed in the perimeter network and will have a different URL based on the location.
+> The default behavior of the **Office Web Apps Server discovery URL** is to create the URL based on the FQDN of the Office Web Apps Server in the format: `https://<FQDN of the Office Web Apps Server/hosting/discovery`. In most cases you won't need to change the default format. You may need to change the default format in the event that the Office Web Apps Server and the Office Web Apps Server discovery URL must be different. For example, your Office Web Apps Server is placed in the perimeter network and will have a different URL based on the location.
 
  **Office Web Apps Server is deployed in an external network (that is, perimeter/Internet)**: Select the check box if your Office Web Apps Server is placed outside of your internal firewall, such as the perimeter network, external network, or other network zone that isn't the same as your internal network.
 

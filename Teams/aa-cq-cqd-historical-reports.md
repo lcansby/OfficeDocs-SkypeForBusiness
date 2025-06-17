@@ -40,7 +40,8 @@ The Teams Auto Attendant & Call Queue Historical Report Power BI template provid
 
 What's new in this release:
 - Resolved the issue associated with an authorized user having the **Historical Call Queue Metrics** permission set to **All** and the report reverting back to reporting by Resource account. Authorized users will now see the report by Auto Attenand and Call Queue name at all times.
-- Resolved the issue on the Agent Timeline report that resulted in showing all calls for the agent instead of only the calls within the selected date range
+- Resolved the issue on the Agent Timeline tooltip report that resulted in showing all calls for the agent instead of only the calls within the selected date range.
+- Resolved the issue on the Agent Timeline report that resulted in showing the individual calls for the agent instead of the sum of calls for the agent.
   
 ## Overview
 
@@ -869,7 +870,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Supported |Filename                                                    |Description                                                             |
 |:--------|:------------------|:---------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
-|3.2.1    |June 16, 2025    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.2.1 |Now report on chained Auto Attendants and Call Queues     |
+|3.2.1    |June 16, 2025    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.2.1 |Bug fixes    |
 |3.2.0    |March 21, 2025    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.2.0 |Localization in 45 languages, reporting by Auto Attendant and Call Queue name for authorized users    |
 |3.1.8    |August 12, 2024    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.8 |Bug fix for Date slicer on Call Queue tab                               |
 |3.1.7    |July 15, 2024      |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.7 |Improved support for authorized users, removed original reporting templates |

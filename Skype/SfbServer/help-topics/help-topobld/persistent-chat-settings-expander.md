@@ -19,4 +19,4 @@ description: "This is preliminary documentation and is subject to change. Blank 
 
 # Persistent Chat Settings Expander
  
-[!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]

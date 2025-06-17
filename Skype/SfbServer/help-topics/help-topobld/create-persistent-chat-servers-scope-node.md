@@ -18,6 +18,8 @@ description: "You right click on Persistent Chat Pool in Topology Builder to per
 ---
 
 # Create Persistent Chat Servers Scope Node
+
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
  
 [!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
 

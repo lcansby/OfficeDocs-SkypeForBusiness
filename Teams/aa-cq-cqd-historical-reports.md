@@ -40,6 +40,7 @@ The Teams Auto Attendant & Call Queue Historical Report Power BI template provid
 
 What's new in this release:
 - Resolved the issue associated with an authorized user having the **Historical Call Queue Metrics** permission set to **All** and the report reverting back to reporting by Resource account. Authorized users will now see the report by Auto Attenand and Call Queue name at all times.
+- Resolved the issue associated with the Call Overflow/Timeout/No Agent Destinations that resulted in calls not being counted when a Voice App was the routing destination 
 - Resolved the issue on the Agent Timeline tooltip report that resulted in showing all calls for the agent instead of only the calls within the selected date range.
 - Resolved the issue on the Agent Timeline report that resulted in showing the individual calls for the agent instead of the sum of calls for the agent.
   

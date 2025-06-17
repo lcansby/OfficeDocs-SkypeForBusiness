@@ -20,6 +20,8 @@ description: "Summary: Learn about your options for planning a unified voice and
 ---
 
 # Plan your Enterprise Voice solution in Skype for Business Server
+
+[!INCLUDE[appliesto-2015-2019-sub.md](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
  
 [!INCLUDE [appliesto-2015-2019-sub](../../../SfBServer2019/includes/appliesto-2015-2019-sub.md)]
 

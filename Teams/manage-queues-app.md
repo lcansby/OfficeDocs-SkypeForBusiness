@@ -3,7 +3,7 @@ title: Manage Queues app for Microsoft Teams
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
-ms.date: 12/06/2024
+ms.date: 06/17/2025
 ms.topic: how-to
 ms.reviewer: colongma, emkirby
 audience: admin

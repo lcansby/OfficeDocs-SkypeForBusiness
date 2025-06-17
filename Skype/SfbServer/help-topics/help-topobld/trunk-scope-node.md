@@ -18,6 +18,8 @@ description: "You right click on an existing SIP trunk in Topology Builder to pe
 ---
 
 # Trunk Scope Node
+
+[!INCLUDE[appliesto-2015-xxx-xxx.md](../../../SfBServer2019/includes/appliesto-2015-xxx-xxx.md)]
  
 [!INCLUDE [appliesto-2015-xxx-xxx](../../../SfBServer2019/includes/appliesto-2015-xxx-xxx.md)]
 

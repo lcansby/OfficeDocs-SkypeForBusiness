@@ -76,7 +76,7 @@ Using Topology Builder, perform the steps in the following procedure to deploy I
 
   - **PSTN IP address**. Define a PSTN IP address when a Mediation Server is collocated on the Front End Server. This address must match the format of the selected address type.
 > [!IMPORTANT]
-> We only support two network cards on *dedicated* Mediation Servers. If the Mediation Sserver role is collocated on the Front End, then dual network cards are not supported. 
+> We only support two network cards on *dedicated* Mediation Servers. If the Mediation Server role is collocated on the Front End, then dual network cards are not supported. 
 
 > [!NOTE]
 > - For more information about supported NIC configurations for Skype for Business Server 2015, see [Hardware for Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)

@@ -39,10 +39,8 @@ The Teams Auto Attendant & Call Queue Historical Report Power BI template provid
 ## V3.2.1 published on June 16, 2025
 
 What's new in this release:
-- Resolved the issue on the Auto attendant and Call queue reports that resulted in only the calls and caller actions in the first Auto attendant or Call queue being reported on. Calls and caller actions in chained Auto attendants and Call queues are now reported on.
 - Resolved the issue associated with an authorized user having the **Historical Call Queue Metrics** permission set to **All** and the report reverting back to reporting by Resource account. Authorized users will now see the report by Auto Attenand and Call Queue name at all times.
 - Resolved the issue on the Agent Timeline report that resulted in showing all calls for the agent instead of only the calls within the selected date range
-- Bug fixes
   
 ## Overview
 

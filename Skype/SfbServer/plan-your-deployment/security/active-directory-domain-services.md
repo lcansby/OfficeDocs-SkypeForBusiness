@@ -83,7 +83,7 @@ During activation, Skype for Business Server publishes server information to the
     
 ## Service Connection Points
 
-Each Skype for Business Server object in Active Directory Domain Services has an SCP called RTC Services, which in turn contains a number of attributes that identify each computer and specify the services that it provides. Among the more important SCP attributes are  *serviceDNSName*  , *serviceDNSNameType*  , *serviceClassname*  , and *serviceBindingInformation*  . Third-party asset management applications can retrieve server information across a deployment by querying against these and other SCP attributes.
+Each Skype for Business Server object in Active Directory Domain Services has an SCP called RTC Services, which in turn contains a number of attributes that identify each computer and specify the services that it provides. Among the more important SCP attributes are  *serviceDNSName*, *serviceDNSNameType*, *serviceClassname*, and *serviceBindingInformation*. Third-party asset management applications can retrieve server information across a deployment by querying against these and other SCP attributes.
   
 ## Active Directory Server Objects
 

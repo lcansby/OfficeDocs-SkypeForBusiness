@@ -183,7 +183,7 @@ The inventory management permission in Teams Rooms Pro Management portal allows 
 
 **Question: Why is the individual desk I configured not appearing in Teams Rooms Pro Management Portal?**
 
-**Answer:** First, make sure you followed the steps in [Configure desk booking](/microsoft-365/places/configure-desk-booking?branch=main#configure-desk-pools). If so, please also make sure that enableBuildings is enabled for your tenant. If it is not enabled, the desks will not show in Pro Management portal. To check this, please see [Get-PlacesSettings ](/microsoft-365/places/powershell/get-placessettings)and to change the value, please see [Set-PlacesSettings](/microsoft-365/places/powershell/set-placessettings).
+**Answer:** First, make sure you followed the steps in [Configure desk booking](/microsoft-365/places/configure-desk-booking?branch=main#configure-desk-pools). If so, please also make sure that enableBuildings is enabled for your tenant. If it is not enabled, the desks will not show in Pro Management portal. To check this, please see [Get-PlacesSettings](/microsoft-365/places/powershell/get-placessettings)and to change the value, please see [Set-PlacesSettings](/microsoft-365/places/powershell/set-placessettings).
 
 ## Related links
 

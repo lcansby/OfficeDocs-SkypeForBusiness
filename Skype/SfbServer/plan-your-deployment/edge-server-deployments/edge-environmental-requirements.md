@@ -426,8 +426,8 @@ The Source IP address and Destination IP address will contain information for us
 
 |**Role or protocol**|**TCP or UDP**|**Destination Port or port range**|**Source IP address**|**Destination IP address**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP  <br/> Not Supported in Skype for Businesss Server 2019 |TCP  <br/> |5269  <br/> |Any  <br/> |XMPP Proxy service (shares an IP address with the Access Edge service)  <br/> |The XMPP Proxy service accepts traffic from XMPP contacts in defined XMPP federations.  <br/> |
-|XMPP  <br/>Not Supported in Skype for Businesss Server 2019 |TCP  <br/> |5269  <br/> |XMPP Proxy service (shares an IP address with the Access Edge service)  <br/> |Any  <br/> |The XMPP Proxy service sends traffic from XMPP contacts in defined XMPP federations.  <br/> |
+|XMPP  <br/> Not Supported in Skype for Business Server 2019 |TCP  <br/> |5269  <br/> |Any  <br/> |XMPP Proxy service (shares an IP address with the Access Edge service)  <br/> |The XMPP Proxy service accepts traffic from XMPP contacts in defined XMPP federations.  <br/> |
+|XMPP  <br/>Not Supported in Skype for Business Server 2019 |TCP  <br/> |5269  <br/> |XMPP Proxy service (shares an IP address with the Access Edge service)  <br/> |Any  <br/> |The XMPP Proxy service sends traffic from XMPP contacts in defined XMPP federations.  <br/> |
 |Access/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Client-to-server SIP traffic for external user access.  <br/> |
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Any  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |For federated and public IM connectivity using SIP.  <br/> |
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Any  <br/> |For federated and public IM connectivity using SIP.  <br/> |

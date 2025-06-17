@@ -44,7 +44,8 @@ Following a certification expiration, Microsoft is committed to supporting the l
 
 The following devices are Certified under the Microsoft Teams panels Android Certification Program.
 > [!NOTE]
-> Certification end dates for Android 12 based devices have been extended by one year, from October 4, 2026, to August 15, 2027. Information below reflects current certification end dates.
+> - Certification end dates for Android 12 based devices have been extended by one year, from October 4, 2026, to August 15, 2027. Information below reflects current certification end dates.
+> - Certification end dates for Android 10 and Android 11 have been extended by one year, from September 3, 2025, to September 3, 2026. Information below reflects current certification end dates. 
 
 | Device model | Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
@@ -153,6 +154,7 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 #### <b> Poly </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------------|:---------------------------------------------|
+| TC10 | `6.5.0-7001165 (AOSP)` | N/A| Teams client: `1449/1.0.97.2025031901` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202412110504.product (753)`| June 10, 2025|
 | TC10 | `6.4.2-7000764` | N/A| Teams client: `1449/1.0.97.2024042504` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202402202353.product(703)`| March 27, 2025|
 | TC10 | `6.4.1-7000634` | N/A| Teams client: `1449/1.0.97.2024042504` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202407050618.product`| February 3, 2025|
 | TC10 | `6.4.0-7000547` | N/A| Teams client: `1449/1.0.97.2024042504` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202402202353.product`| December 16, 2024|

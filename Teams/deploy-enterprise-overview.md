@@ -106,7 +106,7 @@ To ensure that your organization and your users get the most out of Teams, you n
 - Articulate the benefits of Teams to their colleagues and to business or group leaders.
 - Spark excitement in others who see how Teams improves collaboration and makes it easier to connect with each other.
 - Help evaluate existing business processes and make recommendations for how Teams can be integrated into them.
-- Report back to the deployment team both successes and difficulties to help improve the adoption process.
+- Help improve the adoption process by reporting both successes and difficulties back to the deployment team.
 
 For details about setting up an adoption program, see [Adopt Microsoft Teams](adopt-microsoft-teams-landing-page.md).
 

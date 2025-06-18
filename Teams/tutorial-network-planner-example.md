@@ -116,7 +116,7 @@ Network planner also gives you recommendations based on the projected impact of 
 
 Here, you can see that currently the Kirkland site's bandwidth needs to be increased to get the best performance from Teams.
 
-## Additional resources
+## Learn more
 
 The example scenario for Network Planner is complete. You can [go back to the Network Planner article](network-planner.md), or check out the following resources for more information on getting your organization ready for Teams:
 

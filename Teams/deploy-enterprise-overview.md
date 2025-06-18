@@ -21,7 +21,13 @@ appliesto:
 
 # Teams enterprise deployment overview
 
-If you're a medium or large business, you need to think about how you're going to roll out the service to your users, how you're going to deploy the Microsoft Teams client to them, how your network design could impact the quality of real-time communication, and so on. Check out the following sections for pointers to articles to help you plan for Teams in your organization.
+If you're a medium or large business, you need to think about things like:
+
+- How you're going to roll out the Microsoft Teams service to your users.
+- How you're going to deploy the Teams client to everyone.
+- How your network design could impact the quality of real-time communication.
+
+This article helps with pointers to articles to help you plan for Teams in your organization.
 
 > [!IMPORTANT]
 > We strongly suggest that you begin your Teams deployment with a pilot. A pilot allows you and a few early adopters to get familiar with Teams and its features before your planning and eventual rollout. For more information about how to start your pilot, check out [Get started with Microsoft Teams](get-started-with-teams-quick-start.md).

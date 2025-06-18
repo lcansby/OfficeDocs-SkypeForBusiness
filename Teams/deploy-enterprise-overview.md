@@ -94,7 +94,7 @@ As you plan your Teams deployment, you need to consider the lifecycle of teams, 
 
 Creating policies and guidelines as part of your initial deployment helps ensure that your users can find the information they need. Just as importantly, however, appropriate policies help protect your organization from information leakage, help you conform to regulatory requirements, and help you retain information as needed for archival purposes.
 
-To learn more about lifecycle management and governance in Teams, see the following:
+To learn more about lifecycle management and governance in Teams, see the following articles:
 
 - [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 - [Plan for governance in Teams](plan-teams-governance.md)

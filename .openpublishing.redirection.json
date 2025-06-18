@@ -5544,6 +5544,11 @@
       "source_path": "Teams/manage-apps-across-m365.md",
       "redirect_url": "/microsoftteams/manage-apps",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/tutorial-network-planner-example.yml",
+      "redirect_url": "/microsoftteams/tutorial-network-planner-example",
+      "redirect_document_id": false
     }
   ]
 }

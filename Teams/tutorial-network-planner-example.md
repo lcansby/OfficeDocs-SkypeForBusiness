@@ -23,7 +23,7 @@ The Network Planner tool is available in the Teams admin center. It helps you de
 
 ## Before you begin
 
-We assume you already know your way around the Teams admin center, and you're familiar with what you need to do to prepare your network for Teams. If this article is the first article you've seen on Network Planner, we recommend that you go through the following articles first.
+We assume you already know your way around the Teams admin center, and you're familiar with what you need to do to prepare your network for Teams. If this article is where you're starting with Network Planner, we recommend you read the following articles first:
 
 - [Prepare your organization's network for Teams](prepare-network.md)
 - [Use the Network Planner for Microsoft Teams](network-planner.md)

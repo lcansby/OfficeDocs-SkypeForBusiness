@@ -58,7 +58,7 @@ See the following articles to help you understand Teams network requirements:
 - [Prepare your organization's network for Microsoft Teams](prepare-network.md)
 - [Proxy servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
 
-To help you with your planning, Teams includes the Network planner. The Network planner asks you questions about the number and types of users you have, how many sites your organization has, the bandwidth capacity of your network links, and more. Using this information, the Network planner creates a report that shows the bandwidth requirements for each activity, along with the recommendations.
+To help you with your planning, Teams includes the Network planner. The Network planner asks you questions about the number and types of users you have, how many sites your organization has, the bandwidth capacity of your network links, and more. The Network planner uses this information to create a report that shows the bandwidth requirements for each activity, along with recommendations.
 
  > [!div class="nextstepaction"]
 > [Go to Network planner](https://admin.teams.microsoft.com/networkplanner/organization)

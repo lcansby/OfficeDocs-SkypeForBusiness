@@ -21,15 +21,15 @@ appliesto:
 
 # Teams enterprise deployment overview
 
-If you're a medium or large business, you need to think about how you're going to roll out the service to your users, how you're going to deploy the Microsoft Teams client to them, how your network design could impact the quality of real-time communication, and so on. Check out the following sections for pointers to articles that'll help you plan for Teams in your organization.
+If you're a medium or large business, you need to think about how you're going to roll out the service to your users, how you're going to deploy the Microsoft Teams client to them, how your network design could impact the quality of real-time communication, and so on. Check out the following sections for pointers to articles to help you plan for Teams in your organization.
 
 > [!NOTE]
-> If you haven't done so already, we strongly suggest that you begin your Teams deployment with a pilot. A pilot will allow you and a few early adopters to get familiar with Teams and its features before your planning and eventual roll out. For more information about how to start your pilot, check out [Get started with Microsoft Teams](get-started-with-teams-quick-start.md).
+> If you haven't done so already, we strongly suggest that you begin your Teams deployment with a pilot. A pilot allows you and a few early adopters to get familiar with Teams and its features before your planning and eventual rollout. For more information about how to start your pilot, check out [Get started with Microsoft Teams](get-started-with-teams-quick-start.md).
 
 After you've read the sections below and are ready to start deploying Teams in your organization, see [Set up Microsoft Teams in your enterprise](deploy-enterprise-setup.md).
 
 > [!TIP]
-> As a companion to this article, we recommend using the [Microsoft Teams automated setup guide](https://go.microsoft.com/fwlink/?linkid=2224815) when signed in to the Microsoft 365 admin center. This guide will customize your experience based on your environment.  To review best practices without signing in and activating automated setup features, go to the [Microsoft 365 setup portal](https://go.microsoft.com/fwlink/?linkid=2222975).
+> As a companion to this article, we recommend using the [Microsoft Teams automated setup guide](https://go.microsoft.com/fwlink/?linkid=2224815) when signed in to the Microsoft 365 admin center. This guide customizes your experience based on your environment. To review best practices without signing in and activating automated setup features, go to the [Microsoft 365 setup portal](https://go.microsoft.com/fwlink/?linkid=2222975).
 
 ## Architecture
 
@@ -37,7 +37,7 @@ Teams is tightly integrated into Microsoft 365 and uses many features to power c
 
 ## Workloads
 
-Teams has three workloads that can be deployed independently of each other: **chat, teams, and channels**; **meetings and conferencing**; and **Phone System and PSTN (public switched telephone network) connectivity**. Each workload has its own section in our documentation to make it easier to find information about that workload. This includes deployment planning information.
+Teams has three workloads that can be deployed independently of each other: **chat, teams, and channels**; **meetings and conferencing**; and **Phone System and PSTN (public switched telephone network) connectivity**. Each workload has its own section in our documentation to make it easier to find information about that workload, including deployment planning information.
 
 To see deployment planning information for the workload you want to deploy, see the following articles:
 
@@ -85,14 +85,14 @@ For details about how the Teams advisor works, see [Use Advisor for Teams to hel
 
 ## Lifecycle and governance planning
 
-As you plan your Teams deployment, you need to consider the lifecycle of teams, channels, files, and so on, in your organization. You should also think about what types of information will be stored in them. Teams may be created for a specific project, for a department, or they might be used as a central resource for the entire organization. Each of these uses has different requirements, which drive questions like the following:
+As you plan your Teams deployment, you need to consider the lifecycle of teams, channels, files, and so on, in your organization. You should also think about what types of information will be stored in them. Teams may be created for a specific project, for a department, or they might be used as a central resource for the entire organization. Each of these uses has different requirements, which drive questions like:
 
 - How long will the teams remain active?
 - Who should own and manage the teams and their channels?
 - Should certain compliance requirements apply to some teams, but not others?
 - Should there be a naming policy to help users identify the right team?
 
-Creating policies and guidelines as part of your initial deployment will help ensure that your users can find the information they need. Just as importantly, however, appropriate policies will help protect your organization from information leakage, help you conform to regulatory requirements, and help you retain information as needed for archival purposes.
+Creating policies and guidelines as part of your initial deployment helps ensure that your users can find the information they need. Just as importantly, however, appropriate policies help protect your organization from information leakage, help you conform to regulatory requirements, and help you retain information as needed for archival purposes.
 
 To learn more about lifecycle management and governance in Teams, see the following:
 

@@ -79,7 +79,7 @@ Now, you need to add the three sites to your network plan. The following table s
 
 ![Adding a network site.](media/network-planner-add-network-site.png)
 
-3. Using the table above, fill in the details for the Seattle HQ site. Turn on both the **ExpressRoute** and **Connected to WAN** toggles. 
+3. Using the table in this section, fill in the details for the Seattle HQ site. Turn on both the **ExpressRoute** and **Connected to WAN** toggles.
 
 ![New site details.](media/network-planner-add-network-site-2.png)
 
@@ -89,7 +89,7 @@ Now, you need to add the three sites to your network plan. The following table s
 
 5. Select **Save** to complete adding the Seattle HQ site.
 6. Create the Denver site using the same process. WAN shouldn't be enabled.
-7. Since the Kirkland site leverages the connection to Seattle HQ for both internet and PSTN connectivity, it's considered to be a remote site. When creating the Kirkland site, you need to specify that it's connected to WAN and select *Remote* for both **Internet egress** and **PSTN egress**.
+7. Since the Kirkland site uses the connection to Seattle HQ for both internet and PSTN connectivity, it's considered to be a remote site. When creating the Kirkland site, you need to specify that it's connected to WAN and select *Remote* for both **Internet egress** and **PSTN egress**.
 
 ![Remote site egress settings](media/network-planner-add-remote-site-egress-kirkland.png)
 

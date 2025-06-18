@@ -5,7 +5,7 @@ ms.author: heidip
 manager: jtremper
 ms.reviewer: rowille
 ms.topic: article
-ms.date: 06/19/2025
+ms.date: 06/18/2025
 ms.service: msteams
 audience: admin
 ms.collection: 

@@ -24,7 +24,7 @@ The Network Planner tool is available in the Teams admin center. It helps you de
 
 ## Before you begin
 
-We assume you already know your way around the Teams admin center, and you are familiar with what you need to do to prepare your network for Teams. If this article is the first article you've seen on Network Planner, we recommend that you go through the following articles first.
+We assume you already know your way around the Teams admin center, and you're familiar with what you need to do to prepare your network for Teams. If this article is the first article you've seen on Network Planner, we recommend that you go through the following articles first.
 
 - [Prepare your organization's network for Teams](prepare-network.md)
 - [Use the Network Planner for Microsoft Teams](network-planner.md)
@@ -33,7 +33,7 @@ We assume you already know your way around the Teams admin center, and you are f
 
 Contoso has three locations:
 
-- **Seattle Headquarters:** The main location for Contoso. It has 1000 employees and 25 of them are calling only. The site is connected to the internet, and there is a local telephone connection (PSTN). Contoso has Direct Routing set up to be able to use the local telephone connection with Teams.
+- **Seattle Headquarters:** The main location for Contoso. It has 1000 employees and 25 of them are calling only. The site is connected to the internet, and there's a local telephone connection (PSTN). Contoso has Direct Routing set up to be able to use the local telephone connection with Teams.
 - **Kirkland Office:** This branch office has 400 employees and 10 are calling only. The site uses its connection to the headquarters for both internet and phone (PSTN) traffic. This office is connected to the Seattle headquarters using a WAN connection.
 - **Denver Office:** This office has 250 employees and 50 are calling only. The site has its own local internet connection, but has no direct telephone connection (PSTN).
 
@@ -88,8 +88,8 @@ Now, you need to add the three sites to your network plan. The following table s
 ![New site egress settings.](media/network-planner-add-network-site-link-capacity.png)
 
 5. Select **Save** to complete adding the Seattle HQ site.
-6. Create the Denver site using the same process. WAN should not be enabled.
-7. Since the Kirkland site leverages the connection to Seattle HQ for both internet and PSTN connectivity, it is considered a remote site. When creating the Kirkland site, you need to specify that it is connected to WAN and select *Remote* for both **Internet egress** and **PSTN egress**.
+6. Create the Denver site using the same process. WAN shouldn't be enabled.
+7. Since the Kirkland site leverages the connection to Seattle HQ for both internet and PSTN connectivity, it's considered to be a remote site. When creating the Kirkland site, you need to specify that it's connected to WAN and select *Remote* for both **Internet egress** and **PSTN egress**.
 
 ![Remote site egress settings](media/network-planner-add-remote-site-egress-kirkland.png)
 

@@ -1927,7 +1927,7 @@ items:
           href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps submitted using API
           href: submit-approve-custom-apps.md
-        - name: Manage custom apps created using Power Platform
+        - name: Manage shared agents
           href: manage-power-platform-apps.md
 
     - name: Admin controls to govern apps

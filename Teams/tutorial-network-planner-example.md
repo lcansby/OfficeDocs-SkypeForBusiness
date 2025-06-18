@@ -111,7 +111,7 @@ Once you generate the report, you see a screen displaying your bandwidth require
 
 ![Report analysis](media/network-planner-contoso-report-output.png)
 
-Network planner also gives you recommendations based on the projected impact of Teams on your network. Select the recommendation view icon to see recommendations for each site, if there are any. The image below shows a sample recommendation view.
+Network planner also gives you recommendations based on the projected impact of Teams on your network. Select the recommendation view icon to see recommendations for each site, if there are any. The following image shows a sample recommendation view.
 
 ![Recommendation view](media/network-planner-recommendation-view.png)
 

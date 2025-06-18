@@ -409,7 +409,7 @@ $filter=from/application/applicationIdentityType eq '<appType>' or from/user/id 
 These parameters can be combined between them using the OR operators as well as by combining with the `lastModifiedDateTime` `$filter` parameter.
 
 ## Teams Export APIs for Retained Messages
-If [your tenant is setup with Teams Retention Policy](/purview/create-retention-policies?tabs=teams-retention), Export API supports capturing messages' from holds folder for [individual & group chat](/graph/api/chat-getallretainedmessages&preserve-view=true), and [posts, comments in Public & Shared channels](/graph/api/channel-getallretainedmessages&preserve-view=true).
+If [your tenant is setup with Teams Retention Policy](/purview/create-retention-policies?tabs=teams-retention), Export API supports capturing messages' from holds folder for [individual & group chat](/graph/api/chat-getallretainedmessages), and [posts, comments in Public & Shared channels](/graph/api/channel-getallretainedmessages).
 
 ## How to access Retained Messages API
 

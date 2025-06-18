@@ -10,7 +10,6 @@ ms.service: msteams
 audience: admin
 ms.collection: 
 - M365-collaboration
-ms.reviewer: sburkman
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -121,6 +120,6 @@ Here, you can see that currently the Kirkland site's bandwidth needs to be incre
 
 The example scenario for Network Planner is complete. You can [go back to the Network Planner article](network-planner.md), or check out the following resources for more information on getting your organization ready for Teams:
 
-     - [Prepare your organization's network for Microsoft Teams](prepare-network.md)
-     - [Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
-     - [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges)
+- [Prepare your organization's network for Microsoft Teams](prepare-network.md)
+- [Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
+- [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges)

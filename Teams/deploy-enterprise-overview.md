@@ -67,7 +67,7 @@ To help you with your planning, Teams includes the Network planner. The Network 
 
 For details about how the Network planner works, see [Use the Network planner for Microsoft Teams](network-planner.md).
 
-To see an example of how Network planner can plan your network, see [Using Network Planner - example scenario](tutorial-network-planner-example.yml).
+To see an example of how Network planner can plan your network, see [Using Network Planner - example scenario](tutorial-network-planner-example.md).
 
 ## Teams advisor
 

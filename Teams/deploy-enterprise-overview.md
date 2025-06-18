@@ -85,9 +85,9 @@ For details about how the Teams advisor works, see [Use Advisor for Teams to hel
 
 ## Lifecycle and governance planning
 
-As you plan your Teams deployment, you need to consider the lifecycle of teams, channels, files, and so on, in your organization. You should also think about what types of information will be stored in them. Teams may be created for a specific project, for a department, or they might be used as a central resource for the entire organization. Each of these uses has different requirements, which drive questions like:
+As you plan your Teams deployment, you need to consider the lifecycle of teams, channels, files, and so on, in your organization. You should also think about what types of information to be stored in them. Teams may be created for a specific project, for a department, or they might be used as a central resource for the entire organization. Each of these uses has different requirements, which drive questions like:
 
-- How long will the teams remain active?
+- How long a teams environment could remain active?
 - Who should own and manage the teams and their channels?
 - Should certain compliance requirements apply to some teams, but not others?
 - Should there be a naming policy to help users identify the right team?

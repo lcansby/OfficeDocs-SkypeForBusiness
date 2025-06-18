@@ -13,7 +13,7 @@ ms.collection:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: This example scenario shows you how to use the Network Planner tool to create sites and personas and run reports, including local and remote sites with Public Switched Telephone Network (PSTN).
+description: This example scenario shows you how to use the Network Planner tool to create sites and personas and run reports. The example includes local and remote sites with Public Switched Telephone Network (PSTN).
 ms.localizationpriority: medium
 ---
 

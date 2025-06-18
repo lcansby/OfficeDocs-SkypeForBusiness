@@ -32,7 +32,7 @@ We assume you already know your way around the Teams admin center, and you're fa
 
 Contoso has three locations:
 
-- **Seattle Headquarters:** The main location for Contoso. It has 1,000 employees and 25 of them are calling only. The site is connected to the internet, and there's a local telephone connection (PSTN). Contoso has Direct Routing set up to be able to use the local telephone connection with Teams.
+- **Seattle Headquarters:** The main location for Contoso. It has 1,000 employees and 25 of them are calling only. The site is connected to the internet, and there's a local telephone connection (public switched telephone network, or PSTN). Contoso has Direct Routing set up to be able to use the local telephone connection with Teams.
 - **Kirkland Office:** This branch office has 400 employees and 10 are calling only. The site uses its connection to the headquarters for both internet and phone (PSTN) traffic. This office is connected to the Seattle headquarters using a WAN connection.
 - **Denver Office:** This office has 250 employees and 50 are calling only. The site has its own local internet connection, but has no direct telephone connection (PSTN).
 

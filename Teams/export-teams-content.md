@@ -57,7 +57,7 @@ Here are some examples on how you can use these export APIs:
 - **Chat Message Properties:** Refer to the [complete list of properties that Teams Export APIs support](/graph/api/resources/chatmessage#properties).
 - **Control Messages:** Export API supports capturing control messages in addition to the user generated messages. Control Messages are system generated messages that appear on the Teams client and carry important information such as "User A added User B to the chat and shared all chat history" along with the timestamp. System messages enable the caller to have insights about events that happened in a team, a channel, or a chat. Refer to [the list of control messages](/graph/system-messages#supported-system-message-events) that Export API currently supports.
 
-Learn more about exporting messages in [chat](/graph/api/chats-getallmessages?view=graph-rest-1.0&tabs=http) and [channel](/graph/api/channel-getallmessages?view=graph-rest-1.0&tabs=http).
+Learn more about exporting messages in [chat](/graph/api/chats-getallmessages?view=graph-rest-1.0&preserve-view=true) and [channel](/graph/api/channel-getallmessages?view=graph-rest-1.0&preserve-view=true).
 
 > [!NOTE]
 > Meeting related control messages are currently not supported by Export API.
@@ -66,15 +66,15 @@ Learn more about exporting messages in [chat](/graph/api/chats-getallmessages?vi
 
    To learn more about Teams retention policy, see the [Manage retention policies for Microsoft Teams](/microsoftteams/retention-policies) for further details.
 
-   Learn more about exporting edited history messages in [chats](/graph/api/chat-getallretainedmessages?view=graph-rest-1.0&tabs=http) and [channels](/graph/api/channel-getallmessages?view=graph-rest-1.0&tabs=http).
+   Learn more about exporting edited history messages in [chats](/graph/api/chat-getallretainedmessages?view=graph-rest-1.0&preserve-view=true) and [channels](/graph/api/channel-getallmessages?view=graph-rest-1.0&preserve-view=true).
 
 - **Meeting Transcripts:** Get all transcripts from scheduled online meeting instances for which the specified user is the organizer. This API currently only supports private scheduled meetings.
 
-Learn more about [exporting meeting transcripts](/graph/api/onlinemeeting-getalltranscripts?view=graph-rest-1.0&tabs=http).
+Learn more about [exporting meeting transcripts](/graph/api/onlinemeeting-getalltranscripts?view=graph-rest-1.0&preserve-view=true).
 
 - **Meeting Recordings:** Get all recordings from scheduled online meeting instances for which the specified user is the organizer. This API currently only supports private scheduled meetings.
 
-Learn more about [exporting meeting recordings.](/graph/api/onlinemeeting-getallrecordings?view=graph-rest-beta&tabs=http).
+Learn more about [exporting meeting recordings](/graph/api/onlinemeeting-getallrecordings?view=graph-rest-beta&preserve-view=true).
 
 ## How to access Teams Export APIs
 
@@ -409,7 +409,7 @@ $filter=from/application/applicationIdentityType eq '<appType>' or from/user/id 
 These parameters can be combined between them using the OR operators as well as by combining with the `lastModifiedDateTime` `$filter` parameter.
 
 ## Teams Export APIs for Retained Messages
-If [your tenant is setup with Teams Retention Policy](/purview/create-retention-policies?tabs=teams-retention), Export API supports capturing messages' from holds folder for [individual & group chat](/graph/api/chat-getallretainedmessages), and [posts, comments in Public & Shared channels](/graph/api/channel-getallretainedmessages).
+If [your tenant is setup with Teams Retention Policy](/purview/create-retention-policies?tabs=teams-retention), Export API supports capturing messages' from holds folder for [individual & group chat](/graph/api/chat-getallretainedmessages&preserve-view=true), and [posts, comments in Public & Shared channels](/graph/api/channel-getallretainedmessages&preserve-view=true).
 
 ## How to access Retained Messages API
 
@@ -437,7 +437,7 @@ If [your tenant is setup with Teams Retention Policy](/purview/create-retention-
 
 The new Copilot Activity Export API allows you to export Copilot interactions data which includes the user prompt to Copilot and the Copilot response back to the user. This API captures the user intent and Copilot accessed resources and the response back to the user across Microsoft 365 Copilot apps such as Teams, Word and Outlook. 
 
-Learn more about the[ Copilot Interactions Export API](/graph/api/aiinteractionhistory-getallenterpriseinteractions?view=graph-rest-beta&tabs=http).
+Learn more about the[ Copilot Interactions Export API](/graph/api/aiinteractionhistory-getallenterpriseinteractions?view=graph-rest-beta&preserve-view=true).
 
 ## How to access Copilot Activity Export APIs (Preview)
 

@@ -48,7 +48,7 @@ In the Teams admin center, expand **Org-wide settings** and then select **Networ
 
 ![Add a new network plan.](media/network-planner-new-network-plan.png)
 
-After you save your network plan, it's displayed in your network plans list.
+After you save your network plan, it displays in your network plans list.
 
 ![List of network plans.](media/network-planner-network-plans.png)
 
@@ -88,7 +88,7 @@ Now, you need to add the three sites to your network plan. The following table s
 
 5. Select **Save** to complete adding the Seattle HQ site.
 6. Create the Denver site using the same process. WAN shouldn't be enabled.
-7. Since the Kirkland site uses the connection to Seattle HQ for both internet and PSTN connectivity, it's considered to be a remote site. When creating the Kirkland site, you need to specify that it's connected to WAN and select *Remote* for both **Internet egress** and **PSTN egress**.
+7. Since the Kirkland site uses the connection to Seattle HQ for both internet and PSTN connectivity, we considered it to be a remote site. When creating the Kirkland site, you need to specify that it's connected to WAN and select *Remote* for both **Internet egress** and **PSTN egress**.
 
 ![Remote site egress settings](media/network-planner-add-remote-site-egress-kirkland.png)
 

@@ -25,7 +25,7 @@ f1keywords:
 
 This article explains how to enroll Teams Rooms devices to the Pro Management Portal. The Pro Management Portal supports Teams Rooms on Windows, Teams Rooms on Android, and Teams panel devices.
 
-For Teams Rooms on Windows devices, the Teams Rooms Pro Management agent is automatically downloaded and installed at device setup. For Teams Rooms on Android devices or Teams panels, the admin agent included on the device will automatically connect to the Pro Management Portal. Devices once signed into Teams will automatically enroll and appear in the Teams Rooms Pro Management Portal. 
+For Teams Rooms on Windows devices, the Teams Rooms Pro Management agent is automatically downloaded and installed at device setup. For Teams Rooms on Android devices or Teams panels, the admin agent included on the device automatically connects to the Pro Management Portal. Devices once signed into Teams automatically enrolls and appears in the Teams Rooms Pro Management Portal. 
 
 ## Prerequisites
 
@@ -33,7 +33,7 @@ Follow these procedures to set up your environment or device prior to attempting
 
 ### Network security
 
-Ensure the required URLs listed in [Teams Rooms - Network Security](security.md?tabs=Windows#network-security) are allowed on your network. For GCC-High customers, please also add these two URLs:
+Ensure the required URLs listed in [Teams Rooms - Network Security](security.md?tabs=Windows#network-security) are allowed on your network. For GCC-High customers, also add these two URLs:
 - mmrgcchiot.azure-devices.us
 - mmrgcchstor.blob.core.usgovcloudapi.net
 
@@ -45,7 +45,7 @@ Ensure the required URLs listed in [Teams Rooms - Network Security](security.md?
 Review proxy requirements and configuration steps for your Teams Rooms devices in [Prepare your environment for Teams devices](rooms-prep.md#pro-management-agent-proxy).
 
 >[!IMPORTANT]
->Teams Rooms devices automatically include the Pro Management Portal agent and do not require manual installation. These steps are here for troubleshooting purposes only.
+>Teams Rooms devices automatically include the Pro Management Portal agent and don't require manual installation. These steps are here for troubleshooting purposes only.
 
 ## Manual Teams Rooms on Windows enrollment process
 
@@ -62,7 +62,7 @@ The enrollment process involves these steps:
 
 After downloading the installer, unzip its contents to access the file **ManagedRoomsInstaller.msi**.
 
-There are two modes of installation: 1) individual local machine install and 2) mass deploy mode (usually via Intune). We recommend individual install for non-domain joined machines or for machines that you have no way of running MSI installers remotely.
+There are two modes of installation: 1) individual local machine install and 2) mass deploy mode (usually via Intune). We recommend individual install for nondomain joined machines or for machines that you have no way of running MSI installers remotely.
 
 #### Individual device installation
 
@@ -81,7 +81,7 @@ There are two modes of installation: 1) individual local machine install and 2) 
     The installation continues. During the installation procedure, a console window opens and begins the final stage of the Microsoft Teams Rooms Pro monitoring software installation.
 
     > [!NOTE]
-    > Do not close the window. Once the installation is complete, the wizard displays a "Finish" button.
+    > Don't close the window. Once the installation is complete, the wizard displays a "Finish" button.
 
 #### Intune-enrolled device bulk deployment
 
@@ -89,7 +89,7 @@ The following components are prerequisites for successful installation:
 
 - **Intune enrollment**: Teams Rooms on Windows devices must be already enrolled in Intune.
   For more information about how to enroll Teams Rooms on Windows devices in Intune, see [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
-- **Microsoft Entra group with all Teams Rooms on Windows devices as members** – a group created in Microsoft Entra ID that includes all Teams Rooms on Windows devices that should be part of the Microsoft Teams Rooms Premium service. This group will be used for targeting the deployment of the MTR Pro agent.
+- **Microsoft Entra group with all Teams Rooms on Windows devices as members** – a group created in Microsoft Entra ID that includes all Teams Rooms on Windows devices that should be part of the Microsoft Teams Rooms Premium service. This group is used for targeting the deployment of the MTR Pro agent.
   
 > [!NOTE]
 > You may consider using Dynamic groups in Microsoft Entra ID for this purpose, more information at [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
@@ -117,7 +117,7 @@ The following components are prerequisites for successful installation:
    1. In the **Select group** pane, type the group name in the Search box (refer to prerequisites above) and click on the desired **group** and click **Select**.
       For more information, see [Add groups to organize users and devices](https://go.microsoft.com/fwlink/?linkid=2202166) and [Assign apps to groups with Microsoft Intune](https://go.microsoft.com/fwlink/?linkid=2202270).
 1. Click **Next** to display the **Review + create** page.
-1. Review the values and settings you entered for the app. When you are done, click **Create** to add the app to Intune.
+1. Review the values and settings you entered for the app. When you're done, click **Create** to add the app to Intune.
 
 Once the process is completed, your devices will start installing the MTR Pro agent after a few minutes.
 
@@ -131,7 +131,7 @@ To unenroll the device, remove the monitoring agent from the Teams Rooms device 
 1. On the device being monitored, log in the device as administrator. Be sure to follow the steps in *Performing operations as the Admin user of the device*.
 1. Download reset script from [aka.ms/MTRPDeviceOffBoarding](https://aka.ms/MTRPDeviceOffBoarding).
 1. Extract the script somewhere on the device and copy the path.
-1. Open PowerShell as administrator: In the Windows ***Search*** field (bottom-left section of the screen), enter 'Powershell' and right-click ***Windows PowerShell***.
+1. Open PowerShell as administrator: In the Windows ***Search*** field (bottom-left section of the screen), enter 'PowerShell' and right-click ***Windows PowerShell***.
 1. Select *"Run as Administrator"* and accept UAC prompt.
 1. Enter *Set-ExecutionPolicy –ExecutionPolicy RemoteSigned* , then press **Y** on next prompt.
 1. Paste or type the full path to the unzipped offboarding script into the PowerShell window and press **Enter**.
@@ -163,4 +163,4 @@ C:\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-x.
 |||
 |You receive an error message: </p><p> ***ERROR: Local user account named 'Admin' or 'Skype' not found***|Ensure that the user accounts exist on the certified Microsoft Teams Rooms systems device.|
 |||
-|You receive any error state messages that are not covered above.|Provide a copy of your installation log to your Microsoft Teams System support agent.|
+|You receive any error state messages that aren't covered here.|Provide a copy of your installation log to your Microsoft Teams System support agent.|

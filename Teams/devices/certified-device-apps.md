@@ -91,9 +91,9 @@ The following are supported versions of the Intune app:
 
 **This release is currently available for all Teams certified devices and contains following updates:** 
 
-- • Telemetry improvements for more efficient investigations
+- Telemetry improvements for more efficient investigations
 
-• Customers using Conditional Access policies should first deploy the updated AOSP Agent to a small group of devices and confirm Conditional Access continues to work as expected, before deploying the updated AOSP Agent to your entire device fleet.
+  Customers using Conditional Access policies should first deploy the updated AOSP Agent to a small group of devices and confirm Conditional Access continues to work as expected, before deploying the updated AOSP Agent to your entire device fleet.
 
 ## [Microsoft Authenticator](#tab/Authenticator)
 

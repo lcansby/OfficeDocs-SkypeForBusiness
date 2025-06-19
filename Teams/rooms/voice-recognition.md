@@ -85,7 +85,7 @@ To enable speaker recognition for your employees, you can set up a voice profile
 > We have extended intelligent Speakers to work with all certified microphones. You can try this out for Teams Rooms with version 5.0.111.0 or later.
 
 > [!NOTE]
-> -  Speaker and face identification features are supported only when the meeting organizer’s mailbox is in Exchange Online. They are not supported for on-premises Exchange or third-party calendars (e.g., Google Calendar).
+> -  Speaker and face identification features are supported only when the meeting organizer’s mailbox is in Exchange Online. They are not supported for on-premises Exchange or third-party calendars (for example, Google Calendar).
 > - Hybrid deployments are supported only if Teams can access the organizer’s calendar in the cloud. BYOD scenarios are not supported for identification features.
 > 
 ## Enable an Intelligent Speaker user recognition

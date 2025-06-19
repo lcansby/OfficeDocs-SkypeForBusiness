@@ -51,7 +51,7 @@ Review proxy requirements and configuration steps for your Teams Rooms devices i
 
 The enrollment process involves these steps:
 
-1. On the left navigation bar of the Microsoft Teams Rooms Pro Management portal [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/), expand **Settings** and select **General**.
+1. On the left navigation bar of the Microsoft Teams Rooms Pro Management portal [Commercial & GCC: http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/) or [GCC-High: http://devices.gov.teams.microsoft.us](http://devices.gov.teams.microsoft.us), expand **Settings** and select **General**.
 1. Under *Enroll a room*, select **Download installer** to download the monitoring agent software.
 1. Install the agent using the installer downloaded in step 2. This can be done either by running the MSI locally or via Intune. 
 1. The room appears in the portal within 5-10 minutes.

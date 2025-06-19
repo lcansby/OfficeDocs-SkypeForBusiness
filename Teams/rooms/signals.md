@@ -23,7 +23,7 @@ description: This article shows you the health signals that are available, not a
 
 # Health signals
 
-The Pro Mangement Portal monitors your Teams devices through granular signals, which are telemetry-based monitors for components that are important to the function of Teams devices. Each signal is used to proactively detect issues, trigger alerts, and support automated ticketing and remediation workflows.
+The Pro Management Portal monitors your Teams devices through granular signals, which are telemetry-based monitors for components that are important to the function of Teams devices. Each signal is used to proactively detect issues, trigger alerts, and support automated ticketing and remediation workflows.
 
 The health of a meeting room is determined by signals that monitor important functions of the device.  When a signal activates and is marked as unhealthy, an [incident ](/microsoftteams/rooms/managed-meeting-rooms-portal)is generated with a unique incident ID. This is the tracking number for a specific issue associated with a particular signal. Your organization can have different preferences or needs for your environment. To help focus on the signals that are important to you, it is possible to suppress specific signals for individual rooms. Additionally, you can enable or disable signals for all rooms through the [signal settings](/microsoftteams/rooms/signal-settings) page.
 

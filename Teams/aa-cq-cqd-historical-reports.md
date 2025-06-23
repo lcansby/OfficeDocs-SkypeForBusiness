@@ -315,10 +315,9 @@ You have to refresh the report to see any new data.
 5. The report tab names are in English only.
 6. The documentation link uses the language set in your browser which may be different than than the language selected for the report.
 7. Customer provided information is not localized.
+8. The legend on the **Call Queue - Call Volume, Abandoned Calls and Agent Opt-in Count** visual is in English only.
    
 Issues 2-6 are limitations of file naming conventions, the splash screen in Power BI, and how browsers work. These issues won't be addressed.
-
-8. The legend on the **Call Queue - Call Volume, Abandoned Calls and Agent Opt-in Count** visual is in English only.
 
 ## Auto attendant and Call queue historical reports field definitions
 

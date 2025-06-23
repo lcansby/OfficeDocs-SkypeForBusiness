@@ -2,8 +2,8 @@
 title: Export content with Copilot
 author: MicrosoftHeidi
 ms.author: heidip
-manager: jtremper
-ms.topic: reference
+manager: dansimp
+ms.topic: article
 audience: admin
 ms.service: msteams
 ms.date: 06/04/2025

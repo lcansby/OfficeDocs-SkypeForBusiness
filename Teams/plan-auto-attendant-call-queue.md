@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 1/29/2025
+ms.date: 06/23/2025
 ms.topic: concept-article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
@@ -261,9 +261,9 @@ See the following articles for information on how to create Auto attendants and 
 > 
 > The Auto attendant and Call queue configurations aren't synchronized with Azure AD lifecycle events. Teams administrators need to manually update Auto attendant and Call queue configurations to remove this personal data when a user included in the configuration leaves the organization.
 >
-> This doesn't apply to Call queue agent memberships that are configured via distribution lists or channels. It also doesn't apply to users who are reached through the **Dial by Name** or **Dial by Number** feature of Auto attendants.
+> A user's Azure AD GUID token isn't stored as part of Call queue agent memberships that are configured via distribution lists or channels. This token storage also doesn't apply to users who are reached through the **Dial by Name** or **Dial by Number** feature of Auto attendants.
 
-If you need more extensive capabilities, such as integration with workflows, bots, and SMS (Short Message Service), consider [Azure Communication Services](/azure/communication-services/overview).
+If you need more extensive capabilities, such as integration with workflows or bots, consider [Azure Communication Services](/azure/communication-services/overview). For Short Message Service (SMS) in Teams, see [Plan for SMS in Teams with Microsoft Calling Plan numbers](sms-overview.md).
 
 ## Alternate provisioning tools
 

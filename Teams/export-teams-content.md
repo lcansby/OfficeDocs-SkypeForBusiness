@@ -118,7 +118,7 @@ Learn more about [exporting meeting recordings](/graph/api/onlinemeeting-getallr
   ```
 
 > [!NOTE]
-> The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink isn't present or null, then all messages are retrieved.
+> The API returns response with next page link if there are multiple results. For getting next set of results, call GET on the url from @odata.nextlink. If @odata.nextlink isn't present or null, then all messages are retrieved.
 
 > [!NOTE]
 > The order of messages in the response isn't guaranteed to be sorted by any datetime, such as createdDateTime or lastModifiedDateTime.

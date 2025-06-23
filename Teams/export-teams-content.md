@@ -34,7 +34,7 @@ Here are some examples on how you can use these export APIs:
 
 - **Example 4**: If you want to programmatically export the links to Teams meeting transcripts for a given meeting organizer and then download the actual transcripts.
 
-## What is supported by the Teams Export APIs?
+## What's supported by the Teams Export APIs?
 
 - **Bulk Export of Teams Message:** Refer to [Teams Export APIs throttling limits](/graph/throttling-limits). With these limits, you should be able to bulk export Teams messages. 
 - **Top Limit for Teams Message:** The TOP filter limit for Teams Message APIs is recommended to be set at 250 as the maximum limit beyond which the performance would be limited.

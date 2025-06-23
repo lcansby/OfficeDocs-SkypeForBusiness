@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 11/22/2024
+ms.date: 06/23/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -39,7 +39,7 @@ The Teams Auto Attendant & Call Queue Historical Report Power BI template provid
 ## V3.2.1 published on June 23, 2025
 
 What's new in this release:
-- Resolved the issue associated with an authorized user having the **Historical Call Queue Metrics** permission set to **All** and the report reverting back to reporting by Resource account. Authorized users will now see the report by Auto Attenand and Call Queue name at all times.
+- Resolved the issue associated with an authorized user having the **Historical Call Queue Metrics** permission set to **All** and the report reverting back to reporting by Resource account. Authorized users can now see the report by Auto Attendant and Call Queue name at all times.
 - Resolved the issue associated with the Call Overflow/Timeout/No Agent Destinations that resulted in calls not being counted when a Voice App was the routing destination 
 - Resolved the issue on the Agent Timeline tooltip report that resulted in showing all calls for the agent instead of only the calls within the selected date range.
 - Resolved the issue on the Agent Timeline report that resulted in showing the individual calls for the agent instead of the sum of calls for the agent.
@@ -227,7 +227,7 @@ You have to refresh the report to see any new data.
 1. Only the calls and caller actions in the first Call queue that answers the call are reported on. Calls in chained Call queues (when one Call queue transfers to another Call queue) aren't reported on.
 1. Only 28 days of call history are available. Call queue data is considered personal data and is subject to data privacy retention policies.
 1. The Date selector sometimes shows dates outside the range of available data resulting in a blank report. Change the dates to be within the last 28 days to resolve the issue.
-1. Admins will see nested Call queues that don't have resource accounts assigned to them reported against the resource account that transferred the call.
+1. Admins see nested Call queues that don't have resource accounts assigned to them reported against the resource account that transferred the call.
 
 ### Cloud Call Queue Agent Timeline report
 
@@ -263,7 +263,7 @@ You have to refresh the report to see any new data.
 1. In some scenarios, the agent answered call count might be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
 1. When an agent answers a call in a different call queue due to redirection through Call Overflow exception handling, the call is counted in the original call queue where the exception occurred instead of the one they answered the call in.
 1. Callback calls handled by agents aren't captured resulting in a discrepancy between the number of calls answered on the Call Queue report and the Agent Timeline report.
-1. Admins will see nested Call queues that don't have resource accounts assigned to them reported against the resource account that transferred the call.
+1. Admins see nested Call queues that don't have resource accounts assigned to them reported against the resource account that transferred the call.
 
 ## Localization
 
@@ -316,9 +316,9 @@ You have to refresh the report to see any new data.
 6. The documentation link uses the language set in your browser which may be different than than the language selected for the report.
 7. Customer provided information is not localized.
    
-Issues 2-6 are limitations of file naming conventions, the splash screen in Power BI, and how browsers work. These issues will not be addressed.
+Issues 2-6 are limitations of file naming conventions, the splash screen in Power BI, and how browsers work. These issues won't be addressed.
 
-7. The legend on the **Call Queue - Call Volume, Abandoned Calls and Agent Opt-in Count** visual is in English only.
+8. The legend on the **Call Queue - Call Volume, Abandoned Calls and Agent Opt-in Count** visual is in English only.
 
 ## Auto attendant and Call queue historical reports field definitions
 

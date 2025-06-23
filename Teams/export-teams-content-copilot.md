@@ -22,7 +22,7 @@ appliesto:
 
 # Microsoft 365 Copilot Interactions & Microsoft 365 Chat
 
-The Copilot Activity Export API allows you to export Copilot interactions data which includes the user prompt to Copilot and the Copilot response back to the user. This API captures the user intent and Copilot accessed resources and the response back to the user across Microsoft 365 Copilot apps such as Teams, Word and Outlook.
+The Copilot Activity Export API allows you to export Copilot interactions data, which includes the user prompt to Copilot and the Copilot response back to the user. This API captures the user intent and Copilot accessed resources and the response back to the user across Microsoft 365 Copilot apps such as Teams, Word, and Outlook.
 
 ## How to access Copilot Activity Export APIs
 
@@ -38,6 +38,6 @@ The Copilot Activity Export API allows you to export Copilot interactions data w
   ```
 ## Prerequisites to access Copilot Activity Export APIs
 
-Application permissions are used by apps that run without a signed-in user present; application permissions can only be approved by an administrator. The following permissions are needed:
+Application permissions are used by apps that run without a signed-in user present. Only an administrator can approve application permissions. The following permissions are needed:
 - *AiEnterpriseInteraction.Read.All*: enables access to all copilot interactions across Microsoft 365 apps and Microsoft 365 Chat
 - A **Microsoft 365 Copilot license** is required for accessing the new Copilot Activity Export API.

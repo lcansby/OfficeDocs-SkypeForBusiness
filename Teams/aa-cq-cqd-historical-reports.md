@@ -98,7 +98,7 @@ Use one of the following methods to control access to the historical reports:
   For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
   > [!NOTE]
-  > If a user is assigned a CQD access role and a voice applications policy, the CQD role takes precedence and the user can see all the Auto attendants, Call queues, and Agents in the tenant.
+  > If a user is assigned to a CQD access role and a voice applications policy, the CQD role takes precedence and the user can see all the Auto attendants, Call queues, and Agents in the tenant.
 
 ## V3.x.x desktop installation
 
@@ -134,7 +134,7 @@ Perform the following steps:
      
    :::image type="content" source="media/aa-cq-historical-report-02-v320.png" alt-text="Screenshot showing data sources for v3.2.x":::
 
-6. Do the following for each of the two data sources shown:
+6. Do the following steps for each of the two data sources shown:
    - Select the data source.
    - Select **Edit Permissions**, and then **Edit**.
    - Select **Organizational account** and then **Sign in** (or **Sign in as different user**).
@@ -151,7 +151,7 @@ Depending on your Power BI Desktop settings, the following pop-up may also appea
 
 :::image type="content" source="media/aa-cq-historical-report-06.png" alt-text="Screenshot showing data privacy screen":::
 
-Enable the *Ignore Privacy Levels* checkbox. All the data is coming from the historical report database and there is no undesirable data transfer taking place.
+Enable the *Ignore Privacy Levels* checkbox. All the data is coming from the historical report database and there's no undesirable data transfer taking place.
 
 ## Data latency for Auto attendant and Call queue analytics
 
@@ -193,7 +193,7 @@ You have to refresh the report to see any new data.
 1. Only the calls and caller actions in the first Auto attendant that answers the call are reported on. Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant) aren't reported on.
 1. Only 28 days of call history are available. Auto attendant data is considered personal data and is subject to data privacy retention policies.
 1. The Date selector sometimes shows dates outside the range of available data resulting in a blank report. Change the dates to be within the last 28 days to resolve the issue.
-1. Admins will see nested Auto attendants that don't have resource accounts assigned to them reported by the Auto attendant GUID rather than the Resource account username.
+1. Admins see nested Auto attendants that don't have resource accounts assigned to them reported by the Auto attendant GUID rather than the Resource account username.
 
 ### Cloud Call Queue Analytics report
 
@@ -262,7 +262,7 @@ You have to refresh the report to see any new data.
 1. The Date selector sometimes shows dates outside the range of available data resulting in a blank report. Change the dates to be within the last 28 days to resolve the issue.
 1. In some scenarios, the agent answered call count might be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
 1. When an agent answers a call in a different call queue due to redirection through Call Overflow exception handling, the call is counted in the original call queue where the exception occurred instead of the one they answered the call in.
-1. Callback calls handled by agents aren't captured resulting in a discrepancy between the number of calls answered on the Call Queue report and the Agent Timeline report.
+1. Callback calls handled by agents aren't captured, which results in a discrepancy between the number of calls answered on the Call Queue report and the Agent Timeline report.
 1. Admins see nested Call queues that don't have resource accounts assigned to them reported against the resource account that transferred the call.
 
 ## Localization
@@ -307,14 +307,14 @@ You have to refresh the report to see any new data.
       -	Application Language
         - Default set to "Use Windows default display language"
         - Select the desired language from the drop down
-          - Note: The list of languages shown here may be different than those available for the report template.
+          - Note: The list of languages shown here may be different than languages available for the report template.
 
 2. The name of the zip file and the actual report template files are in English only.
 3. The splash screen shows the filename (see #2) and the words "Language" and "UTC Offset" in English only.
 4. The refresh screen shows the table names in English only.
 5. The report tab names are in English only.
-6. The documentation link uses the language set in your browser which may be different than than the language selected for the report.
-7. Customer provided information is not localized.
+6. The documentation link uses the language set in your browser, which may be different than than the language selected for the report.
+7. Customer provided information isn't localized.
 8. The legend on the **Call Queue - Call Volume, Abandoned Calls and Agent Opt-in Count** visual is in English only.
    
 Issues 2-6 are limitations of file naming conventions, the splash screen in Power BI, and how browsers work. These issues won't be addressed.

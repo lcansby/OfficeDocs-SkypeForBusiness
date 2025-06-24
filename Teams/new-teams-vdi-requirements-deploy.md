@@ -721,4 +721,3 @@ The following features aren't supported in either classic Teams or new Teams whe
 - The call monitor (the small floating window after you minimize the main Teams window) doesn't display video or screen share.
 - Teams calls drop on a local machine that has an HID peripheral connected if a user launches a virtual desktop from that local machine and logs into Teams (Azure Virtual Desktop/W365 and VMware only).
 - Organizers and presenters can't join town halls.
-

@@ -48,7 +48,8 @@ The following are supported versions of Teams admin agent app:
 |**Release date**|**App version**|**Related devices**|
 |:-----|:-----|:-----|
 |October 1, 2024|[1.0.0.202407050618.product](#100202407050618)|All certified Teams device models |
-|February 10, 2025|[1.0.0.202412110504.product](#100202012110504)|All certified Teams device models|
+|February 10, 2025|[1.0.0.202412110504.product](#100202412110504)|All certified Teams device models|
+|May 19, 2025|[1.0.0.202505080136.product](#100202505080136) (Hotfix)|All certified Teams device models (except Logitech devices)|
 
 ### 1.0.0.202407050618
 
@@ -60,7 +61,7 @@ The following are supported versions of Teams admin agent app:
 
 - Bug fixes to improve admin agent overall update reliability.
 
-### 1.0.0.202012110504
+### 1.0.0.202412110504
 
 **This release is currently available for all Teams certified devices and contains following updates:**
 
@@ -72,13 +73,27 @@ The following are supported versions of Teams admin agent app:
 
 - Bug fixes to improve admin agent for better management of android devices.
 
+### 1.0.0.202505080136
+
+**This release (hotfix) is currently available for all Teams certified devices (except Logitech devices) and contains following updates:**
+
+- Bug fixes for critical security issue.
+
 ## [Intune](#tab/Intune)
 
 The following are supported versions of the Intune app:
 
 |**Release date**|**App version**|**Related devices**|
 |:-----|:-----|:-----|
-|Coming soon|Coming soon|Coming soon|
+|January, 2025|[25.02.1](#25021)|All certified Teams device models|
+
+### 25.02.1
+
+**This release is currently available for all Teams certified devices and contains following updates:** 
+
+- Telemetry improvements for more efficient investigations
+
+  Customers using Conditional Access policies should first deploy the updated AOSP Agent to a small group of devices and confirm Conditional Access continues to work as expected, before deploying the updated AOSP Agent to your entire device fleet.
 
 ## [Microsoft Authenticator](#tab/Authenticator)
 

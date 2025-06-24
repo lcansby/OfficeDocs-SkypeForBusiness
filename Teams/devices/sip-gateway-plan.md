@@ -58,17 +58,29 @@ Teams users must have a phone number with PSTN calling enabled to use SIP Gatewa
 
 >[!note]
 >SIP Gateway Feature Codes:
+>
+>
 > DND -
 > \*30\* (Set DND From SIP Device)
+>
 > \*31\* (Reset Teams DND Status from SIP Device)
+>
+>
 > Call Forwarding - (https://support.microsoft.com/office/call-forwarding-call-groups-and-simultaneous-ring-in-microsoft-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)
 > \*32\* - Reset Call Forwarding Status
+>
 > \*33\* (Set "Call Forwarded To" Number)
+>
 > \*34\* (Set "Forward on Timeout")
+>
 > \*35\* (Setup Simultaneous Ring)
+>
+>
 > Device Validation -
+>
 > \*55\* - OTP validation from devices provisioned through Teams Admin Center
 > Voicemail -
+>
 > \*99\* - Check voicemail
 
 ### Hardware, software, and licenses
@@ -102,6 +114,11 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |8851<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
 |          |8861<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
 |          |8865<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |8875<sup>1</sup>       |PhoneOS 3.3.1   |PhoneOS 3.3.1  |   |   |
+|          |9841<sup>1</sup>       |PhoneOS 3.3.1   |PhoneOS 3.3.1  |   |   |
+|          |9851<sup>1</sup>       |PhoneOS 3.3.1   |PhoneOS 3.3.1  |   |   |
+|          |9861<sup>1</sup>       |PhoneOS 3.3.1   |PhoneOS 3.3.1  |   |   |
+|          |9871<sup>1</sup>       |PhoneOS 3.3.1   |PhoneOS 3.3.1  |   |   |
 |          |ATA191-MPP<sup>3</sup>       |11.2.2MPP   |11-2-2MPP0101-013  |   |   |
 |          |ATA192-MPP<sup>3</sup>       |11.2.2MPP   |11-2-2MPP0101-013  |   |   |
 |**Poly**  |           |            |           |The device will auto reboot and install the selected firmware.|[Poly Lens Provisioning Guide](https://info.lens.poly.com/docs/category/lens-assisted-provisioning)|
@@ -194,6 +211,7 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |405HDG<sup>1</sup>     |3.2.1      |2.2.16.681 |   |   |
 |          |420HD<sup>1</sup>      |3.2.1      |2.2.16.681 |   |   |
 |          |420HDG<sup>1</sup>     |3.2.1      |2.2.16.681 |   |   |
+|          |425HD<sup>1</sup>      |3.5.1.75   |3.5.1.75   |   |   |
 |          |430HD<sup>1</sup>      |3.2.1      |2.2.16.681 |   |   |
 |          |430HDG<sup>1</sup>     |3.2.1      |2.2.16.681 |   |   |
 |          |440HD<sup>1</sup>      |3.2.1      |2.2.16.681 |   |   |
@@ -214,6 +232,7 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |MP502<sup>3</sup>                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
 |          |MP504<sup>3</sup>                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
 |          |MP508<sup>3</sup>                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
+|          |MP508-FXS-FXO<sup>3</sup>          |7.26A.356.075      |7.27A.356.178  |ATA   | All ports available  |
 |          |MP516<sup>3</sup>                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
 |          |MP524<sup>3</sup>                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
 |          |MP532<sup>3</sup>                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
